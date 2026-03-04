@@ -132,3 +132,7 @@ build
 # Allow env files in this repo (override global ignores)
 !.env
 !.env.*
+
+# Ignore local env files in monorepo root repo
+.env
+.env.*
