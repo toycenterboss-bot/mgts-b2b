@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="ru"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Состояния компонентов | MGTS B2B UI Kit</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="../../assets/fonts/inter/inter.css" rel="stylesheet"/>
+<link href="../../assets/fonts/material-symbols-outlined/material-symbols-outlined.css" rel="stylesheet"/>
+<link href="../../assets/fonts/material-symbols-outlined/material-symbols-outlined.css" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#0f66bd",
+                        "primary-hover": "#1a75d1",
+                        "primary-active": "#0a4d8f",
+                        "background-light": "#f6f7f8",
+                        "background-dark": "#101922",
+                        "border-dark": "#3b4754",
+                        "surface-dark": "#1c2127",
+                        "text-muted": "#9dabb9",
+                        "error": "#e53e3e"
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        /* Custom simulation classes for UI Kit visibility */
+        .simulate-hover-primary {
+            background-color: #1a75d1;
+            box-shadow: 0 0 10px rgba(15, 102, 189, 0.4);
+        }
+        .simulate-active-primary {
+            background-color: #0a4d8f;
+            transform: translateY(1px);
+        }
+        .simulate-focus-primary {
+            outline: 2px solid #0f66bd;
+            outline-offset: 2px;
+        }
+        .simulate-hover-secondary {
+            background-color: rgba(255, 255, 255, 0.05);
+            border-color: #9dabb9;
+        }
+        .simulate-active-secondary {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-white font-display min-h-screen">
+<div class="layout-container flex h-full grow flex-col">
+<!-- Top Navigation Bar -->
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-border-dark px-10 py-3 bg-background-light dark:bg-background-dark">
+<div class="flex items-center gap-4 text-white">
+<div class="size-6 text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-3xl">hub</span>
+</div>
+<h2 class="text-white text-lg font-bold leading-tight tracking-[-0.015em]">MGTS B2B UI Kit</h2>
+</div>
+<div class="flex flex-1 justify-end gap-8">
+<div class="flex items-center gap-9">
+<a class="text-white hover:text-primary transition-colors text-sm font-medium leading-normal" href="#">Компоненты</a>
+<a class="text-white hover:text-primary transition-colors text-sm font-medium leading-normal" href="#">Стили</a>
+<a class="text-white hover:text-primary transition-colors text-sm font-medium leading-normal" href="#">Документация</a>
+</div>
+<button class="flex min-w-[84px] cursor-pointer items-center justify-center rounded-lg h-10 px-4 bg-primary hover:bg-primary-hover text-white text-sm font-bold transition-all">
+<span>Войти</span>
+</button>
+</div>
+</header>
+<main class="flex-1 px-4 md:px-20 lg:px-40 py-10 max-w-[1440px] mx-auto w-full">
+<!-- Page Heading -->
+<div class="flex flex-col gap-3 mb-12">
+<p class="text-white text-4xl font-black leading-tight tracking-[-0.033em]">Состояния компонентов</p>
+<p class="text-text-muted text-lg font-normal leading-normal max-w-2xl">
+                    Интерактивные состояния основных элементов интерфейса системы MGTS B2B. 
+                    Все компоненты построены на сетке 8pt и используют шрифтовую систему Inter.
+                </p>
+</div>
+<!-- Buttons Section -->
+<section class="mb-16">
+<div class="flex items-center gap-2 mb-6">
+<span class="material-symbols-outlined text-primary">buttons_alt</span>
+<h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em]">Кнопки (Buttons)</h2>
+</div>
+<div class="overflow-x-auto rounded-xl border border-border-dark bg-surface-dark/50">
+<table class="w-full text-left border-collapse">
+<thead>
+<tr class="bg-surface-dark border-b border-border-dark">
+<th class="p-6 text-sm font-medium text-text-muted w-1/5">Стиль / Состояние</th>
+<th class="p-6 text-sm font-medium text-text-muted">Обычное (Default)</th>
+<th class="p-6 text-sm font-medium text-text-muted">Наведение (Hover)</th>
+<th class="p-6 text-sm font-medium text-text-muted">Нажатие (Active)</th>
+<th class="p-6 text-sm font-medium text-text-muted">Фокус (Focus)</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-border-dark">
+<!-- Primary Row -->
+<tr>
+<td class="p-6">
+<span class="text-white font-bold block">Primary CTA</span>
+<span class="text-xs text-text-muted">Основное действие</span>
+</td>
+<td class="p-6">
+<button class="bg-primary text-white px-6 py-2.5 rounded-lg font-bold text-sm">Кнопка</button>
+</td>
+<td class="p-6">
+<button class="simulate-hover-primary text-white px-6 py-2.5 rounded-lg font-bold text-sm">Кнопка</button>
+</td>
+<td class="p-6">
+<button class="simulate-active-primary text-white px-6 py-2.5 rounded-lg font-bold text-sm">Кнопка</button>
+</td>
+<!-- Focus state uses simulated focus ring -->
+<td class="p-6">
+<button class="bg-primary simulate-focus-primary text-white px-6 py-2.5 rounded-lg font-bold text-sm">Кнопка</button>
+</td>
+</tr>
+<!-- Secondary Row -->
+<tr>
+<td class="p-6">
+<span class="text-white font-bold block">Secondary</span>
+<span class="text-xs text-text-muted">Вторичное действие</span>
+</td>
+<td class="p-6">
+<button class="border border-border-dark text-white px-6 py-2.5 rounded-lg font-bold text-sm bg-transparent">Кнопка</button>
+</td>
+<td class="p-6">
+<button class="simulate-hover-secondary border border-text-muted text-white px-6 py-2.5 rounded-lg font-bold text-sm">Кнопка</button>
+</td>
+<td class="p-6">
+<button class="simulate-active-secondary border border-border-dark text-white px-6 py-2.5 rounded-lg font-bold text-sm">Кнопка</button>
+</td>
+<td class="p-6">
+<button class="border border-border-dark simulate-focus-primary text-white px-6 py-2.5 rounded-lg font-bold text-sm">Кнопка</button>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<!-- Inputs Section -->
+<section class="mb-16">
+<div class="flex items-center gap-2 mb-6">
+<span class="material-symbols-outlined text-primary">edit_square</span>
+<h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em]">Поля ввода (Inputs)</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+<!-- Default -->
+<div class="flex flex-col gap-2">
+<label class="text-xs font-bold text-text-muted uppercase tracking-wider">Обычное (Default)</label>
+<div class="relative">
+<input class="w-full bg-surface-dark border-border-dark border rounded-lg px-4 py-3 text-white placeholder:text-text-muted focus:ring-0 focus:border-border-dark cursor-default" placeholder="Введите текст..." type="text"/>
+</div>
+</div>
+<!-- Typing / Active -->
+<div class="flex flex-col gap-2">
+<label class="text-xs font-bold text-text-muted uppercase tracking-wider">Ввод (Typing)</label>
+<div class="relative">
+<input class="w-full bg-surface-dark border-primary border rounded-lg px-4 py-3 text-white focus:ring-0 focus:border-primary" type="text" value="Поле ввода"/>
+<div class="absolute right-3 top-1/2 -translate-y-1/2 w-[2px] h-5 bg-primary animate-pulse"></div>
+</div>
+</div>
+<!-- Focused -->
+<div class="flex flex-col gap-2">
+<label class="text-xs font-bold text-text-muted uppercase tracking-wider">Фокус (Focus)</label>
+<div class="relative">
+<input class="w-full bg-surface-dark border-primary border-2 rounded-lg px-4 py-3 text-white focus:ring-0" placeholder="Фокус состояния" type="text"/>
+</div>
+</div>
+<!-- Error -->
+<div class="flex flex-col gap-2">
+<label class="text-xs font-bold text-error uppercase tracking-wider">Ошибка (Error)</label>
+<div class="relative">
+<input class="w-full bg-surface-dark border-error border rounded-lg px-4 py-3 text-white focus:ring-0" type="text" value="Некорректные данные"/>
+<span class="material-symbols-outlined absolute right-3 top-1/2 -translate-y-1/2 text-error text-xl">error</span>
+</div>
+<p class="text-error text-xs font-medium">Обязательное поле или ошибка формата</p>
+</div>
+</div>
+</section>
+<!-- Selects Section -->
+<section class="mb-16">
+<div class="flex items-center gap-2 mb-6">
+<span class="material-symbols-outlined text-primary">list_alt</span>
+<h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em]">Выпадающие списки (Selects)</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+<!-- Closed Select -->
+<div class="flex flex-col gap-4">
+<p class="text-sm font-medium text-text-muted">Закрытое состояние</p>
+<div class="w-full max-w-sm">
+<div class="flex items-center justify-between bg-surface-dark border border-border-dark rounded-lg px-4 py-3 cursor-pointer group hover:border-primary transition-colors">
+<span class="text-white">Выберите опцию</span>
+<span class="material-symbols-outlined text-text-muted group-hover:text-primary transition-colors">expand_more</span>
+</div>
+</div>
+</div>
+<!-- Open Select Simulation -->
+<div class="flex flex-col gap-4">
+<p class="text-sm font-medium text-text-muted">Открытое состояние</p>
+<div class="w-full max-w-sm relative">
+<!-- Main box -->
+<div class="flex items-center justify-between bg-surface-dark border-2 border-primary rounded-t-lg px-4 py-3 cursor-pointer">
+<span class="text-white">Опция 1</span>
+<span class="material-symbols-outlined text-primary transform rotate-180">expand_more</span>
+</div>
+<!-- Dropdown menu -->
+<div class="absolute top-full left-0 w-full bg-surface-dark border-x-2 border-b-2 border-primary rounded-b-lg overflow-hidden shadow-2xl z-10">
+<div class="px-4 py-3 hover:bg-primary/20 text-white cursor-pointer transition-colors border-l-4 border-primary">Опция 1 (Активна)</div>
+<div class="px-4 py-3 hover:bg-primary/20 text-white cursor-pointer transition-colors border-l-4 border-transparent">Опция 2</div>
+<div class="px-4 py-3 hover:bg-primary/20 text-white cursor-pointer transition-colors border-l-4 border-transparent">Опция 3</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer / System Info -->
+<footer class="border-t border-border-dark py-8 px-10 bg-background-light dark:bg-background-dark">
+<div class="flex flex-col md:flex-row justify-between items-center gap-4 text-text-muted text-sm">
+<div class="flex items-center gap-6">
+<p>© 2024 MGTS B2B Design System</p>
+<div class="flex items-center gap-2">
+<div class="size-2 rounded-full bg-green-500"></div>
+<span>Версия 2.4.0 (Stable)</span>
+</div>
+</div>
+<div class="flex gap-6">
+<a class="hover:text-white transition-colors" href="#">GitHub</a>
+<a class="hover:text-white transition-colors" href="#">Figma Library</a>
+<a class="hover:text-white transition-colors" href="#">Поддержка</a>
+</div>
+</div>
+</footer>
+</div>
+</body></html>

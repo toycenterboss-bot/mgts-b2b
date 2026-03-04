@@ -1,0 +1,166 @@
+{
+  "page": {
+    "slug": "timing_malfunctions",
+    "url": "https://business.mgts.ru/timing_malfunctions",
+    "pathname": "/timing_malfunctions",
+    "analyzedAt": "2026-01-17T13:04:46.115Z",
+    "screenshot": "/Users/andrey_efremov/Downloads/runs/mgts-backend/temp/page-analysis-llm/timing_malfunctions_screenshot.png",
+    "llmProvider": "perplexity",
+    "llmModel": "sonar"
+  },
+  "metadata": {
+    "title": "Сроки устранения неисправностей"
+  },
+  "sections": [
+    {
+      "sectionIndex": 1,
+      "type": "sidebar",
+      "description": "Боковое навигационное меню с разделами документов и политик компании. Предоставляет быстрый доступ к связанным разделам. Активный раздел - 'Сроки устранения неисправностей'. Нет вложенных подразделов, все элементы на одном уровне.",
+      "title": "Навигационное меню документов",
+      "links": {
+        "internalLinks": [
+          {
+            "text": "Лицензии и СРО +",
+            "href": "/licenses",
+            "purpose": "Раздел с лицензиями и данными о членстве в СРО"
+          },
+          {
+            "text": "Оферты",
+            "href": "/offers",
+            "purpose": "Раздел с публичными офертами"
+          },
+          {
+            "text": "Формы типовых документов",
+            "href": "/forms_doc",
+            "purpose": "Формы типовых документов для клиентов"
+          },
+          {
+            "text": "Стандарты раскрытия информации",
+            "href": "/operinfo",
+            "purpose": "Стандарты раскрытия информации оператора связи"
+          },
+          {
+            "text": "Специальная оценка условий труда",
+            "href": "/wca",
+            "purpose": "Результаты специальной оценки условий труда"
+          },
+          {
+            "text": "Предоставление копий документов",
+            "href": "/stockholder_copies_document",
+            "purpose": "Информация о предоставлении копий документов акционерам"
+          },
+          {
+            "text": "Сроки устранения неисправностей",
+            "href": "/timing_malfunctions",
+            "purpose": "Текущий активный раздел - сроки устранения неисправностей"
+          },
+          {
+            "text": "Политика обработки персональных данных",
+            "href": "/data_processing",
+            "purpose": "Политика обработки персональных данных"
+          },
+          {
+            "text": "Политика обработки cookies",
+            "href": "/cookie_processing",
+            "purpose": "Политика обработки файлов cookies"
+          },
+          {
+            "text": "Политика в области охраны труда ПАО МГТС",
+            "href": "/labor_safety",
+            "purpose": "Политика в области охраны труда"
+          }
+        ]
+      }
+    },
+    {
+      "sectionIndex": 2,
+      "type": "breadcrumbs",
+      "description": "Навигационная цепочка (хлебные крошки) для возврата на главную страницу",
+      "links": {
+        "internalLinks": [
+          {
+            "text": "Главная",
+            "href": "/",
+            "purpose": "Ссылка на главную страницу сайта"
+          }
+        ]
+      }
+    },
+    {
+      "sectionIndex": 3,
+      "type": "hero",
+      "description": "Главный заголовок страницы и вводный текст с перечнем документов, содержащих сроки устранения неисправностей",
+      "title": "Сроки устранения неисправностей",
+      "text": "Сроки устранения неисправностей при оказании услуг связи устанавливаются оператором и указаны в следующих документах:",
+      "links": {
+        "fileLinks": [
+          {
+            "text": "Порядок оказания услуг связи",
+            "href": "http://localhost:1337/uploads/Poryadok_okazaniya_uslug_svyazi_7eea705e40.pdf",
+            "fileType": "pdf",
+            "purpose": "Документ содержит п.10.1.7. Порядок оказания услуг связи для физических лиц (Приложение №1 к Договору)",
+            "fileName": "Poryadok_okazaniya_uslug_svyazi.pdf"
+          },
+          {
+            "text": "Договор оказания услуг связи",
+            "href": "http://localhost:1337/uploads/dogovor_novyj_edinyj_obshchij_yur_PAO_e9f4a96ab4.pdf",
+            "fileType": "pdf",
+            "purpose": "Документ содержит п. 5.2.2. Договор оказания услуг связи для юридических лиц",
+            "fileName": "dogovor_novyj_edinyj_obshchij_yur(PAO).pdf"
+          },
+          {
+            "text": "Инструкция «О порядке устранения повреждений и учета заявлений, поступающих в бюро ремонта (ЦБР), на местных телефонных сетях»",
+            "href": "http://localhost:1337/uploads/Instrukciya_CBR_b97018b81a.pdf",
+            "fileType": "pdf",
+            "purpose": "Официальная инструкция, утвержденная Заместителем Министра связи РФ 01.04.1994",
+            "fileName": "Instrukciya_CBR.pdf"
+          }
+        ]
+      },
+      "cards": [
+        {
+          "title": "Порядок оказания услуг связи",
+          "text": "pdf",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "Порядок оказания услуг связи",
+            "href": "https://business.mgts.ru/static/files/other/documents/Poryadok_okazaniya_uslug_svyazi.pdf",
+            "fileName": "Poryadok_okazaniya_uslug_svyazi.pdf",
+            "fileType": "pdf",
+            "title": "",
+            "purpose": "Документ содержит п.10.1.7. Порядок оказания услуг связи для физических лиц (Приложение №1 к Договору)"
+          }
+        },
+        {
+          "title": "Договор оказания услуг связи",
+          "text": "pdf",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "Договор оказания услуг связи",
+            "href": "https://business.mgts.ru/static/files/other/documents/dogovor_novyj_edinyj_obshchij_yur(PAO).pdf",
+            "fileName": "dogovor_novyj_edinyj_obshchij_yur(PAO).pdf",
+            "fileType": "pdf",
+            "title": "",
+            "purpose": "Документ содержит п. 5.2.2. Договор оказания услуг связи для юридических лиц"
+          }
+        },
+        {
+          "title": "Инструкция «О порядке устранения повреждений и учета заявлений, поступающих в бюро ремонта (ЦБР), на местных телефонных сетях»",
+          "text": "pdf",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "Инструкция «О порядке устранения повреждений и учета заявлений, поступающих в бюро ремонта (ЦБР), на местных телефонных сетях»",
+            "href": "https://business.mgts.ru/static/files/other/documents/Instrukciya_CBR.pdf",
+            "fileName": "Instrukciya_CBR.pdf",
+            "fileType": "pdf",
+            "title": "",
+            "purpose": "Официальная инструкция, утвержденная Заместителем Министра связи РФ 01.04.1994"
+          }
+        }
+      ]
+    }
+  ]
+}

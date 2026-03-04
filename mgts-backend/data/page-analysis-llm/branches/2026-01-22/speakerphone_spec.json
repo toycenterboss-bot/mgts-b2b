@@ -1,0 +1,224 @@
+{
+  "page": {
+    "slug": "speakerphone",
+    "url": "https://business.mgts.ru/government/digital_services/speakerphone",
+    "pathname": "/government/digital_services/speakerphone",
+    "analyzedAt": "2026-01-16T10:56:15.739Z",
+    "screenshot": "/Users/andrey_efremov/Downloads/runs/mgts-backend/temp/page-analysis-llm/speakerphone_screenshot.png",
+    "llmProvider": "perplexity",
+    "llmModel": "sonar"
+  },
+  "metadata": {
+    "title": "Громкоговорящая связь"
+  },
+  "sections": [
+    {
+      "sectionIndex": 1,
+      "type": "breadcrumbs",
+      "description": "Навигационная цепочка для ориентации пользователя на странице сайта, показывающая иерархию разделов",
+      "links": {
+        "internalLinks": [
+          {
+            "text": "Главная",
+            "href": "/",
+            "purpose": "Ссылка на главную страницу сайта"
+          },
+          {
+            "text": "Госзаказчикам",
+            "href": "/government",
+            "purpose": "Ссылка на раздел для государственных заказчиков"
+          },
+          {
+            "text": "Цифровые сервисы",
+            "href": "/government/digital_services",
+            "purpose": "Ссылка на раздел цифровых сервисов для госзаказчиков"
+          }
+        ],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      }
+    },
+    {
+      "sectionIndex": 2,
+      "type": "hero",
+      "description": "Заголовочная секция страницы с основной информацией о услуге громкоговорящей связи, содержит название услуги и описание её назначения",
+      "title": "Громкоговорящая связь",
+      "text": "Полный комплекс услуг по обеспечению безопасности социально важных объектов. Интеграция текущей системы оповещения государственных заказчиков с центральной инфраструктурой оповещения города Москвы",
+      "elements": [],
+      "images": [],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      }
+    },
+    {
+      "sectionIndex": 3,
+      "type": "cards",
+      "description": "Секция с тремя информационными карточками, описывающими основные услуги в области громкоговорящей связи. Карточки расположены в сетке и содержат иконки, заголовки и описания услуг",
+      "title": null,
+      "cards": [
+        {
+          "title": "Громкоговорящая и производственно-технологическая связь",
+          "text": "Эффективное оповещение, координация и управление в реальном времени",
+          "icon": "loudspeaker",
+          "link": null
+        },
+        {
+          "title": "Проверка и настройка программного обеспечения",
+          "text": "Оптимальная производительность, надёжность и соответствие вашим потребностям",
+          "icon": "virtual_desktops",
+          "link": null
+        },
+        {
+          "title": "Настройка направления камер",
+          "text": "Максимальное покрытие и высокое качество воспроизведения",
+          "icon": "video_review",
+          "link": null
+        }
+      ],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      }
+    },
+    {
+      "sectionIndex": 4,
+      "type": "cards",
+      "description": "Секция с восемью преимуществами систем громкоговорящей связи, представленными в виде карточек с номерами и текстовыми описаниями. Карточки расположены в сетке 2x4 с фоновыми изображениями",
+      "title": "Преимущества систем громкоговорящей связи",
+      "cards": [
+        {
+          "title": "Преимущество 1",
+          "text": "Функционирование в соответствии со всеми стандартами МЧС России",
+          "value": "1",
+          "label": null,
+          "backgroundImage": "/images/7.png"
+        },
+        {
+          "title": "Преимущество 2",
+          "text": "Настройка единой экосистемы с другими подсистемами безопасности",
+          "value": "2",
+          "label": null,
+          "backgroundImage": "/images/8.png"
+        },
+        {
+          "title": "Преимущество 3",
+          "text": "Быстрая адаптация ПО под ваши цели и уже существующие ОСО",
+          "value": "3",
+          "label": null,
+          "backgroundImage": "/images/9.png"
+        },
+        {
+          "title": "Преимущество 4",
+          "text": "Широкий охват оповещения всех труднодоступных зон",
+          "value": "4",
+          "label": null,
+          "backgroundImage": "/images/10.png"
+        },
+        {
+          "title": "Преимущество 5",
+          "text": "Организация беспроводной связи и оповещения",
+          "value": "5",
+          "label": null,
+          "backgroundImage": "/images/11.png"
+        },
+        {
+          "title": "Преимущество 6",
+          "text": "Современная IP система приходит на смену устаревшим аналоговым решениям",
+          "value": "6",
+          "label": null,
+          "backgroundImage": "/images/1.png"
+        },
+        {
+          "title": "Преимущество 7",
+          "text": "Единая сетевая инфраструктура для вашей организации",
+          "value": "7",
+          "label": null,
+          "backgroundImage": "/images/2.png"
+        },
+        {
+          "title": "Преимущество 8",
+          "text": "Поддержка всех открытых стандартов связи",
+          "value": "8",
+          "label": null,
+          "backgroundImage": "/images/3.png"
+        }
+      ],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      }
+    },
+    {
+      "sectionIndex": 5,
+      "type": "cta_section",
+      "description": "Секция с призывом к действию для потенциальных партнёров. Содержит заголовок, описание, контактную информацию и форму для отправки данных",
+      "title": "МГТС заинтересована в новых партнерах для реализации совместных проектов",
+      "subtitle": "связаться с нами",
+      "text": "Если у вас есть идеи и предложения для сотрудничества, направляйте их по адресу электронной почты: sotrudnichestvo@mgts.ru\n\nИли оставьте свои данные, мы сами свяжемся с вами",
+      "elements": [
+        {
+          "type": "form",
+          "fields": [
+            {
+              "type": "text",
+              "label": "Ваше имя",
+              "placeholder": "Имя",
+              "required": true
+            },
+            {
+              "type": "text",
+              "label": "Название организации",
+              "placeholder": "Организация",
+              "required": true
+            },
+            {
+              "type": "email",
+              "label": "Ваш email",
+              "placeholder": "Email",
+              "required": true
+            },
+            {
+              "type": "tel",
+              "label": "Телефон",
+              "placeholder": "+7",
+              "required": true
+            }
+          ],
+          "submitButton": {
+            "text": "Отправить",
+            "type": "submit"
+          },
+          "disclaimer": "Вводя данные, вы подтверждаете свое ознакомление и согласие с условиями обработки персональных данных"
+        }
+      ],
+      "images": [
+        {
+          "description": "Абстрактная 3D иллюстрация с голубыми волнистыми формами, визуализирующая технологию и инновации",
+          "position": "справа",
+          "src": "background-image-1",
+          "alt": "Иллюстрация технологии"
+        }
+      ],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [
+          {
+            "text": "sotrudnichestvo@mgts.ru",
+            "href": "mailto:sotrudnichestvo@mgts.ru",
+            "purpose": "Отправка предложений о сотрудничестве по электронной почте"
+          }
+        ],
+        "fileLinks": [],
+        "imageLinks": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+/* ============================================
+   SECTION-MAP
+   ============================================ */
+
+/* Генерировано на основе семантического анализа */
+/* Дата: 2026-01-09T15:41:02.775Z */
+
+/* Элемент списка */
+.section-map__item {
+  display: list-item;
+}
+
+/* Контейнер для группировки элементов */
+.section-map__container {
+  display: flex;
+  padding: var(--spacing-lg, 1.5rem);
+  max-width: var(--container-max-width, 1200px);
+  margin: 0 auto;
+}
+
+/* Элемент списка */
+.section-map__objects-list {
+  display: list-item;
+}
+
+/* Контейнер для группировки элементов */
+.section-map__map-wrapper {
+  display: flex;
+  padding: var(--spacing-lg, 1.5rem);
+  max-width: var(--container-max-width, 1200px);
+  margin: 0 auto;
+}
+
+.section-map__map-wrapper a {
+  color: var(--color-primary, #0066cc);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.section-map__map-wrapper a:hover {
+  color: var(--color-primary-dark, #0052a3);
+  text-decoration: underline;
+}
+
+/* Общий элемент компонента */
+.section-map__marker {
+  display: block;
+}
+

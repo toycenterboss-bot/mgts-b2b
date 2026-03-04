@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_page_career_why_companies",
+  "info": {
+    "displayName": "Career Why Company",
+    "description": "Секция 'Почему мы'"
+  },
+  "options": {},
+  "attributes": {
+    "isVisible": {
+      "type": "boolean",
+      "default": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.career-why-card"
+    }
+  }
+}

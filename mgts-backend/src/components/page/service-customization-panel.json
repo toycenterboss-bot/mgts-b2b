@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_page_service_customization_panels",
+  "info": {
+    "displayName": "Service Customization Panel",
+    "description": "Панель кастомизации услуги (dropdown + переключатели)"
+  },
+  "options": {},
+  "attributes": {
+    "isVisible": {
+      "type": "boolean",
+      "default": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "dropdownLabel": {
+      "type": "string",
+      "description": "Заголовок выпадающего списка (например: Тип подключения)"
+    },
+    "dropdownOptions": {
+      "type": "json",
+      "description": "Опции выпадающего списка: массив строк или объектов {label,value}"
+    },
+    "toggles": {
+      "type": "json",
+      "description": "Переключатели: массив объектов {label, enabled}"
+    },
+    "applyText": {
+      "type": "string",
+      "description": "Текст кнопки применения"
+    }
+  }
+}

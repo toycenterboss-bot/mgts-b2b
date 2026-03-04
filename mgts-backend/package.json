@@ -1,0 +1,46 @@
+{
+  "name": "mgts-backend",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A Strapi application",
+  "scripts": {
+    "build": "strapi build",
+    "console": "strapi console",
+    "deploy": "strapi deploy",
+    "dev": "strapi develop",
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "strapi": "strapi",
+    "upgrade": "npx @strapi/upgrade latest",
+    "upgrade:dry": "npx @strapi/upgrade latest --dry"
+  },
+  "dependencies": {
+    "@strapi/plugin-cloud": "5.36.0",
+    "@strapi/plugin-users-permissions": "5.36.0",
+    "@strapi/provider-upload-cloudinary": "^5.36.0",
+    "@strapi/strapi": "5.36.0",
+    "axios": "^1.13.2",
+    "better-sqlite3": "12.4.1",
+    "cheerio": "^1.1.2",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0",
+    "styled-components": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "jsdom": "^27.4.0",
+    "puppeteer": "^24.34.0",
+    "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=20.0.0 <=24.x.x",
+    "npm": ">=6.0.0"
+  },
+  "strapi": {
+    "uuid": "9e46b4e1-e932-48b1-9357-847bb0c0d2fb",
+    "installId": "b8a74fafd588b27d66d07f962dc83c14a6fab214d8395caadb4b3e8c394d4e68"
+  }
+}

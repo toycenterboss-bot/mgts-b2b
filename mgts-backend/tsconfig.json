@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "lib": ["ES2020"],
+    "target": "ES2019",
+    "strict": false,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "incremental": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "noEmitOnError": true,
+    "noImplicitThis": true,
+    "outDir": "dist",
+    "rootDir": "."
+  },
+  "include": [
+    "src/**/*.ts",
+    "config/**/*.ts",
+    "database/**/*.ts",
+    "types/**/*.ts",
+    "src/**/*.json"
+  ],
+
+  "exclude": [
+    "node_modules/",
+    "build/",
+    "dist/",
+    ".cache/",
+    ".tmp/",
+    "temp/",
+    "temp/**",
+
+    // Do not include admin files in the server compilation
+    "src/admin/",
+    // Do not include test files
+    "**/*.test.*",
+    // Do not include plugins in the server compilation
+    "src/plugins/**"
+  ]
+}

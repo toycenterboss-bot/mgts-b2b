@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(font-61cec6e75b.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(font-05fa4ba407.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(font-0a2ecb112c.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(font-d2bfd70d07.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(font-9a79625c65.ttf) format('truetype');
+}

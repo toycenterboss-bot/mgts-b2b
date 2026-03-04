@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="ru"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="../../assets/fonts/google/100e1be8c3/font.css" rel="stylesheet"/>
+<link href="../../assets/fonts/material-symbols-outlined/material-symbols-outlined.css" rel="stylesheet"/>
+<link href="../../assets/fonts/material-symbols-outlined/material-symbols-outlined.css" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#1173d4",
+                        "background-light": "#f6f7f8",
+                        "background-dark": "#101922",
+                        "surface-dark": "#1c2631",
+                        "border-dark": "#2d3a49",
+                    },
+                    fontFamily: {
+                        "display": ["Space Grotesk", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Space Grotesk', sans-serif;
+        }
+        .search-card-shadow {
+            box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.5);
+        }
+        .highlight {
+            color: #1173d4;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 min-h-screen">
+<!-- Top Navigation Bar -->
+<header class="sticky top-0 z-50 w-full border-b border-border-dark bg-background-dark/80 backdrop-blur-md px-6 md:px-20 py-3">
+<div class="max-w-[1440px] mx-auto flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="text-primary">
+<svg class="size-8" fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 4H17.3334V17.3334H30.6666V30.6666H44V44H4V4Z" fill="currentColor"></path>
+</svg>
+</div>
+<h2 class="text-white text-xl font-bold tracking-tight">MGTS B2B</h2>
+</div>
+<nav class="hidden lg:flex items-center gap-8">
+<a class="text-slate-300 hover:text-white text-sm font-medium transition-colors" href="#">Услуги</a>
+<a class="text-slate-300 hover:text-white text-sm font-medium transition-colors" href="#">Решения</a>
+<a class="text-slate-300 hover:text-white text-sm font-medium transition-colors" href="#">Поддержка</a>
+<a class="text-slate-300 hover:text-white text-sm font-medium transition-colors" href="#">Личный кабинет</a>
+</nav>
+<div class="flex items-center gap-3">
+<button class="flex items-center justify-center rounded-lg h-10 w-10 bg-surface-dark border border-border-dark text-white hover:bg-primary/20 transition-all">
+<span class="material-symbols-outlined text-[20px]">notifications</span>
+</button>
+<button class="flex items-center justify-center rounded-lg h-10 w-10 bg-surface-dark border border-border-dark text-white hover:bg-primary/20 transition-all">
+<span class="material-symbols-outlined text-[20px]">account_circle</span>
+</button>
+</div>
+</div>
+</header>
+<main class="max-w-[1440px] mx-auto px-6 md:px-20 py-8">
+<!-- Search Section -->
+<div class="max-w-4xl mx-auto mb-10">
+<div class="relative group">
+<div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+<span class="material-symbols-outlined text-slate-400 group-focus-within:text-primary transition-colors">search</span>
+</div>
+<input class="block w-full pl-12 pr-12 py-4 bg-surface-dark border border-border-dark rounded-xl text-white placeholder-slate-400 focus:ring-2 focus:ring-primary/50 focus:border-primary transition-all outline-none text-lg shadow-xl" placeholder="Поиск услуг и решений..." type="text" value="Облачные сервисы для бизнеса"/>
+<div class="absolute inset-y-0 right-0 pr-4 flex items-center gap-2">
+<span class="material-symbols-outlined text-primary cursor-help" title="AI Suggestions enabled">auto_awesome</span>
+<button class="text-slate-400 hover:text-white">
+<span class="material-symbols-outlined">close</span>
+</button>
+</div>
+</div>
+<div class="mt-3 flex items-center gap-2 px-2">
+<span class="text-xs font-semibold text-primary uppercase tracking-wider">AI Посказка:</span>
+<p class="text-sm text-slate-400 italic">Попробуйте "Безопасное облако ФЗ-152" для специфических требований...</p>
+</div>
+</div>
+<!-- Heading & Tabs -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-8 border-b border-border-dark pb-4">
+<div class="space-y-1">
+<h1 class="text-3xl font-bold text-white tracking-tight">Результаты поиска для 'Облачные сервисы'</h1>
+<p class="text-slate-400 text-sm">Найдено 42 результата в 3 категориях</p>
+</div>
+<div class="flex gap-1 bg-surface-dark p-1 rounded-lg border border-border-dark">
+<button class="px-6 py-2 rounded-md bg-primary text-white text-sm font-bold shadow-lg">Все</button>
+<button class="px-6 py-2 rounded-md text-slate-400 hover:text-white text-sm font-medium transition-all">Услуги</button>
+<button class="px-6 py-2 rounded-md text-slate-400 hover:text-white text-sm font-medium transition-all">Новости</button>
+<button class="px-6 py-2 rounded-md text-slate-400 hover:text-white text-sm font-medium transition-all">Документы</button>
+</div>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+<!-- Sidebar Filters -->
+<aside class="lg:col-span-3 space-y-6">
+<div class="bg-surface-dark border border-border-dark rounded-xl p-5 search-card-shadow">
+<div class="flex items-center justify-between mb-6">
+<h3 class="text-white font-bold flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">filter_list</span>
+                            Фильтры
+                        </h3>
+<button class="text-xs text-primary hover:underline font-bold uppercase tracking-tighter">Сбросить</button>
+</div>
+<div class="space-y-6">
+<!-- Sort -->
+<div class="space-y-3">
+<label class="text-xs font-bold text-slate-500 uppercase tracking-widest">Сортировка</label>
+<div class="relative">
+<select class="w-full bg-background-dark border border-border-dark rounded-lg py-2 px-3 text-sm text-white focus:border-primary outline-none appearance-none cursor-pointer">
+<option>Релевантность</option>
+<option>Сначала новые</option>
+<option>По популярности</option>
+</select>
+<span class="material-symbols-outlined absolute right-2 top-2 text-slate-500 pointer-events-none text-sm">expand_more</span>
+</div>
+</div>
+<!-- Category Checkboxes -->
+<div class="space-y-3">
+<label class="text-xs font-bold text-slate-500 uppercase tracking-widest">Категория</label>
+<div class="space-y-2">
+<label class="flex items-center gap-3 cursor-pointer group">
+<input checked="" class="w-4 h-4 rounded border-border-dark bg-background-dark text-primary focus:ring-primary/20" type="checkbox"/>
+<span class="text-sm text-slate-300 group-hover:text-white transition-colors">Облачные услуги</span>
+</label>
+<label class="flex items-center gap-3 cursor-pointer group">
+<input class="w-4 h-4 rounded border-border-dark bg-background-dark text-primary focus:ring-primary/20" type="checkbox"/>
+<span class="text-sm text-slate-300 group-hover:text-white transition-colors">Инфраструктура</span>
+</label>
+<label class="flex items-center gap-3 cursor-pointer group">
+<input class="w-4 h-4 rounded border-border-dark bg-background-dark text-primary focus:ring-primary/20" type="checkbox"/>
+<span class="text-sm text-slate-300 group-hover:text-white transition-colors">Безопасность</span>
+</label>
+</div>
+</div>
+<!-- Date Range -->
+<div class="space-y-3">
+<label class="text-xs font-bold text-slate-500 uppercase tracking-widest">Период</label>
+<div class="grid grid-cols-1 gap-2">
+<button class="w-full text-left py-2 px-3 rounded-lg bg-primary/10 border border-primary/30 text-primary text-sm font-medium">За все время</button>
+<button class="w-full text-left py-2 px-3 rounded-lg hover:bg-background-dark border border-transparent text-slate-400 text-sm transition-colors">За месяц</button>
+<button class="w-full text-left py-2 px-3 rounded-lg hover:bg-background-dark border border-transparent text-slate-400 text-sm transition-colors">За год</button>
+</div>
+</div>
+</div>
+<button class="w-full mt-8 bg-primary hover:bg-primary/90 text-white font-bold py-3 rounded-lg shadow-lg transition-all active:scale-95">
+                        Применить
+                    </button>
+</div>
+<div class="bg-gradient-to-br from-primary/20 to-transparent border border-primary/20 rounded-xl p-5">
+<span class="material-symbols-outlined text-primary mb-2">support_agent</span>
+<h4 class="text-white font-bold text-sm mb-1">Нужна помощь?</h4>
+<p class="text-slate-400 text-xs mb-3">Наши эксперты помогут подобрать идеальное облачное решение для вашего бизнеса.</p>
+<a class="text-primary text-xs font-bold hover:underline" href="#">Связаться с менеджером</a>
+</div>
+</aside>
+<!-- Results Feed -->
+<div class="lg:col-span-9 space-y-4">
+<!-- Search Result Card 1 -->
+<div class="bg-surface-dark border border-border-dark rounded-xl p-6 search-card-shadow hover:border-primary/50 transition-all cursor-pointer group">
+<div class="flex justify-between items-start mb-2">
+<nav class="flex text-[10px] uppercase tracking-widest font-bold text-slate-500 gap-2">
+<span>Главная</span>
+<span>/</span>
+<span class="text-primary">Услуги</span>
+<span>/</span>
+<span>Cloud</span>
+</nav>
+<span class="bg-primary/10 text-primary text-[10px] font-bold px-2 py-1 rounded border border-primary/20">TOP MATCH</span>
+</div>
+<h3 class="text-xl font-bold text-white group-hover:text-primary transition-colors mb-2">Виртуальная инфраструктура (IaaS)</h3>
+<p class="text-slate-400 text-sm leading-relaxed max-w-3xl">
+                        Масштабируемые <span class="highlight">облачные сервисы</span> для размещения корпоративных систем. Гарантированный аптайм 99.95% и мгновенное развертывание <span class="highlight">облачных</span> ресурсов в защищенном дата-центре уровня Tier III.
+                    </p>
+<div class="mt-4 flex items-center gap-4 text-xs text-slate-500">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">schedule</span> 15 мин на запуск</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">verified_user</span> ФЗ-152 compliance</span>
+</div>
+</div>
+<!-- Search Result Card 2 -->
+<div class="bg-surface-dark border border-border-dark rounded-xl p-6 search-card-shadow hover:border-primary/50 transition-all cursor-pointer group">
+<div class="flex justify-between items-start mb-2">
+<nav class="flex text-[10px] uppercase tracking-widest font-bold text-slate-500 gap-2">
+<span>Главная</span>
+<span>/</span>
+<span class="text-primary">Документы</span>
+</nav>
+</div>
+<h3 class="text-xl font-bold text-white group-hover:text-primary transition-colors mb-2">Руководство по миграции в облако MGTS</h3>
+<p class="text-slate-400 text-sm leading-relaxed max-w-3xl">
+                        Подробная документация о том, как перенести ваши <span class="highlight">облачные сервисы</span> и базы данных без простоя. Технические требования, API справочник и примеры конфигураций для гибридных инсталляций.
+                    </p>
+<div class="mt-4 flex items-center gap-4 text-xs text-slate-500">
+<span class="flex items-center gap-1 font-bold text-slate-300"><span class="material-symbols-outlined text-[14px] text-red-500">description</span> PDF (2.4 MB)</span>
+<span class="flex items-center gap-1">Обновлено: 12 Октября 2023</span>
+</div>
+</div>
+<!-- Search Result Card 3 -->
+<div class="bg-surface-dark border border-border-dark rounded-xl p-6 search-card-shadow hover:border-primary/50 transition-all cursor-pointer group">
+<div class="flex justify-between items-start mb-2">
+<nav class="flex text-[10px] uppercase tracking-widest font-bold text-slate-500 gap-2">
+<span>Главная</span>
+<span>/</span>
+<span class="text-primary">Новости</span>
+</nav>
+</div>
+<h3 class="text-xl font-bold text-white group-hover:text-primary transition-colors mb-2">MGTS запускает новые AI-инструменты в облаке</h3>
+<p class="text-slate-400 text-sm leading-relaxed max-w-3xl">
+                        Новая линейка <span class="highlight">облачных сервисов</span> теперь включает в себя ускорители GPU для задач машинного обучения и аналитики больших данных. Узнайте, как ускорить ваш бизнес с помощью AI.
+                    </p>
+<div class="mt-4 flex items-center gap-4 text-xs text-slate-500">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">calendar_today</span> 5 Ноября 2023</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">visibility</span> 1.2k просмотров</span>
+</div>
+</div>
+<!-- Pagination -->
+<div class="pt-8 flex justify-center">
+<nav class="flex items-center gap-2">
+<button class="w-10 h-10 flex items-center justify-center rounded-lg border border-border-dark text-slate-400 hover:text-white hover:border-primary transition-all">
+<span class="material-symbols-outlined">chevron_left</span>
+</button>
+<button class="w-10 h-10 flex items-center justify-center rounded-lg bg-primary text-white font-bold">1</button>
+<button class="w-10 h-10 flex items-center justify-center rounded-lg border border-border-dark text-slate-400 hover:text-white transition-all">2</button>
+<button class="w-10 h-10 flex items-center justify-center rounded-lg border border-border-dark text-slate-400 hover:text-white transition-all">3</button>
+<span class="text-slate-500 px-2">...</span>
+<button class="w-10 h-10 flex items-center justify-center rounded-lg border border-border-dark text-slate-400 hover:text-white transition-all">12</button>
+<button class="w-10 h-10 flex items-center justify-center rounded-lg border border-border-dark text-slate-400 hover:text-white hover:border-primary transition-all">
+<span class="material-symbols-outlined">chevron_right</span>
+</button>
+</nav>
+</div>
+</div>
+</div>
+</main>
+<!-- Footer Simple -->
+<footer class="mt-20 border-t border-border-dark py-10 px-20 bg-background-dark">
+<div class="max-w-[1440px] mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+<div class="flex items-center gap-2 text-slate-500">
+<div class="size-6">
+<svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 4H17.3334V17.3334H30.6666V30.6666H44V44H4V4Z" fill="currentColor"></path>
+</svg>
+</div>
+<span class="text-xs font-bold uppercase tracking-widest">© 2023 MGTS B2B Solutions</span>
+</div>
+<div class="flex gap-8">
+<a class="text-xs text-slate-500 hover:text-white transition-colors" href="#">Политика конфиденциальности</a>
+<a class="text-xs text-slate-500 hover:text-white transition-colors" href="#">Условия использования</a>
+<a class="text-xs text-slate-500 hover:text-white transition-colors" href="#">Контакты</a>
+</div>
+</div>
+</footer>
+</body></html>

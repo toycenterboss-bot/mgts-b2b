@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "footer",
+  "info": {
+    "singularName": "footer",
+    "pluralName": "footers",
+    "displayName": "Footer",
+    "description": "Подвал сайта"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "copyright": {
+      "type": "string",
+      "default": "© 2025 МГТС. Все права защищены."
+    },
+    "sections": {
+      "type": "component",
+      "repeatable": true,
+      "component": "footer.footer-section",
+      "description": "Секции футера (структурировано)"
+    },
+    "legalLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "footer.legal-link",
+      "description": "Юридические ссылки (структурировано)"
+    },
+    "socialLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "footer.social-link",
+      "description": "Социальные ссылки (структурировано)"
+    }
+  }
+}
+

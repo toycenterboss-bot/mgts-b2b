@@ -1,0 +1,51 @@
+{
+  "collectionName": "components_page_section_maps",
+  "info": {
+    "displayName": "Section Map",
+    "description": "Секция с картой (Яндекс.Карты). CSS классы: section-map (контейнер), section-map__title (заголовок), section-map__container (контейнер), section-map__objects (объекты), section-map__objects-list (список объектов), section-map__object-item (элемент объекта), section-map__map-wrapper (обертка карты)"
+  },
+  "options": {},
+  "attributes": {
+    "isVisible": {
+      "type": "boolean",
+      "default": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "mapType": {
+      "type": "enumeration",
+      "enum": [
+        "yandex",
+        "google",
+        "custom"
+      ],
+      "default": "yandex"
+    },
+    "mapUrl": {
+      "type": "string",
+      "description": "Ссылка на карту (Яндекс/Google) для iframe"
+    },
+    "centerLat": {
+      "type": "float",
+      "description": "Широта центра карты"
+    },
+    "centerLng": {
+      "type": "float",
+      "description": "Долгота центра карты"
+    },
+    "zoom": {
+      "type": "integer",
+      "default": 10,
+      "description": "Масштаб карты"
+    },
+    "markers": {
+      "type": "json",
+      "description": "Массив маркеров на карте [{lat, lng, title, description}]"
+    },
+    "description": {
+      "type": "text",
+      "description": "Описание расположения"
+    }
+  }
+}

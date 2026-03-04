@@ -1,0 +1,235 @@
+{
+  "page": {
+    "slug": "business_equipment_setup",
+    "url": "https://business.mgts.ru/business/equipment_setup",
+    "pathname": "/business/equipment_setup",
+    "analyzedAt": "2026-01-12T14:37:58.275Z",
+    "screenshot": "/Users/andrey_efremov/Downloads/runs/mgts-backend/temp/page-analysis-llm/business_equipment_setup_screenshot.png",
+    "llmProvider": "perplexity",
+    "llmModel": "sonar"
+  },
+  "metadata": {
+    "title": "Настройка оборудования"
+  },
+  "sections": [
+    {
+      "sectionIndex": 1,
+      "type": "breadcrumbs",
+      "description": "Навигационная цепочка (хлебные крошки) для ориентации пользователя в структуре сайта и быстрого перемещения на предыдущие уровни",
+      "links": {
+        "internalLinks": [
+          {
+            "text": "Главная",
+            "href": "/",
+            "purpose": "Переход на главную страницу сайта"
+          },
+          {
+            "text": "Бизнесу",
+            "href": "/business",
+            "purpose": "Переход в раздел для бизнеса"
+          }
+        ],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      }
+    },
+    {
+      "sectionIndex": 2,
+      "type": "header",
+      "description": "Заголовок страницы с основной информацией о назначении раздела",
+      "title": "Настройка оборудования",
+      "subtitle": "Настройка TCP/IP/DNS-серверов",
+      "text": "",
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      }
+    },
+    {
+      "sectionIndex": 3,
+      "type": "sidebar-navigation",
+      "description": "Боковое меню для выбора операционной системы. Позволяет пользователю переключаться между инструкциями для разных версий Windows и MAC OS",
+      "title": "Выбор операционной системы",
+      "text": "Меню для выбора инструкций по настройке оборудования в зависимости от используемой операционной системы",
+      "tabs": [
+        {
+          "title": "Windows 10",
+          "isActive": true,
+          "content": {
+            "title": "",
+            "text": "Инструкции по настройке TCP/IP/DNS для Windows 10"
+          }
+        },
+        {
+          "title": "Windows 8",
+          "isActive": false,
+          "content": {
+            "title": "",
+            "text": "Инструкции по настройке TCP/IP/DNS для Windows 8"
+          }
+        },
+        {
+          "title": "Windows 7",
+          "isActive": false,
+          "content": {
+            "title": "",
+            "text": "Инструкции по настройке TCP/IP/DNS для Windows 7"
+          }
+        },
+        {
+          "title": "Windows Vista",
+          "isActive": false,
+          "content": {
+            "title": "",
+            "text": "Инструкции по настройке TCP/IP/DNS для Windows Vista"
+          }
+        },
+        {
+          "title": "WindowsXP / 2000",
+          "isActive": false,
+          "content": {
+            "title": "",
+            "text": "Инструкции по настройке TCP/IP/DNS для Windows XP и Windows 2000"
+          }
+        },
+        {
+          "title": "MAC OS",
+          "isActive": false,
+          "content": {
+            "title": "",
+            "text": "Инструкции по настройке TCP/IP/DNS для MAC OS"
+          }
+        }
+      ],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      }
+    },
+    {
+      "sectionIndex": 4,
+      "type": "sidebar-footer",
+      "description": "Дополнительная информация в подвале бокового меню с предложением услуги компьютерной помощи",
+      "title": "Услуга компьютерной помощи",
+      "text": "Если не нашли ответ, воспользуйтесь нашей услугой компьютерной помощи",
+      "links": {
+        "internalLinks": [
+          {
+            "text": "Компьютерная помощь с выездом в офис",
+            "href": "/business/equipment_setup/computer_help",
+            "purpose": "Переход на страницу услуги компьютерной помощи с выездом в офис"
+          }
+        ],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      }
+    },
+    {
+      "sectionIndex": 5,
+      "type": "step-by-step-guide",
+      "description": "Пошаговая инструкция по настройке сетевого соединения для Windows 10. Содержит 6 этапов с текстовыми описаниями и скриншотами для каждого шага",
+      "title": "Пошаговая инструкция настройки Windows 10",
+      "text": "Инструкция по настройке TCP/IP/DNS-серверов в Windows 10",
+      "elements": [
+        {
+          "type": "step",
+          "stepNumber": 1,
+          "title": "Шаг 1",
+          "text": "Для настройки сетевого соединения, зайдите в меню Настройка подключения или сети. Это можно сделать несколькими способами:\n\nНажимаем Пуск и выбираем Параметры.\n\nПравой кнопкой мыши нажмите по значку Пуск и выберите Сетевые подключения.\n\nНажимаем правой кнопкой мыши по значку компьютер в правом нижнем углу (рядом с часами) и выбираем Центр управления сетями и общим доступом → Изменение параметров адаптера (переходим к шагу 4)."
+        },
+        {
+          "type": "step",
+          "stepNumber": 2,
+          "title": "Шаг 2",
+          "text": "Нажимаем Выбираем Сеть и интернет."
+        },
+        {
+          "type": "step",
+          "stepNumber": 3,
+          "title": "Шаг 3",
+          "text": "Нажимаем Ethernet → Настройка параметров адаптера"
+        },
+        {
+          "type": "step",
+          "stepNumber": 4,
+          "title": "Шаг 4",
+          "text": "Выбираем необходимое соединение, нажимаем правой кнопкой → Свойства"
+        },
+        {
+          "type": "step",
+          "stepNumber": 5,
+          "title": "Шаг 5",
+          "text": "Выбираем Протокол Интернета версии 4 (TCP/IPv4) и выбираем Свойства"
+        },
+        {
+          "type": "step",
+          "stepNumber": 6,
+          "title": "Шаг 6",
+          "text": "Вводим необходимые данные"
+        }
+      ],
+      "images": [
+        {
+          "description": "Скриншот первого способа входа в меню настройки - через Пуск и Параметры",
+          "position": "центр",
+          "src": "/images/win10-step1-img1.png",
+          "alt": "Windows 10 - Пуск и Параметры"
+        },
+        {
+          "description": "Скриншот второго способа входа в меню настройки - через контекстное меню Пуска",
+          "position": "центр",
+          "src": "/images/win10-step1-img2.png",
+          "alt": "Windows 10 - Сетевые подключения"
+        },
+        {
+          "description": "Скриншот третьего способа входа в меню настройки - через значок сети в системном трее",
+          "position": "центр",
+          "src": "/images/win10-step1-img3.png",
+          "alt": "Windows 10 - Центр управления сетями"
+        },
+        {
+          "description": "Скриншот второго шага - выбор Сеть и интернет",
+          "position": "центр",
+          "src": "/images/win10-step2-img1.png",
+          "alt": "Windows 10 - Сеть и интернет"
+        },
+        {
+          "description": "Скриншот третьего шага - выбор Ethernet и настройка параметров адаптера",
+          "position": "центр",
+          "src": "/images/win10-step3-img1.png",
+          "alt": "Windows 10 - Ethernet"
+        },
+        {
+          "description": "Скриншот четвертого шага - выбор соединения и открытие свойств",
+          "position": "центр",
+          "src": "/images/win10-step4-img1.png",
+          "alt": "Windows 10 - Свойства соединения"
+        },
+        {
+          "description": "Скриншот пятого шага - выбор протокола TCP/IPv4 и его свойств",
+          "position": "центр",
+          "src": "/images/win10-step5-img1.png",
+          "alt": "Windows 10 - TCP/IPv4"
+        },
+        {
+          "description": "Скриншот шестого шага - ввод необходимых данных для настройки",
+          "position": "центр",
+          "src": "/images/win10-step6-img1.png",
+          "alt": "Windows 10 - Ввод данных"
+        }
+      ],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "collectionName": "components_page_service_order_forms",
+  "info": {
+    "displayName": "Service Order Form",
+    "description": "Форма заказа услуги. CSS классы: service-order-form (контейнер), service-order-form__title (h1 заголовок), service-order-form__form (форма), service-order-form__field-wrapper (обертка поля), service-order-form__label (метка), service-order-form__input (поле ввода), service-order-form__button (кнопка)"
+  },
+  "options": {},
+  "attributes": {
+    "isVisible": {
+      "type": "boolean",
+      "default": false
+    },
+    "badgeText": {
+      "type": "string",
+      "default": "Готовы к масштабированию?"
+    },
+    "title": {
+      "type": "string",
+      "default": "Обсудим ваш проект"
+    },
+    "subtitle": {
+      "type": "text",
+      "default": "Оставьте заявку, и наш персональный менеджер свяжется с вами для детальной консультации по инфраструктурным решениям МГТС."
+    },
+    "supportPhoneLabel": {
+      "type": "string",
+      "default": "Поддержка 24/7"
+    },
+    "supportPhoneValue": {
+      "type": "string",
+      "default": "8 800 250 0890"
+    },
+    "supportEmailLabel": {
+      "type": "string",
+      "default": "Email для бизнеса"
+    },
+    "supportEmailValue": {
+      "type": "string",
+      "default": "b2b@mgts.ru"
+    },
+    "formAction": {
+      "type": "string",
+      "default": "#"
+    },
+    "formMethod": {
+      "type": "enumeration",
+      "enum": [
+        "POST",
+        "GET"
+      ],
+      "default": "POST"
+    },
+    "buttonText": {
+      "type": "string",
+      "default": "Отправить заявку"
+    },
+    "nameRequired": {
+      "type": "boolean",
+      "default": true
+    },
+    "phoneRequired": {
+      "type": "boolean",
+      "default": true
+    },
+    "emailRequired": {
+      "type": "boolean",
+      "default": false
+    },
+    "messageRequired": {
+      "type": "boolean",
+      "default": false
+    },
+    "nameMaxLength": {
+      "type": "integer",
+      "default": 300
+    },
+    "phoneMaxLength": {
+      "type": "integer",
+      "default": 18
+    },
+    "emailMaxLength": {
+      "type": "integer",
+      "default": 300
+    },
+    "messageMaxLength": {
+      "type": "integer",
+      "default": 300
+    },
+    "disclaimerHtml": {
+      "type": "richtext",
+      "default": "Нажимая кнопку, вы соглашаетесь с условиями <a href=\"#\">обработки персональных данных</a>"
+    },
+    "formType": {
+      "type": "enumeration",
+      "enum": [
+        "business-request",
+        "government-request",
+        "partners-request",
+        "developers-request",
+        "feedback",
+        "general-request"
+      ],
+      "default": "general-request",
+      "description": "Тип формы для маршрутизации"
+    },
+    "recipientEmail": {
+      "type": "email",
+      "description": "Email получателя формы"
+    },
+    "recipientPhone": {
+      "type": "string",
+      "description": "Телефон получателя формы"
+    },
+    "section": {
+      "type": "enumeration",
+      "enum": [
+        "business",
+        "operators",
+        "government",
+        "partners",
+        "developers",
+        "about_mgts",
+        "news",
+        "other"
+      ],
+      "description": "Раздел страницы для определения получателя"
+    }
+  }
+}

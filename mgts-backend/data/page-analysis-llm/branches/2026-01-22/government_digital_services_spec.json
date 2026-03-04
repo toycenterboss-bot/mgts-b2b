@@ -1,0 +1,521 @@
+{
+  "page": {
+    "slug": "government_digital_services",
+    "url": "https://business.mgts.ru/government/digital_services",
+    "pathname": "/government/digital_services",
+    "analyzedAt": "2026-01-15T09:31:34.495Z",
+    "screenshot": "/Users/andrey_efremov/Downloads/runs/mgts-backend/temp/page-analysis-llm/government_digital_services_screenshot.png",
+    "llmProvider": "perplexity",
+    "llmModel": "sonar"
+  },
+  "metadata": {
+    "title": "Цифровые сервисы"
+  },
+  "sections": [
+    {
+      "sectionIndex": 1,
+      "type": "hero",
+      "description": "Главный заголовок страницы",
+      "title": "Цифровые сервисы",
+      "subtitle": "",
+      "text": "Полный пакет услуг по созданию сетей связи бюджетных и государственных организаций",
+      "elements": [],
+      "images": [],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [],
+      "tabs": [],
+      "table": null
+    },
+    {
+      "sectionIndex": 2,
+      "type": "section-header",
+      "description": "Основной заголовок страницы с описанием услуги видеонаблюдения. Представляет главное предложение компании для государственных организаций.",
+      "title": "Видеонаблюдение",
+      "subtitle": null,
+      "text": "Полный пакет услуг по созданию сетей связи бюджетных и государственных организаций",
+      "elements": [],
+      "images": [],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [],
+      "tabs": [],
+      "table": null
+    },
+    {
+      "sectionIndex": 3,
+      "type": "cards",
+      "description": "Сетка из трёх карточек услуг видеонаблюдения, представляющих основные предложения компании. Каждая карточка содержит иконку, заголовок, описание и является ссылкой на детальную страницу услуги.",
+      "title": "Видеонаблюдение",
+      "subtitle": null,
+      "text": null,
+      "elements": [],
+      "images": [],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [
+        {
+          "title": "Подъездное видеонаблюдение",
+          "text": "Создание и настройка системы подъездного видеонаблюдения под ключ",
+          "value": null,
+          "label": null,
+          "link": {
+            "text": "Подъездное видеонаблюдение",
+            "href": "/government/digital_services/entrance_video_surveillance",
+            "purpose": "Переход на страницу услуги подъездного видеонаблюдения"
+          }
+        },
+        {
+          "title": "Видеонаблюдение на объектах строительства",
+          "text": "Дистанционный мониторинг строительной площадки",
+          "value": null,
+          "label": null,
+          "link": {
+            "text": "Видеонаблюдение на объектах строительства",
+            "href": "/government/digital_services/video_surveillance_building",
+            "purpose": "Переход на страницу услуги видеонаблюдения на строительных объектах"
+          }
+        },
+        {
+          "title": "Техническое обслуживание системы видеонаблюдения",
+          "text": "Диагностика, ремонт, настройка и полный аудит системы",
+          "value": null,
+          "label": null,
+          "link": {
+            "text": "Техническое обслуживание системы видеонаблюдения",
+            "href": "/government/digital_services/video_surveillance_maintenance",
+            "purpose": "Переход на страницу услуги технического обслуживания видеонаблюдения"
+          }
+        }
+      ],
+      "tabs": [],
+      "table": null
+    },
+    {
+      "sectionIndex": 4,
+      "type": "cards",
+      "description": "Горизонтальный скроллируемый контейнер с карточками услуг, каждая карточка ведет на детальную страницу услуги с иконкой, заголовком и описанием. Карточки расположены в ряд с возможностью горизонтальной прокрутки.",
+      "title": "",
+      "text": "",
+      "images": [],
+      "links": {
+        "internalLinks": [
+          {
+            "text": "Оборудование",
+            "href": "/government/digital_services/equipment",
+            "purpose": "Переход на страницу с описанием оборудования для систем оповещения"
+          },
+          {
+            "text": "Сопряжение с Региональной системой оповещения г. Москвы",
+            "href": "/government/digital_services/main_and_backup_data_transmission",
+            "purpose": "Переход на страницу сопряжения с региональной системой оповещения Москвы"
+          },
+          {
+            "text": "Техническое обслуживание устройства сопряжения",
+            "href": "/government/digital_services/maintenance_interface_device",
+            "purpose": "Переход на страницу технического обслуживания устройства сопряжения"
+          },
+          {
+            "text": "Громкоговорящая связь",
+            "href": "/government/digital_services/speakerphone",
+            "purpose": "Переход на страницу услуг громкоговорящей связи"
+          }
+        ],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [
+        {
+          "title": "Оборудование",
+          "text": "Технологии для систем оповещения с цифровыми каналами передачи данных на всей территории Москвы"
+        },
+        {
+          "title": "Сопряжение с Региональной системой оповещения г. Москвы",
+          "text": "Развивайте вашу инфраструктуру на базе одной из самых обширных оптических сетей"
+        },
+        {
+          "title": "Техническое обслуживание устройства сопряжения",
+          "text": "Обеспечьте бесперебойную и надёжную работу системы оповещения 24/7"
+        },
+        {
+          "title": "Громкоговорящая связь",
+          "text": "Решение для эффективного оповещения и координации процессов на государственных объектах"
+        }
+      ],
+      "tabs": [],
+      "table": null
+    },
+    {
+      "sectionIndex": 5,
+      "type": "services",
+      "description": "Горизонтальный скроллируемый контейнер с карточками услуг. Каждая карточка содержит иконку SVG, сокращенное название услуги, описание и ведет на детальную страницу услуги. Карточки расположены в горизонтальной прокрутке для демонстрации полного спектра цифровых сервисов",
+      "title": "",
+      "subtitle": "",
+      "text": "",
+      "elements": [],
+      "images": [],
+      "links": {
+        "internalLinks": [
+          {
+            "text": "СКУД",
+            "href": "/government/digital_services/access_control_systems",
+            "purpose": "Переход на страницу системы контроля и управления доступом (СКУД) - разработка технических решений для защиты объектов"
+          },
+          {
+            "text": "АСУ",
+            "href": "/government/digital_services/automated_control_systems",
+            "purpose": "Переход на страницу автоматизированных систем управления (АСУ) - управление процессами для повышения эффективности"
+          },
+          {
+            "text": "АСКУЭ",
+            "href": "/government/digital_services/automated_system_monitoring_accounting",
+            "purpose": "Переход на страницу автоматизированной системы контроля и учета энергоресурсов (АСКУЭ)"
+          },
+          {
+            "text": "СОТ",
+            "href": "/government/digital_services/introduction_security_tv_systems",
+            "purpose": "Переход на страницу систем охранного телевидения (СОТ) - внедрение систем видеонаблюдения"
+          }
+        ],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [
+        {
+          "title": "СКУД",
+          "text": "Разработка технических решения для защиты объектов",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "СКУД",
+            "href": "/government/digital_services/access_control_systems",
+            "purpose": "Детали системы контроля доступа"
+          }
+        },
+        {
+          "title": "АСУ",
+          "text": "Управление процессами для повышения эффективности управления объектами",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "АСУ",
+            "href": "/government/digital_services/automated_control_systems",
+            "purpose": "Детали автоматизированных систем управления"
+          }
+        },
+        {
+          "title": "АСКУЭ",
+          "text": "Автоматизированная система контроля и учёта энергоресурсов",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "АСКУЭ",
+            "href": "/government/digital_services/automated_system_monitoring_accounting",
+            "purpose": "Детали системы учета энергоресурсов"
+          }
+        },
+        {
+          "title": "СОТ",
+          "text": "Внедрение систем охранного телевидения",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "СОТ",
+            "href": "/government/digital_services/introduction_security_tv_systems",
+            "purpose": "Детали систем охранного телевидения"
+          }
+        }
+      ],
+      "tabs": [],
+      "table": null
+    },
+    {
+      "sectionIndex": 7,
+      "type": "cards",
+      "description": "Блок преимуществ компании, представленный в виде карточек с описанием ключевых характеристик и опыта МГТС",
+      "cards": [
+        {
+          "title": "Опыт",
+          "text": "Мы знаем как создавать качественные инфраструктуры связи с нуля",
+          "images": [
+            {
+              "description": "Фоновое изображение карточки преимущества",
+              "position": "фон",
+              "src": "/images/1.png",
+              "alt": "Иллюстрация опыта"
+            }
+          ]
+        }
+      ],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      }
+    },
+    {
+      "sectionIndex": 8,
+      "type": "cards",
+      "description": "Блок преимуществ компании МГТС, представляющий ключные достоинства услуг. Содержит карточку с описанием индивидуального подхода к клиентам.",
+      "cards": [
+        {
+          "title": "Индивидуальный подход",
+          "text": "Специалисты МГТС готовы подобрать уникальное решение для любых задач",
+          "images": [
+            {
+              "description": "Фоновое изображение карточки преимущества",
+              "position": "фон",
+              "src": "/images/4.png",
+              "alt": "Индивидуальный подход"
+            }
+          ]
+        }
+      ],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      }
+    },
+    {
+      "sectionIndex": 9,
+      "type": "cards",
+      "description": "Блок преимуществ в виде карточек, демонстрирующий ключевые услуги цифровых сервисов для государственных органов. Карточки расположены в сетке и содержат заголовки, описательный текст и фоновые изображения.",
+      "title": "",
+      "text": "",
+      "images": [
+        {
+          "description": "Фоновое изображение для карточки 'Инфраструктура', визуализирующее инфраструктурные элементы.",
+          "position": "фон карточки",
+          "src": "/images/3.png",
+          "alt": ""
+        }
+      ],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [
+        {
+          "title": "Инфраструктура",
+          "text": "Мы гарантируем удобное размещение оборудования в наших инфраструктурных линейно-кабельных сооружениях",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "",
+            "href": "",
+            "purpose": ""
+          }
+        }
+      ]
+    },
+    {
+      "sectionIndex": 10,
+      "type": "cards",
+      "description": "Секция с карточками преимуществ услуг, показывающая ключевые особенности сервиса для пользователей государственных организаций. Карточки расположены в сетке и подчеркивают надежность и поддержку.",
+      "title": "Преимущества услуг",
+      "text": "Карточки с описанием ключевых преимуществ цифровых услуг.",
+      "cards": [
+        {
+          "title": "Поддержка 24/7",
+          "text": "Обеспечиваем круглосуточную поддержку и находим ответы на все вопросы",
+          "value": "",
+          "label": ""
+        }
+      ],
+      "images": [],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "tabs": [],
+      "table": null,
+      "elements": []
+    },
+    {
+      "sectionIndex": 11,
+      "type": "request-form",
+      "description": "Секция формы запроса с фоновым изображением, предназначенная для отправки запросов пользователями. Содержит заголовок и элементы формы для сбора данных.",
+      "title": "",
+      "subtitle": "",
+      "text": "Форма для отправки запроса на услуги.",
+      "elements": [
+        {
+          "type": "button",
+          "text": "Отправить",
+          "purpose": "Отправка формы запроса",
+          "href": ""
+        }
+      ],
+      "images": [],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [],
+      "tabs": [],
+      "table": null
+    },
+    {
+      "sectionIndex": 12,
+      "type": "sidebar",
+      "description": "Боковое навигационное меню для быстрого доступа к разделам цифровых услуг для государственных организаций. Структура включает основные разделы и подразделы с активным текущим разделом.",
+      "title": "Навигация по цифровым услугам",
+      "text": "Боковое меню с ссылками на связанные разделы сайта.",
+      "images": [],
+      "links": {
+        "internalLinks": [
+          {
+            "text": "Цифровые услуги",
+            "href": "/government/digital_services",
+            "purpose": "Переход к разделу цифровых услуг для госорганов (активный раздел)"
+          },
+          {
+            "text": "Электронный документооборот",
+            "href": "/government/electronic_document_management",
+            "purpose": "Раздел электронного документооборота"
+          },
+          {
+            "text": "Облачные сервисы",
+            "href": "/government/cloud_services",
+            "purpose": "Раздел облачных сервисов для госструктур"
+          }
+        ],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [],
+      "tabs": [],
+      "table": null,
+      "elements": []
+    },
+    {
+      "sectionIndex": 13,
+      "type": "text",
+      "description": "Блок с информацией о способах связи для предложений по сотрудничеству, содержит email-ссылку и переход к форме обратной связи",
+      "title": "",
+      "text": "Если у вас есть идеи и предложения для сотрудничества, направляйте их по адресу электронной почты: sotrudnichestvo@mgts.ru\n\nИли оставьте свои данные, мы сами свяжемся с вами",
+      "elements": [],
+      "images": [],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [],
+      "tabs": [],
+      "table": null
+    },
+    {
+      "sectionIndex": 14,
+      "type": "form",
+      "description": "Форма для оставки контактных данных потенциальных партнеров, содержит поля для ввода имени, организации, email и телефона, а также кнопку отправки и ссылку на политику обработки персональных данных",
+      "title": "",
+      "text": "Вводя данные, вы подтверждаете свое ознакомление и согласие с условиями обработки персональных данных",
+      "elements": [
+        {
+          "type": "input",
+          "label": "Ваше имя",
+          "placeholder": "Имя"
+        },
+        {
+          "type": "input",
+          "label": "Название организации",
+          "placeholder": "Организация"
+        },
+        {
+          "type": "input",
+          "label": "Ваш email",
+          "placeholder": "Email"
+        },
+        {
+          "type": "input",
+          "label": "Телефон",
+          "placeholder": "+7"
+        },
+        {
+          "type": "button",
+          "text": "Отправить",
+          "purpose": "Отправка формы с контактными данными для обратной связи",
+          "href": ""
+        }
+      ],
+      "images": [],
+      "links": {
+        "internalLinks": [
+          {
+            "text": "условиями обработки персональных данных",
+            "href": "",
+            "purpose": "Ссылка на условия обработки персональных данных (href отсутствует в предоставленном HTML)"
+          }
+        ],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [],
+      "tabs": [],
+      "table": null
+    },
+    {
+      "sectionIndex": 15,
+      "type": "cookie-banner",
+      "description": "Баннер согласия на обработку cookies и пользовательских данных, отображается в нижней части страницы",
+      "title": "",
+      "text": "Продолжая использовать наш сайт, вы даете согласие на обработку файлов Cookies и других пользовательских данных. Запретить эти действия можно в настройках браузера.",
+      "elements": [
+        {
+          "type": "button",
+          "text": "Принять",
+          "purpose": "Принятие cookies и пользовательских данных",
+          "href": ""
+        }
+      ],
+      "images": [],
+      "links": {
+        "internalLinks": [
+          {
+            "text": "Cookies",
+            "href": "/cookie_processing",
+            "purpose": "Переход на страницу политики обработки cookies"
+          },
+          {
+            "text": "Политика обработки cookies",
+            "href": "/cookie_processing",
+            "purpose": "Переход на страницу политики обработки cookies (из футера)"
+          }
+        ],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [],
+      "tabs": [],
+      "table": null
+    }
+  ]
+}

@@ -1,0 +1,263 @@
+{
+  "page": {
+    "slug": "developers_all_services",
+    "url": "https://business.mgts.ru/partners/all_services",
+    "pathname": "/partners/all_services",
+    "analyzedAt": "2026-01-13T07:29:26.000Z",
+    "screenshot": "/Users/andrey_efremov/Downloads/runs/mgts-backend/temp/page-analysis-llm/developers_all_services_screenshot.png",
+    "llmProvider": "perplexity",
+    "llmModel": "sonar"
+  },
+  "metadata": {
+    "title": "Все услуги"
+  },
+  "sections": [
+    {
+      "sectionIndex": 1,
+      "type": "breadcrumbs",
+      "description": "Навигационная цепочка (хлебные крошки) для показа текущего местоположения пользователя на сайте и быстрого возврата на предыдущие страницы",
+      "title": "",
+      "subtitle": "",
+      "text": "",
+      "elements": [],
+      "images": [],
+      "links": {
+        "internalLinks": [
+          {
+            "text": "Главная",
+            "href": "/",
+            "purpose": "Переход на главную страницу сайта"
+          },
+          {
+            "text": "Партнерам",
+            "href": "/partners",
+            "purpose": "Переход в раздел для партнеров"
+          }
+        ],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [],
+      "tabs": []
+    },
+    {
+      "sectionIndex": 2,
+      "type": "hero",
+      "description": "Главный заголовок страницы, который четко обозначает тему и назначение текущей страницы - представление всех услуг",
+      "title": "Все услуги",
+      "subtitle": "",
+      "text": "",
+      "elements": [],
+      "images": [],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [],
+      "tabs": []
+    },
+    {
+      "sectionIndex": 3,
+      "type": "tabs",
+      "description": "Переключатель категорий услуг для разных типов партнеров и клиентов. Позволяет пользователю быстро перейти к услугам, релевантным для его категории",
+      "title": "",
+      "subtitle": "",
+      "text": "",
+      "elements": [],
+      "images": [],
+      "links": {
+        "internalLinks": [
+          {
+            "text": "Операторам связи",
+            "href": "/operators/all_services",
+            "purpose": "Переход к списку услуг для операторов связи"
+          },
+          {
+            "text": "Госзаказчикам",
+            "href": "/government/all_services",
+            "purpose": "Переход к списку услуг для государственных заказчиков"
+          },
+          {
+            "text": "Застройщикам",
+            "href": "/developers/all_services",
+            "purpose": "Переход к списку услуг для застройщиков"
+          },
+          {
+            "text": "Бизнесу",
+            "href": "/business/all_services",
+            "purpose": "Переход к списку услуг для бизнеса"
+          },
+          {
+            "text": "Партнерам",
+            "href": "/partners/all_services",
+            "purpose": "Переход к списку услуг для партнеров (активный таб)"
+          }
+        ],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [],
+      "tabs": [
+        {
+          "title": "Операторам связи",
+          "isActive": false,
+          "content": {
+            "title": "",
+            "text": "[NO CONTENT] Контент не найден для таба \"Операторам связи\"",
+            "links": {
+              "internalLinks": [],
+              "externalLinks": [],
+              "fileLinks": [],
+              "imageLinks": []
+            }
+          }
+        },
+        {
+          "title": "Госзаказчикам",
+          "isActive": false,
+          "content": {
+            "title": "",
+            "text": "[NO CONTENT] Контент не найден для таба \"Госзаказчикам\"",
+            "links": {
+              "internalLinks": [],
+              "externalLinks": [],
+              "fileLinks": [],
+              "imageLinks": []
+            }
+          }
+        },
+        {
+          "title": "Застройщикам",
+          "isActive": false,
+          "content": {
+            "title": "",
+            "text": "[NO CONTENT] Контент не найден для таба \"Застройщикам\"",
+            "links": {
+              "internalLinks": [],
+              "externalLinks": [],
+              "fileLinks": [],
+              "imageLinks": []
+            }
+          }
+        },
+        {
+          "title": "Бизнесу",
+          "isActive": false,
+          "content": {
+            "title": "",
+            "text": "[NO CONTENT] Контент не найден для таба \"Бизнесу\"",
+            "links": {
+              "internalLinks": [],
+              "externalLinks": [],
+              "fileLinks": [],
+              "imageLinks": []
+            }
+          }
+        },
+        {
+          "title": "Партнерам",
+          "isActive": true,
+          "content": {
+            "title": "",
+            "text": "[NO CONTENT] Контент не найден для таба \"Партнерам\"",
+            "links": {
+              "internalLinks": [],
+              "externalLinks": [],
+              "fileLinks": [],
+              "imageLinks": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sectionIndex": 4,
+      "type": "services-cards",
+      "description": "Основной контент активного таба 'Партнерам' - вертикально прокручиваемый список карточек с услугами. Каждая карточка ведет на детальную страницу услуги и содержит название услуги с иконкой стрелки вправо",
+      "title": "",
+      "subtitle": "",
+      "text": "",
+      "elements": [],
+      "images": [],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [
+        {
+          "title": "Допуск для проведения работ на линиях и сооружениях связи",
+          "text": "",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "Допуск для проведения работ на линиях и сооружениях связи",
+            "href": "/partners/procedure_admission_work",
+            "purpose": "Переход на страницу с информацией о допуске для проведения работ на линиях связи"
+          }
+        },
+        {
+          "title": "Закупки",
+          "text": "",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "Закупки",
+            "href": "/partners/purchas",
+            "purpose": "Переход на страницу с информацией о закупках"
+          }
+        },
+        {
+          "title": "Реализация ТМЦ",
+          "text": "",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "Реализация ТМЦ",
+            "href": "/partners/realization",
+            "purpose": "Переход на страницу с информацией о реализации товарно-материальных ценностей"
+          }
+        },
+        {
+          "title": "Тарифы",
+          "text": "",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "Тарифы",
+            "href": "/partners/tariffs",
+            "purpose": "Переход на страницу с тарифами для партнеров"
+          }
+        },
+        {
+          "title": "Документация",
+          "text": "",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "Документация",
+            "href": "/partners/documents",
+            "purpose": "Переход на страницу с документацией для партнеров"
+          }
+        },
+        {
+          "title": "Рамочный договор",
+          "text": "",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "Рамочный договор",
+            "href": "/partners/ramochnie_dogovori",
+            "purpose": "Переход на страницу с рамочным договором"
+          }
+        }
+      ],
+      "tabs": []
+    }
+  ]
+}

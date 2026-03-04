@@ -1,0 +1,255 @@
+{
+  "page": {
+    "slug": "developers_connecting_objects",
+    "url": "https://business.mgts.ru/developers/connecting_objects",
+    "pathname": "/developers/connecting_objects",
+    "analyzedAt": "2026-01-13T14:14:16.550Z",
+    "screenshot": "/Users/andrey_efremov/Downloads/runs/mgts-backend/temp/page-analysis-llm/developers_connecting_objects_screenshot.png",
+    "llmProvider": "perplexity",
+    "llmModel": "sonar"
+  },
+  "metadata": {
+    "title": "Подключение объектов недвижимости к сетям связи"
+  },
+  "sections": [
+    {
+      "sectionIndex": 1,
+      "type": "breadcrumbs",
+      "description": "Навигационная цепочка (хлебные крошки) для показа текущего местоположения пользователя на сайте и удобной навигации назад по разделам",
+      "title": "",
+      "subtitle": "",
+      "text": "",
+      "elements": [],
+      "images": [],
+      "links": {
+        "internalLinks": [
+          {
+            "text": "Главная",
+            "href": "/",
+            "purpose": "Переход на главную страницу сайта"
+          },
+          {
+            "text": "Застройщикам",
+            "href": "/developers",
+            "purpose": "Переход в раздел для застройщиков"
+          }
+        ],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [],
+      "tabs": [],
+      "table": null
+    },
+    {
+      "sectionIndex": 2,
+      "type": "hero",
+      "description": "Главный герой-блок с основным заголовком страницы и описанием компании, подчеркивающий статус лидера в инфраструктуре связи",
+      "title": "Подключение объектов недвижимости к сетям связи",
+      "subtitle": "Городской инфраструктурный оператор с самой обширной оптической сетью в России",
+      "text": "",
+      "elements": [],
+      "images": [],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [],
+      "tabs": [],
+      "table": null
+    },
+    {
+      "sectionIndex": 3,
+      "type": "services",
+      "description": "Блок с прокручиваемыми карточками услуг по подключению различных типов объектов недвижимости. Каждая карточка ведет на детальную страницу услуги. Карточки расположены горизонтально в слайдере с возможностью прокрутки",
+      "title": "",
+      "subtitle": "",
+      "text": "",
+      "elements": [],
+      "images": [],
+      "links": {
+        "internalLinks": [
+          {
+            "text": "Подключение объектов строительства и реконструкции",
+            "href": "/developers/connecting_objects/connecting_construction",
+            "purpose": "Переход на страницу подключения объектов строительства и реконструкции"
+          },
+          {
+            "text": "Подключение объектов коммерческой недвижимости",
+            "href": "/developers/connecting_objects/connecting_commercial",
+            "purpose": "Переход на страницу подключения коммерческой недвижимости"
+          },
+          {
+            "text": "Подключение объектов жилой недвижимости",
+            "href": "/developers/connecting_objects/connecting_residential",
+            "purpose": "Переход на страницу подключения жилой недвижимости"
+          }
+        ],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [
+        {
+          "title": "Подключение объектов строительства и реконструкции",
+          "text": "Многоквартирные дома, жилые комплексы",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "",
+            "href": "/developers/connecting_objects/connecting_construction",
+            "purpose": "Переход на страницу услуги"
+          }
+        },
+        {
+          "title": "Подключение объектов коммерческой недвижимости",
+          "text": "Бизнес-центры, торговые центры, развлекательные комплексы и т. д.",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "",
+            "href": "/developers/connecting_objects/connecting_commercial",
+            "purpose": "Переход на страницу услуги"
+          }
+        },
+        {
+          "title": "Подключение объектов жилой недвижимости",
+          "text": "Многоквартирные дома, жилые комплексы, апартаменты",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "",
+            "href": "/developers/connecting_objects/connecting_residential",
+            "purpose": "Переход на страницу услуги"
+          }
+        }
+      ],
+      "tabs": [],
+      "table": null
+    },
+    {
+      "sectionIndex": 4,
+      "type": "advantages",
+      "description": "Блок преимуществ компании в виде сетки из 4 карточек. Каждая карточка содержит фоновое изображение, заголовок и описание преимущества. Карточки расположены в 2 ряда по 2",
+      "title": "",
+      "subtitle": "",
+      "text": "",
+      "elements": [],
+      "images": [
+        {
+          "description": "Фоновое изображение для карточки 'Индивидуальный подход' - иллюстрация персонализированного сервиса",
+          "position": "фон карточки 1",
+          "src": "/images/1.png",
+          "alt": ""
+        },
+        {
+          "description": "Фоновое изображение для карточки 'Опыт' - иллюстрация профессионализма команды",
+          "position": "фон карточки 2",
+          "src": "/images/2.png",
+          "alt": ""
+        },
+        {
+          "description": "Фоновое изображение для карточки 'Лучшие решения' - иллюстрация инновационных технологий",
+          "position": "фон карточки 3",
+          "src": "/images/3.png",
+          "alt": ""
+        },
+        {
+          "description": "Фоновое изображение для карточки 'Соблюдение нормативных актов РФ' - иллюстрация соответствия стандартам",
+          "position": "фон карточки 4",
+          "src": "/images/4.png",
+          "alt": ""
+        }
+      ],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [
+        {
+          "title": "Индивидуальный подход",
+          "text": "Мы быстро реагируем на меняющиеся потребности и чётко следуем SLA",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "",
+            "href": "",
+            "purpose": ""
+          }
+        },
+        {
+          "title": "Опыт",
+          "text": "У нашей команды есть подтвержденная экспертиза и опыт в реализации проектов с застройщиками города",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "",
+            "href": "",
+            "purpose": ""
+          }
+        },
+        {
+          "title": "Лучшие решения",
+          "text": "Разрабатываем индивидуальные комплексные решения, отвечающие потребностям заказчиков",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "",
+            "href": "",
+            "purpose": ""
+          }
+        },
+        {
+          "title": "Соблюдение нормативных актов РФ",
+          "text": "Все работы выполнены в полном соответствии с требованиями и нормами, установленными российским законодательством",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "",
+            "href": "",
+            "purpose": ""
+          }
+        }
+      ],
+      "tabs": [],
+      "table": null
+    },
+    {
+      "sectionIndex": 5,
+      "type": "request-form",
+      "description": "CTA-блок с формой заявки на подбор решения. Содержит заголовок, примечание, поля ввода и кнопку отправки. Предназначен для сбора контактных данных потенциальных клиентов",
+      "title": "ПОДОБРАТЬ РЕШЕНИЕ",
+      "subtitle": "¬ связаться с нами",
+      "text": "Вводя данные, вы подтверждаете свое ознакомление и согласие с условиями обработки персональных данных",
+      "elements": [
+        {
+          "type": "button",
+          "text": "Отправить",
+          "purpose": "Отправка формы заявки на подбор решения",
+          "href": ""
+        }
+      ],
+      "images": [],
+      "links": {
+        "internalLinks": [
+          {
+            "text": "условиями обработки персональных данных",
+            "href": "",
+            "purpose": "Ссылка на политику обработки персональных данных (href отсутствует в HTML)"
+          }
+        ],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [],
+      "tabs": [],
+      "table": null
+    }
+  ]
+}

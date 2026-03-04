@@ -1,0 +1,185 @@
+{
+  "total": 42,
+  "needsFix": [
+    {
+      "slug": "business",
+      "title": "Услуги для бизнеса - МГТС Бизнес",
+      "issues": [
+        "Контент вне секций (требуется обертка)"
+      ],
+      "hasHeroContent": false,
+      "sectionsCount": 4,
+      "wrongClasses": [],
+      "missingContainers": [],
+      "specialSections": 1,
+      "regularSections": 3
+    }
+  ],
+  "ok": [
+    {
+      "slug": "index",
+      "title": "МГТС Бизнес - Цифровые решения для вашего бизнеса"
+    },
+    {
+      "slug": "business/telephony",
+      "title": "Корпоративная телефония - МГТС Бизнес"
+    },
+    {
+      "slug": "about/values",
+      "title": "Ценности МГТС - О компании - МГТС Бизнес"
+    },
+    {
+      "slug": "about/ethics/single-hotline",
+      "title": "Единая горячая линия - Деловая этика - О компании - МГТС Бизнес"
+    },
+    {
+      "slug": "about/governance/documents",
+      "title": "Корпоративные документы - Корпоративное управление - О компании - МГТС Бизнес"
+    },
+    {
+      "slug": "about/governance",
+      "title": "Корпоративное управление - О компании - МГТС Бизнес"
+    },
+    {
+      "slug": "about/governance/infoformen",
+      "title": "Раскрытие информации - Корпоративное управление - О компании - МГТС Бизнес"
+    },
+    {
+      "slug": "about/governance/principles",
+      "title": "Принципы корпоративного управления - Корпоративное управление - О компании - МГТС Бизнес"
+    },
+    {
+      "slug": "about/governance/registrar",
+      "title": "О регистраторе - Корпоративное управление - О компании - МГТС Бизнес"
+    },
+    {
+      "slug": "about/governance/shareholders",
+      "title": "Решения собраний акционеров - Корпоративное управление - О компании - МГТС Бизнес"
+    },
+    {
+      "slug": "business/cloud",
+      "title": "Облачные решения - МГТС Бизнес"
+    },
+    {
+      "slug": "business/security",
+      "title": "Безопасность - МГТС Бизнес"
+    },
+    {
+      "slug": "business/tv",
+      "title": "Цифровое телевидение - МГТС Бизнес"
+    },
+    {
+      "slug": "contacts",
+      "title": "Контакты - МГТС Бизнес"
+    },
+    {
+      "slug": "about",
+      "title": "О компании - МГТС Бизнес"
+    },
+    {
+      "slug": "about/ethics",
+      "title": "Деловая этика и комплаенс - О компании - МГТС Бизнес"
+    },
+    {
+      "slug": "about/ethics/compliance-policies",
+      "title": "Политики комплаенса - Деловая этика - О компании - МГТС Бизнес"
+    },
+    {
+      "slug": "about/ethics/general-director-message",
+      "title": "Обращение генерального директора - Деловая этика - О компании - МГТС Бизнес"
+    },
+    {
+      "slug": "about/ethics/interaction-partners",
+      "title": "Взаимодействие с партнерами - Деловая этика - О компании - МГТС Бизнес"
+    },
+    {
+      "slug": "about/ethics/partners-feedback",
+      "title": "Обратная связь от партнеров - Деловая этика - О компании - МГТС Бизнес"
+    },
+    {
+      "slug": "business/internet/gpon",
+      "title": "GPON для бизнеса - МГТС Бизнес"
+    },
+    {
+      "slug": "business/internet/dedicated",
+      "title": "Выделенный интернет для бизнеса - МГТС Бизнес"
+    },
+    {
+      "slug": "business/internet/office",
+      "title": "Офисный интернет - МГТС Бизнес"
+    },
+    {
+      "slug": "business/telephony/fixed",
+      "title": "Фиксированная телефония - МГТС Бизнес"
+    },
+    {
+      "slug": "business/telephony/ip",
+      "title": "IP-телефония - МГТС Бизнес"
+    },
+    {
+      "slug": "business/telephony/vpbx",
+      "title": "Виртуальная АТС - МГТС Бизнес"
+    },
+    {
+      "slug": "business/telephony/mobile",
+      "title": "Корпоративная мобильная связь - МГТС Бизнес"
+    },
+    {
+      "slug": "business/security/access-control",
+      "title": "Контроль доступа - МГТС Бизнес"
+    },
+    {
+      "slug": "business/security/alarm",
+      "title": "Охранная сигнализация - МГТС Бизнес"
+    },
+    {
+      "slug": "business/cloud/storage",
+      "title": "Облачное хранилище - МГТС Бизнес"
+    },
+    {
+      "slug": "business/cloud/services",
+      "title": "Облачные сервисы - МГТС Бизнес"
+    },
+    {
+      "slug": "business/tv/iptv",
+      "title": "IPTV для бизнеса - МГТС Бизнес"
+    },
+    {
+      "slug": "business/tv/office",
+      "title": "Корпоративное ТВ - МГТС Бизнес"
+    },
+    {
+      "slug": "business/internet",
+      "title": "Интернет для бизнеса - МГТС Бизнес"
+    },
+    {
+      "slug": "business/cloud/vps",
+      "title": "Виртуальные серверы - МГТС Бизнес"
+    },
+    {
+      "slug": "business/security/video-surveillance",
+      "title": "Видеонаблюдение - МГТС Бизнес"
+    },
+    {
+      "slug": "developers",
+      "title": "Услуги для застройщиков - МГТС Бизнес"
+    },
+    {
+      "slug": "government",
+      "title": "Услуги для госсектора - МГТС Бизнес"
+    },
+    {
+      "slug": "operators",
+      "title": "Услуги для операторов - МГТС Бизнес"
+    },
+    {
+      "slug": "partners",
+      "title": "Партнерская программа - МГТС Бизнес"
+    },
+    {
+      "slug": "main_page",
+      "title": "Главная страница"
+    }
+  ],
+  "noContent": []
+}

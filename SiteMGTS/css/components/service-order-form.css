@@ -1,0 +1,1025 @@
+/* ============================================
+   SERVICE-ORDER-FORM
+   ============================================ */
+
+/* Генерировано на основе семантического анализа */
+/* Дата: 2026-01-09T15:41:02.775Z */
+
+/* Элемент формы ввода данных */
+.service-order-form__field-wrapper {
+  display: block;
+  margin-bottom: var(--spacing-md, 1rem);
+}
+
+.service-order-form__field-wrapper input,
+.service-order-form__field-wrapper select,
+.service-order-form__field-wrapper textarea {
+  width: 100%;
+  padding: var(--spacing-sm, 0.75rem);
+  border: 1px solid var(--color-gray-300, #d1d5db);
+  border-radius: var(--radius-md, 0.375rem);
+  font-size: 1rem;
+}
+
+.service-order-form__field-wrapper input:focus,
+.service-order-form__field-wrapper select:focus,
+.service-order-form__field-wrapper textarea:focus {
+  outline: none;
+  border-color: var(--color-primary, #0066cc);
+  box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.1);
+}
+
+/* Общий элемент компонента */
+.service-order-form__label {
+  display: block;
+}
+
+/* Элемент формы ввода данных */
+.service-order-form__input-wrapper {
+  display: block;
+  margin-bottom: var(--spacing-md, 1rem);
+}
+
+.service-order-form__input-wrapper input,
+.service-order-form__input-wrapper select,
+.service-order-form__input-wrapper textarea {
+  width: 100%;
+  padding: var(--spacing-sm, 0.75rem);
+  border: 1px solid var(--color-gray-300, #d1d5db);
+  border-radius: var(--radius-md, 0.375rem);
+  font-size: 1rem;
+}
+
+.service-order-form__input-wrapper input:focus,
+.service-order-form__input-wrapper select:focus,
+.service-order-form__input-wrapper textarea:focus {
+  outline: none;
+  border-color: var(--color-primary, #0066cc);
+  box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.1);
+}
+
+/* Элемент формы ввода данных */
+.service-order-form__input {
+  display: block;
+  margin-bottom: var(--spacing-md, 1rem);
+}
+
+.service-order-form__input input,
+.service-order-form__input select,
+.service-order-form__input textarea {
+  width: 100%;
+  padding: var(--spacing-sm, 0.75rem);
+  border: 1px solid var(--color-gray-300, #d1d5db);
+  border-radius: var(--radius-md, 0.375rem);
+  font-size: 1rem;
+}
+
+.service-order-form__input input:focus,
+.service-order-form__input select:focus,
+.service-order-form__input textarea:focus {
+  outline: none;
+  border-color: var(--color-primary, #0066cc);
+  box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.1);
+}
+
+/* Элемент формы ввода данных */
+.service-order-form__field-wrapper--xl {
+  display: block;
+  margin-bottom: var(--spacing-md, 1rem);
+  width: 100%;
+  padding: var(--spacing-xl, 2rem);
+}
+
+.service-order-form__field-wrapper--xl input,
+.service-order-form__field-wrapper--xl select,
+.service-order-form__field-wrapper--xl textarea {
+  width: 100%;
+  padding: var(--spacing-sm, 0.75rem);
+  border: 1px solid var(--color-gray-300, #d1d5db);
+  border-radius: var(--radius-md, 0.375rem);
+  font-size: 1rem;
+}
+
+.service-order-form__field-wrapper--xl input:focus,
+.service-order-form__field-wrapper--xl select:focus,
+.service-order-form__field-wrapper--xl textarea:focus {
+  outline: none;
+  border-color: var(--color-primary, #0066cc);
+  box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.1);
+}
+
+/* Элемент формы ввода данных */
+.service-order-form__input--white {
+  display: block;
+  margin-bottom: var(--spacing-md, 1rem);
+}
+
+.service-order-form__input--white input,
+.service-order-form__input--white select,
+.service-order-form__input--white textarea {
+  width: 100%;
+  padding: var(--spacing-sm, 0.75rem);
+  border: 1px solid var(--color-gray-300, #d1d5db);
+  border-radius: var(--radius-md, 0.375rem);
+  font-size: 1rem;
+}
+
+.service-order-form__input--white input:focus,
+.service-order-form__input--white select:focus,
+.service-order-form__input--white textarea:focus {
+  outline: none;
+  border-color: var(--color-primary, #0066cc);
+  box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.1);
+}
+
+/* Основной текстовый контент */
+.service-order-form__text {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-gray-700, #374151);
+  margin-bottom: var(--spacing-md, 1rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+.service-order-form__text a {
+  color: var(--color-primary, #0066cc);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.service-order-form__text a:hover {
+  color: var(--color-primary-dark, #0052a3);
+  text-decoration: underline;
+}
+
+/* Элемент формы ввода данных */
+.service-order-form__form-row {
+  display: block;
+  margin-bottom: var(--spacing-md, 1rem);
+}
+
+.service-order-form__form-row input,
+.service-order-form__form-row select,
+.service-order-form__form-row textarea {
+  width: 100%;
+  padding: var(--spacing-sm, 0.75rem);
+  border: 1px solid var(--color-gray-300, #d1d5db);
+  border-radius: var(--radius-md, 0.375rem);
+  font-size: 1rem;
+}
+
+.service-order-form__form-row input:focus,
+.service-order-form__form-row select:focus,
+.service-order-form__form-row textarea:focus {
+  outline: none;
+  border-color: var(--color-primary, #0066cc);
+  box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.1);
+}
+
+/* Интерактивная кнопка для действий */
+.service-order-form__button {
+  display: flex;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.service-order-form__button:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+/* Интерактивная кнопка для действий */
+.service-order-form__button--primary {
+  display: flex;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.service-order-form__button--primary:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+/* Интерактивная кнопка для действий */
+.service-order-form__button--large {
+  display: flex;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  width: 100%;
+  padding: var(--spacing-xl, 2rem);
+}
+
+.service-order-form__button--large:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+/* Основной текстовый контент */
+.service-order-form__button-text {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-gray-700, #374151);
+  margin-bottom: var(--spacing-md, 1rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+/* Общий элемент компонента */
+.service-order-form__header {
+  display: block;
+}
+
+/* Заголовок секции или подраздела */
+.service-order-form__header-title {
+  display: block;
+  font-size: clamp(1.75rem, 3vw, 2.25rem);
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--color-gray-900, #111827);
+  margin-bottom: var(--spacing-lg, 1.5rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+/* Общий элемент компонента */
+.service-order-form__header-note {
+  display: block;
+}
+
+/* Элемент формы ввода данных */
+.service-order-form__form {
+  display: block;
+  margin-bottom: var(--spacing-md, 1rem);
+}
+
+.service-order-form__form a {
+  color: var(--color-primary, #0066cc);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.service-order-form__form a:hover {
+  color: var(--color-primary-dark, #0052a3);
+  text-decoration: underline;
+}
+
+.service-order-form__form:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+.service-order-form__form input,
+.service-order-form__form select,
+.service-order-form__form textarea {
+  width: 100%;
+  padding: var(--spacing-sm, 0.75rem);
+  border: 1px solid var(--color-gray-300, #d1d5db);
+  border-radius: var(--radius-md, 0.375rem);
+  font-size: 1rem;
+}
+
+.service-order-form__form input:focus,
+.service-order-form__form select:focus,
+.service-order-form__form textarea:focus {
+  outline: none;
+  border-color: var(--color-primary, #0066cc);
+  box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.1);
+}
+
+/* Общий элемент компонента */
+.service-order-form__contacts-column {
+  display: block;
+}
+
+.service-order-form__contacts-column a {
+  color: var(--color-primary, #0066cc);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.service-order-form__contacts-column a:hover {
+  color: var(--color-primary-dark, #0052a3);
+  text-decoration: underline;
+}
+
+/* Заголовок секции или подраздела */
+.service-order-form__contacts-column-title {
+  display: block;
+  font-size: clamp(1.75rem, 3vw, 2.25rem);
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--color-gray-900, #111827);
+  margin-bottom: var(--spacing-lg, 1.5rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+/* Основной текстовый контент */
+.service-order-form__contacts-column-text {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-gray-700, #374151);
+  margin-bottom: var(--spacing-md, 1rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+.service-order-form__contacts-column-text a {
+  color: var(--color-primary, #0066cc);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.service-order-form__contacts-column-text a:hover {
+  color: var(--color-primary-dark, #0052a3);
+  text-decoration: underline;
+}
+
+/* Основной текстовый контент */
+.service-order-form__text-box {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-gray-700, #374151);
+  margin-bottom: var(--spacing-md, 1rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+.service-order-form__text-box a {
+  color: var(--color-primary, #0066cc);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.service-order-form__text-box a:hover {
+  color: var(--color-primary-dark, #0052a3);
+  text-decoration: underline;
+}
+
+/* Общий элемент компонента */
+.service-order-form__contacts {
+  display: block;
+}
+
+.service-order-form__contacts a {
+  color: var(--color-primary, #0066cc);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.service-order-form__contacts a:hover {
+  color: var(--color-primary-dark, #0052a3);
+  text-decoration: underline;
+}
+
+/* Заголовок секции или подраздела */
+.service-order-form__title {
+  display: block;
+  font-size: clamp(1.75rem, 3vw, 2.25rem);
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--color-gray-900, #111827);
+  margin-bottom: var(--spacing-lg, 1.5rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+/* Заголовок секции или подраздела */
+.service-order-form__header-title-content {
+  display: block;
+  font-size: clamp(1.75rem, 3vw, 2.25rem);
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--color-gray-900, #111827);
+  margin-bottom: var(--spacing-lg, 1.5rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+/* Основной текстовый контент */
+.service-order-form__content--narrow {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-gray-700, #374151);
+  margin-bottom: var(--spacing-md, 1rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+.service-order-form__content--narrow a {
+  color: var(--color-primary, #0066cc);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.service-order-form__content--narrow a:hover {
+  color: var(--color-primary-dark, #0052a3);
+  text-decoration: underline;
+}
+
+/* Общий элемент компонента */
+.service-order-form__checkbox {
+  display: block;
+}
+
+.service-order-form__checkbox input,
+.service-order-form__checkbox select,
+.service-order-form__checkbox textarea {
+  width: 100%;
+  padding: var(--spacing-sm, 0.75rem);
+  border: 1px solid var(--color-gray-300, #d1d5db);
+  border-radius: var(--radius-md, 0.375rem);
+  font-size: 1rem;
+}
+
+.service-order-form__checkbox input:focus,
+.service-order-form__checkbox select:focus,
+.service-order-form__checkbox textarea:focus {
+  outline: none;
+  border-color: var(--color-primary, #0066cc);
+  box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.1);
+}
+
+/* Элемент формы ввода данных */
+.service-order-form__checkbox-input {
+  display: block;
+  margin-bottom: var(--spacing-md, 1rem);
+}
+
+.service-order-form__checkbox-input input,
+.service-order-form__checkbox-input select,
+.service-order-form__checkbox-input textarea {
+  width: 100%;
+  padding: var(--spacing-sm, 0.75rem);
+  border: 1px solid var(--color-gray-300, #d1d5db);
+  border-radius: var(--radius-md, 0.375rem);
+  font-size: 1rem;
+}
+
+.service-order-form__checkbox-input input:focus,
+.service-order-form__checkbox-input select:focus,
+.service-order-form__checkbox-input textarea:focus {
+  outline: none;
+  border-color: var(--color-primary, #0066cc);
+  box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.1);
+}
+
+/* Общий элемент компонента */
+.service-order-form__checkbox-style {
+  display: block;
+}
+
+/* Общий элемент компонента */
+.service-order-form__checkbox-label {
+  display: block;
+}
+
+/* Общий элемент компонента */
+.service-order-form__info-row {
+  display: block;
+}
+
+/* Заголовок секции или подраздела */
+.service-order-form__info-row-title {
+  display: block;
+  font-size: clamp(1.75rem, 3vw, 2.25rem);
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--color-gray-900, #111827);
+  margin-bottom: var(--spacing-lg, 1.5rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+/* Основной текстовый контент */
+.service-order-form__text--medium {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-gray-700, #374151);
+  margin-bottom: var(--spacing-md, 1rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+/* Основной текстовый контент */
+.service-order-form__info-row-text {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-gray-700, #374151);
+  margin-bottom: var(--spacing-md, 1rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+/* Общий элемент компонента */
+.service-order-form__lk-section {
+  display: block;
+}
+
+.service-order-form__lk-section:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+/* Изображение или медиа-контент */
+.service-order-form__lk-qr-img {
+  display: block;
+}
+
+/* Интерактивная кнопка для действий */
+.service-order-form__lk-button-box {
+  display: flex;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.service-order-form__lk-button-box:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+/* Интерактивная кнопка для действий */
+.service-order-form__lk-button-box-label {
+  display: flex;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+/* Элемент формы ввода данных */
+.service-order-form__field-wrapper--large {
+  display: block;
+  margin-bottom: var(--spacing-md, 1rem);
+  width: 100%;
+  padding: var(--spacing-xl, 2rem);
+}
+
+.service-order-form__field-wrapper--large input,
+.service-order-form__field-wrapper--large select,
+.service-order-form__field-wrapper--large textarea {
+  width: 100%;
+  padding: var(--spacing-sm, 0.75rem);
+  border: 1px solid var(--color-gray-300, #d1d5db);
+  border-radius: var(--radius-md, 0.375rem);
+  font-size: 1rem;
+}
+
+.service-order-form__field-wrapper--large input:focus,
+.service-order-form__field-wrapper--large select:focus,
+.service-order-form__field-wrapper--large textarea:focus {
+  outline: none;
+  border-color: var(--color-primary, #0066cc);
+  box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.1);
+}
+
+/* Элемент формы ввода данных */
+.service-order-form__input--gray {
+  display: block;
+  margin-bottom: var(--spacing-md, 1rem);
+}
+
+.service-order-form__input--gray input,
+.service-order-form__input--gray select,
+.service-order-form__input--gray textarea {
+  width: 100%;
+  padding: var(--spacing-sm, 0.75rem);
+  border: 1px solid var(--color-gray-300, #d1d5db);
+  border-radius: var(--radius-md, 0.375rem);
+  font-size: 1rem;
+}
+
+.service-order-form__input--gray input:focus,
+.service-order-form__input--gray select:focus,
+.service-order-form__input--gray textarea:focus {
+  outline: none;
+  border-color: var(--color-primary, #0066cc);
+  box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.1);
+}
+
+/* Общий элемент компонента */
+.service-order-form__select {
+  display: block;
+}
+
+/* Общий элемент компонента */
+.service-order-form__select-placeholder {
+  display: block;
+}
+
+/* Общий элемент компонента */
+.service-order-form__select-chevron {
+  display: block;
+}
+
+/* Основной текстовый контент */
+.service-order-form__header-description {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-gray-700, #374151);
+  margin-bottom: var(--spacing-md, 1rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+/* Общий элемент компонента */
+.service-order-form__drag-drop {
+  display: block;
+}
+
+.service-order-form__drag-drop input,
+.service-order-form__drag-drop select,
+.service-order-form__drag-drop textarea {
+  width: 100%;
+  padding: var(--spacing-sm, 0.75rem);
+  border: 1px solid var(--color-gray-300, #d1d5db);
+  border-radius: var(--radius-md, 0.375rem);
+  font-size: 1rem;
+}
+
+.service-order-form__drag-drop input:focus,
+.service-order-form__drag-drop select:focus,
+.service-order-form__drag-drop textarea:focus {
+  outline: none;
+  border-color: var(--color-primary, #0066cc);
+  box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.1);
+}
+
+/* Элемент списка */
+.service-order-form__drag-drop-item {
+  display: list-item;
+}
+
+.service-order-form__drag-drop-item input,
+.service-order-form__drag-drop-item select,
+.service-order-form__drag-drop-item textarea {
+  width: 100%;
+  padding: var(--spacing-sm, 0.75rem);
+  border: 1px solid var(--color-gray-300, #d1d5db);
+  border-radius: var(--radius-md, 0.375rem);
+  font-size: 1rem;
+}
+
+.service-order-form__drag-drop-item input:focus,
+.service-order-form__drag-drop-item select:focus,
+.service-order-form__drag-drop-item textarea:focus {
+  outline: none;
+  border-color: var(--color-primary, #0066cc);
+  box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.1);
+}
+
+/* Интерактивная кнопка для действий */
+.service-order-form__drag-drop-button {
+  display: flex;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.service-order-form__drag-drop-button input,
+.service-order-form__drag-drop-button select,
+.service-order-form__drag-drop-button textarea {
+  width: 100%;
+  padding: var(--spacing-sm, 0.75rem);
+  border: 1px solid var(--color-gray-300, #d1d5db);
+  border-radius: var(--radius-md, 0.375rem);
+  font-size: 1rem;
+}
+
+.service-order-form__drag-drop-button input:focus,
+.service-order-form__drag-drop-button select:focus,
+.service-order-form__drag-drop-button textarea:focus {
+  outline: none;
+  border-color: var(--color-primary, #0066cc);
+  box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.1);
+}
+
+/* Элемент формы ввода данных */
+.service-order-form__drag-drop-input {
+  display: block;
+  margin-bottom: var(--spacing-md, 1rem);
+}
+
+.service-order-form__drag-drop-input input,
+.service-order-form__drag-drop-input select,
+.service-order-form__drag-drop-input textarea {
+  width: 100%;
+  padding: var(--spacing-sm, 0.75rem);
+  border: 1px solid var(--color-gray-300, #d1d5db);
+  border-radius: var(--radius-md, 0.375rem);
+  font-size: 1rem;
+}
+
+.service-order-form__drag-drop-input input:focus,
+.service-order-form__drag-drop-input select:focus,
+.service-order-form__drag-drop-input textarea:focus {
+  outline: none;
+  border-color: var(--color-primary, #0066cc);
+  box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.1);
+}
+
+/* Основной текстовый контент */
+.service-order-form__drag-drop-description {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-gray-700, #374151);
+  margin-bottom: var(--spacing-md, 1rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+/* Общий элемент компонента */
+.service-order-form__label--optional {
+  display: block;
+}
+
+/* Заголовок секции или подраздела */
+.service-order-form__title-wrapper {
+  display: block;
+  font-size: clamp(1.75rem, 3vw, 2.25rem);
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--color-gray-900, #111827);
+  margin-bottom: var(--spacing-lg, 1.5rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+/* Основной текстовый контент */
+.service-order-form__description {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-gray-700, #374151);
+  margin-bottom: var(--spacing-md, 1rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+/* Заголовок секции или подраздела */
+.service-order-form__subtitle {
+  display: block;
+  font-size: clamp(1.25rem, 2vw, 1.5rem);
+  font-weight: 500;
+  line-height: 1.3;
+  color: var(--color-gray-800, #1f2937);
+  margin-bottom: var(--spacing-lg, 1.5rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+/* Общий элемент компонента */
+.service-order-form__upload-completed {
+  display: block;
+}
+
+.service-order-form__upload-completed:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+.service-order-form__upload-completed input,
+.service-order-form__upload-completed select,
+.service-order-form__upload-completed textarea {
+  width: 100%;
+  padding: var(--spacing-sm, 0.75rem);
+  border: 1px solid var(--color-gray-300, #d1d5db);
+  border-radius: var(--radius-md, 0.375rem);
+  font-size: 1rem;
+}
+
+.service-order-form__upload-completed input:focus,
+.service-order-form__upload-completed select:focus,
+.service-order-form__upload-completed textarea:focus {
+  outline: none;
+  border-color: var(--color-primary, #0066cc);
+  box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.1);
+}
+
+/* Элемент формы ввода данных */
+.service-order-form__field-wrapper--small {
+  display: block;
+  margin-bottom: var(--spacing-md, 1rem);
+}
+
+.service-order-form__field-wrapper--small input,
+.service-order-form__field-wrapper--small select,
+.service-order-form__field-wrapper--small textarea {
+  width: 100%;
+  padding: var(--spacing-sm, 0.75rem);
+  border: 1px solid var(--color-gray-300, #d1d5db);
+  border-radius: var(--radius-md, 0.375rem);
+  font-size: 1rem;
+}
+
+.service-order-form__field-wrapper--small input:focus,
+.service-order-form__field-wrapper--small select:focus,
+.service-order-form__field-wrapper--small textarea:focus {
+  outline: none;
+  border-color: var(--color-primary, #0066cc);
+  box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.1);
+}
+
+/* Основной текстовый контент */
+.service-order-form__contacts-column-description {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-gray-700, #374151);
+  margin-bottom: var(--spacing-md, 1rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+/* Общий элемент компонента */
+.service-order-form__underline {
+  display: block;
+}
+
+.service-order-form__underline a {
+  color: var(--color-primary, #0066cc);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.service-order-form__underline a:hover {
+  color: var(--color-primary-dark, #0052a3);
+  text-decoration: underline;
+}
+
+/* Основной текстовый контент */
+.service-order-form__textarea-wrapper {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-gray-700, #374151);
+  margin-bottom: var(--spacing-md, 1rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+.service-order-form__textarea-wrapper input,
+.service-order-form__textarea-wrapper select,
+.service-order-form__textarea-wrapper textarea {
+  width: 100%;
+  padding: var(--spacing-sm, 0.75rem);
+  border: 1px solid var(--color-gray-300, #d1d5db);
+  border-radius: var(--radius-md, 0.375rem);
+  font-size: 1rem;
+}
+
+.service-order-form__textarea-wrapper input:focus,
+.service-order-form__textarea-wrapper select:focus,
+.service-order-form__textarea-wrapper textarea:focus {
+  outline: none;
+  border-color: var(--color-primary, #0066cc);
+  box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.1);
+}
+
+/* Основной текстовый контент */
+.service-order-form__textarea--medium {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-gray-700, #374151);
+  margin-bottom: var(--spacing-md, 1rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+.service-order-form__textarea--medium input,
+.service-order-form__textarea--medium select,
+.service-order-form__textarea--medium textarea {
+  width: 100%;
+  padding: var(--spacing-sm, 0.75rem);
+  border: 1px solid var(--color-gray-300, #d1d5db);
+  border-radius: var(--radius-md, 0.375rem);
+  font-size: 1rem;
+}
+
+.service-order-form__textarea--medium input:focus,
+.service-order-form__textarea--medium select:focus,
+.service-order-form__textarea--medium textarea:focus {
+  outline: none;
+  border-color: var(--color-primary, #0066cc);
+  box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.1);
+}
+
+/* Основной текстовый контент */
+.service-order-form__textarea--gray {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-gray-700, #374151);
+  margin-bottom: var(--spacing-md, 1rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+.service-order-form__textarea--gray input,
+.service-order-form__textarea--gray select,
+.service-order-form__textarea--gray textarea {
+  width: 100%;
+  padding: var(--spacing-sm, 0.75rem);
+  border: 1px solid var(--color-gray-300, #d1d5db);
+  border-radius: var(--radius-md, 0.375rem);
+  font-size: 1rem;
+}
+
+.service-order-form__textarea--gray input:focus,
+.service-order-form__textarea--gray select:focus,
+.service-order-form__textarea--gray textarea:focus {
+  outline: none;
+  border-color: var(--color-primary, #0066cc);
+  box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.1);
+}
+
+/* Основной текстовый контент */
+.service-order-form__textarea {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-gray-700, #374151);
+  margin-bottom: var(--spacing-md, 1rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+.service-order-form__textarea input,
+.service-order-form__textarea select,
+.service-order-form__textarea textarea {
+  width: 100%;
+  padding: var(--spacing-sm, 0.75rem);
+  border: 1px solid var(--color-gray-300, #d1d5db);
+  border-radius: var(--radius-md, 0.375rem);
+  font-size: 1rem;
+}
+
+.service-order-form__textarea input:focus,
+.service-order-form__textarea select:focus,
+.service-order-form__textarea textarea:focus {
+  outline: none;
+  border-color: var(--color-primary, #0066cc);
+  box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.1);
+}
+
+/* Основной текстовый контент */
+.service-order-form__textarea-description {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-gray-700, #374151);
+  margin-bottom: var(--spacing-md, 1rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+/* Элемент формы ввода данных */
+.service-order-form__field-wrapper--medium {
+  display: block;
+  margin-bottom: var(--spacing-md, 1rem);
+}
+
+.service-order-form__field-wrapper--medium input,
+.service-order-form__field-wrapper--medium select,
+.service-order-form__field-wrapper--medium textarea {
+  width: 100%;
+  padding: var(--spacing-sm, 0.75rem);
+  border: 1px solid var(--color-gray-300, #d1d5db);
+  border-radius: var(--radius-md, 0.375rem);
+  font-size: 1rem;
+}
+
+.service-order-form__field-wrapper--medium input:focus,
+.service-order-form__field-wrapper--medium select:focus,
+.service-order-form__field-wrapper--medium textarea:focus {
+  outline: none;
+  border-color: var(--color-primary, #0066cc);
+  box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.1);
+}
+

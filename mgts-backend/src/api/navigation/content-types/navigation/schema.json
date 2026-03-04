@@ -1,0 +1,57 @@
+{
+  "kind": "singleType",
+  "collectionName": "navigation",
+  "info": {
+    "singularName": "navigation",
+    "pluralName": "navigations",
+    "displayName": "Navigation",
+    "description": "Главное меню сайта"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false
+    },
+    "logoAlt": {
+      "type": "string",
+      "default": "МГТС"
+    },
+    "phone": {
+      "type": "string",
+      "default": "+78002500250"
+    },
+    "phoneDisplay": {
+      "type": "string",
+      "default": "8 800 250-0-250"
+    },
+    "mainMenuItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "navigation.menu-item",
+      "description": "Главное меню (структурировано)"
+    },
+    "megaMenus": {
+      "type": "component",
+      "repeatable": true,
+      "component": "navigation.mega-menu",
+      "description": "Mega-menu (структурировано)"
+    },
+    "megaMenuCta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "navigation.mega-menu-cta",
+      "description": "CTA карточка справа в mega-menu"
+    },
+    "deepNavTrees": {
+      "type": "component",
+      "repeatable": true,
+      "component": "navigation.deep-nav-tree",
+      "description": "Деревья левого меню для TPL_DeepNav (структурировано)"
+    }
+  }
+}

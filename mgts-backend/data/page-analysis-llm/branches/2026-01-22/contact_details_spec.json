@@ -1,0 +1,185 @@
+{
+  "page": {
+    "slug": "contact_details",
+    "url": "https://business.mgts.ru/contact_details",
+    "pathname": "/contact_details",
+    "analyzedAt": "2026-01-14T08:06:59.067Z",
+    "screenshot": "/Users/andrey_efremov/Downloads/runs/mgts-backend/temp/page-analysis-llm/contact_details_screenshot.png",
+    "llmProvider": "perplexity",
+    "llmModel": "sonar"
+  },
+  "metadata": {
+    "title": "Контактные данные"
+  },
+  "sections": [
+    {
+      "sectionIndex": 1,
+      "type": "breadcrumb",
+      "description": "Навигационная цепочка (breadcrumb) для ориентации пользователя на странице, показывает текущее местоположение в структуре сайта",
+      "text": "Главная > Контактные данные",
+      "links": {
+        "internalLinks": [
+          {
+            "text": "Главная",
+            "href": "/",
+            "purpose": "Ссылка на главную страницу сайта"
+          }
+        ],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      }
+    },
+    {
+      "sectionIndex": 2,
+      "type": "sidebar",
+      "description": "Боковое меню навигации с ссылками на основные разделы страницы компании",
+      "text": "Меню навигации содержит ссылки на разделы: Контактные данные (активная страница) и Банковские реквизиты",
+      "links": {
+        "internalLinks": [
+          {
+            "text": "Контактные данные",
+            "href": "/contact_details",
+            "purpose": "Ссылка на текущую страницу контактных данных (активная)"
+          },
+          {
+            "text": "Банковские реквизиты",
+            "href": "/bank_details",
+            "purpose": "Ссылка на страницу банковских реквизитов компании"
+          }
+        ],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      }
+    },
+    {
+      "sectionIndex": 3,
+      "type": "hero",
+      "description": "Заголовок страницы, представляющий основную тему контактной информации компании",
+      "title": "Контактные данные",
+      "text": "",
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      }
+    },
+    {
+      "sectionIndex": 4,
+      "type": "contact-card",
+      "description": "Основной блок с контактной информацией компании, представленный в виде карточки с серым фоном, содержит адрес, телефон, электронную почту и информацию для бизнеса",
+      "text": "Полная контактная информация ПАО МГТС для связи с компанией",
+      "cards": [
+        {
+          "title": "Адрес:",
+          "text": "127030, г. Москва, вн. тер. г. муниципальный округ Тверской, ул. Новослободская, д.29, стр.2."
+        },
+        {
+          "title": "Телефон:",
+          "text": "Единый контактный центр – 8 495 700-70-70"
+        },
+        {
+          "title": "Email:",
+          "text": "Для официальных писем юридических лиц – mgts@mgts.ru\nДля представителей СМИ – mrm.pressa@mts.ru"
+        },
+        {
+          "title": "Информация для бизнеса:",
+          "text": "Если вы хотите разместить свою рекламу на наших счетах-квитанциях – Отправьте заявку"
+        }
+      ],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [
+          {
+            "text": "mgts@mgts.ru",
+            "href": "mailto:mgts@mgts.ru",
+            "fileType": "email",
+            "purpose": "Электронная почта для официальных писем юридических лиц"
+          },
+          {
+            "text": "mrm.pressa@mts.ru",
+            "href": "mailto:mrm.pressa@mts.ru",
+            "fileType": "email",
+            "purpose": "Электронная почта для представителей СМИ"
+          }
+        ],
+        "imageLinks": []
+      }
+    },
+    {
+      "sectionIndex": 5,
+      "type": "disclaimer",
+      "description": "Информационный блок с уточнением статуса сайта и ссылкой на основной веб-адрес компании",
+      "text": "Настоящий сайт https://business.mgts.ru не является средством массовой информации\n\nСледите за нашими новостями в социальных сетях:",
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [
+          {
+            "text": "https://business.mgts.ru",
+            "href": "https://business.mgts.ru",
+            "purpose": "Ссылка на основной веб-адрес сайта компании"
+          }
+        ],
+        "fileLinks": [],
+        "imageLinks": []
+      }
+    },
+    {
+      "sectionIndex": 6,
+      "type": "social-networks",
+      "description": "Блок со ссылками на социальные сети и каналы компании МТС для следования новостями и получения информации",
+      "text": "Социальные сети и каналы связи компании МТС",
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [
+          {
+            "text": "Одноклассники (OK.ru)",
+            "href": "https://ok.ru/mts",
+            "purpose": "Официальная страница МТС в социальной сети Одноклассники"
+          },
+          {
+            "text": "ВКонтакте (VK.com)",
+            "href": "https://vk.com/mts",
+            "purpose": "Официальная страница МТС в социальной сети ВКонтакте"
+          },
+          {
+            "text": "Официальный канал МТС (Telegram)",
+            "href": "https://t.me/mtsofficial",
+            "purpose": "Официальный канал МТС в Telegram с новостями и информацией"
+          },
+          {
+            "text": "Подключение SIM-карт (Telegram Bot)",
+            "href": "https://t.me/SIM_MTS_bot",
+            "purpose": "Telegram бот для подключения SIM-карт МТС"
+          }
+        ],
+        "fileLinks": [],
+        "imageLinks": [
+          {
+            "text": "Иконка Одноклассников",
+            "href": "https://ok.ru/mts",
+            "purpose": "Логотип социальной сети Одноклассники"
+          },
+          {
+            "text": "Иконка ВКонтакте",
+            "href": "https://vk.com/mts",
+            "purpose": "Логотип социальной сети ВКонтакте"
+          },
+          {
+            "text": "Иконка Telegram официального канала",
+            "href": "https://t.me/mtsofficial",
+            "purpose": "Логотип Telegram для официального канала МТС"
+          },
+          {
+            "text": "Иконка Telegram бота подключения SIM",
+            "href": "https://t.me/SIM_MTS_bot",
+            "purpose": "Логотип Telegram для бота подключения SIM-карт"
+          }
+        ]
+      }
+    }
+  ]
+}

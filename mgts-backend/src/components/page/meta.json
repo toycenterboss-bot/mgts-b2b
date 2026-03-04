@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_page_metas",
+  "info": {
+    "displayName": "Meta",
+    "description": "Метаданные страницы"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    },
+    "keywords": {
+      "type": "string"
+    },
+    "ogImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false
+    }
+  }
+}

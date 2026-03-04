@@ -1,0 +1,2454 @@
+{
+  "totalClasses": 65,
+  "totalPages": 42,
+  "categories": {
+    "grid": [
+      {
+        "className": "grid-item",
+        "count": 37,
+        "pages": [
+          "business/telephony",
+          "about/values",
+          "business/cloud",
+          "about/ethics/partners-feedback",
+          "business/internet/gpon",
+          "business/internet/dedicated",
+          "business/internet/office",
+          "business/telephony/fixed",
+          "business/telephony/ip",
+          "business/telephony/vpbx",
+          "business/telephony/mobile",
+          "business/cloud/storage",
+          "business/tv/iptv",
+          "business/security/video-surveillance",
+          "main_page"
+        ],
+        "contexts": [
+          "section"
+        ],
+        "examples": [
+          " МГТС</h2>         <div class=\"grid\">             <div class=\"grid-item\">                 <h3>Экономия</h3>                 <p>Снижение расходов на св",
+          "а связь до 50%</p>             </div>             <div class=\"grid-item\">                 <h3>Масштабируемость</h3>                 <p>Легко добавлять",
+          "мера и функции</p>             </div>             <div class=\"grid-item\">                 <h3>Интеграция</h3>                 <p>Интеграция с CRM и др",
+          "iv> <h2>Как мы работаем</h2> <div class=\"grid\">   <div class=\"grid-item\">     <h3>Понимание</h3>     <p>1                         Понимание           ",
+          "тей клиента и его бизнес-процессов</p>   </div>   <div class=\"grid-item\">     <h3>Решение</h3>     <p>2                         Решение               "
+        ]
+      },
+      {
+        "className": "grid",
+        "count": 26,
+        "pages": [
+          "business/telephony",
+          "about/values",
+          "business/cloud",
+          "business/internet/gpon",
+          "business/internet/dedicated",
+          "business/internet/office",
+          "business/telephony/fixed",
+          "business/telephony/ip",
+          "business/telephony/vpbx",
+          "business/telephony/mobile",
+          "business/cloud/storage",
+          "business/tv/iptv",
+          "business/security/video-surveillance",
+          "business",
+          "developers",
+          "government",
+          "operators",
+          "partners",
+          "main_page"
+        ],
+        "contexts": [
+          "section"
+        ],
+        "examples": [
+          "itle\">Услуги корпоративной телефонии</h2>         <div class=\"grid\">             <div class=\"card\">                 <h3>Фиксированная телефония</h3>  ",
+          "ущества корпоративной телефонии МГТС</h2>         <div class=\"grid\">             <div class=\"grid-item\">                 <h3>Экономия</h3>            ",
+          "дому запросу.</p> </div> <h2>Как мы работаем</h2> <div class=\"grid\">   <div class=\"grid-item\">     <h3>Понимание</h3>     <p>1                        ",
+          "/div> <h2>Преимущества облачных решений МГТС</h2> <div class=\"grid\">   <div class=\"grid-item\">     <h3>Масштабируемость</h3>     <p>📈                ",
+          "/Старый блок тарифов --> <h2>Что такое GPON?</h2> <div class=\"grid\">   <div class=\"grid-item\">     <h3>Преимущества:</h3>     <p>Что такое GPON?      "
+        ]
+      },
+      {
+        "className": "tariffs-grid",
+        "count": 11,
+        "pages": [
+          "business/internet/gpon",
+          "business/internet/dedicated",
+          "business/internet/office",
+          "business/telephony/fixed",
+          "business/telephony/ip",
+          "business/telephony/vpbx",
+          "business/telephony/mobile",
+          "business/cloud/storage",
+          "business/tv/iptv",
+          "business/cloud/vps",
+          "business/security/video-surveillance"
+        ],
+        "contexts": [
+          "section"
+        ],
+        "examples": [
+          "ontainer\">         <h2>Тарифы и цены</h2>         <div class=\"tariffs-grid\">             <div class=\"tariff-card\">                 <div class=\"tariff-",
+          "ontainer\">         <h2>Тарифы и цены</h2>         <div class=\"tariffs-grid\">             <div class=\"tariff-card\">                 <div class=\"tariff-",
+          "ontainer\">         <h2>Тарифы и цены</h2>         <div class=\"tariffs-grid\">             <div class=\"tariff-card\">                 <div class=\"tariff-",
+          "ontainer\">         <h2>Тарифы и цены</h2>         <div class=\"tariffs-grid\">             <div class=\"tariff-card\">                 <div class=\"tariff-",
+          "ontainer\">         <h2>Тарифы и цены</h2>         <div class=\"tariffs-grid\">             <div class=\"tariff-card\">                 <div class=\"tariff-"
+        ]
+      },
+      {
+        "className": "grid-cols-3",
+        "count": 7,
+        "pages": [
+          "business",
+          "developers",
+          "government",
+          "operators",
+          "partners",
+          "main_page"
+        ],
+        "contexts": [
+          "section"
+        ],
+        "examples": [
+          "Почему выбирают МГТС для бизнеса</h2>             <div class=\"grid grid-cols-3\">                 <div class=\"card\">                     <div class=\"ca",
+          "tion-title\">Кейсы наших клиентов</h2>             <div class=\"grid grid-cols-3\">                 <div class=\"card\">                     <div class=\"ca",
+          "Почему выбирают МГТС застройщики</h2>             <div class=\"grid grid-cols-3\">                 <div style=\"text-align: center;\">                    ",
+          "itle\">Преимущества работы с МГТС</h2>             <div class=\"grid grid-cols-3\">                 <div style=\"text-align: center;\">                    ",
+          "еимущества сотрудничества с МГТС</h2>             <div class=\"grid grid-cols-3\">                 <div style=\"text-align: center;\">                    "
+        ]
+      },
+      {
+        "className": "grid-cols-2",
+        "count": 4,
+        "pages": [
+          "business",
+          "developers",
+          "government",
+          "operators"
+        ],
+        "contexts": [
+          "section"
+        ],
+        "examples": [
+          "торая вас интересует</p>                          <div class=\"grid grid-cols-2\">                 <a href=\"internet/index.html\" class=\"card\" style=\"tex",
+          "le\">Наши услуги для застройщиков</h2>             <div class=\"grid grid-cols-2\">                 <div class=\"card\">                     <div class=\"ca",
+          "itle\">Наши услуги для госсектора</h2>             <div class=\"grid grid-cols-2\">                 <div class=\"card\">                     <div class=\"ca",
+          "itle\">Наши услуги для операторов</h2>             <div class=\"grid grid-cols-2\">                 <div class=\"card\">                     <div class=\"ca"
+        ]
+      }
+    ],
+    "card": [
+      {
+        "className": "card",
+        "count": 185,
+        "pages": [
+          "business/telephony",
+          "about/values",
+          "about/ethics/single-hotline",
+          "about/governance/documents",
+          "about/governance",
+          "about/governance/infoformen",
+          "about/governance/principles",
+          "about/governance/registrar",
+          "about/governance/shareholders",
+          "business/cloud",
+          "business/security",
+          "business/tv",
+          "contacts",
+          "business/internet/gpon",
+          "business/internet/dedicated",
+          "business/internet/office",
+          "business/telephony/fixed",
+          "business/telephony/ip",
+          "business/telephony/vpbx",
+          "business/telephony/mobile",
+          "business/security/access-control",
+          "business/security/alarm",
+          "business/cloud/storage",
+          "business/cloud/services",
+          "business/tv/iptv",
+          "business/tv/office",
+          "business/internet",
+          "business/cloud/vps",
+          "business/security/video-surveillance",
+          "business",
+          "developers",
+          "government",
+          "operators",
+          "partners",
+          "main_page"
+        ],
+        "contexts": [
+          "section"
+        ],
+        "examples": [
+          "фонии</h2>         <div class=\"grid\">             <div class=\"card\">                 <h3>Фиксированная телефония</h3>                 <p>Классическая ",
+          "ным качеством.</p>             </div>             <div class=\"card\">                 <h3>IP-телефония</h3>                 <p>Современная телефонная с",
+          "возможностями.</p>             </div>             <div class=\"card\">                 <h3>Виртуальная АТС</h3>                 <p>Облачная телефонная с",
+          "class=\"container\">         <h2>Наши ценности</h2> <div class=\"card\">   <h3>Клиентоориентированность</h3>   <p>🎯                             Клиентоор",
+          "ые помогают достигать их бизнес-целей.</p> </div> <div class=\"card\">   <h3>Инновации</h3>   <p>💡                             Инновации               "
+        ]
+      },
+      {
+        "className": "service-card",
+        "count": 51,
+        "pages": [
+          "about",
+          "about/ethics",
+          "about/ethics/compliance-policies",
+          "about/ethics/general-director-message",
+          "about/ethics/interaction-partners"
+        ],
+        "contexts": [
+          "section"
+        ],
+        "examples": [
+          "   <div class=\"container\">         <h2>О нас</h2> <div class=\"service-card\">   <h3>Масштабы работы</h3>   <p>📊                             Масштабы р",
+          "                   Входит в Группу МТС</p> </div> <div class=\"service-card\">   <h3>Наша миссия</h3>   <p>🎯                             Наша миссия   ",
+          "логий связи.</p> </div> <h2>История компании</h2> <div class=\"service-card\">   <h3>С 2019 года</h3>   <p>С 2019 года                                  ",
+          "r\">         <h2>О деловой этике и комплаенсе</h2> <div class=\"service-card\" data-card-type=\"navigation\">   <h3>Обращение генерального директора</h3>  ",
+          "ва о важности этичного ведения бизнеса</p> </div> <div class=\"service-card\" data-card-type=\"navigation\">   <h3>Политики комплаенса</h3>   <p>📋       "
+        ]
+      },
+      {
+        "className": "card-body",
+        "count": 28,
+        "pages": [
+          "business",
+          "developers",
+          "government",
+          "operators",
+          "partners"
+        ],
+        "contexts": [
+          "section"
+        ],
+        "examples": [
+          "yle=\"text-decoration: none;\">                     <div class=\"card-body\">                         <div style=\"display: flex; align-items: center; gap:",
+          "yle=\"text-decoration: none;\">                     <div class=\"card-body\">                         <div style=\"display: flex; align-items: center; gap:",
+          "yle=\"text-decoration: none;\">                     <div class=\"card-body\">                         <div style=\"display: flex; align-items: center; gap:",
+          "           <div class=\"card\">                     <div class=\"card-body\">                         <div style=\"display: flex; align-items: center; gap:",
+          "           <div class=\"card\">                     <div class=\"card-body\">                         <div style=\"display: flex; align-items: center; gap:"
+        ]
+      },
+      {
+        "className": "tariff-card",
+        "count": 27,
+        "pages": [
+          "business/internet/gpon",
+          "business/internet/dedicated",
+          "business/internet/office",
+          "business/telephony/fixed",
+          "business/telephony/ip",
+          "business/telephony/vpbx",
+          "business/telephony/mobile",
+          "business/cloud/storage",
+          "business/tv/iptv",
+          "business/cloud/vps",
+          "business/security/video-surveillance"
+        ],
+        "contexts": [
+          "section"
+        ],
+        "examples": [
+          "2>         <div class=\"tariffs-grid\">             <div class=\"tariff-card\">                 <div class=\"tariff-card__header\">                     <h3 ",
+          "            </div>             </div>             <div class=\"tariff-card\">                 <div class=\"tariff-card__header\">                     <h3 ",
+          "            </div>             </div>             <div class=\"tariff-card\">                 <div class=\"tariff-card__header\">                     <h3 ",
+          "2>         <div class=\"tariffs-grid\">             <div class=\"tariff-card\">                 <div class=\"tariff-card__header\">                     <h3 ",
+          "            </div>             </div>             <div class=\"tariff-card\">                 <div class=\"tariff-card__header\">                     <h3 "
+        ]
+      },
+      {
+        "className": "tariff-card__header",
+        "count": 27,
+        "pages": [
+          "business/internet/gpon",
+          "business/internet/dedicated",
+          "business/internet/office",
+          "business/telephony/fixed",
+          "business/telephony/ip",
+          "business/telephony/vpbx",
+          "business/telephony/mobile",
+          "business/cloud/storage",
+          "business/tv/iptv",
+          "business/cloud/vps",
+          "business/security/video-surveillance"
+        ],
+        "contexts": [
+          "section"
+        ],
+        "examples": [
+          "        <div class=\"tariff-card\">                 <div class=\"tariff-card__header\">                     <h3 class=\"tariff-card__title\">Базовый</h3>   ",
+          "        <div class=\"tariff-card\">                 <div class=\"tariff-card__header\">                     <h3 class=\"tariff-card__title\">Стандартный</h3",
+          "        <div class=\"tariff-card\">                 <div class=\"tariff-card__header\">                     <h3 class=\"tariff-card__title\">Премиум</h3>   ",
+          "        <div class=\"tariff-card\">                 <div class=\"tariff-card__header\">                     <h3 class=\"tariff-card__title\">Базовый</h3>   ",
+          "        <div class=\"tariff-card\">                 <div class=\"tariff-card__header\">                     <h3 class=\"tariff-card__title\">Профессиональны"
+        ]
+      },
+      {
+        "className": "tariff-card__footer",
+        "count": 27,
+        "pages": [
+          "business/internet/gpon",
+          "business/internet/dedicated",
+          "business/internet/office",
+          "business/telephony/fixed",
+          "business/telephony/ip",
+          "business/telephony/vpbx",
+          "business/telephony/mobile",
+          "business/cloud/storage",
+          "business/tv/iptv",
+          "business/cloud/vps",
+          "business/security/video-surveillance"
+        ],
+        "contexts": [
+          "section"
+        ],
+        "examples": [
+          "а 24/7</li>                 </ul>                 <div class=\"tariff-card__footer\">                     <button class=\"btn btn-primary btn-lg\" onclick",
+          "держка</li>                 </ul>                 <div class=\"tariff-card__footer\">                     <button class=\"btn btn-primary btn-lg\" onclick",
+          "неджер</li>                 </ul>                 <div class=\"tariff-card__footer\">                     <button class=\"btn btn-primary btn-lg\" onclick",
+          "а 24/7</li>                 </ul>                 <div class=\"tariff-card__footer\">                     <button class=\"btn btn-primary btn-lg\" onclick",
+          "неджер</li>                 </ul>                 <div class=\"tariff-card__footer\">                     <button class=\"btn btn-primary btn-lg\" onclick"
+        ]
+      },
+      {
+        "className": "card__body",
+        "count": 6,
+        "pages": [
+          "main_page"
+        ],
+        "contexts": [
+          "section"
+        ],
+        "examples": [
+          "se\"><div class=\"card card--info operators active\"><div class=\"card__body\"><h3 class=\"card-our-services__content-title\">Расширяйте свои сети передачи д",
+          "collapse\"><div class=\"card card--info government\"><div class=\"card__body\"><h3 class=\"card-our-services__content-title\">Полный пакет услуг по созданию ",
+          "collapse\"><div class=\"card card--info developers\"><div class=\"card__body\"><h3 class=\"card-our-services__content-title\">Масштабируемые решения для наст"
+        ]
+      },
+      {
+        "className": "mirror-slider__left-card-box",
+        "count": 3,
+        "pages": [
+          "main_page"
+        ],
+        "contexts": [
+          "section"
+        ],
+        "examples": [
+          "ества МГТС\"><div class=\"mirror-slider__left-card\"><div class=\"mirror-slider__left-card-box close-left-slide\"><span class=\"left-card-counter\" aria-hidd",
+          "ежным соединением и симметричным каналом</p></div><div class=\"mirror-slider__left-card-box close-left-slide\"><span class=\"left-card-counter\" aria-hidd",
+          "ем, но и участником событий жизни города</p></div><div class=\"mirror-slider__left-card-box open-left-slide\"><span class=\"left-card-counter\" aria-hidde"
+        ]
+      },
+      {
+        "className": "card-collapse",
+        "count": 3,
+        "pages": [
+          "main_page"
+        ],
+        "contexts": [
+          "section"
+        ],
+        "examples": [
+          "\"selector-item__text\">ОПЕРАТОРАМ СВЯЗИ</div></div><div class=\"card-collapse\"><div class=\"card card--info operators active\"><div class=\"card__body\"><h3",
+          "ss=\"selector-item__text\">ГОСЗАКАЗЧИКАМ</div></div><div class=\"card-collapse\"><div class=\"card card--info government\"><div class=\"card__body\"><h3 class",
+          "ass=\"selector-item__text\">ЗАСТРОЙЩИКАМ</div></div><div class=\"card-collapse\"><div class=\"card card--info developers\"><div class=\"card__body\"><h3 class"
+        ]
+      },
+      {
+        "className": "card--info",
+        "count": 3,
+        "pages": [
+          "main_page"
+        ],
+        "contexts": [
+          "section"
+        ],
+        "examples": [
+          "ТОРАМ СВЯЗИ</div></div><div class=\"card-collapse\"><div class=\"card card--info operators active\"><div class=\"card__body\"><h3 class=\"card-our-services__",
+          "СЗАКАЗЧИКАМ</div></div><div class=\"card-collapse\"><div class=\"card card--info government\"><div class=\"card__body\"><h3 class=\"card-our-services__conten",
+          "АСТРОЙЩИКАМ</div></div><div class=\"card-collapse\"><div class=\"card card--info developers\"><div class=\"card__body\"><h3 class=\"card-our-services__conten"
+        ]
+      },
+      {
+        "className": "card-our-services__content-tags",
+        "count": 3,
+        "pages": [
+          "main_page"
+        ],
+        "contexts": [
+          "section"
+        ],
+        "examples": [
+          " данных и увеличивайте трафик при помощи МГТС</h3><div class=\"card-our-services__content-tags\"><a class=\"tag-item\" href=\"operators/index.html#data_tra",
+          "связи бюджетных и государственных организаций</h3><div class=\"card-our-services__content-tags\"><div class=\"tag-item\">Передача данных</div><div class=\"",
+          "домах, жилых комплексах, и даже целых районах</h3><div class=\"card-our-services__content-tags\"><div class=\"tag-item\">Инфраструктура Цифрового Здания</"
+        ]
+      },
+      {
+        "className": "card-our-services__link-text",
+        "count": 3,
+        "pages": [
+          "main_page"
+        ],
+        "contexts": [
+          "section"
+        ],
+        "examples": [
+          "label=\"Подробнее об услугах для операторов связи\"><div class=\"card-our-services__link-text\">Подробнее</div><svg xmlns=\"http://www.w3.org/2000/svg\" vie",
+          "ia-label=\"Подробнее об услугах для госзаказчиков\"><div class=\"card-our-services__link-text\">Подробнее</div><svg xmlns=\"http://www.w3.org/2000/svg\" vie",
+          "ria-label=\"Подробнее об услугах для застройщиков\"><div class=\"card-our-services__link-text\">Подробнее</div><svg xmlns=\"http://www.w3.org/2000/svg\" vie"
+        ]
+      },
+      {
+        "className": "card--navigation",
+        "count": 3,
+        "pages": [
+          "main_page"
+        ],
+        "contexts": [
+          "section"
+        ],
+        "examples": [
+          "v class=\"grid grid-cols-3\"><div class=\"grid-item\"><div class=\"card card--navigation card--hoverable\"><div class=\"card__icon\" aria-hidden=\"true\"></div>",
+          "инейных сооружениях связи ПАО МГТС</p></div></div><div class=\"card card--navigation card--hoverable\"><div class=\"card__icon\" aria-hidden=\"true\"></div>",
+          "сей Москве, а также в Подмосковье.</p></div></div><div class=\"card card--navigation card--hoverable\"><div class=\"card__icon\" aria-hidden=\"true\"></div>"
+        ]
+      },
+      {
+        "className": "card--hoverable",
+        "count": 3,
+        "pages": [
+          "main_page"
+        ],
+        "contexts": [
+          "section"
+        ],
+        "examples": [
+          "v class=\"grid grid-cols-3\"><div class=\"grid-item\"><div class=\"card card--navigation card--hoverable\"><div class=\"card__icon\" aria-hidden=\"true\"></div>",
+          "инейных сооружениях связи ПАО МГТС</p></div></div><div class=\"card card--navigation card--hoverable\"><div class=\"card__icon\" aria-hidden=\"true\"></div>",
+          "сей Москве, а также в Подмосковье.</p></div></div><div class=\"card card--navigation card--hoverable\"><div class=\"card__icon\" aria-hidden=\"true\"></div>"
+        ]
+      },
+      {
+        "className": "card__icon",
+        "count": 3,
+        "pages": [
+          "main_page"
+        ],
+        "contexts": [
+          "section"
+        ],
+        "examples": [
+          "div class=\"card card--navigation card--hoverable\"><div class=\"card__icon\" aria-hidden=\"true\"></div><div class=\"card__body\"><h3 class=\"card-box-content",
+          "div class=\"card card--navigation card--hoverable\"><div class=\"card__icon\" aria-hidden=\"true\"></div><div class=\"card__body\"><h3 class=\"card-box-content",
+          "div class=\"card card--navigation card--hoverable\"><div class=\"card__icon\" aria-hidden=\"true\"></div><div class=\"card__body\"><h3 class=\"card-box-content"
+        ]
+      },
+      {
+        "className": "mirror-slider__left-card",
+        "count": 1,
+        "pages": [
+          "main_page"
+        ],
+        "contexts": [
+          "section"
+        ],
+        "examples": [
+          "der\" role=\"region\" aria-label=\"Преимущества МГТС\"><div class=\"mirror-slider__left-card\"><div class=\"mirror-slider__left-card-box close-left-slide\"><sp"
+        ]
+      },
+      {
+        "className": "mirror-slider__right-card",
+        "count": 1,
+        "pages": [
+          "main_page"
+        ],
+        "contexts": [
+          "section"
+        ],
+        "examples": [
+          " сетей Москвы и Московской области</p></div></div><div class=\"mirror-slider__right-card\" aria-label=\"Изображения преимуществ\"><img alt=\"Крупнейшая в М"
+        ]
+      },
+      {
+        "className": "cards-container",
+        "count": 1,
+        "pages": [
+          "main_page"
+        ],
+        "contexts": [
+          "section"
+        ],
+        "examples": [
+          "0z\"></path></clipPath></defs></svg></header></div><div class=\"cards-container disable-scrollbar\" role=\"region\" aria-label=\"Партнерские программы\"><div"
+        ]
+      },
+      {
+        "className": "cards-scroll-container",
+        "count": 1,
+        "pages": [
+          "main_page"
+        ],
+        "contexts": [
+          "section"
+        ],
+        "examples": [
+          " role=\"region\" aria-label=\"Партнерские программы\"><div class=\"cards-scroll-container disable-scrollbar\"><div class=\"grid grid-cols-3\"><div class=\"grid"
+        ]
+      }
+    ],
+    "form": [
+      {
+        "className": "order-form__group",
+        "count": 132,
+        "pages": [
+          "index",
+          "business/telephony",
+          "business/internet/gpon",
+          "business/internet/dedicated",
+          "business/internet/office",
+          "business/telephony/fixed",
+          "business/telephony/ip",
+          "business/telephony/vpbx",
+          "business/telephony/mobile",
+          "business/security/access-control",
+          "business/security/alarm",
+          "business/cloud/storage",
+          "business/cloud/services",
+          "business/tv/iptv",
+          "business/tv/office",
+          "business/cloud/vps",
+          "business/security/video-surveillance",
+          "business",
+          "developers",
+          "government",
+          "operators",
+          "partners"
+        ],
+        "contexts": [
+          "service-order",
+          "section"
+        ],
+        "examples": [
+          "order-form\" action=\"#\" method=\"POST\">             <div class=\"order-form__group\">                 <label for=\"order-name\" class=\"order-form__label\">  ",
+          "der=\"Иван Иванов\">             </div>             <div class=\"order-form__group\">                 <label for=\"order-phone\" class=\"order-form__label\"> ",
+          " (999) 123-45-67\">             </div>             <div class=\"order-form__group\">                 <label for=\"order-email\" class=\"order-form__label\"> ",
+          "order-form\" action=\"#\" method=\"POST\">             <div class=\"order-form__group\">                 <label for=\"order-name\" class=\"order-form__label\">  ",
+          "der=\"Иван Иванов\">             </div>             <div class=\"order-form__group\">                 <label for=\"order-phone\" class=\"order-form__label\"> "
+        ]
+      },
+      {
+        "className": "order-form__success",
+        "count": 22,
+        "pages": [
+          "index",
+          "business/telephony",
+          "business/internet/gpon",
+          "business/internet/dedicated",
+          "business/internet/office",
+          "business/telephony/fixed",
+          "business/telephony/ip",
+          "business/telephony/vpbx",
+          "business/telephony/mobile",
+          "business/security/access-control",
+          "business/security/alarm",
+          "business/cloud/storage",
+          "business/cloud/services",
+          "business/tv/iptv",
+          "business/tv/office",
+          "business/cloud/vps",
+          "business/security/video-surveillance",
+          "business",
+          "developers",
+          "government",
+          "operators",
+          "partners"
+        ],
+        "contexts": [
+          "service-order",
+          "section"
+        ],
+        "examples": [
+          "rm__submit\">Отправить заявку</button>             <div class=\"order-form__success\" role=\"alert\" aria-live=\"polite\">Спасибо! Ваша заявка принята. Мы св",
+          "rm__submit\">Отправить заявку</button>             <div class=\"order-form__success\" role=\"alert\" aria-live=\"polite\">Спасибо! Ваша заявка принята. Мы св",
+          "rm__submit\">Отправить заявку</button>             <div class=\"order-form__success\" role=\"alert\" aria-live=\"polite\">Спасибо! Ваша заявка принята. Мы св",
+          "rm__submit\">Отправить заявку</button>             <div class=\"order-form__success\" role=\"alert\" aria-live=\"polite\">Спасибо! Ваша заявка принята. Мы св",
+          "rm__submit\">Отправить заявку</button>             <div class=\"order-form__success\" role=\"alert\" aria-live=\"polite\">Спасибо! Ваша заявка принята. Мы св"
+        ]
+      },
+      {
+        "className": "order-form__error",
+        "count": 22,
+        "pages": [
+          "index",
+          "business/telephony",
+          "business/internet/gpon",
+          "business/internet/dedicated",
+          "business/internet/office",
+          "business/telephony/fixed",
+          "business/telephony/ip",
+          "business/telephony/vpbx",
+          "business/telephony/mobile",
+          "business/security/access-control",
+          "business/security/alarm",
+          "business/cloud/storage",
+          "business/cloud/services",
+          "business/tv/iptv",
+          "business/tv/office",
+          "business/cloud/vps",
+          "business/security/video-surveillance",
+          "business",
+          "developers",
+          "government",
+          "operators",
+          "partners"
+        ],
+        "contexts": [
+          "service-order",
+          "section"
+        ],
+        "examples": [
+          "жемся с вами в ближайшее время.</div>             <div class=\"order-form__error\" role=\"alert\" aria-live=\"assertive\">Произошла ошибка. Пожалуйста, пров",
+          "жемся с вами в ближайшее время.</div>             <div class=\"order-form__error\" role=\"alert\" aria-live=\"assertive\">Произошла ошибка. Пожалуйста, пров",
+          "жемся с вами в ближайшее время.</div>             <div class=\"order-form__error\" role=\"alert\" aria-live=\"assertive\">Произошла ошибка. Пожалуйста, пров",
+          "жемся с вами в ближайшее время.</div>             <div class=\"order-form__error\" role=\"alert\" aria-live=\"assertive\">Произошла ошибка. Пожалуйста, пров",
+          "жемся с вами в ближайшее время.</div>             <div class=\"order-form__error\" role=\"alert\" aria-live=\"assertive\">Произошла ошибка. Пожалуйста, пров"
+        ]
+      },
+      {
+        "className": "form-group",
+        "count": 1,
+        "pages": [
+          "about/ethics/partners-feedback"
+        ],
+        "contexts": [
+          "section"
+        ],
+        "examples": [
+          "container\">         <h2>Форма обратной связи</h2> <div class=\"form-group\" data-card-type=\"info\">   <p>Название компании *                             "
+        ]
+      }
+    ],
+    "content": [
+      {
+        "className": "faq-answer-content",
+        "count": 6,
+        "pages": [
+          "business/internet/gpon",
+          "business/internet/dedicated",
+          "business/telephony/ip",
+          "business/telephony/vpbx"
+        ],
+        "contexts": [
+          "section"
+        ],
+        "examples": [
+          "wer-1\" aria-expanded=\"false\">                     <div class=\"faq-answer-content\">                         <p>GPON использует оптоволоконную технологи",
+          "wer-2\" aria-expanded=\"false\">                     <div class=\"faq-answer-content\">                         <p>МГТС предоставляет все необходимое обору",
+          "wer-3\" aria-expanded=\"false\">                     <div class=\"faq-answer-content\">                         <p>Да, вы можете изменить тариф в любое вре",
+          "wer-1\" aria-expanded=\"false\">                     <div class=\"faq-answer-content\">                         <p>Оптоволоконный интернет до 1 Гбит/с для ",
+          "wer-1\" aria-expanded=\"false\">                     <div class=\"faq-answer-content\">                         <p>Облачная телефонная станция без оборудов"
+        ]
+      },
+      {
+        "className": "header-text",
+        "count": 4,
+        "pages": [
+          "main_page"
+        ],
+        "contexts": [
+          "section"
+        ],
+        "examples": [
+          "\"Статистика компании\"><div class=\"statistic-item\"><div class=\"header-text\">95%</div><div class=\"footer-text\">Охват объектов Москвы</div></div><div cla",
+          "тов Москвы</div></div><div class=\"statistic-item\"><div class=\"header-text\">8500<div class=\"header-text-km\">км</div></div><div class=\"footer-text\">Кабе",
+          "анализации</div></div><div class=\"statistic-item\"><div class=\"header-text\">67000<div class=\"header-text-km\">км</div></div><div class=\"footer-text\">Соб"
+        ]
+      },
+      {
+        "className": "footer-text",
+        "count": 4,
+        "pages": [
+          "main_page"
+        ],
+        "contexts": [
+          "section"
+        ],
+        "examples": [
+          "statistic-item\"><div class=\"header-text\">95%</div><div class=\"footer-text\">Охват объектов Москвы</div></div><div class=\"statistic-item\"><div class=\"he",
+          "xt\">8500<div class=\"header-text-km\">км</div></div><div class=\"footer-text\">Кабельной канализации</div></div><div class=\"statistic-item\"><div class=\"he",
+          "t\">67000<div class=\"header-text-km\">км</div></div><div class=\"footer-text\">Собственных оптических сетей</div></div><div class=\"statistic-item\"><div cl"
+        ]
+      },
+      {
+        "className": "selector-item__text",
+        "count": 3,
+        "pages": [
+          "main_page"
+        ],
+        "contexts": [
+          "section"
+        ],
+        "examples": [
+          "8.032A2.2 2.2 0 0 1 21 10.945\"></path></svg></div><div class=\"selector-item__text\">ОПЕРАТОРАМ СВЯЗИ</div></div><div class=\"card-collapse\"><div class=\"",
+          "8.032A2.2 2.2 0 0 1 21 10.945\"></path></svg></div><div class=\"selector-item__text\">ГОСЗАКАЗЧИКАМ</div></div><div class=\"card-collapse\"><div class=\"car",
+          "8.032A2.2 2.2 0 0 1 21 10.945\"></path></svg></div><div class=\"selector-item__text\">ЗАСТРОЙЩИКАМ</div></div><div class=\"card-collapse\"><div class=\"card"
+        ]
+      },
+      {
+        "className": "header-text-km",
+        "count": 2,
+        "pages": [
+          "main_page"
+        ],
+        "contexts": [
+          "section"
+        ],
+        "examples": [
+          "ass=\"statistic-item\"><div class=\"header-text\">8500<div class=\"header-text-km\">км</div></div><div class=\"footer-text\">Кабельной канализации</div></div>",
+          "ss=\"statistic-item\"><div class=\"header-text\">67000<div class=\"header-text-km\">км</div></div><div class=\"footer-text\">Собственных оптических сетей</div"
+        ]
+      },
+      {
+        "className": "section-promo-note__content-container",
+        "count": 2,
+        "pages": [
+          "main_page"
+        ],
+        "contexts": [
+          "section"
+        ],
+        "examples": [
+          "omo-note__header-note\">¬ преимущества</p></header><div class=\"section-promo-note__content-container\"><div class=\"mirror-slider\" role=\"region\" aria-lab",
+          "ion-promo-note__header-note\">¬ услуги</p></header><div class=\"section-promo-note__content-container\"><div class=\"section-our-services container-mgts\">"
+        ]
+      },
+      {
+        "className": "about-company__content",
+        "count": 1,
+        "pages": [
+          "main_page"
+        ],
+        "contexts": [
+          "section"
+        ],
+        "examples": [
+          "tainer\"><div class=\"about-company container-mgts\"><div class=\"about-company__content cl-6\"><svg xmlns=\"http://www.w3.org/2000/svg\" id=\"Logo_svg__logo_"
+        ]
+      },
+      {
+        "className": "about-company__content-text",
+        "count": 1,
+        "pages": [
+          "main_page"
+        ],
+        "contexts": [
+          "section"
+        ],
+        "examples": [
+          "52.09-48.69\" class=\"Logo_svg__cls-2\"></path></svg><div class=\"about-company__content-text\"><h2 class=\"about-company__content-text-title\">ВЕКОВОЙ ОПЫТ<"
+        ]
+      },
+      {
+        "className": "header-container",
+        "count": 1,
+        "pages": [
+          "main_page"
+        ],
+        "contexts": [
+          "section"
+        ],
+        "examples": [
+          "ing\">         <div class=\"container\">             <div class=\"header-container\"><header class=\"header-container__title\"><h2 class=\"title-promo-short\" "
+        ]
+      }
+    ],
+    "other": [
+      {
+        "className": "container",
+        "count": 107,
+        "pages": [
+          "index",
+          "business/telephony",
+          "about/values",
+          "about/ethics/single-hotline",
+          "about/governance/documents",
+          "about/governance",
+          "about/governance/infoformen",
+          "about/governance/principles",
+          "about/governance/registrar",
+          "about/governance/shareholders",
+          "business/cloud",
+          "business/security",
+          "business/tv",
+          "contacts",
+          "about",
+          "about/ethics",
+          "about/ethics/compliance-policies",
+          "about/ethics/general-director-message",
+          "about/ethics/interaction-partners",
+          "about/ethics/partners-feedback",
+          "business/internet/gpon",
+          "business/internet/dedicated",
+          "business/internet/office",
+          "business/telephony/fixed",
+          "business/telephony/ip",
+          "business/telephony/vpbx",
+          "business/telephony/mobile",
+          "business/security/access-control",
+          "business/security/alarm",
+          "business/cloud/storage",
+          "business/cloud/services",
+          "business/tv/iptv",
+          "business/tv/office",
+          "business/internet",
+          "business/cloud/vps",
+          "business/security/video-surveillance",
+          "business",
+          "developers",
+          "government",
+          "operators",
+          "partners",
+          "main_page"
+        ],
+        "contexts": [
+          "service-order",
+          "section"
+        ],
+        "examples": [
+          "ection class=\"service-order\" id=\"order-form\">     <div class=\"container\">         <h2>Заказать услугу</h2>         <p>Оставьте заявку, и наш специалис",
+          "<section class=\"section\">     <div class=\"container\">         <h2 class=\"section-title\">Услуги корпоративной телефонии</h2>         <div class=\"grid\">",
+          " </div> </section>  <section class=\"section\">     <div class=\"container\">         <h2 class=\"section-title\">Преимущества корпоративной телефонии МГТС<",
+          "ection class=\"service-order\" id=\"order-form\">     <div class=\"container\">         <h2>Заказать услугу</h2>         <p>Оставьте заявку, и наш специалис",
+          "<section class=\"section\">     <div class=\"container\">         <h2>Наши ценности</h2> <div class=\"card\">   <h3>Клиентоориентированность</h3>   <p>🎯   "
+        ]
+      },
+      {
+        "className": "tariff-price",
+        "count": 27,
+        "pages": [
+          "business/internet/gpon",
+          "business/internet/dedicated",
+          "business/internet/office",
+          "business/telephony/fixed",
+          "business/telephony/ip",
+          "business/telephony/vpbx",
+          "business/telephony/mobile",
+          "business/cloud/storage",
+          "business/tv/iptv",
+          "business/cloud/vps",
+          "business/security/video-surveillance"
+        ],
+        "contexts": [
+          "section"
+        ],
+        "examples": [
+          "iff-card__title\">Базовый</h3>                     <div class=\"tariff-price\">                         от <span class=\"tariff-price__amount\">1 500</span",
+          "card__title\">Стандартный</h3>                     <div class=\"tariff-price\">                         от <span class=\"tariff-price__amount\">3 000</span",
+          "iff-card__title\">Премиум</h3>                     <div class=\"tariff-price\">                         от <span class=\"tariff-price__amount\">5 000</span",
+          "iff-card__title\">Базовый</h3>                     <div class=\"tariff-price\">                         от <span class=\"tariff-price__amount\">3 000</span",
+          "_title\">Профессиональный</h3>                     <div class=\"tariff-price\">                         от <span class=\"tariff-price__amount\">8 000</span"
+        ]
+      },
+      {
+        "className": "tag-item",
+        "count": 17,
+        "pages": [
+          "main_page"
+        ],
+        "contexts": [
+          "section"
+        ],
+        "examples": [
+          "tors/index.html#data_transfer\">Передача данных</a><div class=\"tag-item\">Места в ЛКС</div><div class=\"tag-item\">Места на объекте</div><div class=\"tag-i",
+          " данных</a><div class=\"tag-item\">Места в ЛКС</div><div class=\"tag-item\">Места на объекте</div><div class=\"tag-item\">Проектирование и строительство сет",
+          "</div><div class=\"tag-item\">Места на объекте</div><div class=\"tag-item\">Проектирование и строительство сетей связи</div></div></div><a class=\"card-our"
+        ]
+      },
+      {
+        "className": "faq-item",
+        "count": 6,
+        "pages": [
+          "business/internet/gpon",
+          "business/internet/dedicated",
+          "business/telephony/ip",
+          "business/telephony/vpbx"
+        ],
+        "contexts": [
+          "section"
+        ],
+        "examples": [
+          "ы</h2>         <div class=\"faq-list\">             <div class=\"faq-item\">                 <button class=\"faq-question\" type=\"button\" aria-expanded=\"fal",
+          "            </div>             </div>             <div class=\"faq-item\">                 <button class=\"faq-question\" type=\"button\" aria-expanded=\"fal",
+          "            </div>             </div>             <div class=\"faq-item\">                 <button class=\"faq-question\" type=\"button\" aria-expanded=\"fal",
+          "ы</h2>         <div class=\"faq-list\">             <div class=\"faq-item\">                 <button class=\"faq-question\" type=\"button\" aria-expanded=\"fal",
+          "ы</h2>         <div class=\"faq-list\">             <div class=\"faq-item\">                 <button class=\"faq-question\" type=\"button\" aria-expanded=\"fal"
+        ]
+      },
+      {
+        "className": "faq-answer",
+        "count": 6,
+        "pages": [
+          "business/internet/gpon",
+          "business/internet/dedicated",
+          "business/telephony/ip",
+          "business/telephony/vpbx"
+        ],
+        "contexts": [
+          "section"
+        ],
+        "examples": [
+          "</span>                 </button>                 <div class=\"faq-answer\" id=\"faq-answer-1\" aria-expanded=\"false\">                     <div class=\"faq",
+          "</span>                 </button>                 <div class=\"faq-answer\" id=\"faq-answer-2\" aria-expanded=\"false\">                     <div class=\"faq",
+          "</span>                 </button>                 <div class=\"faq-answer\" id=\"faq-answer-3\" aria-expanded=\"false\">                     <div class=\"faq",
+          "</span>                 </button>                 <div class=\"faq-answer\" id=\"faq-answer-1\" aria-expanded=\"false\">                     <div class=\"faq",
+          "</span>                 </button>                 <div class=\"faq-answer\" id=\"faq-answer-1\" aria-expanded=\"false\">                     <div class=\"faq"
+        ]
+      },
+      {
+        "className": "faq-list",
+        "count": 4,
+        "pages": [
+          "business/internet/gpon",
+          "business/internet/dedicated",
+          "business/telephony/ip",
+          "business/telephony/vpbx"
+        ],
+        "contexts": [
+          "section"
+        ],
+        "examples": [
+          "        <h2>Часто задаваемые вопросы</h2>         <div class=\"faq-list\">             <div class=\"faq-item\">                 <button class=\"faq-questio",
+          "        <h2>Часто задаваемые вопросы</h2>         <div class=\"faq-list\">             <div class=\"faq-item\">                 <button class=\"faq-questio",
+          "        <h2>Часто задаваемые вопросы</h2>         <div class=\"faq-list\">             <div class=\"faq-item\">                 <button class=\"faq-questio",
+          "        <h2>Часто задаваемые вопросы</h2>         <div class=\"faq-list\">             <div class=\"faq-item\">                 <button class=\"faq-questio"
+        ]
+      },
+      {
+        "className": "statistic-item",
+        "count": 4,
+        "pages": [
+          "main_page"
+        ],
+        "contexts": [
+          "section"
+        ],
+        "examples": [
+          "istics-box cl-6\" aria-label=\"Статистика компании\"><div class=\"statistic-item\"><div class=\"header-text\">95%</div><div class=\"footer-text\">Охват объекто",
+          "ss=\"footer-text\">Охват объектов Москвы</div></div><div class=\"statistic-item\"><div class=\"header-text\">8500<div class=\"header-text-km\">км</div></div><",
+          "ss=\"footer-text\">Кабельной канализации</div></div><div class=\"statistic-item\"><div class=\"header-text\">67000<div class=\"header-text-km\">км</div></div>"
+        ]
+      },
+      {
+        "className": "selector-item__wrapper",
+        "count": 3,
+        "pages": [
+          "main_page"
+        ],
+        "contexts": [
+          "section"
+        ],
+        "examples": [
+          "iv class=\"our-services__selectors cl-8 cl-tab-12\"><div class=\"selector-item__wrapper\"><div class=\"selector-item disable-selection active\"><div class=\"",
+          "ath></clipPath></defs></svg></a></div></div></div><div class=\"selector-item__wrapper\"><div class=\"selector-item disable-selection\"><div class=\"selecto",
+          "ath></clipPath></defs></svg></a></div></div></div><div class=\"selector-item__wrapper\"><div class=\"selector-item disable-selection\"><div class=\"selecto"
+        ]
+      },
+      {
+        "className": "selector-item",
+        "count": 3,
+        "pages": [
+          "main_page"
+        ],
+        "contexts": [
+          "section"
+        ],
+        "examples": [
+          "-8 cl-tab-12\"><div class=\"selector-item__wrapper\"><div class=\"selector-item disable-selection active\"><div class=\"selector-item__img-wrapper\" aria-hid",
+          "v></div></div><div class=\"selector-item__wrapper\"><div class=\"selector-item disable-selection\"><div class=\"selector-item__img-wrapper\" aria-hidden=\"tr",
+          "v></div></div><div class=\"selector-item__wrapper\"><div class=\"selector-item disable-selection\"><div class=\"selector-item__img-wrapper\" aria-hidden=\"tr"
+        ]
+      },
+      {
+        "className": "disable-selection",
+        "count": 3,
+        "pages": [
+          "main_page"
+        ],
+        "contexts": [
+          "section"
+        ],
+        "examples": [
+          "-8 cl-tab-12\"><div class=\"selector-item__wrapper\"><div class=\"selector-item disable-selection active\"><div class=\"selector-item__img-wrapper\" aria-hid",
+          "v></div></div><div class=\"selector-item__wrapper\"><div class=\"selector-item disable-selection\"><div class=\"selector-item__img-wrapper\" aria-hidden=\"tr",
+          "v></div></div><div class=\"selector-item__wrapper\"><div class=\"selector-item disable-selection\"><div class=\"selector-item__img-wrapper\" aria-hidden=\"tr"
+        ]
+      },
+      {
+        "className": "selector-item__img-wrapper",
+        "count": 3,
+        "pages": [
+          "main_page"
+        ],
+        "contexts": [
+          "section"
+        ],
+        "examples": [
+          "iv class=\"selector-item disable-selection active\"><div class=\"selector-item__img-wrapper\" aria-hidden=\"true\"><svg xmlns=\"http://www.w3.org/2000/svg\" v",
+          "per\"><div class=\"selector-item disable-selection\"><div class=\"selector-item__img-wrapper\" aria-hidden=\"true\"><svg xmlns=\"http://www.w3.org/2000/svg\" v",
+          "per\"><div class=\"selector-item disable-selection\"><div class=\"selector-item__img-wrapper\" aria-hidden=\"true\"><svg xmlns=\"http://www.w3.org/2000/svg\" v"
+        ]
+      },
+      {
+        "className": "container-mgts",
+        "count": 2,
+        "pages": [
+          "main_page"
+        ],
+        "contexts": [
+          "section"
+        ],
+        "examples": [
+          "ner\">         <div class=\"home-section-container\"><div class=\"about-company container-mgts\"><div class=\"about-company__content cl-6\"><svg xmlns=\"http:",
+          "div class=\"section-promo-note__content-container\"><div class=\"section-our-services container-mgts\"><div class=\"our-services__selectors cl-8 cl-tab-12\""
+        ]
+      },
+      {
+        "className": "cl-6",
+        "count": 2,
+        "pages": [
+          "main_page"
+        ],
+        "contexts": [
+          "section"
+        ],
+        "examples": [
+          "tainer\"><div class=\"about-company container-mgts\"><div class=\"about-company__content cl-6\"><svg xmlns=\"http://www.w3.org/2000/svg\" id=\"Logo_svg__logo_",
+          "ше о компании МГТС\">Подробнее о компании</a></div><div class=\"about-company__statistics-box cl-6\" aria-label=\"Статистика компании\"><div class=\"statist"
+        ]
+      },
+      {
+        "className": "close-left-slide",
+        "count": 2,
+        "pages": [
+          "main_page"
+        ],
+        "contexts": [
+          "section"
+        ],
+        "examples": [
+          "ества МГТС\"><div class=\"mirror-slider__left-card\"><div class=\"mirror-slider__left-card-box close-left-slide\"><span class=\"left-card-counter\" aria-hidd",
+          "ежным соединением и симметричным каналом</p></div><div class=\"mirror-slider__left-card-box close-left-slide\"><span class=\"left-card-counter\" aria-hidd"
+        ]
+      },
+      {
+        "className": "active",
+        "count": 2,
+        "pages": [
+          "main_page"
+        ],
+        "contexts": [
+          "section"
+        ],
+        "examples": [
+          "-8 cl-tab-12\"><div class=\"selector-item__wrapper\"><div class=\"selector-item disable-selection active\"><div class=\"selector-item__img-wrapper\" aria-hid",
+          "ТОРАМ СВЯЗИ</div></div><div class=\"card-collapse\"><div class=\"card card--info operators active\"><div class=\"card__body\"><h3 class=\"card-our-services__"
+        ]
+      },
+      {
+        "className": "disable-scrollbar",
+        "count": 2,
+        "pages": [
+          "main_page"
+        ],
+        "contexts": [
+          "section"
+        ],
+        "examples": [
+          "0z\"></path></clipPath></defs></svg></header></div><div class=\"cards-container disable-scrollbar\" role=\"region\" aria-label=\"Партнерские программы\"><div",
+          " role=\"region\" aria-label=\"Партнерские программы\"><div class=\"cards-scroll-container disable-scrollbar\"><div class=\"grid grid-cols-3\"><div class=\"grid"
+        ]
+      },
+      {
+        "className": "home-section-container",
+        "count": 1,
+        "pages": [
+          "main_page"
+        ],
+        "contexts": [
+          "section"
+        ],
+        "examples": [
+          "ss=\"section\">     <div class=\"container\">         <div class=\"home-section-container\"><div class=\"about-company container-mgts\"><div class=\"about-comp"
+        ]
+      },
+      {
+        "className": "about-company",
+        "count": 1,
+        "pages": [
+          "main_page"
+        ],
+        "contexts": [
+          "section"
+        ],
+        "examples": [
+          "ner\">         <div class=\"home-section-container\"><div class=\"about-company container-mgts\"><div class=\"about-company__content cl-6\"><svg xmlns=\"http:"
+        ]
+      },
+      {
+        "className": "about-company__statistics-box",
+        "count": 1,
+        "pages": [
+          "main_page"
+        ],
+        "contexts": [
+          "section"
+        ],
+        "examples": [
+          "ше о компании МГТС\">Подробнее о компании</a></div><div class=\"about-company__statistics-box cl-6\" aria-label=\"Статистика компании\"><div class=\"statist"
+        ]
+      },
+      {
+        "className": "mirror-slider",
+        "count": 1,
+        "pages": [
+          "main_page"
+        ],
+        "contexts": [
+          "section"
+        ],
+        "examples": [
+          "div class=\"section-promo-note__content-container\"><div class=\"mirror-slider\" role=\"region\" aria-label=\"Преимущества МГТС\"><div class=\"mirror-slider__l"
+        ]
+      },
+      {
+        "className": "open-left-slide",
+        "count": 1,
+        "pages": [
+          "main_page"
+        ],
+        "contexts": [
+          "section"
+        ],
+        "examples": [
+          "ем, но и участником событий жизни города</p></div><div class=\"mirror-slider__left-card-box open-left-slide\"><span class=\"left-card-counter\" aria-hidde"
+        ]
+      },
+      {
+        "className": "section-our-services",
+        "count": 1,
+        "pages": [
+          "main_page"
+        ],
+        "contexts": [
+          "section"
+        ],
+        "examples": [
+          "div class=\"section-promo-note__content-container\"><div class=\"section-our-services container-mgts\"><div class=\"our-services__selectors cl-8 cl-tab-12\""
+        ]
+      },
+      {
+        "className": "our-services__selectors",
+        "count": 1,
+        "pages": [
+          "main_page"
+        ],
+        "contexts": [
+          "section"
+        ],
+        "examples": [
+          "><div class=\"section-our-services container-mgts\"><div class=\"our-services__selectors cl-8 cl-tab-12\"><div class=\"selector-item__wrapper\"><div class=\""
+        ]
+      },
+      {
+        "className": "cl-8",
+        "count": 1,
+        "pages": [
+          "main_page"
+        ],
+        "contexts": [
+          "section"
+        ],
+        "examples": [
+          "><div class=\"section-our-services container-mgts\"><div class=\"our-services__selectors cl-8 cl-tab-12\"><div class=\"selector-item__wrapper\"><div class=\""
+        ]
+      },
+      {
+        "className": "cl-tab-12",
+        "count": 1,
+        "pages": [
+          "main_page"
+        ],
+        "contexts": [
+          "section"
+        ],
+        "examples": [
+          "><div class=\"section-our-services container-mgts\"><div class=\"our-services__selectors cl-8 cl-tab-12\"><div class=\"selector-item__wrapper\"><div class=\""
+        ]
+      },
+      {
+        "className": "operators",
+        "count": 1,
+        "pages": [
+          "main_page"
+        ],
+        "contexts": [
+          "section"
+        ],
+        "examples": [
+          "ТОРАМ СВЯЗИ</div></div><div class=\"card-collapse\"><div class=\"card card--info operators active\"><div class=\"card__body\"><h3 class=\"card-our-services__"
+        ]
+      },
+      {
+        "className": "government",
+        "count": 1,
+        "pages": [
+          "main_page"
+        ],
+        "contexts": [
+          "section"
+        ],
+        "examples": [
+          "СЗАКАЗЧИКАМ</div></div><div class=\"card-collapse\"><div class=\"card card--info government\"><div class=\"card__body\"><h3 class=\"card-our-services__conten"
+        ]
+      },
+      {
+        "className": "developers",
+        "count": 1,
+        "pages": [
+          "main_page"
+        ],
+        "contexts": [
+          "section"
+        ],
+        "examples": [
+          "АСТРОЙЩИКАМ</div></div><div class=\"card-collapse\"><div class=\"card card--info developers\"><div class=\"card__body\"><h3 class=\"card-our-services__conten"
+        ]
+      }
+    ]
+  },
+  "allClasses": [
+    {
+      "className": "card",
+      "count": 185,
+      "pages": [
+        "business/telephony",
+        "about/values",
+        "about/ethics/single-hotline",
+        "about/governance/documents",
+        "about/governance",
+        "about/governance/infoformen",
+        "about/governance/principles",
+        "about/governance/registrar",
+        "about/governance/shareholders",
+        "business/cloud",
+        "business/security",
+        "business/tv",
+        "contacts",
+        "business/internet/gpon",
+        "business/internet/dedicated",
+        "business/internet/office",
+        "business/telephony/fixed",
+        "business/telephony/ip",
+        "business/telephony/vpbx",
+        "business/telephony/mobile",
+        "business/security/access-control",
+        "business/security/alarm",
+        "business/cloud/storage",
+        "business/cloud/services",
+        "business/tv/iptv",
+        "business/tv/office",
+        "business/internet",
+        "business/cloud/vps",
+        "business/security/video-surveillance",
+        "business",
+        "developers",
+        "government",
+        "operators",
+        "partners",
+        "main_page"
+      ],
+      "contexts": [
+        "section"
+      ],
+      "examples": [
+        "фонии</h2>         <div class=\"grid\">             <div class=\"card\">                 <h3>Фиксированная телефония</h3>                 <p>Классическая ",
+        "ным качеством.</p>             </div>             <div class=\"card\">                 <h3>IP-телефония</h3>                 <p>Современная телефонная с",
+        "возможностями.</p>             </div>             <div class=\"card\">                 <h3>Виртуальная АТС</h3>                 <p>Облачная телефонная с",
+        "class=\"container\">         <h2>Наши ценности</h2> <div class=\"card\">   <h3>Клиентоориентированность</h3>   <p>🎯                             Клиентоор",
+        "ые помогают достигать их бизнес-целей.</p> </div> <div class=\"card\">   <h3>Инновации</h3>   <p>💡                             Инновации               "
+      ]
+    },
+    {
+      "className": "order-form__group",
+      "count": 132,
+      "pages": [
+        "index",
+        "business/telephony",
+        "business/internet/gpon",
+        "business/internet/dedicated",
+        "business/internet/office",
+        "business/telephony/fixed",
+        "business/telephony/ip",
+        "business/telephony/vpbx",
+        "business/telephony/mobile",
+        "business/security/access-control",
+        "business/security/alarm",
+        "business/cloud/storage",
+        "business/cloud/services",
+        "business/tv/iptv",
+        "business/tv/office",
+        "business/cloud/vps",
+        "business/security/video-surveillance",
+        "business",
+        "developers",
+        "government",
+        "operators",
+        "partners"
+      ],
+      "contexts": [
+        "service-order",
+        "section"
+      ],
+      "examples": [
+        "order-form\" action=\"#\" method=\"POST\">             <div class=\"order-form__group\">                 <label for=\"order-name\" class=\"order-form__label\">  ",
+        "der=\"Иван Иванов\">             </div>             <div class=\"order-form__group\">                 <label for=\"order-phone\" class=\"order-form__label\"> ",
+        " (999) 123-45-67\">             </div>             <div class=\"order-form__group\">                 <label for=\"order-email\" class=\"order-form__label\"> ",
+        "order-form\" action=\"#\" method=\"POST\">             <div class=\"order-form__group\">                 <label for=\"order-name\" class=\"order-form__label\">  ",
+        "der=\"Иван Иванов\">             </div>             <div class=\"order-form__group\">                 <label for=\"order-phone\" class=\"order-form__label\"> "
+      ]
+    },
+    {
+      "className": "container",
+      "count": 107,
+      "pages": [
+        "index",
+        "business/telephony",
+        "about/values",
+        "about/ethics/single-hotline",
+        "about/governance/documents",
+        "about/governance",
+        "about/governance/infoformen",
+        "about/governance/principles",
+        "about/governance/registrar",
+        "about/governance/shareholders",
+        "business/cloud",
+        "business/security",
+        "business/tv",
+        "contacts",
+        "about",
+        "about/ethics",
+        "about/ethics/compliance-policies",
+        "about/ethics/general-director-message",
+        "about/ethics/interaction-partners",
+        "about/ethics/partners-feedback",
+        "business/internet/gpon",
+        "business/internet/dedicated",
+        "business/internet/office",
+        "business/telephony/fixed",
+        "business/telephony/ip",
+        "business/telephony/vpbx",
+        "business/telephony/mobile",
+        "business/security/access-control",
+        "business/security/alarm",
+        "business/cloud/storage",
+        "business/cloud/services",
+        "business/tv/iptv",
+        "business/tv/office",
+        "business/internet",
+        "business/cloud/vps",
+        "business/security/video-surveillance",
+        "business",
+        "developers",
+        "government",
+        "operators",
+        "partners",
+        "main_page"
+      ],
+      "contexts": [
+        "service-order",
+        "section"
+      ],
+      "examples": [
+        "ection class=\"service-order\" id=\"order-form\">     <div class=\"container\">         <h2>Заказать услугу</h2>         <p>Оставьте заявку, и наш специалис",
+        "<section class=\"section\">     <div class=\"container\">         <h2 class=\"section-title\">Услуги корпоративной телефонии</h2>         <div class=\"grid\">",
+        " </div> </section>  <section class=\"section\">     <div class=\"container\">         <h2 class=\"section-title\">Преимущества корпоративной телефонии МГТС<",
+        "ection class=\"service-order\" id=\"order-form\">     <div class=\"container\">         <h2>Заказать услугу</h2>         <p>Оставьте заявку, и наш специалис",
+        "<section class=\"section\">     <div class=\"container\">         <h2>Наши ценности</h2> <div class=\"card\">   <h3>Клиентоориентированность</h3>   <p>🎯   "
+      ]
+    },
+    {
+      "className": "service-card",
+      "count": 51,
+      "pages": [
+        "about",
+        "about/ethics",
+        "about/ethics/compliance-policies",
+        "about/ethics/general-director-message",
+        "about/ethics/interaction-partners"
+      ],
+      "contexts": [
+        "section"
+      ],
+      "examples": [
+        "   <div class=\"container\">         <h2>О нас</h2> <div class=\"service-card\">   <h3>Масштабы работы</h3>   <p>📊                             Масштабы р",
+        "                   Входит в Группу МТС</p> </div> <div class=\"service-card\">   <h3>Наша миссия</h3>   <p>🎯                             Наша миссия   ",
+        "логий связи.</p> </div> <h2>История компании</h2> <div class=\"service-card\">   <h3>С 2019 года</h3>   <p>С 2019 года                                  ",
+        "r\">         <h2>О деловой этике и комплаенсе</h2> <div class=\"service-card\" data-card-type=\"navigation\">   <h3>Обращение генерального директора</h3>  ",
+        "ва о важности этичного ведения бизнеса</p> </div> <div class=\"service-card\" data-card-type=\"navigation\">   <h3>Политики комплаенса</h3>   <p>📋       "
+      ]
+    },
+    {
+      "className": "grid-item",
+      "count": 37,
+      "pages": [
+        "business/telephony",
+        "about/values",
+        "business/cloud",
+        "about/ethics/partners-feedback",
+        "business/internet/gpon",
+        "business/internet/dedicated",
+        "business/internet/office",
+        "business/telephony/fixed",
+        "business/telephony/ip",
+        "business/telephony/vpbx",
+        "business/telephony/mobile",
+        "business/cloud/storage",
+        "business/tv/iptv",
+        "business/security/video-surveillance",
+        "main_page"
+      ],
+      "contexts": [
+        "section"
+      ],
+      "examples": [
+        " МГТС</h2>         <div class=\"grid\">             <div class=\"grid-item\">                 <h3>Экономия</h3>                 <p>Снижение расходов на св",
+        "а связь до 50%</p>             </div>             <div class=\"grid-item\">                 <h3>Масштабируемость</h3>                 <p>Легко добавлять",
+        "мера и функции</p>             </div>             <div class=\"grid-item\">                 <h3>Интеграция</h3>                 <p>Интеграция с CRM и др",
+        "iv> <h2>Как мы работаем</h2> <div class=\"grid\">   <div class=\"grid-item\">     <h3>Понимание</h3>     <p>1                         Понимание           ",
+        "тей клиента и его бизнес-процессов</p>   </div>   <div class=\"grid-item\">     <h3>Решение</h3>     <p>2                         Решение               "
+      ]
+    },
+    {
+      "className": "card-body",
+      "count": 28,
+      "pages": [
+        "business",
+        "developers",
+        "government",
+        "operators",
+        "partners"
+      ],
+      "contexts": [
+        "section"
+      ],
+      "examples": [
+        "yle=\"text-decoration: none;\">                     <div class=\"card-body\">                         <div style=\"display: flex; align-items: center; gap:",
+        "yle=\"text-decoration: none;\">                     <div class=\"card-body\">                         <div style=\"display: flex; align-items: center; gap:",
+        "yle=\"text-decoration: none;\">                     <div class=\"card-body\">                         <div style=\"display: flex; align-items: center; gap:",
+        "           <div class=\"card\">                     <div class=\"card-body\">                         <div style=\"display: flex; align-items: center; gap:",
+        "           <div class=\"card\">                     <div class=\"card-body\">                         <div style=\"display: flex; align-items: center; gap:"
+      ]
+    },
+    {
+      "className": "tariff-card",
+      "count": 27,
+      "pages": [
+        "business/internet/gpon",
+        "business/internet/dedicated",
+        "business/internet/office",
+        "business/telephony/fixed",
+        "business/telephony/ip",
+        "business/telephony/vpbx",
+        "business/telephony/mobile",
+        "business/cloud/storage",
+        "business/tv/iptv",
+        "business/cloud/vps",
+        "business/security/video-surveillance"
+      ],
+      "contexts": [
+        "section"
+      ],
+      "examples": [
+        "2>         <div class=\"tariffs-grid\">             <div class=\"tariff-card\">                 <div class=\"tariff-card__header\">                     <h3 ",
+        "            </div>             </div>             <div class=\"tariff-card\">                 <div class=\"tariff-card__header\">                     <h3 ",
+        "            </div>             </div>             <div class=\"tariff-card\">                 <div class=\"tariff-card__header\">                     <h3 ",
+        "2>         <div class=\"tariffs-grid\">             <div class=\"tariff-card\">                 <div class=\"tariff-card__header\">                     <h3 ",
+        "            </div>             </div>             <div class=\"tariff-card\">                 <div class=\"tariff-card__header\">                     <h3 "
+      ]
+    },
+    {
+      "className": "tariff-card__header",
+      "count": 27,
+      "pages": [
+        "business/internet/gpon",
+        "business/internet/dedicated",
+        "business/internet/office",
+        "business/telephony/fixed",
+        "business/telephony/ip",
+        "business/telephony/vpbx",
+        "business/telephony/mobile",
+        "business/cloud/storage",
+        "business/tv/iptv",
+        "business/cloud/vps",
+        "business/security/video-surveillance"
+      ],
+      "contexts": [
+        "section"
+      ],
+      "examples": [
+        "        <div class=\"tariff-card\">                 <div class=\"tariff-card__header\">                     <h3 class=\"tariff-card__title\">Базовый</h3>   ",
+        "        <div class=\"tariff-card\">                 <div class=\"tariff-card__header\">                     <h3 class=\"tariff-card__title\">Стандартный</h3",
+        "        <div class=\"tariff-card\">                 <div class=\"tariff-card__header\">                     <h3 class=\"tariff-card__title\">Премиум</h3>   ",
+        "        <div class=\"tariff-card\">                 <div class=\"tariff-card__header\">                     <h3 class=\"tariff-card__title\">Базовый</h3>   ",
+        "        <div class=\"tariff-card\">                 <div class=\"tariff-card__header\">                     <h3 class=\"tariff-card__title\">Профессиональны"
+      ]
+    },
+    {
+      "className": "tariff-price",
+      "count": 27,
+      "pages": [
+        "business/internet/gpon",
+        "business/internet/dedicated",
+        "business/internet/office",
+        "business/telephony/fixed",
+        "business/telephony/ip",
+        "business/telephony/vpbx",
+        "business/telephony/mobile",
+        "business/cloud/storage",
+        "business/tv/iptv",
+        "business/cloud/vps",
+        "business/security/video-surveillance"
+      ],
+      "contexts": [
+        "section"
+      ],
+      "examples": [
+        "iff-card__title\">Базовый</h3>                     <div class=\"tariff-price\">                         от <span class=\"tariff-price__amount\">1 500</span",
+        "card__title\">Стандартный</h3>                     <div class=\"tariff-price\">                         от <span class=\"tariff-price__amount\">3 000</span",
+        "iff-card__title\">Премиум</h3>                     <div class=\"tariff-price\">                         от <span class=\"tariff-price__amount\">5 000</span",
+        "iff-card__title\">Базовый</h3>                     <div class=\"tariff-price\">                         от <span class=\"tariff-price__amount\">3 000</span",
+        "_title\">Профессиональный</h3>                     <div class=\"tariff-price\">                         от <span class=\"tariff-price__amount\">8 000</span"
+      ]
+    },
+    {
+      "className": "tariff-card__footer",
+      "count": 27,
+      "pages": [
+        "business/internet/gpon",
+        "business/internet/dedicated",
+        "business/internet/office",
+        "business/telephony/fixed",
+        "business/telephony/ip",
+        "business/telephony/vpbx",
+        "business/telephony/mobile",
+        "business/cloud/storage",
+        "business/tv/iptv",
+        "business/cloud/vps",
+        "business/security/video-surveillance"
+      ],
+      "contexts": [
+        "section"
+      ],
+      "examples": [
+        "а 24/7</li>                 </ul>                 <div class=\"tariff-card__footer\">                     <button class=\"btn btn-primary btn-lg\" onclick",
+        "держка</li>                 </ul>                 <div class=\"tariff-card__footer\">                     <button class=\"btn btn-primary btn-lg\" onclick",
+        "неджер</li>                 </ul>                 <div class=\"tariff-card__footer\">                     <button class=\"btn btn-primary btn-lg\" onclick",
+        "а 24/7</li>                 </ul>                 <div class=\"tariff-card__footer\">                     <button class=\"btn btn-primary btn-lg\" onclick",
+        "неджер</li>                 </ul>                 <div class=\"tariff-card__footer\">                     <button class=\"btn btn-primary btn-lg\" onclick"
+      ]
+    },
+    {
+      "className": "grid",
+      "count": 26,
+      "pages": [
+        "business/telephony",
+        "about/values",
+        "business/cloud",
+        "business/internet/gpon",
+        "business/internet/dedicated",
+        "business/internet/office",
+        "business/telephony/fixed",
+        "business/telephony/ip",
+        "business/telephony/vpbx",
+        "business/telephony/mobile",
+        "business/cloud/storage",
+        "business/tv/iptv",
+        "business/security/video-surveillance",
+        "business",
+        "developers",
+        "government",
+        "operators",
+        "partners",
+        "main_page"
+      ],
+      "contexts": [
+        "section"
+      ],
+      "examples": [
+        "itle\">Услуги корпоративной телефонии</h2>         <div class=\"grid\">             <div class=\"card\">                 <h3>Фиксированная телефония</h3>  ",
+        "ущества корпоративной телефонии МГТС</h2>         <div class=\"grid\">             <div class=\"grid-item\">                 <h3>Экономия</h3>            ",
+        "дому запросу.</p> </div> <h2>Как мы работаем</h2> <div class=\"grid\">   <div class=\"grid-item\">     <h3>Понимание</h3>     <p>1                        ",
+        "/div> <h2>Преимущества облачных решений МГТС</h2> <div class=\"grid\">   <div class=\"grid-item\">     <h3>Масштабируемость</h3>     <p>📈                ",
+        "/Старый блок тарифов --> <h2>Что такое GPON?</h2> <div class=\"grid\">   <div class=\"grid-item\">     <h3>Преимущества:</h3>     <p>Что такое GPON?      "
+      ]
+    },
+    {
+      "className": "order-form__success",
+      "count": 22,
+      "pages": [
+        "index",
+        "business/telephony",
+        "business/internet/gpon",
+        "business/internet/dedicated",
+        "business/internet/office",
+        "business/telephony/fixed",
+        "business/telephony/ip",
+        "business/telephony/vpbx",
+        "business/telephony/mobile",
+        "business/security/access-control",
+        "business/security/alarm",
+        "business/cloud/storage",
+        "business/cloud/services",
+        "business/tv/iptv",
+        "business/tv/office",
+        "business/cloud/vps",
+        "business/security/video-surveillance",
+        "business",
+        "developers",
+        "government",
+        "operators",
+        "partners"
+      ],
+      "contexts": [
+        "service-order",
+        "section"
+      ],
+      "examples": [
+        "rm__submit\">Отправить заявку</button>             <div class=\"order-form__success\" role=\"alert\" aria-live=\"polite\">Спасибо! Ваша заявка принята. Мы св",
+        "rm__submit\">Отправить заявку</button>             <div class=\"order-form__success\" role=\"alert\" aria-live=\"polite\">Спасибо! Ваша заявка принята. Мы св",
+        "rm__submit\">Отправить заявку</button>             <div class=\"order-form__success\" role=\"alert\" aria-live=\"polite\">Спасибо! Ваша заявка принята. Мы св",
+        "rm__submit\">Отправить заявку</button>             <div class=\"order-form__success\" role=\"alert\" aria-live=\"polite\">Спасибо! Ваша заявка принята. Мы св",
+        "rm__submit\">Отправить заявку</button>             <div class=\"order-form__success\" role=\"alert\" aria-live=\"polite\">Спасибо! Ваша заявка принята. Мы св"
+      ]
+    },
+    {
+      "className": "order-form__error",
+      "count": 22,
+      "pages": [
+        "index",
+        "business/telephony",
+        "business/internet/gpon",
+        "business/internet/dedicated",
+        "business/internet/office",
+        "business/telephony/fixed",
+        "business/telephony/ip",
+        "business/telephony/vpbx",
+        "business/telephony/mobile",
+        "business/security/access-control",
+        "business/security/alarm",
+        "business/cloud/storage",
+        "business/cloud/services",
+        "business/tv/iptv",
+        "business/tv/office",
+        "business/cloud/vps",
+        "business/security/video-surveillance",
+        "business",
+        "developers",
+        "government",
+        "operators",
+        "partners"
+      ],
+      "contexts": [
+        "service-order",
+        "section"
+      ],
+      "examples": [
+        "жемся с вами в ближайшее время.</div>             <div class=\"order-form__error\" role=\"alert\" aria-live=\"assertive\">Произошла ошибка. Пожалуйста, пров",
+        "жемся с вами в ближайшее время.</div>             <div class=\"order-form__error\" role=\"alert\" aria-live=\"assertive\">Произошла ошибка. Пожалуйста, пров",
+        "жемся с вами в ближайшее время.</div>             <div class=\"order-form__error\" role=\"alert\" aria-live=\"assertive\">Произошла ошибка. Пожалуйста, пров",
+        "жемся с вами в ближайшее время.</div>             <div class=\"order-form__error\" role=\"alert\" aria-live=\"assertive\">Произошла ошибка. Пожалуйста, пров",
+        "жемся с вами в ближайшее время.</div>             <div class=\"order-form__error\" role=\"alert\" aria-live=\"assertive\">Произошла ошибка. Пожалуйста, пров"
+      ]
+    },
+    {
+      "className": "tag-item",
+      "count": 17,
+      "pages": [
+        "main_page"
+      ],
+      "contexts": [
+        "section"
+      ],
+      "examples": [
+        "tors/index.html#data_transfer\">Передача данных</a><div class=\"tag-item\">Места в ЛКС</div><div class=\"tag-item\">Места на объекте</div><div class=\"tag-i",
+        " данных</a><div class=\"tag-item\">Места в ЛКС</div><div class=\"tag-item\">Места на объекте</div><div class=\"tag-item\">Проектирование и строительство сет",
+        "</div><div class=\"tag-item\">Места на объекте</div><div class=\"tag-item\">Проектирование и строительство сетей связи</div></div></div><a class=\"card-our"
+      ]
+    },
+    {
+      "className": "tariffs-grid",
+      "count": 11,
+      "pages": [
+        "business/internet/gpon",
+        "business/internet/dedicated",
+        "business/internet/office",
+        "business/telephony/fixed",
+        "business/telephony/ip",
+        "business/telephony/vpbx",
+        "business/telephony/mobile",
+        "business/cloud/storage",
+        "business/tv/iptv",
+        "business/cloud/vps",
+        "business/security/video-surveillance"
+      ],
+      "contexts": [
+        "section"
+      ],
+      "examples": [
+        "ontainer\">         <h2>Тарифы и цены</h2>         <div class=\"tariffs-grid\">             <div class=\"tariff-card\">                 <div class=\"tariff-",
+        "ontainer\">         <h2>Тарифы и цены</h2>         <div class=\"tariffs-grid\">             <div class=\"tariff-card\">                 <div class=\"tariff-",
+        "ontainer\">         <h2>Тарифы и цены</h2>         <div class=\"tariffs-grid\">             <div class=\"tariff-card\">                 <div class=\"tariff-",
+        "ontainer\">         <h2>Тарифы и цены</h2>         <div class=\"tariffs-grid\">             <div class=\"tariff-card\">                 <div class=\"tariff-",
+        "ontainer\">         <h2>Тарифы и цены</h2>         <div class=\"tariffs-grid\">             <div class=\"tariff-card\">                 <div class=\"tariff-"
+      ]
+    },
+    {
+      "className": "grid-cols-3",
+      "count": 7,
+      "pages": [
+        "business",
+        "developers",
+        "government",
+        "operators",
+        "partners",
+        "main_page"
+      ],
+      "contexts": [
+        "section"
+      ],
+      "examples": [
+        "Почему выбирают МГТС для бизнеса</h2>             <div class=\"grid grid-cols-3\">                 <div class=\"card\">                     <div class=\"ca",
+        "tion-title\">Кейсы наших клиентов</h2>             <div class=\"grid grid-cols-3\">                 <div class=\"card\">                     <div class=\"ca",
+        "Почему выбирают МГТС застройщики</h2>             <div class=\"grid grid-cols-3\">                 <div style=\"text-align: center;\">                    ",
+        "itle\">Преимущества работы с МГТС</h2>             <div class=\"grid grid-cols-3\">                 <div style=\"text-align: center;\">                    ",
+        "еимущества сотрудничества с МГТС</h2>             <div class=\"grid grid-cols-3\">                 <div style=\"text-align: center;\">                    "
+      ]
+    },
+    {
+      "className": "faq-item",
+      "count": 6,
+      "pages": [
+        "business/internet/gpon",
+        "business/internet/dedicated",
+        "business/telephony/ip",
+        "business/telephony/vpbx"
+      ],
+      "contexts": [
+        "section"
+      ],
+      "examples": [
+        "ы</h2>         <div class=\"faq-list\">             <div class=\"faq-item\">                 <button class=\"faq-question\" type=\"button\" aria-expanded=\"fal",
+        "            </div>             </div>             <div class=\"faq-item\">                 <button class=\"faq-question\" type=\"button\" aria-expanded=\"fal",
+        "            </div>             </div>             <div class=\"faq-item\">                 <button class=\"faq-question\" type=\"button\" aria-expanded=\"fal",
+        "ы</h2>         <div class=\"faq-list\">             <div class=\"faq-item\">                 <button class=\"faq-question\" type=\"button\" aria-expanded=\"fal",
+        "ы</h2>         <div class=\"faq-list\">             <div class=\"faq-item\">                 <button class=\"faq-question\" type=\"button\" aria-expanded=\"fal"
+      ]
+    },
+    {
+      "className": "faq-answer",
+      "count": 6,
+      "pages": [
+        "business/internet/gpon",
+        "business/internet/dedicated",
+        "business/telephony/ip",
+        "business/telephony/vpbx"
+      ],
+      "contexts": [
+        "section"
+      ],
+      "examples": [
+        "</span>                 </button>                 <div class=\"faq-answer\" id=\"faq-answer-1\" aria-expanded=\"false\">                     <div class=\"faq",
+        "</span>                 </button>                 <div class=\"faq-answer\" id=\"faq-answer-2\" aria-expanded=\"false\">                     <div class=\"faq",
+        "</span>                 </button>                 <div class=\"faq-answer\" id=\"faq-answer-3\" aria-expanded=\"false\">                     <div class=\"faq",
+        "</span>                 </button>                 <div class=\"faq-answer\" id=\"faq-answer-1\" aria-expanded=\"false\">                     <div class=\"faq",
+        "</span>                 </button>                 <div class=\"faq-answer\" id=\"faq-answer-1\" aria-expanded=\"false\">                     <div class=\"faq"
+      ]
+    },
+    {
+      "className": "faq-answer-content",
+      "count": 6,
+      "pages": [
+        "business/internet/gpon",
+        "business/internet/dedicated",
+        "business/telephony/ip",
+        "business/telephony/vpbx"
+      ],
+      "contexts": [
+        "section"
+      ],
+      "examples": [
+        "wer-1\" aria-expanded=\"false\">                     <div class=\"faq-answer-content\">                         <p>GPON использует оптоволоконную технологи",
+        "wer-2\" aria-expanded=\"false\">                     <div class=\"faq-answer-content\">                         <p>МГТС предоставляет все необходимое обору",
+        "wer-3\" aria-expanded=\"false\">                     <div class=\"faq-answer-content\">                         <p>Да, вы можете изменить тариф в любое вре",
+        "wer-1\" aria-expanded=\"false\">                     <div class=\"faq-answer-content\">                         <p>Оптоволоконный интернет до 1 Гбит/с для ",
+        "wer-1\" aria-expanded=\"false\">                     <div class=\"faq-answer-content\">                         <p>Облачная телефонная станция без оборудов"
+      ]
+    },
+    {
+      "className": "card__body",
+      "count": 6,
+      "pages": [
+        "main_page"
+      ],
+      "contexts": [
+        "section"
+      ],
+      "examples": [
+        "se\"><div class=\"card card--info operators active\"><div class=\"card__body\"><h3 class=\"card-our-services__content-title\">Расширяйте свои сети передачи д",
+        "collapse\"><div class=\"card card--info government\"><div class=\"card__body\"><h3 class=\"card-our-services__content-title\">Полный пакет услуг по созданию ",
+        "collapse\"><div class=\"card card--info developers\"><div class=\"card__body\"><h3 class=\"card-our-services__content-title\">Масштабируемые решения для наст"
+      ]
+    },
+    {
+      "className": "faq-list",
+      "count": 4,
+      "pages": [
+        "business/internet/gpon",
+        "business/internet/dedicated",
+        "business/telephony/ip",
+        "business/telephony/vpbx"
+      ],
+      "contexts": [
+        "section"
+      ],
+      "examples": [
+        "        <h2>Часто задаваемые вопросы</h2>         <div class=\"faq-list\">             <div class=\"faq-item\">                 <button class=\"faq-questio",
+        "        <h2>Часто задаваемые вопросы</h2>         <div class=\"faq-list\">             <div class=\"faq-item\">                 <button class=\"faq-questio",
+        "        <h2>Часто задаваемые вопросы</h2>         <div class=\"faq-list\">             <div class=\"faq-item\">                 <button class=\"faq-questio",
+        "        <h2>Часто задаваемые вопросы</h2>         <div class=\"faq-list\">             <div class=\"faq-item\">                 <button class=\"faq-questio"
+      ]
+    },
+    {
+      "className": "grid-cols-2",
+      "count": 4,
+      "pages": [
+        "business",
+        "developers",
+        "government",
+        "operators"
+      ],
+      "contexts": [
+        "section"
+      ],
+      "examples": [
+        "торая вас интересует</p>                          <div class=\"grid grid-cols-2\">                 <a href=\"internet/index.html\" class=\"card\" style=\"tex",
+        "le\">Наши услуги для застройщиков</h2>             <div class=\"grid grid-cols-2\">                 <div class=\"card\">                     <div class=\"ca",
+        "itle\">Наши услуги для госсектора</h2>             <div class=\"grid grid-cols-2\">                 <div class=\"card\">                     <div class=\"ca",
+        "itle\">Наши услуги для операторов</h2>             <div class=\"grid grid-cols-2\">                 <div class=\"card\">                     <div class=\"ca"
+      ]
+    },
+    {
+      "className": "statistic-item",
+      "count": 4,
+      "pages": [
+        "main_page"
+      ],
+      "contexts": [
+        "section"
+      ],
+      "examples": [
+        "istics-box cl-6\" aria-label=\"Статистика компании\"><div class=\"statistic-item\"><div class=\"header-text\">95%</div><div class=\"footer-text\">Охват объекто",
+        "ss=\"footer-text\">Охват объектов Москвы</div></div><div class=\"statistic-item\"><div class=\"header-text\">8500<div class=\"header-text-km\">км</div></div><",
+        "ss=\"footer-text\">Кабельной канализации</div></div><div class=\"statistic-item\"><div class=\"header-text\">67000<div class=\"header-text-km\">км</div></div>"
+      ]
+    },
+    {
+      "className": "header-text",
+      "count": 4,
+      "pages": [
+        "main_page"
+      ],
+      "contexts": [
+        "section"
+      ],
+      "examples": [
+        "\"Статистика компании\"><div class=\"statistic-item\"><div class=\"header-text\">95%</div><div class=\"footer-text\">Охват объектов Москвы</div></div><div cla",
+        "тов Москвы</div></div><div class=\"statistic-item\"><div class=\"header-text\">8500<div class=\"header-text-km\">км</div></div><div class=\"footer-text\">Кабе",
+        "анализации</div></div><div class=\"statistic-item\"><div class=\"header-text\">67000<div class=\"header-text-km\">км</div></div><div class=\"footer-text\">Соб"
+      ]
+    },
+    {
+      "className": "footer-text",
+      "count": 4,
+      "pages": [
+        "main_page"
+      ],
+      "contexts": [
+        "section"
+      ],
+      "examples": [
+        "statistic-item\"><div class=\"header-text\">95%</div><div class=\"footer-text\">Охват объектов Москвы</div></div><div class=\"statistic-item\"><div class=\"he",
+        "xt\">8500<div class=\"header-text-km\">км</div></div><div class=\"footer-text\">Кабельной канализации</div></div><div class=\"statistic-item\"><div class=\"he",
+        "t\">67000<div class=\"header-text-km\">км</div></div><div class=\"footer-text\">Собственных оптических сетей</div></div><div class=\"statistic-item\"><div cl"
+      ]
+    },
+    {
+      "className": "mirror-slider__left-card-box",
+      "count": 3,
+      "pages": [
+        "main_page"
+      ],
+      "contexts": [
+        "section"
+      ],
+      "examples": [
+        "ества МГТС\"><div class=\"mirror-slider__left-card\"><div class=\"mirror-slider__left-card-box close-left-slide\"><span class=\"left-card-counter\" aria-hidd",
+        "ежным соединением и симметричным каналом</p></div><div class=\"mirror-slider__left-card-box close-left-slide\"><span class=\"left-card-counter\" aria-hidd",
+        "ем, но и участником событий жизни города</p></div><div class=\"mirror-slider__left-card-box open-left-slide\"><span class=\"left-card-counter\" aria-hidde"
+      ]
+    },
+    {
+      "className": "selector-item__wrapper",
+      "count": 3,
+      "pages": [
+        "main_page"
+      ],
+      "contexts": [
+        "section"
+      ],
+      "examples": [
+        "iv class=\"our-services__selectors cl-8 cl-tab-12\"><div class=\"selector-item__wrapper\"><div class=\"selector-item disable-selection active\"><div class=\"",
+        "ath></clipPath></defs></svg></a></div></div></div><div class=\"selector-item__wrapper\"><div class=\"selector-item disable-selection\"><div class=\"selecto",
+        "ath></clipPath></defs></svg></a></div></div></div><div class=\"selector-item__wrapper\"><div class=\"selector-item disable-selection\"><div class=\"selecto"
+      ]
+    },
+    {
+      "className": "selector-item",
+      "count": 3,
+      "pages": [
+        "main_page"
+      ],
+      "contexts": [
+        "section"
+      ],
+      "examples": [
+        "-8 cl-tab-12\"><div class=\"selector-item__wrapper\"><div class=\"selector-item disable-selection active\"><div class=\"selector-item__img-wrapper\" aria-hid",
+        "v></div></div><div class=\"selector-item__wrapper\"><div class=\"selector-item disable-selection\"><div class=\"selector-item__img-wrapper\" aria-hidden=\"tr",
+        "v></div></div><div class=\"selector-item__wrapper\"><div class=\"selector-item disable-selection\"><div class=\"selector-item__img-wrapper\" aria-hidden=\"tr"
+      ]
+    },
+    {
+      "className": "disable-selection",
+      "count": 3,
+      "pages": [
+        "main_page"
+      ],
+      "contexts": [
+        "section"
+      ],
+      "examples": [
+        "-8 cl-tab-12\"><div class=\"selector-item__wrapper\"><div class=\"selector-item disable-selection active\"><div class=\"selector-item__img-wrapper\" aria-hid",
+        "v></div></div><div class=\"selector-item__wrapper\"><div class=\"selector-item disable-selection\"><div class=\"selector-item__img-wrapper\" aria-hidden=\"tr",
+        "v></div></div><div class=\"selector-item__wrapper\"><div class=\"selector-item disable-selection\"><div class=\"selector-item__img-wrapper\" aria-hidden=\"tr"
+      ]
+    },
+    {
+      "className": "selector-item__img-wrapper",
+      "count": 3,
+      "pages": [
+        "main_page"
+      ],
+      "contexts": [
+        "section"
+      ],
+      "examples": [
+        "iv class=\"selector-item disable-selection active\"><div class=\"selector-item__img-wrapper\" aria-hidden=\"true\"><svg xmlns=\"http://www.w3.org/2000/svg\" v",
+        "per\"><div class=\"selector-item disable-selection\"><div class=\"selector-item__img-wrapper\" aria-hidden=\"true\"><svg xmlns=\"http://www.w3.org/2000/svg\" v",
+        "per\"><div class=\"selector-item disable-selection\"><div class=\"selector-item__img-wrapper\" aria-hidden=\"true\"><svg xmlns=\"http://www.w3.org/2000/svg\" v"
+      ]
+    },
+    {
+      "className": "selector-item__text",
+      "count": 3,
+      "pages": [
+        "main_page"
+      ],
+      "contexts": [
+        "section"
+      ],
+      "examples": [
+        "8.032A2.2 2.2 0 0 1 21 10.945\"></path></svg></div><div class=\"selector-item__text\">ОПЕРАТОРАМ СВЯЗИ</div></div><div class=\"card-collapse\"><div class=\"",
+        "8.032A2.2 2.2 0 0 1 21 10.945\"></path></svg></div><div class=\"selector-item__text\">ГОСЗАКАЗЧИКАМ</div></div><div class=\"card-collapse\"><div class=\"car",
+        "8.032A2.2 2.2 0 0 1 21 10.945\"></path></svg></div><div class=\"selector-item__text\">ЗАСТРОЙЩИКАМ</div></div><div class=\"card-collapse\"><div class=\"card"
+      ]
+    },
+    {
+      "className": "card-collapse",
+      "count": 3,
+      "pages": [
+        "main_page"
+      ],
+      "contexts": [
+        "section"
+      ],
+      "examples": [
+        "\"selector-item__text\">ОПЕРАТОРАМ СВЯЗИ</div></div><div class=\"card-collapse\"><div class=\"card card--info operators active\"><div class=\"card__body\"><h3",
+        "ss=\"selector-item__text\">ГОСЗАКАЗЧИКАМ</div></div><div class=\"card-collapse\"><div class=\"card card--info government\"><div class=\"card__body\"><h3 class",
+        "ass=\"selector-item__text\">ЗАСТРОЙЩИКАМ</div></div><div class=\"card-collapse\"><div class=\"card card--info developers\"><div class=\"card__body\"><h3 class"
+      ]
+    },
+    {
+      "className": "card--info",
+      "count": 3,
+      "pages": [
+        "main_page"
+      ],
+      "contexts": [
+        "section"
+      ],
+      "examples": [
+        "ТОРАМ СВЯЗИ</div></div><div class=\"card-collapse\"><div class=\"card card--info operators active\"><div class=\"card__body\"><h3 class=\"card-our-services__",
+        "СЗАКАЗЧИКАМ</div></div><div class=\"card-collapse\"><div class=\"card card--info government\"><div class=\"card__body\"><h3 class=\"card-our-services__conten",
+        "АСТРОЙЩИКАМ</div></div><div class=\"card-collapse\"><div class=\"card card--info developers\"><div class=\"card__body\"><h3 class=\"card-our-services__conten"
+      ]
+    },
+    {
+      "className": "card-our-services__content-tags",
+      "count": 3,
+      "pages": [
+        "main_page"
+      ],
+      "contexts": [
+        "section"
+      ],
+      "examples": [
+        " данных и увеличивайте трафик при помощи МГТС</h3><div class=\"card-our-services__content-tags\"><a class=\"tag-item\" href=\"operators/index.html#data_tra",
+        "связи бюджетных и государственных организаций</h3><div class=\"card-our-services__content-tags\"><div class=\"tag-item\">Передача данных</div><div class=\"",
+        "домах, жилых комплексах, и даже целых районах</h3><div class=\"card-our-services__content-tags\"><div class=\"tag-item\">Инфраструктура Цифрового Здания</"
+      ]
+    },
+    {
+      "className": "card-our-services__link-text",
+      "count": 3,
+      "pages": [
+        "main_page"
+      ],
+      "contexts": [
+        "section"
+      ],
+      "examples": [
+        "label=\"Подробнее об услугах для операторов связи\"><div class=\"card-our-services__link-text\">Подробнее</div><svg xmlns=\"http://www.w3.org/2000/svg\" vie",
+        "ia-label=\"Подробнее об услугах для госзаказчиков\"><div class=\"card-our-services__link-text\">Подробнее</div><svg xmlns=\"http://www.w3.org/2000/svg\" vie",
+        "ria-label=\"Подробнее об услугах для застройщиков\"><div class=\"card-our-services__link-text\">Подробнее</div><svg xmlns=\"http://www.w3.org/2000/svg\" vie"
+      ]
+    },
+    {
+      "className": "card--navigation",
+      "count": 3,
+      "pages": [
+        "main_page"
+      ],
+      "contexts": [
+        "section"
+      ],
+      "examples": [
+        "v class=\"grid grid-cols-3\"><div class=\"grid-item\"><div class=\"card card--navigation card--hoverable\"><div class=\"card__icon\" aria-hidden=\"true\"></div>",
+        "инейных сооружениях связи ПАО МГТС</p></div></div><div class=\"card card--navigation card--hoverable\"><div class=\"card__icon\" aria-hidden=\"true\"></div>",
+        "сей Москве, а также в Подмосковье.</p></div></div><div class=\"card card--navigation card--hoverable\"><div class=\"card__icon\" aria-hidden=\"true\"></div>"
+      ]
+    },
+    {
+      "className": "card--hoverable",
+      "count": 3,
+      "pages": [
+        "main_page"
+      ],
+      "contexts": [
+        "section"
+      ],
+      "examples": [
+        "v class=\"grid grid-cols-3\"><div class=\"grid-item\"><div class=\"card card--navigation card--hoverable\"><div class=\"card__icon\" aria-hidden=\"true\"></div>",
+        "инейных сооружениях связи ПАО МГТС</p></div></div><div class=\"card card--navigation card--hoverable\"><div class=\"card__icon\" aria-hidden=\"true\"></div>",
+        "сей Москве, а также в Подмосковье.</p></div></div><div class=\"card card--navigation card--hoverable\"><div class=\"card__icon\" aria-hidden=\"true\"></div>"
+      ]
+    },
+    {
+      "className": "card__icon",
+      "count": 3,
+      "pages": [
+        "main_page"
+      ],
+      "contexts": [
+        "section"
+      ],
+      "examples": [
+        "div class=\"card card--navigation card--hoverable\"><div class=\"card__icon\" aria-hidden=\"true\"></div><div class=\"card__body\"><h3 class=\"card-box-content",
+        "div class=\"card card--navigation card--hoverable\"><div class=\"card__icon\" aria-hidden=\"true\"></div><div class=\"card__body\"><h3 class=\"card-box-content",
+        "div class=\"card card--navigation card--hoverable\"><div class=\"card__icon\" aria-hidden=\"true\"></div><div class=\"card__body\"><h3 class=\"card-box-content"
+      ]
+    },
+    {
+      "className": "container-mgts",
+      "count": 2,
+      "pages": [
+        "main_page"
+      ],
+      "contexts": [
+        "section"
+      ],
+      "examples": [
+        "ner\">         <div class=\"home-section-container\"><div class=\"about-company container-mgts\"><div class=\"about-company__content cl-6\"><svg xmlns=\"http:",
+        "div class=\"section-promo-note__content-container\"><div class=\"section-our-services container-mgts\"><div class=\"our-services__selectors cl-8 cl-tab-12\""
+      ]
+    },
+    {
+      "className": "cl-6",
+      "count": 2,
+      "pages": [
+        "main_page"
+      ],
+      "contexts": [
+        "section"
+      ],
+      "examples": [
+        "tainer\"><div class=\"about-company container-mgts\"><div class=\"about-company__content cl-6\"><svg xmlns=\"http://www.w3.org/2000/svg\" id=\"Logo_svg__logo_",
+        "ше о компании МГТС\">Подробнее о компании</a></div><div class=\"about-company__statistics-box cl-6\" aria-label=\"Статистика компании\"><div class=\"statist"
+      ]
+    },
+    {
+      "className": "header-text-km",
+      "count": 2,
+      "pages": [
+        "main_page"
+      ],
+      "contexts": [
+        "section"
+      ],
+      "examples": [
+        "ass=\"statistic-item\"><div class=\"header-text\">8500<div class=\"header-text-km\">км</div></div><div class=\"footer-text\">Кабельной канализации</div></div>",
+        "ss=\"statistic-item\"><div class=\"header-text\">67000<div class=\"header-text-km\">км</div></div><div class=\"footer-text\">Собственных оптических сетей</div"
+      ]
+    },
+    {
+      "className": "section-promo-note__content-container",
+      "count": 2,
+      "pages": [
+        "main_page"
+      ],
+      "contexts": [
+        "section"
+      ],
+      "examples": [
+        "omo-note__header-note\">¬ преимущества</p></header><div class=\"section-promo-note__content-container\"><div class=\"mirror-slider\" role=\"region\" aria-lab",
+        "ion-promo-note__header-note\">¬ услуги</p></header><div class=\"section-promo-note__content-container\"><div class=\"section-our-services container-mgts\">"
+      ]
+    },
+    {
+      "className": "close-left-slide",
+      "count": 2,
+      "pages": [
+        "main_page"
+      ],
+      "contexts": [
+        "section"
+      ],
+      "examples": [
+        "ества МГТС\"><div class=\"mirror-slider__left-card\"><div class=\"mirror-slider__left-card-box close-left-slide\"><span class=\"left-card-counter\" aria-hidd",
+        "ежным соединением и симметричным каналом</p></div><div class=\"mirror-slider__left-card-box close-left-slide\"><span class=\"left-card-counter\" aria-hidd"
+      ]
+    },
+    {
+      "className": "active",
+      "count": 2,
+      "pages": [
+        "main_page"
+      ],
+      "contexts": [
+        "section"
+      ],
+      "examples": [
+        "-8 cl-tab-12\"><div class=\"selector-item__wrapper\"><div class=\"selector-item disable-selection active\"><div class=\"selector-item__img-wrapper\" aria-hid",
+        "ТОРАМ СВЯЗИ</div></div><div class=\"card-collapse\"><div class=\"card card--info operators active\"><div class=\"card__body\"><h3 class=\"card-our-services__"
+      ]
+    },
+    {
+      "className": "disable-scrollbar",
+      "count": 2,
+      "pages": [
+        "main_page"
+      ],
+      "contexts": [
+        "section"
+      ],
+      "examples": [
+        "0z\"></path></clipPath></defs></svg></header></div><div class=\"cards-container disable-scrollbar\" role=\"region\" aria-label=\"Партнерские программы\"><div",
+        " role=\"region\" aria-label=\"Партнерские программы\"><div class=\"cards-scroll-container disable-scrollbar\"><div class=\"grid grid-cols-3\"><div class=\"grid"
+      ]
+    },
+    {
+      "className": "form-group",
+      "count": 1,
+      "pages": [
+        "about/ethics/partners-feedback"
+      ],
+      "contexts": [
+        "section"
+      ],
+      "examples": [
+        "container\">         <h2>Форма обратной связи</h2> <div class=\"form-group\" data-card-type=\"info\">   <p>Название компании *                             "
+      ]
+    },
+    {
+      "className": "home-section-container",
+      "count": 1,
+      "pages": [
+        "main_page"
+      ],
+      "contexts": [
+        "section"
+      ],
+      "examples": [
+        "ss=\"section\">     <div class=\"container\">         <div class=\"home-section-container\"><div class=\"about-company container-mgts\"><div class=\"about-comp"
+      ]
+    },
+    {
+      "className": "about-company",
+      "count": 1,
+      "pages": [
+        "main_page"
+      ],
+      "contexts": [
+        "section"
+      ],
+      "examples": [
+        "ner\">         <div class=\"home-section-container\"><div class=\"about-company container-mgts\"><div class=\"about-company__content cl-6\"><svg xmlns=\"http:"
+      ]
+    },
+    {
+      "className": "about-company__content",
+      "count": 1,
+      "pages": [
+        "main_page"
+      ],
+      "contexts": [
+        "section"
+      ],
+      "examples": [
+        "tainer\"><div class=\"about-company container-mgts\"><div class=\"about-company__content cl-6\"><svg xmlns=\"http://www.w3.org/2000/svg\" id=\"Logo_svg__logo_"
+      ]
+    },
+    {
+      "className": "about-company__content-text",
+      "count": 1,
+      "pages": [
+        "main_page"
+      ],
+      "contexts": [
+        "section"
+      ],
+      "examples": [
+        "52.09-48.69\" class=\"Logo_svg__cls-2\"></path></svg><div class=\"about-company__content-text\"><h2 class=\"about-company__content-text-title\">ВЕКОВОЙ ОПЫТ<"
+      ]
+    },
+    {
+      "className": "about-company__statistics-box",
+      "count": 1,
+      "pages": [
+        "main_page"
+      ],
+      "contexts": [
+        "section"
+      ],
+      "examples": [
+        "ше о компании МГТС\">Подробнее о компании</a></div><div class=\"about-company__statistics-box cl-6\" aria-label=\"Статистика компании\"><div class=\"statist"
+      ]
+    },
+    {
+      "className": "mirror-slider",
+      "count": 1,
+      "pages": [
+        "main_page"
+      ],
+      "contexts": [
+        "section"
+      ],
+      "examples": [
+        "div class=\"section-promo-note__content-container\"><div class=\"mirror-slider\" role=\"region\" aria-label=\"Преимущества МГТС\"><div class=\"mirror-slider__l"
+      ]
+    },
+    {
+      "className": "mirror-slider__left-card",
+      "count": 1,
+      "pages": [
+        "main_page"
+      ],
+      "contexts": [
+        "section"
+      ],
+      "examples": [
+        "der\" role=\"region\" aria-label=\"Преимущества МГТС\"><div class=\"mirror-slider__left-card\"><div class=\"mirror-slider__left-card-box close-left-slide\"><sp"
+      ]
+    },
+    {
+      "className": "open-left-slide",
+      "count": 1,
+      "pages": [
+        "main_page"
+      ],
+      "contexts": [
+        "section"
+      ],
+      "examples": [
+        "ем, но и участником событий жизни города</p></div><div class=\"mirror-slider__left-card-box open-left-slide\"><span class=\"left-card-counter\" aria-hidde"
+      ]
+    },
+    {
+      "className": "mirror-slider__right-card",
+      "count": 1,
+      "pages": [
+        "main_page"
+      ],
+      "contexts": [
+        "section"
+      ],
+      "examples": [
+        " сетей Москвы и Московской области</p></div></div><div class=\"mirror-slider__right-card\" aria-label=\"Изображения преимуществ\"><img alt=\"Крупнейшая в М"
+      ]
+    },
+    {
+      "className": "section-our-services",
+      "count": 1,
+      "pages": [
+        "main_page"
+      ],
+      "contexts": [
+        "section"
+      ],
+      "examples": [
+        "div class=\"section-promo-note__content-container\"><div class=\"section-our-services container-mgts\"><div class=\"our-services__selectors cl-8 cl-tab-12\""
+      ]
+    },
+    {
+      "className": "our-services__selectors",
+      "count": 1,
+      "pages": [
+        "main_page"
+      ],
+      "contexts": [
+        "section"
+      ],
+      "examples": [
+        "><div class=\"section-our-services container-mgts\"><div class=\"our-services__selectors cl-8 cl-tab-12\"><div class=\"selector-item__wrapper\"><div class=\""
+      ]
+    },
+    {
+      "className": "cl-8",
+      "count": 1,
+      "pages": [
+        "main_page"
+      ],
+      "contexts": [
+        "section"
+      ],
+      "examples": [
+        "><div class=\"section-our-services container-mgts\"><div class=\"our-services__selectors cl-8 cl-tab-12\"><div class=\"selector-item__wrapper\"><div class=\""
+      ]
+    },
+    {
+      "className": "cl-tab-12",
+      "count": 1,
+      "pages": [
+        "main_page"
+      ],
+      "contexts": [
+        "section"
+      ],
+      "examples": [
+        "><div class=\"section-our-services container-mgts\"><div class=\"our-services__selectors cl-8 cl-tab-12\"><div class=\"selector-item__wrapper\"><div class=\""
+      ]
+    },
+    {
+      "className": "operators",
+      "count": 1,
+      "pages": [
+        "main_page"
+      ],
+      "contexts": [
+        "section"
+      ],
+      "examples": [
+        "ТОРАМ СВЯЗИ</div></div><div class=\"card-collapse\"><div class=\"card card--info operators active\"><div class=\"card__body\"><h3 class=\"card-our-services__"
+      ]
+    },
+    {
+      "className": "government",
+      "count": 1,
+      "pages": [
+        "main_page"
+      ],
+      "contexts": [
+        "section"
+      ],
+      "examples": [
+        "СЗАКАЗЧИКАМ</div></div><div class=\"card-collapse\"><div class=\"card card--info government\"><div class=\"card__body\"><h3 class=\"card-our-services__conten"
+      ]
+    },
+    {
+      "className": "developers",
+      "count": 1,
+      "pages": [
+        "main_page"
+      ],
+      "contexts": [
+        "section"
+      ],
+      "examples": [
+        "АСТРОЙЩИКАМ</div></div><div class=\"card-collapse\"><div class=\"card card--info developers\"><div class=\"card__body\"><h3 class=\"card-our-services__conten"
+      ]
+    },
+    {
+      "className": "header-container",
+      "count": 1,
+      "pages": [
+        "main_page"
+      ],
+      "contexts": [
+        "section"
+      ],
+      "examples": [
+        "ing\">         <div class=\"container\">             <div class=\"header-container\"><header class=\"header-container__title\"><h2 class=\"title-promo-short\" "
+      ]
+    },
+    {
+      "className": "cards-container",
+      "count": 1,
+      "pages": [
+        "main_page"
+      ],
+      "contexts": [
+        "section"
+      ],
+      "examples": [
+        "0z\"></path></clipPath></defs></svg></header></div><div class=\"cards-container disable-scrollbar\" role=\"region\" aria-label=\"Партнерские программы\"><div"
+      ]
+    },
+    {
+      "className": "cards-scroll-container",
+      "count": 1,
+      "pages": [
+        "main_page"
+      ],
+      "contexts": [
+        "section"
+      ],
+      "examples": [
+        " role=\"region\" aria-label=\"Партнерские программы\"><div class=\"cards-scroll-container disable-scrollbar\"><div class=\"grid grid-cols-3\"><div class=\"grid"
+      ]
+    }
+  ]
+}

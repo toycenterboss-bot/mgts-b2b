@@ -1,0 +1,54 @@
+<section class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100" data-stitch-block="service_customization_panel">
+<div class="max-w-5xl mx-auto px-6 lg:px-10 py-12">
+<div class="max-w-xl">
+<h3 class="text-xl font-bold mb-6">Кастомизация</h3>
+<div class="bg-white dark:bg-surface-dark rounded-xl border border-slate-200 dark:border-border-dark p-6 space-y-6">
+<!-- Select Component -->
+<div class="space-y-2">
+<label class="text-xs font-bold uppercase tracking-wider text-slate-500">Тип подключения</label>
+<div class="relative" data-dropdown>
+<button class="flex items-center justify-between w-full bg-slate-50 dark:bg-background-dark border border-slate-200 dark:border-border-dark px-4 py-3 rounded-lg cursor-pointer hover:border-primary transition-colors" type="button" data-dropdown-trigger aria-expanded="false">
+<span class="text-sm" data-dropdown-label>Оптоволокно (GPON)</span>
+<span class="material-symbols-outlined text-slate-400" data-dropdown-icon>unfold_more</span>
+</button>
+<div class="absolute top-full left-0 right-0 mt-2 bg-white dark:bg-surface-dark border border-slate-200 dark:border-border-dark rounded-lg shadow-xl overflow-hidden z-20 hidden" data-dropdown-menu>
+<div class="p-2 border-b border-slate-100 dark:border-border-dark">
+<div class="flex items-center px-2 py-1.5 bg-slate-50 dark:bg-background-dark rounded-md">
+<span class="material-symbols-outlined text-lg text-slate-400 mr-2">search</span>
+<input class="bg-transparent border-none text-xs focus:ring-0 p-0 w-full" placeholder="Поиск..." type="text" data-dropdown-search/>
+</div>
+</div>
+<ul class="max-h-48 overflow-y-auto custom-scrollbar">
+<li><button class="w-full text-left px-4 py-2 text-sm hover:bg-primary hover:text-white cursor-pointer transition-colors" type="button" data-dropdown-option data-value="gpon" data-label="Оптоволокно (GPON)">Оптоволокно (GPON)</button></li>
+<li><button class="w-full text-left px-4 py-2 text-sm hover:bg-primary hover:text-white cursor-pointer transition-colors" type="button" data-dropdown-option data-value="vdsl" data-label="Медная линия (VDSL)">Медная линия (VDSL)</button></li>
+<li><button class="w-full text-left px-4 py-2 text-sm hover:bg-primary hover:text-white cursor-pointer transition-colors" type="button" data-dropdown-option data-value="sat" data-label="Спутниковая связь">Спутниковая связь</button></li>
+</ul>
+</div>
+</div>
+</div>
+
+<!-- Input Toggle -->
+<div class="space-y-4">
+<label class="text-xs font-bold uppercase tracking-wider text-slate-500">Дополнительные опции</label>
+<div class="flex items-center justify-between">
+<span class="text-sm font-medium">Статический IP</span>
+<button class="w-10 h-5 bg-primary rounded-full relative transition-colors" type="button" data-switch aria-pressed="true" data-switch-on-class="bg-primary" data-switch-off-class="bg-slate-300 dark:bg-border-dark" data-switch-thumb-on-class="right-1" data-switch-thumb-off-class="left-1">
+<span class="absolute right-1 top-1 size-3 bg-white rounded-full" data-switch-thumb></span>
+</button>
+</div>
+<div class="flex items-center justify-between">
+<span class="text-sm font-medium">Круглосуточный SLA</span>
+<button class="w-10 h-5 bg-slate-300 dark:bg-border-dark rounded-full relative transition-colors" type="button" data-switch aria-pressed="false" data-switch-on-class="bg-primary" data-switch-off-class="bg-slate-300 dark:bg-border-dark" data-switch-thumb-on-class="right-1" data-switch-thumb-off-class="left-1">
+<span class="absolute left-1 top-1 size-3 bg-white rounded-full" data-switch-thumb></span>
+</button>
+</div>
+</div>
+
+<button class="w-full py-3 border-2 border-primary text-primary font-bold rounded-lg hover:bg-primary hover:text-white transition-all text-sm">
+        Применить настройки
+      </button>
+</div>
+</div>
+</div>
+</section>
+

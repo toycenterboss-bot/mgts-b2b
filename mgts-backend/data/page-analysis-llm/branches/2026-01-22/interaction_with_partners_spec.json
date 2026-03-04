@@ -1,0 +1,171 @@
+{
+  "page": {
+    "slug": "interaction_with_partners",
+    "url": "https://business.mgts.ru/interaction_with_partners",
+    "pathname": "/interaction_with_partners",
+    "analyzedAt": "2026-01-15T12:14:38.409Z",
+    "screenshot": "/Users/andrey_efremov/Downloads/runs/mgts-backend/temp/page-analysis-llm/interaction_with_partners_screenshot.png",
+    "llmProvider": "perplexity",
+    "llmModel": "sonar"
+  },
+  "metadata": {
+    "title": "Взаимодействие с партнерами"
+  },
+  "sections": [
+    {
+      "sectionIndex": 1,
+      "type": "hero",
+      "description": "Главный заголовок страницы",
+      "title": "Взаимодействие с партнерами",
+      "subtitle": "",
+      "text": "Взаимодействие с партнерами",
+      "elements": [],
+      "images": [],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [],
+      "tabs": [],
+      "table": null
+    },
+    {
+      "sectionIndex": 2,
+      "type": "sidebar",
+      "description": "Боковое навигационное меню с разделами корпоративного управления и комплаенс-политик. Активный раздел 'Взаимодействие с партнерами'. Содержит иерархическую структуру с основными разделами и подразделами для навигации по связанным страницам.",
+      "title": "Навигация по разделам",
+      "text": "О МГТС → Ценности МГТС → Деловая этика и комплаенс → Взаимодействие с партнерами",
+      "links": {
+        "internalLinks": [
+          {
+            "text": "О МГТС",
+            "href": "/about",
+            "purpose": "Переход к разделу 'О МГТС' - общая информация о компании"
+          },
+          {
+            "text": "Ценности МГТС",
+            "href": "/values",
+            "purpose": "Переход к ценностям компании МГТС"
+          },
+          {
+            "text": "Деловая этика и комплаенс",
+            "href": "/compliance",
+            "purpose": "Раздел деловой этики и комплаенс-политик"
+          },
+          {
+            "text": "Взаимодействие с партнерами",
+            "href": "/interaction_with_partners",
+            "purpose": "Активный раздел - политика взаимодействия с партнерами (выделен)"
+          },
+          {
+            "text": "Корпоративное управление",
+            "href": "/corporate_governance",
+            "purpose": "Переход к принципам корпоративного управления"
+          },
+          {
+            "text": "Принципы корпоративного управления",
+            "href": "/corporate_governance/principles",
+            "purpose": "Подраздел принципов корпоративного управления"
+          },
+          {
+            "text": "Корпоративные документы",
+            "href": "/corporate_documents",
+            "purpose": "Корпоративные документы компании"
+          },
+          {
+            "text": "Решения общих собраний акционеров",
+            "href": "/shareholders_meetings",
+            "purpose": "Документы решений общих собраний акционеров"
+          }
+        ],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      }
+    },
+    {
+      "sectionIndex": 3,
+      "type": "documents",
+      "description": "Блок с ключевыми документами по комплаенс и взаимодействию с партнерами. Содержит 4 файла для скачивания в формате PDF с указанием размеров.",
+      "title": "Взаимодействие с партнерами",
+      "text": "",
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [
+          {
+            "text": "Кодекс делового поведения контрагента",
+            "href": "http://localhost:1337/uploads/Kodeks_delovogo_povedeniya_kontragenta_f0add0765f.pdf",
+            "fileType": "pdf",
+            "purpose": "Основной документ с правилами делового поведения для контрагентов МГТС",
+            "fileName": "Кодекс_делового_поведения_контрагента.pdf"
+          },
+          {
+            "text": "Антикоррупционная оговорка",
+            "href": "http://localhost:1337/uploads/Antikorrupczionnaya_ogovorka_f69f176274.pdf",
+            "fileType": "pdf",
+            "purpose": "Документ с антикоррупционными требованиями к партнерам",
+            "fileName": "Антикоррупционная_оговорка.pdf"
+          },
+          {
+            "text": "Обучение по комплаенс",
+            "href": "http://localhost:1337/uploads/Obuchenie_po_komplaens_cf136baf29.pdf",
+            "fileType": "pdf",
+            "purpose": "Материалы по обучению комплаенс-требованиям",
+            "fileName": "Обучение_по_комплаенс.pdf"
+          },
+          {
+            "text": "Памятка для контрагента",
+            "href": "http://localhost:1337/uploads/Pamyatka_dlya_kontragenta_f27daac2b8.pdf",
+            "fileType": "pdf",
+            "purpose": "Памятка с ключевыми правилами для контрагентов МГТС",
+            "fileName": "Памятка_для_контрагента.pdf"
+          }
+        ],
+        "imageLinks": []
+      }
+    },
+    {
+      "sectionIndex": 4,
+      "type": "text_content",
+      "description": "Основной текстовый блок с описанием политики взаимодействия с партнерами. Объясняет ожидания МГТС от контрагентов в области этики и комплаенса.",
+      "title": "",
+      "text": "МГТС нацелена на развитие этических партнерских отношений со своими контрагентами. Мы ожидаем, что наши партнёры будут:\n\n• Вести бизнес эффективно, законно, честно и добросовестно.\n• Соблюдать антикоррупционное законодательство.\n• Гарантировать, что их субподрядчики и представители также соблюдают антикоррупционное законодательство.\n• Соблюдать требования Кодекса делового поведения контрагента и других комплаенс-политик МГТС, выступая от имени или в интересах МГТС.\n• Вести достоверную отчетность.",
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      }
+    },
+    {
+      "sectionIndex": 5,
+      "type": "feedback",
+      "description": "Блок обратной связи с призывом заполнить форму и контактной информацией. Включает кнопку для перехода к форме обратной связи.",
+      "title": "Помогите нам стать лучше!",
+      "text": "Будем благодарны, если вы заполните форму обратной связи",
+      "elements": [
+        {
+          "type": "button",
+          "text": "Заполнить форму",
+          "purpose": "Переход к форме обратной связи для партнеров",
+          "href": "/feedback"
+        }
+      ],
+      "links": {
+        "internalLinks": [
+          {
+            "text": "Единая горячая линия",
+            "href": "/hotline",
+            "purpose": "Контакт горячей линии для обращений"
+          }
+        ],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      }
+    }
+  ]
+}

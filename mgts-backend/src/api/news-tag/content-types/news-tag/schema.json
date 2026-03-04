@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "news_tags",
+  "info": {
+    "singularName": "news-tag",
+    "pluralName": "news-tags",
+    "displayName": "News Tag",
+    "description": "Тег новостей"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "slug": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}
+
+
+

@@ -1,0 +1,461 @@
+[
+  {
+    "slug": "developers",
+    "totalCards": 4,
+    "cardsWithoutStructure": 0,
+    "cardsNotInGrid": 0,
+    "divsWithoutClass": 18,
+    "problematicElements": 35,
+    "issues": [
+      {
+        "type": "divs_without_class",
+        "count": 18,
+        "description": "Div элементы без класса"
+      },
+      {
+        "type": "problematic_elements_without_class",
+        "count": 35,
+        "description": "Элементы без класса, которые могут быть проблемными"
+      }
+    ],
+    "details": {
+      "cardsWithoutStructure": [],
+      "cardsNotInGrid": [],
+      "divsWithoutClass": [
+        {
+          "parentClass": "card-body",
+          "hasContent": true,
+          "children": 2,
+          "textPreview": "🏗️\n                            \n                                Подключение объектов\n              ",
+          "htmlPreview": "<div>\n                            <div>🏗️</div>\n                            <div>\n                                <h3>Подключение объектов</h3>\n                                <p style=\"color: var(--"
+        },
+        {
+          "parentClass": "нет класса",
+          "hasContent": true,
+          "children": 0,
+          "textPreview": "🏗️",
+          "htmlPreview": "<div>🏗️</div>"
+        },
+        {
+          "parentClass": "нет класса",
+          "hasContent": true,
+          "children": 2,
+          "textPreview": "Подключение объектов\n                                \n                                    Полное под",
+          "htmlPreview": "<div>\n                                <h3>Подключение объектов</h3>\n                                <p style=\"color: var(--color-gray-600);\">\n                                    Полное подключение жил"
+        },
+        {
+          "parentClass": "card-body",
+          "hasContent": true,
+          "children": 2,
+          "textPreview": "🏠\n                            \n                                Подключение жилых объектов\n         ",
+          "htmlPreview": "<div>\n                            <div>🏠</div>\n                            <div>\n                                <h3>Подключение жилых объектов</h3>\n                                <p style=\"color: v"
+        },
+        {
+          "parentClass": "нет класса",
+          "hasContent": true,
+          "children": 0,
+          "textPreview": "🏠",
+          "htmlPreview": "<div>🏠</div>"
+        },
+        {
+          "parentClass": "нет класса",
+          "hasContent": true,
+          "children": 2,
+          "textPreview": "Подключение жилых объектов\n                                \n                                    Теле",
+          "htmlPreview": "<div>\n                                <h3>Подключение жилых объектов</h3>\n                                <p style=\"color: var(--color-gray-600);\">\n                                    Телекоммуникации"
+        },
+        {
+          "parentClass": "card-body",
+          "hasContent": true,
+          "children": 2,
+          "textPreview": "🏢\n                            \n                                Подключение коммерческих объектов\n  ",
+          "htmlPreview": "<div>\n                            <div>🏢</div>\n                            <div>\n                                <h3>Подключение коммерческих объектов</h3>\n                                <p style=\"c"
+        },
+        {
+          "parentClass": "нет класса",
+          "hasContent": true,
+          "children": 0,
+          "textPreview": "🏢",
+          "htmlPreview": "<div>🏢</div>"
+        },
+        {
+          "parentClass": "нет класса",
+          "hasContent": true,
+          "children": 2,
+          "textPreview": "Подключение коммерческих объектов\n                                \n                                 ",
+          "htmlPreview": "<div>\n                                <h3>Подключение коммерческих объектов</h3>\n                                <p style=\"color: var(--color-gray-600);\">\n                                    Бизнес-це"
+        },
+        {
+          "parentClass": "card-body",
+          "hasContent": true,
+          "children": 2,
+          "textPreview": "💻\n                            \n                                Цифровые решения\n                   ",
+          "htmlPreview": "<div>\n                            <div>💻</div>\n                            <div>\n                                <h3>Цифровые решения</h3>\n                                <p style=\"color: var(--color"
+        },
+        {
+          "parentClass": "нет класса",
+          "hasContent": true,
+          "children": 0,
+          "textPreview": "💻",
+          "htmlPreview": "<div>💻</div>"
+        },
+        {
+          "parentClass": "нет класса",
+          "hasContent": true,
+          "children": 2,
+          "textPreview": "Цифровые решения\n                                \n                                    Комплексные ци",
+          "htmlPreview": "<div>\n                                <h3>Цифровые решения</h3>\n                                <p style=\"color: var(--color-gray-600);\">\n                                    Комплексные цифровые решен"
+        },
+        {
+          "parentClass": "grid grid-cols-3",
+          "hasContent": true,
+          "children": 3,
+          "textPreview": "⚡\n                    Быстрое подключение\n                    \n                        Сокращенные с",
+          "htmlPreview": "<div>\n                    <div>⚡</div>\n                    <h3>Быстрое подключение</h3>\n                    <p style=\"color: var(--color-gray-600);\">\n                        Сокращенные сроки подключе"
+        },
+        {
+          "parentClass": "нет класса",
+          "hasContent": true,
+          "children": 0,
+          "textPreview": "⚡",
+          "htmlPreview": "<div>⚡</div>"
+        },
+        {
+          "parentClass": "grid grid-cols-3",
+          "hasContent": true,
+          "children": 3,
+          "textPreview": "💰\n                    Выгодные условия\n                    \n                        Специальные усл",
+          "htmlPreview": "<div>\n                    <div>💰</div>\n                    <h3>Выгодные условия</h3>\n                    <p style=\"color: var(--color-gray-600);\">\n                        Специальные условия для заст"
+        },
+        {
+          "parentClass": "нет класса",
+          "hasContent": true,
+          "children": 0,
+          "textPreview": "💰",
+          "htmlPreview": "<div>💰</div>"
+        },
+        {
+          "parentClass": "grid grid-cols-3",
+          "hasContent": true,
+          "children": 3,
+          "textPreview": "🤝\n                    Комплексный подход\n                    \n                        От проектиров",
+          "htmlPreview": "<div>\n                    <div>🤝</div>\n                    <h3>Комплексный подход</h3>\n                    <p style=\"color: var(--color-gray-600);\">\n                        От проектирования до ввода"
+        },
+        {
+          "parentClass": "нет класса",
+          "hasContent": true,
+          "children": 0,
+          "textPreview": "🤝",
+          "htmlPreview": "<div>🤝</div>"
+        }
+      ],
+      "problematicElements": [
+        {
+          "tagName": "html",
+          "parentClass": "нет родителя",
+          "textPreview": "Наши услуги для застройщиков\n            \n                \n                    \n                    ",
+          "htmlPreview": "<html><head></head><body><section class=\"section\">\n        <div class=\"container\">\n            <h2 class=\"section-title\">Наши услуги для застройщиков</h2>\n            <div class=\"grid grid-cols-2\">\n  "
+        },
+        {
+          "tagName": "head",
+          "parentClass": "нет класса",
+          "textPreview": "",
+          "htmlPreview": "<head></head>"
+        },
+        {
+          "tagName": "body",
+          "parentClass": "нет класса",
+          "textPreview": "Наши услуги для застройщиков\n            \n                \n                    \n                    ",
+          "htmlPreview": "<body><section class=\"section\">\n        <div class=\"container\">\n            <h2 class=\"section-title\">Наши услуги для застройщиков</h2>\n            <div class=\"grid grid-cols-2\">\n                <div "
+        },
+        {
+          "tagName": "div",
+          "parentClass": "card-body",
+          "textPreview": "🏗️\n                            \n                                Подключение объектов\n              ",
+          "htmlPreview": "<div>\n                            <div>🏗️</div>\n                            <div>\n                                <h3>Подключение объектов</h3>\n                                <p style=\"color: var(--"
+        },
+        {
+          "tagName": "div",
+          "parentClass": "нет класса",
+          "textPreview": "🏗️",
+          "htmlPreview": "<div>🏗️</div>"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "government",
+    "totalCards": 4,
+    "cardsWithoutStructure": 0,
+    "cardsNotInGrid": 0,
+    "divsWithoutClass": 18,
+    "problematicElements": 35,
+    "issues": [
+      {
+        "type": "divs_without_class",
+        "count": 18,
+        "description": "Div элементы без класса"
+      },
+      {
+        "type": "problematic_elements_without_class",
+        "count": 35,
+        "description": "Элементы без класса, которые могут быть проблемными"
+      }
+    ],
+    "details": {
+      "cardsWithoutStructure": [],
+      "cardsNotInGrid": [],
+      "divsWithoutClass": [
+        {
+          "parentClass": "card-body",
+          "hasContent": true,
+          "children": 2,
+          "textPreview": "🌐\n                            \n                                Телекоммуникационная инфраструктура\n",
+          "htmlPreview": "<div>\n                            <div>🌐</div>\n                            <div>\n                                <h3>Телекоммуникационная инфраструктура</h3>\n                                <p style="
+        },
+        {
+          "parentClass": "нет класса",
+          "hasContent": true,
+          "children": 0,
+          "textPreview": "🌐",
+          "htmlPreview": "<div>🌐</div>"
+        },
+        {
+          "parentClass": "нет класса",
+          "hasContent": true,
+          "children": 2,
+          "textPreview": "Телекоммуникационная инфраструктура\n                                \n                               ",
+          "htmlPreview": "<div>\n                                <h3>Телекоммуникационная инфраструктура</h3>\n                                <p style=\"color: var(--color-gray-600);\">\n                                    Построе"
+        },
+        {
+          "parentClass": "card-body",
+          "hasContent": true,
+          "children": 2,
+          "textPreview": "💻\n                            \n                                Цифровые услуги\n                    ",
+          "htmlPreview": "<div>\n                            <div>💻</div>\n                            <div>\n                                <h3>Цифровые услуги</h3>\n                                <p style=\"color: var(--color-"
+        },
+        {
+          "parentClass": "нет класса",
+          "hasContent": true,
+          "children": 0,
+          "textPreview": "💻",
+          "htmlPreview": "<div>💻</div>"
+        },
+        {
+          "parentClass": "нет класса",
+          "hasContent": true,
+          "children": 2,
+          "textPreview": "Цифровые услуги\n                                \n                                    Комплексные циф",
+          "htmlPreview": "<div>\n                                <h3>Цифровые услуги</h3>\n                                <p style=\"color: var(--color-gray-600);\">\n                                    Комплексные цифровые решени"
+        },
+        {
+          "parentClass": "card-body",
+          "hasContent": true,
+          "children": 2,
+          "textPreview": "🏛️\n                            \n                                Индивидуальные решения\n            ",
+          "htmlPreview": "<div>\n                            <div>🏛️</div>\n                            <div>\n                                <h3>Индивидуальные решения</h3>\n                                <p style=\"color: var("
+        },
+        {
+          "parentClass": "нет класса",
+          "hasContent": true,
+          "children": 0,
+          "textPreview": "🏛️",
+          "htmlPreview": "<div>🏛️</div>"
+        },
+        {
+          "parentClass": "нет класса",
+          "hasContent": true,
+          "children": 2,
+          "textPreview": "Индивидуальные решения\n                                \n                                    Разработ",
+          "htmlPreview": "<div>\n                                <h3>Индивидуальные решения</h3>\n                                <p style=\"color: var(--color-gray-600);\">\n                                    Разработка и внедрен"
+        },
+        {
+          "parentClass": "card-body",
+          "hasContent": true,
+          "children": 2,
+          "textPreview": "🔒\n                            \n                                Безопасность\n                       ",
+          "htmlPreview": "<div>\n                            <div>🔒</div>\n                            <div>\n                                <h3>Безопасность</h3>\n                                <p style=\"color: var(--color-gra"
+        },
+        {
+          "parentClass": "нет класса",
+          "hasContent": true,
+          "children": 0,
+          "textPreview": "🔒",
+          "htmlPreview": "<div>🔒</div>"
+        },
+        {
+          "parentClass": "нет класса",
+          "hasContent": true,
+          "children": 2,
+          "textPreview": "Безопасность\n                                \n                                    Соответствие требо",
+          "htmlPreview": "<div>\n                                <h3>Безопасность</h3>\n                                <p style=\"color: var(--color-gray-600);\">\n                                    Соответствие требованиям инфор"
+        },
+        {
+          "parentClass": "grid grid-cols-3",
+          "hasContent": true,
+          "children": 3,
+          "textPreview": "✅\n                    Соответствие требованиям\n                    \n                        Полное с",
+          "htmlPreview": "<div>\n                    <div>✅</div>\n                    <h3>Соответствие требованиям</h3>\n                    <p style=\"color: var(--color-gray-600);\">\n                        Полное соответствие т"
+        },
+        {
+          "parentClass": "нет класса",
+          "hasContent": true,
+          "children": 0,
+          "textPreview": "✅",
+          "htmlPreview": "<div>✅</div>"
+        },
+        {
+          "parentClass": "grid grid-cols-3",
+          "hasContent": true,
+          "children": 3,
+          "textPreview": "🛡️\n                    Безопасность данных\n                    \n                        Соблюдение ",
+          "htmlPreview": "<div>\n                    <div>🛡️</div>\n                    <h3>Безопасность данных</h3>\n                    <p style=\"color: var(--color-gray-600);\">\n                        Соблюдение требований по"
+        },
+        {
+          "parentClass": "нет класса",
+          "hasContent": true,
+          "children": 0,
+          "textPreview": "🛡️",
+          "htmlPreview": "<div>🛡️</div>"
+        },
+        {
+          "parentClass": "grid grid-cols-3",
+          "hasContent": true,
+          "children": 3,
+          "textPreview": "🤝\n                    Опыт работы\n                    \n                        Многолетний опыт раб",
+          "htmlPreview": "<div>\n                    <div>🤝</div>\n                    <h3>Опыт работы</h3>\n                    <p style=\"color: var(--color-gray-600);\">\n                        Многолетний опыт работы с государ"
+        },
+        {
+          "parentClass": "нет класса",
+          "hasContent": true,
+          "children": 0,
+          "textPreview": "🤝",
+          "htmlPreview": "<div>🤝</div>"
+        }
+      ],
+      "problematicElements": [
+        {
+          "tagName": "html",
+          "parentClass": "нет родителя",
+          "textPreview": "Наши услуги для госсектора\n            \n                \n                    \n                      ",
+          "htmlPreview": "<html><head></head><body><section class=\"section\">\n        <div class=\"container\">\n            <h2 class=\"section-title\">Наши услуги для госсектора</h2>\n            <div class=\"grid grid-cols-2\">\n    "
+        },
+        {
+          "tagName": "head",
+          "parentClass": "нет класса",
+          "textPreview": "",
+          "htmlPreview": "<head></head>"
+        },
+        {
+          "tagName": "body",
+          "parentClass": "нет класса",
+          "textPreview": "Наши услуги для госсектора\n            \n                \n                    \n                      ",
+          "htmlPreview": "<body><section class=\"section\">\n        <div class=\"container\">\n            <h2 class=\"section-title\">Наши услуги для госсектора</h2>\n            <div class=\"grid grid-cols-2\">\n                <div cl"
+        },
+        {
+          "tagName": "div",
+          "parentClass": "card-body",
+          "textPreview": "🌐\n                            \n                                Телекоммуникационная инфраструктура\n",
+          "htmlPreview": "<div>\n                            <div>🌐</div>\n                            <div>\n                                <h3>Телекоммуникационная инфраструктура</h3>\n                                <p style="
+        },
+        {
+          "tagName": "div",
+          "parentClass": "нет класса",
+          "textPreview": "🌐",
+          "htmlPreview": "<div>🌐</div>"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "partners",
+    "totalCards": 6,
+    "cardsWithoutStructure": 0,
+    "cardsNotInGrid": 3,
+    "divsWithoutClass": 4,
+    "problematicElements": 26,
+    "issues": [
+      {
+        "type": "multiple_cards_without_grid",
+        "count": 3,
+        "description": "Несколько карточек не находятся в grid контейнере"
+      },
+      {
+        "type": "divs_without_class",
+        "count": 4,
+        "description": "Div элементы без класса"
+      },
+      {
+        "type": "problematic_elements_without_class",
+        "count": 26,
+        "description": "Элементы без класса, которые могут быть проблемными"
+      }
+    ],
+    "details": {
+      "cardsWithoutStructure": [],
+      "cardsNotInGrid": [],
+      "divsWithoutClass": [
+        {
+          "parentClass": "card-body",
+          "hasContent": true,
+          "children": 0,
+          "textPreview": "💰",
+          "htmlPreview": "<div>💰</div>"
+        },
+        {
+          "parentClass": "card-body",
+          "hasContent": true,
+          "children": 0,
+          "textPreview": "🎯",
+          "htmlPreview": "<div>🎯</div>"
+        },
+        {
+          "parentClass": "card-body",
+          "hasContent": true,
+          "children": 0,
+          "textPreview": "📊",
+          "htmlPreview": "<div>📊</div>"
+        },
+        {
+          "parentClass": "container",
+          "hasContent": true,
+          "children": 3,
+          "textPreview": "Кто может стать партнером?\n                        \n                            IT-компании, интегра",
+          "htmlPreview": "<div>\n                <div class=\"card\">\n                    <div class=\"card-body\">\n                        <h3>Кто может стать партнером?</h3>\n                        <p style=\"color: var(--color-gr"
+        }
+      ],
+      "problematicElements": [
+        {
+          "tagName": "html",
+          "parentClass": "нет родителя",
+          "textPreview": "Преимущества партнерства\n            \n                \n                    \n                        ",
+          "htmlPreview": "<html><head></head><body><section class=\"section\">\n        <div class=\"container\">\n            <h2 class=\"section-title\">Преимущества партнерства</h2>\n            <div class=\"grid grid-cols-3\">\n      "
+        },
+        {
+          "tagName": "head",
+          "parentClass": "нет класса",
+          "textPreview": "",
+          "htmlPreview": "<head></head>"
+        },
+        {
+          "tagName": "body",
+          "parentClass": "нет класса",
+          "textPreview": "Преимущества партнерства\n            \n                \n                    \n                        ",
+          "htmlPreview": "<body><section class=\"section\">\n        <div class=\"container\">\n            <h2 class=\"section-title\">Преимущества партнерства</h2>\n            <div class=\"grid grid-cols-3\">\n                <div clas"
+        },
+        {
+          "tagName": "div",
+          "parentClass": "card-body",
+          "textPreview": "💰",
+          "htmlPreview": "<div>💰</div>"
+        },
+        {
+          "tagName": "h3",
+          "parentClass": "card-body",
+          "textPreview": "Выгодные комиссии",
+          "htmlPreview": "<h3>Выгодные комиссии</h3>"
+        }
+      ]
+    }
+  }
+]

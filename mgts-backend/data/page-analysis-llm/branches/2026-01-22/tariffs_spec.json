@@ -1,0 +1,287 @@
+{
+  "page": {
+    "slug": "tariffs",
+    "url": "https://business.mgts.ru/partners/tariffs",
+    "pathname": "/partners/tariffs",
+    "analyzedAt": "2026-01-17T13:03:45.466Z",
+    "screenshot": "/Users/andrey_efremov/Downloads/runs/mgts-backend/temp/page-analysis-llm/tariffs_screenshot.png",
+    "llmProvider": "perplexity",
+    "llmModel": "sonar"
+  },
+  "metadata": {
+    "title": "Тарифы"
+  },
+  "sections": [
+    {
+      "type": "sidebar",
+      "description": "Боковое навигационное меню, восстановленное по связанной странице",
+      "title": "Навигация",
+      "text": null,
+      "links": {
+        "internalLinks": [
+          {
+            "text": "Закупки",
+            "href": "/partners/purchas",
+            "purpose": "Навигационный пункт бокового меню"
+          },
+          {
+            "text": "Допуск к проведению работ на линиях и сооружениях связи",
+            "href": "/partners/procedure_admission_work",
+            "purpose": "Навигационный пункт бокового меню"
+          },
+          {
+            "text": "Реализация ТМЦ",
+            "href": "/partners/realization",
+            "purpose": "Навигационный пункт бокового меню"
+          },
+          {
+            "text": "Тарифы",
+            "href": "/partners/tariffs",
+            "purpose": "Навигационный пункт бокового меню"
+          },
+          {
+            "text": "Документация",
+            "href": "/partners/documents",
+            "purpose": "Навигационный пункт бокового меню"
+          },
+          {
+            "text": "Рамочный договор",
+            "href": "/partners/ramochnie_dogovori",
+            "purpose": "Навигационный пункт бокового меню"
+          }
+        ],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": []
+    },
+    {
+      "sectionIndex": 1,
+      "type": "breadcrumbs",
+      "description": "Навигационная цепочка хлебных крошек показывает путь пользователя от главной страницы к текущей странице тарифов для партнеров",
+      "links": {
+        "internalLinks": [
+          {
+            "text": "Главная",
+            "href": "/",
+            "purpose": "Переход на главную страницу сайта"
+          },
+          {
+            "text": "Партнерам",
+            "href": "/partners",
+            "purpose": "Переход в раздел для партнеров"
+          }
+        ]
+      },
+      "_sourceChunk": {
+        "index": 1,
+        "title": "Часть 1 из 2",
+        "screenshot": "tariffs_chunk_1_1_2_full.png"
+      }
+    },
+    {
+      "sectionIndex": 2,
+      "type": "hero",
+      "description": "Главный заголовок страницы, представляющий основную тему - актуальные тарифы для партнеров",
+      "title": "Актуальные тарифы",
+      "links": {
+        "fileLinks": [
+          {
+            "text": "Комплекс услуг по инвентаризации вводов трубопровода (отверстий) проложенной телефонной канализации третьих лиц, присоединённых к смотровым устройствам ПАО МГТС",
+            "href": "https://business.mgts.ru/static/files/other/operators/kompleks-uslug-po-inventarizacii-vvodov-truboprovoda.pdf",
+            "fileType": "pdf",
+            "purpose": "Документ с тарифами на комплекс услуг по инвентаризации вводов трубопровода",
+            "fileName": "kompleks-uslug-po-inventarizacii-vvodov-truboprovoda.pdf"
+          },
+          {
+            "text": "Комплекс услуг по инвентаризации кабеля связи третьих лиц, размещенного в линейно-кабельных сооружениях",
+            "href": "https://business.mgts.ru/static/files/other/operators/kompleks-uslug-po-inventarizacii-kabelya-svyazi-tretih-lic-razmeshchennogo-v-lks.pdf",
+            "fileType": "pdf",
+            "purpose": "Документ с тарифами на инвентаризацию кабеля связи третьих лиц",
+            "fileName": "kompleks-uslug-po-inventarizacii-kabelya-svyazi-tretih-lic-razmeshchennogo-v-lks.pdf"
+          },
+          {
+            "text": "Разовое выполнение аварийно-восстановительных работ на линиях связи третьих лиц силами МГТС",
+            "href": "https://business.mgts.ru/static/files/other/operators/razovoe-vypolnenie-avr-na-liniyah-svyazi-tretih-lic-silami.pdf",
+            "fileType": "pdf",
+            "purpose": "Документ с тарифами на аварийно-восстановительные работы",
+            "fileName": "razovoe-vypolnenie-avr-na-liniyah-svyazi-tretih-lic-silami.pdf"
+          },
+          {
+            "text": "Тарифы на услугу нанесение огнеупорного состава в смотровом устройстве (колодце)",
+            "href": "https://business.mgts.ru/static/files/other/operators/tarif_na_uslugu_nanesenie_ogneupornogo_sostava_v_smotrovom_ustrojstve_kolodce.pdf",
+            "fileType": "pdf",
+            "purpose": "Документ с тарифами на нанесение огнеупорного состава",
+            "fileName": "tarif_na_uslugu_nanesenie_ogneupornogo_sostava_v_smotrovom_ustrojstve_kolodce.pdf"
+          },
+          {
+            "text": "Тарифы на дополнительные услуги для производства работ на объектах инфраструктуры",
+            "href": "https://business.mgts.ru/static/files/partner/lks_kr/Tarify_na_dopolnitelnyye_uslugi_dlya_proizvodstva_rabot_na_obektakh_infrastruktury_01.09.25.pdf",
+            "fileType": "pdf",
+            "purpose": "Документ с тарифами на дополнительные услуги для работ на объектах инфраструктуры",
+            "fileName": "Tarify_na_dopolnitelnyye_uslugi_dlya_proizvodstva_rabot_na_obektakh_infrastruktury_01.09.25.pdf"
+          },
+          {
+            "text": "Тарифы на предоставление доступа в линейно-кабельные сооружения (ЛКС) с 01.01.26г.",
+            "href": "https://business.mgts.ru/static/files/partner/lks_kr/Tarify_na_predostavleniye_dostupa_v_lineynokabelnyye_sooruzheniya_lks_01.01.26.pdf",
+            "fileType": "pdf",
+            "purpose": "",
+            "fileName": "Tarify_na_predostavleniye_dostupa_v_lineynokabelnyye_sooruzheniya_lks_01.01.26.pdf"
+          }
+        ]
+      },
+      "_sourceChunk": {
+        "index": 2,
+        "title": "Часть 2 из 2",
+        "screenshot": "tariffs_chunk_2_2_2_full.png"
+      },
+      "text": "Главная",
+      "cards": [
+        {
+          "title": "Комплекс услуг по инвентаризации вводов трубопровода (отверстий) проложенной телефонной канализации третьих лиц, присоединённых к смотровым устройствам ПАО МГТС",
+          "text": "pdf",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "Комплекс услуг по инвентаризации вводов трубопровода (отверстий) проложенной телефонной канализации третьих лиц, присоединённых к смотровым устройствам ПАО МГТС",
+            "href": "https://business.mgts.ru/static/files/other/operators/kompleks-uslug-po-inventarizacii-vvodov-truboprovoda.pdf",
+            "fileName": "kompleks-uslug-po-inventarizacii-vvodov-truboprovoda.pdf",
+            "fileType": "pdf",
+            "title": "",
+            "purpose": "Документ с тарифами на комплекс услуг по инвентаризации вводов трубопровода"
+          }
+        },
+        {
+          "title": "Комплекс услуг по инвентаризации кабеля связи третьих лиц, размещенного в линейно-кабельных сооружениях",
+          "text": "pdf",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "Комплекс услуг по инвентаризации кабеля связи третьих лиц, размещенного в линейно-кабельных сооружениях",
+            "href": "https://business.mgts.ru/static/files/other/operators/kompleks-uslug-po-inventarizacii-kabelya-svyazi-tretih-lic-razmeshchennogo-v-lks.pdf",
+            "fileName": "kompleks-uslug-po-inventarizacii-kabelya-svyazi-tretih-lic-razmeshchennogo-v-lks.pdf",
+            "fileType": "pdf",
+            "title": "",
+            "purpose": "Документ с тарифами на инвентаризацию кабеля связи третьих лиц"
+          }
+        },
+        {
+          "title": "Разовое выполнение аварийно-восстановительных работ на линиях связи третьих лиц силами МГТС",
+          "text": "pdf",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "Разовое выполнение аварийно-восстановительных работ на линиях связи третьих лиц силами МГТС",
+            "href": "https://business.mgts.ru/static/files/other/operators/razovoe-vypolnenie-avr-na-liniyah-svyazi-tretih-lic-silami.pdf",
+            "fileName": "razovoe-vypolnenie-avr-na-liniyah-svyazi-tretih-lic-silami.pdf",
+            "fileType": "pdf",
+            "title": "",
+            "purpose": "Документ с тарифами на аварийно-восстановительные работы"
+          }
+        },
+        {
+          "title": "Тарифы на услугу нанесение огнеупорного состава в смотровом устройстве (колодце)",
+          "text": "pdf",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "Тарифы на услугу нанесение огнеупорного состава в смотровом устройстве (колодце)",
+            "href": "https://business.mgts.ru/static/files/other/operators/tarif_na_uslugu_nanesenie_ogneupornogo_sostava_v_smotrovom_ustrojstve_kolodce.pdf",
+            "fileName": "tarif_na_uslugu_nanesenie_ogneupornogo_sostava_v_smotrovom_ustrojstve_kolodce.pdf",
+            "fileType": "pdf",
+            "title": "",
+            "purpose": "Документ с тарифами на нанесение огнеупорного состава"
+          }
+        },
+        {
+          "title": "Тарифы на дополнительные услуги для производства работ на объектах инфраструктуры",
+          "text": "pdf",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "Тарифы на дополнительные услуги для производства работ на объектах инфраструктуры",
+            "href": "https://business.mgts.ru/static/files/partner/lks_kr/Tarify_na_dopolnitelnyye_uslugi_dlya_proizvodstva_rabot_na_obektakh_infrastruktury_01.09.25.pdf",
+            "fileName": "Tarify_na_dopolnitelnyye_uslugi_dlya_proizvodstva_rabot_na_obektakh_infrastruktury_01.09.25.pdf",
+            "fileType": "pdf",
+            "title": "",
+            "purpose": "Документ с тарифами на дополнительные услуги для работ на объектах инфраструктуры"
+          }
+        },
+        {
+          "title": "Тарифы на предоставление доступа к объектам для размещения оборудования пользователя",
+          "text": "pdf",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "Тарифы на предоставление доступа к объектам для размещения оборудования пользователя",
+            "href": "https://business.mgts.ru/static/files/partner/lks_kr/Tarify_na_predostavleniye_dostupa_k_obektam_dlya_razmeshcheniya_oborudovaniya_polzovatelya_01.09.25.pdf",
+            "fileName": "Tarify_na_predostavleniye_dostupa_k_obektam_dlya_razmeshcheniya_oborudovaniya_polzovatelya_01.09.25.pdf",
+            "fileType": "pdf",
+            "title": "",
+            "purpose": "Документ с тарифами на предоставление доступа к объектам для размещения оборудования пользователя (действует с 01.09.25)"
+          }
+        },
+        {
+          "title": "Тарифы на проведение работ в помещениях ПАО МГТС",
+          "text": "pdf",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "Тарифы на проведение работ в помещениях ПАО МГТС",
+            "href": "https://business.mgts.ru/static/files/partner/lks_kr/tarify_na_provedenie_rabot_v_pomeshcheniyah.pdf",
+            "fileName": "tarify_na_provedenie_rabot_v_pomeshcheniyah.pdf",
+            "fileType": "pdf",
+            "title": "",
+            "purpose": "Документ с тарифами на проведение работ в помещениях ПАО МГТС"
+          }
+        },
+        {
+          "title": "Тарифы на услугу «Комплекс работ по демонтажу кабеля связи третьих лиц, размещенного на объектах инженерной инфраструктуры»",
+          "text": "pdf",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "Тарифы на услугу «Комплекс работ по демонтажу кабеля связи третьих лиц, размещенного на объектах инженерной инфраструктуры»",
+            "href": "https://business.mgts.ru/static/files/other/operators/pril-2-tarify-na-kompleks-rabot-po-demontazhu-kabelya-svyazi.pdf",
+            "fileName": "pril-2-tarify-na-kompleks-rabot-po-demontazhu-kabelya-svyazi.pdf",
+            "fileType": "pdf",
+            "title": "",
+            "purpose": "Документ с тарифами на комплекс работ по демонтажу кабеля связи третьих лиц с объектов инженерной инфраструктуры"
+          }
+        },
+        {
+          "title": "Тарифы на услугу «Упрощенный демонтаж кабеля связи третьих лиц, размещенного в линейно-кабельных сооружениях ПАО МГТС»",
+          "text": "pdf",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "Тарифы на услугу «Упрощенный демонтаж кабеля связи третьих лиц, размещенного в линейно-кабельных сооружениях ПАО МГТС»",
+            "href": "https://business.mgts.ru/static/files/other/operators/pril-1-uproshchennyj-demontazh-kabelya-svyazi.pdf",
+            "fileName": "pril-1-uproshchennyj-demontazh-kabelya-svyazi.pdf",
+            "fileType": "pdf",
+            "title": "",
+            "purpose": "Документ с тарифами на упрощенный демонтаж кабеля связи третьих лиц из линейно-кабельных сооружений ПАО МГТС"
+          }
+        },
+        {
+          "title": "Тарифы на обследование объектов инфраструктуры",
+          "text": "pdf",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "Тарифы на обследование объектов инфраструктуры",
+            "href": "https://business.mgts.ru/static/files/partner/lks_kr/Tarify_na_obsledovanie_obektov_infrastruktury_01.09.25.pdf",
+            "fileName": "Tarify_na_obsledovanie_obektov_infrastruktury_01.09.25.pdf",
+            "fileType": "pdf",
+            "title": "",
+            "purpose": "Документ с тарифами на обследование объектов инфраструктуры (действует с 01.09.25)"
+          }
+        }
+      ],
+      "tabs": [],
+      "table": null,
+      "elements": []
+    }
+  ]
+}

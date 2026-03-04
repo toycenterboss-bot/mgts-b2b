@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_page_cards",
+  "info": {
+    "displayName": "Card",
+    "description": "Карточка для использования в секциях"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "icon": {
+      "type": "string",
+      "customField": "plugin::icon-picker.icon"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false
+    },
+    "link": {
+      "type": "string"
+    },
+    "cardType": {
+      "type": "enumeration",
+      "enum": [
+        "navigation",
+        "info",
+        "service",
+        "tariff"
+      ],
+      "default": "info",
+      "required": false
+    },
+    "tag": {
+      "type": "string",
+      "description": "Тег для фильтрации карточек (например, Инфраструктура)"
+    }
+  }
+}

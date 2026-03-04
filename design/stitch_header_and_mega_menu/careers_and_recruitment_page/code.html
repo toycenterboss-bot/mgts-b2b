@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="ru"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="../../assets/fonts/inter/inter.css" rel="stylesheet"/>
+<link href="../../assets/fonts/material-symbols-outlined/material-symbols-outlined.css" rel="stylesheet"/>
+<link href="../../assets/fonts/material-symbols-outlined/material-symbols-outlined.css" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#0066cc",
+                        "brand-red": "#E30611",
+                        "background-light": "#f5f7f8",
+                        "background-dark": "#0f1923",
+                    },
+                    fontFamily: {
+                        "display": ["Inter"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .blueprint-pattern {
+            background-image: radial-gradient(rgba(0, 102, 204, 0.15) 1px, transparent 1px);
+            background-size: 20px 20px;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-white transition-colors duration-300">
+<!-- Navigation -->
+<div class="sticky top-0 z-50 w-full border-b border-white/10 bg-background-dark/80 backdrop-blur-md">
+<div class="mx-auto max-w-[1280px] px-6 lg:px-10">
+<header class="flex items-center justify-between py-4">
+<div class="flex items-center gap-4">
+<div class="flex items-center justify-center w-10 h-10 bg-brand-red rounded">
+<svg class="w-6 h-6 text-white" fill="currentColor" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M24 4H6v13.333h18V30.667H6V44h18v-13.333h18V17.333H24V4z"></path>
+</svg>
+</div>
+<h2 class="text-xl font-bold tracking-tight">МГТС</h2>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Вакансии</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Ценности</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Преимущества</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">О компании</a>
+</nav>
+<div class="flex items-center gap-4">
+<button class="flex min-w-[120px] cursor-pointer items-center justify-center rounded-lg h-10 px-6 bg-primary text-white text-sm font-bold transition-all hover:shadow-[0_0_15px_rgba(0,102,204,0.4)]">
+                        Связаться с HR
+                    </button>
+</div>
+</header>
+</div>
+</div>
+<!-- Hero Section -->
+<section class="relative overflow-hidden blueprint-pattern">
+<div class="mx-auto max-w-[1280px] px-6 lg:px-10 py-16 lg:py-24">
+<div class="flex flex-col lg:flex-row items-center gap-12">
+<div class="flex-1 space-y-8 z-10">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs font-bold uppercase tracking-wider">
+<span class="relative flex h-2 w-2">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
+</span>
+                        Карьера в МГТС
+                    </div>
+<h1 class="text-4xl lg:text-6xl font-black leading-[1.1] tracking-tight text-white">
+                        Строим будущее вместе: <br/>
+<span class="text-primary">инженеры</span> и <span class="text-primary">IT-лидеры</span>
+</h1>
+<p class="text-lg text-slate-400 max-w-xl leading-relaxed">
+                        Присоединяйтесь к команде, где традиции надежной инфраструктуры встречаются с прорывными технологиями завтрашнего дня. Мы создаем цифровой каркас города.
+                    </p>
+<div class="flex flex-wrap gap-4">
+<button class="bg-primary hover:bg-primary/90 text-white px-8 py-4 rounded-lg font-bold text-base transition-all transform hover:-translate-y-1">
+                            Смотреть вакансии
+                        </button>
+<button class="bg-white/5 hover:bg-white/10 border border-white/10 text-white px-8 py-4 rounded-lg font-bold text-base backdrop-blur-sm transition-all">
+                            Узнать больше
+                        </button>
+</div>
+</div>
+<div class="flex-1 relative w-full aspect-square max-w-[500px] lg:max-w-none">
+<!-- Complex Image Component: 3D Server + Blueprints -->
+<div class="relative w-full h-full rounded-2xl overflow-hidden border border-white/10 shadow-2xl">
+<div class="absolute inset-0 bg-gradient-to-tr from-background-dark via-transparent to-primary/20"></div>
+<img alt="Server Rack" class="w-full h-full object-cover grayscale opacity-40 mix-blend-overlay" data-alt="Modern server rack with blue lighting and digital overlays" src="../../assets/images/external/7c0093946320.png"/>
+<!-- Floating Glass Cards (Avatars/Stats) -->
+<div class="absolute top-10 right-10 glass-card p-4 rounded-xl flex items-center gap-4 animate-pulse">
+<img alt="Expert Engineer" class="w-12 h-12 rounded-full border-2 border-primary" data-alt="Professional male engineer in work safety gear" src="../../assets/images/external/8f18f563d6b2.png"/>
+<div>
+<p class="text-xs font-bold text-white">Александр</p>
+<p class="text-[10px] text-slate-400">Ведущий Инженер, 15 лет в МГТС</p>
+</div>
+</div>
+<div class="absolute bottom-10 left-10 glass-card p-4 rounded-xl flex items-center gap-4">
+<img alt="IT Specialist" class="w-12 h-12 rounded-full border-2 border-brand-red" data-alt="Young female IT specialist working on laptop" src="../../assets/images/external/b4e4d0d17c1c.png"/>
+<div>
+<p class="text-xs font-bold text-white">Мария</p>
+<p class="text-[10px] text-slate-400">Senior DevOps, 2 года в МГТС</p>
+</div>
+</div>
+<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none opacity-20">
+<span class="material-symbols-outlined text-[200px] text-white">hub</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Values Section -->
+<section class="py-20 bg-background-dark">
+<div class="mx-auto max-w-[1280px] px-6 lg:px-10">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
+<div class="space-y-2">
+<h3 class="text-primary font-bold text-sm tracking-widest uppercase">Наши фундаменты</h3>
+<h2 class="text-3xl font-bold text-white">Ценности, которые нас объединяют</h2>
+</div>
+<p class="text-slate-400 max-w-sm text-sm">Мы объединяем фундаментальный опыт связи и гибкость современных IT-процессов.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Value 1 -->
+<div class="glass-card p-8 rounded-xl border border-white/5 hover:border-primary/50 transition-all group">
+<div class="w-14 h-14 bg-primary/10 rounded-lg flex items-center justify-center text-primary mb-6 group-hover:bg-primary group-hover:text-white transition-all">
+<span class="material-symbols-outlined text-3xl">verified_user</span>
+</div>
+<h3 class="text-xl font-bold mb-3 text-white">Надежность</h3>
+<p class="text-slate-400 leading-relaxed">Фундамент нашего успеха и безусловная стабильность для каждого сотрудника в любые времена.</p>
+</div>
+<!-- Value 2 -->
+<div class="glass-card p-8 rounded-xl border border-white/5 hover:border-primary/50 transition-all group">
+<div class="w-14 h-14 bg-primary/10 rounded-lg flex items-center justify-center text-primary mb-6 group-hover:bg-primary group-hover:text-white transition-all">
+<span class="material-symbols-outlined text-3xl">psychology</span>
+</div>
+<h3 class="text-xl font-bold mb-3 text-white">Инновации</h3>
+<p class="text-slate-400 leading-relaxed">Внедряем решения, которые меняют облик современного города и делают жизнь миллионов проще.</p>
+</div>
+<!-- Value 3 -->
+<div class="glass-card p-8 rounded-xl border border-white/5 hover:border-primary/50 transition-all group">
+<div class="w-14 h-14 bg-primary/10 rounded-lg flex items-center justify-center text-primary mb-6 group-hover:bg-primary group-hover:text-white transition-all">
+<span class="material-symbols-outlined text-3xl">rocket_launch</span>
+</div>
+<h3 class="text-xl font-bold mb-3 text-white">Масштаб</h3>
+<p class="text-slate-400 leading-relaxed">Проекты национального уровня с влиянием на инфраструктуру целого мегаполиса.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Filtered Jobs Section -->
+<section class="py-20 bg-[#0b0e14]">
+<div class="mx-auto max-w-[1280px] px-6 lg:px-10">
+<h2 class="text-3xl font-bold text-white mb-8 px-2">Открытые вакансии</h2>
+<!-- Filters -->
+<div class="flex flex-wrap gap-2 mb-10 px-2">
+<button class="px-6 py-2 rounded-full bg-primary text-white text-sm font-bold">Все направления</button>
+<button class="px-6 py-2 rounded-full bg-white/5 hover:bg-white/10 text-slate-300 text-sm font-medium border border-white/10">Инженеры</button>
+<button class="px-6 py-2 rounded-full bg-white/5 hover:bg-white/10 text-slate-300 text-sm font-medium border border-white/10">IT &amp; Data Science</button>
+<button class="px-6 py-2 rounded-full bg-white/5 hover:bg-white/10 text-slate-300 text-sm font-medium border border-white/10">Менеджмент</button>
+</div>
+<!-- Job Cards -->
+<div class="grid grid-cols-1 gap-4">
+<div class="glass-card p-6 flex flex-col md:flex-row md:items-center justify-between rounded-xl hover:bg-white/[0.05] transition-colors border border-white/5">
+<div class="flex flex-col gap-1">
+<h4 class="text-lg font-bold text-white">Senior Network Engineer (Backbone)</h4>
+<div class="flex items-center gap-4 text-xs text-slate-500">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">location_on</span> Москва</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">schedule</span> Полный день</span>
+</div>
+</div>
+<div class="mt-4 md:mt-0 flex items-center gap-4">
+<span class="text-primary font-bold hidden md:block">от 180 000 ₽</span>
+<button class="bg-primary/20 text-primary hover:bg-primary hover:text-white px-6 py-2 rounded-lg font-bold text-sm transition-all">Откликнуться</button>
+</div>
+</div>
+<div class="glass-card p-6 flex flex-col md:flex-row md:items-center justify-between rounded-xl hover:bg-white/[0.05] transition-colors border border-white/5">
+<div class="flex flex-col gap-1">
+<h4 class="text-lg font-bold text-white">Ведущий инженер ВОЛС</h4>
+<div class="flex items-center gap-4 text-xs text-slate-500">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">location_on</span> Москва</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">work_history</span> Опыт 3+ года</span>
+</div>
+</div>
+<div class="mt-4 md:mt-0 flex items-center gap-4">
+<span class="text-primary font-bold hidden md:block">от 120 000 ₽</span>
+<button class="bg-primary/20 text-primary hover:bg-primary hover:text-white px-6 py-2 rounded-lg font-bold text-sm transition-all">Откликнуться</button>
+</div>
+</div>
+<div class="glass-card p-6 flex flex-col md:flex-row md:items-center justify-between rounded-xl hover:bg-white/[0.05] transition-colors border border-white/5">
+<div class="flex flex-col gap-1">
+<h4 class="text-lg font-bold text-white">Frontend Developer (React)</h4>
+<div class="flex items-center gap-4 text-xs text-slate-500">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">location_on</span> Удаленно</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">apartment</span> IT департамент</span>
+</div>
+</div>
+<div class="mt-4 md:mt-0 flex items-center gap-4">
+<span class="text-primary font-bold hidden md:block">по итогам собеседования</span>
+<button class="bg-primary/20 text-primary hover:bg-primary hover:text-white px-6 py-2 rounded-lg font-bold text-sm transition-all">Откликнуться</button>
+</div>
+</div>
+</div>
+<div class="mt-12 text-center">
+<button class="text-slate-400 hover:text-white flex items-center gap-2 mx-auto font-medium transition-colors">
+                    Показать все 42 вакансии
+                    <span class="material-symbols-outlined">expand_more</span>
+</button>
+</div>
+</div>
+</section>
+<!-- Benefits Block (Split View) -->
+<section class="py-20 bg-background-dark border-t border-white/5">
+<div class="mx-auto max-w-[1280px] px-6 lg:px-10">
+<h2 class="text-3xl font-bold text-white mb-12 text-center">Почему мы?</h2>
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+<!-- For Seniors -->
+<div class="relative group overflow-hidden rounded-2xl bg-gradient-to-br from-slate-900 to-background-dark p-8 border border-white/10">
+<div class="absolute -right-10 -bottom-10 opacity-10 transform rotate-12 group-hover:rotate-0 transition-transform duration-500">
+<span class="material-symbols-outlined text-[180px] text-primary">architecture</span>
+</div>
+<div class="relative z-10">
+<h3 class="text-2xl font-bold text-white mb-4">Для опытных профи</h3>
+<p class="text-slate-400 mb-8 max-w-sm">Мы ценим наследие и фундаментальные знания. Стабильность крупнейшего оператора столицы.</p>
+<ul class="space-y-4">
+<li class="flex items-start gap-3 text-slate-300">
+<span class="material-symbols-outlined text-primary">check_circle</span>
+<span>ДМС со стоматологией и страховкой для семьи</span>
+</li>
+<li class="flex items-start gap-3 text-slate-300">
+<span class="material-symbols-outlined text-primary">check_circle</span>
+<span>Корпоративная пенсионная программа</span>
+</li>
+<li class="flex items-start gap-3 text-slate-300">
+<span class="material-symbols-outlined text-primary">check_circle</span>
+<span>Участие в проектах «Умный город»</span>
+</li>
+</ul>
+</div>
+</div>
+<!-- For Juniors -->
+<div class="relative group overflow-hidden rounded-2xl bg-gradient-to-br from-primary/10 to-background-dark p-8 border border-primary/20">
+<div class="absolute -right-10 -bottom-10 opacity-10 transform rotate-12 group-hover:rotate-0 transition-transform duration-500">
+<span class="material-symbols-outlined text-[180px] text-brand-red">bolt</span>
+</div>
+<div class="relative z-10">
+<h3 class="text-2xl font-bold text-white mb-4">Для молодых талантов</h3>
+<p class="text-slate-400 mb-8 max-w-sm">Быстрый старт карьеры в масштабных IT-проектах. Наставничество от лучших экспертов рынка.</p>
+<ul class="space-y-4">
+<li class="flex items-start gap-3 text-slate-300">
+<span class="material-symbols-outlined text-brand-red">check_circle</span>
+<span>Программа стажировок и оплачиваемое обучение</span>
+</li>
+<li class="flex items-start gap-3 text-slate-300">
+<span class="material-symbols-outlined text-brand-red">check_circle</span>
+<span>Гибридный график работы и гибкое начало дня</span>
+</li>
+<li class="flex items-start gap-3 text-slate-300">
+<span class="material-symbols-outlined text-brand-red">check_circle</span>
+<span>Доступ к MTS University и курсам по Soft/Hard skills</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="py-24 relative overflow-hidden">
+<div class="absolute inset-0 bg-primary/10"></div>
+<div class="mx-auto max-w-[800px] px-6 relative z-10 text-center">
+<h2 class="text-4xl font-bold text-white mb-6">Не нашли подходящую вакансию?</h2>
+<p class="text-slate-400 mb-10 text-lg">Оставьте свои контакты, и наш HR-специалист свяжется с вами, когда появится роль, соответствующая вашему опыту.</p>
+<div class="flex flex-col sm:flex-row gap-4 justify-center">
+<input class="bg-white/5 border border-white/20 rounded-lg px-6 py-4 text-white focus:outline-none focus:ring-2 focus:ring-primary min-w-[300px]" placeholder="Ваш e-mail" type="email"/>
+<button class="bg-primary hover:bg-primary/90 text-white px-8 py-4 rounded-lg font-bold text-base transition-all">Отправить резюме</button>
+</div>
+<p class="mt-4 text-xs text-slate-500">Нажимая кнопку, вы соглашаетесь с политикой обработки персональных данных</p>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-[#080a0e] py-12 border-t border-white/5">
+<div class="mx-auto max-w-[1280px] px-6 lg:px-10">
+<div class="flex flex-col md:flex-row justify-between items-start gap-12">
+<div class="space-y-6">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 bg-brand-red rounded flex items-center justify-center">
+<svg class="w-5 h-5 text-white" fill="currentColor" viewbox="0 0 48 48">
+<path d="M24 4H6v13.333h18V30.667H6V44h18v-13.333h18V17.333H24V4z"></path>
+</svg>
+</div>
+<span class="text-xl font-bold text-white tracking-tight">МГТС</span>
+</div>
+<p class="text-slate-500 text-sm max-w-xs leading-relaxed">
+                        ПАО «МГТС» — один из крупнейших операторов местной проводной связи в Европе.
+                    </p>
+</div>
+<div class="grid grid-cols-2 sm:grid-cols-3 gap-12">
+<div class="space-y-4">
+<h4 class="text-white font-bold text-sm">Компания</h4>
+<ul class="space-y-2 text-slate-500 text-sm">
+<li><a class="hover:text-primary transition-colors" href="#">О нас</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Новости</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Контакты</a></li>
+</ul>
+</div>
+<div class="space-y-4">
+<h4 class="text-white font-bold text-sm">Карьера</h4>
+<ul class="space-y-2 text-slate-500 text-sm">
+<li><a class="hover:text-primary transition-colors" href="#">Все вакансии</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Стажировки</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Для студентов</a></li>
+</ul>
+</div>
+<div class="space-y-4">
+<h4 class="text-white font-bold text-sm">Соцсети</h4>
+<div class="flex gap-4">
+<a class="text-slate-500 hover:text-white transition-colors" href="#"><span class="material-symbols-outlined">share</span></a>
+<a class="text-slate-500 hover:text-white transition-colors" href="#"><span class="material-symbols-outlined">forum</span></a>
+</div>
+</div>
+</div>
+</div>
+<div class="mt-16 pt-8 border-t border-white/5 flex flex-col sm:flex-row justify-between gap-4 text-xs text-slate-600">
+<p>© 2024 ПАО «МГТС». Все права защищены.</p>
+<div class="flex gap-6">
+<a class="hover:text-slate-400" href="#">Политика конфиденциальности</a>
+<a class="hover:text-slate-400" href="#">Cookies</a>
+</div>
+</div>
+</div>
+</footer>
+</body></html>

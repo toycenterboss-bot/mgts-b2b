@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_page_home_industry_scenario_items",
+  "info": {
+    "displayName": "Home Industry Scenario Item",
+    "description": "Карточка отраслевого сценария для главной"
+  },
+  "options": {},
+  "attributes": {
+    "tag": {
+      "type": "string",
+      "default": "FOR RETAIL"
+    },
+    "tagTone": {
+      "type": "enumeration",
+      "enum": ["accent", "primary"],
+      "default": "accent"
+    },
+    "title": {
+      "type": "string",
+      "default": "Умный Ритейл"
+    },
+    "description": {
+      "type": "text",
+      "default": "Аналитика потоков, тепловые карты и автоматизация касс с защитой данных покупателей."
+    },
+    "buttonText": {
+      "type": "string",
+      "default": "ПОДРОБНЕЕ"
+    },
+    "buttonHref": {
+      "type": "string",
+      "default": "#"
+    },
+    "icon": {
+      "type": "string",
+      "default": "shopping_cart",
+      "customField": "plugin::icon-picker.icon"
+    }
+  }
+}

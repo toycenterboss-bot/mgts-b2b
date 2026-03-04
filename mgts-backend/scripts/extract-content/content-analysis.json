@@ -1,0 +1,2516 @@
+[
+  {
+    "path": "C:\\runs\\SiteMGTS\\about\\ethics\\compliance-policies\\index.html",
+    "title": "Политики комплаенса - Деловая этика - О компании - МГТС Бизнес",
+    "meta": {
+      "description": "Политики комплаенса МГТС: документы и стандарты соблюдения требований законодательства",
+      "keywords": ""
+    },
+    "hasHero": true,
+    "hasBreadcrumbs": true,
+    "hasSidebar": true,
+    "sections": [
+      {
+        "class": "hero",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": false
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": true
+      }
+    ],
+    "images": [],
+    "links": [
+      {
+        "href": "../../../index.html",
+        "text": "Главная"
+      },
+      {
+        "href": "../../index.html",
+        "text": "О компании"
+      },
+      {
+        "href": "../index.html",
+        "text": "Деловая этика и комплаенс"
+      },
+      {
+        "href": "../general-director-message/index.html",
+        "text": "Обращение генерального директора\n                            Послание руководства о важности этичного ведения бизнеса"
+      },
+      {
+        "href": "../single-hotline/index.html",
+        "text": "Единая горячая линия\n                            Сообщить о нарушении или задать вопрос"
+      }
+    ]
+  },
+  {
+    "path": "C:\\runs\\SiteMGTS\\about\\ethics\\general-director-message\\index.html",
+    "title": "Обращение генерального директора - Деловая этика - О компании - МГТС Бизнес",
+    "meta": {
+      "description": "Обращение генерального директора МГТС о деловой этике и комплаенсе",
+      "keywords": ""
+    },
+    "hasHero": true,
+    "hasBreadcrumbs": true,
+    "hasSidebar": true,
+    "sections": [
+      {
+        "class": "hero",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": false
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": true
+      }
+    ],
+    "images": [],
+    "links": [
+      {
+        "href": "../../../index.html",
+        "text": "Главная"
+      },
+      {
+        "href": "../../index.html",
+        "text": "О компании"
+      },
+      {
+        "href": "../index.html",
+        "text": "Деловая этика и комплаенс"
+      },
+      {
+        "href": "../compliance-policies/index.html",
+        "text": "Политики комплаенса\n                            Документы и стандарты соблюдения требований"
+      },
+      {
+        "href": "../single-hotline/index.html",
+        "text": "Единая горячая линия\n                            Сообщить о нарушении или задать вопрос"
+      }
+    ]
+  },
+  {
+    "path": "C:\\runs\\SiteMGTS\\about\\ethics\\index.html",
+    "title": "Деловая этика и комплаенс - О компании - МГТС Бизнес",
+    "meta": {
+      "description": "Деловая этика и комплаенс в МГТС: политики, стандарты взаимодействия и обратная связь",
+      "keywords": ""
+    },
+    "hasHero": true,
+    "hasBreadcrumbs": true,
+    "hasSidebar": true,
+    "sections": [
+      {
+        "class": "hero",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": true
+      }
+    ],
+    "images": [],
+    "links": [
+      {
+        "href": "../../index.html",
+        "text": "Главная"
+      },
+      {
+        "href": "../index.html",
+        "text": "О компании"
+      },
+      {
+        "href": "general-director-message/index.html",
+        "text": "📝\n                            Обращение генерального директора\n                            \n                                Послание руководства о важности этичного ведения бизнеса"
+      },
+      {
+        "href": "compliance-policies/index.html",
+        "text": "📋\n                            Политики комплаенса\n                            \n                                Документы и стандарты соблюдения требований законодательства"
+      },
+      {
+        "href": "interaction-partners/index.html",
+        "text": "🤝\n                            Взаимодействие с партнерами\n                            \n                                Принципы и стандарты работы с деловыми партнерами"
+      },
+      {
+        "href": "partners-feedback/index.html",
+        "text": "💬\n                            Обратная связь от партнеров\n                            \n                                Форма для обратной связи и предложений от партнеров"
+      },
+      {
+        "href": "single-hotline/index.html",
+        "text": "📞\n                                \n                                    Единая горячая линия\n                                    \n                                        Канал связи для сообщений о нарушениях и вопросах по комплаенсу"
+      }
+    ]
+  },
+  {
+    "path": "C:\\runs\\SiteMGTS\\about\\ethics\\interaction-partners\\index.html",
+    "title": "Взаимодействие с партнерами - Деловая этика - О компании - МГТС Бизнес",
+    "meta": {
+      "description": "Взаимодействие с партнерами МГТС: принципы и стандарты работы с деловыми партнерами",
+      "keywords": ""
+    },
+    "hasHero": true,
+    "hasBreadcrumbs": true,
+    "hasSidebar": true,
+    "sections": [
+      {
+        "class": "hero",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": true
+      }
+    ],
+    "images": [],
+    "links": [
+      {
+        "href": "../../../index.html",
+        "text": "Главная"
+      },
+      {
+        "href": "../../index.html",
+        "text": "О компании"
+      },
+      {
+        "href": "../index.html",
+        "text": "Деловая этика и комплаенс"
+      },
+      {
+        "href": "../partners-feedback/index.html",
+        "text": "Обратная связь от партнеров\n                            Форма для обратной связи и предложений"
+      },
+      {
+        "href": "../compliance-policies/index.html",
+        "text": "Политики комплаенса\n                            Документы и стандарты соблюдения требований"
+      }
+    ]
+  },
+  {
+    "path": "C:\\runs\\SiteMGTS\\about\\ethics\\partners-feedback\\index.html",
+    "title": "Обратная связь от партнеров - Деловая этика - О компании - МГТС Бизнес",
+    "meta": {
+      "description": "Обратная связь от партнеров МГТС: форма для предложений и отзывов",
+      "keywords": ""
+    },
+    "hasHero": true,
+    "hasBreadcrumbs": true,
+    "hasSidebar": true,
+    "sections": [
+      {
+        "class": "hero",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": false
+      }
+    ],
+    "images": [],
+    "links": [
+      {
+        "href": "../../../index.html",
+        "text": "Главная"
+      },
+      {
+        "href": "../../index.html",
+        "text": "О компании"
+      },
+      {
+        "href": "../index.html",
+        "text": "Деловая этика и комплаенс"
+      }
+    ]
+  },
+  {
+    "path": "C:\\runs\\SiteMGTS\\about\\ethics\\single-hotline\\index.html",
+    "title": "Единая горячая линия - Деловая этика - О компании - МГТС Бизнес",
+    "meta": {
+      "description": "Единая горячая линия МГТС: канал связи для сообщений о нарушениях и вопросах по комплаенсу",
+      "keywords": ""
+    },
+    "hasHero": true,
+    "hasBreadcrumbs": true,
+    "hasSidebar": true,
+    "sections": [
+      {
+        "class": "hero",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": false
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": true
+      }
+    ],
+    "images": [],
+    "links": [
+      {
+        "href": "../../../index.html",
+        "text": "Главная"
+      },
+      {
+        "href": "../../index.html",
+        "text": "О компании"
+      },
+      {
+        "href": "../index.html",
+        "text": "Деловая этика и комплаенс"
+      },
+      {
+        "href": "tel:+74951234567",
+        "text": "+7 (495) 123-45-67"
+      },
+      {
+        "href": "mailto:compliance@mgts.ru",
+        "text": "compliance@mgts.ru"
+      },
+      {
+        "href": "../general-director-message/index.html",
+        "text": "Обращение генерального директора\n                            Послание руководства о важности этичного ведения бизнеса"
+      },
+      {
+        "href": "../compliance-policies/index.html",
+        "text": "Политики комплаенса\n                            Документы и стандарты соблюдения требований"
+      }
+    ]
+  },
+  {
+    "path": "C:\\runs\\SiteMGTS\\about\\governance\\documents\\index.html",
+    "title": "Корпоративные документы - Корпоративное управление - О компании - МГТС Бизнес",
+    "meta": {
+      "description": "Корпоративные документы МГТС: устав, положения, регламенты и другие документы",
+      "keywords": ""
+    },
+    "hasHero": true,
+    "hasBreadcrumbs": true,
+    "hasSidebar": true,
+    "sections": [
+      {
+        "class": "hero",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": false
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": true
+      }
+    ],
+    "images": [],
+    "links": [
+      {
+        "href": "../../../index.html",
+        "text": "Главная"
+      },
+      {
+        "href": "../../index.html",
+        "text": "О компании"
+      },
+      {
+        "href": "../index.html",
+        "text": "Корпоративное управление"
+      },
+      {
+        "href": "../principles/index.html",
+        "text": "Принципы корпоративного управления\n                            Основные принципы и подходы"
+      },
+      {
+        "href": "../infoformen/index.html",
+        "text": "Раскрытие информации\n                            Раскрытие информации в соответствии с требованиями"
+      }
+    ]
+  },
+  {
+    "path": "C:\\runs\\SiteMGTS\\about\\governance\\index.html",
+    "title": "Корпоративное управление - О компании - МГТС Бизнес",
+    "meta": {
+      "description": "Корпоративное управление в МГТС: принципы, документы, решения акционеров и информация о регистраторе",
+      "keywords": ""
+    },
+    "hasHero": true,
+    "hasBreadcrumbs": true,
+    "hasSidebar": true,
+    "sections": [
+      {
+        "class": "hero",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": true
+      }
+    ],
+    "images": [],
+    "links": [
+      {
+        "href": "../../index.html",
+        "text": "Главная"
+      },
+      {
+        "href": "../index.html",
+        "text": "О компании"
+      },
+      {
+        "href": "principles/index.html",
+        "text": "📐\n                            Принципы корпоративного управления\n                            \n                                Основные принципы и подходы к корпоративному управлению в МГТС"
+      },
+      {
+        "href": "documents/index.html",
+        "text": "📄\n                            Корпоративные документы\n                            \n                                Устав, положения, регламенты и другие корпоративные документы"
+      },
+      {
+        "href": "shareholders/index.html",
+        "text": "👥\n                            Решения собраний акционеров\n                            \n                                Информация о решениях, принятых на общих собраниях акционеров"
+      },
+      {
+        "href": "infoformen/index.html",
+        "text": "📊\n                            Раскрытие информации\n                            \n                                Раскрытие информации в соответствии с требованиями законодательства"
+      },
+      {
+        "href": "registrar/index.html",
+        "text": "🏢\n                                \n                                    О регистраторе\n                                    \n                                        Информация о регистраторе, ведущем реестр акционеров МГТС"
+      }
+    ]
+  },
+  {
+    "path": "C:\\runs\\SiteMGTS\\about\\governance\\infoformen\\index.html",
+    "title": "Раскрытие информации - Корпоративное управление - О компании - МГТС Бизнес",
+    "meta": {
+      "description": "Раскрытие информации МГТС: раскрытие информации в соответствии с требованиями законодательства",
+      "keywords": ""
+    },
+    "hasHero": true,
+    "hasBreadcrumbs": true,
+    "hasSidebar": true,
+    "sections": [
+      {
+        "class": "hero",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": false
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": true
+      }
+    ],
+    "images": [],
+    "links": [
+      {
+        "href": "../../../index.html",
+        "text": "Главная"
+      },
+      {
+        "href": "../../index.html",
+        "text": "О компании"
+      },
+      {
+        "href": "../index.html",
+        "text": "Корпоративное управление"
+      },
+      {
+        "href": "https://www.cbr.ru/disclosure/",
+        "text": "Перейти на сайт ЦБ РФ"
+      },
+      {
+        "href": "../documents/index.html",
+        "text": "Корпоративные документы\n                            Устав, положения и регламенты"
+      },
+      {
+        "href": "../shareholders/index.html",
+        "text": "Решения собраний акционеров\n                            Информация о решениях общих собраний"
+      }
+    ]
+  },
+  {
+    "path": "C:\\runs\\SiteMGTS\\about\\governance\\principles\\index.html",
+    "title": "Принципы корпоративного управления - Корпоративное управление - О компании - МГТС Бизнес",
+    "meta": {
+      "description": "Принципы корпоративного управления МГТС: основные подходы и стандарты",
+      "keywords": ""
+    },
+    "hasHero": true,
+    "hasBreadcrumbs": true,
+    "hasSidebar": true,
+    "sections": [
+      {
+        "class": "hero",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": true
+      }
+    ],
+    "images": [],
+    "links": [
+      {
+        "href": "../../../index.html",
+        "text": "Главная"
+      },
+      {
+        "href": "../../index.html",
+        "text": "О компании"
+      },
+      {
+        "href": "../index.html",
+        "text": "Корпоративное управление"
+      },
+      {
+        "href": "../documents/index.html",
+        "text": "Корпоративные документы\n                            Устав, положения и регламенты"
+      },
+      {
+        "href": "../shareholders/index.html",
+        "text": "Решения собраний акционеров\n                            Информация о решениях общих собраний"
+      }
+    ]
+  },
+  {
+    "path": "C:\\runs\\SiteMGTS\\about\\governance\\registrar\\index.html",
+    "title": "О регистраторе - Корпоративное управление - О компании - МГТС Бизнес",
+    "meta": {
+      "description": "О регистраторе МГТС: информация о регистраторе, ведущем реестр акционеров",
+      "keywords": ""
+    },
+    "hasHero": true,
+    "hasBreadcrumbs": true,
+    "hasSidebar": true,
+    "sections": [
+      {
+        "class": "hero",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": false
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": true
+      }
+    ],
+    "images": [],
+    "links": [
+      {
+        "href": "../../../index.html",
+        "text": "Главная"
+      },
+      {
+        "href": "../../index.html",
+        "text": "О компании"
+      },
+      {
+        "href": "../index.html",
+        "text": "Корпоративное управление"
+      },
+      {
+        "href": "mailto:info@rost.ru",
+        "text": "info@rost.ru"
+      },
+      {
+        "href": "https://www.rost.ru",
+        "text": "www.rost.ru"
+      },
+      {
+        "href": "../principles/index.html",
+        "text": "Принципы корпоративного управления\n                            Основные принципы и подходы"
+      },
+      {
+        "href": "../shareholders/index.html",
+        "text": "Решения собраний акционеров\n                            Информация о решениях общих собраний"
+      }
+    ]
+  },
+  {
+    "path": "C:\\runs\\SiteMGTS\\about\\governance\\shareholders\\index.html",
+    "title": "Решения собраний акционеров - Корпоративное управление - О компании - МГТС Бизнес",
+    "meta": {
+      "description": "Решения собраний акционеров МГТС: информация о решениях общих собраний акционеров",
+      "keywords": ""
+    },
+    "hasHero": true,
+    "hasBreadcrumbs": true,
+    "hasSidebar": true,
+    "sections": [
+      {
+        "class": "hero",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": false
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": true
+      }
+    ],
+    "images": [],
+    "links": [
+      {
+        "href": "../../../index.html",
+        "text": "Главная"
+      },
+      {
+        "href": "../../index.html",
+        "text": "О компании"
+      },
+      {
+        "href": "../index.html",
+        "text": "Корпоративное управление"
+      },
+      {
+        "href": "../principles/index.html",
+        "text": "Принципы корпоративного управления\n                            Основные принципы и подходы"
+      },
+      {
+        "href": "../infoformen/index.html",
+        "text": "Раскрытие информации\n                            Раскрытие информации в соответствии с требованиями"
+      }
+    ]
+  },
+  {
+    "path": "C:\\runs\\SiteMGTS\\about\\index.html",
+    "title": "О компании - МГТС Бизнес",
+    "meta": {
+      "description": "О компании МГТС: история, достижения, команда и возможности для бизнеса",
+      "keywords": ""
+    },
+    "hasHero": true,
+    "hasBreadcrumbs": true,
+    "hasSidebar": true,
+    "sections": [
+      {
+        "class": "hero",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": false
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": true
+      }
+    ],
+    "images": [],
+    "links": [
+      {
+        "href": "../index.html",
+        "text": "Главная"
+      },
+      {
+        "href": "values/index.html",
+        "text": "🎯\n                            Ценности МГТС\n                            \n                                Принципы, которые определяют нашу работу и подход к бизнесу"
+      },
+      {
+        "href": "ethics/index.html",
+        "text": "⚖️\n                            Деловая этика и комплаенс\n                            \n                                Принципы честного и прозрачного ведения бизнеса"
+      },
+      {
+        "href": "governance/index.html",
+        "text": "🏛️\n                            Корпоративное управление\n                            \n                                Принципы, документы и информация о корпоративном управлении"
+      },
+      {
+        "href": "../partners/index.html",
+        "text": "Узнать больше"
+      }
+    ]
+  },
+  {
+    "path": "C:\\runs\\SiteMGTS\\about\\values\\index.html",
+    "title": "Ценности МГТС - О компании - МГТС Бизнес",
+    "meta": {
+      "description": "Ценности МГТС: принципы работы компании, корпоративная культура и подход к бизнесу",
+      "keywords": ""
+    },
+    "hasHero": true,
+    "hasBreadcrumbs": true,
+    "hasSidebar": true,
+    "sections": [
+      {
+        "class": "hero",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": true
+      }
+    ],
+    "images": [],
+    "links": [
+      {
+        "href": "../../index.html",
+        "text": "Главная"
+      },
+      {
+        "href": "../index.html",
+        "text": "О компании"
+      }
+    ]
+  },
+  {
+    "path": "C:\\runs\\SiteMGTS\\business\\cloud\\index.html",
+    "title": "Облачные решения - МГТС Бизнес",
+    "meta": {
+      "description": "Облачные решения для бизнеса: хранилище, виртуальные серверы, облачные сервисы от МГТС",
+      "keywords": ""
+    },
+    "hasHero": true,
+    "hasBreadcrumbs": true,
+    "hasSidebar": false,
+    "sections": [
+      {
+        "class": "hero",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      }
+    ],
+    "images": [],
+    "links": [
+      {
+        "href": "../../index.html",
+        "text": "Главная"
+      },
+      {
+        "href": "../index.html",
+        "text": "Бизнес"
+      },
+      {
+        "href": "storage/index.html",
+        "text": "💾\n                        Облачное хранилище\n                        Надежное хранение данных в облаке с защитой и резервным копированием.\n                        \n                            ✓ Безлимитное хранилище\n                            ✓ Резервное копирование\n                            ✓ Защита данных\n                        \n                    \n                    \n                        Подробнее"
+      },
+      {
+        "href": "vps/index.html",
+        "text": "🖥️\n                        Виртуальные серверы\n                        Виртуальные серверы (VPS) для хостинга приложений и веб-сайтов.\n                        \n                            ✓ Гибкие конфигурации\n                            ✓ Масштабируемость\n                            ✓ Высокая производительность\n                        \n                    \n                    \n                        Подробнее"
+      },
+      {
+        "href": "services/index.html",
+        "text": "☁️\n                        Облачные сервисы\n                        Полный спектр облачных сервисов для автоматизации бизнеса.\n                        \n                            ✓ SaaS решения\n                            ✓ Интеграция систем\n                            ✓ Техническая поддержка\n                        \n                    \n                    \n                        Подробнее"
+      },
+      {
+        "href": "../../consultation/",
+        "text": "Получить консультацию"
+      }
+    ]
+  },
+  {
+    "path": "C:\\runs\\SiteMGTS\\business\\cloud\\services\\index.html",
+    "title": "Облачные сервисы - МГТС Бизнес",
+    "meta": {
+      "description": "Облачные сервисы для бизнеса: SaaS решения и интеграция систем от МГТС",
+      "keywords": ""
+    },
+    "hasHero": true,
+    "hasBreadcrumbs": true,
+    "hasSidebar": false,
+    "sections": [
+      {
+        "class": "hero",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      }
+    ],
+    "images": [],
+    "links": [
+      {
+        "href": "../../../index.html",
+        "text": "Главная"
+      },
+      {
+        "href": "../../index.html",
+        "text": "Бизнес"
+      },
+      {
+        "href": "../index.html",
+        "text": "Облачные решения"
+      }
+    ]
+  },
+  {
+    "path": "C:\\runs\\SiteMGTS\\business\\cloud\\storage\\index.html",
+    "title": "Облачное хранилище - МГТС Бизнес",
+    "meta": {
+      "description": "Облачное хранилище для бизнеса: надежное хранение данных с резервным копированием от МГТС",
+      "keywords": ""
+    },
+    "hasHero": true,
+    "hasBreadcrumbs": true,
+    "hasSidebar": false,
+    "sections": [
+      {
+        "class": "hero",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      }
+    ],
+    "images": [],
+    "links": [
+      {
+        "href": "../../../index.html",
+        "text": "Главная"
+      },
+      {
+        "href": "../../index.html",
+        "text": "Бизнес"
+      },
+      {
+        "href": "../index.html",
+        "text": "Облачные решения"
+      },
+      {
+        "href": "../../../consultation/",
+        "text": "Заказать"
+      },
+      {
+        "href": "../../../consultation/",
+        "text": "Заказать"
+      },
+      {
+        "href": "../../../consultation/",
+        "text": "Заказать"
+      }
+    ]
+  },
+  {
+    "path": "C:\\runs\\SiteMGTS\\business\\cloud\\vps\\index.html",
+    "title": "Виртуальные серверы - МГТС Бизнес",
+    "meta": {
+      "description": "Виртуальные серверы (VPS) для бизнеса от МГТС",
+      "keywords": ""
+    },
+    "hasHero": true,
+    "hasBreadcrumbs": true,
+    "hasSidebar": false,
+    "sections": [
+      {
+        "class": "hero",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      }
+    ],
+    "images": [],
+    "links": [
+      {
+        "href": "../../../index.html",
+        "text": "Главная"
+      },
+      {
+        "href": "../../index.html",
+        "text": "Бизнес"
+      },
+      {
+        "href": "../index.html",
+        "text": "Облачные решения"
+      }
+    ]
+  },
+  {
+    "path": "C:\\runs\\SiteMGTS\\business\\index.html",
+    "title": "Услуги для бизнеса - МГТС Бизнес",
+    "meta": {
+      "description": "Телекоммуникационные услуги для бизнеса: интернет, телефония, облако, безопасность",
+      "keywords": ""
+    },
+    "hasHero": true,
+    "hasBreadcrumbs": true,
+    "hasSidebar": false,
+    "sections": [
+      {
+        "class": "hero",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      }
+    ],
+    "images": [],
+    "links": [
+      {
+        "href": "../index.html",
+        "text": "Главная"
+      },
+      {
+        "href": "../consultation/",
+        "text": "Получить консультацию"
+      },
+      {
+        "href": "../calculator/",
+        "text": "Рассчитать стоимость"
+      },
+      {
+        "href": "internet/index.html",
+        "text": "🌐\n                            \n                                Интернет для бизнеса\n                                \n                                    Высокоскоростной интернет с гарантированным качеством. GPON, выделенные каналы, офисный интернет.\n                                \n                                \n                                    ✓ GPON для бизнеса\n                                    ✓ Выделенный интернет\n                                    ✓ Офисный интернет"
+      },
+      {
+        "href": "telephony/index.html",
+        "text": "📞\n                            \n                                Корпоративная телефония\n                                \n                                    Фиксированная связь, IP-телефония, виртуальная АТС, корпоративная мобильная связь.\n                                \n                                \n                                    ✓ Фиксированная телефония\n                                    ✓ IP-телефония\n                                    ✓ Виртуальная АТС"
+      },
+      {
+        "href": "security/index.html",
+        "text": "🔒\n                            \n                                Безопасность\n                                \n                                    Видеонаблюдение, контроль доступа, охранная сигнализация. Комплексные решения безопасности.\n                                \n                                \n                                    ✓ Видеонаблюдение\n                                    ✓ Контроль доступа\n                                    ✓ Охранная сигнализация"
+      },
+      {
+        "href": "cloud/index.html",
+        "text": "☁️\n                            \n                                Облачные решения\n                                \n                                    Облачное хранилище, виртуальные серверы, резервное копирование. Надежная инфраструктура.\n                                \n                                \n                                    ✓ Облачное хранилище\n                                    ✓ Виртуальные серверы\n                                    ✓ Облачные сервисы"
+      }
+    ]
+  },
+  {
+    "path": "C:\\runs\\SiteMGTS\\business\\internet\\dedicated\\index.html",
+    "title": "Выделенный интернет для бизнеса - МГТС Бизнес",
+    "meta": {
+      "description": "Выделенный интернет для бизнеса от МГТС: каналы до 10 Гбит/с с SLA гарантиями",
+      "keywords": ""
+    },
+    "hasHero": true,
+    "hasBreadcrumbs": true,
+    "hasSidebar": false,
+    "sections": [
+      {
+        "class": "hero",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": false
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      }
+    ],
+    "images": [],
+    "links": [
+      {
+        "href": "../../../index.html",
+        "text": "Главная"
+      },
+      {
+        "href": "../../index.html",
+        "text": "Бизнес"
+      },
+      {
+        "href": "../index.html",
+        "text": "Интернет"
+      },
+      {
+        "href": "../../../consultation/",
+        "text": "Заказать"
+      },
+      {
+        "href": "../../../consultation/",
+        "text": "Заказать"
+      },
+      {
+        "href": "../../../consultation/",
+        "text": "Заказать"
+      },
+      {
+        "href": "../gpon/",
+        "text": "🚀\n                        GPON для бизнеса\n                        Оптоволоконный интернет до 1 Гбит/с для офисов и небольших компаний.\n                    \n                    \n                        Узнать больше"
+      },
+      {
+        "href": "../../telephony/",
+        "text": "📞\n                        Корпоративная телефония\n                        IP-телефония и виртуальная АТС для вашего бизнеса.\n                    \n                    \n                        Узнать больше"
+      },
+      {
+        "href": "../../cloud/",
+        "text": "☁️\n                        Облачные решения\n                        Облачное хранилище и виртуальные серверы.\n                    \n                    \n                        Узнать больше"
+      }
+    ]
+  },
+  {
+    "path": "C:\\runs\\SiteMGTS\\business\\internet\\gpon\\index.html",
+    "title": "GPON для бизнеса - МГТС Бизнес",
+    "meta": {
+      "description": "GPON для бизнеса от МГТС: оптоволоконный интернет до 1 Гбит/с с гарантированным качеством",
+      "keywords": ""
+    },
+    "hasHero": true,
+    "hasBreadcrumbs": true,
+    "hasSidebar": false,
+    "sections": [
+      {
+        "class": "hero",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": false
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      }
+    ],
+    "images": [],
+    "links": [
+      {
+        "href": "../../../index.html",
+        "text": "Главная"
+      },
+      {
+        "href": "../../index.html",
+        "text": "Бизнес"
+      },
+      {
+        "href": "../index.html",
+        "text": "Интернет"
+      },
+      {
+        "href": "../../../consultation/",
+        "text": "Заказать"
+      },
+      {
+        "href": "../../../consultation/",
+        "text": "Заказать"
+      },
+      {
+        "href": "../../../consultation/",
+        "text": "Заказать"
+      },
+      {
+        "href": "../dedicated/",
+        "text": "💼\n                        Выделенный интернет\n                        Для крупного бизнеса с высокими требованиями к скорости и надежности.\n                    \n                    \n                        Узнать больше"
+      },
+      {
+        "href": "../../telephony/",
+        "text": "📞\n                        Корпоративная телефония\n                        IP-телефония и виртуальная АТС для вашего бизнеса.\n                    \n                    \n                        Узнать больше"
+      },
+      {
+        "href": "../../cloud/",
+        "text": "☁️\n                        Облачные решения\n                        Облачное хранилище и виртуальные серверы.\n                    \n                    \n                        Узнать больше"
+      }
+    ]
+  },
+  {
+    "path": "C:\\runs\\SiteMGTS\\business\\internet\\index.html",
+    "title": "Интернет для бизнеса - МГТС Бизнес",
+    "meta": {
+      "description": "Интернет для бизнеса: GPON, выделенный интернет, офисный интернет от МГТС",
+      "keywords": ""
+    },
+    "hasHero": true,
+    "hasBreadcrumbs": true,
+    "hasSidebar": false,
+    "sections": [
+      {
+        "class": "hero",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": false
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      }
+    ],
+    "images": [],
+    "links": [
+      {
+        "href": "../../index.html",
+        "text": "Главная"
+      },
+      {
+        "href": "../index.html",
+        "text": "Бизнес"
+      },
+      {
+        "href": "gpon/index.html",
+        "text": "🚀\n                        GPON для бизнеса\n                        Оптоволоконная технология до 1 Гбит/с. Идеально для офисов и небольших компаний.\n                        \n                            ✓ До 1 Гбит/с\n                            ✓ Симметричный канал\n                            ✓ Статический IP\n                        \n                    \n                    \n                        Подробнее"
+      },
+      {
+        "href": "dedicated/index.html",
+        "text": "💼\n                        Выделенный интернет\n                        Выделенный канал связи до 10 Гбит/с с SLA гарантиями. Для крупного бизнеса.\n                        \n                            ✓ До 10 Гбит/с\n                            ✓ SLA 99.95%\n                            ✓ Круглосуточная поддержка\n                        \n                    \n                    \n                        Подробнее"
+      },
+      {
+        "href": "office/index.html",
+        "text": "🏢\n                        Офисный интернет\n                        Экономичное решение для офисов. Стабильное подключение по доступной цене.\n                        \n                            ✓ До 100 Мбит/с\n                            ✓ Выгодная цена\n                            ✓ Быстрое подключение\n                        \n                    \n                    \n                        Подробнее"
+      },
+      {
+        "href": "../../consultation/",
+        "text": "Получить консультацию"
+      }
+    ]
+  },
+  {
+    "path": "C:\\runs\\SiteMGTS\\business\\internet\\office\\index.html",
+    "title": "Офисный интернет - МГТС Бизнес",
+    "meta": {
+      "description": "Офисный интернет от МГТС: экономичное решение для офисов с быстрым подключением",
+      "keywords": ""
+    },
+    "hasHero": true,
+    "hasBreadcrumbs": true,
+    "hasSidebar": false,
+    "sections": [
+      {
+        "class": "hero",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      }
+    ],
+    "images": [],
+    "links": [
+      {
+        "href": "../../../index.html",
+        "text": "Главная"
+      },
+      {
+        "href": "../../index.html",
+        "text": "Бизнес"
+      },
+      {
+        "href": "../index.html",
+        "text": "Интернет"
+      },
+      {
+        "href": "../../../consultation/",
+        "text": "Заказать"
+      },
+      {
+        "href": "../../../consultation/",
+        "text": "Заказать"
+      },
+      {
+        "href": "../../../consultation/",
+        "text": "Заказать"
+      }
+    ]
+  },
+  {
+    "path": "C:\\runs\\SiteMGTS\\business\\security\\access-control\\index.html",
+    "title": "Контроль доступа - МГТС Бизнес",
+    "meta": {
+      "description": "Системы контроля доступа для бизнеса от МГТС",
+      "keywords": ""
+    },
+    "hasHero": true,
+    "hasBreadcrumbs": true,
+    "hasSidebar": false,
+    "sections": [
+      {
+        "class": "hero",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      }
+    ],
+    "images": [],
+    "links": [
+      {
+        "href": "../../../index.html",
+        "text": "Главная"
+      },
+      {
+        "href": "../../index.html",
+        "text": "Бизнес"
+      },
+      {
+        "href": "../index.html",
+        "text": "Безопасность"
+      }
+    ]
+  },
+  {
+    "path": "C:\\runs\\SiteMGTS\\business\\security\\alarm\\index.html",
+    "title": "Охранная сигнализация - МГТС Бизнес",
+    "meta": {
+      "description": "Охранная сигнализация для бизнеса от МГТС",
+      "keywords": ""
+    },
+    "hasHero": true,
+    "hasBreadcrumbs": true,
+    "hasSidebar": false,
+    "sections": [
+      {
+        "class": "hero",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      }
+    ],
+    "images": [],
+    "links": [
+      {
+        "href": "../../../index.html",
+        "text": "Главная"
+      },
+      {
+        "href": "../../index.html",
+        "text": "Бизнес"
+      },
+      {
+        "href": "../index.html",
+        "text": "Безопасность"
+      }
+    ]
+  },
+  {
+    "path": "C:\\runs\\SiteMGTS\\business\\security\\index.html",
+    "title": "Безопасность - МГТС Бизнес",
+    "meta": {
+      "description": "Безопасность для бизнеса: видеонаблюдение, контроль доступа, охранная сигнализация от МГТС",
+      "keywords": ""
+    },
+    "hasHero": true,
+    "hasBreadcrumbs": true,
+    "hasSidebar": false,
+    "sections": [
+      {
+        "class": "hero",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      }
+    ],
+    "images": [],
+    "links": [
+      {
+        "href": "../../index.html",
+        "text": "Главная"
+      },
+      {
+        "href": "../index.html",
+        "text": "Бизнес"
+      },
+      {
+        "href": "video-surveillance/index.html",
+        "text": "📹\n                        Видеонаблюдение\n                        Системы видеонаблюдения для офисов, складов и производственных объектов.\n                        \n                            ✓ HD и 4K камеры\n                            ✓ Облачное хранение\n                            ✓ Мобильный доступ\n                        \n                    \n                    \n                        Подробнее"
+      },
+      {
+        "href": "access-control/index.html",
+        "text": "🔐\n                        Контроль доступа\n                        Системы контроля доступа для управления входом в офисные помещения.\n                        \n                            ✓ Карты доступа\n                            ✓ Биометрия\n                            ✓ Учет рабочего времени\n                        \n                    \n                    \n                        Подробнее"
+      },
+      {
+        "href": "alarm/index.html",
+        "text": "🚨\n                        Охранная сигнализация\n                        Охранные системы для защиты помещений от несанкционированного доступа.\n                        \n                            ✓ Датчики движения\n                            ✓ Круглосуточный мониторинг\n                            ✓ Быстрая реакция\n                        \n                    \n                    \n                        Подробнее"
+      },
+      {
+        "href": "../../consultation/",
+        "text": "Получить консультацию"
+      }
+    ]
+  },
+  {
+    "path": "C:\\runs\\SiteMGTS\\business\\security\\video-surveillance\\index.html",
+    "title": "Видеонаблюдение - МГТС Бизнес",
+    "meta": {
+      "description": "Видеонаблюдение для бизнеса: системы видеонаблюдения от МГТС",
+      "keywords": ""
+    },
+    "hasHero": true,
+    "hasBreadcrumbs": true,
+    "hasSidebar": false,
+    "sections": [
+      {
+        "class": "hero",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      }
+    ],
+    "images": [],
+    "links": [
+      {
+        "href": "../../../index.html",
+        "text": "Главная"
+      },
+      {
+        "href": "../../index.html",
+        "text": "Бизнес"
+      },
+      {
+        "href": "../index.html",
+        "text": "Безопасность"
+      },
+      {
+        "href": "../../../consultation/",
+        "text": "Заказать"
+      },
+      {
+        "href": "../../../consultation/",
+        "text": "Заказать"
+      },
+      {
+        "href": "../../../consultation/",
+        "text": "Заказать"
+      },
+      {
+        "href": "../access-control/",
+        "text": "🔐\n                        Контроль доступа\n                        Системы управления входом в помещения.\n                    \n                    \n                        Узнать больше"
+      },
+      {
+        "href": "../alarm/",
+        "text": "🚨\n                        Охранная сигнализация\n                        Охранные системы для защиты помещений.\n                    \n                    \n                        Узнать больше"
+      },
+      {
+        "href": "../../internet/",
+        "text": "🌐\n                        Интернет для бизнеса\n                        Высокоскоростной интернет для видеонаблюдения.\n                    \n                    \n                        Узнать больше"
+      }
+    ]
+  },
+  {
+    "path": "C:\\runs\\SiteMGTS\\business\\telephony\\fixed\\index.html",
+    "title": "Фиксированная телефония - МГТС Бизнес",
+    "meta": {
+      "description": "Фиксированная телефония для бизнеса: классическая телефонная связь с гарантированным качеством от МГТС",
+      "keywords": ""
+    },
+    "hasHero": true,
+    "hasBreadcrumbs": true,
+    "hasSidebar": false,
+    "sections": [
+      {
+        "class": "hero",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      }
+    ],
+    "images": [],
+    "links": [
+      {
+        "href": "../../../index.html",
+        "text": "Главная"
+      },
+      {
+        "href": "../../index.html",
+        "text": "Бизнес"
+      },
+      {
+        "href": "../index.html",
+        "text": "Телефония"
+      },
+      {
+        "href": "../../../consultation/",
+        "text": "Заказать"
+      },
+      {
+        "href": "../../../consultation/",
+        "text": "Заказать"
+      },
+      {
+        "href": "../../../consultation/",
+        "text": "Заказать"
+      }
+    ]
+  },
+  {
+    "path": "C:\\runs\\SiteMGTS\\business\\telephony\\index.html",
+    "title": "Корпоративная телефония - МГТС Бизнес",
+    "meta": {
+      "description": "Корпоративная телефония от МГТС: фиксированная связь, IP-телефония, виртуальная АТС",
+      "keywords": ""
+    },
+    "hasHero": true,
+    "hasBreadcrumbs": true,
+    "hasSidebar": false,
+    "sections": [
+      {
+        "class": "hero",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      }
+    ],
+    "images": [],
+    "links": [
+      {
+        "href": "../../index.html",
+        "text": "Главная"
+      },
+      {
+        "href": "../index.html",
+        "text": "Бизнес"
+      },
+      {
+        "href": "fixed/index.html",
+        "text": "☎️\n                        Фиксированная телефония\n                        Классическая телефонная связь для офисов с гарантированным качеством.\n                        \n                            ✓ Аналоговая связь\n                            ✓ Цифровая связь\n                            ✓ Дополнительные услуги\n                        \n                    \n                    \n                        Подробнее"
+      },
+      {
+        "href": "ip/index.html",
+        "text": "📱\n                        IP-телефония\n                        Современная телефонная связь через интернет с расширенными возможностями.\n                        \n                            ✓ Экономия до 50%\n                            ✓ Масштабируемость\n                            ✓ Интеграция с CRM\n                        \n                    \n                    \n                        Подробнее"
+      },
+      {
+        "href": "vpbx/index.html",
+        "text": "🎛️\n                        Виртуальная АТС\n                        Облачная телефонная станция без оборудования с продвинутыми функциями.\n                        \n                            ✓ IVR меню\n                            ✓ Запись разговоров\n                            ✓ Аналитика звонков\n                        \n                    \n                    \n                        Подробнее"
+      },
+      {
+        "href": "mobile/index.html",
+        "text": "📲\n                        Корпоративная мобильная связь\n                        Мобильная связь для сотрудников компании через МТС Бизнес.\n                        \n                            ✓ Корпоративные тарифы\n                            ✓ Единый счет\n                            ✓ Управление номерами\n                        \n                    \n                    \n                        Подробнее"
+      },
+      {
+        "href": "../../consultation/",
+        "text": "Получить консультацию"
+      }
+    ]
+  },
+  {
+    "path": "C:\\runs\\SiteMGTS\\business\\telephony\\ip\\index.html",
+    "title": "IP-телефония - МГТС Бизнес",
+    "meta": {
+      "description": "IP-телефония для бизнеса: современная телефонная связь через интернет от МГТС",
+      "keywords": ""
+    },
+    "hasHero": true,
+    "hasBreadcrumbs": true,
+    "hasSidebar": false,
+    "sections": [
+      {
+        "class": "hero",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      }
+    ],
+    "images": [],
+    "links": [
+      {
+        "href": "../../../index.html",
+        "text": "Главная"
+      },
+      {
+        "href": "../../index.html",
+        "text": "Бизнес"
+      },
+      {
+        "href": "../index.html",
+        "text": "Телефония"
+      },
+      {
+        "href": "../../../consultation/",
+        "text": "Заказать"
+      },
+      {
+        "href": "../../../consultation/",
+        "text": "Заказать"
+      },
+      {
+        "href": "../../../consultation/",
+        "text": "Заказать"
+      },
+      {
+        "href": "../vpbx/",
+        "text": "🎛️\n                        Виртуальная АТС\n                        Облачная телефонная станция без оборудования.\n                    \n                    \n                        Узнать больше"
+      },
+      {
+        "href": "../../internet/",
+        "text": "🌐\n                        Интернет для бизнеса\n                        Высокоскоростной интернет для вашего офиса.\n                    \n                    \n                        Узнать больше"
+      },
+      {
+        "href": "../mobile/",
+        "text": "📲\n                        Корпоративная мобильная связь\n                        Мобильная связь для сотрудников.\n                    \n                    \n                        Узнать больше"
+      }
+    ]
+  },
+  {
+    "path": "C:\\runs\\SiteMGTS\\business\\telephony\\mobile\\index.html",
+    "title": "Корпоративная мобильная связь - МГТС Бизнес",
+    "meta": {
+      "description": "Корпоративная мобильная связь для бизнеса через МТС Бизнес от МГТС",
+      "keywords": ""
+    },
+    "hasHero": true,
+    "hasBreadcrumbs": true,
+    "hasSidebar": false,
+    "sections": [
+      {
+        "class": "hero",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      }
+    ],
+    "images": [],
+    "links": [
+      {
+        "href": "../../../index.html",
+        "text": "Главная"
+      },
+      {
+        "href": "../../index.html",
+        "text": "Бизнес"
+      },
+      {
+        "href": "../index.html",
+        "text": "Телефония"
+      },
+      {
+        "href": "../../../consultation/",
+        "text": "Заказать"
+      },
+      {
+        "href": "../../../consultation/",
+        "text": "Заказать"
+      },
+      {
+        "href": "../../../consultation/",
+        "text": "Заказать"
+      },
+      {
+        "href": "../vpbx/",
+        "text": "🎛️\n                        Виртуальная АТС\n                        Облачная телефонная станция.\n                    \n                    \n                        Узнать больше"
+      },
+      {
+        "href": "../ip/",
+        "text": "📱\n                        IP-телефония\n                        Телефонная связь через интернет.\n                    \n                    \n                        Узнать больше"
+      },
+      {
+        "href": "../../internet/",
+        "text": "🌐\n                        Интернет для бизнеса\n                        Высокоскоростной интернет.\n                    \n                    \n                        Узнать больше"
+      }
+    ]
+  },
+  {
+    "path": "C:\\runs\\SiteMGTS\\business\\telephony\\vpbx\\index.html",
+    "title": "Виртуальная АТС - МГТС Бизнес",
+    "meta": {
+      "description": "Виртуальная АТС для бизнеса: облачная телефонная станция без оборудования от МГТС",
+      "keywords": ""
+    },
+    "hasHero": true,
+    "hasBreadcrumbs": true,
+    "hasSidebar": false,
+    "sections": [
+      {
+        "class": "hero",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      }
+    ],
+    "images": [],
+    "links": [
+      {
+        "href": "../../../index.html",
+        "text": "Главная"
+      },
+      {
+        "href": "../../index.html",
+        "text": "Бизнес"
+      },
+      {
+        "href": "../index.html",
+        "text": "Телефония"
+      },
+      {
+        "href": "../../../consultation/",
+        "text": "Заказать"
+      },
+      {
+        "href": "../../../consultation/",
+        "text": "Заказать"
+      },
+      {
+        "href": "../../../consultation/",
+        "text": "Заказать"
+      },
+      {
+        "href": "../ip/",
+        "text": "📱\n                        IP-телефония\n                        Современная телефонная связь через интернет.\n                    \n                    \n                        Узнать больше"
+      },
+      {
+        "href": "../fixed/",
+        "text": "☎️\n                        Фиксированная телефония\n                        Классическая телефонная связь.\n                    \n                    \n                        Узнать больше"
+      },
+      {
+        "href": "../mobile/",
+        "text": "📲\n                        Корпоративная мобильная связь\n                        Мобильная связь для сотрудников.\n                    \n                    \n                        Узнать больше"
+      }
+    ]
+  },
+  {
+    "path": "C:\\runs\\SiteMGTS\\business\\tv\\index.html",
+    "title": "Цифровое телевидение - МГТС Бизнес",
+    "meta": {
+      "description": "Цифровое телевидение для бизнеса: IPTV и корпоративное ТВ от МГТС",
+      "keywords": ""
+    },
+    "hasHero": true,
+    "hasBreadcrumbs": true,
+    "hasSidebar": false,
+    "sections": [
+      {
+        "class": "hero",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      }
+    ],
+    "images": [],
+    "links": [
+      {
+        "href": "../../index.html",
+        "text": "Главная"
+      },
+      {
+        "href": "../index.html",
+        "text": "Бизнес"
+      },
+      {
+        "href": "iptv/index.html",
+        "text": "📺\n                        IPTV для бизнеса\n                        Цифровое телевидение через интернет с большим выбором каналов и HD качеством.\n                        \n                            ✓ Более 200 каналов\n                            ✓ HD и 4K качество\n                            ✓ Интерактивные функции\n                        \n                    \n                    \n                        Подробнее"
+      },
+      {
+        "href": "office/index.html",
+        "text": "🏢\n                        Корпоративное ТВ\n                        Телевидение для офисов, гостиниц и общественных пространств.\n                        \n                            ✓ Множество экранов\n                            ✓ Корпоративные каналы\n                            ✓ Техническая поддержка\n                        \n                    \n                    \n                        Подробнее"
+      },
+      {
+        "href": "../../consultation/",
+        "text": "Получить консультацию"
+      }
+    ]
+  },
+  {
+    "path": "C:\\runs\\SiteMGTS\\business\\tv\\iptv\\index.html",
+    "title": "IPTV для бизнеса - МГТС Бизнес",
+    "meta": {
+      "description": "IPTV для бизнеса: цифровое телевидение через интернет от МГТС",
+      "keywords": ""
+    },
+    "hasHero": true,
+    "hasBreadcrumbs": true,
+    "hasSidebar": false,
+    "sections": [
+      {
+        "class": "hero",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      }
+    ],
+    "images": [],
+    "links": [
+      {
+        "href": "../../../index.html",
+        "text": "Главная"
+      },
+      {
+        "href": "../../index.html",
+        "text": "Бизнес"
+      },
+      {
+        "href": "../index.html",
+        "text": "Цифровое ТВ"
+      },
+      {
+        "href": "../../../consultation/",
+        "text": "Заказать"
+      },
+      {
+        "href": "../../../consultation/",
+        "text": "Заказать"
+      },
+      {
+        "href": "../../../consultation/",
+        "text": "Заказать"
+      }
+    ]
+  },
+  {
+    "path": "C:\\runs\\SiteMGTS\\business\\tv\\office\\index.html",
+    "title": "Корпоративное ТВ - МГТС Бизнес",
+    "meta": {
+      "description": "Корпоративное ТВ для офисов от МГТС",
+      "keywords": ""
+    },
+    "hasHero": true,
+    "hasBreadcrumbs": true,
+    "hasSidebar": false,
+    "sections": [
+      {
+        "class": "hero",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      }
+    ],
+    "images": [],
+    "links": [
+      {
+        "href": "../../../index.html",
+        "text": "Главная"
+      },
+      {
+        "href": "../../index.html",
+        "text": "Бизнес"
+      },
+      {
+        "href": "../index.html",
+        "text": "Цифровое ТВ"
+      }
+    ]
+  },
+  {
+    "path": "C:\\runs\\SiteMGTS\\contacts\\index.html",
+    "title": "Контакты - МГТС Бизнес",
+    "meta": {
+      "description": "Контакты МГТС: телефоны, адреса, время работы. Свяжитесь с нами для подключения услуг",
+      "keywords": ""
+    },
+    "hasHero": true,
+    "hasBreadcrumbs": true,
+    "hasSidebar": false,
+    "sections": [
+      {
+        "class": "hero",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": false
+      }
+    ],
+    "images": [],
+    "links": [
+      {
+        "href": "../index.html",
+        "text": "Главная"
+      },
+      {
+        "href": "tel:+749563600636",
+        "text": "8 800 250-0-250"
+      },
+      {
+        "href": "mailto:business@mgts.ru",
+        "text": "business@mgts.ru"
+      },
+      {
+        "href": "tel:+749563600636",
+        "text": "+7 (495) 636-00-63"
+      }
+    ]
+  },
+  {
+    "path": "C:\\runs\\SiteMGTS\\developers\\index.html",
+    "title": "Услуги для застройщиков - МГТС Бизнес",
+    "meta": {
+      "description": "Услуги для застройщиков: подключение объектов, цифровые решения от МГТС",
+      "keywords": ""
+    },
+    "hasHero": true,
+    "hasBreadcrumbs": true,
+    "hasSidebar": false,
+    "sections": [
+      {
+        "class": "hero",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      }
+    ],
+    "images": [],
+    "links": [
+      {
+        "href": "../index.html",
+        "text": "Главная"
+      }
+    ]
+  },
+  {
+    "path": "C:\\runs\\SiteMGTS\\government\\index.html",
+    "title": "Услуги для госсектора - МГТС Бизнес",
+    "meta": {
+      "description": "Телекоммуникационные услуги для государственного сектора от МГТС",
+      "keywords": ""
+    },
+    "hasHero": true,
+    "hasBreadcrumbs": true,
+    "hasSidebar": false,
+    "sections": [
+      {
+        "class": "hero",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      }
+    ],
+    "images": [],
+    "links": [
+      {
+        "href": "../index.html",
+        "text": "Главная"
+      }
+    ]
+  },
+  {
+    "path": "C:\\runs\\SiteMGTS\\index.html",
+    "title": "МГТС Бизнес - Цифровые решения для вашего бизнеса",
+    "meta": {
+      "description": "Цифровые решения для вашего бизнеса: интернет, телефония, облачные сервисы, видеонаблюдение от МГТС",
+      "keywords": "интернет для бизнеса, телефония, облако, видеонаблюдение, МГТС, бизнес-услуги"
+    },
+    "hasHero": true,
+    "hasBreadcrumbs": false,
+    "hasSidebar": false,
+    "sections": [
+      {
+        "class": "hero",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      }
+    ],
+    "images": [],
+    "links": [
+      {
+        "href": "business/index.html",
+        "text": "🏢\n                    Бизнес\n                    Малый, средний и крупный бизнес"
+      },
+      {
+        "href": "operators/index.html",
+        "text": "📡\n                    Операторы\n                    Операторы связи"
+      },
+      {
+        "href": "developers/index.html",
+        "text": "🏗️\n                    Застройщики\n                    Застройщики и девелоперы"
+      },
+      {
+        "href": "partners/index.html",
+        "text": "🤝\n                    Партнеры\n                    Партнерская программа"
+      },
+      {
+        "href": "government/index.html",
+        "text": "🏛️\n                    Госсектор\n                    Государственный сектор"
+      },
+      {
+        "href": "business/internet/index.html",
+        "text": "Подробнее"
+      },
+      {
+        "href": "business/telephony/index.html",
+        "text": "Подробнее"
+      },
+      {
+        "href": "business/cloud/index.html",
+        "text": "Подробнее"
+      },
+      {
+        "href": "business/security/index.html",
+        "text": "Подробнее"
+      },
+      {
+        "href": "business/tv/index.html",
+        "text": "Подробнее"
+      },
+      {
+        "href": "business/index.html",
+        "text": "Подробнее"
+      }
+    ]
+  },
+  {
+    "path": "C:\\runs\\SiteMGTS\\operators\\index.html",
+    "title": "Услуги для операторов - МГТС Бизнес",
+    "meta": {
+      "description": "Услуги для операторов связи: инфраструктура, трафик, размещение оборудования от МГТС",
+      "keywords": ""
+    },
+    "hasHero": true,
+    "hasBreadcrumbs": true,
+    "hasSidebar": false,
+    "sections": [
+      {
+        "class": "hero",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      }
+    ],
+    "images": [],
+    "links": [
+      {
+        "href": "../index.html",
+        "text": "Главная"
+      }
+    ]
+  },
+  {
+    "path": "C:\\runs\\SiteMGTS\\partners\\index.html",
+    "title": "Партнерская программа - МГТС Бизнес",
+    "meta": {
+      "description": "Партнерская программа МГТС: условия сотрудничества, преимущества для партнеров",
+      "keywords": ""
+    },
+    "hasHero": true,
+    "hasBreadcrumbs": true,
+    "hasSidebar": false,
+    "sections": [
+      {
+        "class": "hero",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": true
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": true,
+        "hasGrid": false
+      },
+      {
+        "class": "section",
+        "hasTitle": true,
+        "hasCards": false,
+        "hasGrid": false
+      }
+    ],
+    "images": [],
+    "links": [
+      {
+        "href": "../index.html",
+        "text": "Главная"
+      }
+    ]
+  }
+]

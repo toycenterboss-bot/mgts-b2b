@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_page_service_consultation_cards",
+  "info": {
+    "displayName": "Service Consultation Card",
+    "description": "Карточка консультации для TPL_Service"
+  },
+  "options": {},
+  "attributes": {
+    "isVisible": {
+      "type": "boolean",
+      "default": true
+    },
+    "title": {
+      "type": "string",
+      "default": "Нужна персональная консультация?"
+    },
+    "subtitle": {
+      "type": "text",
+      "default": "Наши технические специалисты готовы ответить на любые вопросы по интеграции 24/7."
+    },
+    "buttonText": {
+      "type": "string",
+      "default": "Связаться с нами"
+    },
+    "buttonHref": {
+      "type": "string"
+    }
+  }
+}

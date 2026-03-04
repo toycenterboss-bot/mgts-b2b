@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_page_heros",
+  "info": {
+    "displayName": "Hero",
+    "description": "Главный блок страницы. CSS классы: hero (контейнер), hero__title (заголовок), hero__subtitle (подзаголовок), hero__content (контент)"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "backgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "ctaButtons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.cta-button"
+    },
+    "slaItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.hero-sla-item"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_navigation_menulinks",
+  "info": {
+    "displayName": "Menu Link",
+    "description": "Ссылка в меню"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "href": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "type": "string",
+      "customField": "plugin::icon-picker.icon"
+    },
+    "isExternal": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

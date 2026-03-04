@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_page_career_vacancy_tags",
+  "info": {
+    "displayName": "Career Vacancy Tag",
+    "description": "Тэг вакансии (для фильтрации)"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "key": {
+      "type": "string",
+      "description": "Ключ тэга (slug)"
+    }
+  }
+}

@@ -1,0 +1,209 @@
+<section class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 min-h-screen transition-colors duration-200" data-stitch-block="core_ui_components_sheet">
+<div class="max-w-[1200px] mx-auto px-6 py-10">
+<!-- Top Navigation Bar -->
+<header class="flex items-center justify-between border-b border-slate-200 dark:border-slate-800 pb-8 mb-12">
+<div class="flex items-center gap-8">
+<div class="flex items-center gap-3">
+<div class="bg-primary p-2 rounded-lg">
+<span class="material-symbols-outlined text-white text-2xl">rocket_launch</span>
+</div>
+<div>
+<h1 class="text-xl font-bold tracking-tight">MGTS B2B Design System</h1>
+<p class="text-xs text-slate-500 dark:text-slate-400 uppercase tracking-widest font-semibold">Core UI Components v1.0</p>
+</div>
+</div>
+<nav class="hidden md:flex items-center gap-6 ml-4">
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Компоненты</a>
+<a class="text-sm font-medium text-slate-500 hover:text-primary transition-colors" href="#">Документация</a>
+<a class="text-sm font-medium text-slate-500 hover:text-primary transition-colors" href="#">Ресурсы</a>
+</nav>
+</div>
+<div class="flex items-center gap-4">
+<div class="relative group hidden sm:block">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-sm">search</span>
+<input class="bg-slate-100 dark:bg-slate-900 border-none rounded-lg pl-10 pr-4 py-2 text-sm focus:ring-2 focus:ring-primary w-64 transition-all" placeholder="Поиск компонентов..." type="text"/>
+</div>
+<button class="bg-primary text-white px-6 py-2 rounded-lg text-sm font-bold hover:bg-primary/90 transition-all">Войти</button>
+</div>
+</header>
+<!-- Page Heading -->
+<div class="mb-12">
+<h2 class="text-4xl font-black tracking-tight mb-2">Core UI Components Sheet</h2>
+<p class="text-slate-500 dark:text-slate-400 max-w-2xl">Набор базовых интерфейсных решений и специализированных макетов для экосистемы MGTS B2B, оптимизированный под 8-пиксельную сетку.</p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+<!-- Left Column -->
+<div class="space-y-12">
+<!-- Breadcrumbs Section -->
+<section>
+<h3 class="text-lg font-bold border-l-4 border-primary pl-4 mb-6">1. Навигация (Breadcrumbs)</h3>
+<div class="bg-slate-100/50 dark:bg-slate-900/50 p-6 rounded-xl border border-slate-200 dark:border-slate-800">
+<div class="flex items-center gap-2 text-sm font-medium">
+<a class="text-slate-500 hover:text-primary transition-colors flex items-center gap-1" href="#">
+<span class="material-symbols-outlined text-base">home</span>
+                                Главная
+                            </a>
+<span class="material-symbols-outlined text-slate-400 text-sm">chevron_right</span>
+<a class="text-slate-500 hover:text-primary transition-colors" href="#">Услуги</a>
+<span class="material-symbols-outlined text-slate-400 text-sm">chevron_right</span>
+<span class="text-primary font-bold">Облачное хранилище</span>
+</div>
+</div>
+</section>
+<!-- Badges/Chips Section -->
+<section>
+<h3 class="text-lg font-bold border-l-4 border-primary pl-4 mb-6">2. Бейджи и Чипы (Badges/Chips)</h3>
+<div class="bg-slate-100/50 dark:bg-slate-900/50 p-6 rounded-xl border border-slate-200 dark:border-slate-800 space-y-6">
+<div class="flex flex-wrap gap-4">
+<span class="px-3 py-1 bg-primary text-white text-xs font-bold rounded-full">НОВОЕ</span>
+<span class="px-3 py-1 bg-emerald-500 text-white text-xs font-bold rounded-full">АКТИВНО</span>
+<span class="px-3 py-1 bg-amber-500 text-white text-xs font-bold rounded-full">ПОПУЛЯРНОЕ</span>
+</div>
+<div class="flex flex-wrap gap-4">
+<span class="px-3 py-1 border border-primary text-primary text-xs font-bold rounded-full">КЛАУД</span>
+<span class="px-3 py-1 border border-slate-400 text-slate-400 text-xs font-bold rounded-full">АРХИВ</span>
+<span class="px-3 py-1 border border-red-500 text-red-500 text-xs font-bold rounded-full">СРОЧНО</span>
+</div>
+<div class="flex flex-wrap gap-4">
+<span class="pl-2 pr-3 py-1 bg-slate-200 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-xs font-bold rounded-full flex items-center gap-1">
+<span class="material-symbols-outlined text-sm">cloud</span> ОБЛАКО
+                            </span>
+<span class="pl-2 pr-3 py-1 bg-slate-200 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-xs font-bold rounded-full flex items-center gap-1">
+<span class="material-symbols-outlined text-sm">verified</span> ПРОВЕРЕНО
+                            </span>
+</div>
+</div>
+</section>
+<!-- Lists Section -->
+<section>
+<h3 class="text-lg font-bold border-l-4 border-primary pl-4 mb-6">3. Списки (Technical Lists)</h3>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 bg-slate-100/50 dark:bg-slate-900/50 p-6 rounded-xl border border-slate-200 dark:border-slate-800">
+<div class="space-y-4">
+<p class="text-xs font-bold text-slate-500 uppercase tracking-widest">Стандартный и чек-лист</p>
+<ul class="space-y-2 text-sm">
+<li class="flex items-center gap-2">
+<div class="size-1.5 rounded-full bg-primary"></div>
+                                    Скорость до 1 Гбит/с
+                                </li>
+<li class="flex items-center gap-2 text-primary font-semibold">
+<span class="material-symbols-outlined text-base">check_circle</span>
+                                    Выделенный IP-адрес
+                                </li>
+<li class="flex items-center gap-2 text-primary font-semibold">
+<span class="material-symbols-outlined text-base">check_circle</span>
+                                    SLA 99.9%
+                                </li>
+</ul>
+</div>
+<div class="space-y-4">
+<p class="text-xs font-bold text-slate-500 uppercase tracking-widest">3D Нумерация</p>
+<div class="space-y-4">
+<div class="flex items-center gap-3">
+<div class="size-8 bg-primary rounded flex items-center justify-center text-white font-black three-d-number">1</div>
+<span class="text-sm">Выберите тариф</span>
+</div>
+<div class="flex items-center gap-3">
+<div class="size-8 bg-primary rounded flex items-center justify-center text-white font-black three-d-number">2</div>
+<span class="text-sm">Заполните данные</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<!-- Right Column -->
+<div class="space-y-12">
+<!-- Radio Buttons Section -->
+<section>
+<h3 class="text-lg font-bold border-l-4 border-primary pl-4 mb-6">4. Состояния Радиокнопок (Radio Buttons)</h3>
+<div class="bg-slate-100/50 dark:bg-slate-900/50 p-6 rounded-xl border border-slate-200 dark:border-slate-800">
+<div class="grid grid-cols-2 gap-y-6 gap-x-4">
+<!-- Default -->
+<div class="flex items-center gap-3">
+<div class="size-5 rounded-full border-2 border-slate-300 dark:border-slate-700 bg-transparent cursor-pointer"></div>
+<span class="text-sm">По умолчанию</span>
+</div>
+<!-- Hover -->
+<div class="flex items-center gap-3 group">
+<div class="size-5 rounded-full border-2 border-primary/50 bg-primary/10 cursor-pointer"></div>
+<span class="text-sm">Наведение</span>
+</div>
+<!-- Checked -->
+<div class="flex items-center gap-3">
+<div class="size-5 rounded-full border-2 border-primary flex items-center justify-center bg-transparent cursor-pointer">
+<div class="size-2.5 rounded-full bg-primary"></div>
+</div>
+<span class="text-sm font-bold text-primary">Выбрано</span>
+</div>
+<!-- Disabled -->
+<div class="flex items-center gap-3 opacity-50 cursor-not-allowed">
+<div class="size-5 rounded-full border-2 border-slate-400 bg-slate-100 dark:bg-slate-800"></div>
+<span class="text-sm">Отключено</span>
+</div>
+<!-- Error -->
+<div class="flex items-center gap-3">
+<div class="size-5 rounded-full border-2 border-red-500 flex items-center justify-center bg-red-500/10 cursor-pointer">
+</div>
+<span class="text-sm text-red-500 font-medium">Ошибка</span>
+</div>
+</div>
+</div>
+</section>
+<!-- File Upload Section -->
+<section>
+<h3 class="text-lg font-bold border-l-4 border-primary pl-4 mb-6">5. Загрузка файлов (File Upload)</h3>
+<div class="space-y-4">
+<!-- Empty State -->
+<div class="border-2 border-dashed border-slate-300 dark:border-slate-700 rounded-xl p-8 text-center hover:border-primary transition-all cursor-pointer group">
+<span class="material-symbols-outlined text-4xl text-slate-400 group-hover:text-primary mb-2">upload_file</span>
+<p class="text-sm font-medium">Перетащите файл или <span class="text-primary underline">выберите на диске</span></p>
+<p class="text-xs text-slate-500 mt-1">PDF, DOCX до 10 МБ</p>
+</div>
+<!-- Hover/Drag State -->
+<div class="border-2 border-primary bg-primary/10 shadow-[0_0_15px_rgba(17,115,212,0.2)] rounded-xl p-8 text-center transition-all">
+<span class="material-symbols-outlined text-4xl text-primary mb-2">add_circle</span>
+<p class="text-sm font-bold text-primary">Отпустите, чтобы загрузить</p>
+</div>
+<!-- Uploaded State -->
+<div class="flex items-center justify-between p-4 bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary">description</span>
+<div>
+<p class="text-sm font-medium">dogovor_service_v2.pdf</p>
+<p class="text-[10px] text-slate-500 uppercase font-bold">452 KB • Загружено</p>
+</div>
+</div>
+<button class="material-symbols-outlined text-slate-400 hover:text-red-500 transition-colors">close</button>
+</div>
+<!-- Error State -->
+<div class="border-2 border-red-500/50 bg-red-500/5 rounded-xl p-4 flex items-center gap-3">
+<span class="material-symbols-outlined text-red-500">error</span>
+<div class="flex-1">
+<p class="text-sm font-bold text-red-500">Ошибка загрузки</p>
+<p class="text-xs text-red-400">Файл слишком велик (макс. 10 МБ)</p>
+</div>
+<button class="text-xs font-bold uppercase text-red-500 underline">Повторить</button>
+</div>
+</div>
+</section>
+</div>
+</div>
+<!-- Footer Visual Decoration -->
+<footer class="mt-20 pt-8 border-t border-slate-200 dark:border-slate-800 flex flex-wrap justify-between items-center gap-6">
+<div class="flex items-center gap-2">
+<div class="size-2 rounded-full bg-emerald-500 animate-pulse"></div>
+<p class="text-xs text-slate-500 font-medium">Все системы работают в штатном режиме</p>
+</div>
+<div class="flex gap-4">
+<div class="bg-primary/10 px-4 py-2 rounded-lg">
+<p class="text-[10px] text-primary font-black uppercase">Grid Status</p>
+<p class="text-xs font-bold">8px Responsive</p>
+</div>
+<div class="bg-primary px-4 py-2 rounded-lg">
+<p class="text-[10px] text-white/70 font-black uppercase">Current Theme</p>
+<p class="text-xs font-bold text-white">Dark High-Tech</p>
+</div>
+</div>
+</footer>
+</div>
+</section>

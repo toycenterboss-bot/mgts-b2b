@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_page_section_tables",
+  "info": {
+    "displayName": "Section Table",
+    "description": "Секция с таблицей"
+  },
+  "options": {},
+  "attributes": {
+    "isVisible": {
+      "type": "boolean",
+      "default": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "tableData": {
+      "type": "json"
+    },
+    "showCustomization": {
+      "type": "boolean",
+      "default": true
+    },
+    "customizationTitle": {
+      "type": "string"
+    },
+    "customizationText": {
+      "type": "text"
+    },
+    "customizationButtonText": {
+      "type": "string"
+    },
+    "customizationButtonHref": {
+      "type": "string"
+    }
+  }
+}

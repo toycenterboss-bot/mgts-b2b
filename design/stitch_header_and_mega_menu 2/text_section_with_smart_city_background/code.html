@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="ru"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>МГТС B2B | Инфраструктура Умного Города</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="../../assets/fonts/google/51023a6421/font.css" rel="stylesheet"/>
+<link href="../../assets/fonts/material-symbols-outlined/material-symbols-outlined.css" rel="stylesheet"/>
+<link href="../../assets/fonts/material-symbols-outlined/material-symbols-outlined.css" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#256af4",
+                        "background-light": "#f5f6f8",
+                        "background-dark": "#101622",
+                    },
+                    fontFamily: {
+                        "display": ["Space Grotesk", "Noto Sans", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .glass-panel {
+            background: rgba(16, 22, 34, 0.6);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-white">
+<!-- Top Navigation -->
+<header class="fixed top-0 left-0 w-full z-50 border-b border-white/10 glass-panel">
+<div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+<div class="flex items-center gap-12">
+<div class="flex items-center gap-3">
+<div class="size-8 text-primary">
+<svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M44 4H30.6666V17.3334H17.3334V30.6666H4V44H44V4Z" fill="currentColor"></path>
+</svg>
+</div>
+<span class="text-xl font-bold tracking-tight">МГТС B2B</span>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Решения</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Инфраструктура</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Кейсы</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">О компании</a>
+</nav>
+</div>
+<div class="flex items-center gap-4">
+<button class="flex items-center gap-2 px-4 py-2 bg-primary rounded-lg font-bold text-sm hover:bg-primary/90 transition-all">
+<span class="material-symbols-outlined text-sm">login</span>
+<span>Личный кабинет</span>
+</button>
+</div>
+</div>
+</header>
+<!-- Main Content -->
+<main class="relative min-h-screen flex items-center pt-16">
+<!-- Background Layer with City Imagery -->
+<div class="absolute inset-0 z-0 overflow-hidden">
+<div class="absolute inset-0 bg-gradient-to-r from-background-dark via-background-dark/80 to-transparent z-10"></div>
+<div class="w-full h-full bg-cover bg-center" data-alt="Isometric 3D smart city with glowing blue neon infrastructure lines" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCFV6dRLs1QACheGfdC3LP0ZzXcdsoG0djBf1XsYaUv9fPZ8Kcoxi4rQwyjRQfRAWJxYpI4eFspKwhFRqcSVqI2Lqz_S_ky95IBe1Ly6Qexft3G4yyxy_VNuztReUMP57dxKLC_ekoLZcPBi1cpTV40LAjN2nI_KwwhIsXEjpPczta8gcCRSTA9XAtQn8sez6GGGoquzLMwRA_hpzDktdku_SwQIeFlkyyj4uTqXA8lBbLYT6rTM53GZcomKmSMoIpeM_CGvpPpvw');">
+</div>
+<!-- Animated Infrastructure Overlay Simulated -->
+<div class="absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_50%_50%,_#256af4_0%,_transparent_50%)]"></div>
+</div>
+<!-- Glass Container Section -->
+<div class="container mx-auto px-6 z-20">
+<div class="max-w-2xl glass-panel rounded-xl p-8 md:p-12 shadow-2xl">
+<div class="flex items-center gap-2 mb-6 text-primary">
+<span class="px-3 py-1 bg-primary/20 rounded-full text-xs font-bold uppercase tracking-wider">Цифровой город</span>
+<div class="h-px w-12 bg-primary"></div>
+</div>
+<h1 class="text-4xl md:text-5xl lg:text-6xl font-black leading-tight mb-6 tracking-tight">
+                    Инфраструктура <span class="text-primary">Умного Города</span> для Вашего Бизнеса
+                </h1>
+<p class="text-lg text-gray-300 leading-relaxed mb-10 max-w-xl">
+                    Масштабируемые цифровые решения от МГТС: от интернета вещей (IoT) до комплексных систем безопасности и управления сложными городскими объектами. Создайте будущее вместе с нами.
+                </p>
+<div class="flex flex-wrap gap-4">
+<button class="min-w-[180px] bg-primary text-white font-bold py-4 px-8 rounded-lg hover:scale-105 transition-transform flex items-center justify-center gap-2">
+                        Подключить
+                        <span class="material-symbols-outlined">arrow_forward</span>
+</button>
+<button class="min-w-[180px] bg-white/10 hover:bg-white/20 text-white font-bold py-4 px-8 rounded-lg transition-colors flex items-center justify-center gap-2 border border-white/10">
+                        Узнать больше
+                    </button>
+</div>
+</div>
+</div>
+<!-- Scroll Indicator -->
+<div class="absolute bottom-10 left-1/2 -translate-x-1/2 z-20 flex flex-col items-center gap-2 opacity-50">
+<span class="text-[10px] uppercase tracking-[0.3em]">Листайте вниз</span>
+<div class="w-px h-12 bg-gradient-to-b from-primary to-transparent"></div>
+</div>
+</main>
+<!-- Features Section -->
+<section class="relative bg-background-dark py-24 border-t border-white/5">
+<div class="max-w-7xl mx-auto px-6">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="flex flex-col gap-6 p-8 rounded-xl border border-white/5 bg-white/5 hover:bg-white/[0.08] transition-colors group">
+<div class="size-14 rounded-lg bg-primary/20 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined text-3xl">sensors</span>
+</div>
+<div>
+<h3 class="text-xl font-bold mb-2">IoT Системы</h3>
+<p class="text-gray-400">Мониторинг и управление оборудованием в реальном времени через защищенную сеть LoRaWAN.</p>
+</div>
+</div>
+<div class="flex flex-col gap-6 p-8 rounded-xl border border-white/5 bg-white/5 hover:bg-white/[0.08] transition-colors group">
+<div class="size-14 rounded-lg bg-primary/20 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined text-3xl">cloud</span>
+</div>
+<div>
+<h3 class="text-xl font-bold mb-2">Облачные вычисления</h3>
+<p class="text-gray-400">Масштабируемые серверные мощности и хранилища данных с высочайшим уровнем отказоустойчивости.</p>
+</div>
+</div>
+<div class="flex flex-col gap-6 p-8 rounded-xl border border-white/5 bg-white/5 hover:bg-white/[0.08] transition-colors group">
+<div class="size-14 rounded-lg bg-primary/20 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined text-3xl">verified_user</span>
+</div>
+<div>
+<h3 class="text-xl font-bold mb-2">Безопасность</h3>
+<p class="text-gray-400">Многоуровневая защита инфраструктуры и кибербезопасность на государственном уровне.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Action Panel -->
+<section class="bg-background-dark py-12 px-6">
+<div class="max-w-5xl mx-auto">
+<div class="glass-panel p-8 rounded-xl flex flex-col md:flex-row items-center justify-between gap-8 border-primary/20">
+<div class="text-center md:text-left">
+<h2 class="text-2xl font-bold mb-2">Готовы модернизировать свой бизнес?</h2>
+<p class="text-gray-400">Получите персональное предложение по внедрению умных технологий в течение 24 часов.</p>
+</div>
+<button class="bg-primary hover:bg-primary/90 text-white font-bold py-4 px-10 rounded-lg transition-all whitespace-nowrap">
+                    Оставить заявку
+                </button>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-background-dark border-t border-white/5 py-12">
+<div class="max-w-7xl mx-auto px-6 flex flex-col gap-10">
+<div class="flex flex-col md:flex-row justify-between items-center gap-8">
+<div class="flex items-center gap-3 opacity-80">
+<div class="size-6 text-white">
+<svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M44 4H30.6666V17.3334H17.3334V30.6666H4V44H44V4Z" fill="currentColor"></path>
+</svg>
+</div>
+<span class="text-lg font-bold tracking-tight">МГТС B2B</span>
+</div>
+<div class="flex gap-8 text-gray-400 text-sm">
+<a class="hover:text-white" href="#">Конфиденциальность</a>
+<a class="hover:text-white" href="#">Условия использования</a>
+<a class="hover:text-white" href="#">Контакты</a>
+</div>
+<div class="flex gap-4">
+<a class="size-10 rounded-full border border-white/10 flex items-center justify-center hover:bg-white/5 transition-colors" href="#">
+<span class="material-symbols-outlined text-xl">hub</span>
+</a>
+<a class="size-10 rounded-full border border-white/10 flex items-center justify-center hover:bg-white/5 transition-colors" href="#">
+<span class="material-symbols-outlined text-xl">send</span>
+</a>
+</div>
+</div>
+<div class="text-center text-gray-500 text-sm">
+                © 2023 ПАО МГТС. Все права защищены.
+            </div>
+</div>
+</footer>
+</body></html>

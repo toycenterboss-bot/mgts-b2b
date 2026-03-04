@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="ru"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>MGTS B2B - Header and Mega Menu</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="../../assets/fonts/google/100e1be8c3/font.css" rel="stylesheet"/>
+<link href="../../assets/fonts/material-symbols-outlined/material-symbols-outlined.css" rel="stylesheet"/>
+<link href="../../assets/fonts/material-symbols-outlined/material-symbols-outlined.css" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#0066cc",
+                        "background-light": "#f5f7f8",
+                        "background-dark": "#0f1923",
+                    },
+                    fontFamily: {
+                        "display": ["Space Grotesk", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        .mega-menu-blur {
+            backdrop-filter: blur(12px);
+            background-color: rgba(15, 25, 35, 0.95);
+        }
+        body {
+            font-family: 'Space Grotesk', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 min-h-screen">
+<!-- Utility Top Bar -->
+<div class="w-full border-b border-slate-200 dark:border-slate-800 bg-white dark:bg-background-dark/50">
+<div class="max-w-7xl mx-auto px-6 h-10 flex items-center justify-between text-xs font-medium tracking-wide">
+<div class="flex items-center gap-6">
+<a class="flex items-center gap-1.5 hover:text-primary transition-colors" href="#">
+<span class="material-symbols-outlined text-[16px]">location_on</span>
+                    Москва
+                </a>
+<a class="hover:text-primary transition-colors" href="#">Для дома</a>
+<a class="text-primary font-bold" href="#">Для бизнеса</a>
+</div>
+<div class="flex items-center gap-6">
+<a class="hover:text-primary transition-colors" href="#">Поддержка</a>
+<a class="hover:text-primary transition-colors" href="#">О компании</a>
+<div class="h-4 w-[1px] bg-slate-200 dark:border-slate-800"></div>
+<a class="flex items-center gap-1.5 text-primary hover:opacity-80 transition-opacity" href="#">
+<span class="material-symbols-outlined text-[18px]">account_circle</span>
+                    Личный кабинет
+                </a>
+</div>
+</div>
+</div>
+<!-- Main Header -->
+<header class="sticky top-0 z-50 w-full border-b border-slate-200 dark:border-slate-800 bg-white dark:bg-background-dark shadow-sm">
+<div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+<!-- Logo -->
+<div class="flex items-center gap-10">
+<div class="flex items-center gap-2">
+<div class="size-8 bg-primary flex items-center justify-center rounded">
+<svg class="w-6 h-6 text-white" fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 4H17.3334V17.3334H30.6666V30.6666H44V44H4V4Z" fill="currentColor"></path>
+</svg>
+</div>
+<span class="text-xl font-bold tracking-tighter">MGTS <span class="text-primary">B2B</span></span>
+</div>
+<!-- Navigation -->
+<nav class="hidden lg:flex items-center gap-8">
+<a class="text-sm font-semibold border-b-2 border-primary pb-1" href="#">Интернет</a>
+<a class="text-sm font-semibold text-slate-500 hover:text-primary transition-colors pb-1 border-b-2 border-transparent" href="#">Облачные решения</a>
+<a class="text-sm font-semibold text-slate-500 hover:text-primary transition-colors pb-1 border-b-2 border-transparent" href="#">IoT</a>
+<a class="text-sm font-semibold text-slate-500 hover:text-primary transition-colors pb-1 border-b-2 border-transparent" href="#">Телефония</a>
+<a class="text-sm font-semibold text-slate-500 hover:text-primary transition-colors pb-1 border-b-2 border-transparent" href="#">ИТ-услуги</a>
+</nav>
+</div>
+<div class="flex items-center gap-4">
+<div class="relative hidden xl:block">
+<input class="w-64 bg-slate-100 dark:bg-slate-800 border-none rounded-lg py-2 pl-10 text-sm focus:ring-2 focus:ring-primary" placeholder="Поиск услуг..." type="text"/>
+<span class="material-symbols-outlined absolute left-3 top-2 text-slate-400">search</span>
+</div>
+<button class="bg-primary text-white px-6 py-2.5 rounded-lg text-sm font-bold hover:bg-blue-700 transition-colors">
+                    Стать клиентом
+                </button>
+</div>
+</div>
+<!-- Mega Menu Expansion -->
+<div class="absolute top-full left-0 w-full mega-menu-blur border-b border-slate-200 dark:border-slate-800 shadow-2xl overflow-hidden">
+<div class="max-w-7xl mx-auto px-6 py-10">
+<div class="grid grid-cols-12 gap-10">
+<!-- Sidebar Categories inside Mega Menu -->
+<div class="col-span-3 flex flex-col gap-1 border-r border-slate-200 dark:border-slate-800 pr-6">
+<div class="bg-primary/10 text-primary p-3 rounded-lg flex items-center justify-between group cursor-pointer">
+<span class="font-bold">Интернет для бизнеса</span>
+<span class="material-symbols-outlined">chevron_right</span>
+</div>
+<div class="text-slate-500 p-3 rounded-lg flex items-center justify-between group cursor-pointer hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">
+<span class="font-bold">Облачные решения</span>
+<span class="material-symbols-outlined opacity-0 group-hover:opacity-100 transition-opacity">chevron_right</span>
+</div>
+<div class="text-slate-500 p-3 rounded-lg flex items-center justify-between group cursor-pointer hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">
+<span class="font-bold">Интернет вещей (IoT)</span>
+<span class="material-symbols-outlined opacity-0 group-hover:opacity-100 transition-opacity">chevron_right</span>
+</div>
+<div class="text-slate-500 p-3 rounded-lg flex items-center justify-between group cursor-pointer hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">
+<span class="font-bold">Телефония и связь</span>
+<span class="material-symbols-outlined opacity-0 group-hover:opacity-100 transition-opacity">chevron_right</span>
+</div>
+<div class="text-slate-500 p-3 rounded-lg flex items-center justify-between group cursor-pointer hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">
+<span class="font-bold">Информационная безопасность</span>
+<span class="material-symbols-outlined opacity-0 group-hover:opacity-100 transition-opacity">chevron_right</span>
+</div>
+</div>
+<!-- Main Grid Content -->
+<div class="col-span-6">
+<h3 class="text-xs uppercase tracking-widest text-slate-400 font-bold mb-6">Основные услуги</h3>
+<div class="grid grid-cols-2 gap-6">
+<!-- Service Card 1 -->
+<div class="flex gap-4 p-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900/50 hover:border-primary/50 transition-all cursor-pointer group">
+<div class="size-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[28px]">speed</span>
+</div>
+<div>
+<h4 class="font-bold mb-1 group-hover:text-primary transition-colors">Оптоволокно</h4>
+<p class="text-xs text-slate-500 leading-relaxed">Высокоскоростной симметричный канал до 10 Гбит/с</p>
+</div>
+</div>
+<!-- Service Card 2 -->
+<div class="flex gap-4 p-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900/50 hover:border-primary/50 transition-all cursor-pointer group">
+<div class="size-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[28px]">settings_input_antenna</span>
+</div>
+<div>
+<h4 class="font-bold mb-1 group-hover:text-primary transition-colors">Выделенные линии</h4>
+<p class="text-xs text-slate-500 leading-relaxed">L2/L3 VPN для объединения офисов в единую сеть</p>
+</div>
+</div>
+<!-- Service Card 3 -->
+<div class="flex gap-4 p-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900/50 hover:border-primary/50 transition-all cursor-pointer group">
+<div class="size-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[28px]">wifi</span>
+</div>
+<div>
+<h4 class="font-bold mb-1 group-hover:text-primary transition-colors">Wi-Fi для бизнеса</h4>
+<p class="text-xs text-slate-500 leading-relaxed">Беспроводная сеть с авторизацией по закону</p>
+</div>
+</div>
+<!-- Service Card 4 -->
+<div class="flex gap-4 p-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900/50 hover:border-primary/50 transition-all cursor-pointer group">
+<div class="size-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[28px]">shield</span>
+</div>
+<div>
+<h4 class="font-bold mb-1 group-hover:text-primary transition-colors">Защита от DDoS</h4>
+<p class="text-xs text-slate-500 leading-relaxed">Круглосуточный мониторинг и очистка трафика</p>
+</div>
+</div>
+</div>
+<div class="mt-8 pt-6 border-t border-slate-200 dark:border-slate-800 flex items-center gap-4">
+<span class="text-sm font-bold">Спецпредложения:</span>
+<a class="text-xs px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full hover:text-primary transition-colors" href="#">Бесплатный тест-драйв 14 дней</a>
+<a class="text-xs px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full hover:text-primary transition-colors" href="#">Скидка 20% при переезде</a>
+</div>
+</div>
+<!-- Right Promotion / Call to Action -->
+<div class="col-span-3">
+<div class="h-full rounded-2xl bg-gradient-to-br from-primary to-blue-800 p-6 text-white flex flex-col justify-between overflow-hidden relative">
+<!-- Background decoration -->
+<div class="absolute -right-4 -bottom-4 opacity-20">
+<span class="material-symbols-outlined text-[140px]">cell_tower</span>
+</div>
+<div class="relative z-10">
+<h4 class="text-xl font-bold mb-3">Нужна помощь в выборе?</h4>
+<p class="text-sm text-blue-100 opacity-90 leading-relaxed">Наши эксперты подберут оптимальное решение под задачи вашего бизнеса.</p>
+</div>
+<div class="relative z-10 flex flex-col gap-3 mt-8">
+<button class="w-full bg-white text-primary font-bold py-3 rounded-xl hover:bg-blue-50 transition-colors">
+                                    Получить консультацию
+                                </button>
+<div class="flex items-center justify-center gap-2 text-xs font-medium">
+<span class="material-symbols-outlined text-[16px]">call</span>
+                                    8 800 250 09 90
+                                </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</header>
+<!-- Page Content (Placeholder) -->
+<main class="max-w-7xl mx-auto px-6 py-16 opacity-40 select-none pointer-events-none">
+<div class="space-y-12">
+<section>
+<div class="h-8 w-64 bg-slate-200 dark:bg-slate-800 rounded-lg mb-6"></div>
+<div class="grid grid-cols-3 gap-8">
+<div class="h-64 bg-slate-100 dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800"></div>
+<div class="h-64 bg-slate-100 dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800"></div>
+<div class="h-64 bg-slate-100 dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800"></div>
+</div>
+</section>
+<section class="flex gap-12 items-center">
+<div class="flex-1 space-y-4">
+<div class="h-10 w-full bg-slate-200 dark:bg-slate-800 rounded-lg"></div>
+<div class="h-4 w-3/4 bg-slate-100 dark:bg-slate-900 rounded-lg"></div>
+<div class="h-4 w-1/2 bg-slate-100 dark:bg-slate-900 rounded-lg"></div>
+<div class="h-12 w-40 bg-primary/20 rounded-lg"></div>
+</div>
+<div class="flex-1 h-80 bg-slate-100 dark:bg-slate-900 rounded-3xl border border-slate-200 dark:border-slate-800"></div>
+</section>
+</div>
+</main>
+<!-- Bottom Footer (Simple) -->
+<footer class="mt-auto py-8 border-t border-slate-200 dark:border-slate-800">
+<div class="max-w-7xl mx-auto px-6 flex justify-between items-center text-sm text-slate-500">
+<div class="flex items-center gap-4">
+<span>© 2024 МГТС. Все права защищены.</span>
+</div>
+<div class="flex gap-8">
+<a class="hover:text-primary" href="#">Конфиденциальность</a>
+<a class="hover:text-primary" href="#">Документы</a>
+<a class="hover:text-primary" href="#">English</a>
+</div>
+</div>
+</footer>
+</body></html>

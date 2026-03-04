@@ -1,0 +1,46 @@
+{
+  "summary": {
+    "total": 504,
+    "missing_svg_tag": 0,
+    "has_text": 5,
+    "has_image": 0,
+    "has_script": 0,
+    "has_background": 0,
+    "no_stroke": 0,
+    "fill_without_stroke": 0,
+    "multi_color": 0
+  },
+  "issues_count": 5,
+  "issues": [
+    {
+      "file": "/Users/andrey_efremov/Downloads/runs/design/generated_icons/perplexity/virtual-ate/шаг-2__d83f0837.svg",
+      "flags": [
+        "text"
+      ]
+    },
+    {
+      "file": "/Users/andrey_efremov/Downloads/runs/design/generated_icons/perplexity/virtual-ate/шаг-4__2a78667b.svg",
+      "flags": [
+        "text"
+      ]
+    },
+    {
+      "file": "/Users/andrey_efremov/Downloads/runs/design/generated_icons/perplexity/virtual-ate/шаг-1__01a11b84.svg",
+      "flags": [
+        "text"
+      ]
+    },
+    {
+      "file": "/Users/andrey_efremov/Downloads/runs/design/generated_icons/perplexity/virtual-ate/шаг-3__28e20463.svg",
+      "flags": [
+        "text"
+      ]
+    },
+    {
+      "file": "/Users/andrey_efremov/Downloads/runs/design/generated_icons/perplexity/entrance-video-surveillance/5__a4265813.svg",
+      "flags": [
+        "text"
+      ]
+    }
+  ]
+}

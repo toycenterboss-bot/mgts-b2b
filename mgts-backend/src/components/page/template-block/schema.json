@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_page_template_blocks",
+  "info": {
+    "displayName": "Template Block",
+    "description": "Вставка блока из статичного шаблона (по data-stitch-block)"
+  },
+  "options": {},
+  "attributes": {
+    "template": {
+      "type": "string",
+      "required": true
+    },
+    "block": {
+      "type": "string",
+      "required": true
+    },
+    "stripFooter": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

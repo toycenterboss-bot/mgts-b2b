@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="ru"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>B2B Survey and Feedback Form | MGTS</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="../../assets/fonts/inter/inter.css" rel="stylesheet"/>
+<link href="../../assets/fonts/material-symbols-outlined/material-symbols-outlined.css" rel="stylesheet"/>
+<link href="../../assets/fonts/material-symbols-outlined/material-symbols-outlined.css" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#e50611",
+                        "background-light": "#f8f5f6",
+                        "background-dark": "#0d0506", // Darkened for better contrast with glass
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+        }
+        .light-leak-1 {
+            background: radial-gradient(circle at center, rgba(229, 6, 17, 0.15) 0%, transparent 70%);
+        }
+        .light-leak-2 {
+            background: radial-gradient(circle at center, rgba(30, 58, 138, 0.2) 0%, transparent 70%);
+        }
+        .rating-tile:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(229, 6, 17, 0.3);
+        }
+        .glow-button {
+            box-shadow: 0 0 20px rgba(229, 6, 17, 0.4);
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-white min-h-screen relative overflow-x-hidden">
+<!-- Background Light Leaks -->
+<div class="fixed top-[-10%] left-[-10%] w-[50%] h-[50%] light-leak-1 -z-10"></div>
+<div class="fixed bottom-[-10%] right-[-10%] w-[60%] h-[60%] light-leak-2 -z-10"></div>
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root">
+<div class="layout-container flex h-full grow flex-col">
+<!-- TopNavBar -->
+<div class="px-4 md:px-20 lg:px-40 flex justify-center py-5">
+<div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-white/10 px-4 md:px-10 py-3 glass-panel rounded-xl">
+<div class="flex items-center gap-4 text-white">
+<div class="size-6 text-primary">
+<svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 4H17.3334V17.3334H30.6666V30.6666H44V44H4V4Z" fill="currentColor"></path>
+</svg>
+</div>
+<h2 class="text-white text-lg font-bold leading-tight tracking-[-0.015em]">MGTS B2B</h2>
+</div>
+<div class="flex flex-1 justify-end gap-8 items-center">
+<div class="hidden md:flex items-center gap-9">
+<a class="text-white/70 hover:text-white text-sm font-medium transition-colors" href="#">Услуги</a>
+<a class="text-white/70 hover:text-white text-sm font-medium transition-colors" href="#">Поддержка</a>
+</div>
+<button class="flex min-w-[84px] cursor-pointer items-center justify-center rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold transition-transform active:scale-95">
+<span class="truncate">Личный кабинет</span>
+</button>
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10 border border-white/20" data-alt="User profile avatar placeholder" style='background-image: url("../../assets/images/external/d313c1eb29c9.png");'></div>
+</div>
+</header>
+</div>
+</div>
+<!-- Main Survey Content -->
+<main class="px-4 md:px-20 lg:px-40 flex flex-1 justify-center py-5">
+<div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+<!-- PageHeading -->
+<div class="flex flex-wrap justify-between items-end gap-3 p-4 mb-6">
+<div class="flex min-w-72 flex-col gap-3">
+<h1 class="text-white text-4xl font-black leading-tight tracking-[-0.033em]">Опрос качества обслуживания</h1>
+<p class="text-white/60 text-base font-normal leading-normal max-w-xl">Ваше мнение как бизнес-партнера критически важно для развития наших сервисов. Опрос займет не более 3 минут.</p>
+</div>
+<button class="flex min-w-[84px] cursor-pointer items-center justify-center rounded-lg h-10 px-4 bg-white/10 hover:bg-white/20 text-white text-sm font-bold transition-colors">
+<span class="truncate">Вернуться на главную</span>
+</button>
+</div>
+<!-- Survey Card -->
+<div class="glass-panel rounded-3xl p-6 md:p-10 flex flex-col gap-10">
+<!-- Section 1: NPS Scale -->
+<section>
+<div class="flex items-center gap-3 mb-4">
+<span class="material-symbols-outlined text-primary">signal_cellular_alt</span>
+<h2 class="text-white text-xl font-bold tracking-tight">Общая оценка качества</h2>
+</div>
+<p class="text-white/80 text-base mb-6">Насколько вы удовлетворены качеством связи MGTS по 10-балльной шкале?</p>
+<div class="grid grid-cols-5 md:grid-cols-10 gap-2 md:gap-3">
+<!-- Generate 1-10 tiles -->
+<label class="group cursor-pointer">
+<input class="hidden peer" name="nps" type="radio" value="1"/>
+<div class="rating-tile flex h-14 items-center justify-center rounded-xl bg-white/5 border border-white/10 text-white/50 font-bold text-lg transition-all peer-checked:bg-primary peer-checked:text-white peer-checked:border-primary">1</div>
+</label>
+<label class="group cursor-pointer">
+<input class="hidden peer" name="nps" type="radio" value="2"/>
+<div class="rating-tile flex h-14 items-center justify-center rounded-xl bg-white/5 border border-white/10 text-white/50 font-bold text-lg transition-all peer-checked:bg-primary peer-checked:text-white peer-checked:border-primary">2</div>
+</label>
+<label class="group cursor-pointer">
+<input class="hidden peer" name="nps" type="radio" value="3"/>
+<div class="rating-tile flex h-14 items-center justify-center rounded-xl bg-white/5 border border-white/10 text-white/50 font-bold text-lg transition-all peer-checked:bg-primary peer-checked:text-white peer-checked:border-primary">3</div>
+</label>
+<label class="group cursor-pointer">
+<input class="hidden peer" name="nps" type="radio" value="4"/>
+<div class="rating-tile flex h-14 items-center justify-center rounded-xl bg-white/5 border border-white/10 text-white/50 font-bold text-lg transition-all peer-checked:bg-primary peer-checked:text-white peer-checked:border-primary">4</div>
+</label>
+<label class="group cursor-pointer">
+<input class="hidden peer" name="nps" type="radio" value="5"/>
+<div class="rating-tile flex h-14 items-center justify-center rounded-xl bg-white/5 border border-white/10 text-white/50 font-bold text-lg transition-all peer-checked:bg-primary peer-checked:text-white peer-checked:border-primary">5</div>
+</label>
+<label class="group cursor-pointer">
+<input class="hidden peer" name="nps" type="radio" value="6"/>
+<div class="rating-tile flex h-14 items-center justify-center rounded-xl bg-white/5 border border-white/10 text-white/50 font-bold text-lg transition-all peer-checked:bg-primary peer-checked:text-white peer-checked:border-primary">6</div>
+</label>
+<label class="group cursor-pointer">
+<input class="hidden peer" name="nps" type="radio" value="7"/>
+<div class="rating-tile flex h-14 items-center justify-center rounded-xl bg-white/5 border border-white/10 text-white/50 font-bold text-lg transition-all peer-checked:bg-primary peer-checked:text-white peer-checked:border-primary">7</div>
+</label>
+<label class="group cursor-pointer">
+<input class="hidden peer" name="nps" type="radio" value="8"/>
+<div class="rating-tile flex h-14 items-center justify-center rounded-xl bg-white/5 border border-white/10 text-white/50 font-bold text-lg transition-all peer-checked:bg-primary peer-checked:text-white peer-checked:border-primary">8</div>
+</label>
+<label class="group cursor-pointer">
+<input class="hidden peer" name="nps" type="radio" value="9"/>
+<div class="rating-tile flex h-14 items-center justify-center rounded-xl bg-white/5 border border-white/10 text-white/50 font-bold text-lg transition-all peer-checked:bg-primary peer-checked:text-white peer-checked:border-primary">9</div>
+</label>
+<label class="group cursor-pointer">
+<input class="hidden peer" name="nps" type="radio" value="10"/>
+<div class="rating-tile flex h-14 items-center justify-center rounded-xl bg-white/5 border border-white/10 text-white/50 font-bold text-lg transition-all peer-checked:bg-primary peer-checked:text-white peer-checked:border-primary">10</div>
+</label>
+</div>
+<div class="flex justify-between mt-3 text-xs text-white/40 uppercase tracking-widest font-semibold">
+<span>Совсем недоволен</span>
+<span>Полностью доволен</span>
+</div>
+</section>
+<!-- Section 2: Checkboxes -->
+<section>
+<div class="flex items-center gap-3 mb-4">
+<span class="material-symbols-outlined text-primary">hub</span>
+<h2 class="text-white text-xl font-bold tracking-tight">Используемые услуги</h2>
+</div>
+<p class="text-white/80 text-base mb-6">Какие сервисы подключены у вашей организации?</p>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+<label class="flex items-center gap-4 p-4 rounded-xl bg-white/5 border border-white/10 cursor-pointer hover:bg-white/10 transition-colors">
+<input checked="" class="w-5 h-5 rounded border-white/20 bg-transparent text-primary focus:ring-primary focus:ring-offset-0" type="checkbox"/>
+<span class="text-white font-medium">Интернет для бизнеса</span>
+</label>
+<label class="flex items-center gap-4 p-4 rounded-xl bg-white/5 border border-white/10 cursor-pointer hover:bg-white/10 transition-colors">
+<input class="w-5 h-5 rounded border-white/20 bg-transparent text-primary focus:ring-primary focus:ring-offset-0" type="checkbox"/>
+<span class="text-white font-medium">Виртуальная АТС</span>
+</label>
+<label class="flex items-center gap-4 p-4 rounded-xl bg-white/5 border border-white/10 cursor-pointer hover:bg-white/10 transition-colors">
+<input class="w-5 h-5 rounded border-white/20 bg-transparent text-primary focus:ring-primary focus:ring-offset-0" type="checkbox"/>
+<span class="text-white font-medium">Видеонаблюдение</span>
+</label>
+<label class="flex items-center gap-4 p-4 rounded-xl bg-white/5 border border-white/10 cursor-pointer hover:bg-white/10 transition-colors">
+<input class="w-5 h-5 rounded border-white/20 bg-transparent text-primary focus:ring-primary focus:ring-offset-0" type="checkbox"/>
+<span class="text-white font-medium">Облачное хранилище</span>
+</label>
+</div>
+</section>
+<!-- Section 3: Radio Buttons (Manager) -->
+<section>
+<div class="flex items-center gap-3 mb-4">
+<span class="material-symbols-outlined text-primary">person_check</span>
+<h2 class="text-white text-xl font-bold tracking-tight">Работа менеджера</h2>
+</div>
+<p class="text-white/80 text-base mb-6">Как бы вы оценили скорость решения вопросов вашим персональным менеджером?</p>
+<div class="flex flex-col gap-3">
+<label class="flex items-center gap-4 cursor-pointer group">
+<input class="w-5 h-5 border-white/20 bg-transparent text-primary focus:ring-primary focus:ring-offset-0" name="manager_speed" type="radio"/>
+<span class="text-white/80 group-hover:text-white transition-colors">Всегда оперативно (в течение часа)</span>
+</label>
+<label class="flex items-center gap-4 cursor-pointer group">
+<input class="w-5 h-5 border-white/20 bg-transparent text-primary focus:ring-primary focus:ring-offset-0" name="manager_speed" type="radio"/>
+<span class="text-white/80 group-hover:text-white transition-colors">В течение рабочего дня</span>
+</label>
+<label class="flex items-center gap-4 cursor-pointer group">
+<input class="w-5 h-5 border-white/20 bg-transparent text-primary focus:ring-primary focus:ring-offset-0" name="manager_speed" type="radio"/>
+<span class="text-white/80 group-hover:text-white transition-colors">Более одного рабочего дня</span>
+</label>
+<label class="flex items-center gap-4 cursor-pointer group">
+<input class="w-5 h-5 border-white/20 bg-transparent text-primary focus:ring-primary focus:ring-offset-0" name="manager_speed" type="radio"/>
+<span class="text-white/80 group-hover:text-white transition-colors">Сложно оценить / нет менеджера</span>
+</label>
+</div>
+</section>
+<!-- Section 4: Open Ended -->
+<section>
+<div class="flex items-center gap-3 mb-4">
+<span class="material-symbols-outlined text-primary">chat_bubble</span>
+<h2 class="text-white text-xl font-bold tracking-tight">Ваши предложения</h2>
+</div>
+<p class="text-white/80 text-base mb-4">Что мы могли бы улучшить в нашем сервисе?</p>
+<textarea class="w-full bg-white/5 border border-white/10 rounded-xl p-4 text-white placeholder:text-white/20 focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all" placeholder="Напишите здесь свои пожелания..." rows="4"></textarea>
+</section>
+<!-- Footer / Submit -->
+<div class="flex flex-col md:flex-row items-center justify-between gap-6 pt-6 border-t border-white/10">
+<p class="text-white/40 text-xs max-w-sm text-center md:text-left">
+                                Нажимая кнопку «Отправить», вы соглашаетесь с условиями обработки персональных данных в соответствии с политикой конфиденциальности ПАО «МГТС».
+                            </p>
+<button class="glow-button w-full md:w-auto flex min-w-[200px] cursor-pointer items-center justify-center rounded-xl h-14 px-10 bg-primary text-white text-lg font-bold transition-all hover:scale-[1.02] active:scale-95">
+<span>Отправить ответ</span>
+</button>
+</div>
+</div>
+<!-- Footer Info -->
+<div class="py-10 text-center">
+<p class="text-white/20 text-sm">© 2024 ПАО «МГТС». Все права защищены. Для корпоративных клиентов.</p>
+</div>
+</div>
+</main>
+</div>
+</div>
+</body></html>

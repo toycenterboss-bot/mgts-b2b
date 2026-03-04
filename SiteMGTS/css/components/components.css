@@ -1,0 +1,17 @@
+/* ============================================
+   ИМПОРТ ВСЕХ КОМПОНЕНТОВ
+   ============================================ */
+
+/* Генерировано автоматически */
+/* Дата: 2026-01-09T15:41:02.776Z */
+
+@import './crm-cards.css';
+@import './history-timeline.css';
+@import './mobile-app-section.css';
+@import './section-cards.css';
+@import './section-map.css';
+@import './section-text.css';
+@import './service-faq.css';
+@import './service-order-form.css';
+@import './service-tariffs.css';
+@import './tariff-table.css';

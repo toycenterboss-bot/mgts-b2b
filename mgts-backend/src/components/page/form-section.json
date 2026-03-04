@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_page_form_sections",
+  "info": {
+    "displayName": "Form Section",
+    "description": "Секция формы для страниц с опросником/заявкой"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "submitText": {
+      "type": "string"
+    },
+    "disclaimerHtml": {
+      "type": "richtext"
+    },
+    "elements": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.form-field"
+    }
+  }
+}

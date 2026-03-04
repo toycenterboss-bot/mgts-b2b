@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_page_section_tables",
+  "info": {
+    "displayName": "Section Table",
+    "description": "Секция с таблицей"
+  },
+  "options": {},
+  "attributes": {
+    "isVisible": {
+      "type": "boolean",
+      "default": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "tableData": {
+      "type": "json"
+    }
+  }
+}
+

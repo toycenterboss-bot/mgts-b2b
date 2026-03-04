@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "product_categories",
+  "info": {
+    "singularName": "product-category",
+    "pluralName": "product-categories",
+    "displayName": "Product Category",
+    "description": "Категория товаров"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "slug": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "parent": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::product-category.product-category"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false
+    },
+    "order": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}
+
+
+

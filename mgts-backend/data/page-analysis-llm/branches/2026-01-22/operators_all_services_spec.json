@@ -1,0 +1,222 @@
+{
+  "page": {
+    "slug": "operators_all_services",
+    "url": "https://business.mgts.ru/operators/all_services",
+    "pathname": "/operators/all_services",
+    "analyzedAt": "2026-01-16T09:47:26.882Z",
+    "screenshot": "/Users/andrey_efremov/Downloads/runs/mgts-backend/temp/page-analysis-llm/operators_all_services_screenshot.png",
+    "llmProvider": "perplexity",
+    "llmModel": "sonar"
+  },
+  "metadata": {
+    "title": "Все услуги"
+  },
+  "sections": [
+    {
+      "sectionIndex": 1,
+      "type": "breadcrumbs",
+      "description": "Навигационная цепочка хлебных крошек показывает текущий путь пользователя на сайте от главной страницы до текущей секции",
+      "title": "",
+      "text": "",
+      "links": {
+        "internalLinks": [
+          {
+            "text": "Главная",
+            "href": "/",
+            "purpose": "Переход на главную страницу сайта"
+          },
+          {
+            "text": "Операторам связи",
+            "href": "/operators",
+            "purpose": "Переход в раздел услуг для операторов связи"
+          }
+        ]
+      }
+    },
+    {
+      "sectionIndex": 2,
+      "type": "hero",
+      "description": "Главный заголовок страницы, обозначающий основную тему - полный перечень услуг",
+      "title": "Все услуги",
+      "text": "",
+      "links": {
+        "internalLinks": []
+      }
+    },
+    {
+      "sectionIndex": 3,
+      "type": "tabs",
+      "description": "Горизонтальные табы для переключения между различными категориями услуг (операторам связи, госзаказчикам, застройщикам, бизнесу, партнерам). Активный таб выделен.",
+      "title": "",
+      "text": "",
+      "tabs": [
+        {
+          "title": "Операторам связи",
+          "isActive": true,
+          "content": {
+            "title": "",
+            "text": "",
+            "links": {
+              "internalLinks": []
+            }
+          }
+        },
+        {
+          "title": "Госзаказчикам",
+          "isActive": false,
+          "content": {
+            "title": "",
+            "text": "",
+            "links": {
+              "internalLinks": [
+                {
+                  "text": "Госзаказчикам",
+                  "href": "/government/all_services",
+                  "purpose": "Переход к услугам для государственных заказчиков"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "title": "Застройщикам",
+          "isActive": false,
+          "content": {
+            "title": "",
+            "text": "",
+            "links": {
+              "internalLinks": [
+                {
+                  "text": "Застройщикам",
+                  "href": "/developers/all_services",
+                  "purpose": "Переход к услугам для застройщиков"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "title": "Бизнесу",
+          "isActive": false,
+          "content": {
+            "title": "",
+            "text": "",
+            "links": {
+              "internalLinks": [
+                {
+                  "text": "Бизнесу",
+                  "href": "/business/all_services",
+                  "purpose": "Переход к услугам для бизнеса"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "title": "Партнерам",
+          "isActive": false,
+          "content": {
+            "title": "",
+            "text": "",
+            "links": {
+              "internalLinks": [
+                {
+                  "text": "Партнерам",
+                  "href": "/partners/all_services",
+                  "purpose": "Переход к услугам для партнеров"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sectionIndex": 4,
+      "type": "services",
+      "description": "Вертикальный скроллируемый список карточек услуг для операторов связи. Каждая карточка содержит название услуги и ведет на соответствующую страницу с подробной информацией. Карточки расположены в колонке с возможностью прокрутки.",
+      "title": "Услуги для операторов связи",
+      "text": "",
+      "cards": [
+        {
+          "title": "Присоединение и пропуск трафика",
+          "text": "",
+          "link": {
+            "text": "Присоединение и пропуск трафика",
+            "href": "/operators/joining_and_passing_traffic",
+            "purpose": "Переход к странице с информацией о услуге присоединения и пропуска трафика"
+          }
+        },
+        {
+          "title": "Передача данных",
+          "text": "",
+          "link": {
+            "text": "Передача данных",
+            "href": "/operators/data_transfer",
+            "purpose": "Переход к странице с информацией об услуге передачи данных"
+          }
+        },
+        {
+          "title": "Предоставление места в кабельной канализации",
+          "text": "",
+          "link": {
+            "text": "Предоставление места в кабельной канализации",
+            "href": "/operators/infrastructure/lks_kr",
+            "purpose": "Переход к странице с информацией о предоставлении места в кабельной канализации"
+          }
+        },
+        {
+          "title": "Размещение на объектах",
+          "text": "",
+          "link": {
+            "text": "Размещение на объектах",
+            "href": "/operators/infrastructure/accommodation_at_sites",
+            "purpose": "Переход к странице с информацией о размещении оборудования на объектах"
+          }
+        },
+        {
+          "title": "Проектирование и строительство сетей связи",
+          "text": "",
+          "link": {
+            "text": "Проектирование и строительство сетей связи",
+            "href": "/operators/infrastructure/pir_smr_mgts",
+            "purpose": "Переход к странице с информацией о проектировании и строительстве сетей связи"
+          }
+        }
+      ],
+      "links": {
+        "internalLinks": [
+          {
+            "text": "Присоединение и пропуск трафика",
+            "href": "/operators/joining_and_passing_traffic",
+            "purpose": "Страница услуги присоединения и пропуска трафика для операторов связи"
+          },
+          {
+            "text": "Передача данных",
+            "href": "/operators/data_transfer",
+            "purpose": "Страница услуги передачи данных для операторов связи"
+          },
+          {
+            "text": "Предоставление места в кабельной канализации",
+            "href": "/operators/infrastructure/lks_kr",
+            "purpose": "Страница услуги предоставления места в кабельной канализации"
+          },
+          {
+            "text": "Размещение на объектах",
+            "href": "/operators/infrastructure/accommodation_at_sites",
+            "purpose": "Страница услуги размещения оборудования на объектах инфраструктуры"
+          },
+          {
+            "text": "Проектирование и строительство сетей связи",
+            "href": "/operators/infrastructure/pir_smr_mgts",
+            "purpose": "Страница услуги проектирования и строительства сетей связи"
+          }
+        ],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "images": []
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_page_how_to_connect_steps",
+  "info": {
+    "displayName": "How To Connect Step",
+    "description": "Шаг инструкции по подключению"
+  },
+  "options": {},
+  "attributes": {
+    "stepNumber": {
+      "type": "integer",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "modalHtml": {
+      "type": "richtext",
+      "description": "HTML контент для модального окна"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false
+    }
+  }
+}

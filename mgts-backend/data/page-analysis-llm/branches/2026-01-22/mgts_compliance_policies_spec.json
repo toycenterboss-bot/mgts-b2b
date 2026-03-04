@@ -1,0 +1,174 @@
+{
+  "page": {
+    "slug": "mgts_compliance_policies",
+    "url": "https://business.mgts.ru/mgts_compliance_policies",
+    "pathname": "/mgts_compliance_policies",
+    "analyzedAt": "2026-01-15T12:36:50.288Z",
+    "screenshot": "/Users/andrey_efremov/Downloads/runs/mgts-backend/temp/page-analysis-llm/mgts_compliance_policies_screenshot.png",
+    "llmProvider": "perplexity",
+    "llmModel": "sonar"
+  },
+  "metadata": {
+    "title": "Комплаенс-политики МГТС"
+  },
+  "sections": [
+    {
+      "sectionIndex": 1,
+      "type": "sidebar",
+      "description": "Боковое навигационное меню с разделами о компании МГТС. Активный раздел - 'Комплаенс-политики МГТС'. Содержит ссылки на связанные страницы для навигации по корпоративной информации.",
+      "title": "Навигация по разделам",
+      "links": {
+        "internalLinks": [
+          {
+            "text": "О МГТС",
+            "href": "/about-mgts",
+            "purpose": "Переход к странице с общей информацией о компании МГТС"
+          },
+          {
+            "text": "Ценности МГТС",
+            "href": "/mgts-values",
+            "purpose": "Переход к странице с ценностями компании МГТС"
+          },
+          {
+            "text": "Деловая этика и комплаенс",
+            "href": "/business-ethics-compliance",
+            "purpose": "Переход к разделу о деловой этике и комплаенс"
+          },
+          {
+            "text": "Обращение Генерального директора",
+            "href": "/ceo-message",
+            "purpose": "Переход к обращению генерального директора"
+          },
+          {
+            "text": "**Комплаенс-политики МГТС**",
+            "href": "https://business.mgts.ru/mgts_compliance_policies",
+            "purpose": "Текущая активная страница с комплаенс-политиками МГТС"
+          },
+          {
+            "text": "Взаимодействие с партнерами",
+            "href": "/partners-interaction",
+            "purpose": "Переход к разделу о взаимодействии с партнерами"
+          },
+          {
+            "text": "Помогите нам стать лучше",
+            "href": "/help-us-improve",
+            "purpose": "Переход к форме обратной связи для улучшения услуг"
+          },
+          {
+            "text": "Единая горячая линия",
+            "href": "/hotline",
+            "purpose": "Переход к информации о единой горячей линии"
+          },
+          {
+            "text": "Корпоративное управление",
+            "href": "/corporate-governance",
+            "purpose": "Переход к разделу корпоративного управления"
+          },
+          {
+            "text": "Принципы корпоративного управления",
+            "href": "/corporate-governance-principles",
+            "purpose": "Переход к принципам корпоративного управления"
+          },
+          {
+            "text": "Корпоративные документы",
+            "href": "/corporate-documents",
+            "purpose": "Переход к корпоративным документам"
+          },
+          {
+            "text": "Решения общих собраний акционеров",
+            "href": "/shareholders-meetings",
+            "purpose": "Переход к решениям общих собраний акционеров"
+          },
+          {
+            "text": "Информация для лиц, имеющих право на участие в годовых и внеочередных общих собраниях акционеров ПАО МГТСО регистраторе",
+            "href": "/shareholders-info-registrar",
+            "purpose": "Переход к информации для акционеров о собраниях"
+          }
+        ],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      }
+    },
+    {
+      "sectionIndex": 2,
+      "type": "hero",
+      "description": "Основной заголовок страницы с перечнем ключевых комплаенс-документов в виде списка ссылок на PDF-файлы. Представляет основные политики компании для скачивания.",
+      "title": "Комплаенс-политики МГТС",
+      "text": "Комплаенс-политики МГТС"
+     
+    },
+    {
+      "sectionIndex": 3,
+      "type": "content",
+      "description": "Информационный блок с описанием роли комплаенс-политик в системе компании и достижениями МГТС в области этики и комплаенс.",
+      "title": "",
+      "text": "Комплаенс-политики играют ключевую роль в системе комплаенс МГТС, они регулируют деятельность всех сотрудников МГТС, включая сотрудников дочерних обществ, аффилированных компаний и контрагентов.",
+      "images": [],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [
+          {
+            "text": "Кодекс делового поведения и этики Группы МТС",
+            "href": "/storage/files/code-of-conduct-mts.pdf",
+            "fileType": "pdf",
+            "purpose": "Основной кодекс делового поведения и этики для всей Группы МТС"
+          },
+          {
+            "text": "Кодекс делового поведения контрагента",
+            "href": "/storage/files/counterparty-code.pdf",
+            "fileType": "pdf",
+            "purpose": "Кодекс поведения для контрагентов МГТС"
+          },
+          {
+            "text": "Политика соблюдения антикоррупционного законодательства",
+            "href": "/storage/files/anti-corruption-policy.pdf",
+            "fileType": "pdf",
+            "purpose": "Политика по соблюдению антикоррупционных норм"
+          },
+          {
+            "text": "Памятка по управления конфликтом интересов",
+            "href": "/storage/files/conflict-of-interest.pdf",
+            "fileType": "pdf",
+            "purpose": "Памятка по управлению конфликтами интересов"
+          },
+          {
+            "text": "Памятка по подаркам и деловому гостеприимству",
+            "href": "/storage/files/gifts-hospitality.pdf",
+            "fileType": "pdf",
+            "purpose": "Памятка по правилам подарков и гостеприимства"
+          }
+        ],
+        "imageLinks": []
+      },
+      "cards": [
+        {
+          "title": "Следуя высоким этическим стандартам, МГТС:",
+          "text": "в 2015 году присоединилась к Антикоррупционной хартии российского бизнеса в 2023 году получила звание «Самой этичной компании» по версии Russian Compliance Award"
+        }
+      ]
+    },
+    {
+      "sectionIndex": 4,
+      "type": "awards",
+      "description": "Блок с изображением награды Russian Compliance Award 2023, подтверждающей статус МГТС как самой этичной компании.",
+      "title": "",
+      "text": "",
+      "images": [
+        {
+          "description": "Награда Russian Compliance Award 2023 за статус самой этичной компании",
+          "position": "центр",
+          "src": "/storage/images/russian-compliance-award-2023.png",
+          "alt": "Russian Compliance Award 2023"
+        }
+      ],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_page_crm_cards_items",
+  "info": {
+    "displayName": "CRM Card",
+    "description": "Карточка CRM системы"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false
+    },
+    "link": {
+      "type": "string",
+      "description": "Ссылка на CRM систему"
+    },
+    "order": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

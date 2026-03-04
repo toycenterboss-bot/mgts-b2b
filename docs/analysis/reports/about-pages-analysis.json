@@ -1,0 +1,330 @@
+[
+  {
+    "slug": "about",
+    "status": "ok",
+    "classes": [
+      "section",
+      "container",
+      "section-title",
+      "service-card"
+    ],
+    "nonStandardClasses": [],
+    "structure": {
+      "sections": 1,
+      "containers": 1,
+      "grids": 0,
+      "cards": 0,
+      "h2Elements": 7,
+      "sectionTitles": 7
+    },
+    "issues": [],
+    "contentLength": 9102,
+    "contentPreview": "<section class=\"section\">\n    <div class=\"container\">\n        <h2 class=\"section-title\">О нас</h2>\n<div class=\"service-card\">\n  <h3>Масштабы работы</h3>\n  <p>📊\n                            Масштабы работы\n                            \n                                Действует с 1882 года\n                                Более 67 000 км оптической сети GPON\n                                Покрытие более 95% объектов Москвы\n                                Один из крупнейших операторов связи в Европе"
+  },
+  {
+    "slug": "about/values",
+    "status": "ok",
+    "classes": [
+      "section",
+      "container",
+      "section-title",
+      "card",
+      "grid",
+      "grid-item"
+    ],
+    "nonStandardClasses": [],
+    "structure": {
+      "sections": 1,
+      "containers": 1,
+      "grids": 1,
+      "cards": 7,
+      "h2Elements": 2,
+      "sectionTitles": 2
+    },
+    "issues": [],
+    "contentLength": 3070,
+    "contentPreview": "<section class=\"section\">\n    <div class=\"container\">\n        <h2 class=\"section-title\">Наши ценности</h2>\n<div class=\"card\">\n  <h3>Клиентоориентированность</h3>\n  <p>🎯\n                            Клиентоориентированность\n                            \n                                Клиент в центре всех наших решений. Мы прислушиваемся к потребностям клиентов и предлагаем оптимальные решения, которые помогают достигать их бизнес-целей.</p>\n</div>\n<div class=\"card\">\n  <h3>Инновации</h3>\n  <p>💡\n "
+  },
+  {
+    "slug": "about/ethics",
+    "status": "ok",
+    "classes": [
+      "section",
+      "container",
+      "section-title",
+      "service-card"
+    ],
+    "nonStandardClasses": [],
+    "structure": {
+      "sections": 1,
+      "containers": 1,
+      "grids": 0,
+      "cards": 0,
+      "h2Elements": 2,
+      "sectionTitles": 2
+    },
+    "issues": [],
+    "contentLength": 2395,
+    "contentPreview": "<section class=\"section\">\n    <div class=\"container\">\n        <h2 class=\"section-title\">О деловой этике и комплаенсе</h2>\n<div class=\"service-card\" data-card-type=\"navigation\">\n  <h3>Обращение генерального директора</h3>\n  <p>📝\n                            Обращение генерального директора\n                            \n                                Послание руководства о важности этичного ведения бизнеса</p>\n</div>\n<div class=\"service-card\" data-card-type=\"navigation\">\n  <h3>Политики комплаенса<"
+  },
+  {
+    "slug": "about/ethics/general-director-message",
+    "status": "ok",
+    "classes": [
+      "section",
+      "container",
+      "section-title",
+      "service-card"
+    ],
+    "nonStandardClasses": [],
+    "structure": {
+      "sections": 1,
+      "containers": 1,
+      "grids": 0,
+      "cards": 0,
+      "h2Elements": 2,
+      "sectionTitles": 2
+    },
+    "issues": [],
+    "contentLength": 2639,
+    "contentPreview": "<section class=\"section\">\n    <div class=\"container\">\n        <h2 class=\"section-title\">Генеральный директор МГТС</h2>\n<div class=\"service-card\" data-card-type=\"info\">\n  <p>👤\n                            \n                                Генеральный директор МГТС\n                                Иванов Иван Иванович\n                            \n                        \n                        \n                        \n                            \n                                Уважаемые коллеги, "
+  },
+  {
+    "slug": "about/ethics/compliance-policies",
+    "status": "ok",
+    "classes": [
+      "section",
+      "container",
+      "section-title",
+      "service-card"
+    ],
+    "nonStandardClasses": [],
+    "structure": {
+      "sections": 1,
+      "containers": 1,
+      "grids": 0,
+      "cards": 0,
+      "h2Elements": 2,
+      "sectionTitles": 2
+    },
+    "issues": [],
+    "contentLength": 2447,
+    "contentPreview": "<section class=\"section\">\n    <div class=\"container\">\n        <h2 class=\"section-title\">Политики и стандарты комплаенса</h2>\n<div class=\"service-card\" data-card-type=\"info\">\n  <h3>Кодекс деловой этики</h3>\n  <p>Кодекс деловой этики\n                        \n                            Основной документ, определяющий этические принципы и стандарты поведения сотрудников компании во всех аспектах деловой деятельности.\n                        \n                        Скачать документ</p>\n</div>\n<div "
+  },
+  {
+    "slug": "about/ethics/interaction-partners",
+    "status": "ok",
+    "classes": [
+      "section",
+      "container",
+      "section-title",
+      "service-card"
+    ],
+    "nonStandardClasses": [],
+    "structure": {
+      "sections": 1,
+      "containers": 1,
+      "grids": 0,
+      "cards": 0,
+      "h2Elements": 2,
+      "sectionTitles": 2
+    },
+    "issues": [],
+    "contentLength": 2235,
+    "contentPreview": "<section class=\"section\">\n    <div class=\"container\">\n        <h2 class=\"section-title\">Принципы взаимодействия</h2>\n<div class=\"service-card\" data-card-type=\"info\">\n  <h3>Взаимное уважение</h3>\n  <p>🤝\n                            Взаимное уважение\n                            \n                                Мы уважаем права и интересы наших партнеров и ожидаем такого же отношения к себе.</p>\n</div>\n<div class=\"service-card\" data-card-type=\"info\">\n  <h3>Прозрачность</h3>\n  <p>📋\n                "
+  },
+  {
+    "slug": "about/ethics/partners-feedback",
+    "status": "ok",
+    "classes": [
+      "section",
+      "container",
+      "section-title",
+      "form-group",
+      "grid",
+      "grid-item"
+    ],
+    "nonStandardClasses": [
+      "form-group"
+    ],
+    "structure": {
+      "sections": 1,
+      "containers": 1,
+      "grids": 1,
+      "cards": 0,
+      "h2Elements": 1,
+      "sectionTitles": 1
+    },
+    "issues": [],
+    "contentLength": 1679,
+    "contentPreview": "<section class=\"section\">\n    <div class=\"container\">\n        <h2 class=\"section-title\">Форма обратной связи</h2>\n<div class=\"form-group\" data-card-type=\"info\">\n  <p>Название компании *\n                                \n                            \n                            \n                                Ваше имя *\n                                \n                            \n                            \n                                Email *\n                                \n                "
+  },
+  {
+    "slug": "about/ethics/single-hotline",
+    "status": "ok",
+    "classes": [
+      "section",
+      "container",
+      "section-title",
+      "grid",
+      "grid-cols-4",
+      "card"
+    ],
+    "nonStandardClasses": [],
+    "structure": {
+      "sections": 1,
+      "containers": 1,
+      "grids": 1,
+      "cards": 6,
+      "h2Elements": 2,
+      "sectionTitles": 2
+    },
+    "issues": [],
+    "contentLength": 1944,
+    "contentPreview": "<html><head></head><body><section class=\"section\">\n    <div class=\"container\">\n        <h2 class=\"section-title\">Сообщить о нарушении</h2>\n\n\n\n\n<h2 class=\"section-title\">Связанные разделы</h2>\n\n\n    <div class=\"grid grid-cols-4\"><div class=\"card\">\n  <p>📞\n                        Телефон горячей линии\n                        \n                            +7 (495) 123-45-67\n                        \n                        Работает круглосуточно</p>\n</div><div class=\"card\">\n  <h3>Email для сообщений<"
+  },
+  {
+    "slug": "about/governance",
+    "status": "ok",
+    "classes": [
+      "section",
+      "container",
+      "section-title",
+      "grid",
+      "grid-cols-4",
+      "card"
+    ],
+    "nonStandardClasses": [],
+    "structure": {
+      "sections": 1,
+      "containers": 1,
+      "grids": 1,
+      "cards": 8,
+      "h2Elements": 2,
+      "sectionTitles": 2
+    },
+    "issues": [],
+    "contentLength": 2205,
+    "contentPreview": "<html><head></head><body><section class=\"section\">\n    <div class=\"container\">\n        <h2 class=\"section-title\">О корпоративном управлении</h2>\n\n\n\n\n\n<h2 class=\"section-title\">Основные принципы</h2>\n\n\n\n    <div class=\"grid grid-cols-4\"><div class=\"card\">\n  <h3>Принципы корпоративного управления</h3>\n  <p>📐\n                            Принципы корпоративного управления\n                            \n                                Основные принципы и подходы к корпоративному управлению в МГТС</p>\n"
+  },
+  {
+    "slug": "about/governance/principles",
+    "status": "ok",
+    "classes": [
+      "section",
+      "container",
+      "section-title",
+      "grid",
+      "grid-cols-4",
+      "card"
+    ],
+    "nonStandardClasses": [],
+    "structure": {
+      "sections": 1,
+      "containers": 1,
+      "grids": 1,
+      "cards": 7,
+      "h2Elements": 2,
+      "sectionTitles": 2
+    },
+    "issues": [],
+    "contentLength": 2094,
+    "contentPreview": "<html><head></head><body><section class=\"section\">\n    <div class=\"container\">\n        <h2 class=\"section-title\">Основные принципы</h2>\n\n\n\n\n\n<h2 class=\"section-title\">Связанные разделы</h2>\n\n\n    <div class=\"grid grid-cols-4\"><div class=\"card\">\n  <h3>Прозрачность</h3>\n  <p>🔍\n                            Прозрачность\n                            \n                                Открытость информации о деятельности компании, принятых решениях и результатах работы.</p>\n</div><div class=\"card\">\n  <h3"
+  },
+  {
+    "slug": "about/governance/documents",
+    "status": "ok",
+    "classes": [
+      "section",
+      "container",
+      "section-title",
+      "grid",
+      "grid-cols-4",
+      "card"
+    ],
+    "nonStandardClasses": [],
+    "structure": {
+      "sections": 1,
+      "containers": 1,
+      "grids": 1,
+      "cards": 8,
+      "h2Elements": 2,
+      "sectionTitles": 2
+    },
+    "issues": [],
+    "contentLength": 2487,
+    "contentPreview": "<html><head></head><body><section class=\"section\">\n    <div class=\"container\">\n        <h2 class=\"section-title\">Документы корпоративного управления</h2>\n\n\n\n\n\n\n<h2 class=\"section-title\">Связанные разделы</h2>\n\n\n    <div class=\"grid grid-cols-4\"><div class=\"card\">\n  <h3>Устав ПАО «МГТС»</h3>\n  <p>Устав ПАО «МГТС»\n                        \n                            Основной документ компании, определяющий правовой статус, структуру органов управления и порядок их деятельности.\n                   "
+  },
+  {
+    "slug": "about/governance/shareholders",
+    "status": "ok",
+    "classes": [
+      "section",
+      "container",
+      "section-title",
+      "grid",
+      "grid-cols-4",
+      "card"
+    ],
+    "nonStandardClasses": [],
+    "structure": {
+      "sections": 1,
+      "containers": 1,
+      "grids": 1,
+      "cards": 5,
+      "h2Elements": 2,
+      "sectionTitles": 2
+    },
+    "issues": [],
+    "contentLength": 1561,
+    "contentPreview": "<html><head></head><body><section class=\"section\">\n    <div class=\"container\">\n        <h2 class=\"section-title\">Решения общих собраний акционеров</h2>\n\n\n\n<h2 class=\"section-title\">Связанные разделы</h2>\n\n\n    <div class=\"grid grid-cols-4\"><div class=\"card\">\n  <h3>Годовое общее собрание акционеров 2024</h3>\n  <p>Годовое общее собрание акционеров 2024\n                        \n                            Решения, принятые на годовом общем собрании акционеров, включая утверждение годовой отчетности"
+  },
+  {
+    "slug": "about/governance/infoformen",
+    "status": "ok",
+    "classes": [
+      "section",
+      "container",
+      "section-title",
+      "grid",
+      "grid-cols-4",
+      "card"
+    ],
+    "nonStandardClasses": [],
+    "structure": {
+      "sections": 1,
+      "containers": 1,
+      "grids": 1,
+      "cards": 6,
+      "h2Elements": 2,
+      "sectionTitles": 2
+    },
+    "issues": [],
+    "contentLength": 1851,
+    "contentPreview": "<html><head></head><body><section class=\"section\">\n    <div class=\"container\">\n        <h2 class=\"section-title\">Раскрытие информации</h2>\n\n\n\n\n<h2 class=\"section-title\">Связанные разделы</h2>\n\n\n    <div class=\"grid grid-cols-4\"><div class=\"card\">\n  <h3>Ежеквартальные отчеты</h3>\n  <p>Ежеквартальные отчеты\n                        \n                            Квартальные отчеты эмитента, содержащие финансовую отчетность и информацию о деятельности компании.\n                        \n               "
+  },
+  {
+    "slug": "about/governance/registrar",
+    "status": "ok",
+    "classes": [
+      "section",
+      "container",
+      "section-title",
+      "grid",
+      "grid-cols-4",
+      "card"
+    ],
+    "nonStandardClasses": [],
+    "structure": {
+      "sections": 1,
+      "containers": 1,
+      "grids": 1,
+      "cards": 5,
+      "h2Elements": 2,
+      "sectionTitles": 2
+    },
+    "issues": [],
+    "contentLength": 1860,
+    "contentPreview": "<html><head></head><body><section class=\"section\">\n    <div class=\"container\">\n        <h2 class=\"section-title\">Регистратор акционеров</h2>\n\n\n\n<h2 class=\"section-title\">Связанные разделы</h2>\n\n\n    <div class=\"grid grid-cols-4\"><div class=\"card\">\n  <h3>Наименование регистратора</h3>\n  <p>Наименование регистратора\n                        \n                            Акционерное общество «Регистратор Р.О.С.Т.»\n                        \n                        \n                            Лицензия "
+  }
+]

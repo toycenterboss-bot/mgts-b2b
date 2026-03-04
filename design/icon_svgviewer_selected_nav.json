@@ -1,0 +1,3491 @@
+[
+  {
+    "label": "Подключить объект",
+    "scope": "navigation",
+    "context": "megaMenu[Решения]/section[Решения]/link",
+    "path": "navigation.megaMenus.sections.links.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: подключение объекта (разъем/кабель + здание).",
+    "meaning": "подключение объекта (разъем/кабель + здание)",
+    "term": "plug",
+    "candidates": [
+      {
+        "id": 492410,
+        "title": "Plug",
+        "slug": "plug",
+        "author": "Iconscout",
+        "collectionId": 6783,
+        "pageUrl": "https://www.svgviewer.dev/s/492410/plug",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/492410/plug.svg"
+      },
+      {
+        "id": 489564,
+        "title": "Plug",
+        "slug": "plug",
+        "author": "michaelampr",
+        "collectionId": 6776,
+        "pageUrl": "https://www.svgviewer.dev/s/489564/plug",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/489564/plug.svg"
+      },
+      {
+        "id": 488841,
+        "title": "Plug",
+        "slug": "plug",
+        "author": "Microsoft",
+        "collectionId": 6775,
+        "pageUrl": "https://www.svgviewer.dev/s/488841/plug",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/488841/plug.svg"
+      }
+    ],
+    "selected": {
+      "id": 492410,
+      "title": "Plug",
+      "slug": "plug",
+      "author": "Iconscout",
+      "collectionId": 6783,
+      "pageUrl": "https://www.svgviewer.dev/s/492410/plug",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/492410/plug.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_492410_plug.svg"
+  },
+  {
+    "label": "Инфраструктура 360",
+    "scope": "navigation",
+    "context": "megaMenu[Решения]/section[Решения]/link",
+    "path": "navigation.megaMenus.sections.links.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: инфраструктура (сеть/узлы/сервер).",
+    "meaning": "инфраструктура (сеть/узлы/сервер)",
+    "term": "network",
+    "candidates": [
+      {
+        "id": 483565,
+        "title": "Network",
+        "slug": "network",
+        "author": "puppylinux",
+        "collectionId": 6762,
+        "pageUrl": "https://www.svgviewer.dev/s/483565/network",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/483565/network.svg"
+      },
+      {
+        "id": 479778,
+        "title": "Network",
+        "slug": "network",
+        "author": "Templarian",
+        "collectionId": 6748,
+        "pageUrl": "https://www.svgviewer.dev/s/479778/network",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/479778/network.svg"
+      },
+      {
+        "id": 471465,
+        "title": "Network",
+        "slug": "network",
+        "author": "artcoholic",
+        "collectionId": 6727,
+        "pageUrl": "https://www.svgviewer.dev/s/471465/network",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/471465/network.svg"
+      }
+    ],
+    "selected": {
+      "id": 479778,
+      "title": "Network",
+      "slug": "network",
+      "author": "Templarian",
+      "collectionId": 6748,
+      "pageUrl": "https://www.svgviewer.dev/s/479778/network",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/479778/network.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_479778_network.svg"
+  },
+  {
+    "label": "Безопасный объект",
+    "scope": "navigation",
+    "context": "megaMenu[Решения]/section[Решения]/link",
+    "path": "navigation.megaMenus.sections.links.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: охрана/безопасность (щит/замок).",
+    "meaning": "охрана/безопасность (щит/замок)",
+    "term": "shield",
+    "candidates": [
+      {
+        "id": 492477,
+        "title": "Shield",
+        "slug": "shield",
+        "author": "Iconscout",
+        "collectionId": 6783,
+        "pageUrl": "https://www.svgviewer.dev/s/492477/shield",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/492477/shield.svg"
+      },
+      {
+        "id": 489621,
+        "title": "Shield",
+        "slug": "shield",
+        "author": "michaelampr",
+        "collectionId": 6776,
+        "pageUrl": "https://www.svgviewer.dev/s/489621/shield",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/489621/shield.svg"
+      },
+      {
+        "id": 488861,
+        "title": "Shield",
+        "slug": "shield",
+        "author": "Microsoft",
+        "collectionId": 6775,
+        "pageUrl": "https://www.svgviewer.dev/s/488861/shield",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/488861/shield.svg"
+      }
+    ],
+    "selected": {
+      "id": 492477,
+      "title": "Shield",
+      "slug": "shield",
+      "author": "Iconscout",
+      "collectionId": 6783,
+      "pageUrl": "https://www.svgviewer.dev/s/492477/shield",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/492477/shield.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_492477_shield.svg"
+  },
+  {
+    "label": "Связь/данные",
+    "scope": "navigation",
+    "context": "megaMenu[Решения]/section[Решения]/link",
+    "path": "navigation.megaMenus.sections.links.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: связь и данные (две стрелки + сеть).",
+    "meaning": "связь и данные (две стрелки + сеть)",
+    "term": "data",
+    "candidates": [
+      {
+        "id": 489955,
+        "title": "Data",
+        "slug": "data",
+        "author": "mapshakers",
+        "collectionId": 6777,
+        "pageUrl": "https://www.svgviewer.dev/s/489955/data",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/489955/data.svg"
+      },
+      {
+        "id": 482851,
+        "title": "Data",
+        "slug": "data",
+        "author": "spothq",
+        "collectionId": 6760,
+        "pageUrl": "https://www.svgviewer.dev/s/482851/data",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/482851/data.svg"
+      },
+      {
+        "id": 482377,
+        "title": "Data",
+        "slug": "data",
+        "author": "spothq",
+        "collectionId": 6759,
+        "pageUrl": "https://www.svgviewer.dev/s/482377/data",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/482377/data.svg"
+      }
+    ],
+    "selected": {
+      "id": 482377,
+      "title": "Data",
+      "slug": "data",
+      "author": "spothq",
+      "collectionId": 6759,
+      "pageUrl": "https://www.svgviewer.dev/s/482377/data",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/482377/data.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_482377_data.svg"
+  },
+  {
+    "label": "Видео‑наблюдение и доступ",
+    "scope": "navigation",
+    "context": "megaMenu[Решения]/section[Решения]/link",
+    "path": "navigation.megaMenus.sections.links.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: доступ/допуск (ключ/замок/дверь).",
+    "meaning": "доступ/допуск (ключ/замок/дверь)",
+    "term": "camera",
+    "candidates": [
+      {
+        "id": 500445,
+        "title": "Camera",
+        "slug": "camera",
+        "author": "Mary Akveo",
+        "collectionId": 7044,
+        "pageUrl": "https://www.svgviewer.dev/s/500445/camera",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/500445/camera.svg"
+      },
+      {
+        "id": 497192,
+        "title": "Camera",
+        "slug": "camera",
+        "author": "Mary Akveo",
+        "collectionId": 7043,
+        "pageUrl": "https://www.svgviewer.dev/s/497192/camera",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/497192/camera.svg"
+      },
+      {
+        "id": 494595,
+        "title": "Camera",
+        "slug": "camera",
+        "author": "Mary Akveo",
+        "collectionId": 7042,
+        "pageUrl": "https://www.svgviewer.dev/s/494595/camera",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/494595/camera.svg"
+      }
+    ],
+    "selected": {
+      "id": 494595,
+      "title": "Camera",
+      "slug": "camera",
+      "author": "Mary Akveo",
+      "collectionId": 7042,
+      "pageUrl": "https://www.svgviewer.dev/s/494595/camera",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/494595/camera.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_494595_camera.svg"
+  },
+  {
+    "label": "Эксплуатация сети",
+    "scope": "navigation",
+    "context": "megaMenu[Решения]/section[Решения]/link",
+    "path": "navigation.megaMenus.sections.links.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: объединение сетей (связанные узлы).",
+    "meaning": "объединение сетей (связанные узлы)",
+    "term": "maintenance",
+    "candidates": [
+      {
+        "id": 377569,
+        "title": "Maintenance",
+        "slug": "maintenance",
+        "author": "Siemens",
+        "collectionId": 5721,
+        "pageUrl": "https://www.svgviewer.dev/s/377569/maintenance",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/377569/maintenance.svg"
+      },
+      {
+        "id": 361524,
+        "title": "Maintenance",
+        "slug": "maintenance",
+        "author": "etn-ccis",
+        "collectionId": 5627,
+        "pageUrl": "https://www.svgviewer.dev/s/361524/maintenance",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/361524/maintenance.svg"
+      },
+      {
+        "id": 251380,
+        "title": "Maintenance",
+        "slug": "maintenance",
+        "author": "SVG Repo",
+        "collectionId": 4344,
+        "pageUrl": "https://www.svgviewer.dev/s/251380/maintenance",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/251380/maintenance.svg"
+      }
+    ],
+    "selected": {
+      "id": 377569,
+      "title": "Maintenance",
+      "slug": "maintenance",
+      "author": "Siemens",
+      "collectionId": 5721,
+      "pageUrl": "https://www.svgviewer.dev/s/377569/maintenance",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/377569/maintenance.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_377569_maintenance.svg"
+  },
+  {
+    "label": "Подобрать решение",
+    "scope": "navigation",
+    "context": "megaMenu[Решения]/section[CTA]/link",
+    "path": "navigation.megaMenus.sections.links.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: подбор решения (лупа + шестерня).",
+    "meaning": "подбор решения (лупа + шестерня)",
+    "term": "settings",
+    "candidates": [
+      {
+        "id": 502904,
+        "title": "Settings",
+        "slug": "settings",
+        "author": "Mary Akveo",
+        "collectionId": 7044,
+        "pageUrl": "https://www.svgviewer.dev/s/502904/settings",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/502904/settings.svg"
+      },
+      {
+        "id": 499204,
+        "title": "Settings",
+        "slug": "settings",
+        "author": "Mary Akveo",
+        "collectionId": 7043,
+        "pageUrl": "https://www.svgviewer.dev/s/499204/settings",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/499204/settings.svg"
+      },
+      {
+        "id": 496181,
+        "title": "Settings",
+        "slug": "settings",
+        "author": "Mary Akveo",
+        "collectionId": 7042,
+        "pageUrl": "https://www.svgviewer.dev/s/496181/settings",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/496181/settings.svg"
+      }
+    ],
+    "selected": {
+      "id": 496181,
+      "title": "Settings",
+      "slug": "settings",
+      "author": "Mary Akveo",
+      "collectionId": 7042,
+      "pageUrl": "https://www.svgviewer.dev/s/496181/settings",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/496181/settings.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_496181_settings.svg"
+  },
+  {
+    "label": "Связаться",
+    "scope": "navigation",
+    "context": "megaMenu[Решения]/section[CTA]/link",
+    "path": "navigation.megaMenus.sections.links.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: связь/обратная связь (чат/телефон).",
+    "meaning": "связь/обратная связь (чат/телефон)",
+    "term": "link",
+    "candidates": [
+      {
+        "id": 501730,
+        "title": "Link",
+        "slug": "link",
+        "author": "Mary Akveo",
+        "collectionId": 7044,
+        "pageUrl": "https://www.svgviewer.dev/s/501730/link",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/501730/link.svg"
+      },
+      {
+        "id": 498469,
+        "title": "Link",
+        "slug": "link",
+        "author": "Mary Akveo",
+        "collectionId": 7043,
+        "pageUrl": "https://www.svgviewer.dev/s/498469/link",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/498469/link.svg"
+      },
+      {
+        "id": 495606,
+        "title": "Link",
+        "slug": "link",
+        "author": "Mary Akveo",
+        "collectionId": 7042,
+        "pageUrl": "https://www.svgviewer.dev/s/495606/link",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/495606/link.svg"
+      }
+    ],
+    "selected": {
+      "id": 495606,
+      "title": "Link",
+      "slug": "link",
+      "author": "Mary Akveo",
+      "collectionId": 7042,
+      "pageUrl": "https://www.svgviewer.dev/s/495606/link",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/495606/link.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_495606_link.svg"
+  },
+  {
+    "label": "Подключение объектов",
+    "scope": "navigation",
+    "context": "megaMenu[Застройщикам]/section[Инфраструктура]/link",
+    "path": "navigation.megaMenus.sections.links.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: подключение объекта (разъем/кабель + здание).",
+    "meaning": "подключение объекта (разъем/кабель + здание)",
+    "term": "plug",
+    "candidates": [
+      {
+        "id": 492410,
+        "title": "Plug",
+        "slug": "plug",
+        "author": "Iconscout",
+        "collectionId": 6783,
+        "pageUrl": "https://www.svgviewer.dev/s/492410/plug",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/492410/plug.svg"
+      },
+      {
+        "id": 489564,
+        "title": "Plug",
+        "slug": "plug",
+        "author": "michaelampr",
+        "collectionId": 6776,
+        "pageUrl": "https://www.svgviewer.dev/s/489564/plug",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/489564/plug.svg"
+      },
+      {
+        "id": 488841,
+        "title": "Plug",
+        "slug": "plug",
+        "author": "Microsoft",
+        "collectionId": 6775,
+        "pageUrl": "https://www.svgviewer.dev/s/488841/plug",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/488841/plug.svg"
+      }
+    ],
+    "selected": {
+      "id": 492410,
+      "title": "Plug",
+      "slug": "plug",
+      "author": "Iconscout",
+      "collectionId": 6783,
+      "pageUrl": "https://www.svgviewer.dev/s/492410/plug",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/492410/plug.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_492410_plug.svg"
+  },
+  {
+    "label": "Компенсация убытков",
+    "scope": "navigation",
+    "context": "megaMenu[Застройщикам]/section[Инфраструктура]/link",
+    "path": "navigation.megaMenus.sections.links.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: компенсация (щит + монета).",
+    "meaning": "компенсация (щит + монета)",
+    "term": "shield",
+    "candidates": [
+      {
+        "id": 492477,
+        "title": "Shield",
+        "slug": "shield",
+        "author": "Iconscout",
+        "collectionId": 6783,
+        "pageUrl": "https://www.svgviewer.dev/s/492477/shield",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/492477/shield.svg"
+      },
+      {
+        "id": 489621,
+        "title": "Shield",
+        "slug": "shield",
+        "author": "michaelampr",
+        "collectionId": 6776,
+        "pageUrl": "https://www.svgviewer.dev/s/489621/shield",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/489621/shield.svg"
+      },
+      {
+        "id": 488861,
+        "title": "Shield",
+        "slug": "shield",
+        "author": "Microsoft",
+        "collectionId": 6775,
+        "pageUrl": "https://www.svgviewer.dev/s/488861/shield",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/488861/shield.svg"
+      }
+    ],
+    "selected": {
+      "id": 492477,
+      "title": "Shield",
+      "slug": "shield",
+      "author": "Iconscout",
+      "collectionId": 6783,
+      "pageUrl": "https://www.svgviewer.dev/s/492477/shield",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/492477/shield.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_492477_shield.svg"
+  },
+  {
+    "label": "Цифровые решения",
+    "scope": "navigation",
+    "context": "megaMenu[Застройщикам]/section[Инфраструктурные продукты и решения]/link",
+    "path": "navigation.megaMenus.sections.links.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: цифровые решения (микросхема/сеть).",
+    "meaning": "цифровые решения (микросхема/сеть)",
+    "term": "network",
+    "candidates": [
+      {
+        "id": 483565,
+        "title": "Network",
+        "slug": "network",
+        "author": "puppylinux",
+        "collectionId": 6762,
+        "pageUrl": "https://www.svgviewer.dev/s/483565/network",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/483565/network.svg"
+      },
+      {
+        "id": 479778,
+        "title": "Network",
+        "slug": "network",
+        "author": "Templarian",
+        "collectionId": 6748,
+        "pageUrl": "https://www.svgviewer.dev/s/479778/network",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/479778/network.svg"
+      },
+      {
+        "id": 471465,
+        "title": "Network",
+        "slug": "network",
+        "author": "artcoholic",
+        "collectionId": 6727,
+        "pageUrl": "https://www.svgviewer.dev/s/471465/network",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/471465/network.svg"
+      }
+    ],
+    "selected": {
+      "id": 479778,
+      "title": "Network",
+      "slug": "network",
+      "author": "Templarian",
+      "collectionId": 6748,
+      "pageUrl": "https://www.svgviewer.dev/s/479778/network",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/479778/network.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_479778_network.svg"
+  },
+  {
+    "label": "Размещение на объектах",
+    "scope": "navigation",
+    "context": "megaMenu[Операторам связи]/section[Инфраструктура]/link",
+    "path": "navigation.megaMenus.sections.links.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: контроль объектов (глаз + сеть).",
+    "meaning": "контроль объектов (глаз + сеть)",
+    "term": "network",
+    "candidates": [
+      {
+        "id": 483565,
+        "title": "Network",
+        "slug": "network",
+        "author": "puppylinux",
+        "collectionId": 6762,
+        "pageUrl": "https://www.svgviewer.dev/s/483565/network",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/483565/network.svg"
+      },
+      {
+        "id": 479778,
+        "title": "Network",
+        "slug": "network",
+        "author": "Templarian",
+        "collectionId": 6748,
+        "pageUrl": "https://www.svgviewer.dev/s/479778/network",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/479778/network.svg"
+      },
+      {
+        "id": 471465,
+        "title": "Network",
+        "slug": "network",
+        "author": "artcoholic",
+        "collectionId": 6727,
+        "pageUrl": "https://www.svgviewer.dev/s/471465/network",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/471465/network.svg"
+      }
+    ],
+    "selected": {
+      "id": 479778,
+      "title": "Network",
+      "slug": "network",
+      "author": "Templarian",
+      "collectionId": 6748,
+      "pageUrl": "https://www.svgviewer.dev/s/479778/network",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/479778/network.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_479778_network.svg"
+  },
+  {
+    "label": "Кабельная канализация",
+    "scope": "navigation",
+    "context": "megaMenu[Операторам связи]/section[Инфраструктура]/link",
+    "path": "navigation.megaMenus.sections.links.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: кабельная инфраструктура (кабель/труба).",
+    "meaning": "кабельная инфраструктура (кабель/труба)",
+    "term": "plug",
+    "candidates": [
+      {
+        "id": 492410,
+        "title": "Plug",
+        "slug": "plug",
+        "author": "Iconscout",
+        "collectionId": 6783,
+        "pageUrl": "https://www.svgviewer.dev/s/492410/plug",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/492410/plug.svg"
+      },
+      {
+        "id": 489564,
+        "title": "Plug",
+        "slug": "plug",
+        "author": "michaelampr",
+        "collectionId": 6776,
+        "pageUrl": "https://www.svgviewer.dev/s/489564/plug",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/489564/plug.svg"
+      },
+      {
+        "id": 488841,
+        "title": "Plug",
+        "slug": "plug",
+        "author": "Microsoft",
+        "collectionId": 6775,
+        "pageUrl": "https://www.svgviewer.dev/s/488841/plug",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/488841/plug.svg"
+      }
+    ],
+    "selected": {
+      "id": 492410,
+      "title": "Plug",
+      "slug": "plug",
+      "author": "Iconscout",
+      "collectionId": 6783,
+      "pageUrl": "https://www.svgviewer.dev/s/492410/plug",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/492410/plug.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_492410_plug.svg"
+  },
+  {
+    "label": "Проектирование и строительство сетей",
+    "scope": "navigation",
+    "context": "megaMenu[Операторам связи]/section[Инфраструктура]/link",
+    "path": "navigation.megaMenus.sections.links.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: объединение сетей (связанные узлы).",
+    "meaning": "объединение сетей (связанные узлы)",
+    "term": "network",
+    "candidates": [
+      {
+        "id": 483565,
+        "title": "Network",
+        "slug": "network",
+        "author": "puppylinux",
+        "collectionId": 6762,
+        "pageUrl": "https://www.svgviewer.dev/s/483565/network",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/483565/network.svg"
+      },
+      {
+        "id": 479778,
+        "title": "Network",
+        "slug": "network",
+        "author": "Templarian",
+        "collectionId": 6748,
+        "pageUrl": "https://www.svgviewer.dev/s/479778/network",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/479778/network.svg"
+      },
+      {
+        "id": 471465,
+        "title": "Network",
+        "slug": "network",
+        "author": "artcoholic",
+        "collectionId": 6727,
+        "pageUrl": "https://www.svgviewer.dev/s/471465/network",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/471465/network.svg"
+      }
+    ],
+    "selected": {
+      "id": 479778,
+      "title": "Network",
+      "slug": "network",
+      "author": "Templarian",
+      "collectionId": 6748,
+      "pageUrl": "https://www.svgviewer.dev/s/479778/network",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/479778/network.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_479778_network.svg"
+  },
+  {
+    "label": "Присоединение и пропуск трафика",
+    "scope": "navigation",
+    "context": "megaMenu[Операторам связи]/section[Присоединение и пропуск трафика]/link",
+    "path": "navigation.megaMenus.sections.links.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: передача данных (две стрелки + пакеты).",
+    "meaning": "передача данных (две стрелки + пакеты)",
+    "term": "data",
+    "candidates": [
+      {
+        "id": 489955,
+        "title": "Data",
+        "slug": "data",
+        "author": "mapshakers",
+        "collectionId": 6777,
+        "pageUrl": "https://www.svgviewer.dev/s/489955/data",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/489955/data.svg"
+      },
+      {
+        "id": 482851,
+        "title": "Data",
+        "slug": "data",
+        "author": "spothq",
+        "collectionId": 6760,
+        "pageUrl": "https://www.svgviewer.dev/s/482851/data",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/482851/data.svg"
+      },
+      {
+        "id": 482377,
+        "title": "Data",
+        "slug": "data",
+        "author": "spothq",
+        "collectionId": 6759,
+        "pageUrl": "https://www.svgviewer.dev/s/482377/data",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/482377/data.svg"
+      }
+    ],
+    "selected": {
+      "id": 482377,
+      "title": "Data",
+      "slug": "data",
+      "author": "spothq",
+      "collectionId": 6759,
+      "pageUrl": "https://www.svgviewer.dev/s/482377/data",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/482377/data.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_482377_data.svg"
+  },
+  {
+    "label": "Передача данных",
+    "scope": "navigation",
+    "context": "megaMenu[Операторам связи]/section[Передача данных]/link",
+    "path": "navigation.megaMenus.sections.links.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: передача данных (две стрелки + пакеты).",
+    "meaning": "передача данных (две стрелки + пакеты)",
+    "term": "data",
+    "candidates": [
+      {
+        "id": 489955,
+        "title": "Data",
+        "slug": "data",
+        "author": "mapshakers",
+        "collectionId": 6777,
+        "pageUrl": "https://www.svgviewer.dev/s/489955/data",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/489955/data.svg"
+      },
+      {
+        "id": 482851,
+        "title": "Data",
+        "slug": "data",
+        "author": "spothq",
+        "collectionId": 6760,
+        "pageUrl": "https://www.svgviewer.dev/s/482851/data",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/482851/data.svg"
+      },
+      {
+        "id": 482377,
+        "title": "Data",
+        "slug": "data",
+        "author": "spothq",
+        "collectionId": 6759,
+        "pageUrl": "https://www.svgviewer.dev/s/482377/data",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/482377/data.svg"
+      }
+    ],
+    "selected": {
+      "id": 482377,
+      "title": "Data",
+      "slug": "data",
+      "author": "spothq",
+      "collectionId": 6759,
+      "pageUrl": "https://www.svgviewer.dev/s/482377/data",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/482377/data.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_482377_data.svg"
+  },
+  {
+    "label": "Подъездное видеонаблюдение",
+    "scope": "navigation",
+    "context": "megaMenu[Госзаказчикам]/section[Цифровые сервисы]/link",
+    "path": "navigation.megaMenus.sections.links.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: видеонаблюдение (камера/объектив).",
+    "meaning": "видеонаблюдение (камера/объектив)",
+    "term": "camera",
+    "candidates": [
+      {
+        "id": 500445,
+        "title": "Camera",
+        "slug": "camera",
+        "author": "Mary Akveo",
+        "collectionId": 7044,
+        "pageUrl": "https://www.svgviewer.dev/s/500445/camera",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/500445/camera.svg"
+      },
+      {
+        "id": 497192,
+        "title": "Camera",
+        "slug": "camera",
+        "author": "Mary Akveo",
+        "collectionId": 7043,
+        "pageUrl": "https://www.svgviewer.dev/s/497192/camera",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/497192/camera.svg"
+      },
+      {
+        "id": 494595,
+        "title": "Camera",
+        "slug": "camera",
+        "author": "Mary Akveo",
+        "collectionId": 7042,
+        "pageUrl": "https://www.svgviewer.dev/s/494595/camera",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/494595/camera.svg"
+      }
+    ],
+    "selected": {
+      "id": 494595,
+      "title": "Camera",
+      "slug": "camera",
+      "author": "Mary Akveo",
+      "collectionId": 7042,
+      "pageUrl": "https://www.svgviewer.dev/s/494595/camera",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/494595/camera.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_494595_camera.svg"
+  },
+  {
+    "label": "Видеонаблюдение на объектах строительства",
+    "scope": "navigation",
+    "context": "megaMenu[Госзаказчикам]/section[Цифровые сервисы]/link",
+    "path": "navigation.megaMenus.sections.links.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: контроль объектов (глаз + сеть).",
+    "meaning": "контроль объектов (глаз + сеть)",
+    "term": "camera",
+    "candidates": [
+      {
+        "id": 500445,
+        "title": "Camera",
+        "slug": "camera",
+        "author": "Mary Akveo",
+        "collectionId": 7044,
+        "pageUrl": "https://www.svgviewer.dev/s/500445/camera",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/500445/camera.svg"
+      },
+      {
+        "id": 497192,
+        "title": "Camera",
+        "slug": "camera",
+        "author": "Mary Akveo",
+        "collectionId": 7043,
+        "pageUrl": "https://www.svgviewer.dev/s/497192/camera",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/497192/camera.svg"
+      },
+      {
+        "id": 494595,
+        "title": "Camera",
+        "slug": "camera",
+        "author": "Mary Akveo",
+        "collectionId": 7042,
+        "pageUrl": "https://www.svgviewer.dev/s/494595/camera",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/494595/camera.svg"
+      }
+    ],
+    "selected": {
+      "id": 494595,
+      "title": "Camera",
+      "slug": "camera",
+      "author": "Mary Akveo",
+      "collectionId": 7042,
+      "pageUrl": "https://www.svgviewer.dev/s/494595/camera",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/494595/camera.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_494595_camera.svg"
+  },
+  {
+    "label": "Тех. обслуживание видеонаблюдения",
+    "scope": "navigation",
+    "context": "megaMenu[Госзаказчикам]/section[Цифровые сервисы]/link",
+    "path": "navigation.megaMenus.sections.links.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: обслуживание видеонаблюдения (камера + ключ).",
+    "meaning": "обслуживание видеонаблюдения (камера + ключ)",
+    "term": "camera",
+    "candidates": [
+      {
+        "id": 500445,
+        "title": "Camera",
+        "slug": "camera",
+        "author": "Mary Akveo",
+        "collectionId": 7044,
+        "pageUrl": "https://www.svgviewer.dev/s/500445/camera",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/500445/camera.svg"
+      },
+      {
+        "id": 497192,
+        "title": "Camera",
+        "slug": "camera",
+        "author": "Mary Akveo",
+        "collectionId": 7043,
+        "pageUrl": "https://www.svgviewer.dev/s/497192/camera",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/497192/camera.svg"
+      },
+      {
+        "id": 494595,
+        "title": "Camera",
+        "slug": "camera",
+        "author": "Mary Akveo",
+        "collectionId": 7042,
+        "pageUrl": "https://www.svgviewer.dev/s/494595/camera",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/494595/camera.svg"
+      }
+    ],
+    "selected": {
+      "id": 494595,
+      "title": "Camera",
+      "slug": "camera",
+      "author": "Mary Akveo",
+      "collectionId": 7042,
+      "pageUrl": "https://www.svgviewer.dev/s/494595/camera",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/494595/camera.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_494595_camera.svg"
+  },
+  {
+    "label": "Оборудование",
+    "scope": "navigation",
+    "context": "megaMenu[Госзаказчикам]/section[Цифровые сервисы]/link",
+    "path": "navigation.megaMenus.sections.links.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: оборудование (сервер/чип/модуль).",
+    "meaning": "оборудование (сервер/чип/модуль)",
+    "term": "network",
+    "candidates": [
+      {
+        "id": 483565,
+        "title": "Network",
+        "slug": "network",
+        "author": "puppylinux",
+        "collectionId": 6762,
+        "pageUrl": "https://www.svgviewer.dev/s/483565/network",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/483565/network.svg"
+      },
+      {
+        "id": 479778,
+        "title": "Network",
+        "slug": "network",
+        "author": "Templarian",
+        "collectionId": 6748,
+        "pageUrl": "https://www.svgviewer.dev/s/479778/network",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/479778/network.svg"
+      },
+      {
+        "id": 471465,
+        "title": "Network",
+        "slug": "network",
+        "author": "artcoholic",
+        "collectionId": 6727,
+        "pageUrl": "https://www.svgviewer.dev/s/471465/network",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/471465/network.svg"
+      }
+    ],
+    "selected": {
+      "id": 479778,
+      "title": "Network",
+      "slug": "network",
+      "author": "Templarian",
+      "collectionId": 6748,
+      "pageUrl": "https://www.svgviewer.dev/s/479778/network",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/479778/network.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_479778_network.svg"
+  },
+  {
+    "label": "Сопряжение",
+    "scope": "navigation",
+    "context": "megaMenu[Госзаказчикам]/section[Цифровые сервисы]/link",
+    "path": "navigation.megaMenus.sections.links.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: сопряжение систем (соединенные узлы/кабель).",
+    "meaning": "сопряжение систем (соединенные узлы/кабель)",
+    "term": "plug",
+    "candidates": [
+      {
+        "id": 492410,
+        "title": "Plug",
+        "slug": "plug",
+        "author": "Iconscout",
+        "collectionId": 6783,
+        "pageUrl": "https://www.svgviewer.dev/s/492410/plug",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/492410/plug.svg"
+      },
+      {
+        "id": 489564,
+        "title": "Plug",
+        "slug": "plug",
+        "author": "michaelampr",
+        "collectionId": 6776,
+        "pageUrl": "https://www.svgviewer.dev/s/489564/plug",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/489564/plug.svg"
+      },
+      {
+        "id": 488841,
+        "title": "Plug",
+        "slug": "plug",
+        "author": "Microsoft",
+        "collectionId": 6775,
+        "pageUrl": "https://www.svgviewer.dev/s/488841/plug",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/488841/plug.svg"
+      }
+    ],
+    "selected": {
+      "id": 492410,
+      "title": "Plug",
+      "slug": "plug",
+      "author": "Iconscout",
+      "collectionId": 6783,
+      "pageUrl": "https://www.svgviewer.dev/s/492410/plug",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/492410/plug.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_492410_plug.svg"
+  },
+  {
+    "label": "Тех. обслуживание",
+    "scope": "navigation",
+    "context": "megaMenu[Госзаказчикам]/section[Цифровые сервисы]/link",
+    "path": "navigation.megaMenus.sections.links.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: техническое обслуживание (ключ/гаечный ключ).",
+    "meaning": "техническое обслуживание (ключ/гаечный ключ)",
+    "term": "maintenance",
+    "candidates": [
+      {
+        "id": 377569,
+        "title": "Maintenance",
+        "slug": "maintenance",
+        "author": "Siemens",
+        "collectionId": 5721,
+        "pageUrl": "https://www.svgviewer.dev/s/377569/maintenance",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/377569/maintenance.svg"
+      },
+      {
+        "id": 361524,
+        "title": "Maintenance",
+        "slug": "maintenance",
+        "author": "etn-ccis",
+        "collectionId": 5627,
+        "pageUrl": "https://www.svgviewer.dev/s/361524/maintenance",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/361524/maintenance.svg"
+      },
+      {
+        "id": 251380,
+        "title": "Maintenance",
+        "slug": "maintenance",
+        "author": "SVG Repo",
+        "collectionId": 4344,
+        "pageUrl": "https://www.svgviewer.dev/s/251380/maintenance",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/251380/maintenance.svg"
+      }
+    ],
+    "selected": {
+      "id": 377569,
+      "title": "Maintenance",
+      "slug": "maintenance",
+      "author": "Siemens",
+      "collectionId": 5721,
+      "pageUrl": "https://www.svgviewer.dev/s/377569/maintenance",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/377569/maintenance.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_377569_maintenance.svg"
+  },
+  {
+    "label": "Громкоговорящая связь",
+    "scope": "navigation",
+    "context": "megaMenu[Госзаказчикам]/section[Цифровые сервисы]/link",
+    "path": "navigation.megaMenus.sections.links.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: оповещение/громкая связь (динамик/мегафон).",
+    "meaning": "оповещение/громкая связь (динамик/мегафон)",
+    "term": "link",
+    "candidates": [
+      {
+        "id": 501730,
+        "title": "Link",
+        "slug": "link",
+        "author": "Mary Akveo",
+        "collectionId": 7044,
+        "pageUrl": "https://www.svgviewer.dev/s/501730/link",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/501730/link.svg"
+      },
+      {
+        "id": 498469,
+        "title": "Link",
+        "slug": "link",
+        "author": "Mary Akveo",
+        "collectionId": 7043,
+        "pageUrl": "https://www.svgviewer.dev/s/498469/link",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/498469/link.svg"
+      },
+      {
+        "id": 495606,
+        "title": "Link",
+        "slug": "link",
+        "author": "Mary Akveo",
+        "collectionId": 7042,
+        "pageUrl": "https://www.svgviewer.dev/s/495606/link",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/495606/link.svg"
+      }
+    ],
+    "selected": {
+      "id": 495606,
+      "title": "Link",
+      "slug": "link",
+      "author": "Mary Akveo",
+      "collectionId": 7042,
+      "pageUrl": "https://www.svgviewer.dev/s/495606/link",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/495606/link.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_495606_link.svg"
+  },
+  {
+    "label": "СКУД",
+    "scope": "navigation",
+    "context": "megaMenu[Госзаказчикам]/section[Цифровые сервисы]/link",
+    "path": "navigation.megaMenus.sections.links.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: контроль доступа (карта доступа + замок).",
+    "meaning": "контроль доступа (карта доступа + замок)",
+    "term": "lock",
+    "candidates": [
+      {
+        "id": 501701,
+        "title": "Lock",
+        "slug": "lock",
+        "author": "Mary Akveo",
+        "collectionId": 7044,
+        "pageUrl": "https://www.svgviewer.dev/s/501701/lock",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/501701/lock.svg"
+      },
+      {
+        "id": 498507,
+        "title": "Lock",
+        "slug": "lock",
+        "author": "Mary Akveo",
+        "collectionId": 7043,
+        "pageUrl": "https://www.svgviewer.dev/s/498507/lock",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/498507/lock.svg"
+      },
+      {
+        "id": 495639,
+        "title": "Lock",
+        "slug": "lock",
+        "author": "Mary Akveo",
+        "collectionId": 7042,
+        "pageUrl": "https://www.svgviewer.dev/s/495639/lock",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/495639/lock.svg"
+      }
+    ],
+    "selected": {
+      "id": 495639,
+      "title": "Lock",
+      "slug": "lock",
+      "author": "Mary Akveo",
+      "collectionId": 7042,
+      "pageUrl": "https://www.svgviewer.dev/s/495639/lock",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/495639/lock.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_495639_lock.svg"
+  },
+  {
+    "label": "АСУ",
+    "scope": "navigation",
+    "context": "megaMenu[Госзаказчикам]/section[Цифровые сервисы]/link",
+    "path": "navigation.megaMenus.sections.links.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: автоматизация (шестерня + сеть).",
+    "meaning": "автоматизация (шестерня + сеть)",
+    "term": "network",
+    "candidates": [
+      {
+        "id": 483565,
+        "title": "Network",
+        "slug": "network",
+        "author": "puppylinux",
+        "collectionId": 6762,
+        "pageUrl": "https://www.svgviewer.dev/s/483565/network",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/483565/network.svg"
+      },
+      {
+        "id": 479778,
+        "title": "Network",
+        "slug": "network",
+        "author": "Templarian",
+        "collectionId": 6748,
+        "pageUrl": "https://www.svgviewer.dev/s/479778/network",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/479778/network.svg"
+      },
+      {
+        "id": 471465,
+        "title": "Network",
+        "slug": "network",
+        "author": "artcoholic",
+        "collectionId": 6727,
+        "pageUrl": "https://www.svgviewer.dev/s/471465/network",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/471465/network.svg"
+      }
+    ],
+    "selected": {
+      "id": 479778,
+      "title": "Network",
+      "slug": "network",
+      "author": "Templarian",
+      "collectionId": 6748,
+      "pageUrl": "https://www.svgviewer.dev/s/479778/network",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/479778/network.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_479778_network.svg"
+  },
+  {
+    "label": "АСКУЭ",
+    "scope": "navigation",
+    "context": "megaMenu[Госзаказчикам]/section[Цифровые сервисы]/link",
+    "path": "navigation.megaMenus.sections.links.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: учет энергии (счетчик + молния).",
+    "meaning": "учет энергии (счетчик + молния)",
+    "term": "bolt",
+    "candidates": [
+      {
+        "id": 491667,
+        "title": "Bolt",
+        "slug": "bolt",
+        "author": "Iconscout",
+        "collectionId": 6783,
+        "pageUrl": "https://www.svgviewer.dev/s/491667/bolt",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/491667/bolt.svg"
+      },
+      {
+        "id": 490570,
+        "title": "Bolt",
+        "slug": "bolt",
+        "author": "linea-io",
+        "collectionId": 6779,
+        "pageUrl": "https://www.svgviewer.dev/s/490570/bolt",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/490570/bolt.svg"
+      },
+      {
+        "id": 478379,
+        "title": "Bolt",
+        "slug": "bolt",
+        "author": "vaadin",
+        "collectionId": 6746,
+        "pageUrl": "https://www.svgviewer.dev/s/478379/bolt",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/478379/bolt.svg"
+      }
+    ],
+    "selected": {
+      "id": 491667,
+      "title": "Bolt",
+      "slug": "bolt",
+      "author": "Iconscout",
+      "collectionId": 6783,
+      "pageUrl": "https://www.svgviewer.dev/s/491667/bolt",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/491667/bolt.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_491667_bolt.svg"
+  },
+  {
+    "label": "COT",
+    "scope": "navigation",
+    "context": "megaMenu[Госзаказчикам]/section[Цифровые сервисы]/link",
+    "path": "navigation.megaMenus.sections.links.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: охранное видеонаблюдение (камера + щит).",
+    "meaning": "охранное видеонаблюдение (камера + щит)",
+    "term": "camera",
+    "candidates": [
+      {
+        "id": 500445,
+        "title": "Camera",
+        "slug": "camera",
+        "author": "Mary Akveo",
+        "collectionId": 7044,
+        "pageUrl": "https://www.svgviewer.dev/s/500445/camera",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/500445/camera.svg"
+      },
+      {
+        "id": 497192,
+        "title": "Camera",
+        "slug": "camera",
+        "author": "Mary Akveo",
+        "collectionId": 7043,
+        "pageUrl": "https://www.svgviewer.dev/s/497192/camera",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/497192/camera.svg"
+      },
+      {
+        "id": 494595,
+        "title": "Camera",
+        "slug": "camera",
+        "author": "Mary Akveo",
+        "collectionId": 7042,
+        "pageUrl": "https://www.svgviewer.dev/s/494595/camera",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/494595/camera.svg"
+      }
+    ],
+    "selected": {
+      "id": 494595,
+      "title": "Camera",
+      "slug": "camera",
+      "author": "Mary Akveo",
+      "collectionId": 7042,
+      "pageUrl": "https://www.svgviewer.dev/s/494595/camera",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/494595/camera.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_494595_camera.svg"
+  },
+  {
+    "label": "Наружные сети",
+    "scope": "navigation",
+    "context": "megaMenu[Госзаказчикам]/section[Инфраструктура связи]/link",
+    "path": "navigation.megaMenus.sections.links.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: объединение сетей (связанные узлы).",
+    "meaning": "объединение сетей (связанные узлы)",
+    "term": "network",
+    "candidates": [
+      {
+        "id": 483565,
+        "title": "Network",
+        "slug": "network",
+        "author": "puppylinux",
+        "collectionId": 6762,
+        "pageUrl": "https://www.svgviewer.dev/s/483565/network",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/483565/network.svg"
+      },
+      {
+        "id": 479778,
+        "title": "Network",
+        "slug": "network",
+        "author": "Templarian",
+        "collectionId": 6748,
+        "pageUrl": "https://www.svgviewer.dev/s/479778/network",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/479778/network.svg"
+      },
+      {
+        "id": 471465,
+        "title": "Network",
+        "slug": "network",
+        "author": "artcoholic",
+        "collectionId": 6727,
+        "pageUrl": "https://www.svgviewer.dev/s/471465/network",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/471465/network.svg"
+      }
+    ],
+    "selected": {
+      "id": 479778,
+      "title": "Network",
+      "slug": "network",
+      "author": "Templarian",
+      "collectionId": 6748,
+      "pageUrl": "https://www.svgviewer.dev/s/479778/network",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/479778/network.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_479778_network.svg"
+  },
+  {
+    "label": "СКС",
+    "scope": "navigation",
+    "context": "megaMenu[Госзаказчикам]/section[Инфраструктура связи]/link",
+    "path": "navigation.megaMenus.sections.links.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: структурированная кабельная сеть (кабель + стойка).",
+    "meaning": "структурированная кабельная сеть (кабель + стойка)",
+    "term": "plug",
+    "candidates": [
+      {
+        "id": 492410,
+        "title": "Plug",
+        "slug": "plug",
+        "author": "Iconscout",
+        "collectionId": 6783,
+        "pageUrl": "https://www.svgviewer.dev/s/492410/plug",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/492410/plug.svg"
+      },
+      {
+        "id": 489564,
+        "title": "Plug",
+        "slug": "plug",
+        "author": "michaelampr",
+        "collectionId": 6776,
+        "pageUrl": "https://www.svgviewer.dev/s/489564/plug",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/489564/plug.svg"
+      },
+      {
+        "id": 488841,
+        "title": "Plug",
+        "slug": "plug",
+        "author": "Microsoft",
+        "collectionId": 6775,
+        "pageUrl": "https://www.svgviewer.dev/s/488841/plug",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/488841/plug.svg"
+      }
+    ],
+    "selected": {
+      "id": 492410,
+      "title": "Plug",
+      "slug": "plug",
+      "author": "Iconscout",
+      "collectionId": 6783,
+      "pageUrl": "https://www.svgviewer.dev/s/492410/plug",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/492410/plug.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_492410_plug.svg"
+  },
+  {
+    "label": "ЛВС",
+    "scope": "navigation",
+    "context": "megaMenu[Госзаказчикам]/section[Инфраструктура связи]/link",
+    "path": "navigation.megaMenus.sections.links.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: локальная сеть (узлы + линия связи).",
+    "meaning": "локальная сеть (узлы + линия связи)",
+    "term": "network",
+    "candidates": [
+      {
+        "id": 483565,
+        "title": "Network",
+        "slug": "network",
+        "author": "puppylinux",
+        "collectionId": 6762,
+        "pageUrl": "https://www.svgviewer.dev/s/483565/network",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/483565/network.svg"
+      },
+      {
+        "id": 479778,
+        "title": "Network",
+        "slug": "network",
+        "author": "Templarian",
+        "collectionId": 6748,
+        "pageUrl": "https://www.svgviewer.dev/s/479778/network",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/479778/network.svg"
+      },
+      {
+        "id": 471465,
+        "title": "Network",
+        "slug": "network",
+        "author": "artcoholic",
+        "collectionId": 6727,
+        "pageUrl": "https://www.svgviewer.dev/s/471465/network",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/471465/network.svg"
+      }
+    ],
+    "selected": {
+      "id": 479778,
+      "title": "Network",
+      "slug": "network",
+      "author": "Templarian",
+      "collectionId": 6748,
+      "pageUrl": "https://www.svgviewer.dev/s/479778/network",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/479778/network.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_479778_network.svg"
+  },
+  {
+    "label": "Эксплуатация сети",
+    "scope": "navigation",
+    "context": "megaMenu[Госзаказчикам]/section[Инфраструктура связи]/link",
+    "path": "navigation.megaMenus.sections.links.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: объединение сетей (связанные узлы).",
+    "meaning": "объединение сетей (связанные узлы)",
+    "term": "maintenance",
+    "candidates": [
+      {
+        "id": 377569,
+        "title": "Maintenance",
+        "slug": "maintenance",
+        "author": "Siemens",
+        "collectionId": 5721,
+        "pageUrl": "https://www.svgviewer.dev/s/377569/maintenance",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/377569/maintenance.svg"
+      },
+      {
+        "id": 361524,
+        "title": "Maintenance",
+        "slug": "maintenance",
+        "author": "etn-ccis",
+        "collectionId": 5627,
+        "pageUrl": "https://www.svgviewer.dev/s/361524/maintenance",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/361524/maintenance.svg"
+      },
+      {
+        "id": 251380,
+        "title": "Maintenance",
+        "slug": "maintenance",
+        "author": "SVG Repo",
+        "collectionId": 4344,
+        "pageUrl": "https://www.svgviewer.dev/s/251380/maintenance",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/251380/maintenance.svg"
+      }
+    ],
+    "selected": {
+      "id": 377569,
+      "title": "Maintenance",
+      "slug": "maintenance",
+      "author": "Siemens",
+      "collectionId": 5721,
+      "pageUrl": "https://www.svgviewer.dev/s/377569/maintenance",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/377569/maintenance.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_377569_maintenance.svg"
+  },
+  {
+    "label": "Индивидуальные решения",
+    "scope": "navigation",
+    "context": "megaMenu[Госзаказчикам]/section[Индивидуальные решения]/link",
+    "path": "navigation.megaMenus.sections.links.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: решение/идея (лампочка/пазл).",
+    "meaning": "решение/идея (лампочка/пазл)",
+    "term": "puzzle",
+    "candidates": [
+      {
+        "id": 493184,
+        "title": "Puzzle",
+        "slug": "puzzle",
+        "author": "icons8",
+        "collectionId": 6785,
+        "pageUrl": "https://www.svgviewer.dev/s/493184/puzzle",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/493184/puzzle.svg"
+      },
+      {
+        "id": 492901,
+        "title": "Puzzle",
+        "slug": "puzzle",
+        "author": "icons8",
+        "collectionId": 6784,
+        "pageUrl": "https://www.svgviewer.dev/s/492901/puzzle",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/492901/puzzle.svg"
+      },
+      {
+        "id": 487911,
+        "title": "Puzzle",
+        "slug": "puzzle",
+        "author": "paomedia",
+        "collectionId": 6770,
+        "pageUrl": "https://www.svgviewer.dev/s/487911/puzzle",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/487911/puzzle.svg"
+      }
+    ],
+    "selected": {
+      "id": 493184,
+      "title": "Puzzle",
+      "slug": "puzzle",
+      "author": "icons8",
+      "collectionId": 6785,
+      "pageUrl": "https://www.svgviewer.dev/s/493184/puzzle",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/493184/puzzle.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_493184_puzzle.svg"
+  },
+  {
+    "label": "Порядок допуска к проведению работ",
+    "scope": "navigation",
+    "context": "megaMenu[Партнерам]/section[Раздел для партнеров]/link",
+    "path": "navigation.megaMenus.sections.links.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: доступ/допуск (ключ/замок/дверь).",
+    "meaning": "доступ/допуск (ключ/замок/дверь)",
+    "term": "lock",
+    "candidates": [
+      {
+        "id": 501701,
+        "title": "Lock",
+        "slug": "lock",
+        "author": "Mary Akveo",
+        "collectionId": 7044,
+        "pageUrl": "https://www.svgviewer.dev/s/501701/lock",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/501701/lock.svg"
+      },
+      {
+        "id": 498507,
+        "title": "Lock",
+        "slug": "lock",
+        "author": "Mary Akveo",
+        "collectionId": 7043,
+        "pageUrl": "https://www.svgviewer.dev/s/498507/lock",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/498507/lock.svg"
+      },
+      {
+        "id": 495639,
+        "title": "Lock",
+        "slug": "lock",
+        "author": "Mary Akveo",
+        "collectionId": 7042,
+        "pageUrl": "https://www.svgviewer.dev/s/495639/lock",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/495639/lock.svg"
+      }
+    ],
+    "selected": {
+      "id": 495639,
+      "title": "Lock",
+      "slug": "lock",
+      "author": "Mary Akveo",
+      "collectionId": 7042,
+      "pageUrl": "https://www.svgviewer.dev/s/495639/lock",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/495639/lock.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_495639_lock.svg"
+  },
+  {
+    "label": "Реализация ТМЦ",
+    "scope": "navigation",
+    "context": "megaMenu[Партнерам]/section[Раздел для партнеров]/link",
+    "path": "navigation.megaMenus.sections.links.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: закупки/ТМЦ (коробка/корзина).",
+    "meaning": "закупки/ТМЦ (коробка/корзина)",
+    "term": "cart",
+    "candidates": [
+      {
+        "id": 500508,
+        "title": "Cart",
+        "slug": "cart",
+        "author": "Mary Akveo",
+        "collectionId": 7044,
+        "pageUrl": "https://www.svgviewer.dev/s/500508/cart",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/500508/cart.svg"
+      },
+      {
+        "id": 497237,
+        "title": "Cart",
+        "slug": "cart",
+        "author": "Mary Akveo",
+        "collectionId": 7043,
+        "pageUrl": "https://www.svgviewer.dev/s/497237/cart",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/497237/cart.svg"
+      },
+      {
+        "id": 494634,
+        "title": "Cart",
+        "slug": "cart",
+        "author": "Mary Akveo",
+        "collectionId": 7042,
+        "pageUrl": "https://www.svgviewer.dev/s/494634/cart",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/494634/cart.svg"
+      }
+    ],
+    "selected": {
+      "id": 494634,
+      "title": "Cart",
+      "slug": "cart",
+      "author": "Mary Akveo",
+      "collectionId": 7042,
+      "pageUrl": "https://www.svgviewer.dev/s/494634/cart",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/494634/cart.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_494634_cart.svg"
+  },
+  {
+    "label": "Рамочный договор",
+    "scope": "navigation",
+    "context": "megaMenu[Партнерам]/section[Раздел для партнеров]/link",
+    "path": "navigation.megaMenus.sections.links.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: договор/оферта (лист + подпись).",
+    "meaning": "договор/оферта (лист + подпись)",
+    "term": "document",
+    "candidates": [
+      {
+        "id": 493061,
+        "title": "Document",
+        "slug": "document",
+        "author": "icons8",
+        "collectionId": 6785,
+        "pageUrl": "https://www.svgviewer.dev/s/493061/document",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/493061/document.svg"
+      },
+      {
+        "id": 492814,
+        "title": "Document",
+        "slug": "document",
+        "author": "icons8",
+        "collectionId": 6784,
+        "pageUrl": "https://www.svgviewer.dev/s/492814/document",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/492814/document.svg"
+      },
+      {
+        "id": 489242,
+        "title": "Document",
+        "slug": "document",
+        "author": "michaelampr",
+        "collectionId": 6776,
+        "pageUrl": "https://www.svgviewer.dev/s/489242/document",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/489242/document.svg"
+      }
+    ],
+    "selected": {
+      "id": 492814,
+      "title": "Document",
+      "slug": "document",
+      "author": "icons8",
+      "collectionId": 6784,
+      "pageUrl": "https://www.svgviewer.dev/s/492814/document",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/492814/document.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_492814_document.svg"
+  },
+  {
+    "label": "Документация",
+    "scope": "navigation",
+    "context": "megaMenu[Партнерам]/section[Раздел для партнеров]/link",
+    "path": "navigation.megaMenus.sections.links.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: документ/регламент (лист + печать/галочка).",
+    "meaning": "документ/регламент (лист + печать/галочка)",
+    "term": "document",
+    "candidates": [
+      {
+        "id": 493061,
+        "title": "Document",
+        "slug": "document",
+        "author": "icons8",
+        "collectionId": 6785,
+        "pageUrl": "https://www.svgviewer.dev/s/493061/document",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/493061/document.svg"
+      },
+      {
+        "id": 492814,
+        "title": "Document",
+        "slug": "document",
+        "author": "icons8",
+        "collectionId": 6784,
+        "pageUrl": "https://www.svgviewer.dev/s/492814/document",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/492814/document.svg"
+      },
+      {
+        "id": 489242,
+        "title": "Document",
+        "slug": "document",
+        "author": "michaelampr",
+        "collectionId": 6776,
+        "pageUrl": "https://www.svgviewer.dev/s/489242/document",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/489242/document.svg"
+      }
+    ],
+    "selected": {
+      "id": 492814,
+      "title": "Document",
+      "slug": "document",
+      "author": "icons8",
+      "collectionId": 6784,
+      "pageUrl": "https://www.svgviewer.dev/s/492814/document",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/492814/document.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_492814_document.svg"
+  },
+  {
+    "label": "Закупки",
+    "scope": "navigation",
+    "context": "megaMenu[Партнерам]/section[Раздел для партнеров]/link",
+    "path": "navigation.megaMenus.sections.links.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: закупки/ТМЦ (коробка/корзина).",
+    "meaning": "закупки/ТМЦ (коробка/корзина)",
+    "term": "cart",
+    "candidates": [
+      {
+        "id": 500508,
+        "title": "Cart",
+        "slug": "cart",
+        "author": "Mary Akveo",
+        "collectionId": 7044,
+        "pageUrl": "https://www.svgviewer.dev/s/500508/cart",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/500508/cart.svg"
+      },
+      {
+        "id": 497237,
+        "title": "Cart",
+        "slug": "cart",
+        "author": "Mary Akveo",
+        "collectionId": 7043,
+        "pageUrl": "https://www.svgviewer.dev/s/497237/cart",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/497237/cart.svg"
+      },
+      {
+        "id": 494634,
+        "title": "Cart",
+        "slug": "cart",
+        "author": "Mary Akveo",
+        "collectionId": 7042,
+        "pageUrl": "https://www.svgviewer.dev/s/494634/cart",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/494634/cart.svg"
+      }
+    ],
+    "selected": {
+      "id": 494634,
+      "title": "Cart",
+      "slug": "cart",
+      "author": "Mary Akveo",
+      "collectionId": 7042,
+      "pageUrl": "https://www.svgviewer.dev/s/494634/cart",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/494634/cart.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_494634_cart.svg"
+  },
+  {
+    "label": "Тарифы",
+    "scope": "navigation",
+    "context": "megaMenu[Партнерам]/section[Раздел для партнеров]/link",
+    "path": "navigation.megaMenus.sections.links.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: тариф/цены (ценник/монета).",
+    "meaning": "тариф/цены (ценник/монета)",
+    "term": "coin",
+    "candidates": [
+      {
+        "id": 500660,
+        "title": "Coin",
+        "slug": "coin",
+        "author": "Mary Akveo",
+        "collectionId": 7044,
+        "pageUrl": "https://www.svgviewer.dev/s/500660/coin",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/500660/coin.svg"
+      },
+      {
+        "id": 497425,
+        "title": "Coin",
+        "slug": "coin",
+        "author": "Mary Akveo",
+        "collectionId": 7043,
+        "pageUrl": "https://www.svgviewer.dev/s/497425/coin",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/497425/coin.svg"
+      },
+      {
+        "id": 494792,
+        "title": "Coin",
+        "slug": "coin",
+        "author": "Mary Akveo",
+        "collectionId": 7042,
+        "pageUrl": "https://www.svgviewer.dev/s/494792/coin",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/494792/coin.svg"
+      }
+    ],
+    "selected": {
+      "id": 494792,
+      "title": "Coin",
+      "slug": "coin",
+      "author": "Mary Akveo",
+      "collectionId": 7042,
+      "pageUrl": "https://www.svgviewer.dev/s/494792/coin",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/494792/coin.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_494792_coin.svg"
+  },
+  {
+    "label": "О МГТС",
+    "scope": "navigation",
+    "context": "deepNav[О компании]/item",
+    "path": "navigation.deepNavTrees.items.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: информация о компании (i + здание).",
+    "meaning": "информация о компании (i + здание)",
+    "term": "building",
+    "candidates": [
+      {
+        "id": 491762,
+        "title": "Building",
+        "slug": "building",
+        "author": "Iconscout",
+        "collectionId": 6783,
+        "pageUrl": "https://www.svgviewer.dev/s/491762/building",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/491762/building.svg"
+      },
+      {
+        "id": 490100,
+        "title": "Building",
+        "slug": "building",
+        "author": "mapbox",
+        "collectionId": 6778,
+        "pageUrl": "https://www.svgviewer.dev/s/490100/building",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/490100/building.svg"
+      },
+      {
+        "id": 489946,
+        "title": "Building",
+        "slug": "building",
+        "author": "mapshakers",
+        "collectionId": 6777,
+        "pageUrl": "https://www.svgviewer.dev/s/489946/building",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/489946/building.svg"
+      }
+    ],
+    "selected": {
+      "id": 491762,
+      "title": "Building",
+      "slug": "building",
+      "author": "Iconscout",
+      "collectionId": 6783,
+      "pageUrl": "https://www.svgviewer.dev/s/491762/building",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/491762/building.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_491762_building.svg"
+  },
+  {
+    "label": "Ценности МГТС",
+    "scope": "navigation",
+    "context": "deepNav[О компании]/item",
+    "path": "navigation.deepNavTrees.items.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: ценности/принципы (сердце/звезда + щит).",
+    "meaning": "ценности/принципы (сердце/звезда + щит)",
+    "term": "shield",
+    "candidates": [
+      {
+        "id": 492477,
+        "title": "Shield",
+        "slug": "shield",
+        "author": "Iconscout",
+        "collectionId": 6783,
+        "pageUrl": "https://www.svgviewer.dev/s/492477/shield",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/492477/shield.svg"
+      },
+      {
+        "id": 489621,
+        "title": "Shield",
+        "slug": "shield",
+        "author": "michaelampr",
+        "collectionId": 6776,
+        "pageUrl": "https://www.svgviewer.dev/s/489621/shield",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/489621/shield.svg"
+      },
+      {
+        "id": 488861,
+        "title": "Shield",
+        "slug": "shield",
+        "author": "Microsoft",
+        "collectionId": 6775,
+        "pageUrl": "https://www.svgviewer.dev/s/488861/shield",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/488861/shield.svg"
+      }
+    ],
+    "selected": {
+      "id": 492477,
+      "title": "Shield",
+      "slug": "shield",
+      "author": "Iconscout",
+      "collectionId": 6783,
+      "pageUrl": "https://www.svgviewer.dev/s/492477/shield",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/492477/shield.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_492477_shield.svg"
+  },
+  {
+    "label": "Деловая этика и комплаенс",
+    "scope": "navigation",
+    "context": "deepNav[О компании]/item",
+    "path": "navigation.deepNavTrees.items.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: комплаенс/этика (щит + галочка).",
+    "meaning": "комплаенс/этика (щит + галочка)",
+    "term": "shield",
+    "candidates": [
+      {
+        "id": 492477,
+        "title": "Shield",
+        "slug": "shield",
+        "author": "Iconscout",
+        "collectionId": 6783,
+        "pageUrl": "https://www.svgviewer.dev/s/492477/shield",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/492477/shield.svg"
+      },
+      {
+        "id": 489621,
+        "title": "Shield",
+        "slug": "shield",
+        "author": "michaelampr",
+        "collectionId": 6776,
+        "pageUrl": "https://www.svgviewer.dev/s/489621/shield",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/489621/shield.svg"
+      },
+      {
+        "id": 488861,
+        "title": "Shield",
+        "slug": "shield",
+        "author": "Microsoft",
+        "collectionId": 6775,
+        "pageUrl": "https://www.svgviewer.dev/s/488861/shield",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/488861/shield.svg"
+      }
+    ],
+    "selected": {
+      "id": 492477,
+      "title": "Shield",
+      "slug": "shield",
+      "author": "Iconscout",
+      "collectionId": 6783,
+      "pageUrl": "https://www.svgviewer.dev/s/492477/shield",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/492477/shield.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_492477_shield.svg"
+  },
+  {
+    "label": "Обращение гендиректора",
+    "scope": "navigation",
+    "context": "deepNav[О компании]/child",
+    "path": "navigation.deepNavTrees.items.children.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: обращение руководителя (силуэт + мегафон).",
+    "meaning": "обращение руководителя (силуэт + мегафон)",
+    "term": "",
+    "candidates": [],
+    "selected": null
+  },
+  {
+    "label": "Комплаенс‑политики МГТС",
+    "scope": "navigation",
+    "context": "deepNav[О компании]/child",
+    "path": "navigation.deepNavTrees.items.children.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: комплаенс/этика (щит + галочка).",
+    "meaning": "комплаенс/этика (щит + галочка)",
+    "term": "shield",
+    "candidates": [
+      {
+        "id": 492477,
+        "title": "Shield",
+        "slug": "shield",
+        "author": "Iconscout",
+        "collectionId": 6783,
+        "pageUrl": "https://www.svgviewer.dev/s/492477/shield",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/492477/shield.svg"
+      },
+      {
+        "id": 489621,
+        "title": "Shield",
+        "slug": "shield",
+        "author": "michaelampr",
+        "collectionId": 6776,
+        "pageUrl": "https://www.svgviewer.dev/s/489621/shield",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/489621/shield.svg"
+      },
+      {
+        "id": 488861,
+        "title": "Shield",
+        "slug": "shield",
+        "author": "Microsoft",
+        "collectionId": 6775,
+        "pageUrl": "https://www.svgviewer.dev/s/488861/shield",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/488861/shield.svg"
+      }
+    ],
+    "selected": {
+      "id": 492477,
+      "title": "Shield",
+      "slug": "shield",
+      "author": "Iconscout",
+      "collectionId": 6783,
+      "pageUrl": "https://www.svgviewer.dev/s/492477/shield",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/492477/shield.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_492477_shield.svg"
+  },
+  {
+    "label": "Взаимодействие с партнерами",
+    "scope": "navigation",
+    "context": "deepNav[О компании]/child",
+    "path": "navigation.deepNavTrees.items.children.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: партнерство (рукопожатие).",
+    "meaning": "партнерство (рукопожатие)",
+    "term": "handshake",
+    "candidates": [
+      {
+        "id": 478614,
+        "title": "Handshake",
+        "slug": "handshake",
+        "author": "vaadin",
+        "collectionId": 6746,
+        "pageUrl": "https://www.svgviewer.dev/s/478614/handshake",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/478614/handshake.svg"
+      },
+      {
+        "id": 453773,
+        "title": "Handshake",
+        "slug": "handshake",
+        "author": "googlefonts",
+        "collectionId": 6510,
+        "pageUrl": "https://www.svgviewer.dev/s/453773/handshake",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/453773/handshake.svg"
+      },
+      {
+        "id": 450241,
+        "title": "Handshake",
+        "slug": "handshake",
+        "author": "joypixels",
+        "collectionId": 6498,
+        "pageUrl": "https://www.svgviewer.dev/s/450241/handshake",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/450241/handshake.svg"
+      }
+    ],
+    "selected": {
+      "id": 478614,
+      "title": "Handshake",
+      "slug": "handshake",
+      "author": "vaadin",
+      "collectionId": 6746,
+      "pageUrl": "https://www.svgviewer.dev/s/478614/handshake",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/478614/handshake.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_478614_handshake.svg"
+  },
+  {
+    "label": "Обратная связь",
+    "scope": "navigation",
+    "context": "deepNav[О компании]/child",
+    "path": "navigation.deepNavTrees.items.children.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: связь/обратная связь (чат/телефон).",
+    "meaning": "связь/обратная связь (чат/телефон)",
+    "term": "link",
+    "candidates": [
+      {
+        "id": 501730,
+        "title": "Link",
+        "slug": "link",
+        "author": "Mary Akveo",
+        "collectionId": 7044,
+        "pageUrl": "https://www.svgviewer.dev/s/501730/link",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/501730/link.svg"
+      },
+      {
+        "id": 498469,
+        "title": "Link",
+        "slug": "link",
+        "author": "Mary Akveo",
+        "collectionId": 7043,
+        "pageUrl": "https://www.svgviewer.dev/s/498469/link",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/498469/link.svg"
+      },
+      {
+        "id": 495606,
+        "title": "Link",
+        "slug": "link",
+        "author": "Mary Akveo",
+        "collectionId": 7042,
+        "pageUrl": "https://www.svgviewer.dev/s/495606/link",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/495606/link.svg"
+      }
+    ],
+    "selected": {
+      "id": 495606,
+      "title": "Link",
+      "slug": "link",
+      "author": "Mary Akveo",
+      "collectionId": 7042,
+      "pageUrl": "https://www.svgviewer.dev/s/495606/link",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/495606/link.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_495606_link.svg"
+  },
+  {
+    "label": "Единая горячая линия",
+    "scope": "navigation",
+    "context": "deepNav[О компании]/child",
+    "path": "navigation.deepNavTrees.items.children.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: горячая линия/телефон (гарнитура + телефон).",
+    "meaning": "горячая линия/телефон (гарнитура + телефон)",
+    "term": "phone",
+    "candidates": [
+      {
+        "id": 502138,
+        "title": "Phone",
+        "slug": "phone",
+        "author": "Mary Akveo",
+        "collectionId": 7044,
+        "pageUrl": "https://www.svgviewer.dev/s/502138/phone",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/502138/phone.svg"
+      },
+      {
+        "id": 498846,
+        "title": "Phone",
+        "slug": "phone",
+        "author": "Mary Akveo",
+        "collectionId": 7043,
+        "pageUrl": "https://www.svgviewer.dev/s/498846/phone",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/498846/phone.svg"
+      },
+      {
+        "id": 495869,
+        "title": "Phone",
+        "slug": "phone",
+        "author": "Mary Akveo",
+        "collectionId": 7042,
+        "pageUrl": "https://www.svgviewer.dev/s/495869/phone",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/495869/phone.svg"
+      }
+    ],
+    "selected": {
+      "id": 495869,
+      "title": "Phone",
+      "slug": "phone",
+      "author": "Mary Akveo",
+      "collectionId": 7042,
+      "pageUrl": "https://www.svgviewer.dev/s/495869/phone",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/495869/phone.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_495869_phone.svg"
+  },
+  {
+    "label": "Корпоративное управление",
+    "scope": "navigation",
+    "context": "deepNav[О компании]/item",
+    "path": "navigation.deepNavTrees.items.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: корпоративное управление (органиграмма/иерархия).",
+    "meaning": "корпоративное управление (органиграмма/иерархия)",
+    "term": "",
+    "candidates": [],
+    "selected": null
+  },
+  {
+    "label": "Принципы корпоративного управления",
+    "scope": "navigation",
+    "context": "deepNav[О компании]/child",
+    "path": "navigation.deepNavTrees.items.children.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: корпоративное управление (органиграмма/иерархия).",
+    "meaning": "корпоративное управление (органиграмма/иерархия)",
+    "term": "",
+    "candidates": [],
+    "selected": null
+  },
+  {
+    "label": "Корпоративные документы",
+    "scope": "navigation",
+    "context": "deepNav[О компании]/child",
+    "path": "navigation.deepNavTrees.items.children.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: документ/регламент (лист + печать/галочка).",
+    "meaning": "документ/регламент (лист + печать/галочка)",
+    "term": "document",
+    "candidates": [
+      {
+        "id": 493061,
+        "title": "Document",
+        "slug": "document",
+        "author": "icons8",
+        "collectionId": 6785,
+        "pageUrl": "https://www.svgviewer.dev/s/493061/document",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/493061/document.svg"
+      },
+      {
+        "id": 492814,
+        "title": "Document",
+        "slug": "document",
+        "author": "icons8",
+        "collectionId": 6784,
+        "pageUrl": "https://www.svgviewer.dev/s/492814/document",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/492814/document.svg"
+      },
+      {
+        "id": 489242,
+        "title": "Document",
+        "slug": "document",
+        "author": "michaelampr",
+        "collectionId": 6776,
+        "pageUrl": "https://www.svgviewer.dev/s/489242/document",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/489242/document.svg"
+      }
+    ],
+    "selected": {
+      "id": 492814,
+      "title": "Document",
+      "slug": "document",
+      "author": "icons8",
+      "collectionId": 6784,
+      "pageUrl": "https://www.svgviewer.dev/s/492814/document",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/492814/document.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_492814_document.svg"
+  },
+  {
+    "label": "Решения общих собраний акционеров",
+    "scope": "navigation",
+    "context": "deepNav[О компании]/child",
+    "path": "navigation.deepNavTrees.items.children.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: акции/финансы (график + акции/документ).",
+    "meaning": "акции/финансы (график + акции/документ)",
+    "term": "document",
+    "candidates": [
+      {
+        "id": 493061,
+        "title": "Document",
+        "slug": "document",
+        "author": "icons8",
+        "collectionId": 6785,
+        "pageUrl": "https://www.svgviewer.dev/s/493061/document",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/493061/document.svg"
+      },
+      {
+        "id": 492814,
+        "title": "Document",
+        "slug": "document",
+        "author": "icons8",
+        "collectionId": 6784,
+        "pageUrl": "https://www.svgviewer.dev/s/492814/document",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/492814/document.svg"
+      },
+      {
+        "id": 489242,
+        "title": "Document",
+        "slug": "document",
+        "author": "michaelampr",
+        "collectionId": 6776,
+        "pageUrl": "https://www.svgviewer.dev/s/489242/document",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/489242/document.svg"
+      }
+    ],
+    "selected": {
+      "id": 492814,
+      "title": "Document",
+      "slug": "document",
+      "author": "icons8",
+      "collectionId": 6784,
+      "pageUrl": "https://www.svgviewer.dev/s/492814/document",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/492814/document.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_492814_document.svg"
+  },
+  {
+    "label": "Информация для акционеров",
+    "scope": "navigation",
+    "context": "deepNav[О компании]/child",
+    "path": "navigation.deepNavTrees.items.children.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: акции/финансы (график + акции/документ).",
+    "meaning": "акции/финансы (график + акции/документ)",
+    "term": "document",
+    "candidates": [
+      {
+        "id": 493061,
+        "title": "Document",
+        "slug": "document",
+        "author": "icons8",
+        "collectionId": 6785,
+        "pageUrl": "https://www.svgviewer.dev/s/493061/document",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/493061/document.svg"
+      },
+      {
+        "id": 492814,
+        "title": "Document",
+        "slug": "document",
+        "author": "icons8",
+        "collectionId": 6784,
+        "pageUrl": "https://www.svgviewer.dev/s/492814/document",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/492814/document.svg"
+      },
+      {
+        "id": 489242,
+        "title": "Document",
+        "slug": "document",
+        "author": "michaelampr",
+        "collectionId": 6776,
+        "pageUrl": "https://www.svgviewer.dev/s/489242/document",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/489242/document.svg"
+      }
+    ],
+    "selected": {
+      "id": 492814,
+      "title": "Document",
+      "slug": "document",
+      "author": "icons8",
+      "collectionId": 6784,
+      "pageUrl": "https://www.svgviewer.dev/s/492814/document",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/492814/document.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_492814_document.svg"
+  },
+  {
+    "label": "О регистраторе",
+    "scope": "navigation",
+    "context": "deepNav[О компании]/child",
+    "path": "navigation.deepNavTrees.items.children.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: регистратор/реестр (книга/папка + печать).",
+    "meaning": "регистратор/реестр (книга/папка + печать)",
+    "term": "document",
+    "candidates": [
+      {
+        "id": 493061,
+        "title": "Document",
+        "slug": "document",
+        "author": "icons8",
+        "collectionId": 6785,
+        "pageUrl": "https://www.svgviewer.dev/s/493061/document",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/493061/document.svg"
+      },
+      {
+        "id": 492814,
+        "title": "Document",
+        "slug": "document",
+        "author": "icons8",
+        "collectionId": 6784,
+        "pageUrl": "https://www.svgviewer.dev/s/492814/document",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/492814/document.svg"
+      },
+      {
+        "id": 489242,
+        "title": "Document",
+        "slug": "document",
+        "author": "michaelampr",
+        "collectionId": 6776,
+        "pageUrl": "https://www.svgviewer.dev/s/489242/document",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/489242/document.svg"
+      }
+    ],
+    "selected": {
+      "id": 492814,
+      "title": "Document",
+      "slug": "document",
+      "author": "icons8",
+      "collectionId": 6784,
+      "pageUrl": "https://www.svgviewer.dev/s/492814/document",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/492814/document.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_492814_document.svg"
+  },
+  {
+    "label": "Документация",
+    "scope": "navigation",
+    "context": "deepNav[Документы]/item",
+    "path": "navigation.deepNavTrees.items.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: документ/регламент (лист + печать/галочка).",
+    "meaning": "документ/регламент (лист + печать/галочка)",
+    "term": "document",
+    "candidates": [
+      {
+        "id": 493061,
+        "title": "Document",
+        "slug": "document",
+        "author": "icons8",
+        "collectionId": 6785,
+        "pageUrl": "https://www.svgviewer.dev/s/493061/document",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/493061/document.svg"
+      },
+      {
+        "id": 492814,
+        "title": "Document",
+        "slug": "document",
+        "author": "icons8",
+        "collectionId": 6784,
+        "pageUrl": "https://www.svgviewer.dev/s/492814/document",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/492814/document.svg"
+      },
+      {
+        "id": 489242,
+        "title": "Document",
+        "slug": "document",
+        "author": "michaelampr",
+        "collectionId": 6776,
+        "pageUrl": "https://www.svgviewer.dev/s/489242/document",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/489242/document.svg"
+      }
+    ],
+    "selected": {
+      "id": 492814,
+      "title": "Document",
+      "slug": "document",
+      "author": "icons8",
+      "collectionId": 6784,
+      "pageUrl": "https://www.svgviewer.dev/s/492814/document",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/492814/document.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_492814_document.svg"
+  },
+  {
+    "label": "Лицензии и СРО +",
+    "scope": "navigation",
+    "context": "deepNav[Документы]/item",
+    "path": "navigation.deepNavTrees.items.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: лицензия/сертификат (лист + печать).",
+    "meaning": "лицензия/сертификат (лист + печать)",
+    "term": "document",
+    "candidates": [
+      {
+        "id": 493061,
+        "title": "Document",
+        "slug": "document",
+        "author": "icons8",
+        "collectionId": 6785,
+        "pageUrl": "https://www.svgviewer.dev/s/493061/document",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/493061/document.svg"
+      },
+      {
+        "id": 492814,
+        "title": "Document",
+        "slug": "document",
+        "author": "icons8",
+        "collectionId": 6784,
+        "pageUrl": "https://www.svgviewer.dev/s/492814/document",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/492814/document.svg"
+      },
+      {
+        "id": 489242,
+        "title": "Document",
+        "slug": "document",
+        "author": "michaelampr",
+        "collectionId": 6776,
+        "pageUrl": "https://www.svgviewer.dev/s/489242/document",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/489242/document.svg"
+      }
+    ],
+    "selected": {
+      "id": 492814,
+      "title": "Document",
+      "slug": "document",
+      "author": "icons8",
+      "collectionId": 6784,
+      "pageUrl": "https://www.svgviewer.dev/s/492814/document",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/492814/document.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_492814_document.svg"
+  },
+  {
+    "label": "Оферты",
+    "scope": "navigation",
+    "context": "deepNav[Документы]/item",
+    "path": "navigation.deepNavTrees.items.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: договор/оферта (лист + подпись).",
+    "meaning": "договор/оферта (лист + подпись)",
+    "term": "document",
+    "candidates": [
+      {
+        "id": 493061,
+        "title": "Document",
+        "slug": "document",
+        "author": "icons8",
+        "collectionId": 6785,
+        "pageUrl": "https://www.svgviewer.dev/s/493061/document",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/493061/document.svg"
+      },
+      {
+        "id": 492814,
+        "title": "Document",
+        "slug": "document",
+        "author": "icons8",
+        "collectionId": 6784,
+        "pageUrl": "https://www.svgviewer.dev/s/492814/document",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/492814/document.svg"
+      },
+      {
+        "id": 489242,
+        "title": "Document",
+        "slug": "document",
+        "author": "michaelampr",
+        "collectionId": 6776,
+        "pageUrl": "https://www.svgviewer.dev/s/489242/document",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/489242/document.svg"
+      }
+    ],
+    "selected": {
+      "id": 492814,
+      "title": "Document",
+      "slug": "document",
+      "author": "icons8",
+      "collectionId": 6784,
+      "pageUrl": "https://www.svgviewer.dev/s/492814/document",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/492814/document.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_492814_document.svg"
+  },
+  {
+    "label": "Формы типовых документов",
+    "scope": "navigation",
+    "context": "deepNav[Документы]/item",
+    "path": "navigation.deepNavTrees.items.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: документ/регламент (лист + печать/галочка).",
+    "meaning": "документ/регламент (лист + печать/галочка)",
+    "term": "document",
+    "candidates": [
+      {
+        "id": 493061,
+        "title": "Document",
+        "slug": "document",
+        "author": "icons8",
+        "collectionId": 6785,
+        "pageUrl": "https://www.svgviewer.dev/s/493061/document",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/493061/document.svg"
+      },
+      {
+        "id": 492814,
+        "title": "Document",
+        "slug": "document",
+        "author": "icons8",
+        "collectionId": 6784,
+        "pageUrl": "https://www.svgviewer.dev/s/492814/document",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/492814/document.svg"
+      },
+      {
+        "id": 489242,
+        "title": "Document",
+        "slug": "document",
+        "author": "michaelampr",
+        "collectionId": 6776,
+        "pageUrl": "https://www.svgviewer.dev/s/489242/document",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/489242/document.svg"
+      }
+    ],
+    "selected": {
+      "id": 492814,
+      "title": "Document",
+      "slug": "document",
+      "author": "icons8",
+      "collectionId": 6784,
+      "pageUrl": "https://www.svgviewer.dev/s/492814/document",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/492814/document.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_492814_document.svg"
+  },
+  {
+    "label": "Стандарты раскрытия информации",
+    "scope": "navigation",
+    "context": "deepNav[Документы]/item",
+    "path": "navigation.deepNavTrees.items.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: раскрытие информации (документ + глаз/замок).",
+    "meaning": "раскрытие информации (документ + глаз/замок)",
+    "term": "lock",
+    "candidates": [
+      {
+        "id": 501701,
+        "title": "Lock",
+        "slug": "lock",
+        "author": "Mary Akveo",
+        "collectionId": 7044,
+        "pageUrl": "https://www.svgviewer.dev/s/501701/lock",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/501701/lock.svg"
+      },
+      {
+        "id": 498507,
+        "title": "Lock",
+        "slug": "lock",
+        "author": "Mary Akveo",
+        "collectionId": 7043,
+        "pageUrl": "https://www.svgviewer.dev/s/498507/lock",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/498507/lock.svg"
+      },
+      {
+        "id": 495639,
+        "title": "Lock",
+        "slug": "lock",
+        "author": "Mary Akveo",
+        "collectionId": 7042,
+        "pageUrl": "https://www.svgviewer.dev/s/495639/lock",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/495639/lock.svg"
+      }
+    ],
+    "selected": {
+      "id": 495639,
+      "title": "Lock",
+      "slug": "lock",
+      "author": "Mary Akveo",
+      "collectionId": 7042,
+      "pageUrl": "https://www.svgviewer.dev/s/495639/lock",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/495639/lock.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_495639_lock.svg"
+  },
+  {
+    "label": "Спецоценка условий труда",
+    "scope": "navigation",
+    "context": "deepNav[Документы]/item",
+    "path": "navigation.deepNavTrees.items.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: оценка условий труда (каска + чек‑лист).",
+    "meaning": "оценка условий труда (каска + чек‑лист)",
+    "term": "document",
+    "candidates": [
+      {
+        "id": 493061,
+        "title": "Document",
+        "slug": "document",
+        "author": "icons8",
+        "collectionId": 6785,
+        "pageUrl": "https://www.svgviewer.dev/s/493061/document",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/493061/document.svg"
+      },
+      {
+        "id": 492814,
+        "title": "Document",
+        "slug": "document",
+        "author": "icons8",
+        "collectionId": 6784,
+        "pageUrl": "https://www.svgviewer.dev/s/492814/document",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/492814/document.svg"
+      },
+      {
+        "id": 489242,
+        "title": "Document",
+        "slug": "document",
+        "author": "michaelampr",
+        "collectionId": 6776,
+        "pageUrl": "https://www.svgviewer.dev/s/489242/document",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/489242/document.svg"
+      }
+    ],
+    "selected": {
+      "id": 492814,
+      "title": "Document",
+      "slug": "document",
+      "author": "icons8",
+      "collectionId": 6784,
+      "pageUrl": "https://www.svgviewer.dev/s/492814/document",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/492814/document.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_492814_document.svg"
+  },
+  {
+    "label": "Предоставление копий документов",
+    "scope": "navigation",
+    "context": "deepNav[Документы]/item",
+    "path": "navigation.deepNavTrees.items.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: документ/регламент (лист + печать/галочка).",
+    "meaning": "документ/регламент (лист + печать/галочка)",
+    "term": "document",
+    "candidates": [
+      {
+        "id": 493061,
+        "title": "Document",
+        "slug": "document",
+        "author": "icons8",
+        "collectionId": 6785,
+        "pageUrl": "https://www.svgviewer.dev/s/493061/document",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/493061/document.svg"
+      },
+      {
+        "id": 492814,
+        "title": "Document",
+        "slug": "document",
+        "author": "icons8",
+        "collectionId": 6784,
+        "pageUrl": "https://www.svgviewer.dev/s/492814/document",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/492814/document.svg"
+      },
+      {
+        "id": 489242,
+        "title": "Document",
+        "slug": "document",
+        "author": "michaelampr",
+        "collectionId": 6776,
+        "pageUrl": "https://www.svgviewer.dev/s/489242/document",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/489242/document.svg"
+      }
+    ],
+    "selected": {
+      "id": 492814,
+      "title": "Document",
+      "slug": "document",
+      "author": "icons8",
+      "collectionId": 6784,
+      "pageUrl": "https://www.svgviewer.dev/s/492814/document",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/492814/document.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_492814_document.svg"
+  },
+  {
+    "label": "Сроки устранения неисправностей",
+    "scope": "navigation",
+    "context": "deepNav[Документы]/item",
+    "path": "navigation.deepNavTrees.items.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: сроки устранения неисправностей (ключ + часы).",
+    "meaning": "сроки устранения неисправностей (ключ + часы)",
+    "term": "clock",
+    "candidates": [
+      {
+        "id": 500649,
+        "title": "Clock",
+        "slug": "clock",
+        "author": "Mary Akveo",
+        "collectionId": 7044,
+        "pageUrl": "https://www.svgviewer.dev/s/500649/clock",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/500649/clock.svg"
+      },
+      {
+        "id": 497401,
+        "title": "Clock",
+        "slug": "clock",
+        "author": "Mary Akveo",
+        "collectionId": 7043,
+        "pageUrl": "https://www.svgviewer.dev/s/497401/clock",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/497401/clock.svg"
+      },
+      {
+        "id": 494728,
+        "title": "Clock",
+        "slug": "clock",
+        "author": "Mary Akveo",
+        "collectionId": 7042,
+        "pageUrl": "https://www.svgviewer.dev/s/494728/clock",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/494728/clock.svg"
+      }
+    ],
+    "selected": {
+      "id": 494728,
+      "title": "Clock",
+      "slug": "clock",
+      "author": "Mary Akveo",
+      "collectionId": 7042,
+      "pageUrl": "https://www.svgviewer.dev/s/494728/clock",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/494728/clock.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_494728_clock.svg"
+  },
+  {
+    "label": "Политика ПДн",
+    "scope": "navigation",
+    "context": "deepNav[Документы]/item",
+    "path": "navigation.deepNavTrees.items.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: политика/персональные данные (документ + щит).",
+    "meaning": "политика/персональные данные (документ + щит)",
+    "term": "shield",
+    "candidates": [
+      {
+        "id": 492477,
+        "title": "Shield",
+        "slug": "shield",
+        "author": "Iconscout",
+        "collectionId": 6783,
+        "pageUrl": "https://www.svgviewer.dev/s/492477/shield",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/492477/shield.svg"
+      },
+      {
+        "id": 489621,
+        "title": "Shield",
+        "slug": "shield",
+        "author": "michaelampr",
+        "collectionId": 6776,
+        "pageUrl": "https://www.svgviewer.dev/s/489621/shield",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/489621/shield.svg"
+      },
+      {
+        "id": 488861,
+        "title": "Shield",
+        "slug": "shield",
+        "author": "Microsoft",
+        "collectionId": 6775,
+        "pageUrl": "https://www.svgviewer.dev/s/488861/shield",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/488861/shield.svg"
+      }
+    ],
+    "selected": {
+      "id": 492477,
+      "title": "Shield",
+      "slug": "shield",
+      "author": "Iconscout",
+      "collectionId": 6783,
+      "pageUrl": "https://www.svgviewer.dev/s/492477/shield",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/492477/shield.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_492477_shield.svg"
+  },
+  {
+    "label": "Политика cookies",
+    "scope": "navigation",
+    "context": "deepNav[Документы]/item",
+    "path": "navigation.deepNavTrees.items.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: политика/персональные данные (документ + щит).",
+    "meaning": "политика/персональные данные (документ + щит)",
+    "term": "shield",
+    "candidates": [
+      {
+        "id": 492477,
+        "title": "Shield",
+        "slug": "shield",
+        "author": "Iconscout",
+        "collectionId": 6783,
+        "pageUrl": "https://www.svgviewer.dev/s/492477/shield",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/492477/shield.svg"
+      },
+      {
+        "id": 489621,
+        "title": "Shield",
+        "slug": "shield",
+        "author": "michaelampr",
+        "collectionId": 6776,
+        "pageUrl": "https://www.svgviewer.dev/s/489621/shield",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/489621/shield.svg"
+      },
+      {
+        "id": 488861,
+        "title": "Shield",
+        "slug": "shield",
+        "author": "Microsoft",
+        "collectionId": 6775,
+        "pageUrl": "https://www.svgviewer.dev/s/488861/shield",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/488861/shield.svg"
+      }
+    ],
+    "selected": {
+      "id": 492477,
+      "title": "Shield",
+      "slug": "shield",
+      "author": "Iconscout",
+      "collectionId": 6783,
+      "pageUrl": "https://www.svgviewer.dev/s/492477/shield",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/492477/shield.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_492477_shield.svg"
+  },
+  {
+    "label": "Политика охраны труда",
+    "scope": "navigation",
+    "context": "deepNav[Документы]/item",
+    "path": "navigation.deepNavTrees.items.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: охрана/безопасность (щит/замок).",
+    "meaning": "охрана/безопасность (щит/замок)",
+    "term": "shield",
+    "candidates": [
+      {
+        "id": 492477,
+        "title": "Shield",
+        "slug": "shield",
+        "author": "Iconscout",
+        "collectionId": 6783,
+        "pageUrl": "https://www.svgviewer.dev/s/492477/shield",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/492477/shield.svg"
+      },
+      {
+        "id": 489621,
+        "title": "Shield",
+        "slug": "shield",
+        "author": "michaelampr",
+        "collectionId": 6776,
+        "pageUrl": "https://www.svgviewer.dev/s/489621/shield",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/489621/shield.svg"
+      },
+      {
+        "id": 488861,
+        "title": "Shield",
+        "slug": "shield",
+        "author": "Microsoft",
+        "collectionId": 6775,
+        "pageUrl": "https://www.svgviewer.dev/s/488861/shield",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/488861/shield.svg"
+      }
+    ],
+    "selected": {
+      "id": 492477,
+      "title": "Shield",
+      "slug": "shield",
+      "author": "Iconscout",
+      "collectionId": 6783,
+      "pageUrl": "https://www.svgviewer.dev/s/492477/shield",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/492477/shield.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_492477_shield.svg"
+  },
+  {
+    "label": "Существенные факты",
+    "scope": "navigation",
+    "context": "deepNav[Раскрытие информации]/item",
+    "path": "navigation.deepNavTrees.items.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: важные факты (документ + восклицание).",
+    "meaning": "важные факты (документ + восклицание)",
+    "term": "document",
+    "candidates": [
+      {
+        "id": 493061,
+        "title": "Document",
+        "slug": "document",
+        "author": "icons8",
+        "collectionId": 6785,
+        "pageUrl": "https://www.svgviewer.dev/s/493061/document",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/493061/document.svg"
+      },
+      {
+        "id": 492814,
+        "title": "Document",
+        "slug": "document",
+        "author": "icons8",
+        "collectionId": 6784,
+        "pageUrl": "https://www.svgviewer.dev/s/492814/document",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/492814/document.svg"
+      },
+      {
+        "id": 489242,
+        "title": "Document",
+        "slug": "document",
+        "author": "michaelampr",
+        "collectionId": 6776,
+        "pageUrl": "https://www.svgviewer.dev/s/489242/document",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/489242/document.svg"
+      }
+    ],
+    "selected": {
+      "id": 492814,
+      "title": "Document",
+      "slug": "document",
+      "author": "icons8",
+      "collectionId": 6784,
+      "pageUrl": "https://www.svgviewer.dev/s/492814/document",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/492814/document.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_492814_document.svg"
+  },
+  {
+    "label": "Список аффилированных лиц",
+    "scope": "navigation",
+    "context": "deepNav[Раскрытие информации]/item",
+    "path": "navigation.deepNavTrees.items.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: связанные лица (группа людей + связи).",
+    "meaning": "связанные лица (группа людей + связи)",
+    "term": "link",
+    "candidates": [
+      {
+        "id": 501730,
+        "title": "Link",
+        "slug": "link",
+        "author": "Mary Akveo",
+        "collectionId": 7044,
+        "pageUrl": "https://www.svgviewer.dev/s/501730/link",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/501730/link.svg"
+      },
+      {
+        "id": 498469,
+        "title": "Link",
+        "slug": "link",
+        "author": "Mary Akveo",
+        "collectionId": 7043,
+        "pageUrl": "https://www.svgviewer.dev/s/498469/link",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/498469/link.svg"
+      },
+      {
+        "id": 495606,
+        "title": "Link",
+        "slug": "link",
+        "author": "Mary Akveo",
+        "collectionId": 7042,
+        "pageUrl": "https://www.svgviewer.dev/s/495606/link",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/495606/link.svg"
+      }
+    ],
+    "selected": {
+      "id": 495606,
+      "title": "Link",
+      "slug": "link",
+      "author": "Mary Akveo",
+      "collectionId": 7042,
+      "pageUrl": "https://www.svgviewer.dev/s/495606/link",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/495606/link.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_495606_link.svg"
+  },
+  {
+    "label": "Отчеты эмитента",
+    "scope": "navigation",
+    "context": "deepNav[Раскрытие информации]/item",
+    "path": "navigation.deepNavTrees.items.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: автоматизированная отчетность (документ + шестерня).",
+    "meaning": "автоматизированная отчетность (документ + шестерня)",
+    "term": "document",
+    "candidates": [
+      {
+        "id": 493061,
+        "title": "Document",
+        "slug": "document",
+        "author": "icons8",
+        "collectionId": 6785,
+        "pageUrl": "https://www.svgviewer.dev/s/493061/document",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/493061/document.svg"
+      },
+      {
+        "id": 492814,
+        "title": "Document",
+        "slug": "document",
+        "author": "icons8",
+        "collectionId": 6784,
+        "pageUrl": "https://www.svgviewer.dev/s/492814/document",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/492814/document.svg"
+      },
+      {
+        "id": 489242,
+        "title": "Document",
+        "slug": "document",
+        "author": "michaelampr",
+        "collectionId": 6776,
+        "pageUrl": "https://www.svgviewer.dev/s/489242/document",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/489242/document.svg"
+      }
+    ],
+    "selected": {
+      "id": 492814,
+      "title": "Document",
+      "slug": "document",
+      "author": "icons8",
+      "collectionId": 6784,
+      "pageUrl": "https://www.svgviewer.dev/s/492814/document",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/492814/document.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_492814_document.svg"
+  },
+  {
+    "label": "Годовые отчеты/фин. отчетность",
+    "scope": "navigation",
+    "context": "deepNav[Раскрытие информации]/item",
+    "path": "navigation.deepNavTrees.items.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: автоматизированная отчетность (документ + шестерня).",
+    "meaning": "автоматизированная отчетность (документ + шестерня)",
+    "term": "document",
+    "candidates": [
+      {
+        "id": 493061,
+        "title": "Document",
+        "slug": "document",
+        "author": "icons8",
+        "collectionId": 6785,
+        "pageUrl": "https://www.svgviewer.dev/s/493061/document",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/493061/document.svg"
+      },
+      {
+        "id": 492814,
+        "title": "Document",
+        "slug": "document",
+        "author": "icons8",
+        "collectionId": 6784,
+        "pageUrl": "https://www.svgviewer.dev/s/492814/document",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/492814/document.svg"
+      },
+      {
+        "id": 489242,
+        "title": "Document",
+        "slug": "document",
+        "author": "michaelampr",
+        "collectionId": 6776,
+        "pageUrl": "https://www.svgviewer.dev/s/489242/document",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/489242/document.svg"
+      }
+    ],
+    "selected": {
+      "id": 492814,
+      "title": "Document",
+      "slug": "document",
+      "author": "icons8",
+      "collectionId": 6784,
+      "pageUrl": "https://www.svgviewer.dev/s/492814/document",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/492814/document.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_492814_document.svg"
+  },
+  {
+    "label": "Перечень инсайдерской информации",
+    "scope": "navigation",
+    "context": "deepNav[Раскрытие информации]/item",
+    "path": "navigation.deepNavTrees.items.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: раскрытие информации (документ + глаз/замок).",
+    "meaning": "раскрытие информации (документ + глаз/замок)",
+    "term": "lock",
+    "candidates": [
+      {
+        "id": 501701,
+        "title": "Lock",
+        "slug": "lock",
+        "author": "Mary Akveo",
+        "collectionId": 7044,
+        "pageUrl": "https://www.svgviewer.dev/s/501701/lock",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/501701/lock.svg"
+      },
+      {
+        "id": 498507,
+        "title": "Lock",
+        "slug": "lock",
+        "author": "Mary Akveo",
+        "collectionId": 7043,
+        "pageUrl": "https://www.svgviewer.dev/s/498507/lock",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/498507/lock.svg"
+      },
+      {
+        "id": 495639,
+        "title": "Lock",
+        "slug": "lock",
+        "author": "Mary Akveo",
+        "collectionId": 7042,
+        "pageUrl": "https://www.svgviewer.dev/s/495639/lock",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/495639/lock.svg"
+      }
+    ],
+    "selected": {
+      "id": 495639,
+      "title": "Lock",
+      "slug": "lock",
+      "author": "Mary Akveo",
+      "collectionId": 7042,
+      "pageUrl": "https://www.svgviewer.dev/s/495639/lock",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/495639/lock.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_495639_lock.svg"
+  },
+  {
+    "label": "Структура акционерного капитала",
+    "scope": "navigation",
+    "context": "deepNav[Раскрытие информации]/item",
+    "path": "navigation.deepNavTrees.items.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: акции/финансы (график + акции/документ).",
+    "meaning": "акции/финансы (график + акции/документ)",
+    "term": "document",
+    "candidates": [
+      {
+        "id": 493061,
+        "title": "Document",
+        "slug": "document",
+        "author": "icons8",
+        "collectionId": 6785,
+        "pageUrl": "https://www.svgviewer.dev/s/493061/document",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/493061/document.svg"
+      },
+      {
+        "id": 492814,
+        "title": "Document",
+        "slug": "document",
+        "author": "icons8",
+        "collectionId": 6784,
+        "pageUrl": "https://www.svgviewer.dev/s/492814/document",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/492814/document.svg"
+      },
+      {
+        "id": 489242,
+        "title": "Document",
+        "slug": "document",
+        "author": "michaelampr",
+        "collectionId": 6776,
+        "pageUrl": "https://www.svgviewer.dev/s/489242/document",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/489242/document.svg"
+      }
+    ],
+    "selected": {
+      "id": 492814,
+      "title": "Document",
+      "slug": "document",
+      "author": "icons8",
+      "collectionId": 6784,
+      "pageUrl": "https://www.svgviewer.dev/s/492814/document",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/492814/document.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_492814_document.svg"
+  },
+  {
+    "label": "Выпуск ценных бумаг",
+    "scope": "navigation",
+    "context": "deepNav[Раскрытие информации]/item",
+    "path": "navigation.deepNavTrees.items.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: акции/финансы (график + акции/документ).",
+    "meaning": "акции/финансы (график + акции/документ)",
+    "term": "document",
+    "candidates": [
+      {
+        "id": 493061,
+        "title": "Document",
+        "slug": "document",
+        "author": "icons8",
+        "collectionId": 6785,
+        "pageUrl": "https://www.svgviewer.dev/s/493061/document",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/493061/document.svg"
+      },
+      {
+        "id": 492814,
+        "title": "Document",
+        "slug": "document",
+        "author": "icons8",
+        "collectionId": 6784,
+        "pageUrl": "https://www.svgviewer.dev/s/492814/document",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/492814/document.svg"
+      },
+      {
+        "id": 489242,
+        "title": "Document",
+        "slug": "document",
+        "author": "michaelampr",
+        "collectionId": 6776,
+        "pageUrl": "https://www.svgviewer.dev/s/489242/document",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/489242/document.svg"
+      }
+    ],
+    "selected": {
+      "id": 492814,
+      "title": "Document",
+      "slug": "document",
+      "author": "icons8",
+      "collectionId": 6784,
+      "pageUrl": "https://www.svgviewer.dev/s/492814/document",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/492814/document.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_492814_document.svg"
+  },
+  {
+    "label": "Подключение объектов",
+    "scope": "navigation",
+    "context": "deepNav[Застройщикам]/item",
+    "path": "navigation.deepNavTrees.items.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: подключение объекта (разъем/кабель + здание).",
+    "meaning": "подключение объекта (разъем/кабель + здание)",
+    "term": "plug",
+    "candidates": [
+      {
+        "id": 492410,
+        "title": "Plug",
+        "slug": "plug",
+        "author": "Iconscout",
+        "collectionId": 6783,
+        "pageUrl": "https://www.svgviewer.dev/s/492410/plug",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/492410/plug.svg"
+      },
+      {
+        "id": 489564,
+        "title": "Plug",
+        "slug": "plug",
+        "author": "michaelampr",
+        "collectionId": 6776,
+        "pageUrl": "https://www.svgviewer.dev/s/489564/plug",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/489564/plug.svg"
+      },
+      {
+        "id": 488841,
+        "title": "Plug",
+        "slug": "plug",
+        "author": "Microsoft",
+        "collectionId": 6775,
+        "pageUrl": "https://www.svgviewer.dev/s/488841/plug",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/488841/plug.svg"
+      }
+    ],
+    "selected": {
+      "id": 492410,
+      "title": "Plug",
+      "slug": "plug",
+      "author": "Iconscout",
+      "collectionId": 6783,
+      "pageUrl": "https://www.svgviewer.dev/s/492410/plug",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/492410/plug.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_492410_plug.svg"
+  },
+  {
+    "label": "Компенсация потерь",
+    "scope": "navigation",
+    "context": "deepNav[Застройщикам]/item",
+    "path": "navigation.deepNavTrees.items.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: компенсация (щит + монета).",
+    "meaning": "компенсация (щит + монета)",
+    "term": "shield",
+    "candidates": [
+      {
+        "id": 492477,
+        "title": "Shield",
+        "slug": "shield",
+        "author": "Iconscout",
+        "collectionId": 6783,
+        "pageUrl": "https://www.svgviewer.dev/s/492477/shield",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/492477/shield.svg"
+      },
+      {
+        "id": 489621,
+        "title": "Shield",
+        "slug": "shield",
+        "author": "michaelampr",
+        "collectionId": 6776,
+        "pageUrl": "https://www.svgviewer.dev/s/489621/shield",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/489621/shield.svg"
+      },
+      {
+        "id": 488861,
+        "title": "Shield",
+        "slug": "shield",
+        "author": "Microsoft",
+        "collectionId": 6775,
+        "pageUrl": "https://www.svgviewer.dev/s/488861/shield",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/488861/shield.svg"
+      }
+    ],
+    "selected": {
+      "id": 492477,
+      "title": "Shield",
+      "slug": "shield",
+      "author": "Iconscout",
+      "collectionId": 6783,
+      "pageUrl": "https://www.svgviewer.dev/s/492477/shield",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/492477/shield.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_492477_shield.svg"
+  },
+  {
+    "label": "Цифровые решения",
+    "scope": "navigation",
+    "context": "deepNav[Застройщикам]/item",
+    "path": "navigation.deepNavTrees.items.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: цифровые решения (микросхема/сеть).",
+    "meaning": "цифровые решения (микросхема/сеть)",
+    "term": "network",
+    "candidates": [
+      {
+        "id": 483565,
+        "title": "Network",
+        "slug": "network",
+        "author": "puppylinux",
+        "collectionId": 6762,
+        "pageUrl": "https://www.svgviewer.dev/s/483565/network",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/483565/network.svg"
+      },
+      {
+        "id": 479778,
+        "title": "Network",
+        "slug": "network",
+        "author": "Templarian",
+        "collectionId": 6748,
+        "pageUrl": "https://www.svgviewer.dev/s/479778/network",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/479778/network.svg"
+      },
+      {
+        "id": 471465,
+        "title": "Network",
+        "slug": "network",
+        "author": "artcoholic",
+        "collectionId": 6727,
+        "pageUrl": "https://www.svgviewer.dev/s/471465/network",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/471465/network.svg"
+      }
+    ],
+    "selected": {
+      "id": 479778,
+      "title": "Network",
+      "slug": "network",
+      "author": "Templarian",
+      "collectionId": 6748,
+      "pageUrl": "https://www.svgviewer.dev/s/479778/network",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/479778/network.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_479778_network.svg"
+  },
+  {
+    "label": "Контактные данные",
+    "scope": "navigation",
+    "context": "deepNav[Детали]/item",
+    "path": "navigation.deepNavTrees.items.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: контактные данные (телефон + конверт).",
+    "meaning": "контактные данные (телефон + конверт)",
+    "term": "data",
+    "candidates": [
+      {
+        "id": 489955,
+        "title": "Data",
+        "slug": "data",
+        "author": "mapshakers",
+        "collectionId": 6777,
+        "pageUrl": "https://www.svgviewer.dev/s/489955/data",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/489955/data.svg"
+      },
+      {
+        "id": 482851,
+        "title": "Data",
+        "slug": "data",
+        "author": "spothq",
+        "collectionId": 6760,
+        "pageUrl": "https://www.svgviewer.dev/s/482851/data",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/482851/data.svg"
+      },
+      {
+        "id": 482377,
+        "title": "Data",
+        "slug": "data",
+        "author": "spothq",
+        "collectionId": 6759,
+        "pageUrl": "https://www.svgviewer.dev/s/482377/data",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/482377/data.svg"
+      }
+    ],
+    "selected": {
+      "id": 482377,
+      "title": "Data",
+      "slug": "data",
+      "author": "spothq",
+      "collectionId": 6759,
+      "pageUrl": "https://www.svgviewer.dev/s/482377/data",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/482377/data.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_482377_data.svg"
+  },
+  {
+    "label": "Банковские реквизиты",
+    "scope": "navigation",
+    "context": "deepNav[Детали]/item",
+    "path": "navigation.deepNavTrees.items.icon",
+    "prompt": "Google Stitch: монохромная контурная иконка, 1:1, 512x512, прозрачный фон, стиль enterprise/minimal, без текста. Смысл: банковские реквизиты (банк + карта).",
+    "meaning": "банковские реквизиты (банк + карта)",
+    "term": "building",
+    "candidates": [
+      {
+        "id": 491762,
+        "title": "Building",
+        "slug": "building",
+        "author": "Iconscout",
+        "collectionId": 6783,
+        "pageUrl": "https://www.svgviewer.dev/s/491762/building",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/491762/building.svg"
+      },
+      {
+        "id": 490100,
+        "title": "Building",
+        "slug": "building",
+        "author": "mapbox",
+        "collectionId": 6778,
+        "pageUrl": "https://www.svgviewer.dev/s/490100/building",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/490100/building.svg"
+      },
+      {
+        "id": 489946,
+        "title": "Building",
+        "slug": "building",
+        "author": "mapshakers",
+        "collectionId": 6777,
+        "pageUrl": "https://www.svgviewer.dev/s/489946/building",
+        "svgUrl": "https://www.svgviewer.dev/static-svgs/489946/building.svg"
+      }
+    ],
+    "selected": {
+      "id": 491762,
+      "title": "Building",
+      "slug": "building",
+      "author": "Iconscout",
+      "collectionId": 6783,
+      "pageUrl": "https://www.svgviewer.dev/s/491762/building",
+      "svgUrl": "https://www.svgviewer.dev/static-svgs/491762/building.svg"
+    },
+    "selectedPath": "/Users/andrey_efremov/Downloads/runs/design/svgviewer_selected/svgviewer_491762_building.svg"
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_page_service_cta_banners",
+  "info": {
+    "displayName": "Service CTA Banner",
+    "description": "CTA баннер (Готовы к цифровой трансформации?) для TPL_Service"
+  },
+  "options": {},
+  "attributes": {
+    "isVisible": {
+      "type": "boolean",
+      "default": false
+    },
+    "title": {
+      "type": "string",
+      "default": "Готовы к цифровой трансформации?"
+    },
+    "subtitle": {
+      "type": "text",
+      "default": "Оставьте заявку сегодня и получите бесплатную консультацию эксперта по проектированию ИТ-инфраструктуры вашего предприятия."
+    },
+    "buttonText": {
+      "type": "string",
+      "default": "Связаться с нами"
+    },
+    "buttonHref": {
+      "type": "string",
+      "default": "#"
+    },
+    "note": {
+      "type": "string",
+      "default": "Отвечаем в течение 15 минут в рабочее время"
+    },
+    "icon": {
+      "type": "string",
+      "customField": "plugin::icon-picker.icon"
+    }
+  }
+}

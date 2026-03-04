@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_page_how_to_connects",
+  "info": {
+    "displayName": "How To Connect",
+    "description": "Раздел с инструкцией по подключению услуги. CSS классы: how-to-connect (контейнер), how-to-connect__title (заголовок), how-to-connect__steps (контейнер шагов), how-to-connect__step (шаг подключения)"
+  },
+  "options": {},
+  "attributes": {
+    "isVisible": {
+      "type": "boolean",
+      "default": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "steps": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.how-to-connect-step"
+    },
+    "content": {
+      "type": "richtext",
+      "description": "HTML контент раздела"
+    }
+  }
+}

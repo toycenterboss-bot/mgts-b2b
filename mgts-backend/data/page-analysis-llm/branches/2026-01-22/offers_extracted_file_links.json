@@ -1,0 +1,20 @@
+{
+  "Оферта для индивидуальной застройки (авансовый платеж)": {
+    "href": "https://business.mgts.ru/static/files/offer/Oferta_AMT_dlya_individualnoy_zastroyki_avansovyy_platezh.pdf",
+    "fileName": "Oferta_AMT_dlya_individualnoy_zastroyki_avansovyy_platezh.pdf",
+    "fileType": "pdf",
+    "title": ""
+  },
+  "Оферта для многоквартирной застройки (авансовый платеж)": {
+    "href": "https://business.mgts.ru/static/files/offer/Oferta_AMT_dlya_mnogokvartirnoy_zastroyki_avansovyy_platezh.pdf",
+    "fileName": "Oferta_AMT_dlya_mnogokvartirnoy_zastroyki_avansovyy_platezh.pdf",
+    "fileType": "pdf",
+    "title": ""
+  },
+  "Оферта (отложенный платеж)": {
+    "href": "https://business.mgts.ru/static/files/offer/oferta_AMT_otlozhennyy_platezh.pdf",
+    "fileName": "oferta_AMT_otlozhennyy_platezh.pdf",
+    "fileType": "pdf",
+    "title": ""
+  }
+}

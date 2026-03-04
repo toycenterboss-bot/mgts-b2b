@@ -1,0 +1,180 @@
+# QA 7C: сопоставление spec.json ↔ Strapi (mapping-based)
+
+- Specs checked (mapping OK): 82
+- Pages missing in API: 0
+- Potential issues: 41
+
+## Potential issues (heuristics)
+- `bank_details` — ONLY_TEXT: page has only section-text
+- `business/equipment_setup` — ONLY_TEXT: page has only section-text
+- `business/equipment_setup/computer_help` — ONLY_TEXT: page has only section-text
+- `business/payment_methods` — ONLY_TEXT: page has only section-text
+- `business/security_alarm` — ONLY_TEXT: page has only section-text
+- `business/video_surveillance_office` — ONLY_TEXT: page has only section-text
+- `developers/compensation_for_losses` — ONLY_TEXT: page has only section-text
+- `developers/connecting_objects` — ONLY_TEXT: page has only section-text
+- `developers/connecting_objects/connecting_commercial` — ONLY_TEXT: page has only section-text
+- `developers/connecting_objects/connecting_construction` — ONLY_TEXT: page has only section-text
+- `developers/connecting_objects/connecting_residential` — ONLY_TEXT: page has only section-text
+- `developers/digital_solutions` — ONLY_TEXT: page has only section-text
+- `government/communications_infrastructure` — ONLY_TEXT: page has only section-text
+- `government/communications_infrastructure/external_communication` — ONLY_TEXT: page has only section-text
+- `government/communications_infrastructure/network_operation` — ONLY_TEXT: page has only section-text
+- `government/communications_infrastructure/structured_cabling_networks` — ONLY_TEXT: page has only section-text
+- `government/digital_services/access_control_systems` — ONLY_TEXT: page has only section-text
+- `government/digital_services/automated_control_systems` — ONLY_TEXT: page has only section-text
+- `government/digital_services/automated_system_monitoring_accounting` — ONLY_TEXT: page has only section-text
+- `government/digital_services/entrance_video_surveillance` — ONLY_TEXT: page has only section-text
+- `government/digital_services/equipment` — ONLY_TEXT: page has only section-text
+- `government/digital_services/introduction_security_tv_systems` — ONLY_TEXT: page has only section-text
+- `government/digital_services/main_and_backup_data_transmission` — ONLY_TEXT: page has only section-text
+- `government/digital_services/video_surveillance_building` — ONLY_TEXT: page has only section-text
+- `government/digital_services/video_surveillance_maintenance` — ONLY_TEXT: page has only section-text
+- `infoformen` — ONLY_TEXT: page has only section-text
+- `labor_safety` — ONLY_TEXT: page has only section-text
+- `licenses` — ONLY_TEXT: page has only section-text
+- `operators/contact_for_operators` — ONLY_TEXT: page has only section-text
+- `operators/data_transfer` — ONLY_TEXT: page has only section-text
+- `operators/infrastructure/accommodation_at_sites` — ONLY_TEXT: page has only section-text
+- `operators/infrastructure/avr_ppr` — ONLY_TEXT: page has only section-text
+- `operators/infrastructure/pir_smr_mgts` — ONLY_TEXT: page has only section-text
+- `operators/nondiscriminatory_access` — ONLY_TEXT: page has only section-text
+- `partners/all_services` — EMPTY_PAGE: no sections in Strapi
+- `partners/creating_work_order` — ONLY_TEXT: page has only section-text
+- `partners/documents` — ONLY_TEXT: page has only section-text
+- `partners/procedure_admission_work` — ONLY_TEXT: page has only section-text
+- `partners/purchas` — ONLY_TEXT: page has only section-text
+- `partners/realization` — ONLY_TEXT: page has only section-text
+- `partners_feedback_form` — ONLY_TEXT: page has only section-text
+
+## Summary by slug
+- `about_mgts`: spec=3 sections; page=3 sections; types spec={'sidebar': 1, 'hero': 1, 'tabs': 1}; page={'page.section-cards': 1, 'page.section-text': 1, 'page.document-tabs': 1}
+- `about_registrar`: spec=7 sections; page=6 sections; types spec={'breadcrumbs': 1, 'hero': 1, 'info-card': 2, 'text-content': 1, 'shares-info': 1, 'faq': 1}; page={'page.section-text': 4, 'page.section-cards': 1, 'page.service-faq': 1}
+- `bank_details`: spec=4 sections; page=2 sections; types spec={'breadcrumbs': 1, 'sidebar': 1, 'hero': 1, 'information-list': 1}; page={'page.section-text': 2}
+- `business`: spec=5 sections; page=4 sections; types spec={'hero': 1, 'services': 1, 'additional-info': 1, 'advantages': 1, 'request-form': 1}; page={'page.section-cards': 4}
+- `business/access_internet`: spec=6 sections; page=8 sections; types spec={'breadcrumbs': 1, 'hero': 1, 'cards': 1, 'tariff_cards': 1, 'accordion': 1, 'contact_form': 1}; page={'page.section-text': 4, 'page.section-cards': 1, 'page.tariff-table': 1, 'page.service-faq': 1, 'page.service-order-form': 1}
+- `business/digital_television`: spec=8 sections; page=7 sections; types spec={'breadcrumbs': 1, 'hero': 1, 'cards': 1, 'tariffs': 1, 'process': 1, 'accordion': 1, 'contact_form': 1, 'contact_info': 1}; page={'page.section-text': 6, 'page.section-cards': 1}
+- `business/equipment_setup`: spec=5 sections; page=5 sections; types spec={'breadcrumbs': 1, 'header': 1, 'sidebar-navigation': 1, 'sidebar-footer': 1, 'step-by-step-guide': 1}; page={'page.section-text': 5}
+- `business/equipment_setup/computer_help`: spec=8 sections; page=6 sections; types spec={'sidebar': 1, 'breadcrumbs': 1, 'hero': 1, 'services': 1, 'description': 1, 'advantages': 1, 'cta-form': 1, 'contacts': 1}; page={'page.section-text': 6}
+- `business/mobile_connection`: spec=6 sections; page=5 sections; types spec={'breadcrumbs': 1, 'hero': 1, 'cards': 1, 'tariffs': 1, 'form': 1, 'contacts': 1}; page={'page.section-text': 4, 'page.section-cards': 1}
+- `business/payment_methods`: spec=9 sections; page=8 sections; types spec={'breadcrumbs': 1, 'hero': 1, 'content': 6, 'cta-form': 1}; page={'page.section-text': 8}
+- `business/security_alarm`: spec=7 sections; page=6 sections; types spec={'hero': 1, 'content': 1, 'list': 1, 'tariffs': 2, 'advantages': 1, 'accordion': 1}; page={'page.section-text': 6}
+- `business/telephony`: spec=4 sections; page=4 sections; types spec={'hero': 1, 'tariffs': 1, 'faq': 1, 'contact-form': 1}; page={'page.section-cards': 1, 'page.section-text': 3}
+- `business/video_surveillance_office`: spec=6 sections; page=5 sections; types spec={'hero': 1, 'advantages': 1, 'tariffs': 1, 'features': 1, 'accordion': 1, 'contacts': 1}; page={'page.section-text': 5}
+- `contact_details`: spec=6 sections; page=5 sections; types spec={'breadcrumb': 1, 'sidebar': 1, 'hero': 1, 'contact-card': 1, 'disclaimer': 1, 'social-networks': 1}; page={'page.section-cards': 2, 'page.section-text': 2, 'page.section-map': 1}
+- `cookie_processing`: spec=11 sections; page=9 sections; types spec={'sidebar': 1, 'breadcrumbs': 1, 'hero': 1, 'content': 8}; page={'page.section-text': 8, 'page.section-cards': 1}
+- `corporate_documents`: spec=4 sections; page=3 sections; types spec={'sidebar': 1, 'breadcrumbs': 1, 'hero': 1, 'tabs': 1}; page={'page.section-text': 2, 'page.document-tabs': 1}
+- `data_processing`: spec=23 sections; page=28 sections; types spec={'sidebar': 1, 'hero': 1, 'content': 18, 'tags': 1, 'list': 2}; page={'page.section-text': 23, 'page.section-table': 4, 'page.section-cards': 1}
+- `decisions_meetings_shareholders`: spec=3 sections; page=2 sections; types spec={'breadcrumbs': 1, 'hero': 1, 'documents-list': 1}; page={'page.section-text': 1, 'page.document-tabs': 1}
+- `developers`: spec=4 sections; page=3 sections; types spec={'hero': 1, 'services': 1, 'advantages': 1, 'request-form': 1}; page={'page.section-cards': 3}
+- `developers/compensation_for_losses`: spec=6 sections; page=5 sections; types spec={'breadcrumbs': 1, 'hero': 1, 'sidebar-content': 1, 'documents': 1, 'forms': 1, 'accordion': 1}; page={'page.section-text': 5}
+- `developers/connecting_objects`: spec=5 sections; page=4 sections; types spec={'breadcrumbs': 1, 'hero': 1, 'services': 1, 'advantages': 1, 'request-form': 1}; page={'page.section-text': 4}
+- `developers/connecting_objects/connecting_commercial`: spec=4 sections; page=3 sections; types spec={'breadcrumbs': 1, 'hero': 1, 'services': 1, 'request-form': 1}; page={'page.section-text': 3}
+- `developers/connecting_objects/connecting_construction`: spec=4 sections; page=3 sections; types spec={'hero': 1, 'features': 1, 'process': 1, 'cta': 1}; page={'page.section-text': 3}
+- `developers/connecting_objects/connecting_residential`: spec=4 sections; page=3 sections; types spec={'hero': 1, 'services': 1, 'documents': 1, 'contact-form': 1}; page={'page.section-text': 3}
+- `developers/digital_solutions`: spec=8 sections; page=7 sections; types spec={'hero': 1, 'services-grid': 1, 'automation-services': 1, 'new-directions': 1, 'smart-security': 1, 'projects-slider': 1, 'download-block': 1, 'cta-form': 1}; page={'page.section-text': 7}
+- `forms_doc`: spec=5 sections; page=5 sections; types spec={'sidebar': 1, 'header': 1, 'content': 1, 'tabs': 1, 'document_list': 1}; page={'page.section-text': 3, 'page.section-cards': 1, 'page.document-tabs': 1}
+- `general_director_message`: spec=3 sections; page=3 sections; types spec={'sidebar': 1, 'hero': 1, 'contact': 1}; page={'page.section-text': 2, 'page.ceo-feedback': 1}
+- `government`: spec=4 sections; page=3 sections; types spec={'hero': 1, 'tags': 1, 'services': 1, 'contact-form': 1}; page={'page.section-text': 1, 'page.section-cards': 2}
+- `government/all_services`: spec=8 sections; page=8 sections; types spec={'breadcrumbs': 1, 'hero': 1, 'tabs': 1, 'services-grid': 2, 'services-subgroup': 3}; page={'page.section-text': 7, 'page.document-tabs': 1}
+- `government/communications_infrastructure`: spec=5 sections; page=4 sections; types spec={'breadcrumbs': 1, 'hero': 1, 'services': 1, 'advantages': 1, 'contact-form': 1}; page={'page.section-text': 4}
+- `government/communications_infrastructure/external_communication`: spec=5 sections; page=4 sections; types spec={'breadcrumbs': 1, 'hero': 1, 'services': 1, 'experience': 1, 'contact-form': 1}; page={'page.section-text': 4}
+- `government/communications_infrastructure/local_computing_network`: spec=5 sections; page=4 sections; types spec={'breadcrumbs': 1, 'hero': 1, 'cards': 2, 'form': 1}; page={'page.section-text': 2, 'page.section-cards': 2}
+- `government/communications_infrastructure/network_operation`: spec=5 sections; page=4 sections; types spec={'breadcrumbs': 1, 'hero': 1, 'services': 1, 'advantages': 1, 'request-form': 1}; page={'page.section-text': 4}
+- `government/communications_infrastructure/structured_cabling_networks`: spec=5 sections; page=4 sections; types spec={'breadcrumbs': 1, 'hero': 1, 'services': 1, 'content': 1, 'cta-form': 1}; page={'page.section-text': 4}
+- `government/customized_solutions`: spec=6 sections; page=5 sections; types spec={'breadcrumbs': 1, 'hero': 1, 'cards': 3, 'form': 1}; page={'page.section-text': 2, 'page.section-cards': 3}
+- `government/digital_services`: spec=14 sections; page=12 sections; types spec={'hero': 1, 'section-header': 1, 'cards': 6, 'services': 1, 'request-form': 1, 'sidebar': 1, 'text': 1, 'form': 1, 'cookie-banner': 1}; page={'page.section-text': 6, 'page.section-cards': 6}
+- `government/digital_services/access_control_systems`: spec=5 sections; page=4 sections; types spec={'breadcrumbs': 1, 'hero': 1, 'services': 1, 'advantages': 1, 'partnership': 1}; page={'page.section-text': 4}
+- `government/digital_services/automated_control_systems`: spec=5 sections; page=4 sections; types spec={'breadcrumbs': 1, 'hero': 1, 'services_grid': 1, 'advantages_grid': 1, 'partnership_cta': 1}; page={'page.section-text': 4}
+- `government/digital_services/automated_system_monitoring_accounting`: spec=5 sections; page=4 sections; types spec={'breadcrumbs': 1, 'hero': 1, 'audience': 1, 'advantages': 1, 'partnership': 1}; page={'page.section-text': 4}
+- `government/digital_services/entrance_video_surveillance`: spec=6 sections; page=5 sections; types spec={'breadcrumbs': 1, 'hero': 1, 'services': 1, 'banner': 1, 'advantages': 1, 'request-form': 1}; page={'page.section-text': 5}
+- `government/digital_services/equipment`: spec=6 sections; page=5 sections; types spec={'breadcrumbs': 1, 'hero': 1, 'services': 1, 'advantages': 1, 'features': 1, 'contact-form': 1}; page={'page.section-text': 5}
+- `government/digital_services/introduction_security_tv_systems`: spec=5 sections; page=4 sections; types spec={'breadcrumbs': 1, 'hero': 1, 'audience': 1, 'advantages': 1, 'partnership-form': 1}; page={'page.section-text': 4}
+- `government/digital_services/main_and_backup_data_transmission`: spec=5 sections; page=4 sections; types spec={'breadcrumbs': 1, 'hero': 1, 'content': 2, 'cta': 1}; page={'page.section-text': 4}
+- `government/digital_services/maintenance_interface_device`: spec=5 sections; page=4 sections; types spec={'breadcrumbs': 1, 'hero': 1, 'cards': 1, 'section': 2}; page={'page.section-text': 3, 'page.section-cards': 1}
+- `government/digital_services/speakerphone`: spec=5 sections; page=4 sections; types spec={'breadcrumbs': 1, 'hero': 1, 'cards': 2, 'cta_section': 1}; page={'page.section-text': 2, 'page.section-cards': 2}
+- `government/digital_services/video_surveillance_building`: spec=9 sections; page=7 sections; types spec={'breadcrumbs': 1, 'hero': 2, 'features': 1, 'control': 1, 'advantages': 1, 'text': 1, 'form': 1, 'feedback': 1}; page={'page.section-text': 7}
+- `government/digital_services/video_surveillance_maintenance`: spec=5 sections; page=4 sections; types spec={'breadcrumbs': 1, 'hero': 1, 'content': 2, 'form': 1}; page={'page.section-text': 4}
+- `infoformen`: spec=49 sections; page=40 sections; types spec={'sidebar': 8, 'hero': 1, 'content': 14, 'notice': 4, 'documents': 2, 'accordion': 13, 'intro': 3, 'file-list': 2, 'text-block': 1, 'files': 1}; page={'page.section-text': 40}
+- `interaction_with_partners`: spec=5 sections; page=4 sections; types spec={'hero': 1, 'sidebar': 1, 'documents': 1, 'text_content': 1, 'feedback': 1}; page={'page.section-text': 3, 'page.section-cards': 1}
+- `labor_safety`: spec=3 sections; page=1 sections; types spec={'sidebar': 1, 'breadcrumbs': 1, 'hero': 1}; page={'page.section-text': 1}
+- `licenses`: spec=5 sections; page=3 sections; types spec={'sidebar': 1, 'breadcrumbs': 1, 'hero': 1, 'files': 1, 'text': 1}; page={'page.section-text': 3}
+- `mgts_compliance_policies`: spec=4 sections; page=3 sections; types spec={'sidebar': 1, 'hero': 1, 'content': 1, 'awards': 1}; page={'page.section-text': 2, 'page.section-cards': 1}
+- `mgts_values`: spec=4 sections; page=3 sections; types spec={'sidebar': 1, 'hero': 1, 'cards': 1, 'notice': 1}; page={'page.section-text': 2, 'page.section-cards': 1}
+- `news`: spec=4 sections; page=2 sections; types spec={'hero': 1, 'news-list': 1, 'sidebar': 1, 'pagination': 1}; page={'page.section-cards': 1, 'page.section-text': 1}
+- `offers`: spec=4 sections; page=3 sections; types spec={'sidebar': 1, 'hero': 1, 'title': 1, 'tabs': 1}; page={'page.section-text': 2, 'page.document-tabs': 1}
+- `operators`: spec=5 sections; page=3 sections; types spec={'hero': 1, 'section-header': 1, 'services': 1, 'advantages': 1, 'contact': 1}; page={'page.section-cards': 3}
+- `operators/all_services`: spec=4 sections; page=4 sections; types spec={'breadcrumbs': 1, 'hero': 1, 'tabs': 1, 'services': 1}; page={'page.section-text': 3, 'page.document-tabs': 1}
+- `operators/contact_for_operators`: spec=3 sections; page=2 sections; types spec={'breadcrumbs': 1, 'sidebar': 1, 'main-content': 1}; page={'page.section-text': 2}
+- `operators/data_transfer`: spec=4 sections; page=3 sections; types spec={'breadcrumbs': 1, 'hero': 1, 'advantages_cards': 1, 'contact_section': 1}; page={'page.section-text': 3}
+- `operators/infrastructure/accommodation_at_sites`: spec=5 sections; page=4 sections; types spec={'breadcrumbs': 1, 'hero': 1, 'advantages': 1, 'addresses-map': 1, 'contact': 1}; page={'page.section-text': 4}
+- `operators/infrastructure/avr_ppr`: spec=4 sections; page=3 sections; types spec={'breadcrumbs': 1, 'hero': 1, 'advantages': 1, 'contact': 1}; page={'page.section-text': 3}
+- `operators/infrastructure/lks_kr`: spec=4 sections; page=3 sections; types spec={'breadcrumbs': 1, 'hero': 1, 'cards': 1, 'cta': 1}; page={'page.section-text': 2, 'page.section-cards': 1}
+- `operators/infrastructure/pir_smr_mgts`: spec=4 sections; page=3 sections; types spec={'breadcrumbs': 1, 'hero': 1, 'services': 1, 'contact': 1}; page={'page.section-text': 3}
+- `operators/joining_and_passing_traffic`: spec=5 sections; page=4 sections; types spec={'breadcrumbs': 1, 'hero': 1, 'cards': 1, 'addresses_with_map': 1, 'contact_section': 1}; page={'page.section-text': 3, 'page.section-cards': 1}
+- `operators/nondiscriminatory_access`: spec=6 sections; page=4 sections; types spec={'breadcrumbs': 1, 'hero': 1, 'content': 3, 'sidebar': 1}; page={'page.section-text': 4}
+- `operinfo`: spec=17 sections; page=14 sections; types spec={'hero': 1, 'header': 1, 'tabs': 1, 'files-list': 1, 'sidebar': 2, 'content': 8, 'documents-section': 2, 'file-list': 1}; page={'page.section-text': 13, 'page.document-tabs': 1}
+- `partners`: spec=5 sections; page=3 sections; types spec={'hero': 1, 'section-header': 1, 'services-grid': 1, 'advantages': 1, 'contact-form': 1}; page={'page.section-cards': 2, 'page.section-text': 1}
+- `partners/all_services`: spec=4 sections; page=0 sections; types spec={'breadcrumbs': 1, 'hero': 1, 'tabs': 1, 'services-cards': 1}; page={}
+- `partners/creating_work_order`: spec=5 sections; page=3 sections; types spec={'breadcrumbs': 1, 'hero': 1, 'sidebar': 1, 'form': 1, 'contact': 1}; page={'page.section-text': 3}
+- `partners/documents`: spec=6 sections; page=6 sections; types spec={'breadcrumbs': 1, 'sidebar-menu': 1, 'content-header': 1, 'tabs-section': 1, 'year-filter-tabs': 1, 'files-list': 1}; page={'page.section-text': 6}
+- `partners/procedure_admission_work`: spec=6 sections; page=4 sections; types spec={'hero': 1, 'sidebar': 1, 'steps': 1, 'modal-cards': 1, 'notice': 1, 'contact-banner': 1}; page={'page.section-text': 4}
+- `partners/purchas`: spec=14 sections; page=12 sections; types spec={'hero': 1, 'content': 6, 'breadcrumb': 1, 'navigation': 1, 'statement': 1, 'files-list': 1, 'files': 1, 'sidebar': 1, 'text': 1}; page={'page.section-text': 12}
+- `partners/ramochnie_dogovori`: spec=7 sections; page=6 sections; types spec={'sidebar': 1, 'breadcrumbs': 1, 'hero': 1, 'tabs': 1, 'content': 2, 'files': 1}; page={'page.section-text': 5, 'page.document-tabs': 1}
+- `partners/realization`: spec=4 sections; page=2 sections; types spec={'sidebar': 1, 'breadcrumbs': 1, 'hero': 1, 'contact-form': 1}; page={'page.section-text': 2}
+- `partners/tariffs`: spec=3 sections; page=2 sections; types spec={'sidebar': 1, 'breadcrumbs': 1, 'hero': 1}; page={'page.section-cards': 1, 'page.section-text': 1}
+- `partners_feedback_form`: spec=3 sections; page=2 sections; types spec={'hero': 1, 'form': 1, 'cookies': 1}; page={'page.section-text': 2}
+- `principles_corporate_manage`: spec=10 sections; page=8 sections; types spec={'sidebar': 1, 'hero': 1, 'text': 6, 'cards': 1, 'images': 1}; page={'page.section-text': 6, 'page.section-cards': 2}
+- `single_hotline`: spec=6 sections; page=5 sections; types spec={'sidebar': 1, 'hero': 1, 'content': 3, 'footer': 1}; page={'page.section-text': 3, 'page.section-cards': 2}
+- `stockholder_copies_document`: spec=5 sections; page=3 sections; types spec={'sidebar': 1, 'breadcrumbs': 1, 'hero': 1, 'content': 1, 'files': 1}; page={'page.section-text': 1, 'page.section-cards': 2}
+- `timing_malfunctions`: spec=3 sections; page=2 sections; types spec={'sidebar': 1, 'breadcrumbs': 1, 'hero': 1}; page={'page.section-cards': 1, 'page.section-text': 1}
+- `virtual_ate`: spec=10 sections; page=9 sections; types spec={'hero': 1, 'advantages': 1, 'cards': 1, 'slider': 1, 'mobile-app-promo': 1, 'connection-guide': 1, 'cta-section': 1, 'content': 2, 'accordion': 1}; page={'page.section-cards': 5, 'page.image-switcher': 1, 'page.section-text': 3}
+- `wca`: spec=4 sections; page=3 sections; types spec={'sidebar': 1, 'hero': 1, 'breadcrumbs': 1, 'tabs': 1}; page={'page.section-text': 2, 'page.document-tabs': 1}
+## Manual QA checklist
+
+- Base: `http://localhost:8002/html_pages/<template>.html?slug=<route>`
+- Status: [ ] to check, [x] done, [~] needs fix
+
+- [x] `bank_details` — URL: `http://localhost:8002/html_pages/tpl_cms_page.html?slug=bank_details` *(verified visually)*
+- [x] `business/equipment_setup` — URL: `http://localhost:8002/html_pages/tpl_service.html?slug=business/equipment_setup`
+- [x] `business/equipment_setup/computer_help` — URL: `http://localhost:8002/html_pages/tpl_service.html?slug=business/equipment_setup/computer_help`
+- [x] `business/payment_methods` — URL: `http://localhost:8002/html_pages/tpl_service.html?slug=business_payment_methods` *(verified visually)*
+- [x] `business/security_alarm` — URL: `http://localhost:8002/html_pages/tpl_service.html?slug=business/security_alarm`
+- [x] `business/video_surveillance_office` — URL: `http://localhost:8002/html_pages/tpl_service.html?slug=video_surveillance_office`
+- [x] `developers/compensation_for_losses` — URL: `http://localhost:8002/html_pages/tpl_cms_page.html?slug=developers_compensation_for_losses` *(TPL_DeepNav; Sidebar FIXED)*
+- [x] `developers/connecting_objects` — URL: `http://localhost:8002/html_pages/tpl_service.html?slug=developers_connecting_objects`
+- [x] `developers/connecting_objects/connecting_commercial` — URL: `http://localhost:8002/html_pages/tpl_service.html?slug=connecting_commercial`
+- [x] `developers/connecting_objects/connecting_construction` — URL: `http://localhost:8002/html_pages/tpl_service.html?slug=connecting_construction`
+- [x] `developers/connecting_objects/connecting_residential` — URL: `http://localhost:8002/html_pages/tpl_service.html?slug=connecting_residential`
+- [x] `developers/digital_solutions` — URL: `http://localhost:8002/html_pages/tpl_service.html?slug=developers_digital_solutions`
+- [x] `government/communications_infrastructure` — URL: `http://localhost:8002/html_pages/tpl_service.html?slug=government_communications_infrastructure`
+- [x] `government/communications_infrastructure/external_communication` — URL: `http://localhost:8002/html_pages/tpl_service.html?slug=external_communication`
+- [x] `government/communications_infrastructure/network_operation` — URL: `http://localhost:8002/html_pages/tpl_service.html?slug=network_operation`
+- [x] `government/communications_infrastructure/structured_cabling_networks` — URL: `http://localhost:8002/html_pages/tpl_service.html?slug=structured_cabling_networks`
+- [x] `government/digital_services/access_control_systems` — URL: `http://localhost:8002/html_pages/tpl_service.html?slug=access_control_systems`
+- [x] `government/digital_services/automated_control_systems` — URL: `http://localhost:8002/html_pages/tpl_service.html?slug=automated_control_systems`
+- [x] `government/digital_services/automated_system_monitoring_accounting` — URL: `http://localhost:8002/html_pages/tpl_service.html?slug=automated_system_monitoring_accounting`
+- [x] `government/digital_services/entrance_video_surveillance` — URL: `http://localhost:8002/html_pages/tpl_service.html?slug=entrance_video_surveillance`
+- [x] `government/digital_services/equipment` — URL: `http://localhost:8002/html_pages/tpl_service.html?slug=equipment`
+- [x] `government/digital_services/introduction_security_tv_systems` — URL: `http://localhost:8002/html_pages/tpl_service.html?slug=introduction_security_tv_systems`
+- [x] `government/digital_services/main_and_backup_data_transmission` — URL: `http://localhost:8002/html_pages/tpl_service.html?slug=main_and_backup_data_transmission`
+- [x] `government/digital_services/video_surveillance_building` — URL: `http://localhost:8002/html_pages/tpl_service.html?slug=video_surveillance_building`
+- [x] `government/digital_services/video_surveillance_maintenance` — URL: `http://localhost:8002/html_pages/tpl_service.html?slug=video_surveillance_maintenance`
+- [x] `infoformen` — URL: `http://localhost:8002/html_pages/tpl_cms_page.html?slug=infoformen` *(accordion spec rebuilt + media links + linkify)*
+- [x] `labor_safety` — URL: `http://localhost:8002/html_pages/tpl_cms_page.html?slug=labor_safety` *(files uploaded + docs table added)*
+- [x] `licenses` — URL: `http://localhost:8002/html_pages/tpl_cms_page.html?slug=licenses`
+- [x] `operators/contact_for_operators` — URL: `http://localhost:8002/html_pages/tpl_cms_page.html?slug=contact_for_operators`
+- [x] `operators/data_transfer` — URL: `http://localhost:8002/html_pages/tpl_service.html?slug=data_transfer`
+- [x] `operators/infrastructure/accommodation_at_sites` — URL: `http://localhost:8002/html_pages/tpl_service.html?slug=operators/infrastructure/accommodation_at_sites`
+- [x] `operators/infrastructure/avr_ppr` — URL: `http://localhost:8002/html_pages/tpl_service.html?slug=avr_ppr`
+- [x] `operators/infrastructure/pir_smr_mgts` — URL: `http://localhost:8002/html_pages/tpl_service.html?slug=pir_smr_mgts`
+
+- [x] `operators/nondiscriminatory_access` — URL: `http://localhost:8002/html_pages/tpl_service.html?slug=operators_nondiscriminatory_access`
+- [~] `partners/all_services` — URL: `http://localhost:8002/html_pages/tpl_segment_landing.html?slug=all_services` *(Sections exist but hidden/not rendering; 404 deep-nav error)*
+- [x] `partners/creating_work_order` — URL: `http://localhost:8002/html_pages/tpl_form_page.html?slug=partners_creating_work_order`
+- [x] `partners/documents` — URL: `http://localhost:8002/html_pages/tpl_doc_page.html?slug=documents` *(Functional Doc Page; 404 deep-nav error but content OK)*
+- [x] `partners/procedure_admission_work` — URL: `http://localhost:8002/html_pages/tpl_doc_page.html?slug=procedure_admission_work`
+- [x] `partners/purchas` — URL: `http://localhost:8002/html_pages/tpl_doc_page.html?slug=partners/purchas`
+- [x] `partners/realization` — URL: `http://localhost:8002/html_pages/tpl_doc_page.html?slug=partners/realization`
+- [x] `partners_feedback_form` — URL: `http://localhost:8002/html_pages/tpl_deepnav.html?slug=partners_feedback_form`
+- [x] `contact_details` — URL: `http://localhost:8002/html_pages/tpl_cms_page.html?slug=contact_details` *(TPL_DeepNav + секции из spec; ok)*

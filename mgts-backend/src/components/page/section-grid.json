@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_page_section_grids",
+  "info": {
+    "displayName": "Section Grid",
+    "description": "Секция с сеткой контента"
+  },
+  "options": {},
+  "attributes": {
+    "isVisible": {
+      "type": "boolean",
+      "default": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.card"
+    },
+    "gridType": {
+      "type": "enumeration",
+      "enum": [
+        "navigation",
+        "info",
+        "service",
+        "tariff",
+        "mixed"
+      ],
+      "default": "mixed",
+      "required": false
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "media-library-fix",
+  "version": "0.1.0",
+  "private": true,
+  "strapi": {
+    "name": "media-library-fix",
+    "displayName": "Media Library Fix",
+    "description": "Enable asset selection in media library modal."
+  }
+}

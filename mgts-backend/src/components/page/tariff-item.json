@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_page_tariff_items",
+  "info": {
+    "displayName": "Tariff Item",
+    "description": "Элемент тарифа"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "price": {
+      "type": "string",
+      "required": true
+    },
+    "pricePeriod": {
+      "type": "string",
+      "default": "/мес"
+    },
+    "isFeatured": {
+      "type": "boolean",
+      "default": false
+    },
+    "badgeText": {
+      "type": "string",
+      "default": "Популярный"
+    },
+    "features": {
+      "type": "text",
+      "required": true
+    },
+    "buttonText": {
+      "type": "string",
+      "default": "Выбрать тариф"
+    },
+    "buttonLink": {
+      "type": "string"
+    }
+  }
+}

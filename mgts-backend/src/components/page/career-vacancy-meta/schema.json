@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_page_career_vacancy_meta",
+  "info": {
+    "displayName": "Career Vacancy Meta",
+    "description": "Мета-информация вакансии (иконка + текст)"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "enumeration",
+      "enum": [
+        "location_on",
+        "work_history",
+        "schedule",
+        "apartment"
+      ],
+      "default": "location_on"
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

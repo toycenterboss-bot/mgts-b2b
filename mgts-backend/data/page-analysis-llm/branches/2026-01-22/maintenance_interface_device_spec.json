@@ -1,0 +1,179 @@
+{
+  "page": {
+    "slug": "maintenance_interface_device",
+    "url": "https://business.mgts.ru/government/digital_services/maintenance_interface_device",
+    "pathname": "/government/digital_services/maintenance_interface_device",
+    "analyzedAt": "2026-01-15T12:36:15.961Z",
+    "screenshot": "/Users/andrey_efremov/Downloads/runs/mgts-backend/temp/page-analysis-llm/maintenance_interface_device_screenshot.png",
+    "llmProvider": "perplexity",
+    "llmModel": "sonar"
+  },
+  "metadata": {
+    "title": "Техническое обслуживание устройства сопряжения"
+  },
+  "sections": [
+    {
+      "sectionIndex": 1,
+      "type": "breadcrumbs",
+      "description": "Навигационная цепочка для ориентации пользователя на странице, показывающая иерархию разделов сайта",
+      "links": {
+        "internalLinks": [
+          {
+            "text": "Главная",
+            "href": "/",
+            "purpose": "Ссылка на главную страницу сайта"
+          },
+          {
+            "text": "Госзаказчикам",
+            "href": "/government",
+            "purpose": "Раздел для государственных заказчиков"
+          },
+          {
+            "text": "Цифровые сервисы",
+            "href": "/government/digital_services",
+            "purpose": "Раздел цифровых сервисов для госзаказчиков"
+          }
+        ],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      }
+    },
+    {
+      "sectionIndex": 2,
+      "type": "hero",
+      "description": "Заголовочный блок страницы с основной информацией об услуге технического обслуживания устройства сопряжения",
+      "title": "Техническое обслуживание устройства сопряжения",
+      "text": "Регулярное техническое обслуживание в соответствии с требованиями технических условий на сопряжение объектовой системы оповещения с региональной системой оповещения населения о чрезвычайных ситуациях",
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      }
+    },
+    {
+      "sectionIndex": 3,
+      "type": "cards",
+      "description": "Блок с тремя карточками преимуществ услуги, расположенными в сетке, каждая с иконкой и описанием",
+      "cards": [
+        {
+          "title": "Техническое состояние",
+          "text": "Контроль за техническим состоянием устройства сопряжения",
+          "image": {
+            "src": "/images/4.png",
+            "alt": "Иконка технического состояния",
+            "description": "Иллюстрация, визуализирующая контроль технического состояния"
+          }
+        },
+        {
+          "title": "Стабильная работа",
+          "text": "Гарантированно исправное состояние устройства и постоянная готовность к использованию",
+          "image": {
+            "src": "/images/5.png",
+            "alt": "Иконка стабильной работы",
+            "description": "Иллюстрация, визуализирующая стабильность и надежность"
+          }
+        },
+        {
+          "title": "Предупреждение отказов",
+          "text": "Превентивные меры для предотвращения сбоев и поддержания срока службы",
+          "image": {
+            "src": "/images/11.png",
+            "alt": "Иконка предупреждения отказов",
+            "description": "Иллюстрация, визуализирующая профилактические меры"
+          }
+        }
+      ],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      }
+    },
+    {
+      "sectionIndex": 4,
+      "type": "section",
+      "description": "Раздел, описывающий порядок оказания услуги с двумя этапами технического обслуживания (ТО-1 и ТО-2)",
+      "title": "Порядок оказания услуги",
+      "cards": [
+        {
+          "title": "ТО-1",
+          "text": "Ежемесячное техническое обслуживание c 1 по 11 месяц с начала оказания услуги",
+          "value": "1",
+          "label": "Этап"
+        },
+        {
+          "title": "ТО-2",
+          "text": "По окончанию ТО-1 происходит переход на ежегодное техническое обслуживание",
+          "value": "2",
+          "label": "Этап"
+        }
+      ],
+      "text": "Наши специалисты регистрирует результаты ТО-1 и ТО-2 в Журнале технического обслуживания устройства сопряжения, подтверждая их подписями со стороны ПАО МГТС и Заказчика",
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      }
+    },
+    {
+      "sectionIndex": 5,
+      "type": "section",
+      "description": "Блок с предложением сотрудничества и формой для связи с компанией, содержит контактную информацию и форму обратной связи",
+      "title": "МГТС заинтересована в новых партнерах для реализации совместных проектов",
+      "subtitle": "связаться с нами",
+      "text": "Если у вас есть идеи и предложения для сотрудничества, направляйте их по адресу электронной почты: sotrudnichestvo@mgts.ru\n\nИли оставьте свои данные, мы сами свяжемся с вами",
+      "elements": [
+        {
+          "type": "form",
+          "fields": [
+            {
+              "label": "Ваше имя",
+              "placeholder": "Имя",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Название организации",
+              "placeholder": "Организация",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Ваш email",
+              "placeholder": "Email",
+              "type": "email",
+              "required": true
+            },
+            {
+              "label": "Телефон",
+              "placeholder": "+7",
+              "type": "tel",
+              "required": true
+            }
+          ],
+          "note": "Вводя данные, вы подтверждаете свое ознакомление и согласие с условиями обработки персональных данных",
+          "button": {
+            "text": "Отправить",
+            "type": "submit"
+          }
+        }
+      ],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [
+          {
+            "text": "sotrudnichestvo@mgts.ru",
+            "href": "mailto:sotrudnichestvo@mgts.ru",
+            "purpose": "Email для отправки предложений о сотрудничестве"
+          }
+        ],
+        "fileLinks": [],
+        "imageLinks": []
+      }
+    }
+  ]
+}

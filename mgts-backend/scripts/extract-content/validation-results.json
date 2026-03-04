@@ -1,0 +1,248 @@
+[
+  {
+    "index": 1,
+    "slug": "about/ethics/compliance-policies",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "index": 2,
+    "slug": "about/ethics/general-director-message",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "index": 3,
+    "slug": "about/ethics",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "index": 4,
+    "slug": "about/ethics/interaction-partners",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "index": 5,
+    "slug": "about/ethics/partners-feedback",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "index": 6,
+    "slug": "about/ethics/single-hotline",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "index": 7,
+    "slug": "about/governance/documents",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "index": 8,
+    "slug": "about/governance",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "index": 9,
+    "slug": "about/governance/infoformen",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "index": 10,
+    "slug": "about/governance/principles",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "index": 11,
+    "slug": "about/governance/registrar",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "index": 12,
+    "slug": "about/governance/shareholders",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "index": 13,
+    "slug": "about",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "index": 14,
+    "slug": "about/values",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "index": 15,
+    "slug": "business/cloud",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "index": 16,
+    "slug": "business/cloud/services",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "index": 17,
+    "slug": "business/cloud/storage",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "index": 18,
+    "slug": "business/cloud/vps",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "index": 19,
+    "slug": "business",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "index": 20,
+    "slug": "business/internet/dedicated",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "index": 21,
+    "slug": "business/internet/gpon",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "index": 22,
+    "slug": "business/internet",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "index": 23,
+    "slug": "business/internet/office",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "index": 24,
+    "slug": "business/security/access-control",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "index": 25,
+    "slug": "business/security/alarm",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "index": 26,
+    "slug": "business/security",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "index": 27,
+    "slug": "business/security/video-surveillance",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "index": 28,
+    "slug": "business/telephony/fixed",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "index": 29,
+    "slug": "business/telephony",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "index": 30,
+    "slug": "business/telephony/ip",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "index": 31,
+    "slug": "business/telephony/mobile",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "index": 32,
+    "slug": "business/telephony/vpbx",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "index": 33,
+    "slug": "business/tv",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "index": 34,
+    "slug": "business/tv/iptv",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "index": 35,
+    "slug": "business/tv/office",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "index": 36,
+    "slug": "contacts",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "index": 37,
+    "slug": "developers",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "index": 38,
+    "slug": "government",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "index": 39,
+    "slug": "index",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "index": 40,
+    "slug": "operators",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "index": 41,
+    "slug": "partners",
+    "errors": [],
+    "warnings": []
+  }
+]

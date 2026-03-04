@@ -1,0 +1,29 @@
+<section class="bg-background-dark text-slate-100 min-h-screen relative overflow-x-hidden" data-stitch-block="news_detail_page">
+  <div class="fixed top-0 right-0 w-[500px] h-[500px] glow-leak pointer-events-none -z-10 translate-x-1/2 -translate-y-1/2"></div>
+  <div class="fixed bottom-0 left-0 w-[800px] h-[800px] glow-leak pointer-events-none -z-10 -translate-x-1/4 translate-y-1/4"></div>
+
+  <main class="max-w-[1100px] mx-auto px-8 py-12">
+    <div class="mb-8">
+      <a class="text-xs font-black uppercase tracking-widest text-primary hover:opacity-80 transition-opacity" href="tpl_news_archive.html" data-news-back>← Архив новостей</a>
+    </div>
+
+    <div class="flex flex-col gap-6">
+      <p class="text-xs font-black uppercase tracking-[0.25em] text-white/50" data-news-meta>
+        <span data-news-meta-category>Новости</span>
+        <span class="mx-2">•</span>
+        <span data-news-meta-date>—</span>
+      </p>
+
+      <h1 class="text-4xl md:text-5xl font-black tracking-tight" data-cms-title>Заголовок новости</h1>
+
+      <div class="aspect-[16/9] rounded-2xl bg-white/5 border border-white/10 overflow-hidden hidden" data-cms-media>
+        <img class="h-full w-full object-cover" alt="" data-cms-image />
+      </div>
+
+      <div class="prose prose-invert max-w-none prose-p:leading-relaxed prose-a:text-primary" data-cms-body>
+        <p class="text-white/70">Контент будет подставляться из CMS.</p>
+      </div>
+    </div>
+  </main>
+</section>
+

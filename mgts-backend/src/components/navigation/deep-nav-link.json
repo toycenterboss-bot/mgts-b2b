@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_navigation_deep_nav_links",
+  "info": {
+    "displayName": "Deep Nav Link",
+    "description": "Ссылка в дереве левого меню (TPL_DeepNav)"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "href": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "type": "string",
+      "customField": "plugin::icon-picker.icon"
+    },
+    "isExternal": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

@@ -1,0 +1,12 @@
+node_modules/
+.next/
+dist/
+*.log
+.env*
+!.env.example
+.DS_Store
+.dev/
+__pycache__/
+*.pyc
+backups/
+strapi-backups/

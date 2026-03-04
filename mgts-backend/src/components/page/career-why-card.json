@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_page_career_why_cards",
+  "info": {
+    "displayName": "Career Why Card",
+    "description": "Карточка блока 'Почему мы'"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "icon": {
+      "description": "Иконка фона/иллюстрации (Material Symbols)",
+      "type": "string",
+      "customField": "plugin::icon-picker.icon"
+    },
+    "accent": {
+      "type": "string",
+      "default": "primary",
+      "description": "Акцент (например: primary, brand-red)"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.career-why-item"
+    }
+  }
+}

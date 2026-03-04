@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_page_service_tariffs",
+  "info": {
+    "displayName": "Service Tariffs",
+    "description": "Секция тарифов для страниц услуг. CSS классы: service-tariffs (контейнер), service-tariffs__title (h1 заголовок), service-tariffs__container (контейнер тарифов), service-tariffs__tariff (тариф), service-tariffs__tariff-title (h3 заголовок тарифа), service-tariffs__table (таблица), service-tariffs__table-row (строка таблицы), service-tariffs__table-cell (ячейка таблицы)"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Тарифы и цены"
+    },
+    "tariffs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.tariff-item"
+    }
+  }
+}
+
+
+

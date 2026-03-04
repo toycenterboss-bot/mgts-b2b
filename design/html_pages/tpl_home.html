@@ -1,0 +1,1044 @@
+<!DOCTYPE html>
+<html class="dark" lang="ru">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>tpl_home</title>
+<link href="/assets/css/stitch-tailwind.css" rel="stylesheet"/>
+<link href="/assets/fonts/material-symbols-outlined/material-symbols-outlined.css" rel="stylesheet"/>
+<style>
+        .mega-menu-blur {
+            backdrop-filter: blur(12px);
+            background-color: rgba(15, 25, 35, 0.95);
+        }
+        body {
+            font-family: 'Space Grotesk', sans-serif;
+        }
+    </style>
+<style>
+        body {
+            font-family: 'Space Grotesk', sans-serif;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+<style>
+        body {
+            font-family: 'Space Grotesk', sans-serif;
+        }
+        .form-glass {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+    </style>
+<style>
+        @media (max-height: 820px) and (min-width: 1024px) {
+            [data-stitch-block="hero_section_and_cta_banner_1"] .hero-mesh {
+                min-height: 65vh;
+                padding-bottom: 10rem;
+            }
+        }
+    </style>
+</head>
+<body data-page="tpl_home">
+<script src="/cms_loader/cms-loader.js?v=20260219a" defer></script>
+<script src="/cms_loader/cms-adapter.js?v=20260219a" defer></script>
+<section class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100" data-stitch-block="header_and_mega_menu">
+<!-- Utility Top Bar -->
+<div class="w-full border-b border-slate-200 dark:border-slate-800 bg-white dark:bg-background-dark/50">
+<div class="max-w-7xl mx-auto px-6 h-10 flex items-center justify-between text-xs font-medium tracking-wide">
+<div class="flex items-center gap-6">
+<a class="flex items-center gap-1.5 hover:text-primary transition-colors" href="#">
+<span class="material-symbols-outlined text-[16px]">location_on</span>
+                    Москва
+                </a>
+<a class="hover:text-primary transition-colors" href="#">Для дома</a>
+<a class="text-primary font-bold" href="#">Для бизнеса</a>
+</div>
+<div class="flex items-center gap-6">
+<a class="hover:text-primary transition-colors" href="#">Поддержка</a>
+<a class="hover:text-primary transition-colors" href="#">О компании</a>
+<div class="h-4 w-[1px] bg-slate-200 dark:border-slate-800"></div>
+<a class="flex items-center gap-1.5 text-primary hover:opacity-80 transition-opacity" href="#">
+<span class="material-symbols-outlined text-[18px]">account_circle</span>
+                    Личный кабинет
+                </a>
+</div>
+</div>
+</div>
+<!-- Main Header -->
+<header class="sticky top-0 z-50 w-full border-b border-slate-200 dark:border-slate-800 bg-white dark:bg-background-dark shadow-sm" data-mega-root>
+<div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+<!-- Logo -->
+<div class="flex items-center gap-10">
+<div class="flex items-center gap-2">
+<div class="size-8 bg-primary flex items-center justify-center rounded">
+<svg class="w-6 h-6 text-white" fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 4H17.3334V17.3334H30.6666V30.6666H44V44H4V4Z" fill="currentColor"></path>
+</svg>
+</div>
+<span class="text-xl font-bold tracking-tighter">MGTS <span class="text-primary">B2B</span></span>
+</div>
+<!-- Navigation -->
+<nav class="hidden lg:flex items-center gap-8" data-mega-triggers>
+<a class="text-sm font-semibold border-b-2 border-primary pb-1" href="#" data-mega-trigger data-mega-key="internet" aria-expanded="false" aria-controls="mgts-mega-panel">Интернет</a>
+<a class="text-sm font-semibold text-slate-500 hover:text-primary transition-colors pb-1 border-b-2 border-transparent" href="#" data-mega-trigger data-mega-key="cloud" aria-expanded="false" aria-controls="mgts-mega-panel">Облачные решения</a>
+<a class="text-sm font-semibold text-slate-500 hover:text-primary transition-colors pb-1 border-b-2 border-transparent" href="#" data-mega-trigger data-mega-key="iot" aria-expanded="false" aria-controls="mgts-mega-panel">IoT</a>
+<a class="text-sm font-semibold text-slate-500 hover:text-primary transition-colors pb-1 border-b-2 border-transparent" href="#" data-mega-trigger data-mega-key="telephony" aria-expanded="false" aria-controls="mgts-mega-panel">Телефония</a>
+<a class="text-sm font-semibold text-slate-500 hover:text-primary transition-colors pb-1 border-b-2 border-transparent" href="#" data-mega-trigger data-mega-key="it" aria-expanded="false" aria-controls="mgts-mega-panel">ИТ-услуги</a>
+</nav>
+</div>
+<div class="flex items-center gap-4">
+<div class="relative hidden xl:block">
+<input class="w-64 bg-slate-100 dark:bg-slate-800 border-none rounded-lg py-2 pl-10 text-sm focus:ring-2 focus:ring-primary" placeholder="Поиск услуг..." type="text"/>
+<span class="material-symbols-outlined absolute left-3 top-2 text-slate-400">search</span>
+</div>
+<button class="bg-primary text-white px-6 py-2.5 rounded-lg text-sm font-bold hover:bg-blue-700 transition-colors">
+                    Стать клиентом
+                </button>
+</div>
+</div>
+<!-- Mega Menu Expansion -->
+<div id="mgts-mega-panel" class="absolute top-full left-0 w-full mega-menu-blur border-b border-slate-200 dark:border-slate-800 shadow-2xl overflow-hidden hidden" aria-hidden="true" data-mega-panel>
+<div class="max-w-7xl mx-auto px-6 py-10">
+<div class="grid grid-cols-12 gap-10">
+<!-- Sidebar Categories inside Mega Menu -->
+<div class="col-span-3 flex flex-col gap-1 border-r border-slate-200 dark:border-slate-800 pr-6">
+<div class="p-3 rounded-lg flex items-center justify-between group cursor-pointer transition-colors text-slate-500 hover:bg-slate-100 dark:hover:bg-slate-800" data-mega-category="internet" role="button" tabindex="0">
+<span class="font-bold">Интернет для бизнеса</span>
+<span class="material-symbols-outlined">chevron_right</span>
+</div>
+<div class="p-3 rounded-lg flex items-center justify-between group cursor-pointer transition-colors text-slate-500 hover:bg-slate-100 dark:hover:bg-slate-800" data-mega-category="cloud" role="button" tabindex="0">
+<span class="font-bold">Облачные решения</span>
+<span class="material-symbols-outlined opacity-0 group-hover:opacity-100 transition-opacity">chevron_right</span>
+</div>
+<div class="p-3 rounded-lg flex items-center justify-between group cursor-pointer transition-colors text-slate-500 hover:bg-slate-100 dark:hover:bg-slate-800" data-mega-category="iot" role="button" tabindex="0">
+<span class="font-bold">Интернет вещей (IoT)</span>
+<span class="material-symbols-outlined opacity-0 group-hover:opacity-100 transition-opacity">chevron_right</span>
+</div>
+<div class="p-3 rounded-lg flex items-center justify-between group cursor-pointer transition-colors text-slate-500 hover:bg-slate-100 dark:hover:bg-slate-800" data-mega-category="telephony" role="button" tabindex="0">
+<span class="font-bold">Телефония и связь</span>
+<span class="material-symbols-outlined opacity-0 group-hover:opacity-100 transition-opacity">chevron_right</span>
+</div>
+<div class="p-3 rounded-lg flex items-center justify-between group cursor-pointer transition-colors text-slate-500 hover:bg-slate-100 dark:hover:bg-slate-800" data-mega-category="security" role="button" tabindex="0">
+<span class="font-bold">Информационная безопасность</span>
+<span class="material-symbols-outlined opacity-0 group-hover:opacity-100 transition-opacity">chevron_right</span>
+</div>
+</div>
+<!-- Main Grid Content -->
+<div class="col-span-6">
+<h3 class="text-xs uppercase tracking-widest text-slate-400 font-bold mb-6"><span data-mega-title>Основные услуги</span></h3>
+<div class="grid grid-cols-2 gap-6" data-mega-sections>
+<!-- Section: internet -->
+<div class="contents" data-mega-section="internet">
+<!-- Service Card 1 -->
+<div class="flex gap-4 p-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900/50 hover:border-primary/50 transition-all cursor-pointer group">
+<div class="size-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[28px]">speed</span>
+</div>
+<div>
+<h4 class="font-bold mb-1 group-hover:text-primary transition-colors">Оптоволокно</h4>
+<p class="text-xs text-slate-500 leading-relaxed">Высокоскоростной симметричный канал до 10 Гбит/с</p>
+</div>
+</div>
+<!-- Service Card 2 -->
+<div class="flex gap-4 p-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900/50 hover:border-primary/50 transition-all cursor-pointer group">
+<div class="size-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[28px]">settings_input_antenna</span>
+</div>
+<div>
+<h4 class="font-bold mb-1 group-hover:text-primary transition-colors">Выделенные линии</h4>
+<p class="text-xs text-slate-500 leading-relaxed">L2/L3 VPN для объединения офисов в единую сеть</p>
+</div>
+</div>
+<!-- Service Card 3 -->
+<div class="flex gap-4 p-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900/50 hover:border-primary/50 transition-all cursor-pointer group">
+<div class="size-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[28px]">wifi</span>
+</div>
+<div>
+<h4 class="font-bold mb-1 group-hover:text-primary transition-colors">Wi-Fi для бизнеса</h4>
+<p class="text-xs text-slate-500 leading-relaxed">Беспроводная сеть с авторизацией по закону</p>
+</div>
+</div>
+<!-- Service Card 4 -->
+<div class="flex gap-4 p-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900/50 hover:border-primary/50 transition-all cursor-pointer group">
+<div class="size-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[28px]">shield</span>
+</div>
+<div>
+<h4 class="font-bold mb-1 group-hover:text-primary transition-colors">Защита от DDoS</h4>
+<p class="text-xs text-slate-500 leading-relaxed">Круглосуточный мониторинг и очистка трафика</p>
+</div>
+</div>
+</div>
+
+<!-- Section: cloud -->
+<div class="contents hidden" data-mega-section="cloud" aria-hidden="true">
+<div class="flex gap-4 p-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900/50 hover:border-primary/50 transition-all cursor-pointer group">
+<div class="size-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[28px]">cloud</span>
+</div>
+<div>
+<h4 class="font-bold mb-1 group-hover:text-primary transition-colors">Облачное хранилище</h4>
+<p class="text-xs text-slate-500 leading-relaxed">S3‑совместимые хранилища и резервное копирование</p>
+</div>
+</div>
+<div class="flex gap-4 p-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900/50 hover:border-primary/50 transition-all cursor-pointer group">
+<div class="size-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[28px]">dns</span>
+</div>
+<div>
+<h4 class="font-bold mb-1 group-hover:text-primary transition-colors">IaaS / Виртуальные серверы</h4>
+<p class="text-xs text-slate-500 leading-relaxed">Гибкая инфраструктура под нагрузку бизнеса</p>
+</div>
+</div>
+</div>
+
+<!-- Section: iot -->
+<div class="contents hidden" data-mega-section="iot" aria-hidden="true">
+<div class="flex gap-4 p-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900/50 hover:border-primary/50 transition-all cursor-pointer group">
+<div class="size-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[28px]">sensors</span>
+</div>
+<div>
+<h4 class="font-bold mb-1 group-hover:text-primary transition-colors">Платформа IoT</h4>
+<p class="text-xs text-slate-500 leading-relaxed">Устройства, телеметрия, управление и аналитика</p>
+</div>
+</div>
+<div class="flex gap-4 p-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900/50 hover:border-primary/50 transition-all cursor-pointer group">
+<div class="size-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[28px]">factory</span>
+</div>
+<div>
+<h4 class="font-bold mb-1 group-hover:text-primary transition-colors">Промышленный мониторинг</h4>
+<p class="text-xs text-slate-500 leading-relaxed">Контроль показателей и событий в режиме 24/7</p>
+</div>
+</div>
+</div>
+
+<!-- Section: telephony -->
+<div class="contents hidden" data-mega-section="telephony" aria-hidden="true">
+<div class="flex gap-4 p-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900/50 hover:border-primary/50 transition-all cursor-pointer group">
+<div class="size-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[28px]">call</span>
+</div>
+<div>
+<h4 class="font-bold mb-1 group-hover:text-primary transition-colors">IP‑телефония</h4>
+<p class="text-xs text-slate-500 leading-relaxed">Единые номера, маршрутизация, запись разговоров</p>
+</div>
+</div>
+<div class="flex gap-4 p-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900/50 hover:border-primary/50 transition-all cursor-pointer group">
+<div class="size-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[28px]">support_agent</span>
+</div>
+<div>
+<h4 class="font-bold mb-1 group-hover:text-primary transition-colors">Контакт‑центр</h4>
+<p class="text-xs text-slate-500 leading-relaxed">Очереди, SLA, омниканал и аналитика</p>
+</div>
+</div>
+</div>
+
+<!-- Section: it -->
+<div class="contents hidden" data-mega-section="it" aria-hidden="true">
+<div class="flex gap-4 p-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900/50 hover:border-primary/50 transition-all cursor-pointer group">
+<div class="size-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[28px]">headset_mic</span>
+</div>
+<div>
+<h4 class="font-bold mb-1 group-hover:text-primary transition-colors">ИТ‑поддержка</h4>
+<p class="text-xs text-slate-500 leading-relaxed">Аутсорсинг, обслуживание рабочих мест и сетей</p>
+</div>
+</div>
+<div class="flex gap-4 p-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900/50 hover:border-primary/50 transition-all cursor-pointer group">
+<div class="size-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[28px]">security</span>
+</div>
+<div>
+<h4 class="font-bold mb-1 group-hover:text-primary transition-colors">Защита рабочих мест</h4>
+<p class="text-xs text-slate-500 leading-relaxed">EDR/AV, контроль доступа и обновления</p>
+</div>
+</div>
+</div>
+
+<!-- Section: security -->
+<div class="contents hidden" data-mega-section="security" aria-hidden="true">
+<div class="flex gap-4 p-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900/50 hover:border-primary/50 transition-all cursor-pointer group">
+<div class="size-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[28px]">shield_lock</span>
+</div>
+<div>
+<h4 class="font-bold mb-1 group-hover:text-primary transition-colors">Кибербезопасность</h4>
+<p class="text-xs text-slate-500 leading-relaxed">DDoS, WAF, SOC, аудит и соответствие</p>
+</div>
+</div>
+</div>
+</div>
+<div class="mt-8 pt-6 border-t border-slate-200 dark:border-slate-800 flex items-center gap-4">
+<span class="text-sm font-bold">Спецпредложения:</span>
+<a class="text-xs px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full hover:text-primary transition-colors" href="#">Бесплатный тест-драйв 14 дней</a>
+<a class="text-xs px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full hover:text-primary transition-colors" href="#">Скидка 20% при переезде</a>
+</div>
+</div>
+<!-- Right Promotion / Call to Action -->
+<div class="col-span-3">
+<div class="h-full rounded-2xl bg-gradient-to-br from-primary to-blue-800 p-6 text-white flex flex-col justify-between overflow-hidden relative">
+<!-- Background decoration -->
+<div class="absolute -right-4 -bottom-4 opacity-20">
+<span class="material-symbols-outlined text-[140px]">cell_tower</span>
+</div>
+<div class="relative z-10">
+<h4 class="text-xl font-bold mb-3">Нужна помощь в выборе?</h4>
+<p class="text-sm text-blue-100 opacity-90 leading-relaxed">Наши эксперты подберут оптимальное решение под задачи вашего бизнеса.</p>
+</div>
+<div class="relative z-10 flex flex-col gap-3 mt-8">
+<button class="w-full bg-white text-primary font-bold py-3 rounded-xl hover:bg-blue-50 transition-colors">
+                                    Получить консультацию
+                                </button>
+<div class="flex items-center justify-center gap-2 text-xs font-medium">
+<span class="material-symbols-outlined text-[16px]">call</span>
+                                    8 800 250 09 90
+                                </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</header>
+<!-- Page Content (Placeholder) -->
+<main class="max-w-7xl mx-auto px-6 py-16 opacity-40 select-none pointer-events-none hidden" aria-hidden="true">
+<div class="space-y-12">
+<section>
+<div class="h-8 w-64 bg-slate-200 dark:bg-slate-800 rounded-lg mb-6"></div>
+<div class="grid grid-cols-3 gap-8">
+<div class="h-64 bg-slate-100 dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800"></div>
+<div class="h-64 bg-slate-100 dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800"></div>
+<div class="h-64 bg-slate-100 dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800"></div>
+</div>
+</section>
+<section class="flex gap-12 items-center">
+<div class="flex-1 space-y-4">
+<div class="h-10 w-full bg-slate-200 dark:bg-slate-800 rounded-lg"></div>
+<div class="h-4 w-3/4 bg-slate-100 dark:bg-slate-900 rounded-lg"></div>
+<div class="h-4 w-1/2 bg-slate-100 dark:bg-slate-900 rounded-lg"></div>
+<div class="h-12 w-40 bg-primary/20 rounded-lg"></div>
+</div>
+<div class="flex-1 h-80 bg-slate-100 dark:bg-slate-900 rounded-3xl border border-slate-200 dark:border-slate-800"></div>
+</section>
+</div>
+</main>
+<!-- Bottom Footer (Simple) -->
+
+</section>
+<section class="bg-background-light dark:bg-background-dark" data-stitch-block="breadcrumbs">
+<div class="max-w-[1200px] mx-auto px-4 lg:px-10 py-4">
+<nav class="flex items-center gap-2 text-sm font-medium">
+<a class="text-slate-500 dark:text-slate-400 hover:text-primary transition-colors flex items-center gap-1" href="#">
+<span class="material-symbols-outlined text-base">home</span>
+Главная
+</a>
+<span class="material-symbols-outlined text-slate-400 text-sm">chevron_right</span>
+<a class="text-slate-500 dark:text-slate-400 hover:text-primary transition-colors" href="#">Раздел</a>
+<span class="material-symbols-outlined text-slate-400 text-sm">chevron_right</span>
+<span class="text-primary font-bold">Страница</span>
+</nav>
+</div>
+</section>
+<section class="selection:bg-primary selection:text-white" data-stitch-block="hero_section_and_cta_banner_1">
+
+<main class="relative">
+<section class="relative min-h-[70vh] lg:min-h-[75vh] flex items-center overflow-hidden hero-mesh pb-24 lg:pb-32">
+<div class="absolute inset-0 z-0">
+<div class="absolute inset-0 bg-cover bg-center opacity-15" data-home-hero-bg></div>
+<div class="absolute top-1/4 right-0 w-[800px] h-[1px] bg-gradient-to-r from-transparent via-primary to-transparent opacity-40 rotate-12"></div>
+<div class="absolute top-1/3 right-10 w-[600px] h-[1px] bg-gradient-to-r from-transparent via-accent-red to-transparent opacity-30 -rotate-6"></div>
+<div class="absolute bottom-1/4 left-0 w-[1000px] h-[2px] bg-gradient-to-r from-primary/20 via-primary to-transparent opacity-20 rotate-[-15deg]"></div>
+<div class="absolute top-1/2 right-[10%] w-96 h-96 bg-white/5 backdrop-blur-3xl rounded-full border border-white/10 -translate-y-1/2"></div>
+<div class="absolute top-1/2 right-[5%] w-64 h-64 bg-primary/10 backdrop-blur-2xl rounded-2xl border border-white/5 rotate-45 -translate-y-1/2"></div>
+<div class="absolute inset-0 pointer-events-none">
+<div class="frost-particle absolute top-10 right-20 w-4 h-4 opacity-40"></div>
+<div class="frost-particle absolute top-40 right-40 w-2 h-2 opacity-30"></div>
+<div class="frost-particle absolute bottom-20 left-10 w-3 h-3 opacity-20"></div>
+<div class="absolute top-0 right-0 w-64 h-64 bg-[radial-gradient(circle_at_top_right,rgba(255,255,255,0.1),transparent)]"></div>
+<div class="absolute bottom-0 left-0 w-64 h-64 bg-[radial-gradient(circle_at_bottom_left,rgba(255,255,255,0.05),transparent)]"></div>
+</div>
+</div>
+<div class="container mx-auto px-6 relative z-10 pt-20">
+<div class="max-w-5xl">
+<div class="inline-flex items-center gap-3 px-4 py-1.5 rounded-full bg-white/5 border border-white/10 text-white/80 text-xs font-bold uppercase tracking-[0.2em] mb-10" data-home-hero-badge>
+<span class="w-2 h-2 rounded-full bg-accent-red animate-pulse"></span>
+                    Digital Infrastructure 2024
+                </div>
+<h1 class="text-6xl md:text-8xl lg:text-9xl mts-bold leading-[0.9] text-white mb-10" data-home-hero-title>
+                    ЭНЕРГИЯ <br/>
+<span class="text-transparent bg-clip-text bg-gradient-to-br from-white via-white to-white/40">ТЕХНОЛОГИЙ</span> <br/>
+<span class="text-primary">ДЛЯ БИЗНЕСА</span>
+</h1>
+<p class="text-xl md:text-2xl text-white/60 max-w-2xl mb-14 leading-relaxed font-medium" data-home-hero-subtitle>
+                    Высокоскоростные каналы передачи данных и комплексные IT-решения от крупнейшего инфраструктурного оператора.
+                </p>
+</div>
+</div>
+<div class="absolute bottom-0 left-0 w-full border-t border-white/10 bg-white/5 backdrop-blur-md hidden lg:block">
+<div class="max-w-7xl mx-auto px-6 grid grid-cols-4 divide-x divide-white/10">
+<div class="py-10 px-8">
+<div class="text-3xl mts-bold mb-1">100 Гбит/с</div>
+<div class="text-white/40 text-[10px] uppercase font-bold tracking-widest">Пропускная способность</div>
+</div>
+<div class="py-10 px-8">
+<div class="text-3xl mts-bold mb-1">99.99%</div>
+<div class="text-white/40 text-[10px] uppercase font-bold tracking-widest">Доступность сервисов</div>
+</div>
+<div class="py-10 px-8">
+<div class="text-3xl mts-bold mb-1">45 000+</div>
+<div class="text-white/40 text-[10px] uppercase font-bold tracking-widest">Корпоративных клиентов</div>
+</div>
+<div class="py-10 px-8">
+<div class="text-3xl mts-bold mb-1">24/7</div>
+<div class="text-white/40 text-[10px] uppercase font-bold tracking-widest">Мониторинг и поддержка</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-32 relative overflow-hidden" data-home-cooperation>
+<div class="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-primary/10 to-transparent pointer-events-none"></div>
+<div class="container mx-auto px-6">
+<div class="relative bg-gradient-to-br from-[#0a1622] to-background-dark rounded-[3rem] p-12 md:p-20 border border-white/10 shadow-3xl overflow-hidden group">
+<div class="absolute -top-20 -right-20 w-80 h-80 bg-accent-red/10 blur-[100px] rounded-full"></div>
+<div class="absolute -bottom-20 -left-20 w-80 h-80 bg-primary/10 blur-[100px] rounded-full"></div>
+<div class="relative z-10 flex flex-col lg:flex-row items-center justify-between gap-16">
+<div class="max-w-2xl">
+<h2 class="text-4xl md:text-6xl mts-bold text-white leading-tight mb-8" data-home-coop-title>
+                            Трансформируйте <br/> бизнес сегодня
+                        </h2>
+<p class="text-white/50 text-xl leading-relaxed font-medium" data-home-coop-desc>
+                            Получите аудит вашей текущей сетевой инфраструктуры и персональное предложение по оптимизации затрат от экспертов МГТС.
+                        </p>
+</div>
+<div class="w-full max-w-md flex flex-col gap-6">
+<div class="p-1.5 rounded-[2rem] bg-gradient-to-r from-primary to-accent-red">
+<button class="w-full bg-background-dark hover:bg-transparent text-white py-6 rounded-[1.8rem] text-xl mts-bold transition-all flex items-center justify-center gap-4 group" data-home-coop-button>
+<span class="material-symbols-outlined" data-home-coop-button-icon>bolt</span>
+                                <span data-home-coop-button-text>Начать сотрудничество</span>
+                            </button>
+</div>
+<div class="flex items-center justify-center gap-6 text-white/40" data-home-coop-perks>
+<div class="flex items-center gap-2" data-home-coop-perk>
+<span class="material-symbols-outlined text-sm" data-home-coop-perk-icon>check_circle</span>
+<span class="text-xs font-bold uppercase tracking-wider" data-home-coop-perk-text>Бесплатно</span>
+</div>
+<div class="flex items-center gap-2" data-home-coop-perk>
+<span class="material-symbols-outlined text-sm" data-home-coop-perk-icon>timer</span>
+<span class="text-xs font-bold uppercase tracking-wider" data-home-coop-perk-text>Ответ за 15 мин</span>
+</div>
+</div>
+</div>
+</div>
+<div class="absolute bottom-6 right-10 text-white/5 select-none pointer-events-none">
+<span class="material-symbols-outlined text-8xl">ac_unit</span>
+</div>
+</div>
+</div>
+</section>
+</main>
+
+</section>
+<section class="bg-background-dark text-white min-h-screen" data-stitch-block="service_and_scenario_cards_1">
+<div class="layout-container flex h-full grow flex-col">
+
+<main class="w-full">
+<section class="max-w-[1200px] mx-auto px-4 py-20">
+<div class="flex flex-col gap-6 mb-16 relative">
+<div class="absolute -top-20 -left-20 size-64 bg-primary/20 blur-[100px] rounded-full"></div>
+<div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-primary/10 border border-primary/30 w-fit backdrop-blur-sm">
+<span class="relative flex h-2 w-2">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2 w-2 bg-accent"></span>
+</span>
+<span class="text-accent text-xs font-bold uppercase tracking-[0.1em]">Инфраструктура будущего</span>
+</div>
+<h1 class="text-white text-6xl font-black leading-tight tracking-[-0.03em] max-w-3xl">
+                    Технологии, которые <br/><span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">двигают ваш бизнес</span>
+</h1>
+<p class="text-[#9aabbc] text-xl font-normal leading-relaxed max-w-2xl">
+                    Интеллектуальная экосистема сервисов: от квантово-защищенных каналов связи до облачных вычислений нового поколения.
+                </p>
+</div>
+<div class="flex flex-col md:flex-row gap-6 items-center mb-20 relative z-10">
+<div class="w-full md:flex-1">
+<div class="flex w-full items-stretch rounded-2xl h-16 border border-white/10 bg-white/5 backdrop-blur-md focus-within:border-primary/50 transition-all">
+<div class="text-[#9aabbc] flex items-center justify-center pl-6">
+<span class="material-symbols-outlined text-2xl">search</span>
+</div>
+<input class="form-input flex w-full border-none bg-transparent text-white focus:outline-0 focus:ring-0 placeholder:text-[#9aabbc]/60 px-6 text-lg" placeholder="Найти инновационное решение..."/>
+</div>
+</div>
+<div class="flex gap-2 p-1.5 bg-white/5 rounded-2xl border border-white/10 backdrop-blur-md overflow-x-auto w-full md:w-auto">
+<button class="px-6 py-3 rounded-xl bg-primary shadow-lg shadow-primary/25 text-white text-sm font-bold whitespace-nowrap">Все услуги</button>
+<button class="px-6 py-3 rounded-xl text-[#9aabbc] hover:text-white hover:bg-white/5 text-sm font-semibold transition-all whitespace-nowrap">Инфраструктура</button>
+<button class="px-6 py-3 rounded-xl text-[#9aabbc] hover:text-white hover:bg-white/5 text-sm font-semibold transition-all whitespace-nowrap">Безопасность</button>
+<button class="px-6 py-3 rounded-xl text-[#9aabbc] hover:text-white hover:bg-white/5 text-sm font-semibold transition-all whitespace-nowrap">Облако</button>
+</div>
+</div>
+<section class="section-gradient -mx-4 px-4 py-20 rounded-[3rem]">
+<div class="max-w-[1200px] mx-auto">
+<div class="flex items-center justify-between mb-12">
+<h2 class="text-white text-3xl font-bold tracking-tight" data-home-services-title>Сервисы MGTS 3.0</h2>
+<a class="text-accent text-sm font-bold flex items-center gap-2 hover:opacity-80 transition-opacity" href="#">
+                            КАТАЛОГ УСЛУГ <span class="material-symbols-outlined text-lg">arrow_right_alt</span>
+</a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8" data-home-services-grid>
+<div class="glass-card p-8 rounded-3xl flex flex-col min-h-[320px] group" data-home-service-card>
+<div class="light-sweep"></div>
+<div class="icon-3d mb-8 relative">
+<div class="absolute inset-0 bg-primary/20 blur-xl rounded-full scale-75 group-hover:scale-110 transition-transform"></div>
+<svg class="size-16 text-primary relative z-10" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+<path d="M4 10h16M4 14h16M9 6l-1 2m3-2l-1 2m3-2l-1 2m3-2l-1 2m-8 10l-1 2m3-2l-1 2m3-2l-1 2m3-2l-1 2" stroke-linecap="round" stroke-linejoin="round"></path>
+<circle cx="12" cy="12" r="9" stroke="currentColor"></circle>
+</svg>
+</div>
+<h3 class="text-white text-xl font-bold mb-3" data-home-service-title>Оптоволокно 10G</h3>
+<p class="text-[#9aabbc] text-sm leading-relaxed mb-6" data-home-service-desc>Сверхскоростные выделенные каналы с гарантированной пропускной способностью.</p>
+<div class="mt-auto flex items-center text-primary text-xs font-black uppercase tracking-widest group-hover:text-accent transition-colors" data-home-service-cta>
+                                Конфигурировать <span class="material-symbols-outlined ml-1 text-sm">trending_flat</span>
+</div>
+</div>
+<div class="glass-card p-8 rounded-3xl flex flex-col min-h-[320px] group" data-home-service-card>
+<div class="light-sweep"></div>
+<div class="icon-3d mb-8 relative">
+<div class="absolute inset-0 bg-accent/20 blur-xl rounded-full scale-75 group-hover:scale-110 transition-transform"></div>
+<svg class="size-16 text-accent relative z-10" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+<path d="M12 16.5V9.75m0 0l3 3m-3-3l-3 3M6.75 19.5a4.5 4.5 0 01-1.41-8.775 5.25 5.25 0 0110.233-2.33 3 3 0 013.758 3.848A3.752 3.752 0 0118 19.5H6.75z" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</div>
+<h3 class="text-white text-xl font-bold mb-3" data-home-service-title>Cloud Nodes</h3>
+<p class="text-[#9aabbc] text-sm leading-relaxed mb-6" data-home-service-desc>Экосистема облачных вычислений Tier III с мгновенным масштабированием.</p>
+<div class="mt-auto flex items-center text-primary text-xs font-black uppercase tracking-widest group-hover:text-accent transition-colors" data-home-service-cta>
+                                Тестировать <span class="material-symbols-outlined ml-1 text-sm">trending_flat</span>
+</div>
+</div>
+<div class="glass-card p-8 rounded-3xl flex flex-col min-h-[320px] group" data-home-service-card>
+<div class="light-sweep"></div>
+<div class="icon-3d mb-8 relative">
+<div class="absolute inset-0 bg-primary/20 blur-xl rounded-full scale-75 group-hover:scale-110 transition-transform"></div>
+<svg class="size-16 text-primary relative z-10" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+<path d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.744c0 5.52 3.446 10.237 8.25 12.256 4.804-2.019 8.25-6.736 8.25-12.256 0-1.312-.21-2.574-.598-3.744A11.959 11.959 0 0112 2.714z" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</div>
+<h3 class="text-white text-xl font-bold mb-3" data-home-service-title>Cyber Defense</h3>
+<p class="text-[#9aabbc] text-sm leading-relaxed mb-6" data-home-service-desc>Нейросетевая защита от DDoS-атак и шифрование данных по ГОСТ.</p>
+<div class="mt-auto flex items-center text-primary text-xs font-black uppercase tracking-widest group-hover:text-accent transition-colors" data-home-service-cta>
+                                Аудит <span class="material-symbols-outlined ml-1 text-sm">trending_flat</span>
+</div>
+</div>
+<div class="glass-card p-8 rounded-3xl flex flex-col min-h-[320px] group" data-home-service-card>
+<div class="light-sweep"></div>
+<div class="icon-3d mb-8 relative">
+<div class="absolute inset-0 bg-accent/20 blur-xl rounded-full scale-75 group-hover:scale-110 transition-transform"></div>
+<svg class="size-16 text-accent relative z-10" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+<path d="M8.25 3v1.5M4.5 8.25H3m18 0h-1.5M4.5 12H3m18 0h-1.5m-15 3.75H3m18 0h-1.5M8.25 19.5V21M12 3v1.5m0 15V21m3.75-18v1.5m0 15V21m-9-1.5h10.5a2.25 2.25 0 002.25-2.25V6.75a2.25 2.25 0 00-2.25-2.25H6.75A2.25 2.25 0 004.5 6.75v10.5a2.25 2.25 0 002.25 2.25zm.75-12h7.5v7.5H7.5v-7.5z" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</div>
+<h3 class="text-white text-xl font-bold mb-3" data-home-service-title>Smart Sensors</h3>
+<p class="text-[#9aabbc] text-sm leading-relaxed mb-6" data-home-service-desc>Индустриальный интернет вещей (IIoT) для мониторинга активов в реальном времени.</p>
+<div class="mt-auto flex items-center text-primary text-xs font-black uppercase tracking-widest group-hover:text-accent transition-colors" data-home-service-cta>
+                                Подключить <span class="material-symbols-outlined ml-1 text-sm">trending_flat</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="mt-20" data-home-extra-sections></section>
+<section class="mt-32" data-home-industry>
+<h2 class="text-white text-3xl font-bold tracking-tight mb-12" data-home-industry-title>Отраслевые сценарии</h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8" data-home-industry-grid>
+<div class="glass-card h-[400px] rounded-3xl group cursor-pointer relative" data-home-industry-card>
+<div class="light-sweep"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-[#0f1923] via-transparent to-transparent z-10"></div>
+<div class="p-10 h-full flex flex-col relative z-20">
+<div class="icon-3d mb-auto">
+<div class="size-16 rounded-2xl bg-primary/10 border border-primary/20 flex items-center justify-center text-primary backdrop-blur-md" data-home-industry-card-icon-wrap>
+<span class="material-symbols-outlined text-4xl" data-home-industry-card-icon>shopping_cart</span>
+</div>
+</div>
+<div class="translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
+<span class="text-accent text-[10px] font-black uppercase tracking-[0.2em] mb-2 block" data-home-industry-card-tag>FOR RETAIL</span>
+<h3 class="text-white text-2xl font-bold mb-4" data-home-industry-card-title>Умный Ритейл</h3>
+<p class="text-[#9aabbc] text-sm leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-500" data-home-industry-card-desc>
+                                    Аналитика потоков, тепловые карты и автоматизация касс с защитой данных покупателей.
+                                </p>
+<button class="mt-6 px-6 py-3 bg-white text-black text-xs font-black rounded-xl opacity-0 group-hover:opacity-100 transition-all duration-500 translate-y-2 group-hover:translate-y-0" data-home-industry-card-button>
+                                    ПОДРОБНЕЕ
+                                </button>
+</div>
+</div>
+</div>
+<div class="glass-card h-[400px] rounded-3xl group cursor-pointer relative border-accent/20" data-home-industry-card>
+<div class="light-sweep"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-[#0f1923] via-transparent to-transparent z-10"></div>
+<div class="p-10 h-full flex flex-col relative z-20">
+<div class="icon-3d mb-auto">
+<div class="size-16 rounded-2xl bg-accent/10 border border-accent/20 flex items-center justify-center text-accent backdrop-blur-md" data-home-industry-card-icon-wrap>
+<span class="material-symbols-outlined text-4xl" data-home-industry-card-icon>apartment</span>
+</div>
+</div>
+<div class="translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
+<span class="text-primary text-[10px] font-black uppercase tracking-[0.2em] mb-2 block" data-home-industry-card-tag>FOR DEVELOPERS</span>
+<h3 class="text-white text-2xl font-bold mb-4" data-home-industry-card-title>Цифровой Девелопмент</h3>
+<p class="text-[#9aabbc] text-sm leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-500" data-home-industry-card-desc>
+                                    Единая цифровая среда ЖК: от умных шлагбаумов до автоматической диспетчеризации ресурсов.
+                                </p>
+<button class="mt-6 px-6 py-3 bg-white text-black text-xs font-black rounded-xl opacity-0 group-hover:opacity-100 transition-all duration-500 translate-y-2 group-hover:translate-y-0" data-home-industry-card-button>
+                                    ПОДРОБНЕЕ
+                                </button>
+</div>
+</div>
+</div>
+<div class="glass-card h-[400px] rounded-3xl group cursor-pointer relative" data-home-industry-card>
+<div class="light-sweep"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-[#0f1923] via-transparent to-transparent z-10"></div>
+<div class="p-10 h-full flex flex-col relative z-20">
+<div class="icon-3d mb-auto">
+<div class="size-16 rounded-2xl bg-primary/10 border border-primary/20 flex items-center justify-center text-primary backdrop-blur-md" data-home-industry-card-icon-wrap>
+<span class="material-symbols-outlined text-4xl" data-home-industry-card-icon>account_balance</span>
+</div>
+</div>
+<div class="translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
+<span class="text-accent text-[10px] font-black uppercase tracking-[0.2em] mb-2 block" data-home-industry-card-tag>GOV SOLUTIONS</span>
+<h3 class="text-white text-2xl font-bold mb-4" data-home-industry-card-title>Госсектор 4.0</h3>
+<p class="text-[#9aabbc] text-sm leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-500" data-home-industry-card-desc>
+                                    Импортозамещение, суверенные облака и защита критически важной инфраструктуры.
+                                </p>
+<button class="mt-6 px-6 py-3 bg-white text-black text-xs font-black rounded-xl opacity-0 group-hover:opacity-100 transition-all duration-500 translate-y-2 group-hover:translate-y-0" data-home-industry-card-button>
+                                    ПОДРОБНЕЕ
+                                </button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="mt-16" data-home-private-zone>
+<div class="max-w-[1200px] mx-auto">
+<div class="p-10 glass-effect rounded-3xl border border-white/10 relative overflow-hidden" data-home-private-card>
+<div class="absolute -right-10 -top-10 size-32 bg-primary/30 blur-[80px]"></div>
+<div class="absolute -left-10 -bottom-10 size-32 bg-accent/30 blur-[80px]"></div>
+<div class="relative">
+<div class="size-12 rounded-2xl bg-primary/20 flex items-center justify-center mb-6 icon-3d" data-home-private-icon-wrap>
+<span class="material-symbols-outlined text-primary text-3xl" data-home-private-icon>lock_open</span>
+</div>
+<h5 class="text-xl font-black mb-3" data-home-private-title>Приватная зона</h5>
+<p class="text-sm text-slate-400 mb-8 leading-relaxed" data-home-private-desc>Для доступа к финансовым отчетам и персональным спецификациям требуется верификация через личный кабинет.</p>
+<button class="w-full py-4 bg-primary text-white hover:brightness-110 shadow-xl shadow-primary/20 rounded-xl text-xs font-black uppercase tracking-widest transition-all" data-home-private-button>Войти в систему</button>
+</div>
+</div>
+</div>
+</section>
+<section class="mt-32 relative group overflow-hidden rounded-[2.5rem] p-16">
+<div class="absolute inset-0 bg-primary/90"></div>
+<div class="absolute inset-0 bg-[radial-gradient(circle_at_100%_0%,#00f2ff_0%,transparent_50%)] opacity-30"></div>
+<div class="absolute top-0 right-0 p-8 icon-3d opacity-20 group-hover:scale-110 transition-transform duration-700">
+<svg class="size-64" fill="none" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+<circle cx="100" cy="100" r="80" stroke="white" stroke-dasharray="10 20" stroke-width="2"></circle>
+<circle cx="100" cy="100" r="60" stroke="white" stroke-dasharray="5 15" stroke-width="1"></circle>
+<circle cx="100" cy="100" r="40" stroke="white" stroke-width="0.5"></circle>
+</svg>
+</div>
+<div class="relative z-10 flex flex-col lg:flex-row items-center justify-between gap-12">
+<div class="max-w-2xl text-center lg:text-left">
+<h2 class="text-white text-4xl font-black mb-4">Начните цифровую трансформацию сегодня</h2>
+<p class="text-white/80 text-xl">Наши эксперты помогут спроектировать инфраструктуру любой сложности.</p>
+</div>
+<div class="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
+<button class="px-10 py-5 bg-white text-primary font-black rounded-2xl hover:scale-105 transition-all shadow-xl shadow-black/20">ОСТАВИТЬ ЗАЯВКУ</button>
+<button class="px-10 py-5 border-2 border-white/30 text-white font-black rounded-2xl hover:bg-white/10 transition-all">СВЯЗАТЬСЯ С НАМИ</button>
+</div>
+</div>
+</section>
+</section>
+</main>
+
+</div>
+</section>
+<section class="bg-background-dark text-slate-100 min-h-screen relative overflow-x-hidden hidden" data-stitch-block="news_and_documents_list_2">
+<div class="fixed top-0 right-0 w-[500px] h-[500px] glow-leak pointer-events-none -z-10 translate-x-1/2 -translate-y-1/2"></div>
+<div class="fixed bottom-0 left-0 w-[800px] h-[800px] glow-leak pointer-events-none -z-10 -translate-x-1/4 translate-y-1/4"></div>
+
+<main class="max-w-[1400px] mx-auto px-8 py-12">
+<div class="mb-16 relative">
+<div class="absolute -left-8 top-0 h-full w-1 bg-primary rounded-full"></div>
+<h1 class="text-6xl md:text-7xl font-black tracking-tighter mb-6 bg-gradient-to-br from-white via-white to-white/30 bg-clip-text text-transparent">
+                Новости и<br/>Медиа-ресурсы
+            </h1>
+<p class="text-slate-400 text-xl max-w-2xl font-light leading-relaxed">
+                Интеллектуальная среда MGTS: последние технологические прорывы, отраслевая экспертиза и полный доступ к нормативной базе.
+            </p>
+</div>
+<div class="mb-16">
+<div class="flex gap-4 p-1.5 bg-white/5 rounded-2xl w-fit border border-white/10" data-news-tags>
+<button class="px-8 py-3 text-sm font-bold rounded-xl bg-primary shadow-lg shadow-primary/20 text-white" type="button" data-news-tag data-news-tag-slug="">Все материалы</button>
+<button class="px-8 py-3 text-sm font-bold rounded-xl text-slate-400 hover:text-white hover:bg-white/5 transition-all" type="button" data-news-tag data-news-tag-slug="tech">Технологии</button>
+<button class="px-8 py-3 text-sm font-bold rounded-xl text-slate-400 hover:text-white hover:bg-white/5 transition-all" type="button" data-news-tag data-news-tag-slug="reports">Отчеты</button>
+<button class="px-8 py-3 text-sm font-bold rounded-xl text-slate-400 hover:text-white hover:bg-white/5 transition-all" type="button" data-news-tag data-news-tag-slug="certs">Сертификаты</button>
+</div>
+</div>
+
+<!-- Archive-only: years filter (CMS-driven) -->
+<div class="mb-10 hidden" data-news-years>
+<div class="flex flex-wrap gap-2">
+<button class="px-4 py-2 text-xs font-black rounded-xl bg-white/5 border border-white/10 text-white/80 hover:bg-white/10 transition-all" type="button" data-news-year data-news-year-value="">Все годы</button>
+</div>
+</div>
+<div class="grid grid-cols-1 gap-12 perspective-1000">
+<div class="space-y-12">
+<div class="flex items-center justify-between">
+<h3 class="text-2xl font-black tracking-tight flex items-center gap-4">
+<span class="size-10 rounded-xl bg-primary/10 flex items-center justify-center">
+<span class="material-symbols-outlined text-primary">dynamic_feed</span>
+</span>
+                        Свежие публикации
+                    </h3>
+<a class="group flex items-center gap-2 text-primary font-bold text-sm tracking-widest uppercase" href="/news/archive" data-news-archive-link>
+                        Архив новостей
+                        <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_right_alt</span>
+</a>
+</div>
+<div class="grid grid-cols-1 gap-8" data-news-cards>
+<div class="news-card-3d glass-effect group cursor-pointer rounded-2xl overflow-hidden flex flex-col md:flex-row" role="button" tabindex="0" data-modal-open="mgts-news-detail-modal" data-open-mode="modal" data-route-open="/news/demo-1" data-content-type="news" data-content-id="demo-1">
+<div class="md:w-[45%] h-64 md:h-auto overflow-hidden relative">
+<div class="w-full h-full bg-center bg-no-repeat bg-cover transform group-hover:scale-110 transition-transform duration-700" style='background-image: url("/assets/images/external/60b54c10dd84.png");'></div>
+<div class="absolute inset-0 image-overlay opacity-40"></div>
+</div>
+<div class="p-10 md:w-[55%] flex flex-col justify-center relative">
+<div class="flex items-center justify-between mb-6">
+<span class="category-tag-glow bg-white/5 border border-white/10 text-white/70 text-[10px] font-black uppercase tracking-[0.2em] px-3 py-1.5 rounded-md" data-news-category>Технологии</span>
+<span class="text-slate-500 text-[11px] font-bold uppercase tracking-widest" data-news-date>15 ОКТ 2023</span>
+</div>
+<h4 class="text-3xl font-black leading-tight group-hover:text-primary transition-colors mb-4" data-news-title>Масштабирование 5G-инфраструктуры в промзонах</h4>
+<p class="text-slate-400 text-base font-light mb-0" data-news-excerpt>Внедрение выделенных сетей для бесперебойной автоматизации и интернета вещей на крупнейших предприятиях.</p>
+</div>
+</div>
+<div class="news-card-3d glass-effect group cursor-pointer rounded-2xl overflow-hidden flex flex-col md:flex-row" role="button" tabindex="0" data-modal-open="mgts-news-detail-modal" data-open-mode="modal" data-route-open="/news/demo-2" data-content-type="news" data-content-id="demo-2">
+<div class="md:w-[45%] h-64 md:h-auto overflow-hidden relative">
+<div class="w-full h-full bg-center bg-no-repeat bg-cover transform group-hover:scale-110 transition-transform duration-700" style='background-image: url("/assets/images/external/6eeb437dfc85.png");'></div>
+<div class="absolute inset-0 image-overlay opacity-40"></div>
+</div>
+<div class="p-10 md:w-[55%] flex flex-col justify-center relative">
+<div class="flex items-center justify-between mb-6">
+<span class="category-tag-glow bg-white/5 border border-white/10 text-white/70 text-[10px] font-black uppercase tracking-[0.2em] px-3 py-1.5 rounded-md" data-news-category>Бизнес</span>
+<span class="text-slate-500 text-[11px] font-bold uppercase tracking-widest" data-news-date>12 ОКТ 2023</span>
+</div>
+<h4 class="text-3xl font-black leading-tight group-hover:text-primary transition-colors mb-4" data-news-title>Квартальный отчет: Рост в сегменте B2B</h4>
+<p class="text-slate-400 text-base font-light mb-0" data-news-excerpt>Статистика внедрения цифровых сервисов и новые горизонты корпоративной устойчивости за 3 квартал.</p>
+</div>
+</div>
+<div class="news-card-3d glass-effect group cursor-pointer rounded-2xl overflow-hidden flex flex-col md:flex-row" role="button" tabindex="0" data-modal-open="mgts-news-detail-modal" data-open-mode="modal" data-route-open="/news/demo-3" data-content-type="news" data-content-id="demo-3">
+<div class="md:w-[45%] h-64 md:h-auto overflow-hidden relative">
+<div class="w-full h-full bg-center bg-no-repeat bg-cover transform group-hover:scale-110 transition-transform duration-700" style='background-image: url("/assets/images/external/59b1b16623f4.png");'></div>
+<div class="absolute inset-0 image-overlay opacity-40"></div>
+</div>
+<div class="p-10 md:w-[55%] flex flex-col justify-center relative">
+<div class="flex items-center justify-between mb-6">
+<span class="category-tag-glow bg-white/5 border border-white/10 text-white/70 text-[10px] font-black uppercase tracking-[0.2em] px-3 py-1.5 rounded-md" data-news-category>Инфраструктура</span>
+<span class="text-slate-500 text-[11px] font-bold uppercase tracking-widest" data-news-date>10 ОКТ 2023</span>
+</div>
+<h4 class="text-3xl font-black leading-tight group-hover:text-primary transition-colors mb-4" data-news-title>Цифровой каркас будущего: модернизация завершена</h4>
+<p class="text-slate-400 text-base font-light mb-0" data-news-excerpt>Завершена глобальная интеграция оптоволоконных магистралей нового поколения. Обеспечена 100% готовность к приему гигабитных нагрузок во всех деловых кластерах.</p>
+</div>
+</div>
+</div>
+
+<!-- Pagination (CMS-driven) -->
+<div class="mt-10 flex flex-col gap-4" data-news-pagination-root>
+  <div class="flex flex-col items-start gap-4">
+    <div class="flex flex-wrap items-center gap-2">
+      <button class="glass-button flex items-center gap-2 px-4 h-10 rounded-lg text-white text-sm font-bold transition-all group disabled:opacity-40 disabled:cursor-not-allowed" type="button" data-news-prev aria-label="Предыдущая страница">
+        <span class="material-symbols-outlined text-[18px] group-hover:-translate-x-1 transition-transform">chevron_left</span>
+        <span>Назад</span>
+      </button>
+      <div class="flex items-center gap-1" data-news-pages>
+        <!-- buttons will be injected by CMS adapter -->
+        <button class="flex size-10 items-center justify-center rounded-lg bg-primary text-white font-bold text-sm shadow-lg shadow-primary/20" type="button" aria-pressed="true">1</button>
+      </div>
+      <button class="glass-button flex items-center gap-2 px-4 h-10 rounded-lg text-white text-sm font-bold transition-all group disabled:opacity-40 disabled:cursor-not-allowed" type="button" data-news-next aria-label="Следующая страница">
+        <span>Вперед</span>
+        <span class="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform">chevron_right</span>
+      </button>
+    </div>
+    <p class="text-xs font-bold text-white/50 uppercase tracking-wider" data-news-summary>Показано 1-3 из 3 новостей</p>
+  </div>
+</div>
+</div>
+<div class="space-y-10" data-news-documents>
+<div class="flex items-center justify-between">
+<h3 class="text-2xl font-black tracking-tight flex items-center gap-4">
+<span class="size-10 rounded-xl bg-primary/10 flex items-center justify-center">
+<span class="material-symbols-outlined text-primary">inventory_2</span>
+</span>
+                        Документы
+                    </h3>
+<span class="text-xs font-bold text-slate-500 uppercase">12 единиц</span>
+</div>
+<div class="space-y-4">
+<div class="group flex items-center justify-between p-5 glass-effect rounded-2xl hover:bg-white/10 transition-all border-l-4 border-l-red-500/50">
+<div class="flex items-center gap-5">
+<div class="size-14 relative flex items-center justify-center">
+<div class="absolute inset-0 bg-red-500/20 blur-xl opacity-0 group-hover:opacity-100 transition-opacity"></div>
+<div class="relative bg-gradient-to-br from-red-600 to-red-800 p-3 rounded-lg shadow-2xl icon-3d">
+<span class="material-symbols-outlined text-white text-2xl fill-1">picture_as_pdf</span>
+</div>
+</div>
+<div>
+<h5 class="text-[15px] font-bold text-white mb-1 group-hover:text-red-400 transition-colors">Договор B2B (2024)</h5>
+<p class="text-[11px] text-slate-500 uppercase tracking-widest font-bold">PDF • 2.4 MB</p>
+</div>
+</div>
+<button class="size-10 flex items-center justify-center bg-white/5 border border-white/10 text-white rounded-full hover:bg-primary hover:border-primary transition-all shadow-lg">
+<span class="material-symbols-outlined text-lg">download</span>
+</button>
+</div>
+<div class="group flex items-center justify-between p-5 glass-effect rounded-2xl hover:bg-white/10 transition-all border-l-4 border-l-blue-500/50">
+<div class="flex items-center gap-5">
+<div class="size-14 relative flex items-center justify-center">
+<div class="absolute inset-0 bg-blue-500/20 blur-xl opacity-0 group-hover:opacity-100 transition-opacity"></div>
+<div class="relative bg-gradient-to-br from-blue-600 to-blue-800 p-3 rounded-lg shadow-2xl icon-3d">
+<span class="material-symbols-outlined text-white text-2xl fill-1">description</span>
+</div>
+</div>
+<div>
+<h5 class="text-[15px] font-bold text-white mb-1 group-hover:text-blue-400 transition-colors">Тех. регламент V3</h5>
+<p class="text-[11px] text-slate-500 uppercase tracking-widest font-bold">DOCX • 1.1 MB</p>
+</div>
+</div>
+<button class="size-10 flex items-center justify-center bg-white/5 border border-white/10 text-white rounded-full hover:bg-primary hover:border-primary transition-all shadow-lg">
+<span class="material-symbols-outlined text-lg">download</span>
+</button>
+</div>
+<div class="group flex items-center justify-between p-5 glass-effect rounded-2xl hover:bg-white/10 transition-all border-l-4 border-l-amber-500/50">
+<div class="flex items-center gap-5">
+<div class="size-14 relative flex items-center justify-center">
+<div class="absolute inset-0 bg-amber-500/20 blur-xl opacity-0 group-hover:opacity-100 transition-opacity"></div>
+<div class="relative bg-gradient-to-br from-amber-500 to-amber-700 p-3 rounded-lg shadow-2xl icon-3d">
+<span class="material-symbols-outlined text-white text-2xl fill-1">verified_user</span>
+</div>
+</div>
+<div>
+<h5 class="text-[15px] font-bold text-white mb-1 group-hover:text-amber-400 transition-colors">Лицензия СОРМ</h5>
+<p class="text-[11px] text-slate-500 uppercase tracking-widest font-bold">PDF • 3.7 MB</p>
+</div>
+</div>
+<button class="size-10 flex items-center justify-center bg-white/5 border border-white/10 text-white rounded-full hover:bg-primary hover:border-primary transition-all shadow-lg">
+<span class="material-symbols-outlined text-lg">download</span>
+</button>
+</div>
+</div>
+<div class="p-10 glass-effect rounded-3xl border border-white/10 relative overflow-hidden">
+<div class="absolute -right-10 -top-10 size-32 bg-primary/30 blur-[80px]"></div>
+<div class="absolute -left-10 -bottom-10 size-32 bg-accent/30 blur-[80px]"></div>
+<div class="relative">
+<div class="size-12 rounded-2xl bg-primary/20 flex items-center justify-center mb-6 icon-3d">
+<span class="material-symbols-outlined text-primary text-3xl">lock_open</span>
+</div>
+<h5 class="text-xl font-black mb-3">Приватная зона</h5>
+<p class="text-sm text-slate-400 mb-8 leading-relaxed">Для доступа к финансовым отчетам и персональным спецификациям требуется верификация через личный кабинет.</p>
+<button class="w-full py-4 bg-primary text-white hover:brightness-110 shadow-xl shadow-primary/20 rounded-xl text-xs font-black uppercase tracking-widest transition-all">
+                            Войти в систему
+                        </button>
+</div>
+</div>
+</div>
+</div>
+</main>
+
+<!-- News Detail Modal (placeholder: content will be injected by CMS) -->
+<div class="fixed inset-0 z-50 hidden" id="mgts-news-detail-modal" data-modal aria-hidden="true">
+  <div class="absolute inset-0" data-modal-overlay style="background: rgba(0,0,0,0.7); backdrop-filter: blur(6px);"></div>
+  <div class="relative mx-auto flex h-full w-full max-w-[1100px] items-center justify-center p-6">
+    <div class="relative w-full overflow-hidden rounded-2xl border border-white/10 bg-[#0a0f18] shadow-2xl" style="max-height: 90vh; display: flex; flex-direction: column;" role="dialog" aria-modal="true" aria-label="Новость" data-modal-dialog>
+      <div class="flex items-center justify-end border-b border-white/10 px-6 py-4">
+        <button class="flex h-10 w-10 items-center justify-center rounded-lg hover:bg-white/10 transition-colors" type="button" data-modal-close aria-label="Закрыть">
+          <span class="material-symbols-outlined">close</span>
+        </button>
+      </div>
+      <div class="p-8 space-y-6" style="overflow: auto; flex: 1 1 auto; min-height: 0;">
+        <h2 class="text-3xl font-black tracking-tight text-white" data-cms-title>Заголовок новости</h2>
+        <div class="text-slate-300 leading-relaxed space-y-4" data-cms-body>
+          <p>Здесь будет тело новости, изображения, дата и связанные материалы. В демо — заглушка.</p>
+        </div>
+        <div class="aspect-[16/9] rounded-xl bg-white/5 border border-white/10 overflow-hidden" data-cms-media>
+          <img class="h-full w-full object-cover hidden" alt="" data-cms-image />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</section>
+<section class="bg-premium-dark text-white selection:bg-primary/30" data-stitch-block="footer_and_contact_form">
+<!-- Contact Form Section -->
+<section class="relative py-24 px-6 overflow-hidden">
+<!-- Abstract Glow Background -->
+<div class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full pointer-events-none opacity-20">
+<div class="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-primary rounded-full blur-[120px]"></div>
+<div class="absolute bottom-[-10%] right-[-10%] w-[30%] h-[30%] bg-blue-400 rounded-full blur-[100px]"></div>
+</div>
+<div class="max-w-[1200px] mx-auto relative z-10">
+<div class="grid lg:grid-cols-2 gap-16 items-center">
+<!-- Text Content -->
+<div class="flex flex-col gap-6">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 w-fit">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+<span class="text-xs font-bold uppercase tracking-wider text-primary">Готовы к масштабированию?</span>
+</div>
+<h2 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight tracking-tight" data-cms-order-title>
+                        Обсудим ваш проект <br/>
+<span class="text-primary">прямо сейчас</span>
+</h2>
+<p class="text-lg text-gray-400 max-w-md leading-relaxed" data-cms-order-subtitle>
+                        Оставьте заявку, и наш персональный менеджер свяжется с вами для детальной консультации по инфраструктурным решениям МГТС.
+                    </p>
+<div class="flex flex-col gap-4 mt-4">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-lg bg-white/5 flex items-center justify-center border border-white/10">
+<span class="material-symbols-outlined text-primary">support_agent</span>
+</div>
+<div>
+<p class="text-sm text-gray-500">Поддержка 24/7</p>
+<p class="font-medium">8 800 250 0890</p>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-lg bg-white/5 flex items-center justify-center border border-white/10">
+<span class="material-symbols-outlined text-primary">mail</span>
+</div>
+<div>
+<p class="text-sm text-gray-500">Email для бизнеса</p>
+<p class="font-medium">b2b@mgts.ru</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Form Card -->
+<div class="form-glass p-8 md:p-10 rounded-xl shadow-2xl">
+<form class="flex flex-col gap-6" data-cms-order-form>
+<!-- TextField Component Style -->
+<div class="flex flex-col gap-2">
+<label class="text-sm font-medium text-gray-300">Имя</label>
+<input class="w-full bg-white/5 border border-white/10 rounded-lg h-14 px-4 text-white placeholder:text-gray-600 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all" placeholder="Иван Иванов" type="text"/>
+</div>
+<div class="flex flex-col gap-2">
+<label class="text-sm font-medium text-gray-300">Номер телефона</label>
+<input class="w-full bg-white/5 border border-white/10 rounded-lg h-14 px-4 text-white placeholder:text-gray-600 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all" placeholder="+7 (___) ___-__-__" type="tel"/>
+</div>
+<div class="flex flex-col gap-2">
+<label class="text-sm font-medium text-gray-300">Название компании</label>
+<input class="w-full bg-white/5 border border-white/10 rounded-lg h-14 px-4 text-white placeholder:text-gray-600 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all" placeholder="ООО 'ТехноПрогресс'" type="text"/>
+</div>
+<div class="flex flex-col gap-4 pt-2">
+<button class="w-full h-14 bg-primary hover:bg-primary/90 text-white font-bold rounded-lg transition-all transform active:scale-[0.98] flex items-center justify-center gap-2 group" type="submit">
+<span>Отправить заявку</span>
+<span class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</button>
+<p class="text-[10px] text-gray-500 text-center leading-relaxed uppercase tracking-widest">
+                                Нажимая кнопку, вы соглашаетесь с условиями <br/>
+<a class="underline hover:text-primary transition-colors" href="#">обработки персональных данных</a>
+</p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer Section -->
+<footer class="bg-[#0a0f18] border-t border-white/5 pt-20 pb-10">
+<div class="max-w-[1200px] mx-auto px-6">
+<div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-10 mb-16">
+<!-- Branding Column -->
+<div class="col-span-2 lg:col-span-1 flex flex-col gap-6">
+<div class="flex items-center gap-2">
+<div class="w-10 h-10 bg-primary flex items-center justify-center rounded-lg">
+<span class="text-white font-black text-xl">M</span>
+</div>
+<span class="text-2xl font-bold tracking-tighter">МГТС</span>
+</div>
+<p class="text-sm text-gray-500 leading-relaxed">
+                        Лидер телекоммуникационных решений в Москве. Надежная инфраструктура для вашего бизнеса с 1882 года.
+                    </p>
+<div class="flex items-center gap-3">
+<a class="w-10 h-10 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center hover:bg-primary/20 hover:border-primary/50 transition-all text-gray-400 hover:text-white" href="#">
+<span class="material-symbols-outlined text-xl">public</span>
+</a>
+<a class="w-10 h-10 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center hover:bg-primary/20 hover:border-primary/50 transition-all text-gray-400 hover:text-white" href="#">
+<span class="material-symbols-outlined text-xl">rss_feed</span>
+</a>
+<a class="w-10 h-10 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center hover:bg-primary/20 hover:border-primary/50 transition-all text-gray-400 hover:text-white" href="#">
+<span class="material-symbols-outlined text-xl">video_library</span>
+</a>
+</div>
+</div>
+<!-- Sitemap: Services -->
+<div class="flex flex-col gap-6">
+<h3 class="text-sm font-bold uppercase tracking-widest text-primary">Услуги</h3>
+<ul class="flex flex-col gap-3">
+<li><a class="text-sm text-gray-400 hover:text-white transition-colors" href="#">Интернет для бизнеса</a></li>
+<li><a class="text-sm text-gray-400 hover:text-white transition-colors" href="#">Облачные АТС</a></li>
+<li><a class="text-sm text-gray-400 hover:text-white transition-colors" href="#">Выделенные каналы</a></li>
+<li><a class="text-sm text-gray-400 hover:text-white transition-colors" href="#">Видеонаблюдение</a></li>
+<li><a class="text-sm text-gray-400 hover:text-white transition-colors" href="#">Colocation</a></li>
+</ul>
+</div>
+<!-- Sitemap: Company -->
+<div class="flex flex-col gap-6">
+<h3 class="text-sm font-bold uppercase tracking-widest text-primary">Компания</h3>
+<ul class="flex flex-col gap-3">
+<li><a class="text-sm text-gray-400 hover:text-white transition-colors" href="#">О нас</a></li>
+<li><a class="text-sm text-gray-400 hover:text-white transition-colors" href="#">Карьера</a></li>
+<li><a class="text-sm text-gray-400 hover:text-white transition-colors" href="#">Пресс-центр</a></li>
+<li><a class="text-sm text-gray-400 hover:text-white transition-colors" href="#">Инвесторам</a></li>
+<li><a class="text-sm text-gray-400 hover:text-white transition-colors" href="#">Тендеры</a></li>
+</ul>
+</div>
+<!-- Sitemap: Support -->
+<div class="flex flex-col gap-6">
+<h3 class="text-sm font-bold uppercase tracking-widest text-primary">Поддержка</h3>
+<ul class="flex flex-col gap-3">
+<li><a class="text-sm text-gray-400 hover:text-white transition-colors" href="#">Центр помощи</a></li>
+<li><a class="text-sm text-gray-400 hover:text-white transition-colors" href="#">Документация</a></li>
+<li><a class="text-sm text-gray-400 hover:text-white transition-colors" href="#">Статус сети</a></li>
+<li><a class="text-sm text-gray-400 hover:text-white transition-colors" href="#">Обратная связь</a></li>
+<li><a class="text-sm text-gray-400 hover:text-white transition-colors" href="#">Контакты</a></li>
+</ul>
+</div>
+<!-- Sitemap: Solutions -->
+<div class="flex flex-col gap-6">
+<h3 class="text-sm font-bold uppercase tracking-widest text-primary">Решения</h3>
+<ul class="flex flex-col gap-3">
+<li><a class="text-sm text-gray-400 hover:text-white transition-colors" href="#">Для госсектора</a></li>
+<li><a class="text-sm text-gray-400 hover:text-white transition-colors" href="#">Для малого бизнеса</a></li>
+<li><a class="text-sm text-gray-400 hover:text-white transition-colors" href="#">Крупный энтерпрайз</a></li>
+<li><a class="text-sm text-gray-400 hover:text-white transition-colors" href="#">IT-инфраструктура</a></li>
+</ul>
+</div>
+</div>
+<!-- Bottom Bar -->
+<div class="pt-10 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6">
+<div class="flex flex-col md:flex-row items-center gap-4 md:gap-8">
+<p class="text-xs text-gray-600 uppercase tracking-widest">© 2024 ПАО МГТС. Все права защищены.</p>
+<div class="flex items-center gap-4">
+<a class="text-xs text-gray-600 hover:text-gray-400 transition-colors uppercase tracking-widest" href="#">Политика безопасности</a>
+<a class="text-xs text-gray-600 hover:text-gray-400 transition-colors uppercase tracking-widest" href="#">Правовая информация</a>
+</div>
+</div>
+<div class="flex items-center gap-2 px-3 py-1.5 rounded bg-white/5 border border-white/10">
+<span class="material-symbols-outlined text-xs text-green-500">lock</span>
+<span class="text-[10px] text-gray-500 uppercase tracking-tighter">Соединение защищено SSL-шифрованием</span>
+</div>
+</div>
+</div>
+</footer>
+</section>
+</body>
+</html>

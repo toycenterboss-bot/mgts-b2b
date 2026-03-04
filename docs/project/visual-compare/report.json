@@ -1,0 +1,1539 @@
+{
+  "generatedAt": "2026-03-03T07:23:15.623Z",
+  "results": [
+    {
+      "path": "/",
+      "name": "home",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/home.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/home.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/home.png",
+      "mismatch": 2501072,
+      "mismatchRatio": 0.20855614259792934,
+      "size": {
+        "width": 1440,
+        "height": 8328
+      }
+    },
+    {
+      "path": "/about_mgts",
+      "name": "about_mgts",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/about_mgts.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/about_mgts.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/about_mgts.png",
+      "mismatch": 675998,
+      "mismatchRatio": 0.12414019803725686,
+      "size": {
+        "width": 1540,
+        "height": 3536
+      }
+    },
+    {
+      "path": "/about_registrar",
+      "name": "about_registrar",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/about_registrar.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/about_registrar.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/about_registrar.png",
+      "mismatch": 374774,
+      "mismatchRatio": 0.06307924838251433,
+      "size": {
+        "width": 1540,
+        "height": 3858
+      }
+    },
+    {
+      "path": "/affiliated/persons",
+      "name": "affiliated__persons",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/affiliated__persons.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/affiliated__persons.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/affiliated__persons.png",
+      "mismatch": 53423,
+      "mismatchRatio": 0.017271557521208358,
+      "size": {
+        "width": 1440,
+        "height": 2148
+      }
+    },
+    {
+      "path": "/ai-chat",
+      "name": "ai-chat",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/ai-chat.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/ai-chat.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/ai-chat.png",
+      "mismatch": 126547,
+      "mismatchRatio": 0.02314455125391391,
+      "size": {
+        "width": 1440,
+        "height": 3797
+      }
+    },
+    {
+      "path": "/bank_details",
+      "name": "bank_details",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/bank_details.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/bank_details.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/bank_details.png",
+      "mismatch": 121472,
+      "mismatchRatio": 0.034732682553026015,
+      "size": {
+        "width": 1540,
+        "height": 2271
+      }
+    },
+    {
+      "path": "/business",
+      "name": "business",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/business.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/business.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/business.png",
+      "mismatch": 836753,
+      "mismatchRatio": 0.13359874696240567,
+      "size": {
+        "width": 1540,
+        "height": 4067
+      }
+    },
+    {
+      "path": "/business/access_internet",
+      "name": "business__access_internet",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/business__access_internet.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/business__access_internet.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/business__access_internet.png",
+      "mismatch": 320886,
+      "mismatchRatio": 0.039598542848257784,
+      "size": {
+        "width": 1540,
+        "height": 5262
+      }
+    },
+    {
+      "path": "/business/all/services",
+      "name": "business__all__services",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/business__all__services.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/business__all__services.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/business__all__services.png",
+      "mismatch": 368957,
+      "mismatchRatio": 0.08224595521196963,
+      "size": {
+        "width": 1540,
+        "height": 2913
+      }
+    },
+    {
+      "path": "/business/digital_television",
+      "name": "business__digital_television",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/business__digital_television.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/business__digital_television.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/business__digital_television.png",
+      "mismatch": 362306,
+      "mismatchRatio": 0.037331583047228875,
+      "size": {
+        "width": 1540,
+        "height": 6302
+      }
+    },
+    {
+      "path": "/business/equipment_setup",
+      "name": "business__equipment_setup",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/business__equipment_setup.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/business__equipment_setup.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/business__equipment_setup.png",
+      "mismatch": 395169,
+      "mismatchRatio": 0.06237317616753689,
+      "size": {
+        "width": 1540,
+        "height": 4114
+      }
+    },
+    {
+      "path": "/business/equipment_setup/computer_help",
+      "name": "business__equipment_setup__computer_help",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/business__equipment_setup__computer_help.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/business__equipment_setup__computer_help.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/business__equipment_setup__computer_help.png",
+      "mismatch": 572736,
+      "mismatchRatio": 0.0738202646896573,
+      "size": {
+        "width": 1540,
+        "height": 5038
+      }
+    },
+    {
+      "path": "/business/mobile_connection",
+      "name": "business__mobile_connection",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/business__mobile_connection.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/business__mobile_connection.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/business__mobile_connection.png",
+      "mismatch": 202545,
+      "mismatchRatio": 0.025543353519659598,
+      "size": {
+        "width": 1540,
+        "height": 5149
+      }
+    },
+    {
+      "path": "/business/payment_methods",
+      "name": "business__payment_methods",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/business__payment_methods.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/business__payment_methods.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/business__payment_methods.png",
+      "mismatch": 1032670,
+      "mismatchRatio": 0.14483043953886288,
+      "size": {
+        "width": 1540,
+        "height": 4630
+      }
+    },
+    {
+      "path": "/business/security_alarm",
+      "name": "business__security_alarm",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/business__security_alarm.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/business__security_alarm.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/business__security_alarm.png",
+      "mismatch": 1657313,
+      "mismatchRatio": 0.17779237943619242,
+      "size": {
+        "width": 1540,
+        "height": 6053
+      }
+    },
+    {
+      "path": "/business/telephony",
+      "name": "business__telephony",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/business__telephony.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/business__telephony.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/business__telephony.png",
+      "mismatch": 206585,
+      "mismatchRatio": 0.02655306886304511,
+      "size": {
+        "width": 1540,
+        "height": 5052
+      }
+    },
+    {
+      "path": "/business/video_surveillance_office",
+      "name": "business__video_surveillance_office",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/business__video_surveillance_office.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/business__video_surveillance_office.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/business__video_surveillance_office.png",
+      "mismatch": 692813,
+      "mismatchRatio": 0.06942570546737213,
+      "size": {
+        "width": 1540,
+        "height": 6480
+      }
+    },
+    {
+      "path": "/career",
+      "name": "career",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/career.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/career.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/career.png",
+      "mismatch": 1655383,
+      "mismatchRatio": 0.2503899431572388,
+      "size": {
+        "width": 1540,
+        "height": 4293
+      }
+    },
+    {
+      "path": "/contact",
+      "name": "contact",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/contact.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/contact.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/contact.png",
+      "mismatch": 1322901,
+      "mismatchRatio": 0.3213295732773697,
+      "size": {
+        "width": 1440,
+        "height": 2859
+      }
+    },
+    {
+      "path": "/contact_details",
+      "name": "contact_details",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/contact_details.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/contact_details.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/contact_details.png",
+      "mismatch": 276888,
+      "mismatchRatio": 0.06952722451562358,
+      "size": {
+        "width": 1540,
+        "height": 2586
+      }
+    },
+    {
+      "path": "/cookie_processing",
+      "name": "cookie_processing",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/cookie_processing.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/cookie_processing.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/cookie_processing.png",
+      "mismatch": 1944158,
+      "mismatchRatio": 0.24069404380176543,
+      "size": {
+        "width": 1540,
+        "height": 5245
+      }
+    },
+    {
+      "path": "/corporate_documents",
+      "name": "corporate_documents",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/corporate_documents.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/corporate_documents.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/corporate_documents.png",
+      "mismatch": 300509,
+      "mismatchRatio": 0.05914995886199281,
+      "size": {
+        "width": 1540,
+        "height": 3299
+      }
+    },
+    {
+      "path": "/data_processing",
+      "name": "data_processing",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/data_processing.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/data_processing.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/data_processing.png",
+      "mismatch": 6776456,
+      "mismatchRatio": 0.16672208933793445,
+      "size": {
+        "width": 1540,
+        "height": 26393
+      }
+    },
+    {
+      "path": "/decisions_meetings_shareholders",
+      "name": "decisions_meetings_shareholders",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/decisions_meetings_shareholders.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/decisions_meetings_shareholders.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/decisions_meetings_shareholders.png",
+      "mismatch": 273751,
+      "mismatchRatio": 0.0755462769274924,
+      "size": {
+        "width": 1540,
+        "height": 2353
+      }
+    },
+    {
+      "path": "/developers",
+      "name": "developers",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/developers.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/developers.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/developers.png",
+      "mismatch": 1254797,
+      "mismatchRatio": 0.23373587112829797,
+      "size": {
+        "width": 1540,
+        "height": 3486
+      }
+    },
+    {
+      "path": "/developers/compensation_for_losses",
+      "name": "developers__compensation_for_losses",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/developers__compensation_for_losses.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/developers__compensation_for_losses.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/developers__compensation_for_losses.png",
+      "mismatch": 801896,
+      "mismatchRatio": 0.19004076215755047,
+      "size": {
+        "width": 1540,
+        "height": 2740
+      }
+    },
+    {
+      "path": "/developers/connecting_objects",
+      "name": "developers__connecting_objects",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/developers__connecting_objects.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/developers__connecting_objects.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/developers__connecting_objects.png",
+      "mismatch": 502252,
+      "mismatchRatio": 0.10443088771619032,
+      "size": {
+        "width": 1540,
+        "height": 3123
+      }
+    },
+    {
+      "path": "/developers/connecting_objects/connecting_commercial",
+      "name": "developers__connecting_objects__connecting_commercial",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/developers__connecting_objects__connecting_commercial.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/developers__connecting_objects__connecting_commercial.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/developers__connecting_objects__connecting_commercial.png",
+      "mismatch": 412374,
+      "mismatchRatio": 0.061317912680404096,
+      "size": {
+        "width": 1540,
+        "height": 4367
+      }
+    },
+    {
+      "path": "/developers/connecting_objects/connecting_construction",
+      "name": "developers__connecting_objects__connecting_construction",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/developers__connecting_objects__connecting_construction.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/developers__connecting_objects__connecting_construction.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/developers__connecting_objects__connecting_construction.png",
+      "mismatch": 898597,
+      "mismatchRatio": 0.11249364670417301,
+      "size": {
+        "width": 1540,
+        "height": 5187
+      }
+    },
+    {
+      "path": "/developers/connecting_objects/connecting_residential",
+      "name": "developers__connecting_objects__connecting_residential",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/developers__connecting_objects__connecting_residential.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/developers__connecting_objects__connecting_residential.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/developers__connecting_objects__connecting_residential.png",
+      "mismatch": 584844,
+      "mismatchRatio": 0.08937840225201957,
+      "size": {
+        "width": 1540,
+        "height": 4249
+      }
+    },
+    {
+      "path": "/developers/digital_solutions",
+      "name": "developers__digital_solutions",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/developers__digital_solutions.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/developers__digital_solutions.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/developers__digital_solutions.png",
+      "mismatch": 490073,
+      "mismatchRatio": 0.06882119826540242,
+      "size": {
+        "width": 1540,
+        "height": 4624
+      }
+    },
+    {
+      "path": "/disclosure",
+      "name": "disclosure",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/disclosure.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/disclosure.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/disclosure.png",
+      "mismatch": 213736,
+      "mismatchRatio": 0.06173915052918612,
+      "size": {
+        "width": 1540,
+        "height": 2248
+      }
+    },
+    {
+      "path": "/emission",
+      "name": "emission",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/emission.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/emission.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/emission.png",
+      "mismatch": 48575,
+      "mismatchRatio": 0.015704208048830954,
+      "size": {
+        "width": 1440,
+        "height": 2148
+      }
+    },
+    {
+      "path": "/essential/facts",
+      "name": "essential__facts",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/essential__facts.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/essential__facts.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/essential__facts.png",
+      "mismatch": 52316,
+      "mismatchRatio": 0.016913666459755845,
+      "size": {
+        "width": 1440,
+        "height": 2148
+      }
+    },
+    {
+      "path": "/forms_doc",
+      "name": "forms_doc",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/forms_doc.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/forms_doc.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/forms_doc.png",
+      "mismatch": 245936,
+      "mismatchRatio": 0.047430561716276,
+      "size": {
+        "width": 1540,
+        "height": 3367
+      }
+    },
+    {
+      "path": "/general_director_message",
+      "name": "general_director_message",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/general_director_message.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/general_director_message.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/general_director_message.png",
+      "mismatch": 668373,
+      "mismatchRatio": 0.14837895437895438,
+      "size": {
+        "width": 1540,
+        "height": 2925
+      }
+    },
+    {
+      "path": "/government",
+      "name": "government",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/government.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/government.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/government.png",
+      "mismatch": 594987,
+      "mismatchRatio": 0.10559037846548096,
+      "size": {
+        "width": 1540,
+        "height": 3659
+      }
+    },
+    {
+      "path": "/government/all_services",
+      "name": "government__all_services",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/government__all_services.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/government__all_services.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/government__all_services.png",
+      "mismatch": 1254140,
+      "mismatchRatio": 0.17308748637122706,
+      "size": {
+        "width": 1540,
+        "height": 4705
+      }
+    },
+    {
+      "path": "/government/communications_infrastructure",
+      "name": "government__communications_infrastructure",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/government__communications_infrastructure.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/government__communications_infrastructure.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/government__communications_infrastructure.png",
+      "mismatch": 476460,
+      "mismatchRatio": 0.07417636307590755,
+      "size": {
+        "width": 1540,
+        "height": 4171
+      }
+    },
+    {
+      "path": "/government/communications_infrastructure/external_communication",
+      "name": "government__communications_infrastructure__external_communication",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/government__communications_infrastructure__external_communication.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/government__communications_infrastructure__external_communication.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/government__communications_infrastructure__external_communication.png",
+      "mismatch": 431199,
+      "mismatchRatio": 0.06493491434354143,
+      "size": {
+        "width": 1540,
+        "height": 4312
+      }
+    },
+    {
+      "path": "/government/communications_infrastructure/local_computing_network",
+      "name": "government__communications_infrastructure__local_computing_network",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/government__communications_infrastructure__local_computing_network.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/government__communications_infrastructure__local_computing_network.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/government__communications_infrastructure__local_computing_network.png",
+      "mismatch": 400951,
+      "mismatchRatio": 0.06344000784790259,
+      "size": {
+        "width": 1540,
+        "height": 4104
+      }
+    },
+    {
+      "path": "/government/communications_infrastructure/network_operation",
+      "name": "government__communications_infrastructure__network_operation",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/government__communications_infrastructure__network_operation.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/government__communications_infrastructure__network_operation.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/government__communications_infrastructure__network_operation.png",
+      "mismatch": 418601,
+      "mismatchRatio": 0.064062887383651,
+      "size": {
+        "width": 1540,
+        "height": 4243
+      }
+    },
+    {
+      "path": "/government/communications_infrastructure/structured_cabling_networks",
+      "name": "government__communications_infrastructure__structured_cabling_networks",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/government__communications_infrastructure__structured_cabling_networks.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/government__communications_infrastructure__structured_cabling_networks.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/government__communications_infrastructure__structured_cabling_networks.png",
+      "mismatch": 426319,
+      "mismatchRatio": 0.0659434300811147,
+      "size": {
+        "width": 1540,
+        "height": 4198
+      }
+    },
+    {
+      "path": "/government/customized_solutions",
+      "name": "government__customized_solutions",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/government__customized_solutions.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/government__customized_solutions.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/government__customized_solutions.png",
+      "mismatch": 422053,
+      "mismatchRatio": 0.06460640962055389,
+      "size": {
+        "width": 1540,
+        "height": 4242
+      }
+    },
+    {
+      "path": "/government/digital_services",
+      "name": "government__digital_services",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/government__digital_services.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/government__digital_services.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/government__digital_services.png",
+      "mismatch": 559530,
+      "mismatchRatio": 0.06636185732076143,
+      "size": {
+        "width": 1540,
+        "height": 5475
+      }
+    },
+    {
+      "path": "/government/digital_services/access_control_systems",
+      "name": "government__digital_services__access_control_systems",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/government__digital_services__access_control_systems.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/government__digital_services__access_control_systems.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/government__digital_services__access_control_systems.png",
+      "mismatch": 434352,
+      "mismatchRatio": 0.06678824372407134,
+      "size": {
+        "width": 1540,
+        "height": 4223
+      }
+    },
+    {
+      "path": "/government/digital_services/automated_control_systems",
+      "name": "government__digital_services__automated_control_systems",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/government__digital_services__automated_control_systems.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/government__digital_services__automated_control_systems.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/government__digital_services__automated_control_systems.png",
+      "mismatch": 442279,
+      "mismatchRatio": 0.06213633834793506,
+      "size": {
+        "width": 1540,
+        "height": 4622
+      }
+    },
+    {
+      "path": "/government/digital_services/automated_system_monitoring_accounting",
+      "name": "government__digital_services__automated_system_monitoring_accounting",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/government__digital_services__automated_system_monitoring_accounting.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/government__digital_services__automated_system_monitoring_accounting.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/government__digital_services__automated_system_monitoring_accounting.png",
+      "mismatch": 441545,
+      "mismatchRatio": 0.06453241784099313,
+      "size": {
+        "width": 1540,
+        "height": 4443
+      }
+    },
+    {
+      "path": "/government/digital_services/entrance_video_surveillance",
+      "name": "government__digital_services__entrance_video_surveillance",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/government__digital_services__entrance_video_surveillance.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/government__digital_services__entrance_video_surveillance.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/government__digital_services__entrance_video_surveillance.png",
+      "mismatch": 452712,
+      "mismatchRatio": 0.061927286953619376,
+      "size": {
+        "width": 1540,
+        "height": 4747
+      }
+    },
+    {
+      "path": "/government/digital_services/equipment",
+      "name": "government__digital_services__equipment",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/government__digital_services__equipment.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/government__digital_services__equipment.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/government__digital_services__equipment.png",
+      "mismatch": 658288,
+      "mismatchRatio": 0.0876301230544773,
+      "size": {
+        "width": 1540,
+        "height": 4878
+      }
+    },
+    {
+      "path": "/government/digital_services/introduction_security_tv_systems",
+      "name": "government__digital_services__introduction_security_tv_systems",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/government__digital_services__introduction_security_tv_systems.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/government__digital_services__introduction_security_tv_systems.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/government__digital_services__introduction_security_tv_systems.png",
+      "mismatch": 436571,
+      "mismatchRatio": 0.0621002546194222,
+      "size": {
+        "width": 1540,
+        "height": 4565
+      }
+    },
+    {
+      "path": "/government/digital_services/main_and_backup_data_transmission",
+      "name": "government__digital_services__main_and_backup_data_transmission",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/government__digital_services__main_and_backup_data_transmission.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/government__digital_services__main_and_backup_data_transmission.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/government__digital_services__main_and_backup_data_transmission.png",
+      "mismatch": 446806,
+      "mismatchRatio": 0.05599956885423012,
+      "size": {
+        "width": 1540,
+        "height": 5181
+      }
+    },
+    {
+      "path": "/government/digital_services/maintenance_interface_device",
+      "name": "government__digital_services__maintenance_interface_device",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/government__digital_services__maintenance_interface_device.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/government__digital_services__maintenance_interface_device.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/government__digital_services__maintenance_interface_device.png",
+      "mismatch": 446219,
+      "mismatchRatio": 0.07037954758382255,
+      "size": {
+        "width": 1540,
+        "height": 4117
+      }
+    },
+    {
+      "path": "/government/digital_services/speakerphone",
+      "name": "government__digital_services__speakerphone",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/government__digital_services__speakerphone.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/government__digital_services__speakerphone.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/government__digital_services__speakerphone.png",
+      "mismatch": 414198,
+      "mismatchRatio": 0.07380892981880907,
+      "size": {
+        "width": 1540,
+        "height": 3644
+      }
+    },
+    {
+      "path": "/government/digital_services/video_surveillance_building",
+      "name": "government__digital_services__video_surveillance_building",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/government__digital_services__video_surveillance_building.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/government__digital_services__video_surveillance_building.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/government__digital_services__video_surveillance_building.png",
+      "mismatch": 512968,
+      "mismatchRatio": 0.06125342109159689,
+      "size": {
+        "width": 1540,
+        "height": 5438
+      }
+    },
+    {
+      "path": "/government/digital_services/video_surveillance_maintenance",
+      "name": "government__digital_services__video_surveillance_maintenance",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/government__digital_services__video_surveillance_maintenance.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/government__digital_services__video_surveillance_maintenance.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/government__digital_services__video_surveillance_maintenance.png",
+      "mismatch": 528990,
+      "mismatchRatio": 0.0672211350293542,
+      "size": {
+        "width": 1540,
+        "height": 5110
+      }
+    },
+    {
+      "path": "/infoformen",
+      "name": "infoformen",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/infoformen.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/infoformen.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/infoformen.png",
+      "mismatch": 393068,
+      "mismatchRatio": 0.06627861881042874,
+      "size": {
+        "width": 1540,
+        "height": 3851
+      }
+    },
+    {
+      "path": "/interaction_with_partners",
+      "name": "interaction_with_partners",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/interaction_with_partners.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/interaction_with_partners.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/interaction_with_partners.png",
+      "mismatch": 251104,
+      "mismatchRatio": 0.05689272346634524,
+      "size": {
+        "width": 1540,
+        "height": 2866
+      }
+    },
+    {
+      "path": "/labor_safety",
+      "name": "labor_safety",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/labor_safety.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/labor_safety.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/labor_safety.png",
+      "mismatch": 266536,
+      "mismatchRatio": 0.07699080279151453,
+      "size": {
+        "width": 1540,
+        "height": 2248
+      }
+    },
+    {
+      "path": "/licenses",
+      "name": "licenses",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/licenses.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/licenses.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/licenses.png",
+      "mismatch": 255438,
+      "mismatchRatio": 0.07378506724592133,
+      "size": {
+        "width": 1540,
+        "height": 2248
+      }
+    },
+    {
+      "path": "/mgts_compliance_policies",
+      "name": "mgts_compliance_policies",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/mgts_compliance_policies.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/mgts_compliance_policies.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/mgts_compliance_policies.png",
+      "mismatch": 697854,
+      "mismatchRatio": 0.14299525025306029,
+      "size": {
+        "width": 1540,
+        "height": 3169
+      }
+    },
+    {
+      "path": "/mgts_values",
+      "name": "mgts_values",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/mgts_values.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/mgts_values.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/mgts_values.png",
+      "mismatch": 323714,
+      "mismatchRatio": 0.0804762236232374,
+      "size": {
+        "width": 1540,
+        "height": 2612
+      }
+    },
+    {
+      "path": "/news",
+      "name": "news",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/news.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/news.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/news.png",
+      "mismatch": 281771,
+      "mismatchRatio": 0.06462163327462205,
+      "size": {
+        "width": 1440,
+        "height": 3028
+      }
+    },
+    {
+      "path": "/news/15cd2f80-a6f0-4c21-9131-32a6561754d8",
+      "name": "news__15cd2f80-a6f0-4c21-9131-32a6561754d8",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/news__15cd2f80-a6f0-4c21-9131-32a6561754d8.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/news__15cd2f80-a6f0-4c21-9131-32a6561754d8.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/news__15cd2f80-a6f0-4c21-9131-32a6561754d8.png",
+      "mismatch": 94090,
+      "mismatchRatio": 0.024472014148980443,
+      "size": {
+        "width": 1440,
+        "height": 2670
+      }
+    },
+    {
+      "path": "/news/209e326f-60fb-410d-8fc6-aa555e60894e",
+      "name": "news__209e326f-60fb-410d-8fc6-aa555e60894e",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/news__209e326f-60fb-410d-8fc6-aa555e60894e.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/news__209e326f-60fb-410d-8fc6-aa555e60894e.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/news__209e326f-60fb-410d-8fc6-aa555e60894e.png",
+      "mismatch": 140217,
+      "mismatchRatio": 0.029997817827069215,
+      "size": {
+        "width": 1440,
+        "height": 3246
+      }
+    },
+    {
+      "path": "/news/2db8eaab-50e6-4f55-bd4b-f2b2d53bbbf5",
+      "name": "news__2db8eaab-50e6-4f55-bd4b-f2b2d53bbbf5",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/news__2db8eaab-50e6-4f55-bd4b-f2b2d53bbbf5.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/news__2db8eaab-50e6-4f55-bd4b-f2b2d53bbbf5.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/news__2db8eaab-50e6-4f55-bd4b-f2b2d53bbbf5.png",
+      "mismatch": 80497,
+      "mismatchRatio": 0.022130124483152987,
+      "size": {
+        "width": 1440,
+        "height": 2526
+      }
+    },
+    {
+      "path": "/news/4381279f-4de4-403c-9f9b-c63598e26991",
+      "name": "news__4381279f-4de4-403c-9f9b-c63598e26991",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/news__4381279f-4de4-403c-9f9b-c63598e26991.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/news__4381279f-4de4-403c-9f9b-c63598e26991.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/news__4381279f-4de4-403c-9f9b-c63598e26991.png",
+      "mismatch": 73456,
+      "mismatchRatio": 0.020786923843158563,
+      "size": {
+        "width": 1440,
+        "height": 2454
+      }
+    },
+    {
+      "path": "/news/707301f0-66e9-4336-92e1-d5709744b0b1",
+      "name": "news__707301f0-66e9-4336-92e1-d5709744b0b1",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/news__707301f0-66e9-4336-92e1-d5709744b0b1.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/news__707301f0-66e9-4336-92e1-d5709744b0b1.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/news__707301f0-66e9-4336-92e1-d5709744b0b1.png",
+      "mismatch": 63458,
+      "mismatchRatio": 0.018135002286236854,
+      "size": {
+        "width": 1440,
+        "height": 2430
+      }
+    },
+    {
+      "path": "/news/78eefe6b-844c-4be4-8e93-1c13f0f61bff",
+      "name": "news__78eefe6b-844c-4be4-8e93-1c13f0f61bff",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/news__78eefe6b-844c-4be4-8e93-1c13f0f61bff.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/news__78eefe6b-844c-4be4-8e93-1c13f0f61bff.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/news__78eefe6b-844c-4be4-8e93-1c13f0f61bff.png",
+      "mismatch": 94224,
+      "mismatchRatio": 0.023656302723547844,
+      "size": {
+        "width": 1440,
+        "height": 2766
+      }
+    },
+    {
+      "path": "/news/93779b5f-a05d-4c89-a13c-2ec3a5613d2d",
+      "name": "news__93779b5f-a05d-4c89-a13c-2ec3a5613d2d",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/news__93779b5f-a05d-4c89-a13c-2ec3a5613d2d.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/news__93779b5f-a05d-4c89-a13c-2ec3a5613d2d.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/news__93779b5f-a05d-4c89-a13c-2ec3a5613d2d.png",
+      "mismatch": 298097,
+      "mismatchRatio": 0.05665347716353464,
+      "size": {
+        "width": 1440,
+        "height": 3654
+      }
+    },
+    {
+      "path": "/news/aaa4c17b-30c7-4ae2-bea2-c1a3cd1aa54f",
+      "name": "news__aaa4c17b-30c7-4ae2-bea2-c1a3cd1aa54f",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/news__aaa4c17b-30c7-4ae2-bea2-c1a3cd1aa54f.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/news__aaa4c17b-30c7-4ae2-bea2-c1a3cd1aa54f.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/news__aaa4c17b-30c7-4ae2-bea2-c1a3cd1aa54f.png",
+      "mismatch": 87624,
+      "mismatchRatio": 0.02408946951702296,
+      "size": {
+        "width": 1440,
+        "height": 2526
+      }
+    },
+    {
+      "path": "/news/archive",
+      "name": "news__archive",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/news__archive.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/news__archive.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/news__archive.png",
+      "mismatch": 1260976,
+      "mismatchRatio": 0.15512449562050978,
+      "size": {
+        "width": 1440,
+        "height": 5645
+      }
+    },
+    {
+      "path": "/news/e4029016-0a2a-45f6-90a8-e157842a7c3a",
+      "name": "news__e4029016-0a2a-45f6-90a8-e157842a7c3a",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/news__e4029016-0a2a-45f6-90a8-e157842a7c3a.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/news__e4029016-0a2a-45f6-90a8-e157842a7c3a.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/news__e4029016-0a2a-45f6-90a8-e157842a7c3a.png",
+      "mismatch": 79701,
+      "mismatchRatio": 0.02191128925837952,
+      "size": {
+        "width": 1440,
+        "height": 2526
+      }
+    },
+    {
+      "path": "/news/f8f40002-c329-4064-97d5-07a9790dcc91",
+      "name": "news__f8f40002-c329-4064-97d5-07a9790dcc91",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/news__f8f40002-c329-4064-97d5-07a9790dcc91.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/news__f8f40002-c329-4064-97d5-07a9790dcc91.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/news__f8f40002-c329-4064-97d5-07a9790dcc91.png",
+      "mismatch": 90986,
+      "mismatchRatio": 0.025013745931204364,
+      "size": {
+        "width": 1440,
+        "height": 2526
+      }
+    },
+    {
+      "path": "/offers",
+      "name": "offers",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/offers.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/offers.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/offers.png",
+      "mismatch": 296888,
+      "mismatchRatio": 0.07023111678849384,
+      "size": {
+        "width": 1540,
+        "height": 2745
+      }
+    },
+    {
+      "path": "/operators",
+      "name": "operators",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/operators.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/operators.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/operators.png",
+      "mismatch": 1305713,
+      "mismatchRatio": 0.24668768822100215,
+      "size": {
+        "width": 1540,
+        "height": 3437
+      }
+    },
+    {
+      "path": "/operators/all_services",
+      "name": "operators__all_services",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/operators__all_services.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/operators__all_services.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/operators__all_services.png",
+      "mismatch": 580533,
+      "mismatchRatio": 0.10342098230987119,
+      "size": {
+        "width": 1540,
+        "height": 3645
+      }
+    },
+    {
+      "path": "/operators/contact_for_operators",
+      "name": "operators__contact_for_operators",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/operators__contact_for_operators.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/operators__contact_for_operators.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/operators__contact_for_operators.png",
+      "mismatch": 231574,
+      "mismatchRatio": 0.06689178259462956,
+      "size": {
+        "width": 1540,
+        "height": 2248
+      }
+    },
+    {
+      "path": "/operators/data_transfer",
+      "name": "operators__data_transfer",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/operators__data_transfer.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/operators__data_transfer.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/operators__data_transfer.png",
+      "mismatch": 295772,
+      "mismatchRatio": 0.05916812700546527,
+      "size": {
+        "width": 1540,
+        "height": 3246
+      }
+    },
+    {
+      "path": "/operators/infrastructure",
+      "name": "operators__infrastructure",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/operators__infrastructure.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/operators__infrastructure.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/operators__infrastructure.png",
+      "mismatch": 250457,
+      "mismatchRatio": 0.07416070022089175,
+      "size": {
+        "width": 1540,
+        "height": 2193
+      }
+    },
+    {
+      "path": "/operators/infrastructure/accommodation_at_sites",
+      "name": "operators__infrastructure__accommodation_at_sites",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/operators__infrastructure__accommodation_at_sites.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/operators__infrastructure__accommodation_at_sites.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/operators__infrastructure__accommodation_at_sites.png",
+      "mismatch": 988919,
+      "mismatchRatio": 0.15366240603139383,
+      "size": {
+        "width": 1540,
+        "height": 4179
+      }
+    },
+    {
+      "path": "/operators/infrastructure/avr_ppr",
+      "name": "operators__infrastructure__avr_ppr",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/operators__infrastructure__avr_ppr.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/operators__infrastructure__avr_ppr.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/operators__infrastructure__avr_ppr.png",
+      "mismatch": 378404,
+      "mismatchRatio": 0.07491368387709851,
+      "size": {
+        "width": 1540,
+        "height": 3280
+      }
+    },
+    {
+      "path": "/operators/infrastructure/lks_kr",
+      "name": "operators__infrastructure__lks_kr",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/operators__infrastructure__lks_kr.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/operators__infrastructure__lks_kr.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/operators__infrastructure__lks_kr.png",
+      "mismatch": 347110,
+      "mismatchRatio": 0.0647876125024731,
+      "size": {
+        "width": 1540,
+        "height": 3479
+      }
+    },
+    {
+      "path": "/operators/infrastructure/pir_smr_mgts",
+      "name": "operators__infrastructure__pir_smr_mgts",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/operators__infrastructure__pir_smr_mgts.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/operators__infrastructure__pir_smr_mgts.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/operators__infrastructure__pir_smr_mgts.png",
+      "mismatch": 408922,
+      "mismatchRatio": 0.07164969407279176,
+      "size": {
+        "width": 1540,
+        "height": 3706
+      }
+    },
+    {
+      "path": "/operators/joining_and_passing_traffic",
+      "name": "operators__joining_and_passing_traffic",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/operators__joining_and_passing_traffic.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/operators__joining_and_passing_traffic.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/operators__joining_and_passing_traffic.png",
+      "mismatch": 342440,
+      "mismatchRatio": 0.06035929325831606,
+      "size": {
+        "width": 1540,
+        "height": 3684
+      }
+    },
+    {
+      "path": "/operators/nondiscriminatory_access",
+      "name": "operators__nondiscriminatory_access",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/operators__nondiscriminatory_access.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/operators__nondiscriminatory_access.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/operators__nondiscriminatory_access.png",
+      "mismatch": 1904114,
+      "mismatchRatio": 0.23136932304222724,
+      "size": {
+        "width": 1540,
+        "height": 5344
+      }
+    },
+    {
+      "path": "/operinfo",
+      "name": "operinfo",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/operinfo.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/operinfo.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/operinfo.png",
+      "mismatch": 360937,
+      "mismatchRatio": 0.07996406527624542,
+      "size": {
+        "width": 1540,
+        "height": 2931
+      }
+    },
+    {
+      "path": "/partner",
+      "name": "partner",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/partner.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/partner.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/partner.png",
+      "mismatch": 976776,
+      "mismatchRatio": 0.1774678595047929,
+      "size": {
+        "width": 1540,
+        "height": 3574
+      }
+    },
+    {
+      "path": "/partners",
+      "name": "partners",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/partners.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/partners.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/partners.png",
+      "mismatch": 1053765,
+      "mismatchRatio": 0.19966821914589641,
+      "size": {
+        "width": 1540,
+        "height": 3427
+      }
+    },
+    {
+      "path": "/partners_feedback_form",
+      "name": "partners_feedback_form",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/partners_feedback_form.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/partners_feedback_form.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/partners_feedback_form.png",
+      "mismatch": 608523,
+      "mismatchRatio": 0.10344104848031549,
+      "size": {
+        "width": 1540,
+        "height": 3820
+      }
+    },
+    {
+      "path": "/partners/all_services",
+      "name": "partners__all_services",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/partners__all_services.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/partners__all_services.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/partners__all_services.png",
+      "mismatch": 892888,
+      "mismatchRatio": 0.16556179400268492,
+      "size": {
+        "width": 1540,
+        "height": 3502
+      }
+    },
+    {
+      "path": "/partners/all/services",
+      "name": "partners__all__services",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/partners__all__services.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/partners__all__services.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/partners__all__services.png",
+      "mismatch": 894019,
+      "mismatchRatio": 0.1586586002136699,
+      "size": {
+        "width": 1540,
+        "height": 3659
+      }
+    },
+    {
+      "path": "/partners/creating_work_order",
+      "name": "partners__creating_work_order",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/partners__creating_work_order.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/partners__creating_work_order.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/partners__creating_work_order.png",
+      "mismatch": 406120,
+      "mismatchRatio": 0.07735265435484855,
+      "size": {
+        "width": 1440,
+        "height": 3646
+      }
+    },
+    {
+      "path": "/partners/documents",
+      "name": "partners__documents",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/partners__documents.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/partners__documents.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/partners__documents.png",
+      "mismatch": 270223,
+      "mismatchRatio": 0.04534916894903603,
+      "size": {
+        "width": 1440,
+        "height": 4138
+      }
+    },
+    {
+      "path": "/partners/procedure_admission_work",
+      "name": "partners__procedure_admission_work",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/partners__procedure_admission_work.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/partners__procedure_admission_work.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/partners__procedure_admission_work.png",
+      "mismatch": 351803,
+      "mismatchRatio": 0.07571876251027726,
+      "size": {
+        "width": 1540,
+        "height": 3017
+      }
+    },
+    {
+      "path": "/partners/purchas",
+      "name": "partners__purchas",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/partners__purchas.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/partners__purchas.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/partners__purchas.png",
+      "mismatch": 1101420,
+      "mismatchRatio": 0.16157055344317703,
+      "size": {
+        "width": 1440,
+        "height": 4734
+      }
+    },
+    {
+      "path": "/partners/ramochnie_dogovori",
+      "name": "partners__ramochnie_dogovori",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/partners__ramochnie_dogovori.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/partners__ramochnie_dogovori.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/partners__ramochnie_dogovori.png",
+      "mismatch": 81163,
+      "mismatchRatio": 0.026239848437823298,
+      "size": {
+        "width": 1440,
+        "height": 2148
+      }
+    },
+    {
+      "path": "/partners/realization",
+      "name": "partners__realization",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/partners__realization.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/partners__realization.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/partners__realization.png",
+      "mismatch": 277085,
+      "mismatchRatio": 0.060806125270471335,
+      "size": {
+        "width": 1540,
+        "height": 2959
+      }
+    },
+    {
+      "path": "/partners/tariffs",
+      "name": "partners__tariffs",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/partners__tariffs.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/partners__tariffs.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/partners__tariffs.png",
+      "mismatch": 371835,
+      "mismatchRatio": 0.09291786613889888,
+      "size": {
+        "width": 1440,
+        "height": 2779
+      }
+    },
+    {
+      "path": "/principles_corporate_manage",
+      "name": "principles_corporate_manage",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/principles_corporate_manage.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/principles_corporate_manage.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/principles_corporate_manage.png",
+      "mismatch": 769512,
+      "mismatchRatio": 0.152156856541753,
+      "size": {
+        "width": 1540,
+        "height": 3284
+      }
+    },
+    {
+      "path": "/reports",
+      "name": "reports",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/reports.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/reports.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/reports.png",
+      "mismatch": 47987,
+      "mismatchRatio": 0.015514108731636665,
+      "size": {
+        "width": 1440,
+        "height": 2148
+      }
+    },
+    {
+      "path": "/scenario/demo",
+      "name": "scenario__demo",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/scenario__demo.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/scenario__demo.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/scenario__demo.png",
+      "mismatch": 1380747,
+      "mismatchRatio": 0.173171768707483,
+      "size": {
+        "width": 1440,
+        "height": 5537
+      }
+    },
+    {
+      "path": "/search",
+      "name": "search",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/search.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/search.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/search.png",
+      "mismatch": 1517693,
+      "mismatchRatio": 0.3464672821243334,
+      "size": {
+        "width": 1440,
+        "height": 3042
+      }
+    },
+    {
+      "path": "/services",
+      "name": "services",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/services.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/services.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/services.png",
+      "mismatch": 904971,
+      "mismatchRatio": 0.14971809082637108,
+      "size": {
+        "width": 1540,
+        "height": 3925
+      }
+    },
+    {
+      "path": "/services/scenario-connecting-object",
+      "name": "services__scenario-connecting-object",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/services__scenario-connecting-object.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/services__scenario-connecting-object.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/services__scenario-connecting-object.png",
+      "mismatch": 1409030,
+      "mismatchRatio": 0.1767189914313808,
+      "size": {
+        "width": 1440,
+        "height": 5537
+      }
+    },
+    {
+      "path": "/services/scenario-connectivity-data",
+      "name": "services__scenario-connectivity-data",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/services__scenario-connectivity-data.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/services__scenario-connectivity-data.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/services__scenario-connectivity-data.png",
+      "mismatch": 1409065,
+      "mismatchRatio": 0.17672338109285013,
+      "size": {
+        "width": 1440,
+        "height": 5537
+      }
+    },
+    {
+      "path": "/services/scenario-infrastructure-360",
+      "name": "services__scenario-infrastructure-360",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/services__scenario-infrastructure-360.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/services__scenario-infrastructure-360.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/services__scenario-infrastructure-360.png",
+      "mismatch": 1409387,
+      "mismatchRatio": 0.17676376597836774,
+      "size": {
+        "width": 1440,
+        "height": 5537
+      }
+    },
+    {
+      "path": "/services/scenario-network-ops",
+      "name": "services__scenario-network-ops",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/services__scenario-network-ops.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/services__scenario-network-ops.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/services__scenario-network-ops.png",
+      "mismatch": 1409402,
+      "mismatchRatio": 0.1767656472618546,
+      "size": {
+        "width": 1440,
+        "height": 5537
+      }
+    },
+    {
+      "path": "/services/scenario-safe-object",
+      "name": "services__scenario-safe-object",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/services__scenario-safe-object.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/services__scenario-safe-object.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/services__scenario-safe-object.png",
+      "mismatch": 1408358,
+      "mismatchRatio": 0.17663470993117011,
+      "size": {
+        "width": 1440,
+        "height": 5537
+      }
+    },
+    {
+      "path": "/services/scenario-video-access",
+      "name": "services__scenario-video-access",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/services__scenario-video-access.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/services__scenario-video-access.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/services__scenario-video-access.png",
+      "mismatch": 1408695,
+      "mismatchRatio": 0.17667697610017458,
+      "size": {
+        "width": 1440,
+        "height": 5537
+      }
+    },
+    {
+      "path": "/single_hotline",
+      "name": "single_hotline",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/single_hotline.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/single_hotline.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/single_hotline.png",
+      "mismatch": 285831,
+      "mismatchRatio": 0.07130408968672511,
+      "size": {
+        "width": 1540,
+        "height": 2603
+      }
+    },
+    {
+      "path": "/sitemap",
+      "name": "sitemap",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/sitemap.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/sitemap.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/sitemap.png",
+      "mismatch": 49306,
+      "mismatchRatio": 0.01594053900268984,
+      "size": {
+        "width": 1440,
+        "height": 2148
+      }
+    },
+    {
+      "path": "/stockholder_copies_document",
+      "name": "stockholder_copies_document",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/stockholder_copies_document.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/stockholder_copies_document.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/stockholder_copies_document.png",
+      "mismatch": 236574,
+      "mismatchRatio": 0.06301045140257609,
+      "size": {
+        "width": 1540,
+        "height": 2438
+      }
+    },
+    {
+      "path": "/stocks/reports",
+      "name": "stocks__reports",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/stocks__reports.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/stocks__reports.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/stocks__reports.png",
+      "mismatch": 50914,
+      "mismatchRatio": 0.016460402441547693,
+      "size": {
+        "width": 1440,
+        "height": 2148
+      }
+    },
+    {
+      "path": "/terms",
+      "name": "terms",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/terms.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/terms.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/terms.png",
+      "mismatch": 53068,
+      "mismatchRatio": 0.017156786674943098,
+      "size": {
+        "width": 1440,
+        "height": 2148
+      }
+    },
+    {
+      "path": "/timing_malfunctions",
+      "name": "timing_malfunctions",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/timing_malfunctions.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/timing_malfunctions.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/timing_malfunctions.png",
+      "mismatch": 258292,
+      "mismatchRatio": 0.07460946526782826,
+      "size": {
+        "width": 1540,
+        "height": 2248
+      }
+    },
+    {
+      "path": "/virtual_ate",
+      "name": "virtual_ate",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/virtual_ate.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/virtual_ate.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/virtual_ate.png",
+      "mismatch": 2444614,
+      "mismatchRatio": 0.13501843057852245,
+      "size": {
+        "width": 1540,
+        "height": 11757
+      }
+    },
+    {
+      "path": "/wca",
+      "name": "wca",
+      "staticPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/static/wca.png",
+      "reactPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/react/wca.png",
+      "diffPath": "/Users/andrey_efremov/Downloads/runs/docs/project/visual-compare/diff/wca.png",
+      "mismatch": 242571,
+      "mismatchRatio": 0.07006834357813005,
+      "size": {
+        "width": 1540,
+        "height": 2248
+      }
+    }
+  ]
+}

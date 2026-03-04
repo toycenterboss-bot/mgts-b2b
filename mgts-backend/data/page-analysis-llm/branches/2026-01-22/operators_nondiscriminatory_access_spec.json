@@ -1,0 +1,203 @@
+{
+  "page": {
+    "slug": "operators_nondiscriminatory_access",
+    "url": "https://business.mgts.ru/operators/nondiscriminatory_access",
+    "pathname": "/operators/nondiscriminatory_access",
+    "analyzedAt": "2026-01-16T09:47:53.327Z",
+    "screenshot": "/Users/andrey_efremov/Downloads/runs/mgts-backend/temp/page-analysis-llm/operators_nondiscriminatory_access_screenshot.png",
+    "llmProvider": "perplexity",
+    "llmModel": "sonar"
+  },
+  "metadata": {
+    "title": "Недискриминационный доступ"
+  },
+  "sections": [
+    {
+      "sectionIndex": 1,
+      "type": "breadcrumbs",
+      "description": "Навигационная цепочка хлебных крошек, показывающая путь от главной страницы к текущей",
+      "title": "",
+      "text": "",
+      "links": {
+        "internalLinks": [
+          {
+            "text": "Главная",
+            "href": "/",
+            "purpose": "Переход на главную страницу сайта"
+          },
+          {
+            "text": "Операторам связи",
+            "href": "/operators",
+            "purpose": "Переход в раздел для операторов связи"
+          }
+        ]
+      }
+    },
+    {
+      "sectionIndex": 2,
+      "type": "hero",
+      "description": "Главный заголовок страницы, определяющий основную тему - недискриминационный доступ",
+      "title": "Недискриминационный доступ",
+      "text": ""
+    },
+    {
+      "sectionIndex": 3,
+      "type": "content",
+      "description": "Блок с основополагающими нормативными документами, регулирующими недискриминационный доступ",
+      "title": "Основополагающие документы",
+      "text": "",
+      "links": {
+        "fileLinks": [
+          {
+            "text": "Постановление Правительства РФ «О порядке недискриминационного доступа к инфраструктуре для размещения сетей электросвязи»",
+            "href": "https://business.mgts.ru/static/files/other/operators/postanovlenie_pravitelstva_ob_NDD.pdf",
+            "fileType": "pdf",
+            "purpose": "Основной нормативный документ, регулирующий порядок недискриминационного доступа",
+            "fileName": "postanovlenie_pravitelstva_ob_NDD.pdf"
+          },
+          {
+            "text": "Приказ ФАС «Об утверждении рекомендуемых форм раскрытия информации, предусмотренной Правилами недискриминационного доступа к инфраструктуре для размещения сетей электросвязи, утвержденных постановлением Правительства Российской Федерации от 22 ноября 2022 г. №2106, а также рекомендаций по заполнению указанных форм»",
+            "href": "https://business.mgts.ru/static/files/other/operators/prikaz_FAS_№705_23_06.10.2023.pdf",
+            "fileType": "pdf",
+            "purpose": "Приказ ФАС с формами раскрытия информации и рекомендациями по их заполнению",
+            "fileName": "prikaz_FAS_№705_23_06.10.2023.pdf"
+          },
+          {
+            "text": "(далее — Заявление)",
+            "href": "https://business.mgts.ru/static/files/other/operators/Zayavleniye_na_predostavleniye_dostupa_k_LKS_yur_lits.docx",
+            "fileType": "docx",
+            "purpose": "",
+            "fileName": "Zayavleniye_na_predostavleniye_dostupa_k_LKS_yur_lits.docx"
+          }
+        ]
+      },
+      "cards": [
+        {
+          "title": "Постановление Правительства РФ «О порядке недискриминационного доступа к инфраструктуре для размещения сетей электросвязи»",
+          "text": "pdf",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "Постановление Правительства РФ «О порядке недискриминационного доступа к инфраструктуре для размещения сетей электросвязи»",
+            "href": "https://business.mgts.ru/static/files/other/operators/postanovlenie_pravitelstva_ob_NDD.pdf",
+            "fileName": "postanovlenie_pravitelstva_ob_NDD.pdf",
+            "fileType": "pdf",
+            "title": "",
+            "purpose": "Основной нормативный документ, регулирующий порядок недискриминационного доступа"
+          }
+        },
+        {
+          "title": "Приказ ФАС «Об утверждении рекомендуемых форм раскрытия информации, предусмотренной Правилами недискриминационного доступа к инфраструктуре для размещения сетей электросвязи, утвержденных постановлением Правительства Российской Федерации от 22 ноября 2022 г. №2106, а также рекомендаций по заполнению указанных форм»",
+          "text": "pdf",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "Приказ ФАС «Об утверждении рекомендуемых форм раскрытия информации, предусмотренной Правилами недискриминационного доступа к инфраструктуре для размещения сетей электросвязи, утвержденных постановлением Правительства Российской Федерации от 22 ноября 2022 г. №2106, а также рекомендаций по заполнению указанных форм»",
+            "href": "https://business.mgts.ru/static/files/other/operators/prikaz_FAS_№705_23_06.10.2023.pdf",
+            "fileName": "prikaz_FAS_№705_23_06.10.2023.pdf",
+            "fileType": "pdf",
+            "title": "",
+            "purpose": "Приказ ФАС с формами раскрытия информации и рекомендациями по их заполнению"
+          }
+        }
+      ]
+    },
+    {
+      "sectionIndex": 6,
+      "type": "content",
+      "description": "Блок с файлами раскрытия информации в соответствии с требованиями ФАС России. Содержит список документов в формате file-item карточек",
+      "title": "Раскрытие информации в соответствии с приказом ФАС России",
+      "text": "",
+      "links": {
+        "fileLinks": [
+          {
+            "text": "О раскрытии информации об объектах инфраструктуры, к которым может быть предоставлен доступ",
+            "href": "https://business.mgts.ru/static/files/other/operators/Forma_1_o_raskrytii_informatsii_ob_obektakh_infrastruktury.pdf",
+            "fileType": "pdf",
+            "purpose": "Форма 1 - информация об объектах инфраструктуры, доступных для подключения",
+            "fileName": "Forma_1_o_raskrytii_informatsii_ob_obektakh_infrastruktury.pdf"
+          },
+          {
+            "text": "О раскрытии информации о порядке и условиях выполнения запросов на предоставление информации о доступе к конкретным объектам инфраструктуры, а так же о размере платы за предоставление информации",
+            "href": "https://business.mgts.ru/static/files/other/operators/Forma_2_o_poryadke_i_usloviyakh_vypolneniya_zaprosov.pdf",
+            "fileType": "pdf",
+            "purpose": "Форма 2 - порядок выполнения запросов и тарифы за предоставление информации",
+            "fileName": "Forma_2_O_raskrytii_informatsii_o_poryadke_i_usloviyakh.pdf"
+          },
+          {
+            "text": "Реестр заявлений о предоставлении доступа к инфраструктуре",
+            "href": "https://business.mgts.ru/static/files/other/operators/Reestr_zayavleniy_o_predostavlenii_dostupa.xlsx",
+            "fileType": "xlsx",
+            "purpose": "Реестр всех заявлений о предоставлении доступа к инфраструктуре",
+            "fileName": "dui998o5y724uf1yl0npm7up02r3jste.xlsx"
+          },
+          {
+            "text": "Порядок формирования тарифов на представление доступа к инфраструктуре ПАО «Московская городская телефонная сеть»",
+            "href": "https://business.mgts.ru/static/files/other/operators/Poryadok_formirovaniya_tarifov.pdf",
+            "fileType": "pdf",
+            "purpose": "Методика и порядок формирования тарифов на доступ к инфраструктуре",
+            "fileName": "xo4u23h7v8l52ikh1vvq5yy6n545q52m.pdf"
+          }
+        ]
+      },
+      "cards": [
+        {
+          "title": "О раскрытии информации об объектах инфраструктуры, к которым может быть предоставлен доступ",
+          "text": "pdf",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "О раскрытии информации об объектах инфраструктуры, к которым может быть предоставлен доступ",
+            "href": "https://business.mgts.ru/static/files/other/operators/Forma_1_o_raskrytii_informatsii_ob_obektakh_infrastruktury.pdf",
+            "fileName": "Forma_1_o_raskrytii_informatsii_ob_obektakh_infrastruktury.pdf",
+            "fileType": "pdf",
+            "title": "",
+            "purpose": "Форма 1 - информация об объектах инфраструктуры, доступных для подключения"
+          }
+        },
+        {
+          "title": "О раскрытии информации о порядке и условиях выполнения запросов на предоставление информации о доступе к конкретным объектам инфраструктуры, а так же о размере платы за предоставление информации",
+          "text": "pdf",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "О раскрытии информации о порядке и условиях выполнения запросов на предоставление информации о доступе к конкретным объектам инфраструктуры, а так же о размере платы за предоставление информации",
+            "href": "https://business.mgts.ru/static/files/other/operators/Forma_2_o_poryadke_i_usloviyakh_vypolneniya_zaprosov.pdf",
+            "fileName": "Forma_2_O_raskrytii_informatsii_o_poryadke_i_usloviyakh.pdf",
+            "fileType": "pdf",
+            "title": "",
+            "purpose": "Форма 2 - порядок выполнения запросов и тарифы за предоставление информации"
+          }
+        },
+        {
+          "title": "Реестр заявлений о предоставлении доступа к инфраструктуре",
+          "text": "xlsx",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "Реестр заявлений о предоставлении доступа к инфраструктуре",
+            "href": "https://business.mgts.ru/static/files/other/operators/Reestr_zayavleniy_o_predostavlenii_dostupa.xlsx",
+            "fileName": "dui998o5y724uf1yl0npm7up02r3jste.xlsx",
+            "fileType": "xlsx",
+            "title": "",
+            "purpose": "Реестр всех заявлений о предоставлении доступа к инфраструктуре"
+          }
+        },
+        {
+          "title": "Порядок формирования тарифов на представление доступа к инфраструктуре ПАО «Московская городская телефонная сеть»",
+          "text": "pdf",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "Порядок формирования тарифов на представление доступа к инфраструктуре ПАО «Московская городская телефонная сеть»",
+            "href": "https://business.mgts.ru/static/files/other/operators/Poryadok_formirovaniya_tarifov.pdf",
+            "fileName": "xo4u23h7v8l52ikh1vvq5yy6n545q52m.pdf",
+            "fileType": "pdf",
+            "title": "",
+            "purpose": "Методика и порядок формирования тарифов на доступ к инфраструктуре"
+          }
+        }
+      ]
+    }
+  ]
+}

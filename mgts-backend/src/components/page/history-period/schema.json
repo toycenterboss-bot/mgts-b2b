@@ -1,0 +1,63 @@
+{
+  "collectionName": "components_page_history_periods",
+  "info": {
+    "displayName": "History Period",
+    "description": "Период истории компании"
+  },
+  "options": {},
+  "attributes": {
+    "period": {
+      "type": "string",
+      "required": true,
+      "description": "Название периода (например, '2019 —', '1990 — 2018')"
+    },
+    "title": {
+      "type": "string",
+      "description": "Заголовок периода"
+    },
+    "badgeLabel": {
+      "type": "string",
+      "description": "Текст бейджа на изображении (например, 'Текущий этап')"
+    },
+    "content": {
+      "type": "richtext",
+      "required": true,
+      "description": "Содержимое периода"
+    },
+    "highlights": {
+      "type": "json",
+      "description": "Список ключевых достижений: [{ title, description, icon }]"
+    },
+    "factLabel": {
+      "type": "string",
+      "description": "Заголовок блока факта (например, 'Интересный факт')"
+    },
+    "factText": {
+      "type": "text",
+      "description": "Текст факта"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ],
+      "pluginOptions": {
+        "upload": {
+          "allowedTypes": [
+            "images"
+          ]
+        }
+      }
+    },
+    "imageDescription": {
+      "type": "text",
+      "description": "Описание изображения"
+    },
+    "order": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_page_service_tabs",
+  "info": {
+    "displayName": "Service Tabs",
+    "description": "Блок с табами услуг (карточек услуг). CSS классы: service-tabs (контейнер), service-tabs__title (h2 заголовок), service-tabs__tabs (табы), service-tabs__tab-button (кнопка таба), service-tabs__tab-content (контент таба), service-tabs__container (контейнер карточек)"
+  },
+  "options": {},
+  "attributes": {
+    "isVisible": {
+      "type": "boolean",
+      "default": true
+    },
+    "title": {
+      "type": "string",
+      "description": "Заголовок блока табов"
+    },
+    "tabs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.service-tab"
+    },
+    "defaultTab": {
+      "type": "integer",
+      "default": 0,
+      "description": "Индекс таба по умолчанию"
+    }
+  }
+}

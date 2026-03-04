@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_page_home_cooperation_ctas",
+  "info": {
+    "displayName": "Home Cooperation CTA",
+    "description": "CTA блок запроса на сотрудничество (главная)"
+  },
+  "options": {},
+  "attributes": {
+    "isVisible": {
+      "type": "boolean",
+      "default": true
+    },
+    "title": {
+      "type": "string",
+      "default": "Трансформируйте бизнес сегодня"
+    },
+    "description": {
+      "type": "text",
+      "default": "Получите аудит вашей текущей сетевой инфраструктуры и персональное предложение по оптимизации затрат от экспертов МГТС."
+    },
+    "buttonText": {
+      "type": "string",
+      "default": "Начать сотрудничество"
+    },
+    "buttonIcon": {
+      "type": "string",
+      "default": "bolt",
+      "customField": "plugin::icon-picker.icon"
+    },
+    "buttonHref": {
+      "type": "string",
+      "default": "#"
+    },
+    "perks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.home-perk-item"
+    }
+  }
+}

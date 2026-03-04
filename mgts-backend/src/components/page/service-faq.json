@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_page_service_faqs",
+  "info": {
+    "displayName": "Service FAQ",
+    "description": "Секция FAQ для страниц услуг. CSS классы: service-faq (контейнер), service-faq__title (h1 заголовок), service-faq__items (контейнер элементов), service-faq__item (элемент FAQ), service-faq__question (вопрос), service-faq__answer (ответ)"
+  },
+  "options": {},
+  "attributes": {
+    "isVisible": {
+      "type": "boolean",
+      "default": true
+    },
+    "title": {
+      "type": "string",
+      "default": "Часто задаваемые вопросы"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.faq-item"
+    }
+  }
+}

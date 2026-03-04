@@ -1,0 +1,152 @@
+# SVGViewer выбранные кандидаты
+
+- **Подключить объект** — путь `navigation.megaMenus.sections.links.icon` — термин `plug`
+  - Plug | Iconscout | 6783 | https://www.svgviewer.dev/s/492410/plug | https://www.svgviewer.dev/static-svgs/492410/plug.svg
+- **Инфраструктура 360** — путь `navigation.megaMenus.sections.links.icon` — термин `network`
+  - Network | Templarian | 6748 | https://www.svgviewer.dev/s/479778/network | https://www.svgviewer.dev/static-svgs/479778/network.svg
+- **Безопасный объект** — путь `navigation.megaMenus.sections.links.icon` — термин `shield`
+  - Shield | Iconscout | 6783 | https://www.svgviewer.dev/s/492477/shield | https://www.svgviewer.dev/static-svgs/492477/shield.svg
+- **Связь/данные** — путь `navigation.megaMenus.sections.links.icon` — термин `data`
+  - Data | spothq | 6759 | https://www.svgviewer.dev/s/482377/data | https://www.svgviewer.dev/static-svgs/482377/data.svg
+- **Видео‑наблюдение и доступ** — путь `navigation.megaMenus.sections.links.icon` — термин `camera`
+  - Camera | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494595/camera | https://www.svgviewer.dev/static-svgs/494595/camera.svg
+- **Эксплуатация сети** — путь `navigation.megaMenus.sections.links.icon` — термин `maintenance`
+  - Maintenance | Siemens | 5721 | https://www.svgviewer.dev/s/377569/maintenance | https://www.svgviewer.dev/static-svgs/377569/maintenance.svg
+- **Подобрать решение** — путь `navigation.megaMenus.sections.links.icon` — термин `settings`
+  - Settings | Mary Akveo | 7042 | https://www.svgviewer.dev/s/496181/settings | https://www.svgviewer.dev/static-svgs/496181/settings.svg
+- **Связаться** — путь `navigation.megaMenus.sections.links.icon` — термин `link`
+  - Link | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495606/link | https://www.svgviewer.dev/static-svgs/495606/link.svg
+- **Подключение объектов** — путь `navigation.megaMenus.sections.links.icon` — термин `plug`
+  - Plug | Iconscout | 6783 | https://www.svgviewer.dev/s/492410/plug | https://www.svgviewer.dev/static-svgs/492410/plug.svg
+- **Компенсация убытков** — путь `navigation.megaMenus.sections.links.icon` — термин `shield`
+  - Shield | Iconscout | 6783 | https://www.svgviewer.dev/s/492477/shield | https://www.svgviewer.dev/static-svgs/492477/shield.svg
+- **Цифровые решения** — путь `navigation.megaMenus.sections.links.icon` — термин `network`
+  - Network | Templarian | 6748 | https://www.svgviewer.dev/s/479778/network | https://www.svgviewer.dev/static-svgs/479778/network.svg
+- **Размещение на объектах** — путь `navigation.megaMenus.sections.links.icon` — термин `network`
+  - Network | Templarian | 6748 | https://www.svgviewer.dev/s/479778/network | https://www.svgviewer.dev/static-svgs/479778/network.svg
+- **Кабельная канализация** — путь `navigation.megaMenus.sections.links.icon` — термин `plug`
+  - Plug | Iconscout | 6783 | https://www.svgviewer.dev/s/492410/plug | https://www.svgviewer.dev/static-svgs/492410/plug.svg
+- **Проектирование и строительство сетей** — путь `navigation.megaMenus.sections.links.icon` — термин `network`
+  - Network | Templarian | 6748 | https://www.svgviewer.dev/s/479778/network | https://www.svgviewer.dev/static-svgs/479778/network.svg
+- **Присоединение и пропуск трафика** — путь `navigation.megaMenus.sections.links.icon` — термин `data`
+  - Data | spothq | 6759 | https://www.svgviewer.dev/s/482377/data | https://www.svgviewer.dev/static-svgs/482377/data.svg
+- **Передача данных** — путь `navigation.megaMenus.sections.links.icon` — термин `data`
+  - Data | spothq | 6759 | https://www.svgviewer.dev/s/482377/data | https://www.svgviewer.dev/static-svgs/482377/data.svg
+- **Подъездное видеонаблюдение** — путь `navigation.megaMenus.sections.links.icon` — термин `camera`
+  - Camera | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494595/camera | https://www.svgviewer.dev/static-svgs/494595/camera.svg
+- **Видеонаблюдение на объектах строительства** — путь `navigation.megaMenus.sections.links.icon` — термин `camera`
+  - Camera | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494595/camera | https://www.svgviewer.dev/static-svgs/494595/camera.svg
+- **Тех. обслуживание видеонаблюдения** — путь `navigation.megaMenus.sections.links.icon` — термин `camera`
+  - Camera | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494595/camera | https://www.svgviewer.dev/static-svgs/494595/camera.svg
+- **Оборудование** — путь `navigation.megaMenus.sections.links.icon` — термин `network`
+  - Network | Templarian | 6748 | https://www.svgviewer.dev/s/479778/network | https://www.svgviewer.dev/static-svgs/479778/network.svg
+- **Сопряжение** — путь `navigation.megaMenus.sections.links.icon` — термин `plug`
+  - Plug | Iconscout | 6783 | https://www.svgviewer.dev/s/492410/plug | https://www.svgviewer.dev/static-svgs/492410/plug.svg
+- **Тех. обслуживание** — путь `navigation.megaMenus.sections.links.icon` — термин `maintenance`
+  - Maintenance | Siemens | 5721 | https://www.svgviewer.dev/s/377569/maintenance | https://www.svgviewer.dev/static-svgs/377569/maintenance.svg
+- **Громкоговорящая связь** — путь `navigation.megaMenus.sections.links.icon` — термин `link`
+  - Link | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495606/link | https://www.svgviewer.dev/static-svgs/495606/link.svg
+- **СКУД** — путь `navigation.megaMenus.sections.links.icon` — термин `lock`
+  - Lock | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495639/lock | https://www.svgviewer.dev/static-svgs/495639/lock.svg
+- **АСУ** — путь `navigation.megaMenus.sections.links.icon` — термин `network`
+  - Network | Templarian | 6748 | https://www.svgviewer.dev/s/479778/network | https://www.svgviewer.dev/static-svgs/479778/network.svg
+- **АСКУЭ** — путь `navigation.megaMenus.sections.links.icon` — термин `bolt`
+  - Bolt | Iconscout | 6783 | https://www.svgviewer.dev/s/491667/bolt | https://www.svgviewer.dev/static-svgs/491667/bolt.svg
+- **COT** — путь `navigation.megaMenus.sections.links.icon` — термин `camera`
+  - Camera | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494595/camera | https://www.svgviewer.dev/static-svgs/494595/camera.svg
+- **Наружные сети** — путь `navigation.megaMenus.sections.links.icon` — термин `network`
+  - Network | Templarian | 6748 | https://www.svgviewer.dev/s/479778/network | https://www.svgviewer.dev/static-svgs/479778/network.svg
+- **СКС** — путь `navigation.megaMenus.sections.links.icon` — термин `plug`
+  - Plug | Iconscout | 6783 | https://www.svgviewer.dev/s/492410/plug | https://www.svgviewer.dev/static-svgs/492410/plug.svg
+- **ЛВС** — путь `navigation.megaMenus.sections.links.icon` — термин `network`
+  - Network | Templarian | 6748 | https://www.svgviewer.dev/s/479778/network | https://www.svgviewer.dev/static-svgs/479778/network.svg
+- **Эксплуатация сети** — путь `navigation.megaMenus.sections.links.icon` — термин `maintenance`
+  - Maintenance | Siemens | 5721 | https://www.svgviewer.dev/s/377569/maintenance | https://www.svgviewer.dev/static-svgs/377569/maintenance.svg
+- **Индивидуальные решения** — путь `navigation.megaMenus.sections.links.icon` — термин `puzzle`
+  - Puzzle | icons8 | 6785 | https://www.svgviewer.dev/s/493184/puzzle | https://www.svgviewer.dev/static-svgs/493184/puzzle.svg
+- **Порядок допуска к проведению работ** — путь `navigation.megaMenus.sections.links.icon` — термин `lock`
+  - Lock | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495639/lock | https://www.svgviewer.dev/static-svgs/495639/lock.svg
+- **Реализация ТМЦ** — путь `navigation.megaMenus.sections.links.icon` — термин `cart`
+  - Cart | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494634/cart | https://www.svgviewer.dev/static-svgs/494634/cart.svg
+- **Рамочный договор** — путь `navigation.megaMenus.sections.links.icon` — термин `document`
+  - Document | icons8 | 6784 | https://www.svgviewer.dev/s/492814/document | https://www.svgviewer.dev/static-svgs/492814/document.svg
+- **Документация** — путь `navigation.megaMenus.sections.links.icon` — термин `document`
+  - Document | icons8 | 6784 | https://www.svgviewer.dev/s/492814/document | https://www.svgviewer.dev/static-svgs/492814/document.svg
+- **Закупки** — путь `navigation.megaMenus.sections.links.icon` — термин `cart`
+  - Cart | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494634/cart | https://www.svgviewer.dev/static-svgs/494634/cart.svg
+- **Тарифы** — путь `navigation.megaMenus.sections.links.icon` — термин `coin`
+  - Coin | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494792/coin | https://www.svgviewer.dev/static-svgs/494792/coin.svg
+- **О МГТС** — путь `navigation.deepNavTrees.items.icon` — термин `building`
+  - Building | Iconscout | 6783 | https://www.svgviewer.dev/s/491762/building | https://www.svgviewer.dev/static-svgs/491762/building.svg
+- **Ценности МГТС** — путь `navigation.deepNavTrees.items.icon` — термин `shield`
+  - Shield | Iconscout | 6783 | https://www.svgviewer.dev/s/492477/shield | https://www.svgviewer.dev/static-svgs/492477/shield.svg
+- **Деловая этика и комплаенс** — путь `navigation.deepNavTrees.items.icon` — термин `shield`
+  - Shield | Iconscout | 6783 | https://www.svgviewer.dev/s/492477/shield | https://www.svgviewer.dev/static-svgs/492477/shield.svg
+- **Обращение гендиректора** — путь `navigation.deepNavTrees.items.children.icon` — термин ``
+  - _нет кандидата_
+- **Комплаенс‑политики МГТС** — путь `navigation.deepNavTrees.items.children.icon` — термин `shield`
+  - Shield | Iconscout | 6783 | https://www.svgviewer.dev/s/492477/shield | https://www.svgviewer.dev/static-svgs/492477/shield.svg
+- **Взаимодействие с партнерами** — путь `navigation.deepNavTrees.items.children.icon` — термин `handshake`
+  - Handshake | vaadin | 6746 | https://www.svgviewer.dev/s/478614/handshake | https://www.svgviewer.dev/static-svgs/478614/handshake.svg
+- **Обратная связь** — путь `navigation.deepNavTrees.items.children.icon` — термин `link`
+  - Link | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495606/link | https://www.svgviewer.dev/static-svgs/495606/link.svg
+- **Единая горячая линия** — путь `navigation.deepNavTrees.items.children.icon` — термин `phone`
+  - Phone | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495869/phone | https://www.svgviewer.dev/static-svgs/495869/phone.svg
+- **Корпоративное управление** — путь `navigation.deepNavTrees.items.icon` — термин ``
+  - _нет кандидата_
+- **Принципы корпоративного управления** — путь `navigation.deepNavTrees.items.children.icon` — термин ``
+  - _нет кандидата_
+- **Корпоративные документы** — путь `navigation.deepNavTrees.items.children.icon` — термин `document`
+  - Document | icons8 | 6784 | https://www.svgviewer.dev/s/492814/document | https://www.svgviewer.dev/static-svgs/492814/document.svg
+- **Решения общих собраний акционеров** — путь `navigation.deepNavTrees.items.children.icon` — термин `document`
+  - Document | icons8 | 6784 | https://www.svgviewer.dev/s/492814/document | https://www.svgviewer.dev/static-svgs/492814/document.svg
+- **Информация для акционеров** — путь `navigation.deepNavTrees.items.children.icon` — термин `document`
+  - Document | icons8 | 6784 | https://www.svgviewer.dev/s/492814/document | https://www.svgviewer.dev/static-svgs/492814/document.svg
+- **О регистраторе** — путь `navigation.deepNavTrees.items.children.icon` — термин `document`
+  - Document | icons8 | 6784 | https://www.svgviewer.dev/s/492814/document | https://www.svgviewer.dev/static-svgs/492814/document.svg
+- **Документация** — путь `navigation.deepNavTrees.items.icon` — термин `document`
+  - Document | icons8 | 6784 | https://www.svgviewer.dev/s/492814/document | https://www.svgviewer.dev/static-svgs/492814/document.svg
+- **Лицензии и СРО +** — путь `navigation.deepNavTrees.items.icon` — термин `document`
+  - Document | icons8 | 6784 | https://www.svgviewer.dev/s/492814/document | https://www.svgviewer.dev/static-svgs/492814/document.svg
+- **Оферты** — путь `navigation.deepNavTrees.items.icon` — термин `document`
+  - Document | icons8 | 6784 | https://www.svgviewer.dev/s/492814/document | https://www.svgviewer.dev/static-svgs/492814/document.svg
+- **Формы типовых документов** — путь `navigation.deepNavTrees.items.icon` — термин `document`
+  - Document | icons8 | 6784 | https://www.svgviewer.dev/s/492814/document | https://www.svgviewer.dev/static-svgs/492814/document.svg
+- **Стандарты раскрытия информации** — путь `navigation.deepNavTrees.items.icon` — термин `lock`
+  - Lock | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495639/lock | https://www.svgviewer.dev/static-svgs/495639/lock.svg
+- **Спецоценка условий труда** — путь `navigation.deepNavTrees.items.icon` — термин `document`
+  - Document | icons8 | 6784 | https://www.svgviewer.dev/s/492814/document | https://www.svgviewer.dev/static-svgs/492814/document.svg
+- **Предоставление копий документов** — путь `navigation.deepNavTrees.items.icon` — термин `document`
+  - Document | icons8 | 6784 | https://www.svgviewer.dev/s/492814/document | https://www.svgviewer.dev/static-svgs/492814/document.svg
+- **Сроки устранения неисправностей** — путь `navigation.deepNavTrees.items.icon` — термин `clock`
+  - Clock | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494728/clock | https://www.svgviewer.dev/static-svgs/494728/clock.svg
+- **Политика ПДн** — путь `navigation.deepNavTrees.items.icon` — термин `shield`
+  - Shield | Iconscout | 6783 | https://www.svgviewer.dev/s/492477/shield | https://www.svgviewer.dev/static-svgs/492477/shield.svg
+- **Политика cookies** — путь `navigation.deepNavTrees.items.icon` — термин `shield`
+  - Shield | Iconscout | 6783 | https://www.svgviewer.dev/s/492477/shield | https://www.svgviewer.dev/static-svgs/492477/shield.svg
+- **Политика охраны труда** — путь `navigation.deepNavTrees.items.icon` — термин `shield`
+  - Shield | Iconscout | 6783 | https://www.svgviewer.dev/s/492477/shield | https://www.svgviewer.dev/static-svgs/492477/shield.svg
+- **Существенные факты** — путь `navigation.deepNavTrees.items.icon` — термин `document`
+  - Document | icons8 | 6784 | https://www.svgviewer.dev/s/492814/document | https://www.svgviewer.dev/static-svgs/492814/document.svg
+- **Список аффилированных лиц** — путь `navigation.deepNavTrees.items.icon` — термин `link`
+  - Link | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495606/link | https://www.svgviewer.dev/static-svgs/495606/link.svg
+- **Отчеты эмитента** — путь `navigation.deepNavTrees.items.icon` — термин `document`
+  - Document | icons8 | 6784 | https://www.svgviewer.dev/s/492814/document | https://www.svgviewer.dev/static-svgs/492814/document.svg
+- **Годовые отчеты/фин. отчетность** — путь `navigation.deepNavTrees.items.icon` — термин `document`
+  - Document | icons8 | 6784 | https://www.svgviewer.dev/s/492814/document | https://www.svgviewer.dev/static-svgs/492814/document.svg
+- **Перечень инсайдерской информации** — путь `navigation.deepNavTrees.items.icon` — термин `lock`
+  - Lock | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495639/lock | https://www.svgviewer.dev/static-svgs/495639/lock.svg
+- **Структура акционерного капитала** — путь `navigation.deepNavTrees.items.icon` — термин `document`
+  - Document | icons8 | 6784 | https://www.svgviewer.dev/s/492814/document | https://www.svgviewer.dev/static-svgs/492814/document.svg
+- **Выпуск ценных бумаг** — путь `navigation.deepNavTrees.items.icon` — термин `document`
+  - Document | icons8 | 6784 | https://www.svgviewer.dev/s/492814/document | https://www.svgviewer.dev/static-svgs/492814/document.svg
+- **Подключение объектов** — путь `navigation.deepNavTrees.items.icon` — термин `plug`
+  - Plug | Iconscout | 6783 | https://www.svgviewer.dev/s/492410/plug | https://www.svgviewer.dev/static-svgs/492410/plug.svg
+- **Компенсация потерь** — путь `navigation.deepNavTrees.items.icon` — термин `shield`
+  - Shield | Iconscout | 6783 | https://www.svgviewer.dev/s/492477/shield | https://www.svgviewer.dev/static-svgs/492477/shield.svg
+- **Цифровые решения** — путь `navigation.deepNavTrees.items.icon` — термин `network`
+  - Network | Templarian | 6748 | https://www.svgviewer.dev/s/479778/network | https://www.svgviewer.dev/static-svgs/479778/network.svg
+- **Контактные данные** — путь `navigation.deepNavTrees.items.icon` — термин `data`
+  - Data | spothq | 6759 | https://www.svgviewer.dev/s/482377/data | https://www.svgviewer.dev/static-svgs/482377/data.svg
+- **Банковские реквизиты** — путь `navigation.deepNavTrees.items.icon` — термин `building`
+  - Building | Iconscout | 6783 | https://www.svgviewer.dev/s/491762/building | https://www.svgviewer.dev/static-svgs/491762/building.svg

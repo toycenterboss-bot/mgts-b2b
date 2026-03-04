@@ -1,0 +1,340 @@
+{
+  "page": {
+    "slug": "documents",
+    "url": "https://business.mgts.ru/partners/documents",
+    "pathname": "/partners/documents",
+    "analyzedAt": "2026-01-13T14:49:43.203Z",
+    "screenshot": "/Users/andrey_efremov/Downloads/runs/mgts-backend/temp/page-analysis-llm/documents_screenshot.png",
+    "llmProvider": "perplexity",
+    "llmModel": "sonar"
+  },
+  "metadata": {
+    "title": "Документация"
+  },
+  "sections": [
+    {
+      "sectionIndex": 1,
+      "type": "breadcrumbs",
+      "description": "Навигационная цепочка для ориентации пользователя на странице, показывает текущее местоположение в структуре сайта",
+      "text": "Главная > Партнерам > Документация",
+      "links": {
+        "internalLinks": [
+          {
+            "text": "Главная",
+            "href": "/",
+            "purpose": "Ссылка на главную страницу сайта"
+          },
+          {
+            "text": "Партнерам",
+            "href": "/partners",
+            "purpose": "Ссылка на раздел для партнеров"
+          }
+        ],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      }
+    },
+    {
+      "sectionIndex": 2,
+      "type": "sidebar-menu",
+      "description": "Боковое меню навигации с категориями документации для партнеров, позволяет быстро переходить между разделами",
+      "text": "Меню категорий документации",
+      "cards": [
+        {
+          "title": "Предоставление доступа к инфраструктуре и дополнительные услуги",
+          "text": "Активный раздел меню",
+          "link": null
+        },
+        {
+          "title": "Проектирование и строительство сетей связи",
+          "text": "Раздел меню",
+          "link": null
+        },
+        {
+          "title": "Предоставление места в кабельной канализации",
+          "text": "Раздел меню",
+          "link": null
+        },
+        {
+          "title": "Присоединение и пропуск трафика",
+          "text": "Раздел меню",
+          "link": null
+        },
+        {
+          "title": "Порядок подачи заявлений и запросов",
+          "text": "Раздел меню",
+          "link": null
+        }
+      ]
+    },
+    {
+      "sectionIndex": 3,
+      "type": "content-header",
+      "description": "Основной заголовок страницы, определяющий тему и содержание раздела документации",
+      "title": "Предоставление доступа к инфраструктуре и дополнительные услуги",
+      "text": "Раздел содержит документацию по предоставлению доступа к инфраструктуре и дополнительным услугам"
+    },
+    {
+      "sectionIndex": 4,
+      "type": "tabs-section",
+      "description": "Интерактивная секция с табами для переключения между категориями документов (Оформление договора, Подготовка технических условий, Требования к размещению имущества в ЛСС, Архив)",
+      "title": "Категории документов",
+      "tabs": [
+        {
+          "title": "Оформление договора",
+          "isActive": false,
+          "content": {
+            "title": "Оформление договора",
+            "text": "",
+            "links": {
+              "internalLinks": [],
+              "externalLinks": [],
+              "fileLinks": [
+                {
+                  "text": "Договор ДУ/ЛКС",
+                  "href": "https://business.mgts.ru/static/files/partner/lks_kr/dogovor_du_lks.docx",
+                  "fileType": "docx",
+                  "purpose": "Документ из таба \"Оформление договора\""
+                },
+                {
+                  "text": "Заявление заказ о подготовке технических условий на демонтаж оборудования",
+                  "href": "https://business.mgts.ru/static/files/partner/lks_kr/zayavlenie_zakaz_o_podgotovke_tekhnicheskih_uslovij_na_demontazh_oborudovaniya.docx",
+                  "fileType": "docx",
+                  "purpose": "Документ из таба \"Оформление договора\""
+                },
+                {
+                  "text": "Заявление на использование технологической мощности смотрового устройства",
+                  "href": "https://business.mgts.ru/static/files/partner/lks_kr/zayavlenie_na_ispolzovanie_tekhnologicheskoy_moshchnosti_smotrovogo_ustroystva.docx",
+                  "fileType": "docx",
+                  "purpose": "Документ из таба \"Оформление договора\""
+                },
+                {
+                  "text": "Заявление на предоставление доступа к объекту инфраструктуры",
+                  "href": "https://business.mgts.ru/static/files/partner/lks_kr/zayavlenie_na_predostavlenie_dostupa_k_obektu_infrastruktury.docx",
+                  "fileType": "docx",
+                  "purpose": "Документ из таба \"Оформление договора\""
+                },
+                {
+                  "text": "Заявление на предоставление доступа к объекту инфраструктуры для размещения/модернизации оборудования Базовой Станции",
+                  "href": "https://business.mgts.ru/static/files/partner/lks_kr/zayavlenie_na_predostavlenie_dostupa_bs.docx",
+                  "fileType": "docx",
+                  "purpose": "Документ из таба \"Оформление договора\""
+                },
+                {
+                  "text": "Заявление на предоставление места в ЛКС МГТС",
+                  "href": "https://business.mgts.ru/static/files/partner/lks_kr/zayavlenie_na_predostavlenie_mesta_v_lks_mgts.docx",
+                  "fileType": "docx",
+                  "purpose": "Документ из таба \"Оформление договора\""
+                },
+                {
+                  "text": "Общие условия исполнения договоров",
+                  "href": "https://business.mgts.ru/static/files/partner/lks_kr/obshchie_usloviya_ispolneniya_dogovorov.docx",
+                  "fileType": "docx",
+                  "purpose": "Документ из таба \"Оформление договора\""
+                },
+                {
+                  "text": "Соглашение ДУ/ЛКС",
+                  "href": "https://business.mgts.ru/static/files/partner/lks_kr/soglashenie_du_lks.docx",
+                  "fileType": "docx",
+                  "purpose": "Документ из таба \"Оформление договора\""
+                },
+                {
+                  "text": "Соглашение ПД/ЛКС",
+                  "href": "https://business.mgts.ru/static/files/partner/lks_kr/soglashenie_pd_lks.docx",
+                  "fileType": "docx",
+                  "purpose": "Документ из таба \"Оформление договора\""
+                },
+                {
+                  "text": "Условия доступа к ЛКС",
+                  "href": "https://business.mgts.ru/static/files/partner/lks_kr/usloviya_dostupa_k_lks.docx",
+                  "fileType": "docx",
+                  "purpose": "Документ из таба \"Оформление договора\""
+                },
+                {
+                  "text": "Условия оказания дополнительных услуг",
+                  "href": "https://business.mgts.ru/static/files/partner/lks_kr/usloviya_okazaniya_dopuslug_03.12.2025.docx",
+                  "fileType": "docx",
+                  "purpose": "Документ из таба \"Оформление договора\""
+                },
+                {
+                  "text": "Форма договора ПМ/КР",
+                  "href": "https://business.mgts.ru/static/files/partner/lks_kr/forma_dogovora_pm_kr.docx",
+                  "fileType": "docx",
+                  "purpose": "Документ из таба \"Оформление договора\""
+                },
+                {
+                  "text": "Форма договора ПД/ЛКС",
+                  "href": "https://business.mgts.ru/static/files/partner/lks_kr/dogovor_pd_lks.docx",
+                  "fileType": "docx",
+                  "purpose": "Документ из таба \"Оформление договора\""
+                },
+                {
+                  "text": "Форма договора Тех. присоединения",
+                  "href": "https://business.mgts.ru/static/files/partner/lks_kr/forma_dogovora_tekhnicheskogo_prisoedineniya.docx",
+                  "fileType": "docx",
+                  "purpose": "Документ из таба \"Оформление договора\""
+                }
+              ],
+              "imageLinks": []
+            }
+          }
+        },
+        {
+          "title": "Подготовка технических условий",
+          "isActive": false,
+          "content": {
+            "title": "Подготовка технических условий",
+            "text": "",
+            "links": {
+              "internalLinks": [],
+              "externalLinks": [],
+              "fileLinks": [
+                {
+                  "text": "Заявление на изменение технических условий",
+                  "href": "https://business.mgts.ru/static/files/partner/lks_kr/zayavlenie_na_izmenenie_tekhnicheskih_uslovij.docx",
+                  "fileType": "docx",
+                  "purpose": "Документ из таба \"Подготовка технических условий\""
+                },
+                {
+                  "text": "Заявление на подготовку технических условий на сопряжение (врезку) ЛКС",
+                  "href": "https://business.mgts.ru/static/files/partner/lks_kr/zayavlenie_na_sopryazhenie_lks.docx",
+                  "fileType": "docx",
+                  "purpose": "Документ из таба \"Подготовка технических условий\""
+                },
+                {
+                  "text": "Заявление на предоставление доступа к ЛКС",
+                  "href": "https://business.mgts.ru/static/files/partner/lks_kr/Zayavleniye_na_PD_k_LKS.docx",
+                  "fileType": "docx",
+                  "purpose": "Документ из таба \"Подготовка технических условий\""
+                },
+                {
+                  "text": "Заявление на предоставление доступа к ЛКС ФЛ",
+                  "href": "https://business.mgts.ru/static/files/partner/lks_kr/Zayavleniya_na_podgotovku_TU_fizish_lic.docx",
+                  "fileType": "docx",
+                  "purpose": "Документ из таба \"Подготовка технических условий\""
+                },
+                {
+                  "text": "Заявления о подготовке технических условий",
+                  "href": "https://business.mgts.ru/static/files/partner/lks_kr/O_podgotovke_tekhnicheskikh_uslovi.docx",
+                  "fileType": "docx",
+                  "purpose": "Документ из таба \"Подготовка технических условий\""
+                }
+              ],
+              "imageLinks": []
+            }
+          }
+        },
+        {
+          "title": "Требования к размещению имущества в ЛСС",
+          "isActive": false,
+          "content": {
+            "title": "Требования к размещению имущества в ЛСС",
+            "text": "",
+            "links": {
+              "internalLinks": [],
+              "externalLinks": [],
+              "fileLinks": [
+                {
+                  "text": "Документация на имущество",
+                  "href": "https://business.mgts.ru/static/files/partner/lks_kr/dokumentaciya_na_imushchestvo.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Документ из таба \"Требования к размещению имущества в ЛСС\""
+                },
+                {
+                  "text": "Информация о составе исполнительной документации",
+                  "href": "https://business.mgts.ru/static/files/partner/lks_kr/informaciya_o_sostave_ispolnitelnoj_dokumentacii.docx",
+                  "fileType": "docx",
+                  "purpose": "Документ из таба \"Требования к размещению имущества в ЛСС\""
+                },
+                {
+                  "text": "Требования, предъявляемые к производителю работ на линейных сооружениях связи ПАО МГТС",
+                  "href": "https://business.mgts.ru/static/files/partner/lks_kr/trebovaniya_predyavlyaemye_k_proizvoditelyu_rabot_na_linejnyh_sooruzheniyah_svyazi_pao_mgts.zip",
+                  "fileType": "zip",
+                  "purpose": "Документ из таба \"Требования к размещению имущества в ЛСС\""
+                }
+              ],
+              "imageLinks": []
+            }
+          }
+        },
+        {
+          "title": "Архив",
+          "isActive": true,
+          "content": {
+            "title": "Архив",
+            "text": "",
+            "links": {
+              "internalLinks": [],
+              "externalLinks": [],
+              "fileLinks": [
+                {
+                  "text": "Условия оказания дополнительных услуг (версия от 26.11.2025)",
+                  "href": "https://business.mgts.ru/static/files/partner/lks_kr/usloviya_okazaniya_dopuslug_26.11.2025.docx",
+                  "fileType": "docx",
+                  "purpose": "Документ из таба \"Архив\""
+                },
+                {
+                  "text": "Условия оказания дополнительных услуг (версия от 01.06.2025)",
+                  "href": "https://business.mgts.ru/static/files/partner/lks_kr/usloviya_okazaniya_dopuslug_01.06.2025.docx",
+                  "fileType": "docx",
+                  "purpose": "Документ из таба \"Архив\""
+                }
+              ],
+              "imageLinks": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sectionIndex": 5,
+      "type": "year-filter-tabs",
+      "description": "Табы для фильтрации документов по годам (2025 и 2024), позволяет пользователю выбрать документы за нужный год",
+      "title": "Фильтр по годам",
+      "tabs": [
+        {
+          "title": "2025",
+          "isActive": true,
+          "content": {
+            "title": "Документы 2025 года",
+            "text": "Документация за 2025 год"
+          }
+        },
+        {
+          "title": "2024",
+          "isActive": false,
+          "content": {
+            "title": "Документы 2024 года",
+            "text": "Документация за 2024 год"
+          }
+        }
+      ]
+    },
+    {
+      "sectionIndex": 6,
+      "type": "files-list",
+      "description": "Список загружаемых документов в формате DOCX с возможностью скачивания, содержит условия оказания дополнительных услуг в разных версиях",
+      "title": "Документы для скачивания",
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [
+          {
+            "text": "Условия оказания дополнительных услуг (версия от 26.11.2025)",
+            "href": "https://business.mgts.ru/static/files/partner/lks_kr/usloviya_okazaniya_dopuslug_26.11.2025.docx",
+            "fileType": "docx",
+            "purpose": "Документ с условиями оказания дополнительных услуг, актуальная версия от 26.11.2025"
+          },
+          {
+            "text": "Условия оказания дополнительных услуг (версия от 01.06.2025)",
+            "href": "https://business.mgts.ru/static/files/partner/lks_kr/usloviya_okazaniya_dopuslug_01.06.2025.docx",
+            "fileType": "docx",
+            "purpose": "Документ с условиями оказания дополнительных услуг, версия от 01.06.2025"
+          }
+        ],
+        "imageLinks": []
+      }
+    }
+  ]
+}

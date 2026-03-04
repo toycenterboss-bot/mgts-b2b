@@ -1,0 +1,231 @@
+{
+  "page": {
+    "slug": "connecting_commercial",
+    "url": "https://business.mgts.ru/developers/connecting_objects/connecting_commercial",
+    "pathname": "/developers/connecting_objects/connecting_commercial",
+    "analyzedAt": "2026-01-12T14:39:33.359Z",
+    "screenshot": "/Users/andrey_efremov/Downloads/runs/mgts-backend/temp/page-analysis-llm/connecting_commercial_screenshot.png",
+    "llmProvider": "perplexity",
+    "llmModel": "sonar"
+  },
+  "metadata": {
+    "title": "Подключение объектов коммерческой недвижимости"
+  },
+  "sections": [
+    {
+      "sectionIndex": 1,
+      "type": "breadcrumbs",
+      "description": "Навигационная цепочка хлебных крошек показывает путь пользователя от главной страницы до текущей страницы, помогая ориентироваться на сайте",
+      "title": "",
+      "subtitle": "",
+      "text": "",
+      "elements": [],
+      "images": [],
+      "links": {
+        "internalLinks": [
+          {
+            "text": "Главная",
+            "href": "/",
+            "purpose": "Переход на главную страницу сайта"
+          },
+          {
+            "text": "Застройщикам",
+            "href": "/developers",
+            "purpose": "Переход в раздел для застройщиков"
+          },
+          {
+            "text": "Подключение объектов недвижимости к сетям связи",
+            "href": "/developers/connecting_objects",
+            "purpose": "Переход в раздел подключения объектов недвижимости"
+          }
+        ],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [],
+      "tabs": []
+    },
+    {
+      "sectionIndex": 2,
+      "type": "hero",
+      "description": "Главный герой-блок с основным заголовком страницы и описанием услуг МГТС для коммерческой недвижимости",
+      "title": "Подключение объектов коммерческой недвижимости",
+      "subtitle": "",
+      "text": "ПАО МГТС опытный поставщик услуг связи для коммерческих объектов. Мы обеспечиваем надёжное соединение, быстрое подключение и стабильную работу связи",
+      "elements": [],
+      "images": [],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [],
+      "tabs": []
+    },
+    {
+      "sectionIndex": 3,
+      "type": "services",
+      "description": "Секция с перечнем услуг для собственников коммерческой недвижимости, представленных в виде горизонтально прокручиваемых карточек с иконками и ссылками на соответствующие сервисы",
+      "title": "Услуги для собственников",
+      "subtitle": "Мы предоставляем полный набор современных услуг в области телекоммуникаций, а также поддержку проекта на всех этапах создания мультисервисных сетей для коммерческих объектов",
+      "text": "",
+      "elements": [],
+      "images": [],
+      "links": {
+        "internalLinks": [
+          {
+            "text": "Телефония",
+            "href": "/business/telephony",
+            "purpose": "Переход на страницу услуг телефонии"
+          },
+          {
+            "text": "Мобильная связь",
+            "href": "/business/mobile_connection",
+            "purpose": "Переход на страницу услуг мобильной связи"
+          },
+          {
+            "text": "Виртуальная АТС",
+            "href": "/virtual_ate",
+            "purpose": "Переход на страницу услуг виртуальной АТС"
+          },
+          {
+            "text": "Доступ в интернет",
+            "href": "/business/access_internet",
+            "purpose": "Переход на страницу услуг доступа в интернет"
+          },
+          {
+            "text": "Телевидение",
+            "href": "/business/digital_television",
+            "purpose": "Переход на страницу услуг телевидения"
+          },
+          {
+            "text": "Видеонаблюдение",
+            "href": "/business/video_surveillance_office",
+            "purpose": "Переход на страницу услуг видеонаблюдения"
+          },
+          {
+            "text": "Охрана",
+            "href": "/business/security_alarm",
+            "purpose": "Переход на страницу услуг охраны"
+          }
+        ],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [
+        {
+          "title": "Телефония",
+          "text": "Надёжная и гибкая связь",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "Телефония",
+            "href": "/business/telephony",
+            "purpose": "Переход на страницу телефонии"
+          }
+        },
+        {
+          "title": "Мобильная связь",
+          "text": "Непрерывное соединение",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "Мобильная связь",
+            "href": "/business/mobile_connection",
+            "purpose": "Переход на страницу мобильной связи"
+          }
+        },
+        {
+          "title": "Виртуальная АТС",
+          "text": "Сервис для управления звонками",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "Виртуальная АТС",
+            "href": "/virtual_ate",
+            "purpose": "Переход на страницу виртуальной АТС"
+          }
+        },
+        {
+          "title": "Доступ в интернет",
+          "text": "Широкополосный канал передачи данных",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "Доступ в интернет",
+            "href": "/business/access_internet",
+            "purpose": "Переход на страницу доступа в интернет"
+          }
+        },
+        {
+          "title": "Телевидение",
+          "text": "Качественный и разнообразный видеоконтент",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "Телевидение",
+            "href": "/business/digital_television",
+            "purpose": "Переход на страницу телевидения"
+          }
+        },
+        {
+          "title": "Видеонаблюдение",
+          "text": "Единая система безопасности и контроля доступа",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "Видеонаблюдение",
+            "href": "/business/video_surveillance_office",
+            "purpose": "Переход на страницу видеонаблюдения"
+          }
+        },
+        {
+          "title": "Охрана",
+          "text": "Обеспечение безопасности и оперативное реагирование на угрозы",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "Охрана",
+            "href": "/business/security_alarm",
+            "purpose": "Переход на страницу охраны"
+          }
+        }
+      ],
+      "tabs": []
+    },
+    {
+      "sectionIndex": 4,
+      "type": "request-form",
+      "description": "Форма заявки на телефонизацию объекта с контактной информацией и телефоном для связи, предназначена для оценки технических возможностей подключения телефонной сети",
+      "title": "Заявка на телефонизацию",
+      "subtitle": "Для оценки технических возможностей установки телефонной сети, пожалуйста, заполните форму или свяжитесь по указанным ниже контактам",
+      "text": "",
+      "elements": [
+        {
+          "type": "button",
+          "text": "Отправить",
+          "purpose": "Отправка заполненной формы заявки на телефонизацию",
+          "href": ""
+        }
+      ],
+      "images": [],
+      "links": {
+        "internalLinks": [
+          {
+            "text": "условиями обработки персональных данных",
+            "href": "",
+            "purpose": "Ссылка на условия обработки персональных данных (href отсутствует в HTML)"
+          }
+        ],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [],
+      "tabs": []
+    }
+  ]
+}

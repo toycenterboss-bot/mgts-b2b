@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_home_perk_items",
+  "info": {
+    "displayName": "Home Perk Item",
+    "description": "Пункт преимущества для блока сотрудничества на главной"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string",
+      "default": "check_circle",
+      "customField": "plugin::icon-picker.icon"
+    },
+    "label": {
+      "type": "string",
+      "default": "Бесплатно"
+    }
+  }
+}

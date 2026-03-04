@@ -1,0 +1,552 @@
+{
+  "page": {
+    "slug": "corporate_documents",
+    "url": "https://business.mgts.ru/corporate_documents",
+    "pathname": "/corporate_documents",
+    "analyzedAt": "2026-01-12T13:36:37.984Z",
+    "screenshot": "/Users/andrey_efremov/Downloads/runs/mgts-backend/temp/page-analysis-llm/corporate_documents_screenshot.png",
+    "llmProvider": "perplexity",
+    "llmModel": "sonar"
+  },
+  "metadata": {
+    "title": "Корпоративные документы"
+  },
+  "sections": [
+    {
+      "type": "sidebar",
+      "description": "Боковое навигационное меню, восстановленное по связанной странице",
+      "title": "Навигация",
+      "text": null,
+      "links": {
+        "internalLinks": [
+          {
+            "text": "О МГТС",
+            "href": "/about",
+            "purpose": "Навигационный пункт бокового меню"
+          },
+          {
+            "text": "Ценности МГТС",
+            "href": "/values",
+            "purpose": "Навигационный пункт бокового меню"
+          },
+          {
+            "text": "Деловая этика и комплаенс",
+            "href": "/compliance",
+            "purpose": "Навигационный пункт бокового меню"
+          },
+          {
+            "text": "Взаимодействие с партнерами",
+            "href": "/interaction_with_partners",
+            "purpose": "Навигационный пункт бокового меню"
+          },
+          {
+            "text": "Корпоративное управление",
+            "href": "/corporate_governance",
+            "purpose": "Навигационный пункт бокового меню"
+          },
+          {
+            "text": "Принципы корпоративного управления",
+            "href": "/corporate_governance/principles",
+            "purpose": "Навигационный пункт бокового меню"
+          },
+          {
+            "text": "Корпоративные документы",
+            "href": "/corporate_documents",
+            "purpose": "Навигационный пункт бокового меню"
+          },
+          {
+            "text": "Решения общих собраний акционеров",
+            "href": "/shareholders_meetings",
+            "purpose": "Навигационный пункт бокового меню"
+          }
+        ],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": []
+    },
+    {
+      "sectionIndex": 1,
+      "type": "breadcrumbs",
+      "description": "Навигационная цепочка хлебных крошек для показа пути пользователя от главной страницы к текущей странице корпоративных документов",
+      "title": "",
+      "text": "",
+      "links": {
+        "internalLinks": [
+          {
+            "text": "Главная",
+            "href": "/",
+            "purpose": "Переход на главную страницу сайта"
+          }
+        ]
+      },
+      "tabs": [],
+      "cards": [],
+      "images": [],
+      "elements": []
+    },
+    {
+      "sectionIndex": 2,
+      "type": "hero",
+      "description": "Главный заголовок страницы, представляющий основную тему - корпоративные документы ПАО МГТС",
+      "title": "Корпоративные документы",
+      "text": "",
+      "tabs": [],
+      "cards": [],
+      "images": [],
+      "elements": [],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      }
+    },
+    {
+      "sectionIndex": 3,
+      "type": "tabs",
+      "description": "Основной интерактивный элемент страницы - горизонтально прокручиваемая панель табов с переключением между категориями корпоративных документов. Активный таб имеет класс 'active'. Есть кнопки прокрутки влево/вправо и эффект размытия слева при прокрутке. Каждый таб содержит список файлов документов в формате карточек с иконкой PDF/DOCX, названием, типом файла и иконкой внешней ссылки.",
+      "title": "",
+      "text": "Список категорий корпоративных документов для удобного переключения и доступа к файлам",
+      "tabs": [
+        {
+          "title": "Внутренние документы",
+          "isActive": false,
+          "content": {
+            "title": "",
+            "text": "Список актуальных внутренних корпоративных документов ПАО МГТС (уставы, политики, положения, кодексы, сертификаты)",
+            "links": {
+              "internalLinks": [],
+              "externalLinks": [],
+              "fileLinks": [
+                {
+                  "text": "Устав Публичного Акционерного Общества «Московская городская телефонная сеть» (редакция № 22)",
+                  "href": "http://localhost:1337/uploads/ustav_redakciya_22_8f29055743.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Устав компании в актуальной редакции №22"
+                },
+                {
+                  "text": "Политика соблюдения антикоррупционного законодательства",
+                  "href": "http://localhost:1337/uploads/Politika_soblyudeniya_antikorruptsionnogo_zakonodatelstva_d75178f6e3.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Политика по соблюдению антикоррупционных норм"
+                },
+                {
+                  "text": "Положение о вознаграждении членов Совета директоров ПАО МГТС",
+                  "href": "http://localhost:1337/uploads/polozhenie_o_voznagrazhdenii_chlenov_soveta_direktorov_pao_mgts_19_06_2020_068a80f0de.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Положение о системе вознаграждения членов Совета директоров"
+                },
+                {
+                  "text": "Положение о Совете директоров ПАО МГТС",
+                  "href": "http://localhost:1337/uploads/polozhenie_o_sovete_direktorov_16_09_2025_66a344b00f.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Положение о Совете директоров в актуальной редакции"
+                },
+                {
+                  "text": "Положение об Общем собрании акционеров ПАО МГТС",
+                  "href": "http://localhost:1337/uploads/polozhenie_ob_obshhem_sobranii_akczionerov_pao_mgts_16_09_2025_ccf30ca7b3.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Положение об Общем собрании акционеров"
+                },
+                {
+                  "text": "Положение о Генеральном директоре ПАО МГТС",
+                  "href": "http://localhost:1337/uploads/Poloenie_o_Generalnom_direktore_MGTS_2020_7ca4c32c6c.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Положение о Генеральном директоре"
+                },
+                {
+                  "text": "Положение о Ревизионной комиссии ПАО МГТС",
+                  "href": "http://localhost:1337/uploads/Polozheniye_o_Revizionnoy_komissi_MGTS_2020_89502bab19.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Положение о Ревизионной комиссии"
+                },
+                {
+                  "text": "Политика МГТС в области качества",
+                  "href": "http://localhost:1337/uploads/Politika_MGTS_v_oblasti_kachestva_9715603c9d.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Политика качества компании"
+                },
+                {
+                  "text": "Политика по управлению рисками ПАО МГТС",
+                  "href": "http://localhost:1337/uploads/Politika_po_upravleniyu_riskami_3559f826f9.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Политика управления рисками"
+                },
+                {
+                  "text": "Сертификат ISO 9001:2015",
+                  "href": "http://localhost:1337/uploads/Sertifikat_ISO_900_2015_ccb9d647e9.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Сертификат соответствия системы менеджмента качества ISO 9001:2015"
+                },
+                {
+                  "text": "Положение о предоставлении информации акционерам ПАО МГТС",
+                  "href": "http://localhost:1337/uploads/polozhenie_o_predostavlenii_informaczii_akczioneram_pao_mgts_29_12_2025_89e409c0b8.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Положение о предоставлении информации акционерам"
+                },
+                {
+                  "text": "Типовая форма соглашения о конфиденциальности",
+                  "href": "http://localhost:1337/uploads/tipovaya_forma_soglasheniya_o_konfidenczialnosti_0944bf6619.docx",
+                  "fileType": "docx",
+                  "purpose": "Типовая форма соглашения о конфиденциальности"
+                },
+                {
+                  "text": "Положение о корпоративном секретаре ПАО МГТС",
+                  "href": "http://localhost:1337/uploads/Polozhenie_o_Korporativnom_sekretare_PAO_MGTS_5986d47257.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Положение о корпоративном секретаре"
+                },
+                {
+                  "text": "Положение о дивидендной политике ПАО МГТС",
+                  "href": "http://localhost:1337/uploads/Polozheniye_17_b430a67922.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Положение о дивидендной политике"
+                },
+                {
+                  "text": "Кодекс корпоративного поведения ПАО МГТС",
+                  "href": "http://localhost:1337/uploads/kodex_78ccc0b51d.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Кодекс корпоративного поведения"
+                },
+                {
+                  "text": "Кодекс делового поведения и этики",
+                  "href": "http://localhost:1337/uploads/kodeks_delovogo_povedeniya_i_etiki_0dbf48757f.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Кодекс делового поведения и этики сотрудников"
+                },
+                {
+                  "text": "Кодекс делового поведения контрагента",
+                  "href": "http://localhost:1337/uploads/kodeksa_delovogo_povedeniya_kontragenta_4d033da2a9.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Кодекс делового поведения для контрагентов"
+                },
+                {
+                  "text": "Положение об информационной политике ПАО МГТС",
+                  "href": "http://localhost:1337/uploads/polozhenie_ob_informacionnoj_politike_pao_mgts_29_12_2025_3eea1b1025.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Положение об информационной политике"
+                }
+              ],
+              "imageLinks": []
+            }
+          }
+        },
+        {
+          "title": "Положения о Комитетах Совета директоров ПАО МГТС",
+          "isActive": false,
+          "content": {
+            "title": "",
+            "text": "Список положений о комитетах Совета директоров ПАО МГТС",
+            "links": {
+              "internalLinks": [],
+              "externalLinks": [],
+              "fileLinks": [
+                {
+                  "text": "Положение о Комитете по аудиту Совета директоров ПАО МГТС",
+                  "href": "http://localhost:1337/uploads/polozheniye_o_komitete_po_auditu_soveta_direktorov_pao_mgts_29_12_2025_b26cebf76b.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Положение о Комитете по аудиту"
+                },
+                {
+                  "text": "Положение о Комитете по назначениям и вознаграждениям Совета директоров ПАО МГТС",
+                  "href": "http://localhost:1337/uploads/polozheniye_o_knv_mgts_2020_95cd29736f.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Положение о Комитете по назначениям и вознаграждениям"
+                },
+                {
+                  "text": "Положение о Комитете по стратегии Совета директоров ПАО МГТС",
+                  "href": "http://localhost:1337/uploads/polozheniye_o_komitete_po_strategii_soveta_direktorov_pao_mgts_3febe241db.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Положение о Комитете по стратегии"
+                }
+              ],
+              "imageLinks": []
+            }
+          }
+        },
+        {
+          "title": "Свидетельства о регистрации ПАО МГТС",
+          "isActive": false,
+          "content": {
+            "title": "",
+            "text": "Официальные свидетельства о государственной регистрации ПАО МГТС",
+            "links": {
+              "internalLinks": [],
+              "externalLinks": [],
+              "fileLinks": [
+                {
+                  "text": "Свидетельство (ИНН МГТС)",
+                  "href": "http://localhost:1337/uploads/svidetelstvo_INN_PAO_MGTS_2023_4a4dc19012.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Свидетельство о постановке на учет в налоговом органе (ИНН)"
+                },
+                {
+                  "text": "Свидетельство (ОГРН МГТС)",
+                  "href": "http://localhost:1337/uploads/svidetelstvo_OGRN_MGTS_e7ac3243a6.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Свидетельство о государственной регистрации (ОГРН)"
+                },
+                {
+                  "text": "Свидетельство о государственной регистрации ОАО МГТС (МРП)",
+                  "href": "http://localhost:1337/uploads/svid_o_gos_registratsii_MGTS_MRP_9315c63f15.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Свидетельство о регистрации предшественника компании (ОАО МГТС)"
+                }
+              ],
+              "imageLinks": []
+            }
+          }
+        },
+        {
+          "title": "Внутренние документы (старые редакции)",
+          "isActive": true,
+          "content": {
+            "title": "",
+            "text": "Архив устаревших редакций внутренних корпоративных документов ПАО МГТС с указанием дат утраты силы",
+            "links": {
+              "internalLinks": [],
+              "externalLinks": [],
+              "fileLinks": [
+                {
+                  "text": "Устав Публичного Акционерного Общества «Московская городская телефонная сеть» (редакция № 21)",
+                  "href": "http://localhost:1337/uploads/ustav_redakciya_21_3a0d69a5d0.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Устав компании редакция №21 (устаревший)"
+                },
+                {
+                  "text": "Устав Публичного Акционерного Общества «Московская городская телефонная сеть» (редакция № 20)",
+                  "href": "http://localhost:1337/uploads/ustav_redakciya_20_4f81a2c5a7.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Устав компании редакция №20 (устаревший)"
+                },
+                {
+                  "text": "Устав Публичного Акционерного Общества «Московская городская телефонная сеть» (редакция № 19)",
+                  "href": "http://localhost:1337/uploads/yor04zl01lpudyd3l834grmajvnlkop1_1c3f068c27.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Устав компании редакция №19 (устаревший)"
+                },
+                {
+                  "text": "Устав Публичного Акционерного Общества «Московская городская телефонная сеть» (редакция № 18)",
+                  "href": "http://localhost:1337/uploads/Ustav_MGTS_ot_2020_red_18_bfd48d6868.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Устав компании редакция №18 (устаревший)"
+                },
+                {
+                  "text": "Положение о Комитете по аудиту Совета директоров ПАО МГТС (устаревшее с 29.12.2025)",
+                  "href": "http://localhost:1337/uploads/polozheniye_o_komitete_po_auditu_soveta_direktorov_pao_mgts_4d782cee87.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Устаревшее положение о Комитете по аудиту"
+                },
+                {
+                  "text": "Положение о предоставлении информации акционерам ПАО МГТС (устаревшее с 29.12.2025)",
+                  "href": "http://localhost:1337/uploads/polozhenie_o_predostavlenii_informaczii_akczioneram_pao_mgts_36618ddec0.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Устаревшее положение о предоставлении информации акционерам"
+                },
+                {
+                  "text": "Положение о Совете директоров ПАО МГТС (устаревшее с 17.06.2022)",
+                  "href": "http://localhost:1337/uploads/Polozheniye_o_Sovete_direktorov_MGTS_2020_31950eefa6.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Устаревшее положение о Совете директоров"
+                },
+                {
+                  "text": "Положение о Комитете по назначениям и вознаграждениям Совета директоров ПАО МГТС",
+                  "href": "http://localhost:1337/uploads/Polozheniye_o_Komitete_po_naznacheniyam_i_voznagrazhdeniyam_Soveta_direktorov_PAO_MGTS_b3344b68bd.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Устаревшее положение о Комитете по назначениям и вознаграждениям"
+                },
+                {
+                  "text": "Положение о Ревизионной комиссии ПАО МГТС",
+                  "href": "http://localhost:1337/uploads/Polozhenie_o_Revizionnoj_komissii_PAO_MGTS_v_novoj_redakczii_d1bf629284.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Устаревшее положение о Ревизионной комиссии"
+                },
+                {
+                  "text": "Положение о Генеральном директоре ПАО МГТС",
+                  "href": "http://localhost:1337/uploads/Polojenie_GD_MGTS_260511_c66786c6da.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Устаревшее положение о Генеральном директоре"
+                },
+                {
+                  "text": "Положение о Совете директоров ПАО МГТС (устаревшее с 18.06.2021)",
+                  "href": "http://localhost:1337/uploads/polozhenie_o_sovete_direktorov_pao_mgts_19_06_2020_74242e6978.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Устаревшее положение о Совете директоров"
+                },
+                {
+                  "text": "Устав Публичного Акционерного Общества «Московская городская телефонная сеть» (редакция № 17)",
+                  "href": "http://localhost:1337/uploads/Ustav_MGTS_ot_2018_red_17_65064b7b46.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Устав редакция №17"
+                },
+                {
+                  "text": "Положение об Общем собрании акционеров ПАО МГТС (устаревшее с 19.06.2020)",
+                  "href": "http://localhost:1337/uploads/Polozhenie_ob_Obshhem_sobranii_akczionerov_PAO_MGTS_23062017_9c95015396.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Устаревшее положение об ОСС"
+                },
+                {
+                  "text": "Положение о Совете директоров ПАО МГТС (устаревшее с 19.06.2020)",
+                  "href": "http://localhost:1337/uploads/Polozhenie_o_Sovete_direktorov_PAO_MGTS_23062017_dbc0c6200e.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Устаревшее положение о Совете директоров"
+                },
+                {
+                  "text": "Устав Публичного Акционерного Общества «Московская городская телефонная сеть» (редакция № 16)",
+                  "href": "http://localhost:1337/uploads/Ustav_MGTS_ot_2018_red_16_b4aadd3885.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Устав редакция №16"
+                },
+                {
+                  "text": "Устав Публичного Акционерного Общества «Московская городская телефонная сеть» (редакция № 15)",
+                  "href": "http://localhost:1337/uploads/Ustav_MGTS_ot_2017_07_11_red15_4432e9c121.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Устав редакция №15"
+                },
+                {
+                  "text": "Устав Публичного Акционерного Общества «Московская городская телефонная сеть» (редакция № 14)",
+                  "href": "http://localhost:1337/uploads/Ustav_MGTS_ot_03112016_14_red_9e916ebbac.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Устав редакция №14"
+                },
+                {
+                  "text": "Лист записи ЕГРЮЛ (на рег. Устава ПАО МГТС редакция № 14)",
+                  "href": "http://localhost:1337/uploads/List_zapisi_EGR_Yu_L_na_Ustav_MGTS_14_red_fb198a1656.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Лист записи ЕГРЮЛ по уставу редакция №14"
+                },
+                {
+                  "text": "Положение о Правлении ПАО МГТС (устаревшее с 23.06.2017)",
+                  "href": "http://localhost:1337/uploads/Polozhenie_o_Pravlenii_PAO_MGTS_novaya_redakcziya_19062015_c559fbf11d.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Устаревшее положение о Правлении"
+                },
+                {
+                  "text": "Положение о Ревизионной комиссии ПАО МГТС (устаревшее с 23.06.2017)",
+                  "href": "http://localhost:1337/uploads/Polozheniye_o_Revizionnoy_komissii_63d6b83d93.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Устаревшее положение о Ревизионной комиссии"
+                },
+                {
+                  "text": "Положение о Совете директоров ПАО МГТС (устаревшее с 23.06.2017)",
+                  "href": "http://localhost:1337/uploads/Polozheniye_o_Sovete_direktorov_PAO_MGTS_nov_redaktsiya_a7aa7cc2e1.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Устаревшее положение о Совете директоров"
+                },
+                {
+                  "text": "Положение об Общем собрании акционеров ПАО МГТС редакция (устаревшее с 23.06.2017)",
+                  "href": "http://localhost:1337/uploads/Polozhenie_ob_Obshhem_sobranii_akczionerov_PAO_MGTS_novaya_redakcziya_190615_8dbf682495.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Устаревшее положение об ОСС"
+                },
+                {
+                  "text": "Устав Публичного Акционерного Общества «Московская городская телефонная сеть» (редакция № 13)",
+                  "href": "http://localhost:1337/uploads/Ustav_MGTS_13_red_2015_ee3e264d31.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Устав редакция №13"
+                },
+                {
+                  "text": "Лист записи ЕГРЮЛ (на рег. Устава ПАО МГТС редакция №13)",
+                  "href": "http://localhost:1337/uploads/List_zapisi_YEGRYUL_na_reg_Ustava_PAO_MGTS_13_b963b77afe.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Лист записи ЕГРЮЛ по уставу редакция №13"
+                },
+                {
+                  "text": "Положение о корпоративном секретаре ПАО МГТС (старая версия)",
+                  "href": "http://localhost:1337/uploads/korporativ_26e184b0c5.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Старая версия положения о корпоративном секретаре"
+                },
+                {
+                  "text": "Положение об информационной политике ПАО МГТС (устаревшее с 29.12.2025)",
+                  "href": "http://localhost:1337/uploads/Polozhenie_ob_informaczionnoj_politike_PAO_MGTS_8ceb72d9db.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Устаревшее положение об информационной политике"
+                },
+                {
+                  "text": "Положение о Совете директоров Открытого Акционерного Общества «Московская городская телефонная сеть»",
+                  "href": "http://localhost:1337/uploads/Polojenie_SD_MGTS_260511_1b58999745.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Положение о Совете директоров ОАО МГТС"
+                },
+                {
+                  "text": "Положение об Общем собрании акционеров Открытого Акционерного Общества «Московская городская телефонная сеть»",
+                  "href": "http://localhost:1337/uploads/Polojenie_OSA_MGTS_260511_1161d55340.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Положение об ОСС ОАО МГТС"
+                },
+                {
+                  "text": "Положение о Правлении Открытого Акционерного Общества «Московская городская телефонная сеть»",
+                  "href": "http://localhost:1337/uploads/Pologenie_o_Pravlenii_OAO_MGTS_25122012_cf29b8016e.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Положение о Правлении ОАО МГТС"
+                },
+                {
+                  "text": "Положение о Ревизионной комиссии Открытого Акционерного Общества «Московская городская телефонная сеть»",
+                  "href": "http://localhost:1337/uploads/Polojenie_RK_MGTS_260511_b55805bb09.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Положение о Ревизионной комиссии ОАО МГТС"
+                },
+                {
+                  "text": "Положение о дивидендной политике",
+                  "href": "http://localhost:1337/uploads/dividenti_2c8db1ad6f.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Устаревшее положение о дивидендной политике"
+                },
+                {
+                  "text": "Положение о Комитете по кадрам и вознаграждениям",
+                  "href": "http://localhost:1337/uploads/komitet_pdf_2f94b98a2e.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Устаревшее положение о Комитете по кадрам и вознаграждениям"
+                },
+                {
+                  "text": "Положение о Комитете по аудиту",
+                  "href": "http://localhost:1337/uploads/audt_a77494a211.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Устаревшее положение о Комитете по аудиту"
+                },
+                {
+                  "text": "Положение о Комитете по корпоративному управлению",
+                  "href": "http://localhost:1337/uploads/koopuprava_4d74eb9b9e.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Устаревшее положение о Комитете по корпоративному управлению"
+                },
+                {
+                  "text": "Положение о Комитете по стратегии",
+                  "href": "http://localhost:1337/uploads/strategia_f102329858.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Устаревшее положение о Комитете по стратегии"
+                },
+                {
+                  "text": "Устав Открытого Акционерного Общества «Московская городская телефонная сеть» (редакция № 12)",
+                  "href": "http://localhost:1337/uploads/Ustav_MGTS_12_red_911fae0dce.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Устав ОАО МГТС редакция №12"
+                }
+              ],
+              "imageLinks": []
+            }
+          }
+        }
+      ],
+      "cards": [],
+      "images": [],
+      "elements": [
+        {
+          "type": "scroll-button",
+          "text": "",
+          "purpose": "Кнопка прокрутки табов влево",
+          "href": ""
+        }
+      ],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      }
+    }
+  ]
+}

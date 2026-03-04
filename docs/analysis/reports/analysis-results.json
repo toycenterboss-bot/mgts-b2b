@@ -1,0 +1,352 @@
+{
+  "analyzedAt": "2026-01-08T08:34:22.311Z",
+  "totalPages": 42,
+  "pagesWithIssues": 24,
+  "totalIssues": 24,
+  "issuesByType": {
+    "h2_without_section_title_class": {
+      "count": 24,
+      "pages": [
+        "index",
+        "developers",
+        "government",
+        "operators",
+        "partners",
+        "business",
+        "business/telephony/fixed",
+        "business/cloud/storage",
+        "business/security/video-surveillance",
+        "business/internet/office",
+        "business/tv/iptv",
+        "business/telephony",
+        "business/telephony/mobile",
+        "business/security",
+        "business/tv",
+        "business/security/access-control",
+        "business/security/alarm",
+        "business/cloud/services",
+        "business/tv/office",
+        "business/cloud/vps",
+        "business/internet/dedicated",
+        "business/telephony/ip",
+        "business/telephony/vpbx",
+        "business/internet/gpon"
+      ],
+      "severity": "medium"
+    }
+  },
+  "pages": [
+    {
+      "slug": "index",
+      "title": "МГТС Бизнес - Цифровые решения для вашего бизнеса",
+      "issues": [
+        {
+          "type": "h2_without_section_title_class",
+          "severity": "medium",
+          "message": "Заголовок h2 #1 не имеет класса section-title",
+          "element": "<h2>Заказать услугу</h2>"
+        }
+      ],
+      "issueCount": 1
+    },
+    {
+      "slug": "developers",
+      "title": "Услуги для застройщиков - МГТС Бизнес",
+      "issues": [
+        {
+          "type": "h2_without_section_title_class",
+          "severity": "medium",
+          "message": "Заголовок h2 #1 не имеет класса section-title",
+          "element": "<h2>Заказать услугу</h2>"
+        }
+      ],
+      "issueCount": 1
+    },
+    {
+      "slug": "government",
+      "title": "Услуги для госсектора - МГТС Бизнес",
+      "issues": [
+        {
+          "type": "h2_without_section_title_class",
+          "severity": "medium",
+          "message": "Заголовок h2 #1 не имеет класса section-title",
+          "element": "<h2>Заказать услугу</h2>"
+        }
+      ],
+      "issueCount": 1
+    },
+    {
+      "slug": "operators",
+      "title": "Услуги для операторов - МГТС Бизнес",
+      "issues": [
+        {
+          "type": "h2_without_section_title_class",
+          "severity": "medium",
+          "message": "Заголовок h2 #1 не имеет класса section-title",
+          "element": "<h2>Заказать услугу</h2>"
+        }
+      ],
+      "issueCount": 1
+    },
+    {
+      "slug": "partners",
+      "title": "Партнерская программа - МГТС Бизнес",
+      "issues": [
+        {
+          "type": "h2_without_section_title_class",
+          "severity": "medium",
+          "message": "Заголовок h2 #1 не имеет класса section-title",
+          "element": "<h2>Заказать услугу</h2>"
+        }
+      ],
+      "issueCount": 1
+    },
+    {
+      "slug": "business",
+      "title": "Услуги для бизнеса - МГТС Бизнес",
+      "issues": [
+        {
+          "type": "h2_without_section_title_class",
+          "severity": "medium",
+          "message": "Заголовок h2 #1 не имеет класса section-title",
+          "element": "<h2>Заказать услугу</h2>"
+        }
+      ],
+      "issueCount": 1
+    },
+    {
+      "slug": "business/telephony/fixed",
+      "title": "Фиксированная телефония - МГТС Бизнес",
+      "issues": [
+        {
+          "type": "h2_without_section_title_class",
+          "severity": "medium",
+          "message": "Заголовок h2 #1 не имеет класса section-title",
+          "element": "<h2>Заказать услугу</h2>"
+        }
+      ],
+      "issueCount": 1
+    },
+    {
+      "slug": "business/cloud/storage",
+      "title": "Облачное хранилище - МГТС Бизнес",
+      "issues": [
+        {
+          "type": "h2_without_section_title_class",
+          "severity": "medium",
+          "message": "Заголовок h2 #1 не имеет класса section-title",
+          "element": "<h2>Заказать услугу</h2>"
+        }
+      ],
+      "issueCount": 1
+    },
+    {
+      "slug": "business/security/video-surveillance",
+      "title": "Видеонаблюдение - МГТС Бизнес",
+      "issues": [
+        {
+          "type": "h2_without_section_title_class",
+          "severity": "medium",
+          "message": "Заголовок h2 #1 не имеет класса section-title",
+          "element": "<h2>Заказать услугу</h2>"
+        }
+      ],
+      "issueCount": 1
+    },
+    {
+      "slug": "business/internet/office",
+      "title": "Офисный интернет - МГТС Бизнес",
+      "issues": [
+        {
+          "type": "h2_without_section_title_class",
+          "severity": "medium",
+          "message": "Заголовок h2 #1 не имеет класса section-title",
+          "element": "<h2>Заказать услугу</h2>"
+        }
+      ],
+      "issueCount": 1
+    },
+    {
+      "slug": "business/tv/iptv",
+      "title": "IPTV для бизнеса - МГТС Бизнес",
+      "issues": [
+        {
+          "type": "h2_without_section_title_class",
+          "severity": "medium",
+          "message": "Заголовок h2 #1 не имеет класса section-title",
+          "element": "<h2>Заказать услугу</h2>"
+        }
+      ],
+      "issueCount": 1
+    },
+    {
+      "slug": "business/telephony",
+      "title": "Корпоративная телефония - МГТС Бизнес",
+      "issues": [
+        {
+          "type": "h2_without_section_title_class",
+          "severity": "medium",
+          "message": "Заголовок h2 #1 не имеет класса section-title",
+          "element": "<h2>Заказать услугу</h2>"
+        }
+      ],
+      "issueCount": 1
+    },
+    {
+      "slug": "business/telephony/mobile",
+      "title": "Корпоративная мобильная связь - МГТС Бизнес",
+      "issues": [
+        {
+          "type": "h2_without_section_title_class",
+          "severity": "medium",
+          "message": "Заголовок h2 #1 не имеет класса section-title",
+          "element": "<h2>Заказать услугу</h2>"
+        }
+      ],
+      "issueCount": 1
+    },
+    {
+      "slug": "business/security",
+      "title": "Безопасность - МГТС Бизнес",
+      "issues": [
+        {
+          "type": "h2_without_section_title_class",
+          "severity": "medium",
+          "message": "Заголовок h2 #1 не имеет класса section-title",
+          "element": "<h2>Заказать услугу</h2>"
+        }
+      ],
+      "issueCount": 1
+    },
+    {
+      "slug": "business/tv",
+      "title": "Цифровое телевидение - МГТС Бизнес",
+      "issues": [
+        {
+          "type": "h2_without_section_title_class",
+          "severity": "medium",
+          "message": "Заголовок h2 #1 не имеет класса section-title",
+          "element": "<h2>Заказать услугу</h2>"
+        }
+      ],
+      "issueCount": 1
+    },
+    {
+      "slug": "business/security/access-control",
+      "title": "Контроль доступа - МГТС Бизнес",
+      "issues": [
+        {
+          "type": "h2_without_section_title_class",
+          "severity": "medium",
+          "message": "Заголовок h2 #1 не имеет класса section-title",
+          "element": "<h2>Заказать услугу</h2>"
+        }
+      ],
+      "issueCount": 1
+    },
+    {
+      "slug": "business/security/alarm",
+      "title": "Охранная сигнализация - МГТС Бизнес",
+      "issues": [
+        {
+          "type": "h2_without_section_title_class",
+          "severity": "medium",
+          "message": "Заголовок h2 #1 не имеет класса section-title",
+          "element": "<h2>Заказать услугу</h2>"
+        }
+      ],
+      "issueCount": 1
+    },
+    {
+      "slug": "business/cloud/services",
+      "title": "Облачные сервисы - МГТС Бизнес",
+      "issues": [
+        {
+          "type": "h2_without_section_title_class",
+          "severity": "medium",
+          "message": "Заголовок h2 #1 не имеет класса section-title",
+          "element": "<h2>Заказать услугу</h2>"
+        }
+      ],
+      "issueCount": 1
+    },
+    {
+      "slug": "business/tv/office",
+      "title": "Корпоративное ТВ - МГТС Бизнес",
+      "issues": [
+        {
+          "type": "h2_without_section_title_class",
+          "severity": "medium",
+          "message": "Заголовок h2 #1 не имеет класса section-title",
+          "element": "<h2>Заказать услугу</h2>"
+        }
+      ],
+      "issueCount": 1
+    },
+    {
+      "slug": "business/cloud/vps",
+      "title": "Виртуальные серверы - МГТС Бизнес",
+      "issues": [
+        {
+          "type": "h2_without_section_title_class",
+          "severity": "medium",
+          "message": "Заголовок h2 #1 не имеет класса section-title",
+          "element": "<h2>Заказать услугу</h2>"
+        }
+      ],
+      "issueCount": 1
+    },
+    {
+      "slug": "business/internet/dedicated",
+      "title": "Выделенный интернет для бизнеса - МГТС Бизнес",
+      "issues": [
+        {
+          "type": "h2_without_section_title_class",
+          "severity": "medium",
+          "message": "Заголовок h2 #1 не имеет класса section-title",
+          "element": "<h2>Заказать услугу</h2>"
+        }
+      ],
+      "issueCount": 1
+    },
+    {
+      "slug": "business/telephony/ip",
+      "title": "IP-телефония - МГТС Бизнес",
+      "issues": [
+        {
+          "type": "h2_without_section_title_class",
+          "severity": "medium",
+          "message": "Заголовок h2 #1 не имеет класса section-title",
+          "element": "<h2>Заказать услугу</h2>"
+        }
+      ],
+      "issueCount": 1
+    },
+    {
+      "slug": "business/telephony/vpbx",
+      "title": "Виртуальная АТС - МГТС Бизнес",
+      "issues": [
+        {
+          "type": "h2_without_section_title_class",
+          "severity": "medium",
+          "message": "Заголовок h2 #1 не имеет класса section-title",
+          "element": "<h2>Заказать услугу</h2>"
+        }
+      ],
+      "issueCount": 1
+    },
+    {
+      "slug": "business/internet/gpon",
+      "title": "GPON для бизнеса - МГТС Бизнес",
+      "issues": [
+        {
+          "type": "h2_without_section_title_class",
+          "severity": "medium",
+          "message": "Заголовок h2 #1 не имеет класса section-title",
+          "element": "<h2>Заказать услугу</h2>"
+        }
+      ],
+      "issueCount": 1
+    }
+  ]
+}

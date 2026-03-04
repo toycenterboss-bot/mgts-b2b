@@ -1,0 +1,385 @@
+{
+  "page": {
+    "slug": "government_all_services",
+    "url": "https://business.mgts.ru/government/all_services",
+    "pathname": "/government/all_services",
+    "analyzedAt": "2026-01-15T09:41:39.885Z",
+    "screenshot": "/Users/andrey_efremov/Downloads/runs/mgts-backend/temp/page-analysis-llm/government_all_services_screenshot.png",
+    "llmProvider": "perplexity",
+    "llmModel": "sonar"
+  },
+  "metadata": {
+    "title": "Все услуги"
+  },
+  "sections": [
+    {
+      "sectionIndex": 1,
+      "type": "breadcrumbs",
+      "description": "Навигационная цепочка (хлебные крошки) для показа текущего местоположения пользователя на сайте",
+      "title": "",
+      "text": "",
+      "links": {
+        "internalLinks": [
+          {
+            "text": "Главная",
+            "href": "/",
+            "purpose": "Переход на главную страницу сайта"
+          },
+          {
+            "text": "Госзаказчикам",
+            "href": "/government",
+            "purpose": "Переход в раздел услуг для государственных заказчиков"
+          }
+        ]
+      }
+    },
+    {
+      "sectionIndex": 2,
+      "type": "hero",
+      "description": "Главный заголовок страницы, объявляющий тему - полный список услуг для госзаказчиков",
+      "title": "Все услуги",
+      "text": "",
+      "links": {}
+    },
+    {
+      "sectionIndex": 3,
+      "type": "tabs",
+      "description": "Горизонтальные табы для навигации между разделами услуг различных категорий клиентов. Активный таб - 'Госзаказчикам'",
+      "title": "",
+      "tabs": [
+        {
+          "title": "Операторам связи",
+          "isActive": false,
+          "content": {
+            "text": "Раздел услуг для операторов связи"
+          }
+        },
+        {
+          "title": "Госзаказчикам",
+          "isActive": true,
+          "content": {
+            "text": "Раздел услуг для государственных заказчиков (активный)"
+          }
+        },
+        {
+          "title": "Застройщикам",
+          "isActive": false,
+          "content": {
+            "text": "Раздел услуг для застройщиков"
+          }
+        },
+        {
+          "title": "Бизнесу",
+          "isActive": false,
+          "content": {
+            "text": "Раздел услуг для бизнеса"
+          }
+        },
+        {
+          "title": "Партнерам",
+          "isActive": false,
+          "content": {
+            "text": "Раздел услуг для партнеров"
+          }
+        }
+      ],
+      "links": {
+        "internalLinks": [
+          {
+            "text": "Операторам связи",
+            "href": "/operators/all_services",
+            "purpose": "Переход к услугам для операторов связи"
+          },
+          {
+            "text": "Госзаказчикам",
+            "href": "/government/all_services",
+            "purpose": "Текущий раздел - услуги для госзаказчиков (активный)"
+          },
+          {
+            "text": "Застройщикам",
+            "href": "/developers/all_services",
+            "purpose": "Переход к услугам для застройщиков"
+          },
+          {
+            "text": "Бизнесу",
+            "href": "/business/all_services",
+            "purpose": "Переход к услугам для бизнеса"
+          },
+          {
+            "text": "Партнерам",
+            "href": "/partners/all_services",
+            "purpose": "Переход к услугам для партнеров"
+          }
+        ]
+      }
+    },
+    {
+      "sectionIndex": 4,
+      "type": "services-grid",
+      "description": "Основной блок услуг 'Инфраструктура связи' - горизонтально прокручиваемая сетка карточек услуг с описаниями и ссылками на детальные страницы",
+      "title": "Инфраструктура связи",
+      "cards": [
+        {
+          "title": "Проектирование и строительство наружных сетей связи",
+          "text": "",
+          "link": {
+            "text": "Проектирование и строительство наружных сетей связи",
+            "href": "/government/communications_infrastructure/external_communication",
+            "purpose": "Переход к детальной странице услуги"
+          }
+        },
+        {
+          "title": "Проектирование и строительство структурированных кабельных сетей",
+          "text": "",
+          "link": {
+            "text": "Проектирование и строительство структурированных кабельных сетей",
+            "href": "/government/communications_infrastructure/structured_cabling_networks",
+            "purpose": "Переход к детальной странице услуги"
+          }
+        },
+        {
+          "title": "Проектирование и строительство локальных вычислительных сетей",
+          "text": "",
+          "link": {
+            "text": "Проектирование и строительство локальных вычислительных сетей",
+            "href": "/government/communications_infrastructure/local_computing_network",
+            "purpose": "Переход к детальной странице услуги"
+          }
+        },
+        {
+          "title": "Эксплуатация сетей",
+          "text": "",
+          "link": {
+            "text": "Эксплуатация сетей",
+            "href": "/government/communications_infrastructure/network_operation",
+            "purpose": "Переход к детальной странице услуги"
+          }
+        }
+      ],
+      "links": {
+        "internalLinks": [
+          {
+            "text": "Проектирование и строительство наружных сетей связи",
+            "href": "/government/communications_infrastructure/external_communication",
+            "purpose": "Детальная страница услуги по проектированию наружных сетей"
+          },
+          {
+            "text": "Проектирование и строительство структурированных кабельных сетей",
+            "href": "/government/communications_infrastructure/structured_cabling_networks",
+            "purpose": "Детальная страница услуги по структурированным кабельным сетям"
+          },
+          {
+            "text": "Проектирование и строительство локальных вычислительных сетей",
+            "href": "/government/communications_infrastructure/local_computing_network",
+            "purpose": "Детальная страница услуги по локальным вычислительным сетям"
+          },
+          {
+            "text": "Эксплуатация сетей",
+            "href": "/government/communications_infrastructure/network_operation",
+            "purpose": "Детальная страница услуги по эксплуатации сетей"
+          }
+        ]
+      }
+    },
+    {
+      "sectionIndex": 5,
+      "type": "services-grid",
+      "description": "Основной блок 'Цифровые сервисы' с подгруппами услуг, организованными по категориям с горизонтальной прокруткой карточек",
+      "title": "Цифровые сервисы",
+      "cards": [],
+      "links": {
+        "internalLinks": []
+      }
+    },
+    {
+      "sectionIndex": 6,
+      "type": "services-subgroup",
+      "description": "Подгруппа 'Видеонаблюдение' в разделе цифровых сервисов - 3 карточки услуг видеонаблюдения",
+      "title": "Видеонаблюдение",
+      "cards": [
+        {
+          "title": "Подъездное видеонаблюдение",
+          "text": "",
+          "link": {
+            "text": "Подъездное видеонаблюдение",
+            "href": "/government/digital_services/entrance_video_surveillance",
+            "purpose": "Детальная страница услуги подъездного видеонаблюдения"
+          }
+        },
+        {
+          "title": "Видеонаблюдение на объектах строительства",
+          "text": "",
+          "link": {
+            "text": "Видеонаблюдение на объектах строительства",
+            "href": "/government/digital_services/video_surveillance_building",
+            "purpose": "Детальная страница услуги видеонаблюдения на стройплощадках"
+          }
+        },
+        {
+          "title": "Техническое обслуживание системы видеонаблюдения",
+          "text": "",
+          "link": {
+            "text": "Техническое обслуживание системы видеонаблюдения",
+            "href": "/government/digital_services/video_surveillance_maintenance",
+            "purpose": "Детальная страница услуги обслуживания систем видеонаблюдения"
+          }
+        }
+      ],
+      "links": {
+        "internalLinks": [
+          {
+            "text": "Подъездное видеонаблюдение",
+            "href": "/government/digital_services/entrance_video_surveillance",
+            "purpose": "Услуга видеонаблюдения в подъездах"
+          },
+          {
+            "text": "Видеонаблюдение на объектах строительства",
+            "href": "/government/digital_services/video_surveillance_building",
+            "purpose": "Услуга видеонаблюдения на строительных объектах"
+          },
+          {
+            "text": "Техническое обслуживание системы видеонаблюдения",
+            "href": "/government/digital_services/video_surveillance_maintenance",
+            "purpose": "Обслуживание систем видеонаблюдения"
+          }
+        ]
+      }
+    },
+    {
+      "sectionIndex": 7,
+      "type": "services-subgroup",
+      "description": "Подгруппа 'Системы оповещения' - 4 карточки услуг систем оповещения и связи",
+      "title": "Системы оповещения",
+      "cards": [
+        {
+          "title": "Оборудование",
+          "text": "",
+          "link": {
+            "text": "Оборудование",
+            "href": "/government/digital_services/equipment",
+            "purpose": "Детальная страница оборудования для систем оповещения"
+          }
+        },
+        {
+          "title": "Сопряжение с Региональной системой оповещения г. Москвы",
+          "text": "",
+          "link": {
+            "text": "Сопряжение с Региональной системой оповещения г. Москвы",
+            "href": "/government/digital_services/main_and_backup_data_transmission",
+            "purpose": "Интеграция с региональной системой оповещения Москвы"
+          }
+        },
+        {
+          "title": "Техническое обслуживание устройства сопряжения",
+          "text": "",
+          "link": {
+            "text": "Техническое обслуживание устройства сопряжения",
+            "href": "/government/digital_services/maintenance_interface_device",
+            "purpose": "Обслуживание устройств сопряжения систем оповещения"
+          }
+        },
+        {
+          "title": "Громкоговорящая связь",
+          "text": "",
+          "link": {
+            "text": "Громкоговорящая связь",
+            "href": "/government/digital_services/speakerphone",
+            "purpose": "Услуга громкоговорящей связи"
+          }
+        }
+      ],
+      "links": {
+        "internalLinks": [
+          {
+            "text": "Оборудование",
+            "href": "/government/digital_services/equipment",
+            "purpose": "Оборудование для систем оповещения"
+          },
+          {
+            "text": "Сопряжение с Региональной системой оповещения г. Москвы",
+            "href": "/government/digital_services/main_and_backup_data_transmission",
+            "purpose": "Интеграция с московской системой оповещения"
+          },
+          {
+            "text": "Техническое обслуживание устройства сопряжения",
+            "href": "/government/digital_services/maintenance_interface_device",
+            "purpose": "Обслуживание устройств сопряжения"
+          },
+          {
+            "text": "Громкоговорящая связь",
+            "href": "/government/digital_services/speakerphone",
+            "purpose": "Система громкоговорящей связи"
+          }
+        ]
+      }
+    },
+    {
+      "sectionIndex": 8,
+      "type": "services-subgroup",
+      "description": "Подгруппа 'Автоматизированные системы управления и контроля' - 4 карточки услуг автоматизированных систем",
+      "title": "Автоматизированные системы управления и контроля",
+      "cards": [
+        {
+          "title": "СКУД",
+          "text": "",
+          "link": {
+            "text": "СКУД",
+            "href": "/government/digital_services/access_control_systems",
+            "purpose": "Система контроля и управления доступом"
+          }
+        },
+        {
+          "title": "АСУ",
+          "text": "",
+          "link": {
+            "text": "АСУ",
+            "href": "/government/digital_services/automated_control_systems",
+            "purpose": "Автоматизированная система управления"
+          }
+        },
+        {
+          "title": "АСКУЭ",
+          "text": "",
+          "link": {
+            "text": "АСКУЭ",
+            "href": "/government/digital_services/automated_system_monitoring_accounting",
+            "purpose": "Автоматизированная система коммерческого учета электроэнергии"
+          }
+        },
+        {
+          "title": "COT",
+          "text": "",
+          "link": {
+            "text": "COT",
+            "href": "/government/digital_services/introduction_security_tv_systems",
+            "purpose": "Система охранного телевидения"
+          }
+        }
+      ],
+      "links": {
+        "internalLinks": [
+          {
+            "text": "СКУД",
+            "href": "/government/digital_services/access_control_systems",
+            "purpose": "Система контроля управления доступом (СКУД)"
+          },
+          {
+            "text": "АСУ",
+            "href": "/government/digital_services/automated_control_systems",
+            "purpose": "Автоматизированная система управления (АСУ)"
+          },
+          {
+            "text": "АСКУЭ",
+            "href": "/government/digital_services/automated_system_monitoring_accounting",
+            "purpose": "Автоматизированная система контроля и учета электроэнергии (АСКУЭ)"
+          },
+          {
+            "text": "COT",
+            "href": "/government/digital_services/introduction_security_tv_systems",
+            "purpose": "Система охранного телевидения (COT)"
+          }
+        ]
+      }
+    }
+  ]
+}

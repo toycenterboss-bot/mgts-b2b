@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_footer_footersections",
+  "info": {
+    "displayName": "Footer Section",
+    "description": "Секция футера"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "navigation.menu-link"
+    },
+    "order": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}
+

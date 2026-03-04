@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_page_crm_cards",
+  "info": {
+    "displayName": "CRM Cards",
+    "description": "Блок с карточками CRM систем. CSS классы: crm-cards (контейнер), crm-cards__title (заголовок), crm-cards__container (контейнер), crm-cards__card (карточка), crm-cards__card-image (изображение карточки)"
+  },
+  "options": {},
+  "attributes": {
+    "isVisible": {
+      "type": "boolean",
+      "default": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.crm-card"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Загрузка...</title>
+    
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+    <!-- Header -->
+    <div data-component="header"></div>
+
+    <!-- Loading indicator -->
+    <div id="loading-indicator" style="display: none; text-align: center; padding: 40px;">
+        <div class="spinner" style="border: 4px solid #f3f3f3; border-top: 4px solid var(--color-primary, #0066cc); border-radius: 50%; width: 40px; height: 40px; animation: spin 1s linear infinite; margin: 0 auto;"></div>
+        <p style="margin-top: 20px; color: var(--color-gray-600, #666);">Загрузка контента...</p>
+    </div>
+
+    <!-- Error message -->
+    <div id="error-message" style="display: none; padding: 40px; text-align: center; background: #fff3cd; border: 1px solid #ffc107; border-radius: 4px; margin: 20px; color: #856404;">
+        <h2>Ошибка загрузки контента</h2>
+        <p>Не удалось загрузить контент из CMS. Пожалуйста, обновите страницу или обратитесь к администратору.</p>
+        <button onclick="location.reload()" class="btn btn-primary" style="margin-top: 20px;">Обновить страницу</button>
+    </div>
+
+    <!-- Main content -->
+    <main id="main-content" style="min-height: 400px;">
+        <!-- Контент будет загружен динамически из API -->
+    </main>
+
+    <!-- Footer -->
+    <div data-component="footer"></div>
+
+    <!-- Sidebar placeholder (будет загружен если нужно) -->
+    <div data-component="sidebar-about"></div>
+
+    <!-- Scripts -->
+    
+    <script src="/js/main.js"></script>    <!-- Компоненты должны загружаться первыми -->
+    <script src="/js/seasonal.js"></script>    <!-- Компоненты должны загружаться первыми -->
+    <script src="/js/api-client.js"></script>
+    <script src="/js/navigation-renderer.js"></script>
+    <script src="/js/footer-renderer.js"></script>
+    <script src="/js/components-loader.js"></script>
+    <script src="/js/cms-processors.js"></script>
+    <script src="/js/cms-loader.js"></script>
+    
+    <!-- Инициализация специальных компонентов -->
+    <script src="/js/mirror-slider.js"></script>
+    <script src="/js/history-timeline.js"></script>
+    <script src="/js/section-map.js"></script>
+    <script src="/js/mobile-app-section.js"></script>
+    <script src="/js/crm-cards.js"></script>
+
+    <script src="/js/icons-replace.js"></script>
+    <script src="/js/animations.js"></script>
+
+    <script>
+        // Стили для спиннера
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes spin {
+                0% { transform: rotate(0deg); }
+                100% { transform: rotate(360deg); }
+            }
+        `;
+        document.head.appendChild(style);
+
+        // cms-loader.js уже обрабатывает загрузку контента
+        // Эта страница просто показывает индикатор загрузки и ошибки
+        // Реальная загрузка происходит через CMSLoader.loadContentFromAPI()
+        
+        // Убедиться, что cms-loader.js загружен и работает
+        document.addEventListener('DOMContentLoaded', function() {
+            if (typeof CMSLoader !== 'undefined' && typeof CMSLoader.load === 'function') {
+                console.log('[Page Template] CMSLoader available, loading content...');
+                CMSLoader.load().catch(function(error) {
+                    console.error('[Page Template] Error loading content:', error);
+                    const errorMessage = document.getElementById('error-message');
+                    if (errorMessage) {
+                        errorMessage.style.display = 'block';
+                    }
+                });
+            } else {
+                console.warn('[Page Template] CMSLoader not available, content will not load');
+            }
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+

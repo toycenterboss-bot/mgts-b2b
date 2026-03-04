@@ -1,0 +1,31 @@
+version: "3.8"
+
+services:
+  penpot:
+    image: penpotapp/penpot:latest
+    depends_on:
+      - postgres
+      - redis
+    ports:
+      - "9001:9001"
+    environment:
+      PENPOT_PUBLIC_URI: "http://localhost:9001"
+      PENPOT_FLAGS: "disable-registration"
+      PENPOT_SECRET_KEY: "change-me-penpot-secret"
+      PENPOT_DATABASE_URI: "postgresql://penpot:penpot@postgres:5432/penpot"
+      PENPOT_REDIS_URI: "redis://redis:6379/0"
+
+  postgres:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_DB: penpot
+      POSTGRES_USER: penpot
+      POSTGRES_PASSWORD: penpot
+    volumes:
+      - penpot-db:/var/lib/postgresql/data
+
+  redis:
+    image: redis:7-alpine
+
+volumes:
+  penpot-db:

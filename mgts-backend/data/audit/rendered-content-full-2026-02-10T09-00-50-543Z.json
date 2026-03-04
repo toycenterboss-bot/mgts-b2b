@@ -1,0 +1,907 @@
+[
+  {
+    "slug": "disclosure",
+    "template": "TPL_DeepNav",
+    "url": "http://localhost:8002/html_pages/tpl_deepnav.html?slug=disclosure",
+    "missingCount": 0,
+    "totalTokens": 1,
+    "missing": []
+  },
+  {
+    "slug": "contact",
+    "template": "TPL_Contact_Hub",
+    "url": "http://localhost:8002/html_pages/tpl_contact_hub.html?slug=contact",
+    "missingCount": 0,
+    "totalTokens": 1,
+    "missing": []
+  },
+  {
+    "slug": "operators/infrastructure",
+    "template": "TPL_Service",
+    "url": "http://localhost:8002/html_pages/tpl_service.html?slug=operators%2Finfrastructure",
+    "missingCount": 0,
+    "totalTokens": 1,
+    "missing": []
+  },
+  {
+    "slug": "services/scenario-connecting-object",
+    "template": "TPL_Scenario",
+    "url": "http://localhost:8002/html_pages/tpl_scenario.html?slug=services%2Fscenario-connecting-object",
+    "missingCount": 0,
+    "totalTokens": 1,
+    "missing": []
+  },
+  {
+    "slug": "services/scenario-connectivity-data",
+    "template": "TPL_Scenario",
+    "url": "http://localhost:8002/html_pages/tpl_scenario.html?slug=services%2Fscenario-connectivity-data",
+    "missingCount": 0,
+    "totalTokens": 1,
+    "missing": []
+  },
+  {
+    "slug": "services/scenario-infrastructure-360",
+    "template": "TPL_Scenario",
+    "url": "http://localhost:8002/html_pages/tpl_scenario.html?slug=services%2Fscenario-infrastructure-360",
+    "missingCount": 0,
+    "totalTokens": 1,
+    "missing": []
+  },
+  {
+    "slug": "services/scenario-network-ops",
+    "template": "TPL_Scenario",
+    "url": "http://localhost:8002/html_pages/tpl_scenario.html?slug=services%2Fscenario-network-ops",
+    "missingCount": 0,
+    "totalTokens": 1,
+    "missing": []
+  },
+  {
+    "slug": "services/scenario-safe-object",
+    "template": "TPL_Scenario",
+    "url": "http://localhost:8002/html_pages/tpl_scenario.html?slug=services%2Fscenario-safe-object",
+    "missingCount": 0,
+    "totalTokens": 1,
+    "missing": []
+  },
+  {
+    "slug": "services/scenario-video-access",
+    "template": "TPL_Scenario",
+    "url": "http://localhost:8002/html_pages/tpl_scenario.html?slug=services%2Fscenario-video-access",
+    "missingCount": 0,
+    "totalTokens": 1,
+    "missing": []
+  },
+  {
+    "slug": "affiliated_persons",
+    "template": "TPL_Doc_Page",
+    "url": "http://localhost:8002/html_pages/tpl_doc_page.html?slug=affiliated_persons",
+    "missingCount": 0,
+    "totalTokens": 1,
+    "missing": []
+  },
+  {
+    "slug": "emission",
+    "template": "TPL_Doc_Page",
+    "url": "http://localhost:8002/html_pages/tpl_doc_page.html?slug=emission",
+    "missingCount": 0,
+    "totalTokens": 1,
+    "missing": []
+  },
+  {
+    "slug": "essential_facts",
+    "template": "TPL_Doc_Page",
+    "url": "http://localhost:8002/html_pages/tpl_doc_page.html?slug=essential_facts",
+    "missingCount": 0,
+    "totalTokens": 1,
+    "missing": []
+  },
+  {
+    "slug": "reports",
+    "template": "TPL_Doc_Page",
+    "url": "http://localhost:8002/html_pages/tpl_doc_page.html?slug=reports",
+    "missingCount": 0,
+    "totalTokens": 1,
+    "missing": []
+  },
+  {
+    "slug": "stocks_reports",
+    "template": "TPL_Doc_Page",
+    "url": "http://localhost:8002/html_pages/tpl_doc_page.html?slug=stocks_reports",
+    "missingCount": 0,
+    "totalTokens": 1,
+    "missing": []
+  },
+  {
+    "slug": "terms",
+    "template": "TPL_Doc_Page",
+    "url": "http://localhost:8002/html_pages/tpl_doc_page.html?slug=terms",
+    "missingCount": 0,
+    "totalTokens": 1,
+    "missing": []
+  },
+  {
+    "slug": "sitemap",
+    "template": "TPL_Doc_Page",
+    "url": "http://localhost:8002/html_pages/tpl_doc_page.html?slug=sitemap",
+    "missingCount": 0,
+    "totalTokens": 1,
+    "missing": []
+  },
+  {
+    "slug": "operators_nondiscriminatory_access",
+    "template": "TPL_Service",
+    "url": "http://localhost:8002/html_pages/tpl_service.html?slug=operators_nondiscriminatory_access",
+    "missingCount": 0,
+    "totalTokens": 12,
+    "missing": []
+  },
+  {
+    "slug": "developers_all_services",
+    "template": "TPL_Segment_Landing",
+    "url": "http://localhost:8002/html_pages/tpl_segment_landing.html?slug=developers_all_services",
+    "missingCount": 0,
+    "totalTokens": 13,
+    "missing": []
+  },
+  {
+    "slug": "business_all_services",
+    "template": "TPL_Segment_Landing",
+    "url": "http://localhost:8002/html_pages/tpl_segment_landing.html?slug=business_all_services",
+    "missingCount": 0,
+    "totalTokens": 13,
+    "missing": []
+  },
+  {
+    "slug": "all_services",
+    "template": "TPL_Segment_Landing",
+    "url": "http://localhost:8002/html_pages/tpl_segment_landing.html?slug=all_services",
+    "missingCount": 0,
+    "totalTokens": 23,
+    "missing": []
+  },
+  {
+    "slug": "procedure_admission_work",
+    "template": "TPL_DeepNav",
+    "url": "http://localhost:8002/html_pages/tpl_deepnav.html?slug=procedure_admission_work",
+    "missingCount": 4,
+    "totalTokens": 20,
+    "missing": [
+      "Допуск для проведения работ на линиях и сооружениях связи",
+      "Нужна персональная консультация?",
+      "Наши технические специалисты готовы ответить на любые вопросы по интеграции 24/7.",
+      "Связаться с нами"
+    ]
+  },
+  {
+    "slug": "partners_creating_work_order",
+    "template": "TPL_Form_Page",
+    "url": "http://localhost:8002/html_pages/tpl_form_page.html?slug=partners_creating_work_order",
+    "missingCount": 0,
+    "totalTokens": 19,
+    "missing": []
+  },
+  {
+    "slug": "purchas",
+    "template": "TPL_DeepNav",
+    "url": "http://localhost:8002/html_pages/tpl_deepnav.html?slug=purchas",
+    "missingCount": 0,
+    "totalTokens": 12,
+    "missing": []
+  },
+  {
+    "slug": "realization",
+    "template": "TPL_DeepNav",
+    "url": "http://localhost:8002/html_pages/tpl_deepnav.html?slug=realization",
+    "missingCount": 0,
+    "totalTokens": 11,
+    "missing": []
+  },
+  {
+    "slug": "general_director_message",
+    "template": "TPL_DeepNav",
+    "url": "http://localhost:8002/html_pages/tpl_deepnav.html?slug=general_director_message",
+    "missingCount": 2,
+    "totalTokens": 9,
+    "missing": [
+      "Уважаемые друзья!",
+      "Константин Константинопольский"
+    ]
+  },
+  {
+    "slug": "entrance_video_surveillance",
+    "template": "TPL_Service",
+    "url": "http://localhost:8002/html_pages/tpl_service.html?slug=entrance_video_surveillance",
+    "missingCount": 0,
+    "totalTokens": 23,
+    "missing": []
+  },
+  {
+    "slug": "partners_feedback_form",
+    "template": "TPL_DeepNav",
+    "url": "http://localhost:8002/html_pages/tpl_deepnav.html?slug=partners_feedback_form",
+    "missingCount": 1,
+    "totalTokens": 18,
+    "missing": [
+      "Основная форма обратной связи с 10 вопросами о комплаенс и деловой этике в компании пользователя"
+    ]
+  },
+  {
+    "slug": "mgts_values",
+    "template": "TPL_DeepNav",
+    "url": "http://localhost:8002/html_pages/tpl_deepnav.html?slug=mgts_values",
+    "missingCount": 0,
+    "totalTokens": 7,
+    "missing": []
+  },
+  {
+    "slug": "lks_kr",
+    "template": "TPL_Service",
+    "url": "http://localhost:8002/html_pages/tpl_service.html?slug=lks_kr",
+    "missingCount": 0,
+    "totalTokens": 11,
+    "missing": []
+  },
+  {
+    "slug": "documents",
+    "template": "TPL_Doc_Page",
+    "url": "http://localhost:8002/html_pages/tpl_doc_page.html?slug=documents",
+    "missingCount": 0,
+    "totalTokens": 14,
+    "missing": []
+  },
+  {
+    "slug": "bank_details",
+    "template": "TPL_DeepNav",
+    "url": "http://localhost:8002/html_pages/tpl_deepnav.html?slug=bank_details",
+    "missingCount": 0,
+    "totalTokens": 1,
+    "missing": []
+  },
+  {
+    "slug": "contact_details",
+    "template": "TPL_DeepNav",
+    "url": "http://localhost:8002/html_pages/tpl_deepnav.html?slug=contact_details",
+    "missingCount": 1,
+    "totalTokens": 5,
+    "missing": [
+      "Социальные сети"
+    ]
+  },
+  {
+    "slug": "developers_connecting_objects",
+    "template": "TPL_DeepNav",
+    "url": "http://localhost:8002/html_pages/tpl_deepnav.html?slug=developers_connecting_objects",
+    "missingCount": 0,
+    "totalTokens": 15,
+    "missing": []
+  },
+  {
+    "slug": "developers_digital_solutions",
+    "template": "TPL_DeepNav",
+    "url": "http://localhost:8002/html_pages/tpl_deepnav.html?slug=developers_digital_solutions",
+    "missingCount": 6,
+    "totalTokens": 29,
+    "missing": [
+      "Обсудим ваш проект",
+      "Оставьте заявку, и наш персональный менеджер свяжется с вами для детальной консультации по инфраструктурным решениям МГТ",
+      "Готовы к масштабированию?",
+      "Поддержка 24/7",
+      "Email для бизнеса",
+      "Отправить заявку"
+    ]
+  },
+  {
+    "slug": "scenario_demo",
+    "template": "TPL_Scenario",
+    "url": "http://localhost:8002/html_pages/tpl_scenario.html?slug=scenario_demo",
+    "missingCount": 1,
+    "totalTokens": 10,
+    "missing": [
+      "Сценарий (демо)"
+    ]
+  },
+  {
+    "slug": "interaction_with_partners",
+    "template": "TPL_DeepNav",
+    "url": "http://localhost:8002/html_pages/tpl_deepnav.html?slug=interaction_with_partners",
+    "missingCount": 0,
+    "totalTokens": 3,
+    "missing": []
+  },
+  {
+    "slug": "corporate_documents",
+    "template": "TPL_DeepNav",
+    "url": "http://localhost:8002/html_pages/tpl_deepnav.html?slug=corporate_documents",
+    "missingCount": 0,
+    "totalTokens": 1,
+    "missing": []
+  },
+  {
+    "slug": "operators_all_services",
+    "template": "TPL_Segment_Landing",
+    "url": "http://localhost:8002/html_pages/tpl_segment_landing.html?slug=operators_all_services",
+    "missingCount": 0,
+    "totalTokens": 7,
+    "missing": []
+  },
+  {
+    "slug": "government_all_services",
+    "template": "TPL_Segment_Landing",
+    "url": "http://localhost:8002/html_pages/tpl_segment_landing.html?slug=government_all_services",
+    "missingCount": 0,
+    "totalTokens": 23,
+    "missing": []
+  },
+  {
+    "slug": "maintenance_interface_device",
+    "template": "TPL_Service",
+    "url": "http://localhost:8002/html_pages/tpl_service.html?slug=maintenance_interface_device",
+    "missingCount": 0,
+    "totalTokens": 7,
+    "missing": []
+  },
+  {
+    "slug": "cookie_processing",
+    "template": "TPL_DeepNav",
+    "url": "http://localhost:8002/html_pages/tpl_deepnav.html?slug=cookie_processing",
+    "missingCount": 0,
+    "totalTokens": 12,
+    "missing": []
+  },
+  {
+    "slug": "stockholder_copies_document",
+    "template": "TPL_DeepNav",
+    "url": "http://localhost:8002/html_pages/tpl_deepnav.html?slug=stockholder_copies_document",
+    "missingCount": 0,
+    "totalTokens": 5,
+    "missing": []
+  },
+  {
+    "slug": "timing_malfunctions",
+    "template": "TPL_DeepNav",
+    "url": "http://localhost:8002/html_pages/tpl_deepnav.html?slug=timing_malfunctions",
+    "missingCount": 0,
+    "totalTokens": 2,
+    "missing": []
+  },
+  {
+    "slug": "wca",
+    "template": "TPL_DeepNav",
+    "url": "http://localhost:8002/html_pages/tpl_deepnav.html?slug=wca",
+    "missingCount": 0,
+    "totalTokens": 3,
+    "missing": []
+  },
+  {
+    "slug": "news",
+    "template": "TPL_News_List",
+    "url": "http://localhost:8002/html_pages/tpl_news_list.html?slug=news",
+    "missingCount": 0,
+    "totalTokens": 3,
+    "missing": []
+  },
+  {
+    "slug": "offers",
+    "template": "TPL_News_List",
+    "url": "http://localhost:8002/html_pages/tpl_news_list.html?slug=offers",
+    "missingCount": 0,
+    "totalTokens": 1,
+    "missing": []
+  },
+  {
+    "slug": "partners_ramochnie_dogovori",
+    "template": "TPL_Doc_Page",
+    "url": "http://localhost:8002/html_pages/tpl_doc_page.html?slug=partners_ramochnie_dogovori",
+    "missingCount": 2,
+    "totalTokens": 6,
+    "missing": [
+      "Название",
+      "Размер"
+    ]
+  },
+  {
+    "slug": "tariffs",
+    "template": "TPL_Doc_Page",
+    "url": "http://localhost:8002/html_pages/tpl_doc_page.html?slug=tariffs",
+    "missingCount": 2,
+    "totalTokens": 10,
+    "missing": [
+      "Название",
+      "Размер"
+    ]
+  },
+  {
+    "slug": "about_mgts",
+    "template": "TPL_DeepNav",
+    "url": "http://localhost:8002/html_pages/tpl_deepnav.html?slug=about_mgts",
+    "missingCount": 5,
+    "totalTokens": 9,
+    "missing": [
+      "Трансформация",
+      "Революция 2.0",
+      "Новые стандарты общения",
+      "Технологии победы",
+      "Технологии народу"
+    ]
+  },
+  {
+    "slug": "business",
+    "template": "TPL_Segment_Landing",
+    "url": "http://localhost:8002/html_pages/tpl_segment_landing.html?slug=business",
+    "missingCount": 0,
+    "totalTokens": 19,
+    "missing": []
+  },
+  {
+    "slug": "business_equipment_setup",
+    "template": "TPL_Service",
+    "url": "http://localhost:8002/html_pages/tpl_service.html?slug=business_equipment_setup",
+    "missingCount": 0,
+    "totalTokens": 5,
+    "missing": []
+  },
+  {
+    "slug": "developers",
+    "template": "TPL_Segment_Landing",
+    "url": "http://localhost:8002/html_pages/tpl_segment_landing.html?slug=developers",
+    "missingCount": 0,
+    "totalTokens": 12,
+    "missing": []
+  },
+  {
+    "slug": "digital_television",
+    "template": "TPL_Service",
+    "url": "http://localhost:8002/html_pages/tpl_service.html?slug=digital_television",
+    "missingCount": 0,
+    "totalTokens": 15,
+    "missing": []
+  },
+  {
+    "slug": "government",
+    "template": "TPL_Segment_Landing",
+    "url": "http://localhost:8002/html_pages/tpl_segment_landing.html?slug=government",
+    "missingCount": 0,
+    "totalTokens": 8,
+    "missing": []
+  },
+  {
+    "slug": "government_customized_solutions",
+    "template": "TPL_Service",
+    "url": "http://localhost:8002/html_pages/tpl_service.html?slug=government_customized_solutions",
+    "missingCount": 0,
+    "totalTokens": 11,
+    "missing": []
+  },
+  {
+    "slug": "government_digital_services",
+    "template": "TPL_Service",
+    "url": "http://localhost:8002/html_pages/tpl_service.html?slug=government_digital_services",
+    "missingCount": 0,
+    "totalTokens": 18,
+    "missing": []
+  },
+  {
+    "slug": "index",
+    "template": "TPL_DeepNav",
+    "url": "http://localhost:8002/html_pages/tpl_deepnav.html?slug=index",
+    "missingCount": 0,
+    "totalTokens": 3,
+    "missing": []
+  },
+  {
+    "slug": "joining_and_passing_traffic",
+    "template": "TPL_Service",
+    "url": "http://localhost:8002/html_pages/tpl_service.html?slug=joining_and_passing_traffic",
+    "missingCount": 0,
+    "totalTokens": 11,
+    "missing": []
+  },
+  {
+    "slug": "local_computing_network",
+    "template": "TPL_Service",
+    "url": "http://localhost:8002/html_pages/tpl_service.html?slug=local_computing_network",
+    "missingCount": 1,
+    "totalTokens": 12,
+    "missing": [
+      "Локальная вычислительная сеть, LAN"
+    ]
+  },
+  {
+    "slug": "mgts_compliance_policies",
+    "template": "TPL_DeepNav",
+    "url": "http://localhost:8002/html_pages/tpl_deepnav.html?slug=mgts_compliance_policies",
+    "missingCount": 0,
+    "totalTokens": 2,
+    "missing": []
+  },
+  {
+    "slug": "operators",
+    "template": "TPL_Segment_Landing",
+    "url": "http://localhost:8002/html_pages/tpl_segment_landing.html?slug=operators",
+    "missingCount": 0,
+    "totalTokens": 12,
+    "missing": []
+  },
+  {
+    "slug": "partners",
+    "template": "TPL_Segment_Landing",
+    "url": "http://localhost:8002/html_pages/tpl_segment_landing.html?slug=partners",
+    "missingCount": 0,
+    "totalTokens": 9,
+    "missing": []
+  },
+  {
+    "slug": "principles_corporate_manage",
+    "template": "TPL_DeepNav",
+    "url": "http://localhost:8002/html_pages/tpl_deepnav.html?slug=principles_corporate_manage",
+    "missingCount": 0,
+    "totalTokens": 10,
+    "missing": []
+  },
+  {
+    "slug": "single_hotline",
+    "template": "TPL_DeepNav",
+    "url": "http://localhost:8002/html_pages/tpl_deepnav.html?slug=single_hotline",
+    "missingCount": 0,
+    "totalTokens": 17,
+    "missing": []
+  },
+  {
+    "slug": "speakerphone",
+    "template": "TPL_Service",
+    "url": "http://localhost:8002/html_pages/tpl_service.html?slug=speakerphone",
+    "missingCount": 0,
+    "totalTokens": 15,
+    "missing": []
+  },
+  {
+    "slug": "services",
+    "template": "TPL_Segment_Landing",
+    "url": "http://localhost:8002/html_pages/tpl_segment_landing.html?slug=services",
+    "missingCount": 0,
+    "totalTokens": 3,
+    "missing": []
+  },
+  {
+    "slug": "access_internet",
+    "template": "TPL_Service",
+    "url": "http://localhost:8002/html_pages/tpl_service.html?slug=access_internet",
+    "missingCount": 0,
+    "totalTokens": 12,
+    "missing": []
+  },
+  {
+    "slug": "telephony",
+    "template": "TPL_Service",
+    "url": "http://localhost:8002/html_pages/tpl_service.html?slug=telephony",
+    "missingCount": 0,
+    "totalTokens": 11,
+    "missing": []
+  },
+  {
+    "slug": "mobile_connection",
+    "template": "TPL_Service",
+    "url": "http://localhost:8002/html_pages/tpl_service.html?slug=mobile_connection",
+    "missingCount": 0,
+    "totalTokens": 11,
+    "missing": []
+  },
+  {
+    "slug": "virtual_ate",
+    "template": "TPL_Service",
+    "url": "http://localhost:8002/html_pages/tpl_service.html?slug=virtual_ate",
+    "missingCount": 0,
+    "totalTokens": 28,
+    "missing": []
+  },
+  {
+    "slug": "home",
+    "template": "TPL_Home",
+    "url": "http://localhost:8002/html_pages/tpl_home.html?slug=home",
+    "missingCount": 9,
+    "totalTokens": 15,
+    "missing": [
+      "МГТС - Главная",
+      "ПОЧЕМУ МГТС?",
+      "Крупнейшая в Москве высокоскоростная оптическая сеть GPON",
+      "Первый и основной телекоммуникационный партнер Москвы",
+      "Высочайшие стандарты обслуживания мирового уровня",
+      "НАШИ УСЛУГИ",
+      "ЗАРАБАТЫВАЙТЕ В ПАРТНЕРСТВЕ",
+      "Допуск в ЛСС",
+      "Аренда площадей"
+    ]
+  },
+  {
+    "slug": "partner",
+    "template": "TPL_Segment_Landing",
+    "url": "http://localhost:8002/html_pages/tpl_segment_landing.html?slug=partner",
+    "missingCount": 0,
+    "totalTokens": 14,
+    "missing": []
+  },
+  {
+    "slug": "about_registrar",
+    "template": "TPL_DeepNav",
+    "url": "http://localhost:8002/html_pages/tpl_deepnav.html?slug=about_registrar",
+    "missingCount": 0,
+    "totalTokens": 12,
+    "missing": []
+  },
+  {
+    "slug": "data_processing",
+    "template": "TPL_DeepNav",
+    "url": "http://localhost:8002/html_pages/tpl_deepnav.html?slug=data_processing",
+    "missingCount": 1,
+    "totalTokens": 21,
+    "missing": [
+      "Политика «Обработка персональных данных в ПАО МГТС»"
+    ]
+  },
+  {
+    "slug": "decisions_meetings_shareholders",
+    "template": "TPL_DeepNav",
+    "url": "http://localhost:8002/html_pages/tpl_deepnav.html?slug=decisions_meetings_shareholders",
+    "missingCount": 0,
+    "totalTokens": 11,
+    "missing": []
+  },
+  {
+    "slug": "forms_doc",
+    "template": "TPL_DeepNav",
+    "url": "http://localhost:8002/html_pages/tpl_deepnav.html?slug=forms_doc",
+    "missingCount": 0,
+    "totalTokens": 7,
+    "missing": []
+  },
+  {
+    "slug": "operinfo",
+    "template": "TPL_DeepNav",
+    "url": "http://localhost:8002/html_pages/tpl_deepnav.html?slug=operinfo",
+    "missingCount": 0,
+    "totalTokens": 18,
+    "missing": []
+  },
+  {
+    "slug": "computer_help",
+    "template": "TPL_Service",
+    "url": "http://localhost:8002/html_pages/tpl_service.html?slug=computer_help",
+    "missingCount": 0,
+    "totalTokens": 22,
+    "missing": []
+  },
+  {
+    "slug": "business_payment_methods",
+    "template": "TPL_Service",
+    "url": "http://localhost:8002/html_pages/tpl_service.html?slug=business_payment_methods",
+    "missingCount": 6,
+    "totalTokens": 12,
+    "missing": [
+      "Электронный документооборот (ЭДО)",
+      "ПАО МГТС приглашает своих клиентов присоединиться к электронному документообороту (ЭДО) для получения документов в элект",
+      "Готовы к масштабированию?",
+      "Поддержка 24/7",
+      "Email для бизнеса",
+      "Отправить заявку"
+    ]
+  },
+  {
+    "slug": "security_alarm",
+    "template": "TPL_Service",
+    "url": "http://localhost:8002/html_pages/tpl_service.html?slug=security_alarm",
+    "missingCount": 0,
+    "totalTokens": 19,
+    "missing": []
+  },
+  {
+    "slug": "video_surveillance_office",
+    "template": "TPL_Service",
+    "url": "http://localhost:8002/html_pages/tpl_service.html?slug=video_surveillance_office",
+    "missingCount": 0,
+    "totalTokens": 29,
+    "missing": []
+  },
+  {
+    "slug": "developers_compensation_for_losses",
+    "template": "TPL_DeepNav",
+    "url": "http://localhost:8002/html_pages/tpl_deepnav.html?slug=developers_compensation_for_losses",
+    "missingCount": 0,
+    "totalTokens": 6,
+    "missing": []
+  },
+  {
+    "slug": "connecting_commercial",
+    "template": "TPL_Service",
+    "url": "http://localhost:8002/html_pages/tpl_service.html?slug=connecting_commercial",
+    "missingCount": 0,
+    "totalTokens": 16,
+    "missing": []
+  },
+  {
+    "slug": "connecting_construction",
+    "template": "TPL_Service",
+    "url": "http://localhost:8002/html_pages/tpl_service.html?slug=connecting_construction",
+    "missingCount": 0,
+    "totalTokens": 13,
+    "missing": []
+  },
+  {
+    "slug": "connecting_residential",
+    "template": "TPL_Service",
+    "url": "http://localhost:8002/html_pages/tpl_service.html?slug=connecting_residential",
+    "missingCount": 0,
+    "totalTokens": 21,
+    "missing": []
+  },
+  {
+    "slug": "government_communications_infrastructure",
+    "template": "TPL_Service",
+    "url": "http://localhost:8002/html_pages/tpl_service.html?slug=government_communications_infrastructure",
+    "missingCount": 0,
+    "totalTokens": 17,
+    "missing": []
+  },
+  {
+    "slug": "external_communication",
+    "template": "TPL_Service",
+    "url": "http://localhost:8002/html_pages/tpl_service.html?slug=external_communication",
+    "missingCount": 0,
+    "totalTokens": 17,
+    "missing": []
+  },
+  {
+    "slug": "network_operation",
+    "template": "TPL_Service",
+    "url": "http://localhost:8002/html_pages/tpl_service.html?slug=network_operation",
+    "missingCount": 0,
+    "totalTokens": 17,
+    "missing": []
+  },
+  {
+    "slug": "structured_cabling_networks",
+    "template": "TPL_Service",
+    "url": "http://localhost:8002/html_pages/tpl_service.html?slug=structured_cabling_networks",
+    "missingCount": 0,
+    "totalTokens": 16,
+    "missing": []
+  },
+  {
+    "slug": "access_control_systems",
+    "template": "TPL_Service",
+    "url": "http://localhost:8002/html_pages/tpl_service.html?slug=access_control_systems",
+    "missingCount": 0,
+    "totalTokens": 17,
+    "missing": []
+  },
+  {
+    "slug": "automated_control_systems",
+    "template": "TPL_Service",
+    "url": "http://localhost:8002/html_pages/tpl_service.html?slug=automated_control_systems",
+    "missingCount": 0,
+    "totalTokens": 18,
+    "missing": []
+  },
+  {
+    "slug": "automated_system_monitoring_accounting",
+    "template": "TPL_Service",
+    "url": "http://localhost:8002/html_pages/tpl_service.html?slug=automated_system_monitoring_accounting",
+    "missingCount": 0,
+    "totalTokens": 13,
+    "missing": []
+  },
+  {
+    "slug": "equipment",
+    "template": "TPL_Service",
+    "url": "http://localhost:8002/html_pages/tpl_service.html?slug=equipment",
+    "missingCount": 0,
+    "totalTokens": 14,
+    "missing": []
+  },
+  {
+    "slug": "introduction_security_tv_systems",
+    "template": "TPL_Service",
+    "url": "http://localhost:8002/html_pages/tpl_service.html?slug=introduction_security_tv_systems",
+    "missingCount": 0,
+    "totalTokens": 13,
+    "missing": []
+  },
+  {
+    "slug": "main_and_backup_data_transmission",
+    "template": "TPL_Service",
+    "url": "http://localhost:8002/html_pages/tpl_service.html?slug=main_and_backup_data_transmission",
+    "missingCount": 0,
+    "totalTokens": 18,
+    "missing": []
+  },
+  {
+    "slug": "video_surveillance_building",
+    "template": "TPL_Service",
+    "url": "http://localhost:8002/html_pages/tpl_service.html?slug=video_surveillance_building",
+    "missingCount": 6,
+    "totalTokens": 17,
+    "missing": [
+      "МГТС заинтересована в новых партнерах для реализации совместных проектов",
+      "Если у вас есть идеи и предложения для сотрудничества, направляйте их по адресу электронной почты. Или оставьте свои дан",
+      "Готовы к масштабированию?",
+      "Поддержка 24/7",
+      "Email для бизнеса",
+      "Отправить заявку"
+    ]
+  },
+  {
+    "slug": "video_surveillance_maintenance",
+    "template": "TPL_Service",
+    "url": "http://localhost:8002/html_pages/tpl_service.html?slug=video_surveillance_maintenance",
+    "missingCount": 0,
+    "totalTokens": 12,
+    "missing": []
+  },
+  {
+    "slug": "infoformen",
+    "template": "TPL_DeepNav",
+    "url": "http://localhost:8002/html_pages/tpl_deepnav.html?slug=infoformen",
+    "missingCount": 1,
+    "totalTokens": 11,
+    "missing": [
+      "Информация для лиц, имеющих право на участие в годовых и внеочередных общих собраниях акционеров ПАО МГТС"
+    ]
+  },
+  {
+    "slug": "labor_safety",
+    "template": "TPL_DeepNav",
+    "url": "http://localhost:8002/html_pages/tpl_deepnav.html?slug=labor_safety",
+    "missingCount": 0,
+    "totalTokens": 4,
+    "missing": []
+  },
+  {
+    "slug": "licenses",
+    "template": "TPL_DeepNav",
+    "url": "http://localhost:8002/html_pages/tpl_deepnav.html?slug=licenses",
+    "missingCount": 0,
+    "totalTokens": 3,
+    "missing": []
+  },
+  {
+    "slug": "contact_for_operators",
+    "template": "TPL_DeepNav",
+    "url": "http://localhost:8002/html_pages/tpl_deepnav.html?slug=contact_for_operators",
+    "missingCount": 1,
+    "totalTokens": 5,
+    "missing": [
+      "Контактная информация для операторов связи, желающих подключиться к сети МГТС или получить каналы связи"
+    ]
+  },
+  {
+    "slug": "data_transfer",
+    "template": "TPL_Service",
+    "url": "http://localhost:8002/html_pages/tpl_service.html?slug=data_transfer",
+    "missingCount": 0,
+    "totalTokens": 9,
+    "missing": []
+  },
+  {
+    "slug": "accommodation_at_sites",
+    "template": "TPL_Service",
+    "url": "http://localhost:8002/html_pages/tpl_service.html?slug=accommodation_at_sites",
+    "missingCount": 0,
+    "totalTokens": 21,
+    "missing": []
+  },
+  {
+    "slug": "avr_ppr",
+    "template": "TPL_Service",
+    "url": "http://localhost:8002/html_pages/tpl_service.html?slug=avr_ppr",
+    "missingCount": 0,
+    "totalTokens": 8,
+    "missing": []
+  },
+  {
+    "slug": "pir_smr_mgts",
+    "template": "TPL_Service",
+    "url": "http://localhost:8002/html_pages/tpl_service.html?slug=pir_smr_mgts",
+    "missingCount": 0,
+    "totalTokens": 9,
+    "missing": []
+  }
+]

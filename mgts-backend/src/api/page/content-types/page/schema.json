@@ -1,0 +1,179 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "Page",
+    "description": "Страница сайта"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "template": {
+      "type": "enumeration",
+      "enum": [
+        "TPL_Home",
+        "TPL_Segment_Landing",
+        "TPL_Service",
+        "TPL_Scenario",
+        "TPL_News_List",
+        "TPL_News_Detail",
+        "TPL_Contact_Hub",
+        "TPL_CMS_Page",
+        "TPL_Career_List",
+        "TPL_Career_Detail",
+        "TPL_Doc_Page",
+        "TPL_Form_Page",
+        "TPL_Search_Results",
+        "TPL_AI_Chat",
+        "TPL_DeepNav"
+      ],
+      "description": "Шаблон страницы (новая модель)"
+    },
+    "slug": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "showBreadcrumbs": {
+      "type": "boolean",
+      "default": true,
+      "description": "Показывать ли хлебные крошки (канонический элемент)"
+    },
+    "showNewsBlock": {
+      "type": "boolean",
+      "default": false,
+      "description": "Показывать ли блок новостей на главной"
+    },
+    "deepNavKey": {
+      "type": "string",
+      "description": "Ключ дерева deep-nav (для TPL_DeepNav)"
+    },
+    "ctaKey": {
+      "type": "string",
+      "description": "Ключ пресета CTA (опционально, рендерится перед footer)"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.hero",
+      "required": false,
+      "description": "Hero (новая модель)"
+    },
+    "sections": {
+      "type": "dynamiczone",
+      "components": [
+        "page.section-text",
+        "page.section-cards",
+        "page.section-grid",
+        "page.section-table",
+        "page.tariff-table",
+        "page.service-faq",
+        "page.document-tabs",
+        "page.history-timeline",
+        "page.image-carousel",
+        "page.image-switcher",
+        "page.section-map",
+        "page.files-table",
+        "page.crm-cards",
+        "page.how-to-connect",
+        "page.service-tabs",
+        "page.service-order-form",
+        "page.service-consultation-card",
+        "page.service-customization-panel",
+        "page.service-stats-card",
+        "page.ceo-feedback",
+        "page.form-section",
+        "page.career-values",
+        "page.career-vacancies",
+        "page.career-why-company",
+        "page.career-cv-form",
+        "page.home-cooperation-cta",
+        "page.home-industry-scenarios",
+        "page.home-private-zone",
+        "page.template-block"
+      ],
+      "description": "Секции страницы (Dynamic Zone, drag&drop)"
+    },
+    "metaDescription": {
+      "type": "text"
+    },
+    "metaKeywords": {
+      "type": "string"
+    },
+    "heroTitle": {
+      "type": "string"
+    },
+    "heroSubtitle": {
+      "type": "text"
+    },
+    "heroBackgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "breadcrumbs": {
+      "type": "json"
+    },
+    "sidebar": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "about"
+      ],
+      "default": "none"
+    },
+    "parent": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::page.page",
+      "description": "Родительская страница для иерархии"
+    },
+    "children": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::page.page",
+      "mappedBy": "parent",
+      "description": "Дочерние страницы"
+    },
+    "order": {
+      "type": "integer",
+      "default": 0,
+      "description": "Порядок отображения в меню"
+    },
+    "section": {
+      "type": "enumeration",
+      "enum": [
+        "business",
+        "operators",
+        "government",
+        "partners",
+        "developers",
+        "about_mgts",
+        "news",
+        "home",
+        "other"
+      ],
+      "description": "Раздел сайта"
+    },
+    "originalUrl": {
+      "type": "string",
+      "description": "Оригинальный URL со старого сайта"
+    },
+    "isMenuVisible": {
+      "type": "boolean",
+      "default": true,
+      "description": "Отображать ли в меню"
+    }
+  }
+}

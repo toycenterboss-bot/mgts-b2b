@@ -1,0 +1,215 @@
+{
+  "page": {
+    "slug": "automated_system_monitoring_accounting",
+    "url": "https://business.mgts.ru/government/digital_services/automated_system_monitoring_accounting",
+    "pathname": "/government/digital_services/automated_system_monitoring_accounting",
+    "analyzedAt": "2026-01-13T14:08:35.846Z",
+    "screenshot": "/Users/andrey_efremov/Downloads/runs/mgts-backend/temp/page-analysis-llm/automated_system_monitoring_accounting_screenshot.png",
+    "llmProvider": "perplexity",
+    "llmModel": "sonar"
+  },
+  "metadata": {
+    "title": "Автоматизированная система контроля и учёта энергоресурсов"
+  },
+  "sections": [
+    {
+      "sectionIndex": 1,
+      "type": "breadcrumbs",
+      "description": "Навигационная цепочка (хлебные крошки) для показа пути пользователя на сайте от главной страницы до текущей",
+      "title": "",
+      "subtitle": "",
+      "text": "",
+      "elements": [],
+      "images": [],
+      "links": {
+        "internalLinks": [
+          {
+            "text": "Главная",
+            "href": "/",
+            "purpose": "Переход на главную страницу сайта"
+          },
+          {
+            "text": "Госзаказчикам",
+            "href": "/government",
+            "purpose": "Переход в раздел для государственных заказчиков"
+          },
+          {
+            "text": "Цифровые сервисы",
+            "href": "/government/digital_services",
+            "purpose": "Переход в раздел цифровых сервисов для госзаказчиков"
+          }
+        ],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [],
+      "tabs": [],
+      "table": null
+    },
+    {
+      "sectionIndex": 2,
+      "type": "hero",
+      "description": "Главный герой-блок с основным заголовком страницы и описанием услуги, представляющий суть продукта",
+      "title": "Автоматизированная система контроля и учёта энергоресурсов",
+      "subtitle": "Современное решение для улучшения энергосбережения в промышленности, строительстве и бытовом секторе",
+      "text": "",
+      "elements": [],
+      "images": [],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [],
+      "tabs": [],
+      "table": null
+    },
+    {
+      "sectionIndex": 3,
+      "type": "audience",
+      "description": "Блок с карточками целевой аудитории, показывающий кому будет полезна услуга. Карточки расположены в сетке 4 колонки с номерами в кружках",
+      "title": "Будет полезно для",
+      "subtitle": "",
+      "text": "",
+      "elements": [],
+      "images": [],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [
+        {
+          "title": "1",
+          "text": "Управляющих организаций (УК, ТСЖ)",
+          "value": "",
+          "label": ""
+        },
+        {
+          "title": "2",
+          "text": "Ресурсоснабжающих организации",
+          "value": "",
+          "label": ""
+        },
+        {
+          "title": "3",
+          "text": "Застройщиков",
+          "value": "",
+          "label": ""
+        },
+        {
+          "title": "4",
+          "text": "Предприятий и заводов",
+          "value": "",
+          "label": ""
+        }
+      ],
+      "tabs": [],
+      "table": null
+    },
+    {
+      "sectionIndex": 4,
+      "type": "advantages",
+      "description": "Блок преимуществ услуги в формате карточек с фоновыми изображениями. Карточки расположены в сетке 4 колонки, каждая содержит заголовок и описание",
+      "title": "",
+      "subtitle": "",
+      "text": "",
+      "elements": [],
+      "images": [
+        {
+          "description": "Фоновое изображение для карточки 'Точные данные для принятия решений'",
+          "position": "фон карточки",
+          "src": "/images/3.png",
+          "alt": ""
+        },
+        {
+          "description": "Фоновое изображение для карточки 'Автоматизированная отчётность'",
+          "position": "фон карточки",
+          "src": "/images/7.png",
+          "alt": ""
+        },
+        {
+          "description": "Фоновое изображение для карточки 'Снижение экологического воздействия'",
+          "position": "фон карточки",
+          "src": "/images/4.png",
+          "alt": ""
+        },
+        {
+          "description": "Фоновое изображение для карточки 'Оптимизация расходов'",
+          "position": "фон карточки",
+          "src": "/images/1.png",
+          "alt": ""
+        }
+      ],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [
+        {
+          "title": "Точные данные для принятия решений",
+          "text": "АСКУЭ предоставляет точные и своевременные данные для принятия обоснованных стратегических решений в области управления энергопотреблением",
+          "value": "",
+          "label": ""
+        },
+        {
+          "title": "Автоматизированная отчётность",
+          "text": "Система автоматически собирает и обрабатывает данные, что упрощает процесс подготовки отчетности и обеспечивает прозрачность процессов",
+          "value": "",
+          "label": ""
+        },
+        {
+          "title": "Снижение экологического воздействия",
+          "text": "Автоматизированный контроль позволяет оптимизировать энергопотребление и снизить отрицательное воздействие предприятий на окружающую среду",
+          "value": "",
+          "label": ""
+        },
+        {
+          "title": "Оптимизация расходов",
+          "text": "Наше решение анализирует паттерны потребления энергии, что помогает сэкономить на энергоресурсах и улучшить финансовую эффективность",
+          "value": "",
+          "label": ""
+        }
+      ],
+      "tabs": [],
+      "table": null
+    },
+    {
+      "sectionIndex": 5,
+      "type": "partnership",
+      "description": "Блок для привлечения партнеров с формой обратной связи. Содержит заголовок, текст с email, форму заявки и кнопку отправки",
+      "title": "МГТС заинтересована в новых партнерах для реализации совместных проектов",
+      "subtitle": "¬ связаться с нами",
+      "text": "Если у вас есть идеи и предложения для сотрудничества, направляйте их по адресу электронной почты: sotrudnichestvo@mgts.ru\n\nИли оставьте свои данные, мы сами свяжемся с вами",
+      "elements": [
+        {
+          "type": "button",
+          "text": "Отправить",
+          "purpose": "Отправка формы заявки на сотрудничество",
+          "href": ""
+        }
+      ],
+      "images": [],
+      "links": {
+        "internalLinks": [
+          {
+            "text": "условиями обработки персональных данных",
+            "href": "",
+            "purpose": "Ссылка на политику обработки персональных данных (href отсутствует в HTML)"
+          }
+        ],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [],
+      "tabs": [],
+      "table": null
+    }
+  ]
+}

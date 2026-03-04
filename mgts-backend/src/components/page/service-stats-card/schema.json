@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_page_service_stats_cards",
+  "info": {
+    "displayName": "Service Stats Card",
+    "description": "Карточка статистики/метрики для услуги"
+  },
+  "options": {},
+  "attributes": {
+    "isVisible": {
+      "type": "boolean",
+      "default": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "bars": {
+      "type": "json",
+      "description": "Массив чисел 0-100 для высоты столбцов"
+    },
+    "statLabel": {
+      "type": "string",
+      "description": "Подпись к ключевой метрике"
+    },
+    "statValue": {
+      "type": "string",
+      "description": "Значение ключевой метрики"
+    }
+  }
+}

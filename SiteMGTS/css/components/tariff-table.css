@@ -1,0 +1,43 @@
+/* ============================================
+   TARIFF-TABLE
+   ============================================ */
+
+/* Генерировано на основе семантического анализа */
+/* Дата: 2026-01-09T15:41:02.776Z */
+
+/* Общий элемент компонента */
+.tariff-table {
+  display: block;
+}
+
+/* Элемент списка */
+.tariff-table__row-item {
+  display: list-item;
+}
+
+/* Основной текстовый контент */
+.tariff-table__row-item--text {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-gray-700, #374151);
+  margin-bottom: var(--spacing-md, 1rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+/* Общий элемент компонента */
+.tariff-table__row {
+  display: block;
+}
+
+/* Элемент списка */
+.tariff-table__row-item--header {
+  display: list-item;
+}
+
+/* Элемент списка */
+.tariff-table__row-item--price {
+  display: list-item;
+}
+

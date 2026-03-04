@@ -1,0 +1,47 @@
+module.exports = {
+  darkMode: "class",
+  content: ["../html_blocks/**/*.html"],
+  theme: {
+    extend: {
+      colors: {
+        "accent": "#00f2ff",
+        "accent-glow": "rgba(0, 102, 204, 0.15)",
+        "accent-red": "#E30611",
+        "background-dark": "#0f1923",
+        "background-light": "#f5f7f8",
+        "border-dark": "#2d3846",
+        "brand-red": "#E30611",
+        "bubble-ai": "#1e293b",
+        "bubble-user": "#27303a",
+        "error": "#e53e3e",
+        "glass": "rgba(255, 255, 255, 0.03)",
+        "glass-border": "rgba(255, 255, 255, 0.1)",
+        "glass-dark": "rgba(255, 255, 255, 0.03)",
+        "glass-plate": "rgba(255, 255, 255, 0.03)",
+        "panel-dark": "#16212b",
+        "premium-dark": "#111827",
+        "primary": "#0066cc",
+        "primary-active": "#0a4d8f",
+        "primary-hover": "#1a75d1",
+        "surface-dark": "#1a222c",
+        "text-muted": "#9dabb9",
+      },
+      fontFamily: {
+        "display": ["Space Grotesk", "Noto Sans", "sans-serif"],
+        "sans": ["Noto Sans", "sans-serif"],
+      },
+      borderRadius: {
+        "2xl": "1.5rem",
+        "3xl": "1.5rem",
+        "DEFAULT": "0.25rem",
+        "full": "9999px",
+        "lg": "0.5rem",
+        "xl": "0.75rem",
+      },
+    },
+  },
+  plugins: [
+    require("@tailwindcss/forms"),
+    require("@tailwindcss/container-queries"),
+  ],
+};

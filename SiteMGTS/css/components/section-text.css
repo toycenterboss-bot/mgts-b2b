@@ -1,0 +1,1321 @@
+/* ============================================
+   SECTION-TEXT
+   ============================================ */
+
+/* Генерировано на основе семантического анализа */
+/* Дата: 2026-01-09T15:41:02.775Z */
+
+/* Ссылка или иконка */
+.section-text__link-icon {
+  display: inline-block;
+}
+
+/* Основной текстовый контент */
+.section-text__content {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-gray-700, #374151);
+  margin-bottom: var(--spacing-md, 1rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+.section-text__content a {
+  color: var(--color-primary, #0066cc);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.section-text__content a:hover {
+  color: var(--color-primary-dark, #0052a3);
+  text-decoration: underline;
+}
+
+/* Заголовок секции или подраздела */
+.section-text__title {
+  display: block;
+  font-size: clamp(1.75rem, 3vw, 2.25rem);
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--color-gray-900, #111827);
+  margin-bottom: var(--spacing-lg, 1.5rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+/* Основной текстовый контент */
+.section-text__content--narrow {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-gray-700, #374151);
+  margin-bottom: var(--spacing-md, 1rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+.section-text__content--narrow img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.section-text__content--narrow a {
+  color: var(--color-primary, #0066cc);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.section-text__content--narrow a:hover {
+  color: var(--color-primary-dark, #0052a3);
+  text-decoration: underline;
+}
+
+/* Заголовок секции или подраздела */
+.section-text__subtitle {
+  display: block;
+  font-size: clamp(1.25rem, 2vw, 1.5rem);
+  font-weight: 500;
+  line-height: 1.3;
+  color: var(--color-gray-800, #1f2937);
+  margin-bottom: var(--spacing-lg, 1.5rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+.section-text__subtitle a {
+  color: var(--color-primary, #0066cc);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.section-text__subtitle a:hover {
+  color: var(--color-primary-dark, #0052a3);
+  text-decoration: underline;
+}
+
+/* Основной текстовый контент */
+.section-text__content--medium {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-gray-700, #374151);
+  margin-bottom: var(--spacing-md, 1rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+.section-text__content--medium a {
+  color: var(--color-primary, #0066cc);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.section-text__content--medium a:hover {
+  color: var(--color-primary-dark, #0052a3);
+  text-decoration: underline;
+}
+
+/* Общий элемент компонента */
+.section-text__hero {
+  display: block;
+}
+
+.section-text__hero a {
+  color: var(--color-primary, #0066cc);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.section-text__hero a:hover {
+  color: var(--color-primary-dark, #0052a3);
+  text-decoration: underline;
+}
+
+/* Элемент списка */
+.section-text__tag-item {
+  display: list-item;
+}
+
+/* Общий элемент компонента */
+.section-text__tag--large {
+  display: block;
+  width: 100%;
+  padding: var(--spacing-xl, 2rem);
+}
+
+/* Заголовок секции или подраздела */
+.section-text__title-wrapper {
+  display: block;
+  font-size: clamp(1.75rem, 3vw, 2.25rem);
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--color-gray-900, #111827);
+  margin-bottom: var(--spacing-lg, 1.5rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+/* Элемент списка */
+.section-text__tab-item {
+  display: list-item;
+}
+
+.section-text__tab-item a {
+  color: var(--color-primary, #0066cc);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.section-text__tab-item a:hover {
+  color: var(--color-primary-dark, #0052a3);
+  text-decoration: underline;
+}
+
+/* Ссылка или иконка */
+.section-text__icon {
+  display: inline-block;
+}
+
+/* Элемент списка */
+.section-text__radio-item {
+  display: list-item;
+}
+
+/* Общий элемент компонента */
+.section-text__radio--medium {
+  display: block;
+}
+
+/* Элемент формы ввода данных */
+.section-text__radio-input {
+  display: block;
+  margin-bottom: var(--spacing-md, 1rem);
+}
+
+/* Общий элемент компонента */
+.section-text__radio-label {
+  display: block;
+}
+
+/* Элемент списка */
+.section-text__list {
+  display: list-item;
+}
+
+.section-text__list a {
+  color: var(--color-primary, #0066cc);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.section-text__list a:hover {
+  color: var(--color-primary-dark, #0052a3);
+  text-decoration: underline;
+}
+
+/* Общий элемент компонента */
+.section-text__news-page {
+  display: block;
+}
+
+.section-text__news-page a {
+  color: var(--color-primary, #0066cc);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.section-text__news-page a:hover {
+  color: var(--color-primary-dark, #0052a3);
+  text-decoration: underline;
+}
+
+/* Основной текстовый контент */
+.section-text__text-box {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-gray-700, #374151);
+  margin-bottom: var(--spacing-md, 1rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+.section-text__text-box a {
+  color: var(--color-primary, #0066cc);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.section-text__text-box a:hover {
+  color: var(--color-primary-dark, #0052a3);
+  text-decoration: underline;
+}
+
+/* Элемент списка */
+.section-text__news-item {
+  display: list-item;
+}
+
+.section-text__news-item a {
+  color: var(--color-primary, #0066cc);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.section-text__news-item a:hover {
+  color: var(--color-primary-dark, #0052a3);
+  text-decoration: underline;
+}
+
+/* Общий элемент компонента */
+.section-text__news-date {
+  display: block;
+}
+
+/* Основной текстовый контент */
+.section-text__news-content {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-gray-700, #374151);
+  margin-bottom: var(--spacing-md, 1rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+/* Основной текстовый контент */
+.section-text__news-content-wrapper {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-gray-700, #374151);
+  margin-bottom: var(--spacing-md, 1rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+/* Общий элемент компонента */
+.section-text__news-info {
+  display: block;
+}
+
+/* Основной текстовый контент */
+.section-text__news-info-text {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-gray-700, #374151);
+  margin-bottom: var(--spacing-md, 1rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+/* Общий элемент компонента */
+.section-text__news-info-chevron {
+  display: block;
+}
+
+/* Основной текстовый контент */
+.section-text__news-page-content {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-gray-700, #374151);
+  margin-bottom: var(--spacing-md, 1rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+.section-text__news-page-content a {
+  color: var(--color-primary, #0066cc);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.section-text__news-page-content a:hover {
+  color: var(--color-primary-dark, #0052a3);
+  text-decoration: underline;
+}
+
+/* Общий элемент компонента */
+.section-text__header {
+  display: block;
+}
+
+/* Заголовок секции или подраздела */
+.section-text__header-title {
+  display: block;
+  font-size: clamp(1.75rem, 3vw, 2.25rem);
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--color-gray-900, #111827);
+  margin-bottom: var(--spacing-lg, 1.5rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+/* Общий элемент компонента */
+.section-text__header-date {
+  display: block;
+}
+
+/* Элемент формы ввода данных */
+.section-text__form-question {
+  display: block;
+  margin-bottom: var(--spacing-md, 1rem);
+}
+
+.section-text__form-question input,
+.section-text__form-question select,
+.section-text__form-question textarea {
+  width: 100%;
+  padding: var(--spacing-sm, 0.75rem);
+  border: 1px solid var(--color-gray-300, #d1d5db);
+  border-radius: var(--radius-md, 0.375rem);
+  font-size: 1rem;
+}
+
+.section-text__form-question input:focus,
+.section-text__form-question select:focus,
+.section-text__form-question textarea:focus {
+  outline: none;
+  border-color: var(--color-primary, #0066cc);
+  box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.1);
+}
+
+/* Основной текстовый контент */
+.section-text__description {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-gray-700, #374151);
+  margin-bottom: var(--spacing-md, 1rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+/* Общий элемент компонента */
+.section-text__radios {
+  display: block;
+}
+
+/* Контейнер для группировки элементов */
+.section-text__radios-container {
+  display: flex;
+  padding: var(--spacing-lg, 1.5rem);
+  max-width: var(--container-max-width, 1200px);
+  margin: 0 auto;
+}
+
+/* Основной текстовый контент */
+.section-text__radios-description {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-gray-700, #374151);
+  margin-bottom: var(--spacing-md, 1rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+/* Интерактивная кнопка для действий */
+.section-text__button {
+  display: flex;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.section-text__button a {
+  color: var(--color-primary, #0066cc);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.section-text__button a:hover {
+  color: var(--color-primary-dark, #0052a3);
+  text-decoration: underline;
+}
+
+.section-text__button:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+/* Интерактивная кнопка для действий */
+.section-text__button--large {
+  display: flex;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  width: 100%;
+  padding: var(--spacing-xl, 2rem);
+}
+
+.section-text__button--large a {
+  color: var(--color-primary, #0066cc);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.section-text__button--large a:hover {
+  color: var(--color-primary-dark, #0052a3);
+  text-decoration: underline;
+}
+
+.section-text__button--large:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+/* Заголовок секции или подраздела */
+.section-text__step-title {
+  display: block;
+  font-size: clamp(1.75rem, 3vw, 2.25rem);
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--color-gray-900, #111827);
+  margin-bottom: var(--spacing-lg, 1.5rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+/* Ссылка или иконка */
+.section-text__step-link {
+  display: inline-block;
+}
+
+/* Таблица данных */
+.section-text__tablet {
+  display: block;
+}
+
+.section-text__tablet:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+/* Заголовок секции или подраздела */
+.section-text__tablet-title {
+  display: block;
+  font-size: clamp(1.75rem, 3vw, 2.25rem);
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--color-gray-900, #111827);
+  margin-bottom: var(--spacing-lg, 1.5rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+/* Таблица данных */
+.section-text__tablet-tags {
+  display: block;
+}
+
+/* Общий элемент компонента */
+.section-text__tag {
+  display: block;
+}
+
+/* Интерактивная кнопка для действий */
+.section-text__button--primary {
+  display: flex;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.section-text__button--primary a {
+  color: var(--color-primary, #0066cc);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.section-text__button--primary a:hover {
+  color: var(--color-primary-dark, #0052a3);
+  text-decoration: underline;
+}
+
+.section-text__button--primary:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+/* Общий элемент компонента */
+.section-text__tabs {
+  display: block;
+}
+
+.section-text__tabs a {
+  color: var(--color-primary, #0066cc);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.section-text__tabs a:hover {
+  color: var(--color-primary-dark, #0052a3);
+  text-decoration: underline;
+}
+
+/* Контейнер для группировки элементов */
+.section-text__tabs-container {
+  display: flex;
+  padding: var(--spacing-lg, 1.5rem);
+  max-width: var(--container-max-width, 1200px);
+  margin: 0 auto;
+}
+
+.section-text__tabs-container a {
+  color: var(--color-primary, #0066cc);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.section-text__tabs-container a:hover {
+  color: var(--color-primary-dark, #0052a3);
+  text-decoration: underline;
+}
+
+/* Основной текстовый контент */
+.section-text__tablet-text {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-gray-700, #374151);
+  margin-bottom: var(--spacing-md, 1rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+/* Общий элемент компонента */
+.section-text__value-row {
+  display: block;
+}
+
+/* Общий элемент компонента */
+.section-text__value-tag {
+  display: block;
+}
+
+/* Изображение или медиа-контент */
+.section-text__image {
+  display: block;
+}
+
+.section-text__image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Элемент списка */
+.section-text__slider-item {
+  display: list-item;
+}
+
+/* Изображение или медиа-контент */
+.section-text__slider-image {
+  display: block;
+}
+
+.section-text__slider-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Основной текстовый контент */
+.section-text__step-text {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-gray-700, #374151);
+  margin-bottom: var(--spacing-md, 1rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+/* Основной текстовый контент */
+.section-text__content--small {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-gray-700, #374151);
+  margin-bottom: var(--spacing-md, 1rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+/* Элемент списка */
+.section-text__statistic-item {
+  display: list-item;
+}
+
+/* Основной текстовый контент */
+.section-text__header-text {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-gray-700, #374151);
+  margin-bottom: var(--spacing-md, 1rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+/* Основной текстовый контент */
+.section-text__footer-text {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-gray-700, #374151);
+  margin-bottom: var(--spacing-md, 1rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+/* Контейнер для группировки элементов */
+.section-text__container {
+  display: flex;
+  padding: var(--spacing-lg, 1.5rem);
+  max-width: var(--container-max-width, 1200px);
+  margin: 0 auto;
+}
+
+.section-text__container a {
+  color: var(--color-primary, #0066cc);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.section-text__container a:hover {
+  color: var(--color-primary-dark, #0052a3);
+  text-decoration: underline;
+}
+
+/* Общий элемент компонента */
+.section-text__type--small {
+  display: block;
+}
+
+/* Интерактивная кнопка для действий */
+.section-text__buttons {
+  display: flex;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.section-text__buttons:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+/* Общий элемент компонента */
+.section-text__share {
+  display: block;
+}
+
+/* Заголовок секции или подраздела */
+.section-text__share-title {
+  display: block;
+  font-size: clamp(1.75rem, 3vw, 2.25rem);
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--color-gray-900, #111827);
+  margin-bottom: var(--spacing-lg, 1.5rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+/* Основной текстовый контент */
+.section-text__share-text {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-gray-700, #374151);
+  margin-bottom: var(--spacing-md, 1rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+/* Основной текстовый контент */
+.section-text__button-text {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-gray-700, #374151);
+  margin-bottom: var(--spacing-md, 1rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+/* Элемент формы ввода данных */
+.section-text__input-wrapper {
+  display: block;
+  margin-bottom: var(--spacing-md, 1rem);
+}
+
+.section-text__input-wrapper input,
+.section-text__input-wrapper select,
+.section-text__input-wrapper textarea {
+  width: 100%;
+  padding: var(--spacing-sm, 0.75rem);
+  border: 1px solid var(--color-gray-300, #d1d5db);
+  border-radius: var(--radius-md, 0.375rem);
+  font-size: 1rem;
+}
+
+.section-text__input-wrapper input:focus,
+.section-text__input-wrapper select:focus,
+.section-text__input-wrapper textarea:focus {
+  outline: none;
+  border-color: var(--color-primary, #0066cc);
+  box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.1);
+}
+
+/* Элемент списка */
+.section-text__item {
+  display: list-item;
+}
+
+.section-text__item input,
+.section-text__item select,
+.section-text__item textarea {
+  width: 100%;
+  padding: var(--spacing-sm, 0.75rem);
+  border: 1px solid var(--color-gray-300, #d1d5db);
+  border-radius: var(--radius-md, 0.375rem);
+  font-size: 1rem;
+}
+
+.section-text__item input:focus,
+.section-text__item select:focus,
+.section-text__item textarea:focus {
+  outline: none;
+  border-color: var(--color-primary, #0066cc);
+  box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.1);
+}
+
+/* Общий элемент компонента */
+.section-text__news-column {
+  display: block;
+}
+
+.section-text__news-column a {
+  color: var(--color-primary, #0066cc);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.section-text__news-column a:hover {
+  color: var(--color-primary-dark, #0052a3);
+  text-decoration: underline;
+}
+
+/* Основной текстовый контент */
+.section-text__column-text {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-gray-700, #374151);
+  margin-bottom: var(--spacing-md, 1rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+/* Общий элемент компонента */
+.section-text__app-store {
+  display: block;
+}
+
+/* Интерактивная кнопка для действий */
+.section-text__arrow-button {
+  display: flex;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.section-text__arrow-button:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+/* Общий элемент компонента */
+.section-text__banner--secondary {
+  display: block;
+}
+
+/* Общий элемент компонента */
+.section-text__type--gray {
+  display: block;
+}
+
+/* Ссылка или иконка */
+.section-text__banner-icon {
+  display: inline-block;
+}
+
+/* Основной текстовый контент */
+.section-text__banner-text {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-gray-700, #374151);
+  margin-bottom: var(--spacing-md, 1rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+/* Общий элемент компонента */
+.section-text__banner-safe-region {
+  display: block;
+}
+
+/* Основной текстовый контент */
+.section-text__banner-safe-region-text {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-gray-700, #374151);
+  margin-bottom: var(--spacing-md, 1rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+/* Основной текстовый контент */
+.section-text__message-content {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-gray-700, #374151);
+  margin-bottom: var(--spacing-md, 1rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+.section-text__message-content img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Заголовок секции или подраздела */
+.section-text__note-title {
+  display: block;
+  font-size: clamp(1.75rem, 3vw, 2.25rem);
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--color-gray-900, #111827);
+  margin-bottom: var(--spacing-lg, 1.5rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+/* Основной текстовый контент */
+.section-text__note-text {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-gray-700, #374151);
+  margin-bottom: var(--spacing-md, 1rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+/* Общий элемент компонента */
+.section-text__ceo-line {
+  display: block;
+}
+
+/* Основной текстовый контент */
+.section-text__content-logo {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-gray-700, #374151);
+  margin-bottom: var(--spacing-md, 1rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+/* Основной текстовый контент */
+.section-text__content-text {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-gray-700, #374151);
+  margin-bottom: var(--spacing-md, 1rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+/* Общий элемент компонента */
+.section-text__news-page-header {
+  display: block;
+}
+
+/* Контейнер для группировки элементов */
+.section-text__select-wrapper {
+  display: flex;
+  padding: var(--spacing-lg, 1.5rem);
+  max-width: var(--container-max-width, 1200px);
+  margin: 0 auto;
+}
+
+/* Элемент формы ввода данных */
+.section-text__input-wrapper--small {
+  display: block;
+  margin-bottom: var(--spacing-md, 1rem);
+}
+
+/* Общий элемент компонента */
+.section-text__full-width {
+  display: block;
+}
+
+/* Элемент списка */
+.section-text__item--select {
+  display: list-item;
+}
+
+/* Элемент формы ввода данных */
+.section-text__input--gray {
+  display: block;
+  margin-bottom: var(--spacing-md, 1rem);
+}
+
+/* Основной текстовый контент */
+.section-text__select-item-text {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-gray-700, #374151);
+  margin-bottom: var(--spacing-md, 1rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+/* Общий элемент компонента */
+.section-text__select-chevron {
+  display: block;
+}
+
+/* Элемент списка */
+.section-text__news-list-end {
+  display: list-item;
+}
+
+/* Общий элемент компонента */
+.section-text__spinner {
+  display: block;
+}
+
+/* Общий элемент компонента */
+.section-text__spinner--large {
+  display: block;
+  width: 100%;
+  padding: var(--spacing-xl, 2rem);
+}
+
+/* Общий элемент компонента */
+.section-text__spinner--black {
+  display: block;
+}
+
+/* Контейнер для группировки элементов */
+.section-text__documents-container {
+  display: flex;
+  padding: var(--spacing-lg, 1.5rem);
+  max-width: var(--container-max-width, 1200px);
+  margin: 0 auto;
+}
+
+.section-text__documents-container a {
+  color: var(--color-primary, #0066cc);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.section-text__documents-container a:hover {
+  color: var(--color-primary-dark, #0052a3);
+  text-decoration: underline;
+}
+
+/* Элемент формы ввода данных */
+.section-text__form-container {
+  display: block;
+  margin-bottom: var(--spacing-md, 1rem);
+}
+
+.section-text__form-container:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+.section-text__form-container input,
+.section-text__form-container select,
+.section-text__form-container textarea {
+  width: 100%;
+  padding: var(--spacing-sm, 0.75rem);
+  border: 1px solid var(--color-gray-300, #d1d5db);
+  border-radius: var(--radius-md, 0.375rem);
+  font-size: 1rem;
+}
+
+.section-text__form-container input:focus,
+.section-text__form-container select:focus,
+.section-text__form-container textarea:focus {
+  outline: none;
+  border-color: var(--color-primary, #0066cc);
+  box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.1);
+}
+
+/* Элемент формы ввода данных */
+.section-text__input-wrapper--large {
+  display: block;
+  margin-bottom: var(--spacing-md, 1rem);
+  width: 100%;
+  padding: var(--spacing-xl, 2rem);
+}
+
+.section-text__input-wrapper--large input,
+.section-text__input-wrapper--large select,
+.section-text__input-wrapper--large textarea {
+  width: 100%;
+  padding: var(--spacing-sm, 0.75rem);
+  border: 1px solid var(--color-gray-300, #d1d5db);
+  border-radius: var(--radius-md, 0.375rem);
+  font-size: 1rem;
+}
+
+.section-text__input-wrapper--large input:focus,
+.section-text__input-wrapper--large select:focus,
+.section-text__input-wrapper--large textarea:focus {
+  outline: none;
+  border-color: var(--color-primary, #0066cc);
+  box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.1);
+}
+
+/* Элемент формы ввода данных */
+.section-text__input--white {
+  display: block;
+  margin-bottom: var(--spacing-md, 1rem);
+}
+
+.section-text__input--white input,
+.section-text__input--white select,
+.section-text__input--white textarea {
+  width: 100%;
+  padding: var(--spacing-sm, 0.75rem);
+  border: 1px solid var(--color-gray-300, #d1d5db);
+  border-radius: var(--radius-md, 0.375rem);
+  font-size: 1rem;
+}
+
+.section-text__input--white input:focus,
+.section-text__input--white select:focus,
+.section-text__input--white textarea:focus {
+  outline: none;
+  border-color: var(--color-primary, #0066cc);
+  box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.1);
+}
+
+/* Изображение или медиа-контент */
+.section-text__scheme-image {
+  display: block;
+}
+
+.section-text__scheme-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Основной текстовый контент */
+.section-text__columns-text {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-gray-700, #374151);
+  margin-bottom: var(--spacing-md, 1rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+/* Общий элемент компонента */
+.section-text__surveillance-app {
+  display: block;
+}
+
+.section-text__surveillance-app a {
+  color: var(--color-primary, #0066cc);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.section-text__surveillance-app a:hover {
+  color: var(--color-primary-dark, #0052a3);
+  text-decoration: underline;
+}
+
+/* Основной текстовый контент */
+.section-text__surveillance-app-content {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-gray-700, #374151);
+  margin-bottom: var(--spacing-md, 1rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+.section-text__surveillance-app-content a {
+  color: var(--color-primary, #0066cc);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.section-text__surveillance-app-content a:hover {
+  color: var(--color-primary-dark, #0052a3);
+  text-decoration: underline;
+}
+
+/* Общий элемент компонента */
+.section-text__surveillance-app-download {
+  display: block;
+}
+
+/* Общий элемент компонента */
+.section-text__app-stores {
+  display: block;
+}
+
+/* Интерактивная кнопка для действий */
+.section-text__button--secondary {
+  display: flex;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.section-text__button--secondary:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+/* Контейнер для группировки элементов */
+.section-text__advantages-container {
+  display: flex;
+  padding: var(--spacing-lg, 1.5rem);
+  max-width: var(--container-max-width, 1200px);
+  margin: 0 auto;
+}
+
+/* Общий элемент компонента */
+.section-text__advantages-column {
+  display: block;
+}
+
+/* Общий элемент компонента */
+.section-text__slider {
+  display: block;
+}
+
+.section-text__slider img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.section-text__slider:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+/* Общий элемент компонента */
+.section-text__slider-selectors {
+  display: block;
+}
+
+.section-text__slider-selectors:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+/* Общий элемент компонента */
+.section-text__blur--right {
+  display: block;
+}
+
+/* Общий элемент компонента */
+.section-text__slider-line {
+  display: block;
+}
+
+/* Интерактивная кнопка для действий */
+.section-text__arrow-buttons {
+  display: flex;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.section-text__arrow-buttons:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+/* Интерактивная кнопка для действий */
+.section-text__arrow-button--left {
+  display: flex;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.section-text__arrow-button--left:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+/* Изображение или медиа-контент */
+.section-text__slider-images {
+  display: block;
+}
+
+.section-text__slider-images img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Изображение или медиа-контент */
+.section-text__slider-images-line {
+  display: block;
+}
+
+.section-text__slider-images-line img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+

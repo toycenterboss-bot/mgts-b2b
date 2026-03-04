@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_footer_legallinks",
+  "info": {
+    "displayName": "Legal Link",
+    "description": "Юридическая ссылка в футере"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "href": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
+
+
+

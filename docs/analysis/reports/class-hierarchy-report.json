@@ -1,0 +1,41 @@
+{
+  "card": {
+    "insideGrid": 25,
+    "insideGridItem": 0,
+    "standalone": 27,
+    "insideCardBody": 0
+  },
+  "gridItem": {
+    "insideGrid": 11,
+    "standalone": 0
+  },
+  "cardBody": {
+    "insideCard": 7,
+    "standalone": 1
+  },
+  "tariffCard": {
+    "insideTariffsGrid": 11,
+    "standalone": 0
+  },
+  "tariffCardHeader": {
+    "insideTariffCard": 11,
+    "standalone": 0
+  },
+  "tariffPrice": {
+    "insideTariffCardHeader": 11,
+    "insideTariffCard": 0,
+    "standalone": 0
+  },
+  "faqItem": {
+    "insideFaqList": 4,
+    "standalone": 0
+  },
+  "faqAnswer": {
+    "insideFaqItem": 8,
+    "standalone": 0
+  },
+  "faqAnswerContent": {
+    "insideFaqAnswer": 4,
+    "standalone": 0
+  }
+}

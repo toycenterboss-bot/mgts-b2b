@@ -1,0 +1,10 @@
+{
+  "name": "icon-picker",
+  "version": "0.1.0",
+  "private": true,
+  "strapi": {
+    "name": "icon-picker",
+    "displayName": "Icon Picker",
+    "description": "Custom field to pick icons from the MGTS icon library."
+  }
+}

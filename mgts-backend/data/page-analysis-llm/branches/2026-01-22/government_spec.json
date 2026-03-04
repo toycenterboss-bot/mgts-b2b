@@ -1,0 +1,189 @@
+{
+  "page": {
+    "slug": "government",
+    "url": "https://business.mgts.ru/government",
+    "pathname": "/government",
+    "analyzedAt": "2026-01-15T08:32:26.316Z",
+    "screenshot": "/Users/andrey_efremov/Downloads/runs/mgts-backend/temp/page-analysis-llm/government_screenshot.png",
+    "llmProvider": "perplexity",
+    "llmModel": "sonar"
+  },
+  "metadata": {
+    "title": "Госзаказчикам"
+  },
+  "sections": [
+    {
+      "sectionIndex": 1,
+      "type": "hero",
+      "description": "Геройский блок с основным заголовком страницы для госзаказчиков. Представляет услуги МГТС по реализации городских инфраструктурных проектов с тегами услуг. Служит для привлечения внимания и краткого описания предложения.",
+      "title": "Госзаказчикам",
+      "subtitle": "",
+      "text": "Реализация городских инфраструктурных проектов. Предоставление широкого спектра работ и услуг, отвечающего любым потребностям государственных (муниципальных) и коммерческих заказчиков.",
+      "elements": [],
+      "images": [],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [],
+      "tabs": [],
+      "table": null
+    },
+    {
+      "sectionIndex": 1,
+      "type": "tags",
+      "description": "Блок с тегами услуг, расположенный под описанием. Показывает ключевые направления работ МГТС для госзаказчиков в виде набора тегов.",
+      "title": "",
+      "subtitle": "",
+      "text": "",
+      "elements": [],
+      "images": [],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [],
+      "tabs": [],
+      "table": null
+    },
+    {
+      "sectionIndex": 2,
+      "type": "services",
+      "description": "Блок с карточками услуг в сером контейнере. Содержит три кликабельные карточки с иконками и заголовками, ведущие на детальные страницы услуг, а также кнопку 'Все услуги'. Предназначен для навигации по основным услугам для госзаказчиков.",
+      "title": "",
+      "subtitle": "",
+      "text": "",
+      "elements": [
+        {
+          "type": "button",
+          "text": "Все услуги",
+          "purpose": "Переход к полной странице всех услуг для госзаказчиков",
+          "href": "/government/all_services"
+        }
+      ],
+      "images": [],
+      "links": {
+        "internalLinks": [
+          {
+            "text": "Инфраструктура связи",
+            "href": "/government/communications_infrastructure",
+            "purpose": "Переход к странице с услугами по инфраструктуре связи"
+          },
+          {
+            "text": "Цифровые сервисы",
+            "href": "/government/digital_services",
+            "purpose": "Переход к странице с цифровыми сервисами для госзаказчиков"
+          },
+          {
+            "text": "Индивидуальные решения",
+            "href": "/government/customized_solutions",
+            "purpose": "Переход к странице с индивидуальными решениями для госзаказчиков"
+          }
+        ],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [
+        {
+          "title": "Инфраструктура связи",
+          "text": "",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "Инфраструктура связи",
+            "href": "/government/communications_infrastructure",
+            "purpose": "Переход к детальной странице услуги"
+          }
+        },
+        {
+          "title": "Цифровые сервисы",
+          "text": "",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "Цифровые сервисы",
+            "href": "/government/digital_services",
+            "purpose": "Переход к детальной странице услуги"
+          }
+        },
+        {
+          "title": "Индивидуальные решения",
+          "text": "",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "Индивидуальные решения",
+            "href": "/government/customized_solutions",
+            "purpose": "Переход к детальной странице услуги"
+          }
+        }
+      ],
+      "tabs": [],
+      "table": null
+    },
+    {
+      "sectionIndex": 3,
+      "type": "contact-form",
+      "description": "CTA-блок с заголовком о поиске партнеров, текстом с email для предложений и формой обратной связи. Фоновая иллюстрация. Предназначен для сбора контактов потенциальных партнеров и инициирования сотрудничества.",
+      "title": "МГТС заинтересована в новых партнерах для реализации совместных проектов",
+      "subtitle": "¬ связаться с нами",
+      "text": "Если у вас есть идеи и предложения для сотрудничества, направляйте их по адресу электронной почты: sotrudnichestvo@mgts.ru\n\nИли оставьте свои данные, мы сами свяжемся с вами",
+      "elements": [
+        {
+          "type": "button",
+          "text": "Отправить",
+          "purpose": "Отправка формы обратной связи с контактными данными",
+          "href": ""
+        },
+        {
+          "type": "input",
+          "label": "Ваше имя",
+          "placeholder": "Имя"
+        },
+        {
+          "type": "input",
+          "label": "Название организации",
+          "placeholder": "Организация"
+        },
+        {
+          "type": "input",
+          "label": "Ваш email",
+          "placeholder": "Email"
+        },
+        {
+          "type": "input",
+          "label": "Телефон",
+          "placeholder": "+7"
+        }
+      ],
+      "images": [
+        {
+          "description": "Фоновая иллюстрация с абстрактными элементами инфраструктуры (сети, здания, линии связи) в стиле 3D-графики",
+          "position": "фон",
+          "src": "",
+          "alt": ""
+        }
+      ],
+      "links": {
+        "internalLinks": [
+          {
+            "text": "условиями обработки персональных данных",
+            "href": "",
+            "purpose": "Ссылка на политику обработки персональных данных"
+          }
+        ],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [],
+      "tabs": [],
+      "table": null
+    }
+  ]
+}

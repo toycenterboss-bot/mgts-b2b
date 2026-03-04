@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_page_section_texts",
+  "info": {
+    "displayName": "Section Text",
+    "description": "Текстовая секция. CSS классы: section-text (контейнер), section-text__title (h1/h2 заголовок), section-text__subtitle (h2/h3 подзаголовок), section-text__content (основной контент), section-text__content--narrow (узкий контент)"
+  },
+  "options": {},
+  "attributes": {
+    "isVisible": {
+      "type": "boolean",
+      "default": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "backgroundColor": {
+      "type": "string"
+    },
+    "socialLinks": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.social-links"
+    }
+  }
+}
+

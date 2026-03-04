@@ -1,0 +1,144 @@
+{
+  "page": {
+    "slug": "partners_feedback_form",
+    "url": "https://business.mgts.ru/partners_feedback_form",
+    "pathname": "/partners_feedback_form",
+    "analyzedAt": "2026-01-17T12:39:36.006Z",
+    "screenshot": "/Users/andrey_efremov/Downloads/runs/mgts-backend/temp/page-analysis-llm/partners_feedback_form_screenshot.png",
+    "llmProvider": "perplexity",
+    "llmModel": "sonar"
+  },
+  "metadata": {
+    "title": "Помогите нам стать лучше!"
+  },
+  "sections": [
+    {
+      "sectionIndex": 1,
+      "type": "hero",
+      "description": "Главный заголовок страницы с призывом к обратной связи для улучшения компании",
+      "title": "Помогите нам стать лучше!",
+      "text": "Будем благодарны, если вы заполните форму обратной связи",
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      }
+    },
+    {
+      "sectionIndex": 2,
+      "type": "form",
+      "description": "Основная форма обратной связи с 10 вопросами о комплаенс и деловой этике в компании пользователя",
+      "title": "",
+      "text": "",
+      "elements": [
+        {
+          "type": "question",
+          "text": "1. Есть ли в Вашей компании Деловая этика и комплаенс?",
+          "options": [
+            "Да",
+            "Нет"
+          ]
+        },
+        {
+          "type": "question",
+          "text": "2. Считаете ли Вы, что это необходимо?",
+          "options": [
+            "Да",
+            "Нет"
+          ]
+        },
+        {
+          "type": "question",
+          "text": "3. Руководство компании и Комплаенс. На ком лежит ответственность в случае нарушений?"
+        },
+        {
+          "type": "question",
+          "text": "4. Приходилось ли платить штрафы?",
+          "options": [
+            "Да",
+            "Нет"
+          ]
+        },
+        {
+          "type": "question",
+          "text": "5. Оценивался ли ущерб репутации?",
+          "options": [
+            "Да",
+            "Нет"
+          ]
+        },
+        {
+          "type": "question",
+          "text": "6. Оцениваете ли риски?",
+          "options": [
+            "Да",
+            "Нет"
+          ]
+        },
+        {
+          "type": "question",
+          "text": "7. Внедрена ли комплаенс-программа?",
+          "options": [
+            "Да",
+            "Нет"
+          ]
+        },
+        {
+          "type": "question",
+          "text": "8. Готов ли Ваш бизнес создавать/развивать комплаенс-систему и внедрять автоматизированные комплаенс-решения?",
+          "options": [
+            "Да",
+            "Нет"
+          ]
+        },
+        {
+          "type": "question",
+          "text": "9. Приходилось ли Вам урегулировать ситуации конфликта интересов?",
+          "options": [
+            "Да",
+            "Нет"
+          ]
+        },
+        {
+          "type": "question",
+          "text": "10. Готовы ли Вы отказаться от контрагента, если выявлен конфликт интересов?",
+          "options": [
+            "Да",
+            "Нет"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "Отправить",
+          "purpose": "Отправка заполненной формы обратной связи"
+        }
+      ],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      }
+    },
+    {
+      "sectionIndex": 3,
+      "type": "cookies",
+      "description": "Блок согласия на обработку cookies и пользовательских данных",
+      "text": "Продолжая использовать наш сайт, вы даете согласие на обработку файлов Cookies и других пользовательских данных. Запретить эти действия можно в настройках браузера.",
+      "elements": [
+        {
+          "type": "button",
+          "text": "Принять",
+          "purpose": "Принятие cookies политики"
+        }
+      ],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      }
+    }
+  ]
+}

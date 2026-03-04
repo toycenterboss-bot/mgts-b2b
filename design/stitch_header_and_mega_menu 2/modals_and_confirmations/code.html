@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="ru"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>MGTS Infrastructure - Modals</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="../../assets/fonts/google/9e05ed08ab/font.css" rel="stylesheet"/>
+<link href="../../assets/fonts/material-symbols-outlined/material-symbols-outlined.css" rel="stylesheet"/>
+<link href="../../assets/fonts/material-symbols-outlined/material-symbols-outlined.css" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#0066cc",
+                        "background-light": "#f5f7f8",
+                        "background-dark": "#0f1923",
+                    },
+                    fontFamily: {
+                        "display": ["Space Grotesk", "Noto Sans", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Space Grotesk', 'Noto Sans', sans-serif;
+        }
+        .glass-panel {
+            background: rgba(27, 33, 40, 0.8);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(57, 71, 86, 0.5);
+        }
+        .success-glow {
+            box-shadow: 0 0 40px rgba(0, 102, 204, 0.3);
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-white min-h-screen overflow-hidden">
+<!-- Background Dashboard (Simulated Context) -->
+<div class="relative flex h-screen w-full flex-col opacity-20 pointer-events-none">
+<header class="flex items-center justify-between border-b border-solid border-white/10 px-10 py-3">
+<div class="flex items-center gap-8">
+<div class="flex items-center gap-4">
+<div class="size-6 text-primary">
+<span class="material-symbols-outlined text-3xl">hub</span>
+</div>
+<h2 class="text-lg font-bold tracking-tight">MGTS Infrastructure</h2>
+</div>
+<div class="flex items-center gap-9 opacity-50">
+<span class="text-sm font-medium">Мониторинг</span>
+<span class="text-sm font-medium">Услуги</span>
+<span class="text-sm font-medium">Объекты</span>
+</div>
+</div>
+<div class="bg-white/10 rounded-full size-10"></div>
+</header>
+<main class="flex-1 p-10">
+<div class="grid grid-cols-3 gap-6">
+<div class="h-40 bg-white/5 rounded-xl border border-white/10"></div>
+<div class="h-40 bg-white/5 rounded-xl border border-white/10"></div>
+<div class="h-40 bg-white/5 rounded-xl border border-white/10"></div>
+<div class="col-span-2 h-80 bg-white/5 rounded-xl border border-white/10"></div>
+<div class="h-80 bg-white/5 rounded-xl border border-white/10"></div>
+</div>
+</main>
+</div>
+<!-- Modal Backdrop -->
+<div class="fixed inset-0 z-40 bg-black/60 backdrop-blur-sm flex items-center justify-center p-6">
+<!-- Base Modal: Detailed Info/Form -->
+<div class="hidden md:flex flex-col w-full max-w-[560px] glass-panel rounded-xl shadow-2xl overflow-hidden animate-in fade-in zoom-in duration-300">
+<div class="flex items-center justify-between px-8 py-6 border-b border-white/10">
+<h2 class="text-2xl font-bold tracking-tight">Детали подключения</h2>
+<button class="text-white/50 hover:text-white transition-colors">
+<span class="material-symbols-outlined">close</span>
+</button>
+</div>
+<div class="p-8 flex flex-col gap-6">
+<!-- Address Field -->
+<div class="flex flex-col gap-2">
+<label class="text-sm font-medium text-white/70">Адрес объекта</label>
+<div class="relative">
+<input class="w-full bg-[#1b2128] border border-[#394756] rounded-lg h-14 px-4 text-white focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-all" placeholder="г. Москва, ул. Арбат, д. 1" type="text"/>
+<span class="material-symbols-outlined absolute right-4 top-4 text-[#9aabbc]">location_on</span>
+</div>
+</div>
+<!-- Service Type Field -->
+<div class="flex flex-col gap-2">
+<label class="text-sm font-medium text-white/70">Тип услуги</label>
+<select class="w-full bg-[#1b2128] border border-[#394756] rounded-lg h-14 px-4 text-white focus:ring-2 focus:ring-primary focus:border-primary outline-none appearance-none cursor-pointer">
+<option value="fiber">Оптоволоконный интернет (GPON)</option>
+<option value="cloud">Облачное видеонаблюдение</option>
+<option value="vpn">Выделенный VPN-канал</option>
+</select>
+</div>
+<!-- Contact Field -->
+<div class="flex flex-col gap-2">
+<label class="text-sm font-medium text-white/70">Контактное лицо</label>
+<input class="w-full bg-[#1b2128] border border-[#394756] rounded-lg h-14 px-4 text-white focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-all" placeholder="Иван Иванов" type="text"/>
+</div>
+</div>
+<div class="px-8 pb-8 flex gap-4">
+<button class="flex-1 bg-primary hover:bg-primary/80 text-white font-bold py-4 rounded-lg transition-all active:scale-95">
+                    Отправить заявку
+                </button>
+<button class="px-6 py-4 border border-white/10 hover:bg-white/5 rounded-lg font-medium transition-all">
+                    Отмена
+                </button>
+</div>
+</div>
+<!-- Success Confirmation Modal (Displayed as priority for this task) -->
+<div class="flex flex-col w-full max-w-[440px] glass-panel rounded-xl shadow-2xl overflow-hidden p-10 items-center text-center success-glow border-primary/30">
+<div class="size-20 bg-primary rounded-2xl flex items-center justify-center mb-8 rotate-3">
+<span class="material-symbols-outlined text-5xl text-white -rotate-3">check_circle</span>
+</div>
+<h1 class="text-white text-[40px] font-bold leading-tight mb-4 tracking-tight">Спасибо!</h1>
+<p class="text-[#9aabbc] text-lg leading-relaxed mb-10">
+                Ваша заявка успешно отправлена. Наши специалисты свяжутся с вами в ближайшее время для уточнения деталей.
+            </p>
+<div class="w-full space-y-4">
+<button class="w-full bg-primary hover:bg-primary/80 text-white font-bold py-4 rounded-lg transition-all active:scale-95 flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-xl">home</span>
+                    Вернуться на главную
+                </button>
+<button class="w-full py-3 text-white/40 hover:text-white/70 text-sm font-medium transition-colors">
+                    Просмотреть статус в личном кабинете
+                </button>
+</div>
+</div>
+</div>
+<!-- Visual Accents (Tech Grid background simulation) -->
+<div class="fixed inset-0 pointer-events-none opacity-5 z-0" data-alt="Modern geometric grid pattern background" style="background-image: radial-gradient(#0066cc 1px, transparent 1px); background-size: 32px 32px;">
+</div>
+</body></html>

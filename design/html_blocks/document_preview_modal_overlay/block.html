@@ -1,0 +1,131 @@
+<section class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-white" data-stitch-block="document_preview_modal_overlay">
+<!-- Trigger example (can be removed in CMS usage) -->
+<div class="max-w-[1200px] mx-auto px-4 lg:px-10 py-12">
+<h1 class="text-3xl font-black tracking-tight mb-4">Документы</h1>
+<p class="text-slate-600 dark:text-slate-400 mb-8">Демо: открыть предпросмотр документа в модальном окне.</p>
+<button class="bg-primary hover:bg-primary/90 text-white px-6 py-3 rounded-lg font-bold transition-all" data-modal-open="doc-preview-modal">
+Открыть предпросмотр
+</button>
+</div>
+
+<!-- Modal Backdrop -->
+<div class="fixed inset-0 z-50 flex items-center justify-center p-4 glass-overlay hidden" data-modal id="doc-preview-modal" aria-hidden="true">
+  <div class="absolute inset-0 bg-black/60 backdrop-blur-sm" data-modal-overlay></div>
+
+  <!-- Modal Container -->
+  <div class="relative flex h-[90vh] w-full max-w-[1200px] flex-col overflow-hidden rounded-xl border border-[#3a2728] bg-[#230f10] shadow-2xl" role="dialog" aria-modal="true" aria-labelledby="doc-preview-title" data-modal-dialog>
+    <!-- Modal Header -->
+    <div class="flex h-16 shrink-0 items-center justify-between border-b border-[#3a2728] px-6">
+      <div class="flex items-center gap-3">
+        <span class="material-symbols-outlined text-primary">description</span>
+        <h2 id="doc-preview-title" class="text-lg font-bold tracking-tight text-white">Предпросмотр документа</h2>
+      </div>
+      <div class="flex items-center gap-2">
+        <button class="flex h-10 w-10 items-center justify-center rounded-lg hover:bg-white/10 transition-colors" data-modal-close aria-label="Закрыть">
+          <span class="material-symbols-outlined">close</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Modal Body (Split Pane) -->
+    <div class="flex flex-1 overflow-hidden">
+      <!-- PDF Viewer (Left Side) -->
+      <div class="relative flex flex-1 flex-col items-center justify-center bg-[#181111] p-8">
+        <!-- Navigation Arrows -->
+        <button class="absolute left-6 top-1/2 -translate-y-1/2 flex h-12 w-12 items-center justify-center rounded-full bg-white/5 hover:bg-white/10 border border-white/10 text-white transition-all" aria-label="Предыдущая страница">
+          <span class="material-symbols-outlined">chevron_left</span>
+        </button>
+        <button class="absolute right-6 top-1/2 -translate-y-1/2 flex h-12 w-12 items-center justify-center rounded-full bg-white/5 hover:bg-white/10 border border-white/10 text-white transition-all" aria-label="Следующая страница">
+          <span class="material-symbols-outlined">chevron_right</span>
+        </button>
+
+        <!-- Document Page Wrapper -->
+        <div class="document-shadow relative aspect-[1/1.414] h-full max-h-[75vh] overflow-hidden rounded-sm bg-white p-12">
+          <div class="h-full w-full border border-gray-100 p-4">
+            <div class="mb-8 flex justify-between">
+              <div class="h-8 w-32 bg-gray-200"></div>
+              <div class="h-8 w-8 bg-gray-200"></div>
+            </div>
+            <div class="mb-4 h-6 w-3/4 bg-gray-800"></div>
+            <div class="mb-8 h-4 w-1/2 bg-gray-300"></div>
+            <div class="space-y-4">
+              <div class="h-2 w-full bg-gray-100"></div>
+              <div class="h-2 w-full bg-gray-100"></div>
+              <div class="h-2 w-full bg-gray-100"></div>
+              <div class="h-2 w-4/5 bg-gray-100"></div>
+            </div>
+            <div class="mt-20 flex gap-4">
+              <div class="h-16 w-32 border-b-2 border-gray-400"></div>
+              <div class="h-16 w-32 border-b-2 border-gray-400"></div>
+            </div>
+          </div>
+          <img alt="Document content preview showing text and signatures" class="absolute inset-0 opacity-10" src="../../assets/images/external/7e32a3aba85d.png"/>
+        </div>
+
+        <!-- Bottom Controls -->
+        <div class="absolute bottom-6 flex items-center gap-4">
+          <div class="flex items-center rounded-lg bg-white/5 border border-white/10 p-1">
+            <button class="p-2 hover:text-primary" aria-label="Уменьшить"><span class="material-symbols-outlined text-[20px]">zoom_out</span></button>
+            <span class="px-2 text-xs font-medium text-white">100%</span>
+            <button class="p-2 hover:text-primary" aria-label="Увеличить"><span class="material-symbols-outlined text-[20px]">zoom_in</span></button>
+          </div>
+          <div class="flex items-center rounded-lg bg-white/5 border border-white/10 px-4 py-2">
+            <span class="text-xs font-medium text-white/60 uppercase tracking-widest">Страница 1 из 12</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sidebar (Right Side) -->
+      <aside class="flex w-80 flex-col border-l border-[#3a2728] bg-[#230f10] p-6">
+        <div class="flex-1 space-y-8">
+          <div>
+            <h3 class="mb-4 text-xs font-bold uppercase tracking-widest text-white/40">Информация о документе</h3>
+            <div class="space-y-6">
+              <div>
+                <p class="text-xs text-white/40">Название</p>
+                <p class="text-sm font-medium leading-relaxed text-white">Сервисное соглашение №452-B на оказание услуг связи</p>
+              </div>
+              <div>
+                <p class="text-xs text-white/40">Дата загрузки</p>
+                <p class="text-sm font-medium text-white">12 Октября 2023</p>
+              </div>
+              <div>
+                <p class="text-xs text-white/40">Размер файла</p>
+                <p class="text-sm font-medium text-white">2.4 MB</p>
+              </div>
+              <div>
+                <p class="text-xs text-white/40">Тип документа</p>
+                <div class="mt-1 flex items-center gap-2">
+                  <span class="flex items-center justify-center rounded bg-primary/20 px-2 py-0.5 text-[10px] font-bold text-primary">PDF</span>
+                  <p class="text-sm font-medium text-white">Договор</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h3 class="mb-4 text-xs font-bold uppercase tracking-widest text-white/40">Действия</h3>
+            <div class="grid grid-cols-2 gap-3">
+              <button class="flex items-center justify-center gap-2 rounded-lg bg-white/5 py-3 text-sm font-medium text-white hover:bg-white/10 transition-colors">
+                <span class="material-symbols-outlined text-[20px]">print</span>
+                <span>Печать</span>
+              </button>
+              <button class="flex items-center justify-center gap-2 rounded-lg bg-white/5 py-3 text-sm font-medium text-white hover:bg-white/10 transition-colors">
+                <span class="material-symbols-outlined text-[20px]">share</span>
+                <span>Поделиться</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-auto pt-6 border-t border-[#3a2728]">
+          <button class="flex w-full items-center justify-center gap-3 rounded-lg bg-primary py-4 text-sm font-bold tracking-wide text-white transition-all hover:bg-primary/90 active:scale-[0.98]">
+            <span class="material-symbols-outlined text-[20px]">download</span>
+            СКАЧАТЬ
+          </button>
+          <p class="mt-3 text-center text-[10px] text-white/30 italic">Файл будет сохранен в формате .pdf</p>
+        </div>
+      </aside>
+    </div>
+  </div>
+</div>
+</section>

@@ -1,0 +1,498 @@
+{
+  "moved": [
+    {
+      "filename": "CMS_CONTENT_TYPES.md",
+      "target": "docs/cms/content-types/"
+    },
+    {
+      "filename": "CONTENT_TYPE_COMPLETE.md",
+      "target": "docs/cms/content-types/"
+    },
+    {
+      "filename": "CONTENT_TYPE_SUMMARY.md",
+      "target": "docs/cms/content-types/"
+    },
+    {
+      "filename": "CMS_INTEGRATION_COMPLETE.md",
+      "target": "docs/cms/integration/"
+    },
+    {
+      "filename": "CMS_INTEGRATION_PLAN.md",
+      "target": "docs/cms/integration/"
+    },
+    {
+      "filename": "CMS_INTEGRATION_STATUS.md",
+      "target": "docs/cms/integration/"
+    },
+    {
+      "filename": "CMS_CONNECTION_FIX.md",
+      "target": "docs/cms/integration/"
+    },
+    {
+      "filename": "API_INTEGRATION_COMPLETE.md",
+      "target": "docs/cms/integration/"
+    },
+    {
+      "filename": "CMS_NEXT_STEPS.md",
+      "target": "docs/cms/integration/"
+    },
+    {
+      "filename": "INTEGRATION_TEST_RESULTS.md",
+      "target": "docs/cms/integration/"
+    },
+    {
+      "filename": "TESTING_RESULTS.md",
+      "target": "docs/cms/integration/"
+    },
+    {
+      "filename": "CMS_GRID_TYPES_USAGE.md",
+      "target": "docs/cms/grid-types/"
+    },
+    {
+      "filename": "GRID_TYPES_ANALYSIS.md",
+      "target": "docs/cms/grid-types/"
+    },
+    {
+      "filename": "GRID_TYPES_CMS_IMPLEMENTATION.md",
+      "target": "docs/cms/grid-types/"
+    },
+    {
+      "filename": "CLASS_HIERARCHY_RULES.md",
+      "target": "docs/cms/structure/"
+    },
+    {
+      "filename": "TOP_LEVEL_ELEMENTS_RULES.md",
+      "target": "docs/cms/structure/"
+    },
+    {
+      "filename": "TOP_LEVEL_ELEMENTS_SUMMARY.md",
+      "target": "docs/cms/structure/"
+    },
+    {
+      "filename": "DIV_NORMALIZATION_SUMMARY.md",
+      "target": "docs/cms/structure/"
+    },
+    {
+      "filename": "FIX_APPLICATION_COMPLETE.md",
+      "target": "docs/fixes/structure/"
+    },
+    {
+      "filename": "FIX_COMPLETE_SUMMARY.md",
+      "target": "docs/fixes/structure/"
+    },
+    {
+      "filename": "FIX_SCRIPT_USAGE.md",
+      "target": "docs/fixes/structure/"
+    },
+    {
+      "filename": "FIX_SCRIPT_VERIFICATION.md",
+      "target": "docs/fixes/structure/"
+    },
+    {
+      "filename": "STRUCTURE_ANALYSIS_REPORT.md",
+      "target": "docs/fixes/structure/"
+    },
+    {
+      "filename": "ABOUT_PAGES_FIX.md",
+      "target": "docs/fixes/pages/"
+    },
+    {
+      "filename": "SEGMENT_PAGES_FIX_COMPLETE.md",
+      "target": "docs/fixes/pages/"
+    },
+    {
+      "filename": "SEGMENT_PAGES_FIX_FINAL_REPORT.md",
+      "target": "docs/fixes/pages/"
+    },
+    {
+      "filename": "SEGMENT_PAGES_FIX_RECOMMENDATIONS.md",
+      "target": "docs/fixes/pages/"
+    },
+    {
+      "filename": "SEGMENT_PAGES_FIX_SUMMARY.md",
+      "target": "docs/fixes/pages/"
+    },
+    {
+      "filename": "INTEGRATION_ALL_PAGES_FIX.md",
+      "target": "docs/fixes/pages/"
+    },
+    {
+      "filename": "STRAPI_CONTENT_FIX_business_security.md",
+      "target": "docs/fixes/pages/"
+    },
+    {
+      "filename": "SERVICE_CARD_STYLES_FIX.md",
+      "target": "docs/fixes/styles/"
+    },
+    {
+      "filename": "AUTONOMOUS_SETUP_COMPLETE.md",
+      "target": "docs/installation/setup/"
+    },
+    {
+      "filename": "INSTALLATION_STATUS.md",
+      "target": "docs/installation/setup/"
+    },
+    {
+      "filename": "QUICK_START_MAC.md",
+      "target": "docs/installation/setup/"
+    },
+    {
+      "filename": "SETUP_NODEJS.md",
+      "target": "docs/installation/setup/"
+    },
+    {
+      "filename": "INSTALL_NODEJS_MANUAL.md",
+      "target": "docs/installation/setup/"
+    },
+    {
+      "filename": "STRAPI_REINSTALL.md",
+      "target": "docs/installation/setup/"
+    },
+    {
+      "filename": "README_INSTALLATION.md",
+      "target": "docs/installation/setup/"
+    },
+    {
+      "filename": "CMS_MIGRATION_PLAN.md",
+      "target": "docs/installation/migration/"
+    },
+    {
+      "filename": "EXECUTE_MIGRATION.md",
+      "target": "docs/installation/migration/"
+    },
+    {
+      "filename": "MAC_MIGRATION_GUIDE.md",
+      "target": "docs/installation/migration/"
+    },
+    {
+      "filename": "MIGRATION_INSTRUCTIONS.md",
+      "target": "docs/installation/migration/"
+    },
+    {
+      "filename": "MIGRATION_STATUS.md",
+      "target": "docs/installation/migration/"
+    },
+    {
+      "filename": "CHECK_CMS_CONNECTION.md",
+      "target": "docs/installation/troubleshooting/"
+    },
+    {
+      "filename": "CMS_UPDATE_TROUBLESHOOTING.md",
+      "target": "docs/installation/troubleshooting/"
+    },
+    {
+      "filename": "about-pages-analysis.json",
+      "target": "docs/analysis/reports/"
+    },
+    {
+      "filename": "analysis-results.json",
+      "target": "docs/analysis/reports/"
+    },
+    {
+      "filename": "div-classes-analysis.json",
+      "target": "docs/analysis/reports/"
+    },
+    {
+      "filename": "fix-about-styles-results.json",
+      "target": "docs/analysis/reports/"
+    },
+    {
+      "filename": "fix-results.json",
+      "target": "docs/analysis/reports/"
+    },
+    {
+      "filename": "fix-segment-pages-results.json",
+      "target": "docs/analysis/reports/"
+    },
+    {
+      "filename": "class-hierarchy-report.json",
+      "target": "docs/analysis/reports/"
+    },
+    {
+      "filename": "div-analysis-report.json",
+      "target": "docs/analysis/reports/"
+    },
+    {
+      "filename": "page-analysis-report.json",
+      "target": "docs/analysis/reports/"
+    },
+    {
+      "filename": "top-level-elements-report.json",
+      "target": "docs/analysis/reports/"
+    },
+    {
+      "filename": "main_page_analysis.md",
+      "target": "docs/analysis/reports/"
+    },
+    {
+      "filename": "HTML_FIXING_GUIDE.md",
+      "target": "docs/guides/development/"
+    },
+    {
+      "filename": "HTML_FIXING_SUMMARY.md",
+      "target": "docs/guides/development/"
+    },
+    {
+      "filename": "HTML_TYPIZATION_PLAN.md",
+      "target": "docs/guides/development/"
+    },
+    {
+      "filename": "UI_UX_IMPROVEMENT_PLAN.md",
+      "target": "docs/guides/development/"
+    },
+    {
+      "filename": "UI_UX_PROGRESS.md",
+      "target": "docs/guides/development/"
+    },
+    {
+      "filename": "CLEAN_MAIN_PAGE_HTML.md",
+      "target": "docs/guides/development/"
+    },
+    {
+      "filename": "HOW_TO_CHECK_IMPROVEMENTS.md",
+      "target": "docs/guides/usage/"
+    },
+    {
+      "filename": "STRAPI_BACKUP_GUIDE.md",
+      "target": "docs/guides/usage/"
+    },
+    {
+      "filename": "STRAPI_UPDATE_PAGES_GUIDE.md",
+      "target": "docs/guides/usage/"
+    },
+    {
+      "filename": "CACHE_CLEAR_INSTRUCTIONS.md",
+      "target": "docs/guides/usage/"
+    },
+    {
+      "filename": "CMS_IMPROVEMENT_STATUS.md",
+      "target": "docs/status/progress/"
+    },
+    {
+      "filename": "CURRENT_PROGRESS.md",
+      "target": "docs/status/progress/"
+    },
+    {
+      "filename": "FINAL_IMPORT_STATUS.md",
+      "target": "docs/status/progress/"
+    },
+    {
+      "filename": "FINAL_STATUS.md",
+      "target": "docs/status/progress/"
+    },
+    {
+      "filename": "PROGRESS.md",
+      "target": "docs/status/progress/"
+    },
+    {
+      "filename": "PROJECT_STATUS.md",
+      "target": "docs/status/progress/"
+    },
+    {
+      "filename": "SERVERS_STATUS.md",
+      "target": "docs/status/progress/"
+    },
+    {
+      "filename": "PROJECT_RUNNING.md",
+      "target": "docs/status/progress/"
+    },
+    {
+      "filename": "FINAL_STATUS_UPDATE.md",
+      "target": "docs/status/completed/"
+    },
+    {
+      "filename": "IMPORT_COMPLETED.md",
+      "target": "docs/status/completed/"
+    },
+    {
+      "filename": "NEXT_ACTIONS_COMPLETED.md",
+      "target": "docs/status/completed/"
+    },
+    {
+      "filename": "PROJECT_COMPLETE_SUMMARY.md",
+      "target": "docs/status/completed/"
+    },
+    {
+      "filename": "STEP_5_2_COMPLETE.md",
+      "target": "docs/status/completed/"
+    },
+    {
+      "filename": "STEP_5_COMPLETE.md",
+      "target": "docs/status/completed/"
+    },
+    {
+      "filename": "STEP_7_COMPLETE.md",
+      "target": "docs/status/completed/"
+    },
+    {
+      "filename": "IMPORT_SUCCESS.md",
+      "target": "docs/status/completed/"
+    },
+    {
+      "filename": "COMPLETED_ACTIONS.md",
+      "target": "docs/status/completed/"
+    },
+    {
+      "filename": "COMPLETED_STEPS.md",
+      "target": "docs/status/completed/"
+    },
+    {
+      "filename": "EXECUTED_STEPS.md",
+      "target": "docs/status/completed/"
+    },
+    {
+      "filename": "site-structure-tree.md",
+      "target": "docs/project/"
+    },
+    {
+      "filename": "CONTEXT.md",
+      "target": "docs/project/"
+    },
+    {
+      "filename": "CLOUDINARY_SETUP.md",
+      "target": "docs/setup/"
+    },
+    {
+      "filename": "LOCAL_STORAGE_SETUP.md",
+      "target": "docs/setup/"
+    },
+    {
+      "filename": "FIXED_business_telephony.html",
+      "target": "temp/html/"
+    },
+    {
+      "filename": "test-cms-connection.html",
+      "target": "temp/html/"
+    },
+    {
+      "filename": "service-components-content.html",
+      "target": "temp/html/"
+    },
+    {
+      "filename": "main_page_clean.html",
+      "target": "temp/html/"
+    },
+    {
+      "filename": "main_page_content.html",
+      "target": "temp/html/"
+    },
+    {
+      "filename": "main_page_from_site.html",
+      "target": "temp/html/"
+    },
+    {
+      "filename": "main_page.txt",
+      "target": "temp/txt/"
+    },
+    {
+      "filename": "main_page_clean.txt",
+      "target": "temp/txt/"
+    },
+    {
+      "filename": "main_page_fixed.txt",
+      "target": "temp/txt/"
+    },
+    {
+      "filename": "main_page_improved.txt",
+      "target": "temp/txt/"
+    },
+    {
+      "filename": "main_page_updated.txt",
+      "target": "temp/txt/"
+    },
+    {
+      "filename": "Консоль.txt",
+      "target": "temp/txt/"
+    },
+    {
+      "filename": "mirror-slider-1.jpg",
+      "target": "temp/images/"
+    },
+    {
+      "filename": "mirror-slider-2.jpg",
+      "target": "temp/images/"
+    },
+    {
+      "filename": "mirror-slider-3.jpg",
+      "target": "temp/images/"
+    },
+    {
+      "filename": "check_environment.ps1",
+      "target": "scripts/setup/"
+    },
+    {
+      "filename": "check_environment.sh",
+      "target": "scripts/setup/"
+    },
+    {
+      "filename": "check_strapi_setup.ps1",
+      "target": "scripts/setup/"
+    },
+    {
+      "filename": "copy_mts_fonts.ps1",
+      "target": "scripts/setup/"
+    },
+    {
+      "filename": "install_nodejs.sh",
+      "target": "scripts/setup/"
+    },
+    {
+      "filename": "install_strapi_manual.ps1",
+      "target": "scripts/setup/"
+    },
+    {
+      "filename": "move_strapi_to_runs.ps1",
+      "target": "scripts/setup/"
+    },
+    {
+      "filename": "setup_env.sh",
+      "target": "scripts/setup/"
+    },
+    {
+      "filename": "setup_step1.ps1",
+      "target": "scripts/setup/"
+    },
+    {
+      "filename": "start_strapi.ps1",
+      "target": "scripts/setup/"
+    },
+    {
+      "filename": "start_strapi.sh",
+      "target": "scripts/setup/"
+    },
+    {
+      "filename": "update_nav_script.ps1",
+      "target": "scripts/setup/"
+    },
+    {
+      "filename": "clean-html-from-rtf.js",
+      "target": "scripts/utils/"
+    },
+    {
+      "filename": "ACTIONS_SUMMARY.md",
+      "target": "docs/status/progress/"
+    },
+    {
+      "filename": "ENCODING_AND_PATHS_FIX.md",
+      "target": "docs/fixes/structure/"
+    },
+    {
+      "filename": "MIRROR_SLIDER_TEST.md",
+      "target": "docs/guides/development/"
+    },
+    {
+      "filename": "NEXT_STEPS.md",
+      "target": "docs/status/progress/"
+    },
+    {
+      "filename": "NEXT_STEPS_AFTER_NODEJS.md",
+      "target": "docs/status/progress/"
+    },
+    {
+      "filename": "NEXT_STEPS_DETAILED.md",
+      "target": "docs/status/progress/"
+    }
+  ],
+  "notFound": [],
+  "errors": []
+}

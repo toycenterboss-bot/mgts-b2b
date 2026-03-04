@@ -1,0 +1,562 @@
+{
+  "page": {
+    "slug": "virtual_ate",
+    "url": "https://business.mgts.ru/virtual_ate",
+    "pathname": "/virtual_ate",
+    "analyzedAt": "2026-01-16T11:08:47.121Z",
+    "screenshot": "/Users/andrey_efremov/Downloads/runs/mgts-backend/temp/page-analysis-llm/virtual_ate_screenshot.png",
+    "llmProvider": "perplexity",
+    "llmModel": "sonar"
+  },
+  "metadata": {
+    "title": "Виртуальная АТС"
+  },
+  "sections": [
+    {
+      "sectionIndex": 1,
+      "type": "hero",
+      "description": "Главный заголовок страницы с подзаголовком, представляющий ключевые преимущества виртуальной АТС от МГТС и приглашающий пользователя ознакомиться с возможностями сервиса",
+      "title": "Виртуальная АТС",
+      "subtitle": "",
+      "text": "",
+      "elements": [],
+      "images": [],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [],
+      "tabs": [],
+      "table": null
+    },
+    {
+      "sectionIndex": 2,
+      "type": "advantages",
+      "description": "Блок с четырьмя преимуществами виртуальной АТС, представленными в виде карточек с изображениями слева/справа, иконками SVG и описательным текстом. Карточки чередуют позиции изображений для визуального разнообразия",
+      "title": "Наши преимущества",
+      "subtitle": "Прикоснитесь к возможностям виртуальной АТС от МГТС",
+      "text": "",
+      "elements": [],
+      "images": [
+        {
+          "description": "Иллюстрация к преимуществу 'Простой и удобный интерфейс', визуализирует удобство личного кабинета",
+          "position": "left",
+          "src": "/images/advantage-img-1.png",
+          "alt": "Простой и удобный интерфейс"
+        },
+        {
+          "description": "Иллюстрация к преимуществу 'Возможность сохранить старый номер', показывает перенос номеров",
+          "position": "right",
+          "src": "/images/advantage-img-2.png",
+          "alt": "Возможность сохранить старый номер"
+        },
+        {
+          "description": "Иллюстрация к преимуществу 'Не пропускайте звонки и контролируйте качество', демонстрирует аналитику звонков",
+          "position": "left",
+          "src": "/images/advantage-img-3.png",
+          "alt": "Не пропускайте звонки и контролируйте качество"
+        },
+        {
+          "description": "Иллюстрация к преимуществу 'Масштабируемость', иллюстрирует гибкость масштабирования",
+          "position": "right",
+          "src": "/images/advantage-img-4.png",
+          "alt": "Масштабируемость"
+        }
+      ],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [
+        {
+          "title": "Понятный и удобный интерфейс",
+          "text": "Личный кабинет с простым интерфейсом, который может использовать любой сотрудник"
+        },
+        {
+          "title": "Возможность сохранить старый номер",
+          "text": "Подключите свои существующие телефонные номера к виртуальной АТС и продолжайте пользоваться ими с новыми возможностями"
+        },
+        {
+          "title": "Не пропускайте звонки и контролируйте качество",
+          "text": "Пользуйтесь статистикой и аналитикой звонков, смотрите на рейтинг сотрудников, обращайте внимание на качество диалогов, благодаря новым возможностям виртуальной АТС"
+        },
+        {
+          "title": "Масштабируемость",
+          "text": "Вы платите только за подключенных сотрудников. Если вам нужно добавить новых пользователей, просто используйте личный кабинет"
+        }
+      ],
+      "tabs": [],
+      "table": null
+    },
+    {
+      "sectionIndex": 3,
+      "type": "cards",
+      "description": "Сетка из шести карточек преимуществ виртуальной АТС с иконками SVG в заголовках. Карточки расположены в два ряда по три, каждая содержит заголовок и описательный текст о дополнительных возможностях сервиса",
+      "title": "",
+      "subtitle": "",
+      "text": "",
+      "elements": [],
+      "images": [],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [
+        {
+          "title": "Постоянное развитие",
+          "text": "Виртуальная АТС постоянно обновляется, поэтому вы регулярно получаете лучшие технологии для управления звонками"
+        },
+        {
+          "title": "Нет капитальных затрат",
+          "text": "Не нужно никаких крупных вложений – вы платите только за использование виртуальной АТС"
+        },
+        {
+          "title": "Интеграция с CRM",
+          "text": "Поддерживается интеграция со многими CRM и коллтрекинг сервисами. Также доступна интеграция по API с более чем 50 системами, подключайте собственную CRM с помощью открытого REST API"
+        },
+        {
+          "title": "Разные способы подключения",
+          "text": "Облачную АТС можно подключить через защищённый канал МГТС или каналы других операторов, обеспечивая гибкость выбора"
+        },
+        {
+          "title": "Отсутствие привязки к физическому адресу",
+          "text": "Переезды и удаленная работа – не проблема. С виртуальной АТС вы можете работать из любой точки мира без привязки к физическому адресу"
+        },
+        {
+          "title": "Работа на любом устройстве",
+          "text": "Наши услуги доступны на мобильных устройствах, планшетах и компьютерах. Гибкость и мобильность, независимо от наличия телефонов у сотрудников"
+        }
+      ],
+      "tabs": [],
+      "table": null
+    },
+    {
+      "sectionIndex": 4,
+      "type": "slider",
+      "description": "Интерактивный слайдер демонстрации функций виртуальной АТС с переключателями в виде табов сверху и соответствующими изображениями снизу. Показывает 5 ключевых возможностей управления звонками. Активный первый слайд. Есть навигационные стрелки для прокрутки селекторов.",
+      "title": "",
+      "text": "",
+      "elements": [
+        {
+          "type": "button",
+          "text": "",
+          "purpose": "Левая стрелка навигации селекторов (отключена)",
+          "href": ""
+        },
+        {
+          "type": "button",
+          "text": "",
+          "purpose": "Правая стрелка навигации селекторов",
+          "href": ""
+        }
+      ],
+      "images": [
+        {
+          "description": "Изображение демонстрации функции 'Настройка распределения звонков' - интерфейс управления вызовами",
+          "position": "центр, активное",
+          "src": "/images/manage-calls-img-1.png",
+          "alt": ""
+        },
+        {
+          "description": "Изображение демонстрации функции 'Правила распределения звонков' - настройки правил звонков",
+          "position": "центр, неактивное",
+          "src": "/images/manage-calls-img-2.png",
+          "alt": ""
+        },
+        {
+          "description": "Изображение демонстрации функции 'Актуальная статистика' - дашборд статистики звонков",
+          "position": "центр, неактивное",
+          "src": "/images/manage-calls-img-3.png",
+          "alt": ""
+        },
+        {
+          "description": "Изображение демонстрации функции 'История звонков' - список истории вызовов",
+          "position": "центр, неактивное",
+          "src": "/images/manage-calls-img-4.png",
+          "alt": ""
+        },
+        {
+          "description": "Изображение демонстрации функции 'Запись разговоров с функцией речевой аналитики' - просмотр записей и аналитики",
+          "position": "центр, неактивное",
+          "src": "/images/manage-calls-img-5.png",
+          "alt": ""
+        }
+      ],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [
+        {
+          "title": "Настройка распределения звонков",
+          "text": "",
+          "value": "",
+          "label": ""
+        },
+        {
+          "title": "Правила распределения звонков",
+          "text": "",
+          "value": "",
+          "label": ""
+        },
+        {
+          "title": "Актуальная статистика",
+          "text": "",
+          "value": "",
+          "label": ""
+        },
+        {
+          "title": "История звонков",
+          "text": "",
+          "value": "",
+          "label": ""
+        },
+        {
+          "title": "Запись разговоров с функцией речевой аналитики",
+          "text": "",
+          "value": "",
+          "label": ""
+        }
+      ],
+      "tabs": []
+    },
+    {
+      "sectionIndex": 7,
+      "type": "mobile-app-promo",
+      "description": "Промо-блок мобильного приложения Виртуальной АТС МГТС с интерактивным слайдером, демонстрирующий экраны приложения через QR-код и описания ключевых функций в виде переключаемых карточек слева и справа от изображения смартфона.",
+      "title": "Мобильное приложение для Виртуальной АТС",
+      "subtitle": "",
+      "text": "",
+      "elements": [],
+      "images": [
+        {
+          "description": "QR-код для скачивания мобильного приложения Виртуальной АТС МГТС",
+          "position": "центр, верхняя часть блока",
+          "src": "data:image/svg+xml;base64,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",
+          "alt": ""
+        },
+        {
+          "description": "Изображение экрана мобильного приложения Виртуальной АТС МГТС, показывающее текущий активный экран (вероятно, 'Сводка')",
+          "position": "центр, основная часть блока в контейнере смартфона",
+          "src": "/images/mobile-screen-1.png",
+          "alt": "smartphone-screen"
+        }
+      ],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [
+        {
+          "title": "Сводка",
+          "text": "Быстро оцените звонки за любой период времени с экраном «Сводка». Наглядная статистика по ключевым показателям обработанных звонков.",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "",
+            "href": "",
+            "purpose": ""
+          }
+        },
+        {
+          "title": "История и записи",
+          "text": "Изучайте историю звонков и прослушивайте записи разговоров. Управляйте записями: перематывайте, ускоряйте, скачивайте и делитесь ими с коллегами для более эффективного решения сложных ситуаций.",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "",
+            "href": "",
+            "purpose": ""
+          }
+        },
+        {
+          "title": "Сотрудники",
+          "text": "Создавайте и редактируйте аккаунты сотрудников, а также настраивайте их права. Получайте детализированную статистику по каждому сотруднику и сравнивайте их производительность.",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "",
+            "href": "",
+            "purpose": ""
+          }
+        },
+        {
+          "title": "Статистика",
+          "text": "Анализ тенденций и динамики работы операторов, упакованы в структурированную статистику и доступны в мобильном приложении.",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "",
+            "href": "",
+            "purpose": ""
+          }
+        },
+        {
+          "title": "Настройки",
+          "text": "Задавайте правила распределения звонков, устанавливайте переадресацию и добавляйте новые отделы – всё это в несколько кликов.",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "",
+            "href": "",
+            "purpose": ""
+          }
+        },
+        {
+          "title": "Номера",
+          "text": "Управляйте несколькими номерами вашей компании. Меняйте режим работы, устанавливайте маршрут приёма звонков и настраивайте голосовое приветствие для каждого номера.",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "",
+            "href": "",
+            "purpose": ""
+          }
+        }
+      ],
+      "tabs": [],
+      "table": null
+    },
+    {
+      "sectionIndex": 8,
+      "type": "connection-guide",
+      "description": "Серый контейнер с руководством по подключению и настройке Виртуальной АТС, содержит заголовок и начало текста с вопросами пользователей (данные частично обрезаны в HTML).",
+      "title": "Как подключить?",
+      "subtitle": "",
+      "text": "",
+      "cards": [
+        {
+          "title": "Шаг 1",
+          "text": "Оставьте заявку на сайте или позвоните по номеру 8 495 700-70-70",
+          "value": "1",
+          "label": "Этап подачи заявки"
+        },
+        {
+          "title": "Шаг 2",
+          "text": "Менеджер подберёт конфигурации услуги для ваших задач",
+          "value": "2",
+          "label": "Этап консультации"
+        },
+        {
+          "title": "Шаг 3",
+          "text": "Выберите номер и подпишите договор",
+          "value": "3",
+          "label": "Этап заключения договора"
+        },
+        {
+          "title": "Шаг 4",
+          "text": "Мастер подключит и настроит сервис",
+          "value": "4",
+          "label": "Этап активации"
+        }
+      ],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      }
+    },
+    {
+      "sectionIndex": 10,
+      "type": "cta-section",
+      "description": "Блок с предложением демонстрации работы виртуальной АТС, содержащий описание, кнопку для запроса демо и иллюстрацию",
+      "title": "Демонстрация работы виртуальной АТС",
+      "subtitle": "Демо-режим услуги, тестовый период",
+      "elements": [
+        {
+          "type": "button",
+          "text": "Запросить демо",
+          "purpose": "Инициировать запрос на демонстрацию функций виртуальной АТС"
+        }
+      ],
+      "images": [
+        {
+          "description": "Иллюстрация, демонстрирующая работу виртуальной АТС и её интерфейс",
+          "position": "справа",
+          "src": "/images/demonstration-work-img.png",
+          "alt": "Демонстрация работы виртуальной АТС"
+        }
+      ],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      }
+    },
+    {
+      "sectionIndex": 11,
+      "type": "content",
+      "description": "Текстовый блок с описанием возможностей интеграции виртуальной АТС с CRM-системами и статистикой готовых интеграций. Содержит основную информацию о простоте настройки и ссылку на API-документацию",
+      "title": "Возможности интеграции с CRM",
+      "text": "Виртуальная АТС уже интегрирована с большинством популярных CRM и систем отслеживания звонков. Для настройки не требуется участие системного администратора. С остальными системами можно интегрироваться через API, список которых доступен по адресу:",
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [
+          {
+            "text": "info.vats.mgts.ru",
+            "href": "https://info.vats.mgts.ru/",
+            "purpose": "Ссылка на документацию API для интеграции с другими системами"
+          }
+        ],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [
+        {
+          "title": "50 +",
+          "text": "Готовых интеграций",
+          "value": "50 +",
+          "label": "Готовых интеграций"
+        }
+      ],
+      "tabs": [],
+      "elements": [],
+      "images": [
+        {
+          "description": "Логотип первой CRM-системы",
+          "position": "левая карточка в сетке",
+          "src": "/images/crm-img-1.png",
+          "alt": "card-1"
+        },
+        {
+          "description": "Векторный логотип CRM-системы (Bitrix24-подобный)",
+          "position": "вторая карточка в сетке",
+          "src": "inline SVG",
+          "alt": ""
+        },
+        {
+          "description": "Логотип CRM-системы с красным дизайном (1C-подобный)",
+          "position": "третья карточка в сетке",
+          "src": "inline SVG",
+          "alt": ""
+        },
+        {
+          "description": "Логотип CRM-системы с синим дизайном (amoCRM-подобный)",
+          "position": "четвертая карточка в сетке",
+          "src": "inline SVG",
+          "alt": ""
+        },
+        {
+          "description": "Логотип CRM-системы с золотым акцентом",
+          "position": "пятая карточка в сетке",
+          "src": "inline SVG",
+          "alt": ""
+        },
+        {
+          "description": "Логотип шестой CRM-системы",
+          "position": "шестая карточка в сетке",
+          "src": "/images/crm-img-6.png",
+          "alt": "card-6"
+        },
+        {
+          "description": "Логотип CRM-системы с серым дизайном (B24-подобный)",
+          "position": "седьмая карточка в сетке",
+          "src": "inline SVG",
+          "alt": ""
+        }
+      ]},
+    {
+      "sectionIndex": 26,
+      "type": "content",
+      "description": "Информационный блок о дополнительных возможностях и базе знаний Виртуальной АТС.",
+      "title": "БАЗА ЗНАНИЙ",
+      "text": "После подключения вы получите доступ к базе знаний со всей необходимой информацией по настройке ВАТС. Оставьте контакты",
+      "elements": [
+        {
+          "type": "button",
+          "text": "Оставьте контакты",
+          "purpose": "Форма обратной связи для получения доступа к базе знаний",
+          "href": "#callback-form"
+        }
+      ],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      }
+    },
+    {
+      "sectionIndex": 32,
+      "type": "accordion",
+      "description": "Раздел с аккордеоном, содержащий 6 вопросов-ответов о Виртуальной АТС. Каждый вопрос раскрывается при клике, показывая подробный ответ. Все аккордеоны по умолчанию закрыты (height: 0px)",
+      "title": "",
+      "text": "Секция содержит 6 элементов аккордеона с вопросами пользователей и подробными ответами",
+      "elements": [],
+      "images": [],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [
+          {
+            "text": "http://info.vats.mgts.ru/",
+            "href": "http://info.vats.mgts.ru/",
+            "purpose": "База знаний по настройке Виртуальной АТС МГТС"
+          },
+          {
+            "text": "8 495 700-70-70",
+            "href": "http://info.vats.mgts.ru/crm",
+            "purpose": "Телефон поддержки специалистов МГТС"
+          },
+          {
+            "text": "http://info.vats.mgts.ru/crm",
+            "href": "http://info.vats.mgts.ru/crm",
+            "purpose": "Список CRM систем с интеграцией по API"
+          },
+          {
+            "text": "http://info.vats.mgts.ru/communicator",
+            "href": "http://info.vats.mgts.ru/communicator",
+            "purpose": "Фирменный коммуникатор МГТС для звонков с компьютера"
+          }
+        ],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "accordionItems": [
+        {
+          "title": "Можно ли использовать с ВАТС уже имеющийся номер телефона?",
+          "isActive": false,
+          "content": "Виртуальная АТС позволяет подключить существующие номера стороннего оператора. Можно подключить номера любых регионов и любых операторов связи. Стоимость исходящих звонков будет рассчитываться по тарифам этого оператора"
+        },
+        {
+          "title": "Чем виртуальная АТС лучше обычной офисной АТС и стандартной телефонии?",
+          "isActive": false,
+          "content": "• гибкая интеграция с большинством CRM систем.\n• страничка в интернете, на которой можно контролировать всю телефонию компании\n• регулярные обновления и появление нового функционала\n• плата только за используемые рабочие места\n• отсутствие привязки к адресу, возможность подключать филиалы\n• даже при отключении электричества или интернета продолжит работать с переадресацией на мобильные и сохранит все звонки\n• обслуживается оператором"
+        },
+        {
+          "title": "В нашей компании нет технического специалиста. Справлюсь ли я с настройкой Виртуальной АТС?",
+          "isActive": false,
+          "content": "Настройка Виртуальной АТС МГТС не требует специальных навыков, личный кабинет прост и интуитивно понятен. Подробная инструкция по настройке доступна в базе знаний по адресу http://info.vats.mgts.ru/ Если вы столкнетесь со сложностями, наши специалисты помогут их решить по телефону 8 495 700-70-70."
+        },
+        {
+          "title": "С какими CRM-системами есть интеграция?",
+          "isActive": false,
+          "content": "У Виртуальной АТС есть готовые интеграции с большинством популярных CRM и колл трекинговых систем: amoCRM, Битрикс24, ПланФикс, retailCRM, 1С:Управление нашей фирмой, PrimeGate, Roistat, Yclients, Клиентикс, РемОнлайн. Для настройки не требуется участия системного администратора. С большинством оставшихся систем работает интеграция по API, список доступен тут: http://info.vats.mgts.ru/crm"
+        },
+        {
+          "title": "Что такое IP-телефон?",
+          "isActive": false,
+          "content": "IP-телефон — это телефон, подключающийся к ВАТС через канал МГТС или Интернет. Эти телефоны обычно поддерживают несколько линий и намного более функциональны по сравнению со старыми аналоговыми телефонами. IP телефоны могут быть как настольными, так и переносными (IP DECT)."
+        },
+        {
+          "title": "Что такое софтфон?",
+          "isActive": false,
+          "content": "Софтфон это программа для компьютера или смартфона, позволяющая совершать звонки. По сути это просто программный телефон. Сотруднику может быть намного удобнее разговаривать через гарнитуру, подключенную к смартфону или компьютеру, а для ОАТС эти звонки не будут отличаться от звонков с обычных настольных телефонов. Для звонков с компьютера МГТС рекомендует свой фирменный коммуникатор http://info.vats.mgts.ru/communicator"
+        }
+      ],
+      "cards": [],
+      "tabs": []
+    }
+  ]
+}

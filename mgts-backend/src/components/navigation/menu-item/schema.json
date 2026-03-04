@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_navigation_menuitems",
+  "info": {
+    "displayName": "Menu Item",
+    "description": "Пункт главного меню"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "href": {
+      "type": "string",
+      "required": true
+    },
+    "isExternal": {
+      "type": "boolean",
+      "default": false
+    },
+    "hasMegaMenu": {
+      "type": "boolean",
+      "default": false
+    },
+    "megaMenuId": {
+      "type": "string"
+    },
+    "order": {
+      "type": "integer",
+      "default": 0
+    },
+    "isVisible": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}
+
+
+

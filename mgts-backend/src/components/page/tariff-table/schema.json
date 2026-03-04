@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_page_tariff_tables",
+  "info": {
+    "displayName": "Tariff Table",
+    "description": "Табличное представление тарифов. CSS классы: tariff-table (контейнер), tariff-table__title (заголовок), tariff-table__table (таблица)"
+  },
+  "options": {},
+  "attributes": {
+    "isVisible": {
+      "type": "boolean",
+      "default": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "columns": {
+      "type": "json",
+      "description": "Массив названий колонок [{name: string, key: string}]",
+      "required": true
+    },
+    "rows": {
+      "type": "json",
+      "description": "Массив строк таблицы [{[columnKey]: value}]",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

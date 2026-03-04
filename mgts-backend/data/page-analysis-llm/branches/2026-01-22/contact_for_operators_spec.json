@@ -1,0 +1,121 @@
+{
+  "page": {
+    "slug": "contact_for_operators",
+    "url": "https://business.mgts.ru/operators/contact_for_operators",
+    "pathname": "/operators/contact_for_operators",
+    "analyzedAt": "2026-01-14T08:10:33.785Z",
+    "screenshot": "/Users/andrey_efremov/Downloads/runs/mgts-backend/temp/page-analysis-llm/contact_for_operators_screenshot.png",
+    "llmProvider": "perplexity",
+    "llmModel": "sonar"
+  },
+  "metadata": {
+    "title": "Контактные данные для операторов связи"
+  },
+  "sections": [
+    {
+      "sectionIndex": 1,
+      "type": "breadcrumbs",
+      "description": "Навигационная цепочка (хлебные крошки) для показа текущего местоположения пользователя на сайте и быстрого возврата к родительским разделам",
+      "title": "Контактные данные для операторов связи",
+      "text": "Главная → Операторам связи → Контактные данные для операторов связи",
+      "links": {
+        "internalLinks": [
+          {
+            "text": "Главная",
+            "href": "/",
+            "purpose": "Переход на главную страницу сайта"
+          },
+          {
+            "text": "Операторам связи",
+            "href": "/operators",
+            "purpose": "Переход в раздел для операторов связи"
+          }
+        ]
+      }
+    },
+    {
+      "sectionIndex": 2,
+      "type": "sidebar",
+      "description": "Боковое навигационное меню с разделами для операторов связи. Активный раздел выделен визуально. Предоставляет быстрый доступ ко всем подразделам контактов для операторов",
+      "title": "Навигация по разделам контактов",
+      "text": "Список разделов: Каналы связи и Присоединение к сети электросвязи (активный), Доступ к ЛКС, Размещение оборудования, Строительство и Эксплуатация, Аренда сетей связи",
+      "links": {
+        "internalLinks": [
+          {
+            "text": "Каналы связи и Присоединение к сети электросвязи",
+            "href": "https://business.mgts.ru/operators/contact_for_operators",
+            "purpose": "Текущая страница - контактные данные по каналам связи и присоединению к сети"
+          },
+          {
+            "text": "Доступ к ЛКС",
+            "href": "/operators/access_to_lks",
+            "purpose": "Раздел с информацией о доступе к локальным вычислительным сетям"
+          },
+          {
+            "text": "Размещение оборудования",
+            "href": "/operators/equipment_placement",
+            "purpose": "Раздел о размещении оборудования операторов"
+          },
+          {
+            "text": "Строительство и Эксплуатация",
+            "href": "/operators/construction_and_operation",
+            "purpose": "Раздел о строительстве и эксплуатации сетей"
+          },
+          {
+            "text": "Аренда сетей связи",
+            "href": "/operators/network_rental",
+            "purpose": "Раздел об аренде сетей связи МГТС"
+          }
+        ]
+      }
+    },
+    {
+      "sectionIndex": 3,
+      "type": "main-content",
+      "description": "Основной контент страницы с заголовком и карточкой контактных данных для операторов связи по направлению 'Каналы связи и Присоединение к сети электросвязи'",
+      "title": "Каналы связи и Присоединение к сети электросвязи",
+      "text": "Контактная информация для операторов связи, желающих подключиться к сети МГТС или получить каналы связи",
+      "elements": [
+        {
+          "type": "contact-card",
+          "items": [
+            {
+              "title": "Email:",
+              "info": "mgts@mgts.ru"
+            },
+            {
+              "title": "Техническая поддержка:",
+              "info": "Тел: 8 495 700-70-70\nE-mail: b2o_msk_fix@mgts.ru"
+            }
+          ]
+        }
+      ],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [
+        {
+          "title": "Email",
+          "text": "mgts@mgts.ru",
+          "link": {
+            "text": "mgts@mgts.ru",
+            "href": "mailto:mgts@mgts.ru",
+            "purpose": "Отправка email для общих вопросов по каналам связи"
+          }
+        },
+        {
+          "title": "Техническая поддержка",
+          "text": "Тел: 8 495 700-70-70\nE-mail: b2o_msk_fix@mgts.ru",
+          "link": {
+            "text": "b2o_msk_fix@mgts.ru",
+            "href": "mailto:b2o_msk_fix@mgts.ru",
+            "purpose": "Техническая поддержка по каналам связи и присоединению"
+          }
+        }
+      ]
+    }
+  ]
+}

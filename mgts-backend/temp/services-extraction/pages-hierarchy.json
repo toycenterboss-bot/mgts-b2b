@@ -1,0 +1,510 @@
+{
+  "timestamp": "2026-01-28T06:55:12.191Z",
+  "totalPages": 84,
+  "flat": [
+    {
+      "slug": "home",
+      "parentSlug": null,
+      "path": "/",
+      "title": ""
+    },
+    {
+      "slug": "about_mgts",
+      "parentSlug": "home",
+      "path": "/about_mgts",
+      "title": "О МГТС"
+    },
+    {
+      "slug": "about_registrar",
+      "parentSlug": "home",
+      "path": "/about_registrar",
+      "title": "О регистраторе ПАО МГТС"
+    },
+    {
+      "slug": "government",
+      "parentSlug": "home",
+      "path": "/government",
+      "title": "Госзаказчикам"
+    },
+    {
+      "slug": "government_digital_services",
+      "parentSlug": "government",
+      "path": "/government/digital_services",
+      "title": "Цифровые сервисы"
+    },
+    {
+      "slug": "access_control_systems",
+      "parentSlug": "government_digital_services",
+      "path": "/government/digital_services/access_control_systems",
+      "title": "Системы контроля доступа"
+    },
+    {
+      "slug": "automated_control_systems",
+      "parentSlug": "government_digital_services",
+      "path": "/government/digital_services/automated_control_systems",
+      "title": "Автоматизированные системы управления"
+    },
+    {
+      "slug": "automated_system_monitoring_accounting",
+      "parentSlug": "government_digital_services",
+      "path": "/government/digital_services/automated_system_monitoring_accounting",
+      "title": "Автоматизированная система контроля и учёта энергоресурсов"
+    },
+    {
+      "slug": "entrance_video_surveillance",
+      "parentSlug": "government_digital_services",
+      "path": "/government/digital_services/entrance_video_surveillance",
+      "title": "Подъездное видеонаблюдение"
+    },
+    {
+      "slug": "equipment",
+      "parentSlug": "government_digital_services",
+      "path": "/government/digital_services/equipment",
+      "title": "Оборудование"
+    },
+    {
+      "slug": "introduction_security_tv_systems",
+      "parentSlug": "government_digital_services",
+      "path": "/government/digital_services/introduction_security_tv_systems",
+      "title": "Внедрение систем охранного телевидения"
+    },
+    {
+      "slug": "main_and_backup_data_transmission",
+      "parentSlug": "government_digital_services",
+      "path": "/government/digital_services/main_and_backup_data_transmission",
+      "title": "Сопряжение с Региональной системой оповещения г. Москвы"
+    },
+    {
+      "slug": "maintenance_interface_device",
+      "parentSlug": "government_digital_services",
+      "path": "/government/digital_services/maintenance_interface_device",
+      "title": "Техническое обслуживание устройства сопряжения"
+    },
+    {
+      "slug": "speakerphone",
+      "parentSlug": "government_digital_services",
+      "path": "/government/digital_services/speakerphone",
+      "title": "Громкоговорящая связь"
+    },
+    {
+      "slug": "video_surveillance_building",
+      "parentSlug": "government_digital_services",
+      "path": "/government/digital_services/video_surveillance_building",
+      "title": "Видеонаблюдение на объектах строительства"
+    },
+    {
+      "slug": "video_surveillance_maintenance",
+      "parentSlug": "government_digital_services",
+      "path": "/government/digital_services/video_surveillance_maintenance",
+      "title": "Техническое обслуживание системы видеонаблюдения"
+    },
+    {
+      "slug": "government_communications_infrastructure",
+      "parentSlug": "government",
+      "path": "/government/communications_infrastructure",
+      "title": "Инфраструктура связи"
+    },
+    {
+      "slug": "external_communication",
+      "parentSlug": "government_communications_infrastructure",
+      "path": "/government/communications_infrastructure/external_communication",
+      "title": "Наружные сети связи"
+    },
+    {
+      "slug": "local_computing_network",
+      "parentSlug": "government_communications_infrastructure",
+      "path": "/government/communications_infrastructure/local_computing_network",
+      "title": "Локальная вычислительная сеть, LAN"
+    },
+    {
+      "slug": "network_operation",
+      "parentSlug": "government_communications_infrastructure",
+      "path": "/government/communications_infrastructure/network_operation",
+      "title": "Эксплуатация сети"
+    },
+    {
+      "slug": "structured_cabling_networks",
+      "parentSlug": "government_communications_infrastructure",
+      "path": "/government/communications_infrastructure/structured_cabling_networks",
+      "title": "Структурированные кабельные сети"
+    },
+    {
+      "slug": "government_all_services",
+      "parentSlug": "government",
+      "path": "/government/all_services",
+      "title": "Все услуги"
+    },
+    {
+      "slug": "government_customized_solutions",
+      "parentSlug": "government",
+      "path": "/government/customized_solutions",
+      "title": "Индивидуальные решения"
+    },
+    {
+      "slug": "business",
+      "parentSlug": "home",
+      "path": "/business",
+      "title": "Бизнесу"
+    },
+    {
+      "slug": "access_internet",
+      "parentSlug": "business",
+      "path": "/business/access_internet",
+      "title": "Доступ в интернет"
+    },
+    {
+      "slug": "business_equipment_setup",
+      "parentSlug": "business",
+      "path": "/business/equipment_setup",
+      "title": "Настройка оборудования"
+    },
+    {
+      "slug": "computer_help",
+      "parentSlug": "business_equipment_setup",
+      "path": "/business/equipment_setup/computer_help",
+      "title": "Компьютерная помощь с выездом в офис"
+    },
+    {
+      "slug": "business_payment_methods",
+      "parentSlug": "business",
+      "path": "/business/payment_methods",
+      "title": "Способы оплаты услуг для ИП и ООО"
+    },
+    {
+      "slug": "digital_television",
+      "parentSlug": "business",
+      "path": "/business/digital_television",
+      "title": "Цифровое телевидение для бизнеса"
+    },
+    {
+      "slug": "mobile_connection",
+      "parentSlug": "business",
+      "path": "/business/mobile_connection",
+      "title": "Мобильная связь"
+    },
+    {
+      "slug": "security_alarm",
+      "parentSlug": "business",
+      "path": "/business/security_alarm",
+      "title": "Охранная сигнализация для офиса"
+    },
+    {
+      "slug": "telephony",
+      "parentSlug": "business",
+      "path": "/business/telephony",
+      "title": "Телефония"
+    },
+    {
+      "slug": "video_surveillance_office",
+      "parentSlug": "business",
+      "path": "/business/video_surveillance_office",
+      "title": "Видеонаблюдение для офиса"
+    },
+    {
+      "slug": "operators",
+      "parentSlug": "home",
+      "path": "/operators",
+      "title": "Операторам связи"
+    },
+    {
+      "slug": "accommodation_at_sites",
+      "parentSlug": "operators",
+      "path": "/operators/infrastructure/accommodation_at_sites",
+      "title": "Размещение на объектах"
+    },
+    {
+      "slug": "avr_ppr",
+      "parentSlug": "operators",
+      "path": "/operators/infrastructure/avr_ppr",
+      "title": "Оказание услуг АВР и ППР"
+    },
+    {
+      "slug": "lks_kr",
+      "parentSlug": "operators",
+      "path": "/operators/infrastructure/lks_kr",
+      "title": "Предоставление места в кабельной канализации"
+    },
+    {
+      "slug": "pir_smr_mgts",
+      "parentSlug": "operators",
+      "path": "/operators/infrastructure/pir_smr_mgts",
+      "title": "Проектирование и строительство сетей связи"
+    },
+    {
+      "slug": "contact_for_operators",
+      "parentSlug": "operators",
+      "path": "/operators/contact_for_operators",
+      "title": "Контактные данные для операторов связи"
+    },
+    {
+      "slug": "data_transfer",
+      "parentSlug": "operators",
+      "path": "/operators/data_transfer",
+      "title": "Передача данных"
+    },
+    {
+      "slug": "joining_and_passing_traffic",
+      "parentSlug": "operators",
+      "path": "/operators/joining_and_passing_traffic",
+      "title": "Присоединение и пропуск трафика"
+    },
+    {
+      "slug": "operators_all_services",
+      "parentSlug": "operators",
+      "path": "/operators/all_services",
+      "title": "Все услуги"
+    },
+    {
+      "slug": "operators_nondiscriminatory_access",
+      "parentSlug": "operators",
+      "path": "/operators/nondiscriminatory_access",
+      "title": "Недискриминационный доступ"
+    },
+    {
+      "slug": "partners",
+      "parentSlug": "home",
+      "path": "/partners",
+      "title": "Партнерам"
+    },
+    {
+      "slug": "developers_all_services",
+      "parentSlug": "partners",
+      "path": "/partners/all_services",
+      "title": "Все услуги"
+    },
+    {
+      "slug": "documents",
+      "parentSlug": "partners",
+      "path": "/partners/documents",
+      "title": "Документация"
+    },
+    {
+      "slug": "partners_creating_work_order",
+      "parentSlug": "partners",
+      "path": "/partners/creating_work_order",
+      "title": "Создание наряда на обследование люка"
+    },
+    {
+      "slug": "partners_ramochnie_dogovori",
+      "parentSlug": "partners",
+      "path": "/partners/ramochnie_dogovori",
+      "title": "Рамочный договор"
+    },
+    {
+      "slug": "procedure_admission_work",
+      "parentSlug": "partners",
+      "path": "/partners/procedure_admission_work",
+      "title": "Порядок допуска для проведения работ"
+    },
+    {
+      "slug": "purchas",
+      "parentSlug": "partners",
+      "path": "/partners/purchas",
+      "title": "Закупки"
+    },
+    {
+      "slug": "realization",
+      "parentSlug": "partners",
+      "path": "/partners/realization",
+      "title": "Реализация ТМЦ"
+    },
+    {
+      "slug": "tariffs",
+      "parentSlug": "partners",
+      "path": "/partners/tariffs",
+      "title": "Тарифы"
+    },
+    {
+      "slug": "bank_details",
+      "parentSlug": "home",
+      "path": "/bank_details",
+      "title": "Банковские реквизиты"
+    },
+    {
+      "slug": "developers",
+      "parentSlug": "home",
+      "path": "/developers",
+      "title": "Застройщикам"
+    },
+    {
+      "slug": "developers_connecting_objects",
+      "parentSlug": "developers",
+      "path": "/developers/connecting_objects",
+      "title": "Подключение объектов недвижимости к сетям связи"
+    },
+    {
+      "slug": "connecting_commercial",
+      "parentSlug": "developers_connecting_objects",
+      "path": "/developers/connecting_objects/connecting_commercial",
+      "title": "Подключение объектов коммерческой недвижимости"
+    },
+    {
+      "slug": "connecting_construction",
+      "parentSlug": "developers_connecting_objects",
+      "path": "/developers/connecting_objects/connecting_construction",
+      "title": "Подключение объектов строительства и реконструкции к сетям электросвязи"
+    },
+    {
+      "slug": "connecting_residential",
+      "parentSlug": "developers_connecting_objects",
+      "path": "/developers/connecting_objects/connecting_residential",
+      "title": "Подключение объектов жилой недвижимости"
+    },
+    {
+      "slug": "developers_compensation_for_losses",
+      "parentSlug": "developers",
+      "path": "/developers/compensation_for_losses",
+      "title": "Компенсация убытков при выносе и/или ликвидации сооружений связи ПАО МГТС"
+    },
+    {
+      "slug": "developers_digital_solutions",
+      "parentSlug": "developers",
+      "path": "/developers/digital_solutions",
+      "title": "Цифровые решения"
+    },
+    {
+      "slug": "contact_details",
+      "parentSlug": "home",
+      "path": "/contact_details",
+      "title": "Контактные данные"
+    },
+    {
+      "slug": "cookie_processing",
+      "parentSlug": "home",
+      "path": "/cookie_processing",
+      "title": "Политика обработки cookies"
+    },
+    {
+      "slug": "corporate_documents",
+      "parentSlug": "home",
+      "path": "/corporate_documents",
+      "title": "Корпоративные документы"
+    },
+    {
+      "slug": "data_processing",
+      "parentSlug": "home",
+      "path": "/data_processing",
+      "title": "Политика обработки персональных данных"
+    },
+    {
+      "slug": "decisions_meetings_shareholders",
+      "parentSlug": "home",
+      "path": "/decisions_meetings_shareholders",
+      "title": "Решения общих собраний акционеров"
+    },
+    {
+      "slug": "forms_doc",
+      "parentSlug": "home",
+      "path": "/forms_doc",
+      "title": "Формы типовых документов"
+    },
+    {
+      "slug": "general_director_message",
+      "parentSlug": "home",
+      "path": "/general_director_message",
+      "title": "Обращение Генерального директора"
+    },
+    {
+      "slug": "home",
+      "parentSlug": "home",
+      "path": "/",
+      "title": "МГТС - Главная"
+    },
+    {
+      "slug": "infoformen",
+      "parentSlug": "home",
+      "path": "/infoformen",
+      "title": "Информация для лиц, имеющих право на участие в годовых и внеочередных общих собраниях акционеров ПАО МГТС"
+    },
+    {
+      "slug": "interaction_with_partners",
+      "parentSlug": "home",
+      "path": "/interaction_with_partners",
+      "title": "Взаимодействие с партнерами"
+    },
+    {
+      "slug": "labor_safety",
+      "parentSlug": "home",
+      "path": "/labor_safety",
+      "title": "Политика в области охраны труда ПАО МГТС"
+    },
+    {
+      "slug": "licenses",
+      "parentSlug": "home",
+      "path": "/licenses",
+      "title": "Лицензии и СРО +"
+    },
+    {
+      "slug": "mgts_compliance_policies",
+      "parentSlug": "home",
+      "path": "/mgts_compliance_policies",
+      "title": "Комплаенс-политики МГТС"
+    },
+    {
+      "slug": "mgts_values",
+      "parentSlug": "home",
+      "path": "/mgts_values",
+      "title": "Ценности МГТС"
+    },
+    {
+      "slug": "news",
+      "parentSlug": "home",
+      "path": "/news",
+      "title": "Новости"
+    },
+    {
+      "slug": "offers",
+      "parentSlug": "home",
+      "path": "/offers",
+      "title": "Оферты"
+    },
+    {
+      "slug": "operinfo",
+      "parentSlug": "home",
+      "path": "/operinfo",
+      "title": "Стандарты раскрытия информации"
+    },
+    {
+      "slug": "partners_feedback_form",
+      "parentSlug": "home",
+      "path": "/partners_feedback_form",
+      "title": "Помогите нам стать лучше!"
+    },
+    {
+      "slug": "principles_corporate_manage",
+      "parentSlug": "home",
+      "path": "/principles_corporate_manage",
+      "title": "Принципы корпоративного управления"
+    },
+    {
+      "slug": "single_hotline",
+      "parentSlug": "home",
+      "path": "/single_hotline",
+      "title": "Единая горячая линия"
+    },
+    {
+      "slug": "stockholder_copies_document",
+      "parentSlug": "home",
+      "path": "/stockholder_copies_document",
+      "title": "Предоставление копий документов"
+    },
+    {
+      "slug": "timing_malfunctions",
+      "parentSlug": "home",
+      "path": "/timing_malfunctions",
+      "title": "Сроки устранения неисправностей"
+    },
+    {
+      "slug": "virtual_ate",
+      "parentSlug": "home",
+      "path": "/virtual_ate",
+      "title": "Виртуальная АТС"
+    },
+    {
+      "slug": "wca",
+      "parentSlug": "home",
+      "path": "/wca",
+      "title": "Специальная оценка условий труда"
+    }
+  ]
+}

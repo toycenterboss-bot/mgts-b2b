@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_page_career_values",
+  "info": {
+    "displayName": "Career Values",
+    "description": "Секция ценностей компании для карьерной страницы"
+  },
+  "options": {},
+  "attributes": {
+    "isVisible": {
+      "type": "boolean",
+      "default": true
+    },
+    "eyebrow": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.career-value-item"
+    }
+  }
+}

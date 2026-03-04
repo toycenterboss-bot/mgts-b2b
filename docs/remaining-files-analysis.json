@@ -1,0 +1,1279 @@
+{
+  "summary": {
+    "total": 102,
+    "categorized": 79,
+    "alreadyInPlace": 0,
+    "uncategorized": 23
+  },
+  "categorized": [
+    {
+      "file": "SiteMGTS/ARCHITECTURE_REFACTORING.md",
+      "name": "ARCHITECTURE_REFACTORING.md",
+      "category": "docs/guides/development/",
+      "reason": "Совпадение по ключевым словам (2)",
+      "size": 2786
+    },
+    {
+      "file": "SiteMGTS/CMS_IMPLEMENTATION_PLAN.md",
+      "name": "CMS_IMPLEMENTATION_PLAN.md",
+      "category": "docs/guides/development/",
+      "reason": "Совпадение по ключевым словам (2)",
+      "size": 54815
+    },
+    {
+      "file": "SiteMGTS/CMS_READINESS_ANALYSIS.md",
+      "name": "CMS_READINESS_ANALYSIS.md",
+      "category": "docs/cms/integration/",
+      "reason": "Совпадение по ключевым словам (2)",
+      "size": 41266
+    },
+    {
+      "file": "SiteMGTS/COMPONENTS_FIX.md",
+      "name": "COMPONENTS_FIX.md",
+      "category": "docs/fixes/structure/",
+      "reason": "Совпадение по ключевым словам (2)",
+      "size": 2931
+    },
+    {
+      "file": "SiteMGTS/CROSS_PLATFORM_ANALYSIS.md",
+      "name": "CROSS_PLATFORM_ANALYSIS.md",
+      "category": "docs/guides/development/",
+      "reason": "Совпадение по ключевым словам (1)",
+      "size": 12000
+    },
+    {
+      "file": "SiteMGTS/CROSS_PLATFORM_DEEP_CHECK.md",
+      "name": "CROSS_PLATFORM_DEEP_CHECK.md",
+      "category": "docs/guides/usage/",
+      "reason": "Совпадение по ключевым словам (1)",
+      "size": 10835
+    },
+    {
+      "file": "SiteMGTS/CROSS_PLATFORM_FIXES.md",
+      "name": "CROSS_PLATFORM_FIXES.md",
+      "category": "docs/fixes/structure/",
+      "reason": "Совпадение по ключевым словам (1)",
+      "size": 5493
+    },
+    {
+      "file": "SiteMGTS/FOOTER_ДОБАВЛЕН_НА_ВСЕ_СТРАНИЦЫ.md",
+      "name": "FOOTER_ДОБАВЛЕН_НА_ВСЕ_СТРАНИЦЫ.md",
+      "category": "docs/fixes/structure/",
+      "reason": "Совпадение по ключевым словам (1)",
+      "size": 4245
+    },
+    {
+      "file": "SiteMGTS/FOOTER_ОБНОВЛЕН.md",
+      "name": "FOOTER_ОБНОВЛЕН.md",
+      "category": "docs/fixes/structure/",
+      "reason": "Совпадение по ключевым словам (1)",
+      "size": 2150
+    },
+    {
+      "file": "SiteMGTS/ICONS_CHECK.md",
+      "name": "ICONS_CHECK.md",
+      "category": "docs/guides/usage/",
+      "reason": "Совпадение по ключевым словам (1)",
+      "size": 4614
+    },
+    {
+      "file": "SiteMGTS/ICONS_INSTRUCTIONS.md",
+      "name": "ICONS_INSTRUCTIONS.md",
+      "category": "docs/guides/usage/",
+      "reason": "Совпадение по ключевым словам (1)",
+      "size": 3739
+    },
+    {
+      "file": "SiteMGTS/MENU_TEMPLATE.md",
+      "name": "MENU_TEMPLATE.md",
+      "category": "docs/project/",
+      "reason": "Совпадение по ключевым словам (2)",
+      "size": 1586
+    },
+    {
+      "file": "SiteMGTS/MIGRATION_COMPLETE.md",
+      "name": "MIGRATION_COMPLETE.md",
+      "category": "docs/guides/development/",
+      "reason": "Совпадение по ключевым словам (1)",
+      "size": 4761
+    },
+    {
+      "file": "SiteMGTS/PAGES_LIST.md",
+      "name": "PAGES_LIST.md",
+      "category": "docs/project/",
+      "reason": "Совпадение по ключевым словам (2)",
+      "size": 4781
+    },
+    {
+      "file": "SiteMGTS/PATH_FIXES_SUMMARY.md",
+      "name": "PATH_FIXES_SUMMARY.md",
+      "category": "docs/fixes/structure/",
+      "reason": "Совпадение по ключевым словам (2)",
+      "size": 5554
+    },
+    {
+      "file": "SiteMGTS/PATH_ISSUES_ANALYSIS.md",
+      "name": "PATH_ISSUES_ANALYSIS.md",
+      "category": "docs/fixes/structure/",
+      "reason": "Совпадение по ключевым словам (2)",
+      "size": 7569
+    },
+    {
+      "file": "SiteMGTS/QUICK_START.md",
+      "name": "QUICK_START.md",
+      "category": "docs/guides/usage/",
+      "reason": "Совпадение по ключевым словам (2)",
+      "size": 1826
+    },
+    {
+      "file": "SiteMGTS/README_COMPONENTS.md",
+      "name": "README_COMPONENTS.md",
+      "category": "docs/guides/development/",
+      "reason": "Совпадение по ключевым словам (1)",
+      "size": 2644
+    },
+    {
+      "file": "SiteMGTS/SETUP.md",
+      "name": "SETUP.md",
+      "category": "docs/guides/usage/",
+      "reason": "Совпадение по ключевым словам (1)",
+      "size": 7287
+    },
+    {
+      "file": "SiteMGTS/SETUP_ENVIRONMENT.md",
+      "name": "SETUP_ENVIRONMENT.md",
+      "category": "docs/installation/setup/",
+      "reason": "Совпадение по ключевым словам (2)",
+      "size": 2906
+    },
+    {
+      "file": "SiteMGTS/SIDEBAR_FIX.md",
+      "name": "SIDEBAR_FIX.md",
+      "category": "docs/fixes/structure/",
+      "reason": "Совпадение по ключевым словам (2)",
+      "size": 3502
+    },
+    {
+      "file": "SiteMGTS/START_SERVER.bat",
+      "name": "START_SERVER.bat",
+      "category": "docs/installation/setup/",
+      "reason": "Совпадение по ключевым словам (2)",
+      "size": 193
+    },
+    {
+      "file": "SiteMGTS/START_SERVER.sh",
+      "name": "START_SERVER.sh",
+      "category": "docs/installation/setup/",
+      "reason": "Совпадение по ключевым словам (2)",
+      "size": 199
+    },
+    {
+      "file": "SiteMGTS/STEP_1_COMPLETED.md",
+      "name": "STEP_1_COMPLETED.md",
+      "category": "docs/status/completed/",
+      "reason": "Совпадение по ключевым словам (3)",
+      "size": 4797
+    },
+    {
+      "file": "SiteMGTS/STEP_1_FIX.md",
+      "name": "STEP_1_FIX.md",
+      "category": "docs/fixes/structure/",
+      "reason": "Совпадение по ключевым словам (1)",
+      "size": 2745
+    },
+    {
+      "file": "SiteMGTS/STEP_1_INSTRUCTIONS.md",
+      "name": "STEP_1_INSTRUCTIONS.md",
+      "category": "docs/guides/usage/",
+      "reason": "Совпадение по ключевым словам (1)",
+      "size": 7851
+    },
+    {
+      "file": "SiteMGTS/STEP_1_STATUS.md",
+      "name": "STEP_1_STATUS.md",
+      "category": "docs/status/completed/",
+      "reason": "Совпадение по ключевым словам (2)",
+      "size": 3031
+    },
+    {
+      "file": "SiteMGTS/STEP_2_INSTRUCTIONS.md",
+      "name": "STEP_2_INSTRUCTIONS.md",
+      "category": "docs/guides/usage/",
+      "reason": "Совпадение по ключевым словам (1)",
+      "size": 17934
+    },
+    {
+      "file": "SiteMGTS/STEP_2_QUICK_START.md",
+      "name": "STEP_2_QUICK_START.md",
+      "category": "docs/guides/usage/",
+      "reason": "Совпадение по ключевым словам (2)",
+      "size": 2324
+    },
+    {
+      "file": "SiteMGTS/STRAPI_INSTALL_ALTERNATIVES.md",
+      "name": "STRAPI_INSTALL_ALTERNATIVES.md",
+      "category": "docs/installation/setup/",
+      "reason": "Совпадение по ключевым словам (2)",
+      "size": 5806
+    },
+    {
+      "file": "SiteMGTS/STRAPI_PATH_SOLUTIONS.md",
+      "name": "STRAPI_PATH_SOLUTIONS.md",
+      "category": "docs/installation/setup/",
+      "reason": "Совпадение по ключевым словам (1)",
+      "size": 6649
+    },
+    {
+      "file": "SiteMGTS/STRAPI_QUICK_FIX.md",
+      "name": "STRAPI_QUICK_FIX.md",
+      "category": "docs/guides/usage/",
+      "reason": "Совпадение по ключевым словам (1)",
+      "size": 1136
+    },
+    {
+      "file": "SiteMGTS/STRAPI_QUICK_START.md",
+      "name": "STRAPI_QUICK_START.md",
+      "category": "docs/guides/usage/",
+      "reason": "Совпадение по ключевым словам (2)",
+      "size": 2415
+    },
+    {
+      "file": "SiteMGTS/STRAPI_SETUP_STATUS.md",
+      "name": "STRAPI_SETUP_STATUS.md",
+      "category": "docs/installation/setup/",
+      "reason": "Совпадение по ключевым словам (2)",
+      "size": 3819
+    },
+    {
+      "file": "SiteMGTS/STRAPI_VERIFICATION.md",
+      "name": "STRAPI_VERIFICATION.md",
+      "category": "docs/guides/usage/",
+      "reason": "Совпадение по ключевым словам (1)",
+      "size": 4907
+    },
+    {
+      "file": "SiteMGTS/THIRD_LEVEL_FIX.md",
+      "name": "THIRD_LEVEL_FIX.md",
+      "category": "docs/fixes/structure/",
+      "reason": "Совпадение по ключевым словам (1)",
+      "size": 2878
+    },
+    {
+      "file": "SiteMGTS/TROUBLESHOOTING.md",
+      "name": "TROUBLESHOOTING.md",
+      "category": "docs/guides/usage/",
+      "reason": "Совпадение по ключевым словам (1)",
+      "size": 2831
+    },
+    {
+      "file": "SiteMGTS/TROUBLESHOOTING_404.md",
+      "name": "TROUBLESHOOTING_404.md",
+      "category": "docs/guides/usage/",
+      "reason": "Совпадение по ключевым словам (1)",
+      "size": 4066
+    },
+    {
+      "file": "SiteMGTS/add_sidebar_menu.py",
+      "name": "add_sidebar_menu.py",
+      "category": "docs/fixes/structure/",
+      "reason": "Совпадение по ключевым словам (2)",
+      "size": 36262
+    },
+    {
+      "file": "SiteMGTS/check_environment.ps1",
+      "name": "check_environment.ps1",
+      "category": "docs/guides/usage/",
+      "reason": "Совпадение по ключевым словам (1)",
+      "size": 4735
+    },
+    {
+      "file": "SiteMGTS/check_strapi_setup.ps1",
+      "name": "check_strapi_setup.ps1",
+      "category": "docs/guides/usage/",
+      "reason": "Совпадение по ключевым словам (2)",
+      "size": 9539
+    },
+    {
+      "file": "SiteMGTS/copy_mts_fonts.bat",
+      "name": "copy_mts_fonts.bat",
+      "category": "scripts/utils/",
+      "reason": "Совпадение по ключевым словам (1)",
+      "size": 517
+    },
+    {
+      "file": "SiteMGTS/copy_mts_fonts.ps1",
+      "name": "copy_mts_fonts.ps1",
+      "category": "scripts/utils/",
+      "reason": "Совпадение по ключевым словам (1)",
+      "size": 1367
+    },
+    {
+      "file": "SiteMGTS/copy_mts_fonts.py",
+      "name": "copy_mts_fonts.py",
+      "category": "scripts/utils/",
+      "reason": "Совпадение по ключевым словам (1)",
+      "size": 7184
+    },
+    {
+      "file": "SiteMGTS/cursor_2_cms.md",
+      "name": "cursor_2_cms.md",
+      "category": "docs/cms/integration/",
+      "reason": "Совпадение по ключевым словам (2)",
+      "size": 341940
+    },
+    {
+      "file": "SiteMGTS/cursor_site_structure_builder_script.md",
+      "name": "cursor_site_structure_builder_script.md",
+      "category": "docs/cms/integration/",
+      "reason": "Совпадение по ключевым словам (1)",
+      "size": 2175997
+    },
+    {
+      "file": "SiteMGTS/extract_about_full.py",
+      "name": "extract_about_full.py",
+      "category": "scripts/utils/",
+      "reason": "Совпадение по ключевым словам (1)",
+      "size": 12256
+    },
+    {
+      "file": "SiteMGTS/extract_menu_from_html.py",
+      "name": "extract_menu_from_html.py",
+      "category": "docs/fixes/structure/",
+      "reason": "Совпадение по ключевым словам (1)",
+      "size": 12550
+    },
+    {
+      "file": "SiteMGTS/extract_menu_pages.py",
+      "name": "extract_menu_pages.py",
+      "category": "docs/project/",
+      "reason": "Совпадение по ключевым словам (2)",
+      "size": 15131
+    },
+    {
+      "file": "SiteMGTS/fetch_about_content.py",
+      "name": "fetch_about_content.py",
+      "category": "scripts/utils/",
+      "reason": "Совпадение по ключевым словам (1)",
+      "size": 4316
+    },
+    {
+      "file": "SiteMGTS/fix_component_loading.py",
+      "name": "fix_component_loading.py",
+      "category": "docs/fixes/structure/",
+      "reason": "Совпадение по ключевым словам (2)",
+      "size": 3588
+    },
+    {
+      "file": "SiteMGTS/fix_component_scripts.py",
+      "name": "fix_component_scripts.py",
+      "category": "docs/fixes/structure/",
+      "reason": "Совпадение по ключевым словам (2)",
+      "size": 2419
+    },
+    {
+      "file": "SiteMGTS/fix_quotes.py",
+      "name": "fix_quotes.py",
+      "category": "docs/fixes/structure/",
+      "reason": "Совпадение по ключевым словам (1)",
+      "size": 1804
+    },
+    {
+      "file": "SiteMGTS/fix_strapi_setup.ps1",
+      "name": "fix_strapi_setup.ps1",
+      "category": "docs/installation/setup/",
+      "reason": "Совпадение по ключевым словам (2)",
+      "size": 3663
+    },
+    {
+      "file": "SiteMGTS/fix_third_level_scripts.py",
+      "name": "fix_third_level_scripts.py",
+      "category": "docs/fixes/structure/",
+      "reason": "Совпадение по ключевым словам (1)",
+      "size": 3055
+    },
+    {
+      "file": "SiteMGTS/get_about_page.py",
+      "name": "get_about_page.py",
+      "category": "scripts/utils/",
+      "reason": "Совпадение по ключевым словам (1)",
+      "size": 3933
+    },
+    {
+      "file": "SiteMGTS/install_strapi_manual.ps1",
+      "name": "install_strapi_manual.ps1",
+      "category": "docs/installation/setup/",
+      "reason": "Совпадение по ключевым словам (2)",
+      "size": 3717
+    },
+    {
+      "file": "SiteMGTS/migrate_to_components.py",
+      "name": "migrate_to_components.py",
+      "category": "docs/guides/development/",
+      "reason": "Совпадение по ключевым словам (1)",
+      "size": 5884
+    },
+    {
+      "file": "SiteMGTS/move_strapi_to_runs.ps1",
+      "name": "move_strapi_to_runs.ps1",
+      "category": "docs/installation/setup/",
+      "reason": "Совпадение по ключевым словам (1)",
+      "size": 2991
+    },
+    {
+      "file": "SiteMGTS/remove_old_megamenu.py",
+      "name": "remove_old_megamenu.py",
+      "category": "scripts/utils/",
+      "reason": "Совпадение по ключевым словам (2)",
+      "size": 3018
+    },
+    {
+      "file": "SiteMGTS/setup_step1.ps1",
+      "name": "setup_step1.ps1",
+      "category": "docs/guides/usage/",
+      "reason": "Совпадение по ключевым словам (1)",
+      "size": 5430
+    },
+    {
+      "file": "SiteMGTS/site_structure_builder.py",
+      "name": "site_structure_builder.py",
+      "category": "docs/project/",
+      "reason": "Совпадение по ключевым словам (1)",
+      "size": 57288
+    },
+    {
+      "file": "SiteMGTS/start_strapi.ps1",
+      "name": "start_strapi.ps1",
+      "category": "docs/installation/setup/",
+      "reason": "Совпадение по ключевым словам (2)",
+      "size": 1376
+    },
+    {
+      "file": "SiteMGTS/update_about_menu.py",
+      "name": "update_about_menu.py",
+      "category": "docs/fixes/structure/",
+      "reason": "Совпадение по ключевым словам (1)",
+      "size": 17062
+    },
+    {
+      "file": "SiteMGTS/update_nav.py",
+      "name": "update_nav.py",
+      "category": "scripts/utils/",
+      "reason": "Совпадение по ключевым словам (1)",
+      "size": 8447
+    },
+    {
+      "file": "SiteMGTS/update_nav_script.ps1",
+      "name": "update_nav_script.ps1",
+      "category": "scripts/utils/",
+      "reason": "Совпадение по ключевым словам (1)",
+      "size": 2310
+    },
+    {
+      "file": "SiteMGTS/update_sidebar_script.py",
+      "name": "update_sidebar_script.py",
+      "category": "docs/fixes/structure/",
+      "reason": "Совпадение по ключевым словам (1)",
+      "size": 6324
+    },
+    {
+      "file": "mgts-backend/.strapi-updater.json",
+      "name": ".strapi-updater.json",
+      "category": "docs/installation/setup/",
+      "reason": "Совпадение по ключевым словам (1)",
+      "size": 58
+    },
+    {
+      "file": "mgts-backend/CMS_SETUP_INSTRUCTIONS.md",
+      "name": "CMS_SETUP_INSTRUCTIONS.md",
+      "category": "docs/guides/usage/",
+      "reason": "Совпадение по ключевым словам (2)",
+      "size": 7259
+    },
+    {
+      "file": "mgts-backend/CREATE_COMPONENTS_MANUAL.md",
+      "name": "CREATE_COMPONENTS_MANUAL.md",
+      "category": "docs/guides/development/",
+      "reason": "Совпадение по ключевым словам (1)",
+      "size": 5280
+    },
+    {
+      "file": "mgts-backend/EDITOR_GUIDE.md",
+      "name": "EDITOR_GUIDE.md",
+      "category": "docs/guides/usage/",
+      "reason": "Совпадение по ключевым словам (1)",
+      "size": 8437
+    },
+    {
+      "file": "mgts-backend/QUICK_START_EDITOR.md",
+      "name": "QUICK_START_EDITOR.md",
+      "category": "docs/guides/usage/",
+      "reason": "Совпадение по ключевым словам (2)",
+      "size": 1720
+    },
+    {
+      "file": "mgts-backend/STEP_2_2_COMPLETE.md",
+      "name": "STEP_2_2_COMPLETE.md",
+      "category": "docs/status/completed/",
+      "reason": "Совпадение по ключевым словам (2)",
+      "size": 2824
+    },
+    {
+      "file": "mgts-backend/STRAPI_FILE_STRUCTURE.md",
+      "name": "STRAPI_FILE_STRUCTURE.md",
+      "category": "docs/installation/setup/",
+      "reason": "Совпадение по ключевым словам (1)",
+      "size": 6414
+    },
+    {
+      "file": "mgts-backend/license.txt",
+      "name": "license.txt",
+      "category": "temp/txt/",
+      "reason": "Совпадение по ключевым словам (1)",
+      "size": 1340
+    },
+    {
+      "file": "mgts-backend/migration-log.txt",
+      "name": "migration-log.txt",
+      "category": "temp/txt/",
+      "reason": "Лог или временный текстовый файл",
+      "size": 805
+    },
+    {
+      "file": "mgts-backend/segment-pages-analysis.json",
+      "name": "segment-pages-analysis.json",
+      "category": "docs/analysis/reports/",
+      "reason": "JSON файл с результатами анализа",
+      "size": 2858
+    },
+    {
+      "file": "mgts-backend/segment-pages-detailed-analysis.json",
+      "name": "segment-pages-detailed-analysis.json",
+      "category": "docs/analysis/reports/",
+      "reason": "JSON файл с результатами анализа",
+      "size": 23661
+    },
+    {
+      "file": "mgts-backend/strapi.log",
+      "name": "strapi.log",
+      "category": "temp/txt/",
+      "reason": "Лог или временный текстовый файл",
+      "size": 142634
+    }
+  ],
+  "uncategorized": [
+    {
+      "file": "SiteMGTS/CROSS_PLATFORM_FINAL_REPORT.md",
+      "name": "CROSS_PLATFORM_FINAL_REPORT.md",
+      "ext": ".md",
+      "size": 11373
+    },
+    {
+      "file": "SiteMGTS/DEBUG_404.md",
+      "name": "DEBUG_404.md",
+      "ext": ".md",
+      "size": 2482
+    },
+    {
+      "file": "SiteMGTS/HOLIDAY_TEST.md",
+      "name": "HOLIDAY_TEST.md",
+      "ext": ".md",
+      "size": 1634
+    },
+    {
+      "file": "SiteMGTS/README.md",
+      "name": "README.md",
+      "ext": ".md",
+      "size": 5393
+    },
+    {
+      "file": "SiteMGTS/АНАЛИЗ_МЕНЮ.md",
+      "name": "АНАЛИЗ_МЕНЮ.md",
+      "ext": ".md",
+      "size": 2628
+    },
+    {
+      "file": "SiteMGTS/ИНСТРУКЦИЯ_ИЗВЛЕЧЕНИЕ_ПОЛНОГО_КОНТЕНТА.md",
+      "name": "ИНСТРУКЦИЯ_ИЗВЛЕЧЕНИЕ_ПОЛНОГО_КОНТЕНТА.md",
+      "ext": ".md",
+      "size": 1739
+    },
+    {
+      "file": "SiteMGTS/ИНСТРУКЦИЯ_ПОЛУЧЕНИЕ_КОНТЕНТА.md",
+      "name": "ИНСТРУКЦИЯ_ПОЛУЧЕНИЕ_КОНТЕНТА.md",
+      "ext": ".md",
+      "size": 1014
+    },
+    {
+      "file": "SiteMGTS/КОПИРОВАНИЕ_ШРИФТОВ_МТС.md",
+      "name": "КОПИРОВАНИЕ_ШРИФТОВ_МТС.md",
+      "ext": ".md",
+      "size": 1012
+    },
+    {
+      "file": "SiteMGTS/МОДЕРНИЗАЦИЯ_ЗАВЕРШЕНА.md",
+      "name": "МОДЕРНИЗАЦИЯ_ЗАВЕРШЕНА.md",
+      "ext": ".md",
+      "size": 4763
+    },
+    {
+      "file": "SiteMGTS/МОДЕРНИЗАЦИЯ_РЕЗЮМЕ.md",
+      "name": "МОДЕРНИЗАЦИЯ_РЕЗЮМЕ.md",
+      "ext": ".md",
+      "size": 2538
+    },
+    {
+      "file": "SiteMGTS/МОДЕРНИЗАЦИЯ_ТЗ.md",
+      "name": "МОДЕРНИЗАЦИЯ_ТЗ.md",
+      "ext": ".md",
+      "size": 8204
+    },
+    {
+      "file": "SiteMGTS/ОБЪЕДИНЕНИЕ_СЕГМЕНТОВ_ЗАВЕРШЕНО.md",
+      "name": "ОБЪЕДИНЕНИЕ_СЕГМЕНТОВ_ЗАВЕРШЕНО.md",
+      "ext": ".md",
+      "size": 1883
+    },
+    {
+      "file": "SiteMGTS/ПРОВЕРКА_МЕНЮ_ЗАВЕРШЕНА.md",
+      "name": "ПРОВЕРКА_МЕНЮ_ЗАВЕРШЕНА.md",
+      "ext": ".md",
+      "size": 922
+    },
+    {
+      "file": "SiteMGTS/УНИФИКАЦИЯ_МЕНЮ_ЗАВЕРШЕНА.md",
+      "name": "УНИФИКАЦИЯ_МЕНЮ_ЗАВЕРШЕНА.md",
+      "ext": ".md",
+      "size": 3082
+    },
+    {
+      "file": "SiteMGTS/УНИФИКАЦИЯ_МЕНЮ_ПЛАН.md",
+      "name": "УНИФИКАЦИЯ_МЕНЮ_ПЛАН.md",
+      "ext": ".md",
+      "size": 1746
+    },
+    {
+      "file": "SiteMGTS/ШРИФТЫ_МГТС_ОБНОВЛЕНЫ.md",
+      "name": "ШРИФТЫ_МГТС_ОБНОВЛЕНЫ.md",
+      "ext": ".md",
+      "size": 2088
+    },
+    {
+      "file": "SiteMGTS/ШРИФТЫ_МТС_НАСТРОЕНЫ.md",
+      "name": "ШРИФТЫ_МТС_НАСТРОЕНЫ.md",
+      "ext": ".md",
+      "size": 2152
+    },
+    {
+      "file": "mgts-backend/CONTENT_TYPE_BASIC.md",
+      "name": "CONTENT_TYPE_BASIC.md",
+      "ext": ".md",
+      "size": 3226
+    },
+    {
+      "file": "mgts-backend/CONTENT_TYPE_CREATED.md",
+      "name": "CONTENT_TYPE_CREATED.md",
+      "ext": ".md",
+      "size": 4583
+    },
+    {
+      "file": "mgts-backend/README.md",
+      "name": "README.md",
+      "ext": ".md",
+      "size": 2167
+    },
+    {
+      "file": "mgts-backend/package-lock.json",
+      "name": "package-lock.json",
+      "ext": ".json",
+      "size": 774847
+    },
+    {
+      "file": "mgts-backend/package.json",
+      "name": "package.json",
+      "ext": ".json",
+      "size": 1225
+    },
+    {
+      "file": "mgts-backend/tsconfig.json",
+      "name": "tsconfig.json",
+      "ext": ".json",
+      "size": 942
+    }
+  ],
+  "alreadyInPlace": [],
+  "byCategory": {
+    "docs/guides/development/": [
+      {
+        "file": "SiteMGTS/ARCHITECTURE_REFACTORING.md",
+        "name": "ARCHITECTURE_REFACTORING.md",
+        "category": "docs/guides/development/",
+        "reason": "Совпадение по ключевым словам (2)",
+        "size": 2786
+      },
+      {
+        "file": "SiteMGTS/CMS_IMPLEMENTATION_PLAN.md",
+        "name": "CMS_IMPLEMENTATION_PLAN.md",
+        "category": "docs/guides/development/",
+        "reason": "Совпадение по ключевым словам (2)",
+        "size": 54815
+      },
+      {
+        "file": "SiteMGTS/CROSS_PLATFORM_ANALYSIS.md",
+        "name": "CROSS_PLATFORM_ANALYSIS.md",
+        "category": "docs/guides/development/",
+        "reason": "Совпадение по ключевым словам (1)",
+        "size": 12000
+      },
+      {
+        "file": "SiteMGTS/MIGRATION_COMPLETE.md",
+        "name": "MIGRATION_COMPLETE.md",
+        "category": "docs/guides/development/",
+        "reason": "Совпадение по ключевым словам (1)",
+        "size": 4761
+      },
+      {
+        "file": "SiteMGTS/README_COMPONENTS.md",
+        "name": "README_COMPONENTS.md",
+        "category": "docs/guides/development/",
+        "reason": "Совпадение по ключевым словам (1)",
+        "size": 2644
+      },
+      {
+        "file": "SiteMGTS/migrate_to_components.py",
+        "name": "migrate_to_components.py",
+        "category": "docs/guides/development/",
+        "reason": "Совпадение по ключевым словам (1)",
+        "size": 5884
+      },
+      {
+        "file": "mgts-backend/CREATE_COMPONENTS_MANUAL.md",
+        "name": "CREATE_COMPONENTS_MANUAL.md",
+        "category": "docs/guides/development/",
+        "reason": "Совпадение по ключевым словам (1)",
+        "size": 5280
+      }
+    ],
+    "docs/cms/integration/": [
+      {
+        "file": "SiteMGTS/CMS_READINESS_ANALYSIS.md",
+        "name": "CMS_READINESS_ANALYSIS.md",
+        "category": "docs/cms/integration/",
+        "reason": "Совпадение по ключевым словам (2)",
+        "size": 41266
+      },
+      {
+        "file": "SiteMGTS/cursor_2_cms.md",
+        "name": "cursor_2_cms.md",
+        "category": "docs/cms/integration/",
+        "reason": "Совпадение по ключевым словам (2)",
+        "size": 341940
+      },
+      {
+        "file": "SiteMGTS/cursor_site_structure_builder_script.md",
+        "name": "cursor_site_structure_builder_script.md",
+        "category": "docs/cms/integration/",
+        "reason": "Совпадение по ключевым словам (1)",
+        "size": 2175997
+      }
+    ],
+    "docs/fixes/structure/": [
+      {
+        "file": "SiteMGTS/COMPONENTS_FIX.md",
+        "name": "COMPONENTS_FIX.md",
+        "category": "docs/fixes/structure/",
+        "reason": "Совпадение по ключевым словам (2)",
+        "size": 2931
+      },
+      {
+        "file": "SiteMGTS/CROSS_PLATFORM_FIXES.md",
+        "name": "CROSS_PLATFORM_FIXES.md",
+        "category": "docs/fixes/structure/",
+        "reason": "Совпадение по ключевым словам (1)",
+        "size": 5493
+      },
+      {
+        "file": "SiteMGTS/FOOTER_ДОБАВЛЕН_НА_ВСЕ_СТРАНИЦЫ.md",
+        "name": "FOOTER_ДОБАВЛЕН_НА_ВСЕ_СТРАНИЦЫ.md",
+        "category": "docs/fixes/structure/",
+        "reason": "Совпадение по ключевым словам (1)",
+        "size": 4245
+      },
+      {
+        "file": "SiteMGTS/FOOTER_ОБНОВЛЕН.md",
+        "name": "FOOTER_ОБНОВЛЕН.md",
+        "category": "docs/fixes/structure/",
+        "reason": "Совпадение по ключевым словам (1)",
+        "size": 2150
+      },
+      {
+        "file": "SiteMGTS/PATH_FIXES_SUMMARY.md",
+        "name": "PATH_FIXES_SUMMARY.md",
+        "category": "docs/fixes/structure/",
+        "reason": "Совпадение по ключевым словам (2)",
+        "size": 5554
+      },
+      {
+        "file": "SiteMGTS/PATH_ISSUES_ANALYSIS.md",
+        "name": "PATH_ISSUES_ANALYSIS.md",
+        "category": "docs/fixes/structure/",
+        "reason": "Совпадение по ключевым словам (2)",
+        "size": 7569
+      },
+      {
+        "file": "SiteMGTS/SIDEBAR_FIX.md",
+        "name": "SIDEBAR_FIX.md",
+        "category": "docs/fixes/structure/",
+        "reason": "Совпадение по ключевым словам (2)",
+        "size": 3502
+      },
+      {
+        "file": "SiteMGTS/STEP_1_FIX.md",
+        "name": "STEP_1_FIX.md",
+        "category": "docs/fixes/structure/",
+        "reason": "Совпадение по ключевым словам (1)",
+        "size": 2745
+      },
+      {
+        "file": "SiteMGTS/THIRD_LEVEL_FIX.md",
+        "name": "THIRD_LEVEL_FIX.md",
+        "category": "docs/fixes/structure/",
+        "reason": "Совпадение по ключевым словам (1)",
+        "size": 2878
+      },
+      {
+        "file": "SiteMGTS/add_sidebar_menu.py",
+        "name": "add_sidebar_menu.py",
+        "category": "docs/fixes/structure/",
+        "reason": "Совпадение по ключевым словам (2)",
+        "size": 36262
+      },
+      {
+        "file": "SiteMGTS/extract_menu_from_html.py",
+        "name": "extract_menu_from_html.py",
+        "category": "docs/fixes/structure/",
+        "reason": "Совпадение по ключевым словам (1)",
+        "size": 12550
+      },
+      {
+        "file": "SiteMGTS/fix_component_loading.py",
+        "name": "fix_component_loading.py",
+        "category": "docs/fixes/structure/",
+        "reason": "Совпадение по ключевым словам (2)",
+        "size": 3588
+      },
+      {
+        "file": "SiteMGTS/fix_component_scripts.py",
+        "name": "fix_component_scripts.py",
+        "category": "docs/fixes/structure/",
+        "reason": "Совпадение по ключевым словам (2)",
+        "size": 2419
+      },
+      {
+        "file": "SiteMGTS/fix_quotes.py",
+        "name": "fix_quotes.py",
+        "category": "docs/fixes/structure/",
+        "reason": "Совпадение по ключевым словам (1)",
+        "size": 1804
+      },
+      {
+        "file": "SiteMGTS/fix_third_level_scripts.py",
+        "name": "fix_third_level_scripts.py",
+        "category": "docs/fixes/structure/",
+        "reason": "Совпадение по ключевым словам (1)",
+        "size": 3055
+      },
+      {
+        "file": "SiteMGTS/update_about_menu.py",
+        "name": "update_about_menu.py",
+        "category": "docs/fixes/structure/",
+        "reason": "Совпадение по ключевым словам (1)",
+        "size": 17062
+      },
+      {
+        "file": "SiteMGTS/update_sidebar_script.py",
+        "name": "update_sidebar_script.py",
+        "category": "docs/fixes/structure/",
+        "reason": "Совпадение по ключевым словам (1)",
+        "size": 6324
+      }
+    ],
+    "docs/guides/usage/": [
+      {
+        "file": "SiteMGTS/CROSS_PLATFORM_DEEP_CHECK.md",
+        "name": "CROSS_PLATFORM_DEEP_CHECK.md",
+        "category": "docs/guides/usage/",
+        "reason": "Совпадение по ключевым словам (1)",
+        "size": 10835
+      },
+      {
+        "file": "SiteMGTS/ICONS_CHECK.md",
+        "name": "ICONS_CHECK.md",
+        "category": "docs/guides/usage/",
+        "reason": "Совпадение по ключевым словам (1)",
+        "size": 4614
+      },
+      {
+        "file": "SiteMGTS/ICONS_INSTRUCTIONS.md",
+        "name": "ICONS_INSTRUCTIONS.md",
+        "category": "docs/guides/usage/",
+        "reason": "Совпадение по ключевым словам (1)",
+        "size": 3739
+      },
+      {
+        "file": "SiteMGTS/QUICK_START.md",
+        "name": "QUICK_START.md",
+        "category": "docs/guides/usage/",
+        "reason": "Совпадение по ключевым словам (2)",
+        "size": 1826
+      },
+      {
+        "file": "SiteMGTS/SETUP.md",
+        "name": "SETUP.md",
+        "category": "docs/guides/usage/",
+        "reason": "Совпадение по ключевым словам (1)",
+        "size": 7287
+      },
+      {
+        "file": "SiteMGTS/STEP_1_INSTRUCTIONS.md",
+        "name": "STEP_1_INSTRUCTIONS.md",
+        "category": "docs/guides/usage/",
+        "reason": "Совпадение по ключевым словам (1)",
+        "size": 7851
+      },
+      {
+        "file": "SiteMGTS/STEP_2_INSTRUCTIONS.md",
+        "name": "STEP_2_INSTRUCTIONS.md",
+        "category": "docs/guides/usage/",
+        "reason": "Совпадение по ключевым словам (1)",
+        "size": 17934
+      },
+      {
+        "file": "SiteMGTS/STEP_2_QUICK_START.md",
+        "name": "STEP_2_QUICK_START.md",
+        "category": "docs/guides/usage/",
+        "reason": "Совпадение по ключевым словам (2)",
+        "size": 2324
+      },
+      {
+        "file": "SiteMGTS/STRAPI_QUICK_FIX.md",
+        "name": "STRAPI_QUICK_FIX.md",
+        "category": "docs/guides/usage/",
+        "reason": "Совпадение по ключевым словам (1)",
+        "size": 1136
+      },
+      {
+        "file": "SiteMGTS/STRAPI_QUICK_START.md",
+        "name": "STRAPI_QUICK_START.md",
+        "category": "docs/guides/usage/",
+        "reason": "Совпадение по ключевым словам (2)",
+        "size": 2415
+      },
+      {
+        "file": "SiteMGTS/STRAPI_VERIFICATION.md",
+        "name": "STRAPI_VERIFICATION.md",
+        "category": "docs/guides/usage/",
+        "reason": "Совпадение по ключевым словам (1)",
+        "size": 4907
+      },
+      {
+        "file": "SiteMGTS/TROUBLESHOOTING.md",
+        "name": "TROUBLESHOOTING.md",
+        "category": "docs/guides/usage/",
+        "reason": "Совпадение по ключевым словам (1)",
+        "size": 2831
+      },
+      {
+        "file": "SiteMGTS/TROUBLESHOOTING_404.md",
+        "name": "TROUBLESHOOTING_404.md",
+        "category": "docs/guides/usage/",
+        "reason": "Совпадение по ключевым словам (1)",
+        "size": 4066
+      },
+      {
+        "file": "SiteMGTS/check_environment.ps1",
+        "name": "check_environment.ps1",
+        "category": "docs/guides/usage/",
+        "reason": "Совпадение по ключевым словам (1)",
+        "size": 4735
+      },
+      {
+        "file": "SiteMGTS/check_strapi_setup.ps1",
+        "name": "check_strapi_setup.ps1",
+        "category": "docs/guides/usage/",
+        "reason": "Совпадение по ключевым словам (2)",
+        "size": 9539
+      },
+      {
+        "file": "SiteMGTS/setup_step1.ps1",
+        "name": "setup_step1.ps1",
+        "category": "docs/guides/usage/",
+        "reason": "Совпадение по ключевым словам (1)",
+        "size": 5430
+      },
+      {
+        "file": "mgts-backend/CMS_SETUP_INSTRUCTIONS.md",
+        "name": "CMS_SETUP_INSTRUCTIONS.md",
+        "category": "docs/guides/usage/",
+        "reason": "Совпадение по ключевым словам (2)",
+        "size": 7259
+      },
+      {
+        "file": "mgts-backend/EDITOR_GUIDE.md",
+        "name": "EDITOR_GUIDE.md",
+        "category": "docs/guides/usage/",
+        "reason": "Совпадение по ключевым словам (1)",
+        "size": 8437
+      },
+      {
+        "file": "mgts-backend/QUICK_START_EDITOR.md",
+        "name": "QUICK_START_EDITOR.md",
+        "category": "docs/guides/usage/",
+        "reason": "Совпадение по ключевым словам (2)",
+        "size": 1720
+      }
+    ],
+    "docs/project/": [
+      {
+        "file": "SiteMGTS/MENU_TEMPLATE.md",
+        "name": "MENU_TEMPLATE.md",
+        "category": "docs/project/",
+        "reason": "Совпадение по ключевым словам (2)",
+        "size": 1586
+      },
+      {
+        "file": "SiteMGTS/PAGES_LIST.md",
+        "name": "PAGES_LIST.md",
+        "category": "docs/project/",
+        "reason": "Совпадение по ключевым словам (2)",
+        "size": 4781
+      },
+      {
+        "file": "SiteMGTS/extract_menu_pages.py",
+        "name": "extract_menu_pages.py",
+        "category": "docs/project/",
+        "reason": "Совпадение по ключевым словам (2)",
+        "size": 15131
+      },
+      {
+        "file": "SiteMGTS/site_structure_builder.py",
+        "name": "site_structure_builder.py",
+        "category": "docs/project/",
+        "reason": "Совпадение по ключевым словам (1)",
+        "size": 57288
+      }
+    ],
+    "docs/installation/setup/": [
+      {
+        "file": "SiteMGTS/SETUP_ENVIRONMENT.md",
+        "name": "SETUP_ENVIRONMENT.md",
+        "category": "docs/installation/setup/",
+        "reason": "Совпадение по ключевым словам (2)",
+        "size": 2906
+      },
+      {
+        "file": "SiteMGTS/START_SERVER.bat",
+        "name": "START_SERVER.bat",
+        "category": "docs/installation/setup/",
+        "reason": "Совпадение по ключевым словам (2)",
+        "size": 193
+      },
+      {
+        "file": "SiteMGTS/START_SERVER.sh",
+        "name": "START_SERVER.sh",
+        "category": "docs/installation/setup/",
+        "reason": "Совпадение по ключевым словам (2)",
+        "size": 199
+      },
+      {
+        "file": "SiteMGTS/STRAPI_INSTALL_ALTERNATIVES.md",
+        "name": "STRAPI_INSTALL_ALTERNATIVES.md",
+        "category": "docs/installation/setup/",
+        "reason": "Совпадение по ключевым словам (2)",
+        "size": 5806
+      },
+      {
+        "file": "SiteMGTS/STRAPI_PATH_SOLUTIONS.md",
+        "name": "STRAPI_PATH_SOLUTIONS.md",
+        "category": "docs/installation/setup/",
+        "reason": "Совпадение по ключевым словам (1)",
+        "size": 6649
+      },
+      {
+        "file": "SiteMGTS/STRAPI_SETUP_STATUS.md",
+        "name": "STRAPI_SETUP_STATUS.md",
+        "category": "docs/installation/setup/",
+        "reason": "Совпадение по ключевым словам (2)",
+        "size": 3819
+      },
+      {
+        "file": "SiteMGTS/fix_strapi_setup.ps1",
+        "name": "fix_strapi_setup.ps1",
+        "category": "docs/installation/setup/",
+        "reason": "Совпадение по ключевым словам (2)",
+        "size": 3663
+      },
+      {
+        "file": "SiteMGTS/install_strapi_manual.ps1",
+        "name": "install_strapi_manual.ps1",
+        "category": "docs/installation/setup/",
+        "reason": "Совпадение по ключевым словам (2)",
+        "size": 3717
+      },
+      {
+        "file": "SiteMGTS/move_strapi_to_runs.ps1",
+        "name": "move_strapi_to_runs.ps1",
+        "category": "docs/installation/setup/",
+        "reason": "Совпадение по ключевым словам (1)",
+        "size": 2991
+      },
+      {
+        "file": "SiteMGTS/start_strapi.ps1",
+        "name": "start_strapi.ps1",
+        "category": "docs/installation/setup/",
+        "reason": "Совпадение по ключевым словам (2)",
+        "size": 1376
+      },
+      {
+        "file": "mgts-backend/.strapi-updater.json",
+        "name": ".strapi-updater.json",
+        "category": "docs/installation/setup/",
+        "reason": "Совпадение по ключевым словам (1)",
+        "size": 58
+      },
+      {
+        "file": "mgts-backend/STRAPI_FILE_STRUCTURE.md",
+        "name": "STRAPI_FILE_STRUCTURE.md",
+        "category": "docs/installation/setup/",
+        "reason": "Совпадение по ключевым словам (1)",
+        "size": 6414
+      }
+    ],
+    "docs/status/completed/": [
+      {
+        "file": "SiteMGTS/STEP_1_COMPLETED.md",
+        "name": "STEP_1_COMPLETED.md",
+        "category": "docs/status/completed/",
+        "reason": "Совпадение по ключевым словам (3)",
+        "size": 4797
+      },
+      {
+        "file": "SiteMGTS/STEP_1_STATUS.md",
+        "name": "STEP_1_STATUS.md",
+        "category": "docs/status/completed/",
+        "reason": "Совпадение по ключевым словам (2)",
+        "size": 3031
+      },
+      {
+        "file": "mgts-backend/STEP_2_2_COMPLETE.md",
+        "name": "STEP_2_2_COMPLETE.md",
+        "category": "docs/status/completed/",
+        "reason": "Совпадение по ключевым словам (2)",
+        "size": 2824
+      }
+    ],
+    "scripts/utils/": [
+      {
+        "file": "SiteMGTS/copy_mts_fonts.bat",
+        "name": "copy_mts_fonts.bat",
+        "category": "scripts/utils/",
+        "reason": "Совпадение по ключевым словам (1)",
+        "size": 517
+      },
+      {
+        "file": "SiteMGTS/copy_mts_fonts.ps1",
+        "name": "copy_mts_fonts.ps1",
+        "category": "scripts/utils/",
+        "reason": "Совпадение по ключевым словам (1)",
+        "size": 1367
+      },
+      {
+        "file": "SiteMGTS/copy_mts_fonts.py",
+        "name": "copy_mts_fonts.py",
+        "category": "scripts/utils/",
+        "reason": "Совпадение по ключевым словам (1)",
+        "size": 7184
+      },
+      {
+        "file": "SiteMGTS/extract_about_full.py",
+        "name": "extract_about_full.py",
+        "category": "scripts/utils/",
+        "reason": "Совпадение по ключевым словам (1)",
+        "size": 12256
+      },
+      {
+        "file": "SiteMGTS/fetch_about_content.py",
+        "name": "fetch_about_content.py",
+        "category": "scripts/utils/",
+        "reason": "Совпадение по ключевым словам (1)",
+        "size": 4316
+      },
+      {
+        "file": "SiteMGTS/get_about_page.py",
+        "name": "get_about_page.py",
+        "category": "scripts/utils/",
+        "reason": "Совпадение по ключевым словам (1)",
+        "size": 3933
+      },
+      {
+        "file": "SiteMGTS/remove_old_megamenu.py",
+        "name": "remove_old_megamenu.py",
+        "category": "scripts/utils/",
+        "reason": "Совпадение по ключевым словам (2)",
+        "size": 3018
+      },
+      {
+        "file": "SiteMGTS/update_nav.py",
+        "name": "update_nav.py",
+        "category": "scripts/utils/",
+        "reason": "Совпадение по ключевым словам (1)",
+        "size": 8447
+      },
+      {
+        "file": "SiteMGTS/update_nav_script.ps1",
+        "name": "update_nav_script.ps1",
+        "category": "scripts/utils/",
+        "reason": "Совпадение по ключевым словам (1)",
+        "size": 2310
+      }
+    ],
+    "temp/txt/": [
+      {
+        "file": "mgts-backend/license.txt",
+        "name": "license.txt",
+        "category": "temp/txt/",
+        "reason": "Совпадение по ключевым словам (1)",
+        "size": 1340
+      },
+      {
+        "file": "mgts-backend/migration-log.txt",
+        "name": "migration-log.txt",
+        "category": "temp/txt/",
+        "reason": "Лог или временный текстовый файл",
+        "size": 805
+      },
+      {
+        "file": "mgts-backend/strapi.log",
+        "name": "strapi.log",
+        "category": "temp/txt/",
+        "reason": "Лог или временный текстовый файл",
+        "size": 142634
+      }
+    ],
+    "docs/analysis/reports/": [
+      {
+        "file": "mgts-backend/segment-pages-analysis.json",
+        "name": "segment-pages-analysis.json",
+        "category": "docs/analysis/reports/",
+        "reason": "JSON файл с результатами анализа",
+        "size": 2858
+      },
+      {
+        "file": "mgts-backend/segment-pages-detailed-analysis.json",
+        "name": "segment-pages-detailed-analysis.json",
+        "category": "docs/analysis/reports/",
+        "reason": "JSON файл с результатами анализа",
+        "size": 23661
+      }
+    ]
+  }
+}

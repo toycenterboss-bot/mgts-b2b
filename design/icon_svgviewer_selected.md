@@ -1,0 +1,1032 @@
+# SVGViewer выбранные кандидаты
+
+- **Подключить объект** — путь `navigation.megaMenus.sections.links.icon` — термин `plug`
+  - Plug | Iconscout | 6783 | https://www.svgviewer.dev/s/492410/plug | https://www.svgviewer.dev/static-svgs/492410/plug.svg
+- **Инфраструктура 360** — путь `navigation.megaMenus.sections.links.icon` — термин `network`
+  - Network | puppylinux | 6762 | https://www.svgviewer.dev/s/483565/network | https://www.svgviewer.dev/static-svgs/483565/network.svg
+- **Безопасный объект** — путь `navigation.megaMenus.sections.links.icon` — термин `shield`
+  - Shield | Iconscout | 6783 | https://www.svgviewer.dev/s/492477/shield | https://www.svgviewer.dev/static-svgs/492477/shield.svg
+- **Связь/данные** — путь `navigation.megaMenus.sections.links.icon` — термин `data`
+  - Data | mapshakers | 6777 | https://www.svgviewer.dev/s/489955/data | https://www.svgviewer.dev/static-svgs/489955/data.svg
+- **Видео‑наблюдение и доступ** — путь `navigation.megaMenus.sections.links.icon` — термин `camera`
+  - Camera | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494595/camera | https://www.svgviewer.dev/static-svgs/494595/camera.svg
+- **Эксплуатация сети** — путь `navigation.megaMenus.sections.links.icon` — термин `maintenance`
+  - Maintenance | Siemens | 5721 | https://www.svgviewer.dev/s/377569/maintenance | https://www.svgviewer.dev/static-svgs/377569/maintenance.svg
+- **Подобрать решение** — путь `navigation.megaMenus.sections.links.icon` — термин `settings`
+  - Settings | Mary Akveo | 7042 | https://www.svgviewer.dev/s/496181/settings | https://www.svgviewer.dev/static-svgs/496181/settings.svg
+- **Связаться** — путь `navigation.megaMenus.sections.links.icon` — термин `link`
+  - Link | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495606/link | https://www.svgviewer.dev/static-svgs/495606/link.svg
+- **Подключение объектов** — путь `navigation.megaMenus.sections.links.icon` — термин `plug`
+  - Plug | Iconscout | 6783 | https://www.svgviewer.dev/s/492410/plug | https://www.svgviewer.dev/static-svgs/492410/plug.svg
+- **Компенсация убытков** — путь `navigation.megaMenus.sections.links.icon` — термин `shield`
+  - Shield | Iconscout | 6783 | https://www.svgviewer.dev/s/492477/shield | https://www.svgviewer.dev/static-svgs/492477/shield.svg
+- **Цифровые решения** — путь `navigation.megaMenus.sections.links.icon` — термин `network`
+  - Network | puppylinux | 6762 | https://www.svgviewer.dev/s/483565/network | https://www.svgviewer.dev/static-svgs/483565/network.svg
+- **Размещение на объектах** — путь `navigation.megaMenus.sections.links.icon` — термин `network`
+  - Network | puppylinux | 6762 | https://www.svgviewer.dev/s/483565/network | https://www.svgviewer.dev/static-svgs/483565/network.svg
+- **Кабельная канализация** — путь `navigation.megaMenus.sections.links.icon` — термин `plug`
+  - Plug | Iconscout | 6783 | https://www.svgviewer.dev/s/492410/plug | https://www.svgviewer.dev/static-svgs/492410/plug.svg
+- **Проектирование и строительство сетей** — путь `navigation.megaMenus.sections.links.icon` — термин `network`
+  - Network | puppylinux | 6762 | https://www.svgviewer.dev/s/483565/network | https://www.svgviewer.dev/static-svgs/483565/network.svg
+- **Присоединение и пропуск трафика** — путь `navigation.megaMenus.sections.links.icon` — термин `data`
+  - Data | mapshakers | 6777 | https://www.svgviewer.dev/s/489955/data | https://www.svgviewer.dev/static-svgs/489955/data.svg
+- **Передача данных** — путь `navigation.megaMenus.sections.links.icon` — термин `data`
+  - Data | mapshakers | 6777 | https://www.svgviewer.dev/s/489955/data | https://www.svgviewer.dev/static-svgs/489955/data.svg
+- **Подъездное видеонаблюдение** — путь `navigation.megaMenus.sections.links.icon` — термин `camera`
+  - Camera | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494595/camera | https://www.svgviewer.dev/static-svgs/494595/camera.svg
+- **Видеонаблюдение на объектах строительства** — путь `navigation.megaMenus.sections.links.icon` — термин `camera`
+  - Camera | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494595/camera | https://www.svgviewer.dev/static-svgs/494595/camera.svg
+- **Тех. обслуживание видеонаблюдения** — путь `navigation.megaMenus.sections.links.icon` — термин `camera`
+  - Camera | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494595/camera | https://www.svgviewer.dev/static-svgs/494595/camera.svg
+- **Оборудование** — путь `navigation.megaMenus.sections.links.icon` — термин `network`
+  - Network | puppylinux | 6762 | https://www.svgviewer.dev/s/483565/network | https://www.svgviewer.dev/static-svgs/483565/network.svg
+- **Сопряжение** — путь `navigation.megaMenus.sections.links.icon` — термин `plug`
+  - Plug | Iconscout | 6783 | https://www.svgviewer.dev/s/492410/plug | https://www.svgviewer.dev/static-svgs/492410/plug.svg
+- **Тех. обслуживание** — путь `navigation.megaMenus.sections.links.icon` — термин `maintenance`
+  - Maintenance | Siemens | 5721 | https://www.svgviewer.dev/s/377569/maintenance | https://www.svgviewer.dev/static-svgs/377569/maintenance.svg
+- **Громкоговорящая связь** — путь `navigation.megaMenus.sections.links.icon` — термин `link`
+  - Link | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495606/link | https://www.svgviewer.dev/static-svgs/495606/link.svg
+- **СКУД** — путь `navigation.megaMenus.sections.links.icon` — термин `lock`
+  - Lock | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495639/lock | https://www.svgviewer.dev/static-svgs/495639/lock.svg
+- **АСУ** — путь `navigation.megaMenus.sections.links.icon` — термин `network`
+  - Network | puppylinux | 6762 | https://www.svgviewer.dev/s/483565/network | https://www.svgviewer.dev/static-svgs/483565/network.svg
+- **АСКУЭ** — путь `navigation.megaMenus.sections.links.icon` — термин `bolt`
+  - Bolt | Iconscout | 6783 | https://www.svgviewer.dev/s/491667/bolt | https://www.svgviewer.dev/static-svgs/491667/bolt.svg
+- **COT** — путь `navigation.megaMenus.sections.links.icon` — термин `camera`
+  - Camera | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494595/camera | https://www.svgviewer.dev/static-svgs/494595/camera.svg
+- **Наружные сети** — путь `navigation.megaMenus.sections.links.icon` — термин `network`
+  - Network | puppylinux | 6762 | https://www.svgviewer.dev/s/483565/network | https://www.svgviewer.dev/static-svgs/483565/network.svg
+- **СКС** — путь `navigation.megaMenus.sections.links.icon` — термин `plug`
+  - Plug | Iconscout | 6783 | https://www.svgviewer.dev/s/492410/plug | https://www.svgviewer.dev/static-svgs/492410/plug.svg
+- **ЛВС** — путь `navigation.megaMenus.sections.links.icon` — термин `network`
+  - Network | puppylinux | 6762 | https://www.svgviewer.dev/s/483565/network | https://www.svgviewer.dev/static-svgs/483565/network.svg
+- **Эксплуатация сети** — путь `navigation.megaMenus.sections.links.icon` — термин `maintenance`
+  - Maintenance | Siemens | 5721 | https://www.svgviewer.dev/s/377569/maintenance | https://www.svgviewer.dev/static-svgs/377569/maintenance.svg
+- **Индивидуальные решения** — путь `navigation.megaMenus.sections.links.icon` — термин `puzzle`
+  - Puzzle | icons8 | 6785 | https://www.svgviewer.dev/s/493184/puzzle | https://www.svgviewer.dev/static-svgs/493184/puzzle.svg
+- **Порядок допуска к проведению работ** — путь `navigation.megaMenus.sections.links.icon` — термин `lock`
+  - Lock | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495639/lock | https://www.svgviewer.dev/static-svgs/495639/lock.svg
+- **Реализация ТМЦ** — путь `navigation.megaMenus.sections.links.icon` — термин `cart`
+  - Cart | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494634/cart | https://www.svgviewer.dev/static-svgs/494634/cart.svg
+- **Рамочный договор** — путь `navigation.megaMenus.sections.links.icon` — термин `document`
+  - Document | icons8 | 6785 | https://www.svgviewer.dev/s/493061/document | https://www.svgviewer.dev/static-svgs/493061/document.svg
+- **Документация** — путь `navigation.megaMenus.sections.links.icon` — термин `document`
+  - Document | icons8 | 6785 | https://www.svgviewer.dev/s/493061/document | https://www.svgviewer.dev/static-svgs/493061/document.svg
+- **Закупки** — путь `navigation.megaMenus.sections.links.icon` — термин `cart`
+  - Cart | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494634/cart | https://www.svgviewer.dev/static-svgs/494634/cart.svg
+- **Тарифы** — путь `navigation.megaMenus.sections.links.icon` — термин `coin`
+  - Coin | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494792/coin | https://www.svgviewer.dev/static-svgs/494792/coin.svg
+- **О МГТС** — путь `navigation.deepNavTrees.items.icon` — термин `building`
+  - Building | Iconscout | 6783 | https://www.svgviewer.dev/s/491762/building | https://www.svgviewer.dev/static-svgs/491762/building.svg
+- **Ценности МГТС** — путь `navigation.deepNavTrees.items.icon` — термин `shield`
+  - Shield | Iconscout | 6783 | https://www.svgviewer.dev/s/492477/shield | https://www.svgviewer.dev/static-svgs/492477/shield.svg
+- **Деловая этика и комплаенс** — путь `navigation.deepNavTrees.items.icon` — термин `shield`
+  - Shield | Iconscout | 6783 | https://www.svgviewer.dev/s/492477/shield | https://www.svgviewer.dev/static-svgs/492477/shield.svg
+- **Обращение гендиректора** — путь `navigation.deepNavTrees.items.children.icon` — термин ``
+  - _нет кандидата_
+- **Комплаенс‑политики МГТС** — путь `navigation.deepNavTrees.items.children.icon` — термин `shield`
+  - Shield | Iconscout | 6783 | https://www.svgviewer.dev/s/492477/shield | https://www.svgviewer.dev/static-svgs/492477/shield.svg
+- **Взаимодействие с партнерами** — путь `navigation.deepNavTrees.items.children.icon` — термин `handshake`
+  - Handshake | vaadin | 6746 | https://www.svgviewer.dev/s/478614/handshake | https://www.svgviewer.dev/static-svgs/478614/handshake.svg
+- **Обратная связь** — путь `navigation.deepNavTrees.items.children.icon` — термин `link`
+  - Link | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495606/link | https://www.svgviewer.dev/static-svgs/495606/link.svg
+- **Единая горячая линия** — путь `navigation.deepNavTrees.items.children.icon` — термин `phone`
+  - Phone | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495869/phone | https://www.svgviewer.dev/static-svgs/495869/phone.svg
+- **Корпоративное управление** — путь `navigation.deepNavTrees.items.icon` — термин ``
+  - _нет кандидата_
+- **Принципы корпоративного управления** — путь `navigation.deepNavTrees.items.children.icon` — термин ``
+  - _нет кандидата_
+- **Корпоративные документы** — путь `navigation.deepNavTrees.items.children.icon` — термин `document`
+  - Document | icons8 | 6785 | https://www.svgviewer.dev/s/493061/document | https://www.svgviewer.dev/static-svgs/493061/document.svg
+- **Решения общих собраний акционеров** — путь `navigation.deepNavTrees.items.children.icon` — термин `document`
+  - Document | icons8 | 6785 | https://www.svgviewer.dev/s/493061/document | https://www.svgviewer.dev/static-svgs/493061/document.svg
+- **Информация для акционеров** — путь `navigation.deepNavTrees.items.children.icon` — термин `document`
+  - Document | icons8 | 6785 | https://www.svgviewer.dev/s/493061/document | https://www.svgviewer.dev/static-svgs/493061/document.svg
+- **О регистраторе** — путь `navigation.deepNavTrees.items.children.icon` — термин `document`
+  - Document | icons8 | 6785 | https://www.svgviewer.dev/s/493061/document | https://www.svgviewer.dev/static-svgs/493061/document.svg
+- **Документация** — путь `navigation.deepNavTrees.items.icon` — термин `document`
+  - Document | icons8 | 6785 | https://www.svgviewer.dev/s/493061/document | https://www.svgviewer.dev/static-svgs/493061/document.svg
+- **Лицензии и СРО +** — путь `navigation.deepNavTrees.items.icon` — термин `document`
+  - Document | icons8 | 6785 | https://www.svgviewer.dev/s/493061/document | https://www.svgviewer.dev/static-svgs/493061/document.svg
+- **Оферты** — путь `navigation.deepNavTrees.items.icon` — термин `document`
+  - Document | icons8 | 6785 | https://www.svgviewer.dev/s/493061/document | https://www.svgviewer.dev/static-svgs/493061/document.svg
+- **Формы типовых документов** — путь `navigation.deepNavTrees.items.icon` — термин `document`
+  - Document | icons8 | 6785 | https://www.svgviewer.dev/s/493061/document | https://www.svgviewer.dev/static-svgs/493061/document.svg
+- **Стандарты раскрытия информации** — путь `navigation.deepNavTrees.items.icon` — термин `lock`
+  - Lock | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495639/lock | https://www.svgviewer.dev/static-svgs/495639/lock.svg
+- **Спецоценка условий труда** — путь `navigation.deepNavTrees.items.icon` — термин `document`
+  - Document | icons8 | 6785 | https://www.svgviewer.dev/s/493061/document | https://www.svgviewer.dev/static-svgs/493061/document.svg
+- **Предоставление копий документов** — путь `navigation.deepNavTrees.items.icon` — термин `document`
+  - Document | icons8 | 6785 | https://www.svgviewer.dev/s/493061/document | https://www.svgviewer.dev/static-svgs/493061/document.svg
+- **Сроки устранения неисправностей** — путь `navigation.deepNavTrees.items.icon` — термин `clock`
+  - Clock | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494728/clock | https://www.svgviewer.dev/static-svgs/494728/clock.svg
+- **Политика ПДн** — путь `navigation.deepNavTrees.items.icon` — термин `shield`
+  - Shield | Iconscout | 6783 | https://www.svgviewer.dev/s/492477/shield | https://www.svgviewer.dev/static-svgs/492477/shield.svg
+- **Политика cookies** — путь `navigation.deepNavTrees.items.icon` — термин `shield`
+  - Shield | Iconscout | 6783 | https://www.svgviewer.dev/s/492477/shield | https://www.svgviewer.dev/static-svgs/492477/shield.svg
+- **Политика охраны труда** — путь `navigation.deepNavTrees.items.icon` — термин `shield`
+  - Shield | Iconscout | 6783 | https://www.svgviewer.dev/s/492477/shield | https://www.svgviewer.dev/static-svgs/492477/shield.svg
+- **Существенные факты** — путь `navigation.deepNavTrees.items.icon` — термин `document`
+  - Document | icons8 | 6785 | https://www.svgviewer.dev/s/493061/document | https://www.svgviewer.dev/static-svgs/493061/document.svg
+- **Список аффилированных лиц** — путь `navigation.deepNavTrees.items.icon` — термин `link`
+  - Link | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495606/link | https://www.svgviewer.dev/static-svgs/495606/link.svg
+- **Отчеты эмитента** — путь `navigation.deepNavTrees.items.icon` — термин `document`
+  - Document | icons8 | 6785 | https://www.svgviewer.dev/s/493061/document | https://www.svgviewer.dev/static-svgs/493061/document.svg
+- **Годовые отчеты/фин. отчетность** — путь `navigation.deepNavTrees.items.icon` — термин `document`
+  - Document | icons8 | 6785 | https://www.svgviewer.dev/s/493061/document | https://www.svgviewer.dev/static-svgs/493061/document.svg
+- **Перечень инсайдерской информации** — путь `navigation.deepNavTrees.items.icon` — термин `lock`
+  - Lock | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495639/lock | https://www.svgviewer.dev/static-svgs/495639/lock.svg
+- **Структура акционерного капитала** — путь `navigation.deepNavTrees.items.icon` — термин `document`
+  - Document | icons8 | 6785 | https://www.svgviewer.dev/s/493061/document | https://www.svgviewer.dev/static-svgs/493061/document.svg
+- **Выпуск ценных бумаг** — путь `navigation.deepNavTrees.items.icon` — термин `document`
+  - Document | icons8 | 6785 | https://www.svgviewer.dev/s/493061/document | https://www.svgviewer.dev/static-svgs/493061/document.svg
+- **Подключение объектов** — путь `navigation.deepNavTrees.items.icon` — термин `plug`
+  - Plug | Iconscout | 6783 | https://www.svgviewer.dev/s/492410/plug | https://www.svgviewer.dev/static-svgs/492410/plug.svg
+- **Компенсация потерь** — путь `navigation.deepNavTrees.items.icon` — термин `shield`
+  - Shield | Iconscout | 6783 | https://www.svgviewer.dev/s/492477/shield | https://www.svgviewer.dev/static-svgs/492477/shield.svg
+- **Цифровые решения** — путь `navigation.deepNavTrees.items.icon` — термин `network`
+  - Network | puppylinux | 6762 | https://www.svgviewer.dev/s/483565/network | https://www.svgviewer.dev/static-svgs/483565/network.svg
+- **Контактные данные** — путь `navigation.deepNavTrees.items.icon` — термин `data`
+  - Data | mapshakers | 6777 | https://www.svgviewer.dev/s/489955/data | https://www.svgviewer.dev/static-svgs/489955/data.svg
+- **Банковские реквизиты** — путь `navigation.deepNavTrees.items.icon` — термин `building`
+  - Building | Iconscout | 6783 | https://www.svgviewer.dev/s/491762/building | https://www.svgviewer.dev/static-svgs/491762/building.svg
+- **Проектирование системы** — путь `sections[].cards[].icon` — термин `design`
+  - Design | vmware | 6745 | https://www.svgviewer.dev/s/478014/design | https://www.svgviewer.dev/static-svgs/478014/design.svg
+- **Строительно-монтажные работы** — путь `sections[].cards[].icon` — термин `construction`
+  - Construction | mapbox | 6778 | https://www.svgviewer.dev/s/490139/construction | https://www.svgviewer.dev/static-svgs/490139/construction.svg
+- **Пусконаладочные работы** — путь `sections[].cards[].icon` — термин `bolt`
+  - Bolt | Iconscout | 6783 | https://www.svgviewer.dev/s/491667/bolt | https://www.svgviewer.dev/static-svgs/491667/bolt.svg
+- **1** — путь `sections[].cards[].icon` — термин `circle`
+  - Circle | icons8 | 6784 | https://www.svgviewer.dev/s/492846/circle | https://www.svgviewer.dev/static-svgs/492846/circle.svg
+- **2** — путь `sections[].cards[].icon` — термин `circle`
+  - Circle | icons8 | 6784 | https://www.svgviewer.dev/s/492846/circle | https://www.svgviewer.dev/static-svgs/492846/circle.svg
+- **3** — путь `sections[].cards[].icon` — термин `circle`
+  - Circle | icons8 | 6784 | https://www.svgviewer.dev/s/492846/circle | https://www.svgviewer.dev/static-svgs/492846/circle.svg
+- **4** — путь `sections[].cards[].icon` — термин `circle`
+  - Circle | icons8 | 6784 | https://www.svgviewer.dev/s/492846/circle | https://www.svgviewer.dev/static-svgs/492846/circle.svg
+- **5** — путь `sections[].cards[].icon` — термин `circle`
+  - Circle | icons8 | 6784 | https://www.svgviewer.dev/s/492846/circle | https://www.svgviewer.dev/static-svgs/492846/circle.svg
+- **6** — путь `sections[].cards[].icon` — термин `circle`
+  - Circle | icons8 | 6784 | https://www.svgviewer.dev/s/492846/circle | https://www.svgviewer.dev/static-svgs/492846/circle.svg
+- **7** — путь `sections[].cards[].icon` — термин `circle`
+  - Circle | icons8 | 6784 | https://www.svgviewer.dev/s/492846/circle | https://www.svgviewer.dev/static-svgs/492846/circle.svg
+- **Доступность** — путь `sections[].cards[].icon` — термин `lock`
+  - Lock | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495639/lock | https://www.svgviewer.dev/static-svgs/495639/lock.svg
+- **Безопасность** — путь `sections[].cards[].icon` — термин `shield`
+  - Shield | Iconscout | 6783 | https://www.svgviewer.dev/s/492477/shield | https://www.svgviewer.dev/static-svgs/492477/shield.svg
+- **Равные условия для всех** — путь `sections[].cards[].icon` — термин `lock`
+  - Lock | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495639/lock | https://www.svgviewer.dev/static-svgs/495639/lock.svg
+- **Адрес** — путь `sections[].cards[].icon` — термин `building`
+  - Building | Iconscout | 6783 | https://www.svgviewer.dev/s/491762/building | https://www.svgviewer.dev/static-svgs/491762/building.svg
+- **Телефон** — путь `sections[].cards[].icon` — термин `phone`
+  - Phone | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495869/phone | https://www.svgviewer.dev/static-svgs/495869/phone.svg
+- **Email** — путь `sections[].cards[].icon` — термин `email`
+  - Email | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495198/email | https://www.svgviewer.dev/static-svgs/495198/email.svg
+- **Информация для бизнеса** — путь `sections[].cards[].icon` — термин `building`
+  - Building | Iconscout | 6783 | https://www.svgviewer.dev/s/491762/building | https://www.svgviewer.dev/static-svgs/491762/building.svg
+- **Операторам связи** — путь `sections[].cards[].icon` — термин ``
+  - _нет кандидата_
+- **Госзаказчикам** — путь `sections[].cards[].icon` — термин `building`
+  - Building | Iconscout | 6783 | https://www.svgviewer.dev/s/491762/building | https://www.svgviewer.dev/static-svgs/491762/building.svg
+- **Застройщикам** — путь `sections[].cards[].icon` — термин `building`
+  - Building | Iconscout | 6783 | https://www.svgviewer.dev/s/491762/building | https://www.svgviewer.dev/static-svgs/491762/building.svg
+- **Бизнесу** — путь `sections[].cards[].icon` — термин `building`
+  - Building | Iconscout | 6783 | https://www.svgviewer.dev/s/491762/building | https://www.svgviewer.dev/static-svgs/491762/building.svg
+- **Партнерам** — путь `sections[].cards[].icon` — термин `handshake`
+  - Handshake | vaadin | 6746 | https://www.svgviewer.dev/s/478614/handshake | https://www.svgviewer.dev/static-svgs/478614/handshake.svg
+- **Проектирование и строительство наружных сетей связи** — путь `sections[].cards[].icon` — термин `network`
+  - Network | puppylinux | 6762 | https://www.svgviewer.dev/s/483565/network | https://www.svgviewer.dev/static-svgs/483565/network.svg
+- **Проектирование и строительство структурированных кабельных сетей** — путь `sections[].cards[].icon` — термин `plug`
+  - Plug | Iconscout | 6783 | https://www.svgviewer.dev/s/492410/plug | https://www.svgviewer.dev/static-svgs/492410/plug.svg
+- **Проектирование и строительство локальных вычислительных сетей** — путь `sections[].cards[].icon` — термин `network`
+  - Network | puppylinux | 6762 | https://www.svgviewer.dev/s/483565/network | https://www.svgviewer.dev/static-svgs/483565/network.svg
+- **Эксплуатация сетей** — путь `sections[].cards[].icon` — термин `maintenance`
+  - Maintenance | Siemens | 5721 | https://www.svgviewer.dev/s/377569/maintenance | https://www.svgviewer.dev/static-svgs/377569/maintenance.svg
+- **Подъездное видеонаблюдение** — путь `sections[].cards[].icon` — термин `camera`
+  - Camera | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494595/camera | https://www.svgviewer.dev/static-svgs/494595/camera.svg
+- **Видеонаблюдение на объектах строительства** — путь `sections[].cards[].icon` — термин `camera`
+  - Camera | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494595/camera | https://www.svgviewer.dev/static-svgs/494595/camera.svg
+- **Техническое обслуживание системы видеонаблюдения** — путь `sections[].cards[].icon` — термин `camera`
+  - Camera | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494595/camera | https://www.svgviewer.dev/static-svgs/494595/camera.svg
+- **Оборудование** — путь `sections[].cards[].icon` — термин `network`
+  - Network | puppylinux | 6762 | https://www.svgviewer.dev/s/483565/network | https://www.svgviewer.dev/static-svgs/483565/network.svg
+- **Сопряжение с Региональной системой оповещения г. Москвы** — путь `sections[].cards[].icon` — термин `building`
+  - Building | Iconscout | 6783 | https://www.svgviewer.dev/s/491762/building | https://www.svgviewer.dev/static-svgs/491762/building.svg
+- **Техническое обслуживание устройства сопряжения** — путь `sections[].cards[].icon` — термин `plug`
+  - Plug | Iconscout | 6783 | https://www.svgviewer.dev/s/492410/plug | https://www.svgviewer.dev/static-svgs/492410/plug.svg
+- **Громкоговорящая связь** — путь `sections[].cards[].icon` — термин `link`
+  - Link | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495606/link | https://www.svgviewer.dev/static-svgs/495606/link.svg
+- **СКУД** — путь `sections[].cards[].icon` — термин `lock`
+  - Lock | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495639/lock | https://www.svgviewer.dev/static-svgs/495639/lock.svg
+- **АСУ** — путь `sections[].cards[].icon` — термин `network`
+  - Network | puppylinux | 6762 | https://www.svgviewer.dev/s/483565/network | https://www.svgviewer.dev/static-svgs/483565/network.svg
+- **АСКУЭ** — путь `sections[].cards[].icon` — термин `bolt`
+  - Bolt | Iconscout | 6783 | https://www.svgviewer.dev/s/491667/bolt | https://www.svgviewer.dev/static-svgs/491667/bolt.svg
+- **COT** — путь `sections[].cards[].icon` — термин `camera`
+  - Camera | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494595/camera | https://www.svgviewer.dev/static-svgs/494595/camera.svg
+- **Техническое состояние** — путь `sections[].cards[].icon` — термин `settings`
+  - Settings | Mary Akveo | 7042 | https://www.svgviewer.dev/s/496181/settings | https://www.svgviewer.dev/static-svgs/496181/settings.svg
+- **Стабильная работа** — путь `sections[].cards[].icon` — термин ``
+  - _нет кандидата_
+- **Предупреждение отказов** — путь `sections[].cards[].icon` — термин `settings`
+  - Settings | Mary Akveo | 7042 | https://www.svgviewer.dev/s/496181/settings | https://www.svgviewer.dev/static-svgs/496181/settings.svg
+- **ТО-1** — путь `sections[].cards[].icon` — термин `maintenance`
+  - Maintenance | Siemens | 5721 | https://www.svgviewer.dev/s/377569/maintenance | https://www.svgviewer.dev/static-svgs/377569/maintenance.svg
+- **ТО-2** — путь `sections[].cards[].icon` — термин `maintenance`
+  - Maintenance | Siemens | 5721 | https://www.svgviewer.dev/s/377569/maintenance | https://www.svgviewer.dev/static-svgs/377569/maintenance.svg
+- **Телефония** — путь `sections[].cards[].icon` — термин `phone`
+  - Phone | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495869/phone | https://www.svgviewer.dev/static-svgs/495869/phone.svg
+- **Мобильная связь** — путь `sections[].cards[].icon` — термин `link`
+  - Link | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495606/link | https://www.svgviewer.dev/static-svgs/495606/link.svg
+- **Виртуальная АТС** — путь `sections[].cards[].icon` — термин `phone`
+  - Phone | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495869/phone | https://www.svgviewer.dev/static-svgs/495869/phone.svg
+- **Доступ в интернет** — путь `sections[].cards[].icon` — термин `lock`
+  - Lock | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495639/lock | https://www.svgviewer.dev/static-svgs/495639/lock.svg
+- **Телевидение** — путь `sections[].cards[].icon` — термин ``
+  - _нет кандидата_
+- **Видеонаблюдение** — путь `sections[].cards[].icon` — термин `camera`
+  - Camera | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494595/camera | https://www.svgviewer.dev/static-svgs/494595/camera.svg
+- **Охрана** — путь `sections[].cards[].icon` — термин `shield`
+  - Shield | Iconscout | 6783 | https://www.svgviewer.dev/s/492477/shield | https://www.svgviewer.dev/static-svgs/492477/shield.svg
+- **Компьютерная помощь** — путь `sections[].cards[].icon` — термин `key`
+  - Key | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495551/key | https://www.svgviewer.dev/static-svgs/495551/key.svg
+- **Способы оплаты услуг для ИП и ООО** — путь `sections[].cards[].icon` — термин ``
+  - _нет кандидата_
+- **Настройка оборудования** — путь `sections[].cards[].icon` — термин `network`
+  - Network | puppylinux | 6762 | https://www.svgviewer.dev/s/483565/network | https://www.svgviewer.dev/static-svgs/483565/network.svg
+- **Опыт** — путь `sections[].cards[].icon` — термин ``
+  - _нет кандидата_
+- **Индивидуальный подход** — путь `sections[].cards[].icon` — термин `puzzle`
+  - Puzzle | icons8 | 6785 | https://www.svgviewer.dev/s/493184/puzzle | https://www.svgviewer.dev/static-svgs/493184/puzzle.svg
+- **Инфраструктура** — путь `sections[].cards[].icon` — термин `network`
+  - Network | puppylinux | 6762 | https://www.svgviewer.dev/s/483565/network | https://www.svgviewer.dev/static-svgs/483565/network.svg
+- **Поддержка 24/7** — путь `sections[].cards[].icon` — термин `headset`
+  - Headset | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495424/headset | https://www.svgviewer.dev/static-svgs/495424/headset.svg
+- **условиями обработки персональных данных** — путь `sections[].cards[].icon` — термин `data`
+  - Data | mapshakers | 6777 | https://www.svgviewer.dev/s/489955/data | https://www.svgviewer.dev/static-svgs/489955/data.svg
+- **Компьютерная помощь с выездом в офис** — путь `sections[].cards[].icon` — термин `building`
+  - Building | Iconscout | 6783 | https://www.svgviewer.dev/s/491762/building | https://www.svgviewer.dev/static-svgs/491762/building.svg
+- **Разнообразие популярных телеканалов** — путь `sections[].cards[].icon` — термин ``
+  - _нет кандидата_
+- **Высокое качество изображения и звука** — путь `sections[].cards[].icon` — термин `star`
+  - Star | Mary Akveo | 7042 | https://www.svgviewer.dev/s/493754/star | https://www.svgviewer.dev/static-svgs/493754/star.svg
+- **Широкий выбор дополнительных каналов** — путь `sections[].cards[].icon` — термин `network`
+  - Network | puppylinux | 6762 | https://www.svgviewer.dev/s/483565/network | https://www.svgviewer.dev/static-svgs/483565/network.svg
+- **ТВ-пакет «Бизнес»** — путь `sections[].cards[].icon` — термин ``
+  - _нет кандидата_
+- **ТВ-пакет «Бизнес-офис»** — путь `sections[].cards[].icon` — термин `building`
+  - Building | Iconscout | 6783 | https://www.svgviewer.dev/s/491762/building | https://www.svgviewer.dev/static-svgs/491762/building.svg
+- **Подключение цифрового ТВ** — путь `sections[].cards[].icon` — термин `plug`
+  - Plug | Iconscout | 6783 | https://www.svgviewer.dev/s/492410/plug | https://www.svgviewer.dev/static-svgs/492410/plug.svg
+- **Заявка** — путь `sections[].cards[].icon` — термин ``
+  - _нет кандидата_
+- **Звонок специалиста** — путь `sections[].cards[].icon` — термин `phone`
+  - Phone | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495869/phone | https://www.svgviewer.dev/static-svgs/495869/phone.svg
+- **Подключение** — путь `sections[].cards[].icon` — термин `plug`
+  - Plug | Iconscout | 6783 | https://www.svgviewer.dev/s/492410/plug | https://www.svgviewer.dev/static-svgs/492410/plug.svg
+- **Проектирование** — путь `sections[].cards[].icon` — термин `design`
+  - Design | vmware | 6745 | https://www.svgviewer.dev/s/478014/design | https://www.svgviewer.dev/static-svgs/478014/design.svg
+- **Оборудование** — путь `sections[].cards[].icon` — термин `network`
+  - Network | puppylinux | 6762 | https://www.svgviewer.dev/s/483565/network | https://www.svgviewer.dev/static-svgs/483565/network.svg
+- **Монтаж сети** — путь `sections[].cards[].icon` — термин `network`
+  - Network | puppylinux | 6762 | https://www.svgviewer.dev/s/483565/network | https://www.svgviewer.dev/static-svgs/483565/network.svg
+- **Безопасность** — путь `sections[].cards[].icon` — термин `shield`
+  - Shield | Iconscout | 6783 | https://www.svgviewer.dev/s/492477/shield | https://www.svgviewer.dev/static-svgs/492477/shield.svg
+- **Масштабируемость** — путь `sections[].cards[].icon` — термин `arrow`
+  - Arrow | Iconscout | 6783 | https://www.svgviewer.dev/s/491650/arrow | https://www.svgviewer.dev/static-svgs/491650/arrow.svg
+- **Экономичность** — путь `sections[].cards[].icon` — термин `coin`
+  - Coin | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494792/coin | https://www.svgviewer.dev/static-svgs/494792/coin.svg
+- **Все услуги** — путь `sections[].cards[].icon` — термин ``
+  - _нет кандидата_
+- **Широкая сеть** — путь `sections[].cards[].icon` — термин `network`
+  - Network | puppylinux | 6762 | https://www.svgviewer.dev/s/483565/network | https://www.svgviewer.dev/static-svgs/483565/network.svg
+- **Опыт и репутация** — путь `sections[].cards[].icon` — термин ``
+  - _нет кандидата_
+- **Возможности роста** — путь `sections[].cards[].icon` — термин `arrow`
+  - Arrow | Iconscout | 6783 | https://www.svgviewer.dev/s/491650/arrow | https://www.svgviewer.dev/static-svgs/491650/arrow.svg
+- **Поддержка и обслуживание** — путь `sections[].cards[].icon` — термин `maintenance`
+  - Maintenance | Siemens | 5721 | https://www.svgviewer.dev/s/377569/maintenance | https://www.svgviewer.dev/static-svgs/377569/maintenance.svg
+- **Громкоговорящая и производственно-технологическая связь** — путь `sections[].cards[].icon` — термин `link`
+  - Link | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495606/link | https://www.svgviewer.dev/static-svgs/495606/link.svg
+- **Проверка и настройка программного обеспечения** — путь `sections[].cards[].icon` — термин `settings`
+  - Settings | Mary Akveo | 7042 | https://www.svgviewer.dev/s/496181/settings | https://www.svgviewer.dev/static-svgs/496181/settings.svg
+- **Настройка направления камер** — путь `sections[].cards[].icon` — термин `settings`
+  - Settings | Mary Akveo | 7042 | https://www.svgviewer.dev/s/496181/settings | https://www.svgviewer.dev/static-svgs/496181/settings.svg
+- **Преимущество 1** — путь `sections[].cards[].icon` — термин `trophy`
+  - Trophy | Mary Akveo | 7042 | https://www.svgviewer.dev/s/493852/trophy | https://www.svgviewer.dev/static-svgs/493852/trophy.svg
+- **Преимущество 2** — путь `sections[].cards[].icon` — термин `trophy`
+  - Trophy | Mary Akveo | 7042 | https://www.svgviewer.dev/s/493852/trophy | https://www.svgviewer.dev/static-svgs/493852/trophy.svg
+- **Преимущество 3** — путь `sections[].cards[].icon` — термин `trophy`
+  - Trophy | Mary Akveo | 7042 | https://www.svgviewer.dev/s/493852/trophy | https://www.svgviewer.dev/static-svgs/493852/trophy.svg
+- **Преимущество 4** — путь `sections[].cards[].icon` — термин `trophy`
+  - Trophy | Mary Akveo | 7042 | https://www.svgviewer.dev/s/493852/trophy | https://www.svgviewer.dev/static-svgs/493852/trophy.svg
+- **Преимущество 5** — путь `sections[].cards[].icon` — термин `trophy`
+  - Trophy | Mary Akveo | 7042 | https://www.svgviewer.dev/s/493852/trophy | https://www.svgviewer.dev/static-svgs/493852/trophy.svg
+- **Преимущество 6** — путь `sections[].cards[].icon` — термин `trophy`
+  - Trophy | Mary Akveo | 7042 | https://www.svgviewer.dev/s/493852/trophy | https://www.svgviewer.dev/static-svgs/493852/trophy.svg
+- **Преимущество 7** — путь `sections[].cards[].icon` — термин `trophy`
+  - Trophy | Mary Akveo | 7042 | https://www.svgviewer.dev/s/493852/trophy | https://www.svgviewer.dev/static-svgs/493852/trophy.svg
+- **Преимущество 8** — путь `sections[].cards[].icon` — термин `trophy`
+  - Trophy | Mary Akveo | 7042 | https://www.svgviewer.dev/s/493852/trophy | https://www.svgviewer.dev/static-svgs/493852/trophy.svg
+- **Интернет на скорости до 1 Гбит/с** — путь `sections[].cards[].icon` — термин `arrow`
+  - Arrow | Iconscout | 6783 | https://www.svgviewer.dev/s/491650/arrow | https://www.svgviewer.dev/static-svgs/491650/arrow.svg
+- **Все услуги связи в одном пакете** — путь `sections[].cards[].icon` — термин ``
+  - _нет кандидата_
+- **Индивидуальная настройка под задачи вашего бизнеса** — путь `sections[].cards[].icon` — термин `settings`
+  - Settings | Mary Akveo | 7042 | https://www.svgviewer.dev/s/496181/settings | https://www.svgviewer.dev/static-svgs/496181/settings.svg
+- **Интернет 30** — путь `sections[].cards[].icon` — термин `bolt`
+  - Bolt | Iconscout | 6783 | https://www.svgviewer.dev/s/491667/bolt | https://www.svgviewer.dev/static-svgs/491667/bolt.svg
+- **Интернет 50** — путь `sections[].cards[].icon` — термин `bolt`
+  - Bolt | Iconscout | 6783 | https://www.svgviewer.dev/s/491667/bolt | https://www.svgviewer.dev/static-svgs/491667/bolt.svg
+- **Интернет 100** — путь `sections[].cards[].icon` — термин `bolt`
+  - Bolt | Iconscout | 6783 | https://www.svgviewer.dev/s/491667/bolt | https://www.svgviewer.dev/static-svgs/491667/bolt.svg
+- **Интернет 200** — путь `sections[].cards[].icon` — термин `bolt`
+  - Bolt | Iconscout | 6783 | https://www.svgviewer.dev/s/491667/bolt | https://www.svgviewer.dev/static-svgs/491667/bolt.svg
+- **Повременной** — путь `sections[].cards[].icon` — термин `coin`
+  - Coin | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494792/coin | https://www.svgviewer.dev/static-svgs/494792/coin.svg
+- **Комбинированный** — путь `sections[].cards[].icon` — термин `coin`
+  - Coin | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494792/coin | https://www.svgviewer.dev/static-svgs/494792/coin.svg
+- **Безлимитный** — путь `sections[].cards[].icon` — термин ``
+  - _нет кандидата_
+- **Комбинированный 300** — путь `sections[].cards[].icon` — термин `coin`
+  - Coin | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494792/coin | https://www.svgviewer.dev/static-svgs/494792/coin.svg
+- **Безлимитный 600** — путь `sections[].cards[].icon` — термин ``
+  - _нет кандидата_
+- **Комбинированный 600** — путь `sections[].cards[].icon` — термин `coin`
+  - Coin | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494792/coin | https://www.svgviewer.dev/static-svgs/494792/coin.svg
+- **mgts.ru** — путь `sections[].cards[].icon` — термин `mgts`
+  - Mitsubishi | bytedance | 6590 | https://www.svgviewer.dev/s/463939/mitsubishi | https://www.svgviewer.dev/static-svgs/463939/mitsubishi.svg
+- **Бесплатные звонки** — путь `sections[].cards[].icon` — термин ``
+  - _нет кандидата_
+- **Оплата в кредит** — путь `sections[].cards[].icon` — термин `coin`
+  - Coin | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494792/coin | https://www.svgviewer.dev/static-svgs/494792/coin.svg
+- **Скидки** — путь `sections[].cards[].icon` — термин ``
+  - _нет кандидата_
+- **Умный БИЗНЕС S** — путь `sections[].cards[].icon` — термин `building`
+  - Building | Iconscout | 6783 | https://www.svgviewer.dev/s/491762/building | https://www.svgviewer.dev/static-svgs/491762/building.svg
+- **Умный БИЗНЕС M** — путь `sections[].cards[].icon` — термин `building`
+  - Building | Iconscout | 6783 | https://www.svgviewer.dev/s/491762/building | https://www.svgviewer.dev/static-svgs/491762/building.svg
+- **Умный БИЗНЕС L** — путь `sections[].cards[].icon` — термин `building`
+  - Building | Iconscout | 6783 | https://www.svgviewer.dev/s/491762/building | https://www.svgviewer.dev/static-svgs/491762/building.svg
+- **Умный БИЗНЕС XL** — путь `sections[].cards[].icon` — термин `building`
+  - Building | Iconscout | 6783 | https://www.svgviewer.dev/s/491762/building | https://www.svgviewer.dev/static-svgs/491762/building.svg
+- **Понятный и удобный интерфейс** — путь `sections[].cards[].icon` — термин ``
+  - _нет кандидата_
+- **Возможность сохранить старый номер** — путь `sections[].cards[].icon` — термин `phone`
+  - Phone | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495869/phone | https://www.svgviewer.dev/static-svgs/495869/phone.svg
+- **Не пропускайте звонки и контролируйте качество** — путь `sections[].cards[].icon` — термин `eye`
+  - Eye | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495163/eye | https://www.svgviewer.dev/static-svgs/495163/eye.svg
+- **Масштабируемость** — путь `sections[].cards[].icon` — термин `arrow`
+  - Arrow | Iconscout | 6783 | https://www.svgviewer.dev/s/491650/arrow | https://www.svgviewer.dev/static-svgs/491650/arrow.svg
+- **Постоянное развитие** — путь `sections[].cards[].icon` — термин `arrow`
+  - Arrow | Iconscout | 6783 | https://www.svgviewer.dev/s/491650/arrow | https://www.svgviewer.dev/static-svgs/491650/arrow.svg
+- **Нет капитальных затрат** — путь `sections[].cards[].icon` — термин `document`
+  - Document | icons8 | 6785 | https://www.svgviewer.dev/s/493061/document | https://www.svgviewer.dev/static-svgs/493061/document.svg
+- **Интеграция с CRM** — путь `sections[].cards[].icon` — термин `puzzle`
+  - Puzzle | icons8 | 6785 | https://www.svgviewer.dev/s/493184/puzzle | https://www.svgviewer.dev/static-svgs/493184/puzzle.svg
+- **Разные способы подключения** — путь `sections[].cards[].icon` — термин `plug`
+  - Plug | Iconscout | 6783 | https://www.svgviewer.dev/s/492410/plug | https://www.svgviewer.dev/static-svgs/492410/plug.svg
+- **Отсутствие привязки к физическому адресу** — путь `sections[].cards[].icon` — термин `building`
+  - Building | Iconscout | 6783 | https://www.svgviewer.dev/s/491762/building | https://www.svgviewer.dev/static-svgs/491762/building.svg
+- **Работа на любом устройстве** — путь `sections[].cards[].icon` — термин ``
+  - _нет кандидата_
+- **Сводка** — путь `sections[].cards[].icon` — термин ``
+  - _нет кандидата_
+- **История и записи** — путь `sections[].cards[].icon` — термин `clock`
+  - Clock | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494728/clock | https://www.svgviewer.dev/static-svgs/494728/clock.svg
+- **Сотрудники** — путь `sections[].cards[].icon` — термин `camera`
+  - Camera | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494595/camera | https://www.svgviewer.dev/static-svgs/494595/camera.svg
+- **Статистика** — путь `sections[].cards[].icon` — термин ``
+  - _нет кандидата_
+- **Настройки** — путь `sections[].cards[].icon` — термин `settings`
+  - Settings | Mary Akveo | 7042 | https://www.svgviewer.dev/s/496181/settings | https://www.svgviewer.dev/static-svgs/496181/settings.svg
+- **Номера** — путь `sections[].cards[].icon` — термин `phone`
+  - Phone | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495869/phone | https://www.svgviewer.dev/static-svgs/495869/phone.svg
+- **Шаг 1** — путь `sections[].cards[].icon` — термин `circle`
+  - Circle | icons8 | 6784 | https://www.svgviewer.dev/s/492846/circle | https://www.svgviewer.dev/static-svgs/492846/circle.svg
+- **Шаг 2** — путь `sections[].cards[].icon` — термин `circle`
+  - Circle | icons8 | 6784 | https://www.svgviewer.dev/s/492846/circle | https://www.svgviewer.dev/static-svgs/492846/circle.svg
+- **Шаг 3** — путь `sections[].cards[].icon` — термин `circle`
+  - Circle | icons8 | 6784 | https://www.svgviewer.dev/s/492846/circle | https://www.svgviewer.dev/static-svgs/492846/circle.svg
+- **Шаг 4** — путь `sections[].cards[].icon` — термин `circle`
+  - Circle | icons8 | 6784 | https://www.svgviewer.dev/s/492846/circle | https://www.svgviewer.dev/static-svgs/492846/circle.svg
+- **50 +** — путь `sections[].cards[].icon` — термин ``
+  - _нет кандидата_
+- **Порядок допуска к проведению работ на ЛКС/ЛСС** — путь `sections[].cards[].icon` — термин `lock`
+  - Lock | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495639/lock | https://www.svgviewer.dev/static-svgs/495639/lock.svg
+- **Закупки** — путь `sections[].cards[].icon` — термин `cart`
+  - Cart | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494634/cart | https://www.svgviewer.dev/static-svgs/494634/cart.svg
+- **Реализация ТМЦ** — путь `sections[].cards[].icon` — термин `cart`
+  - Cart | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494634/cart | https://www.svgviewer.dev/static-svgs/494634/cart.svg
+- **Тарифы** — путь `sections[].cards[].icon` — термин `coin`
+  - Coin | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494792/coin | https://www.svgviewer.dev/static-svgs/494792/coin.svg
+- **Документация** — путь `sections[].cards[].icon` — термин `document`
+  - Document | icons8 | 6785 | https://www.svgviewer.dev/s/493061/document | https://www.svgviewer.dev/static-svgs/493061/document.svg
+- **Рамочный договор** — путь `sections[].cards[].icon` — термин `document`
+  - Document | icons8 | 6785 | https://www.svgviewer.dev/s/493061/document | https://www.svgviewer.dev/static-svgs/493061/document.svg
+- **Все услуги** — путь `sections[].cards[].icon` — термин ``
+  - _нет кандидата_
+- **Широкая сеть** — путь `sections[].cards[].icon` — термин `network`
+  - Network | puppylinux | 6762 | https://www.svgviewer.dev/s/483565/network | https://www.svgviewer.dev/static-svgs/483565/network.svg
+- **Опыт и репутация** — путь `sections[].cards[].icon` — термин ``
+  - _нет кандидата_
+- **Возможности роста** — путь `sections[].cards[].icon` — термин `arrow`
+  - Arrow | Iconscout | 6783 | https://www.svgviewer.dev/s/491650/arrow | https://www.svgviewer.dev/static-svgs/491650/arrow.svg
+- **Поддержка и обслуживание** — путь `sections[].cards[].icon` — термин `maintenance`
+  - Maintenance | Siemens | 5721 | https://www.svgviewer.dev/s/377569/maintenance | https://www.svgviewer.dev/static-svgs/377569/maintenance.svg
+- **Управление данными** — путь `sections[].cards[].icon` — термин `data`
+  - Data | mapshakers | 6777 | https://www.svgviewer.dev/s/489955/data | https://www.svgviewer.dev/static-svgs/489955/data.svg
+- **Настройка периферийных устройств** — путь `sections[].cards[].icon` — термин `settings`
+  - Settings | Mary Akveo | 7042 | https://www.svgviewer.dev/s/496181/settings | https://www.svgviewer.dev/static-svgs/496181/settings.svg
+- **Настройка операционных систем** — путь `sections[].cards[].icon` — термин `settings`
+  - Settings | Mary Akveo | 7042 | https://www.svgviewer.dev/s/496181/settings | https://www.svgviewer.dev/static-svgs/496181/settings.svg
+- **Работа с сетью** — путь `sections[].cards[].icon` — термин `network`
+  - Network | puppylinux | 6762 | https://www.svgviewer.dev/s/483565/network | https://www.svgviewer.dev/static-svgs/483565/network.svg
+- **Удаление вирусов** — путь `sections[].cards[].icon` — термин `shield`
+  - Shield | Iconscout | 6783 | https://www.svgviewer.dev/s/492477/shield | https://www.svgviewer.dev/static-svgs/492477/shield.svg
+- **Монтажные работы** — путь `sections[].cards[].icon` — термин `wrench`
+  - Wrench | Iconscout | 6783 | https://www.svgviewer.dev/s/492732/wrench | https://www.svgviewer.dev/static-svgs/492732/wrench.svg
+- **1. Один поставщик для всех услуг** — путь `sections[].cards[].icon` — термин `trophy`
+  - Trophy | Mary Akveo | 7042 | https://www.svgviewer.dev/s/493852/trophy | https://www.svgviewer.dev/static-svgs/493852/trophy.svg
+- **2. Гарантия качества** — путь `sections[].cards[].icon` — термин `trophy`
+  - Trophy | Mary Akveo | 7042 | https://www.svgviewer.dev/s/493852/trophy | https://www.svgviewer.dev/static-svgs/493852/trophy.svg
+- **3. Выгодные тарифы** — путь `sections[].cards[].icon` — термин `coin`
+  - Coin | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494792/coin | https://www.svgviewer.dev/static-svgs/494792/coin.svg
+- **4. Регулярная поддержка** — путь `sections[].cards[].icon` — термин `headset`
+  - Headset | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495424/headset | https://www.svgviewer.dev/static-svgs/495424/headset.svg
+- **5. Индивидуальный подход** — путь `sections[].cards[].icon` — термин `trophy`
+  - Trophy | Mary Akveo | 7042 | https://www.svgviewer.dev/s/493852/trophy | https://www.svgviewer.dev/static-svgs/493852/trophy.svg
+- **6. Профессиональные исполнители** — путь `sections[].cards[].icon` — термин `trophy`
+  - Trophy | Mary Akveo | 7042 | https://www.svgviewer.dev/s/493852/trophy | https://www.svgviewer.dev/static-svgs/493852/trophy.svg
+- **1** — путь `sections[].cards[].icon` — термин `circle`
+  - Circle | icons8 | 6784 | https://www.svgviewer.dev/s/492846/circle | https://www.svgviewer.dev/static-svgs/492846/circle.svg
+- **2** — путь `sections[].cards[].icon` — термин `circle`
+  - Circle | icons8 | 6784 | https://www.svgviewer.dev/s/492846/circle | https://www.svgviewer.dev/static-svgs/492846/circle.svg
+- **3** — путь `sections[].cards[].icon` — термин `circle`
+  - Circle | icons8 | 6784 | https://www.svgviewer.dev/s/492846/circle | https://www.svgviewer.dev/static-svgs/492846/circle.svg
+- **4** — путь `sections[].cards[].icon` — термин `circle`
+  - Circle | icons8 | 6784 | https://www.svgviewer.dev/s/492846/circle | https://www.svgviewer.dev/static-svgs/492846/circle.svg
+- **5** — путь `sections[].cards[].icon` — термин `circle`
+  - Circle | icons8 | 6784 | https://www.svgviewer.dev/s/492846/circle | https://www.svgviewer.dev/static-svgs/492846/circle.svg
+- **6** — путь `sections[].cards[].icon` — термин `circle`
+  - Circle | icons8 | 6784 | https://www.svgviewer.dev/s/492846/circle | https://www.svgviewer.dev/static-svgs/492846/circle.svg
+- **Надежность** — путь `sections[].cards[].icon` — термин `shield`
+  - Shield | Iconscout | 6783 | https://www.svgviewer.dev/s/492477/shield | https://www.svgviewer.dev/static-svgs/492477/shield.svg
+- **Безопасность** — путь `sections[].cards[].icon` — термин `shield`
+  - Shield | Iconscout | 6783 | https://www.svgviewer.dev/s/492477/shield | https://www.svgviewer.dev/static-svgs/492477/shield.svg
+- **Обеспечение охраны** — путь `sections[].cards[].icon` — термин `shield`
+  - Shield | Iconscout | 6783 | https://www.svgviewer.dev/s/492477/shield | https://www.svgviewer.dev/static-svgs/492477/shield.svg
+- **Поддержка 24/7** — путь `sections[].cards[].icon` — термин `headset`
+  - Headset | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495424/headset | https://www.svgviewer.dev/static-svgs/495424/headset.svg
+- **Современные датчики** — путь `sections[].cards[].icon` — термин ``
+  - _нет кандидата_
+- **Доступность** — путь `sections[].cards[].icon` — термин `lock`
+  - Lock | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495639/lock | https://www.svgviewer.dev/static-svgs/495639/lock.svg
+- **Просмотр из любой точки мира** — путь `sections[].cards[].icon` — термин `eye`
+  - Eye | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495163/eye | https://www.svgviewer.dev/static-svgs/495163/eye.svg
+- **Управление уровнем доступа к системе** — путь `sections[].cards[].icon` — термин `lock`
+  - Lock | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495639/lock | https://www.svgviewer.dev/static-svgs/495639/lock.svg
+- **Облачное хранение до 45 дней** — путь `sections[].cards[].icon` — термин ``
+  - _нет кандидата_
+- **Конфиденциальность** — путь `sections[].cards[].icon` — термин `lock`
+  - Lock | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495639/lock | https://www.svgviewer.dev/static-svgs/495639/lock.svg
+- **Контроль событий** — путь `sections[].cards[].icon` — термин `document`
+  - Document | icons8 | 6785 | https://www.svgviewer.dev/s/493061/document | https://www.svgviewer.dev/static-svgs/493061/document.svg
+- **Установка «под ключ»** — путь `sections[].cards[].icon` — термин `key`
+  - Key | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495551/key | https://www.svgviewer.dev/static-svgs/495551/key.svg
+- **Видеонаблюдение + Видеоархив** — путь `sections[].cards[].icon` — термин `camera`
+  - Camera | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494595/camera | https://www.svgviewer.dev/static-svgs/494595/camera.svg
+- **Видеонаблюдение + Видеоархив** — путь `sections[].cards[].icon` — термин `camera`
+  - Camera | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494595/camera | https://www.svgviewer.dev/static-svgs/494595/camera.svg
+- **Видеонаблюдение + Видеоархив** — путь `sections[].cards[].icon` — термин `camera`
+  - Camera | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494595/camera | https://www.svgviewer.dev/static-svgs/494595/camera.svg
+- **Видеонаблюдение + Видеоархив** — путь `sections[].cards[].icon` — термин `camera`
+  - Camera | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494595/camera | https://www.svgviewer.dev/static-svgs/494595/camera.svg
+- **Монтаж и настройка внутренних камер** — путь `sections[].cards[].icon` — термин `settings`
+  - Settings | Mary Akveo | 7042 | https://www.svgviewer.dev/s/496181/settings | https://www.svgviewer.dev/static-svgs/496181/settings.svg
+- **Монтаж и настройка внутренних камер** — путь `sections[].cards[].icon` — термин `settings`
+  - Settings | Mary Akveo | 7042 | https://www.svgviewer.dev/s/496181/settings | https://www.svgviewer.dev/static-svgs/496181/settings.svg
+- **Монтаж и настройка внутренних камер** — путь `sections[].cards[].icon` — термин `settings`
+  - Settings | Mary Akveo | 7042 | https://www.svgviewer.dev/s/496181/settings | https://www.svgviewer.dev/static-svgs/496181/settings.svg
+- **Монтаж и настройка видео конвертера** — путь `sections[].cards[].icon` — термин `camera`
+  - Camera | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494595/camera | https://www.svgviewer.dev/static-svgs/494595/camera.svg
+- **Телефония** — путь `sections[].cards[].icon` — термин `phone`
+  - Phone | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495869/phone | https://www.svgviewer.dev/static-svgs/495869/phone.svg
+- **Мобильная связь** — путь `sections[].cards[].icon` — термин `link`
+  - Link | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495606/link | https://www.svgviewer.dev/static-svgs/495606/link.svg
+- **Виртуальная АТС** — путь `sections[].cards[].icon` — термин `phone`
+  - Phone | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495869/phone | https://www.svgviewer.dev/static-svgs/495869/phone.svg
+- **Доступ в интернет** — путь `sections[].cards[].icon` — термин `lock`
+  - Lock | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495639/lock | https://www.svgviewer.dev/static-svgs/495639/lock.svg
+- **Телевидение** — путь `sections[].cards[].icon` — термин ``
+  - _нет кандидата_
+- **Видеонаблюдение** — путь `sections[].cards[].icon` — термин `camera`
+  - Camera | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494595/camera | https://www.svgviewer.dev/static-svgs/494595/camera.svg
+- **Охрана** — путь `sections[].cards[].icon` — термин `shield`
+  - Shield | Iconscout | 6783 | https://www.svgviewer.dev/s/492477/shield | https://www.svgviewer.dev/static-svgs/492477/shield.svg
+- **Надежность** — путь `sections[].cards[].icon` — термин `shield`
+  - Shield | Iconscout | 6783 | https://www.svgviewer.dev/s/492477/shield | https://www.svgviewer.dev/static-svgs/492477/shield.svg
+- **Бережливое строительство** — путь `sections[].cards[].icon` — термин `construction`
+  - Construction | mapbox | 6778 | https://www.svgviewer.dev/s/490139/construction | https://www.svgviewer.dev/static-svgs/490139/construction.svg
+- **Телефония** — путь `sections[].cards[].icon` — термин `phone`
+  - Phone | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495869/phone | https://www.svgviewer.dev/static-svgs/495869/phone.svg
+- **Доступ в интернет** — путь `sections[].cards[].icon` — термин `lock`
+  - Lock | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495639/lock | https://www.svgviewer.dev/static-svgs/495639/lock.svg
+- **Телевидение** — путь `sections[].cards[].icon` — термин ``
+  - _нет кандидата_
+- **Видеонаблюдение** — путь `sections[].cards[].icon` — термин `camera`
+  - Camera | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494595/camera | https://www.svgviewer.dev/static-svgs/494595/camera.svg
+- **Системы безопасности** — путь `sections[].cards[].icon` — термин `shield`
+  - Shield | Iconscout | 6783 | https://www.svgviewer.dev/s/492477/shield | https://www.svgviewer.dev/static-svgs/492477/shield.svg
+- **Объединения локальных сетей** — путь `sections[].cards[].icon` — термин `network`
+  - Network | puppylinux | 6762 | https://www.svgviewer.dev/s/483565/network | https://www.svgviewer.dev/static-svgs/483565/network.svg
+- **Уличные сети доступа Wi-Fi** — путь `sections[].cards[].icon` — термин `lock`
+  - Lock | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495639/lock | https://www.svgviewer.dev/static-svgs/495639/lock.svg
+- **Телефонные и телевизионные линии** — путь `sections[].cards[].icon` — термин `phone`
+  - Phone | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495869/phone | https://www.svgviewer.dev/static-svgs/495869/phone.svg
+- **Уникальная экспертиза** — путь `sections[].cards[].icon` — термин ``
+  - _нет кандидата_
+- **Быстрое решение задач** — путь `sections[].cards[].icon` — термин `key`
+  - Key | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495551/key | https://www.svgviewer.dev/static-svgs/495551/key.svg
+- **Детальное планирование** — путь `sections[].cards[].icon` — термин `calendar`
+  - Calendar | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494587/calendar | https://www.svgviewer.dev/static-svgs/494587/calendar.svg
+- **Круглосуточный контроль** — путь `sections[].cards[].icon` — термин `eye`
+  - Eye | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495163/eye | https://www.svgviewer.dev/static-svgs/495163/eye.svg
+- **Профилактические работы** — путь `sections[].cards[].icon` — термин `shield`
+  - Shield | Iconscout | 6783 | https://www.svgviewer.dev/s/492477/shield | https://www.svgviewer.dev/static-svgs/492477/shield.svg
+- **Аварийное восстановление** — путь `sections[].cards[].icon` — термин `bolt`
+  - Bolt | Iconscout | 6783 | https://www.svgviewer.dev/s/491667/bolt | https://www.svgviewer.dev/static-svgs/491667/bolt.svg
+- **Охранно-предупредительные работы** — путь `sections[].cards[].icon` — термин `shield`
+  - Shield | Iconscout | 6783 | https://www.svgviewer.dev/s/492477/shield | https://www.svgviewer.dev/static-svgs/492477/shield.svg
+- **Высококвалифицированный персонал** — путь `sections[].cards[].icon` — термин `star`
+  - Star | Mary Akveo | 7042 | https://www.svgviewer.dev/s/493754/star | https://www.svgviewer.dev/static-svgs/493754/star.svg
+- **Опыт в обслуживании сетей** — путь `sections[].cards[].icon` — термин `maintenance`
+  - Maintenance | Siemens | 5721 | https://www.svgviewer.dev/s/377569/maintenance | https://www.svgviewer.dev/static-svgs/377569/maintenance.svg
+- **Системный подход** — путь `sections[].cards[].icon` — термин `network`
+  - Network | puppylinux | 6762 | https://www.svgviewer.dev/s/483565/network | https://www.svgviewer.dev/static-svgs/483565/network.svg
+- **Телефонные сети** — путь `sections[].cards[].icon` — термин `network`
+  - Network | puppylinux | 6762 | https://www.svgviewer.dev/s/483565/network | https://www.svgviewer.dev/static-svgs/483565/network.svg
+- **Локальные вычислительные сети** — путь `sections[].cards[].icon` — термин `network`
+  - Network | puppylinux | 6762 | https://www.svgviewer.dev/s/483565/network | https://www.svgviewer.dev/static-svgs/483565/network.svg
+- **Охранные системы** — путь `sections[].cards[].icon` — термин `shield`
+  - Shield | Iconscout | 6783 | https://www.svgviewer.dev/s/492477/shield | https://www.svgviewer.dev/static-svgs/492477/shield.svg
+- **Надёжность** — путь `sections[].cards[].icon` — термин `shield`
+  - Shield | Iconscout | 6783 | https://www.svgviewer.dev/s/492477/shield | https://www.svgviewer.dev/static-svgs/492477/shield.svg
+- **Гибкость** — путь `sections[].cards[].icon` — термин `arrow`
+  - Arrow | Iconscout | 6783 | https://www.svgviewer.dev/s/491650/arrow | https://www.svgviewer.dev/static-svgs/491650/arrow.svg
+- **Управляемость** — путь `sections[].cards[].icon` — термин ``
+  - _нет кандидата_
+- **Подбор и настройка оборудования** — путь `sections[].cards[].icon` — термин `network`
+  - Network | puppylinux | 6762 | https://www.svgviewer.dev/s/483565/network | https://www.svgviewer.dev/static-svgs/483565/network.svg
+- **Запуск и эксплуатация** — путь `sections[].cards[].icon` — термин `maintenance`
+  - Maintenance | Siemens | 5721 | https://www.svgviewer.dev/s/377569/maintenance | https://www.svgviewer.dev/static-svgs/377569/maintenance.svg
+- **Расчёт и сборка элементов управления** — путь `sections[].cards[].icon` — термин `settings`
+  - Settings | Mary Akveo | 7042 | https://www.svgviewer.dev/s/496181/settings | https://www.svgviewer.dev/static-svgs/496181/settings.svg
+- **Визуализация** — путь `sections[].cards[].icon` — термин `eye`
+  - Eye | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495163/eye | https://www.svgviewer.dev/static-svgs/495163/eye.svg
+- **Поддержка оборудования** — путь `sections[].cards[].icon` — термин `network`
+  - Network | puppylinux | 6762 | https://www.svgviewer.dev/s/483565/network | https://www.svgviewer.dev/static-svgs/483565/network.svg
+- **Улучшенный мониторинг и контроль** — путь `sections[].cards[].icon` — термин `document`
+  - Document | icons8 | 6785 | https://www.svgviewer.dev/s/493061/document | https://www.svgviewer.dev/static-svgs/493061/document.svg
+- **Гибкость и масштабируемость** — путь `sections[].cards[].icon` — термин `arrow`
+  - Arrow | Iconscout | 6783 | https://www.svgviewer.dev/s/491650/arrow | https://www.svgviewer.dev/static-svgs/491650/arrow.svg
+- **Безопасность и снижение рисков** — путь `sections[].cards[].icon` — термин `shield`
+  - Shield | Iconscout | 6783 | https://www.svgviewer.dev/s/492477/shield | https://www.svgviewer.dev/static-svgs/492477/shield.svg
+- **Экономия времени и ресурсов** — путь `sections[].cards[].icon` — термин `coin`
+  - Coin | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494792/coin | https://www.svgviewer.dev/static-svgs/494792/coin.svg
+- **1** — путь `sections[].cards[].icon` — термин `circle`
+  - Circle | icons8 | 6784 | https://www.svgviewer.dev/s/492846/circle | https://www.svgviewer.dev/static-svgs/492846/circle.svg
+- **2** — путь `sections[].cards[].icon` — термин `circle`
+  - Circle | icons8 | 6784 | https://www.svgviewer.dev/s/492846/circle | https://www.svgviewer.dev/static-svgs/492846/circle.svg
+- **3** — путь `sections[].cards[].icon` — термин `circle`
+  - Circle | icons8 | 6784 | https://www.svgviewer.dev/s/492846/circle | https://www.svgviewer.dev/static-svgs/492846/circle.svg
+- **4** — путь `sections[].cards[].icon` — термин `circle`
+  - Circle | icons8 | 6784 | https://www.svgviewer.dev/s/492846/circle | https://www.svgviewer.dev/static-svgs/492846/circle.svg
+- **Точные данные для принятия решений** — путь `sections[].cards[].icon` — термин `data`
+  - Data | mapshakers | 6777 | https://www.svgviewer.dev/s/489955/data | https://www.svgviewer.dev/static-svgs/489955/data.svg
+- **Автоматизированная отчётность** — путь `sections[].cards[].icon` — термин `document`
+  - Document | icons8 | 6785 | https://www.svgviewer.dev/s/493061/document | https://www.svgviewer.dev/static-svgs/493061/document.svg
+- **Снижение экологического воздействия** — путь `sections[].cards[].icon` — термин `document`
+  - Document | icons8 | 6785 | https://www.svgviewer.dev/s/493061/document | https://www.svgviewer.dev/static-svgs/493061/document.svg
+- **Оптимизация расходов** — путь `sections[].cards[].icon` — термин `coin`
+  - Coin | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494792/coin | https://www.svgviewer.dev/static-svgs/494792/coin.svg
+- **Программное обеспечение** — путь `sections[].cards[].icon` — термин `settings`
+  - Settings | Mary Akveo | 7042 | https://www.svgviewer.dev/s/496181/settings | https://www.svgviewer.dev/static-svgs/496181/settings.svg
+- **IP громкоговорители** — путь `sections[].cards[].icon` — термин `link`
+  - Link | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495606/link | https://www.svgviewer.dev/static-svgs/495606/link.svg
+- **Микрофонные станции** — путь `sections[].cards[].icon` — термин ``
+  - _нет кандидата_
+- **Серверные оповещения** — путь `sections[].cards[].icon` — термин `network`
+  - Network | puppylinux | 6762 | https://www.svgviewer.dev/s/483565/network | https://www.svgviewer.dev/static-svgs/483565/network.svg
+- **1** — путь `sections[].cards[].icon` — термин `circle`
+  - Circle | icons8 | 6784 | https://www.svgviewer.dev/s/492846/circle | https://www.svgviewer.dev/static-svgs/492846/circle.svg
+- **2** — путь `sections[].cards[].icon` — термин `circle`
+  - Circle | icons8 | 6784 | https://www.svgviewer.dev/s/492846/circle | https://www.svgviewer.dev/static-svgs/492846/circle.svg
+- **3** — путь `sections[].cards[].icon` — термин `circle`
+  - Circle | icons8 | 6784 | https://www.svgviewer.dev/s/492846/circle | https://www.svgviewer.dev/static-svgs/492846/circle.svg
+- **4** — путь `sections[].cards[].icon` — термин `circle`
+  - Circle | icons8 | 6784 | https://www.svgviewer.dev/s/492846/circle | https://www.svgviewer.dev/static-svgs/492846/circle.svg
+- **5** — путь `sections[].cards[].icon` — термин `circle`
+  - Circle | icons8 | 6784 | https://www.svgviewer.dev/s/492846/circle | https://www.svgviewer.dev/static-svgs/492846/circle.svg
+- **6** — путь `sections[].cards[].icon` — термин `circle`
+  - Circle | icons8 | 6784 | https://www.svgviewer.dev/s/492846/circle | https://www.svgviewer.dev/static-svgs/492846/circle.svg
+- **7** — путь `sections[].cards[].icon` — термин `circle`
+  - Circle | icons8 | 6784 | https://www.svgviewer.dev/s/492846/circle | https://www.svgviewer.dev/static-svgs/492846/circle.svg
+- **8** — путь `sections[].cards[].icon` — термин `circle`
+  - Circle | icons8 | 6784 | https://www.svgviewer.dev/s/492846/circle | https://www.svgviewer.dev/static-svgs/492846/circle.svg
+- **1** — путь `sections[].cards[].icon` — термин `circle`
+  - Circle | icons8 | 6784 | https://www.svgviewer.dev/s/492846/circle | https://www.svgviewer.dev/static-svgs/492846/circle.svg
+- **2** — путь `sections[].cards[].icon` — термин `circle`
+  - Circle | icons8 | 6784 | https://www.svgviewer.dev/s/492846/circle | https://www.svgviewer.dev/static-svgs/492846/circle.svg
+- **3** — путь `sections[].cards[].icon` — термин `circle`
+  - Circle | icons8 | 6784 | https://www.svgviewer.dev/s/492846/circle | https://www.svgviewer.dev/static-svgs/492846/circle.svg
+- **4** — путь `sections[].cards[].icon` — термин `circle`
+  - Circle | icons8 | 6784 | https://www.svgviewer.dev/s/492846/circle | https://www.svgviewer.dev/static-svgs/492846/circle.svg
+- **Превентивный эффект** — путь `sections[].cards[].icon` — термин `shield`
+  - Shield | Iconscout | 6783 | https://www.svgviewer.dev/s/492477/shield | https://www.svgviewer.dev/static-svgs/492477/shield.svg
+- **Оптимизация работы сотрудников** — путь `sections[].cards[].icon` — термин `camera`
+  - Camera | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494595/camera | https://www.svgviewer.dev/static-svgs/494595/camera.svg
+- **Экономия ресурсов** — путь `sections[].cards[].icon` — термин `coin`
+  - Coin | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494792/coin | https://www.svgviewer.dev/static-svgs/494792/coin.svg
+- **Улучшение процессов безопасности** — путь `sections[].cards[].icon` — термин `shield`
+  - Shield | Iconscout | 6783 | https://www.svgviewer.dev/s/492477/shield | https://www.svgviewer.dev/static-svgs/492477/shield.svg
+- **Обследование** — путь `sections[].cards[].icon` — термин `document`
+  - Document | icons8 | 6785 | https://www.svgviewer.dev/s/493061/document | https://www.svgviewer.dev/static-svgs/493061/document.svg
+- **Техническое обслуживание** — путь `sections[].cards[].icon` — термин `maintenance`
+  - Maintenance | Siemens | 5721 | https://www.svgviewer.dev/s/377569/maintenance | https://www.svgviewer.dev/static-svgs/377569/maintenance.svg
+- **Монтаж оборудования** — путь `sections[].cards[].icon` — термин `network`
+  - Network | puppylinux | 6762 | https://www.svgviewer.dev/s/483565/network | https://www.svgviewer.dev/static-svgs/483565/network.svg
+- **Подготовка оснащения** — путь `sections[].cards[].icon` — термин `wrench`
+  - Wrench | Iconscout | 6783 | https://www.svgviewer.dev/s/492732/wrench | https://www.svgviewer.dev/static-svgs/492732/wrench.svg
+- **Составление протокола о работоспособности** — путь `sections[].cards[].icon` — термин `document`
+  - Document | icons8 | 6785 | https://www.svgviewer.dev/s/493061/document | https://www.svgviewer.dev/static-svgs/493061/document.svg
+- **Организация резервного канала (3G / LTE)** — путь `sections[].cards[].icon` — термин `lte`
+  - Transmission Lte | Carbon Design | 105 | https://www.svgviewer.dev/s/26897/transmission-lte | https://www.svgviewer.dev/static-svgs/26897/transmission-lte.svg
+- **Техническое обслуживание** — путь `sections[].cards[].icon` — термин `maintenance`
+  - Maintenance | Siemens | 5721 | https://www.svgviewer.dev/s/377569/maintenance | https://www.svgviewer.dev/static-svgs/377569/maintenance.svg
+- **Монтаж оборудования** — путь `sections[].cards[].icon` — термин `network`
+  - Network | puppylinux | 6762 | https://www.svgviewer.dev/s/483565/network | https://www.svgviewer.dev/static-svgs/483565/network.svg
+- **Подготовка оснащения** — путь `sections[].cards[].icon` — термин `wrench`
+  - Wrench | Iconscout | 6783 | https://www.svgviewer.dev/s/492732/wrench | https://www.svgviewer.dev/static-svgs/492732/wrench.svg
+- **Проверка работоспособности** — путь `sections[].cards[].icon` — термин `settings`
+  - Settings | Mary Akveo | 7042 | https://www.svgviewer.dev/s/496181/settings | https://www.svgviewer.dev/static-svgs/496181/settings.svg
+- **1** — путь `sections[].cards[].icon` — термин `circle`
+  - Circle | icons8 | 6784 | https://www.svgviewer.dev/s/492846/circle | https://www.svgviewer.dev/static-svgs/492846/circle.svg
+- **2** — путь `sections[].cards[].icon` — термин `circle`
+  - Circle | icons8 | 6784 | https://www.svgviewer.dev/s/492846/circle | https://www.svgviewer.dev/static-svgs/492846/circle.svg
+- **3** — путь `sections[].cards[].icon` — термин `circle`
+  - Circle | icons8 | 6784 | https://www.svgviewer.dev/s/492846/circle | https://www.svgviewer.dev/static-svgs/492846/circle.svg
+- **4** — путь `sections[].cards[].icon` — термин `circle`
+  - Circle | icons8 | 6784 | https://www.svgviewer.dev/s/492846/circle | https://www.svgviewer.dev/static-svgs/492846/circle.svg
+- **5** — путь `sections[].cards[].icon` — термин `circle`
+  - Circle | icons8 | 6784 | https://www.svgviewer.dev/s/492846/circle | https://www.svgviewer.dev/static-svgs/492846/circle.svg
+- **6** — путь `sections[].cards[].icon` — термин `circle`
+  - Circle | icons8 | 6784 | https://www.svgviewer.dev/s/492846/circle | https://www.svgviewer.dev/static-svgs/492846/circle.svg
+- **7** — путь `sections[].cards[].icon` — термин `circle`
+  - Circle | icons8 | 6784 | https://www.svgviewer.dev/s/492846/circle | https://www.svgviewer.dev/static-svgs/492846/circle.svg
+- **8** — путь `sections[].cards[].icon` — термин `circle`
+  - Circle | icons8 | 6784 | https://www.svgviewer.dev/s/492846/circle | https://www.svgviewer.dev/static-svgs/492846/circle.svg
+- **9** — путь `sections[].cards[].icon` — термин `circle`
+  - Circle | icons8 | 6784 | https://www.svgviewer.dev/s/492846/circle | https://www.svgviewer.dev/static-svgs/492846/circle.svg
+- **10** — путь `sections[].cards[].icon` — термин `circle`
+  - Circle | icons8 | 6784 | https://www.svgviewer.dev/s/492846/circle | https://www.svgviewer.dev/static-svgs/492846/circle.svg
+- **11** — путь `sections[].cards[].icon` — термин `circle`
+  - Circle | icons8 | 6784 | https://www.svgviewer.dev/s/492846/circle | https://www.svgviewer.dev/static-svgs/492846/circle.svg
+- **Полное обследование и аудит системы** — путь `sections[].cards[].icon` — термин `document`
+  - Document | icons8 | 6785 | https://www.svgviewer.dev/s/493061/document | https://www.svgviewer.dev/static-svgs/493061/document.svg
+- **Техническое обслуживание** — путь `sections[].cards[].icon` — термин `maintenance`
+  - Maintenance | Siemens | 5721 | https://www.svgviewer.dev/s/377569/maintenance | https://www.svgviewer.dev/static-svgs/377569/maintenance.svg
+- **Ремонт в процессе эксплуатации:** — путь `sections[].cards[].icon` — термин `maintenance`
+  - Maintenance | Siemens | 5721 | https://www.svgviewer.dev/s/377569/maintenance | https://www.svgviewer.dev/static-svgs/377569/maintenance.svg
+- **Email** — путь `sections[].cards[].icon` — термин `email`
+  - Email | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495198/email | https://www.svgviewer.dev/static-svgs/495198/email.svg
+- **Техническая поддержка** — путь `sections[].cards[].icon` — термин `headset`
+  - Headset | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495424/headset | https://www.svgviewer.dev/static-svgs/495424/headset.svg
+- **Надежность** — путь `sections[].cards[].icon` — термин `shield`
+  - Shield | Iconscout | 6783 | https://www.svgviewer.dev/s/492477/shield | https://www.svgviewer.dev/static-svgs/492477/shield.svg
+- **Широкое покрытие** — путь `sections[].cards[].icon` — термин `network`
+  - Network | puppylinux | 6762 | https://www.svgviewer.dev/s/483565/network | https://www.svgviewer.dev/static-svgs/483565/network.svg
+- **Устойчивость сети** — путь `sections[].cards[].icon` — термин `network`
+  - Network | puppylinux | 6762 | https://www.svgviewer.dev/s/483565/network | https://www.svgviewer.dev/static-svgs/483565/network.svg
+- **Поддержка 24/7** — путь `sections[].cards[].icon` — термин `headset`
+  - Headset | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495424/headset | https://www.svgviewer.dev/static-svgs/495424/headset.svg
+- **Безопасность** — путь `sections[].cards[].icon` — термин `shield`
+  - Shield | Iconscout | 6783 | https://www.svgviewer.dev/s/492477/shield | https://www.svgviewer.dev/static-svgs/492477/shield.svg
+- **Высокая компетенция** — путь `sections[].cards[].icon` — термин `star`
+  - Star | Mary Akveo | 7042 | https://www.svgviewer.dev/s/493754/star | https://www.svgviewer.dev/static-svgs/493754/star.svg
+- **Поддержка** — путь `sections[].cards[].icon` — термин `headset`
+  - Headset | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495424/headset | https://www.svgviewer.dev/static-svgs/495424/headset.svg
+- **Круглосуточная техническая поддержка** — путь `sections[].cards[].icon` — термин `headset`
+  - Headset | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495424/headset | https://www.svgviewer.dev/static-svgs/495424/headset.svg
+- **Контроль над всеми объектами** — путь `sections[].cards[].icon` — термин `document`
+  - Document | icons8 | 6785 | https://www.svgviewer.dev/s/493061/document | https://www.svgviewer.dev/static-svgs/493061/document.svg
+- **Широкое покрытие** — путь `sections[].cards[].icon` — термин `network`
+  - Network | puppylinux | 6762 | https://www.svgviewer.dev/s/483565/network | https://www.svgviewer.dev/static-svgs/483565/network.svg
+- **Безопасность** — путь `sections[].cards[].icon` — термин `shield`
+  - Shield | Iconscout | 6783 | https://www.svgviewer.dev/s/492477/shield | https://www.svgviewer.dev/static-svgs/492477/shield.svg
+- **Проектирование и строительство** — путь `sections[].cards[].icon` — термин `design`
+  - Design | vmware | 6745 | https://www.svgviewer.dev/s/478014/design | https://www.svgviewer.dev/static-svgs/478014/design.svg
+- **Инвентаризация** — путь `sections[].cards[].icon` — термин ``
+  - _нет кандидата_
+- **Демонтаж** — путь `sections[].cards[].icon` — термин `wrench`
+  - Wrench | Iconscout | 6783 | https://www.svgviewer.dev/s/492732/wrench | https://www.svgviewer.dev/static-svgs/492732/wrench.svg
+- **Удаленный контроль территории** — путь `sections[].cards[].icon` — термин `document`
+  - Document | icons8 | 6785 | https://www.svgviewer.dev/s/493061/document | https://www.svgviewer.dev/static-svgs/493061/document.svg
+- **Управляемые поворотные камеры** — путь `sections[].cards[].icon` — термин ``
+  - _нет кандидата_
+- **Устойчивость к внешним воздействиям** — путь `sections[].cards[].icon` — термин `shield`
+  - Shield | Iconscout | 6783 | https://www.svgviewer.dev/s/492477/shield | https://www.svgviewer.dev/static-svgs/492477/shield.svg
+- **Автономная работа без электроснабжения** — путь `sections[].cards[].icon` — термин ``
+  - _нет кандидата_
+- **Личный кабинет** — путь `sections[].cards[].icon` — термин ``
+  - _нет кандидата_
+- **1** — путь `sections[].cards[].icon` — термин `circle`
+  - Circle | icons8 | 6784 | https://www.svgviewer.dev/s/492846/circle | https://www.svgviewer.dev/static-svgs/492846/circle.svg
+- **2** — путь `sections[].cards[].icon` — термин `circle`
+  - Circle | icons8 | 6784 | https://www.svgviewer.dev/s/492846/circle | https://www.svgviewer.dev/static-svgs/492846/circle.svg
+- **3** — путь `sections[].cards[].icon` — термин `circle`
+  - Circle | icons8 | 6784 | https://www.svgviewer.dev/s/492846/circle | https://www.svgviewer.dev/static-svgs/492846/circle.svg
+- **4** — путь `sections[].cards[].icon` — термин `circle`
+  - Circle | icons8 | 6784 | https://www.svgviewer.dev/s/492846/circle | https://www.svgviewer.dev/static-svgs/492846/circle.svg
+- **5** — путь `sections[].cards[].icon` — термин `circle`
+  - Circle | icons8 | 6784 | https://www.svgviewer.dev/s/492846/circle | https://www.svgviewer.dev/static-svgs/492846/circle.svg
+- **6** — путь `sections[].cards[].icon` — термин `circle`
+  - Circle | icons8 | 6784 | https://www.svgviewer.dev/s/492846/circle | https://www.svgviewer.dev/static-svgs/492846/circle.svg
+- **Способы организации и варианты монтажа** — путь `sections[].cards[].icon` — термин ``
+  - _нет кандидата_
+- **Возможность просмотра изображения в режиме онлайн** — путь `sections[].cards[].icon` — термин `eye`
+  - Eye | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495163/eye | https://www.svgviewer.dev/static-svgs/495163/eye.svg
+- **Подключение и маршрутизация данных** — путь `sections[].cards[].icon` — термин `plug`
+  - Plug | Iconscout | 6783 | https://www.svgviewer.dev/s/492410/plug | https://www.svgviewer.dev/static-svgs/492410/plug.svg
+- **Ресурсы для подключения к СОРМ** — путь `sections[].cards[].icon` — термин `document`
+  - Document | icons8 | 6785 | https://www.svgviewer.dev/s/493061/document | https://www.svgviewer.dev/static-svgs/493061/document.svg
+- **Доступ к сети тактовой сетевой синхронизации** — путь `sections[].cards[].icon` — термин `lock`
+  - Lock | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495639/lock | https://www.svgviewer.dev/static-svgs/495639/lock.svg
+- **Гарантированное соединение с экстренными службами** — путь `sections[].cards[].icon` — термин `shield`
+  - Shield | Iconscout | 6783 | https://www.svgviewer.dev/s/492477/shield | https://www.svgviewer.dev/static-svgs/492477/shield.svg
+- **Проектирование сетей** — путь `sections[].cards[].icon` — термин `network`
+  - Network | puppylinux | 6762 | https://www.svgviewer.dev/s/483565/network | https://www.svgviewer.dev/static-svgs/483565/network.svg
+- **Подключение к ГИС АНТИФРОД** — путь `sections[].cards[].icon` — термин `plug`
+  - Plug | Iconscout | 6783 | https://www.svgviewer.dev/s/492410/plug | https://www.svgviewer.dev/static-svgs/492410/plug.svg
+- **Строительство интернет-инфраструктуры ( ТК, ДРС )** — путь `sections[].cards[].icon` — термин `network`
+  - Network | puppylinux | 6762 | https://www.svgviewer.dev/s/483565/network | https://www.svgviewer.dev/static-svgs/483565/network.svg
+- **Организация публичного Wi-Fi** — путь `sections[].cards[].icon` — термин ``
+  - _нет кандидата_
+- **Разработка проектной документации** — путь `sections[].cards[].icon` — термин `document`
+  - Document | icons8 | 6785 | https://www.svgviewer.dev/s/493061/document | https://www.svgviewer.dev/static-svgs/493061/document.svg
+- **СМР/ПНР антенно-фидерной сети** — путь `sections[].cards[].icon` — термин `network`
+  - Network | puppylinux | 6762 | https://www.svgviewer.dev/s/483565/network | https://www.svgviewer.dev/static-svgs/483565/network.svg
+- **Разработка клиентских сценариев** — путь `sections[].cards[].icon` — термин `coin`
+  - Coin | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494792/coin | https://www.svgviewer.dev/static-svgs/494792/coin.svg
+- **ПНР сетей СКУД** — путь `sections[].cards[].icon` — термин `network`
+  - Network | puppylinux | 6762 | https://www.svgviewer.dev/s/483565/network | https://www.svgviewer.dev/static-svgs/483565/network.svg
+- **Robot-ready** — путь `sections[].cards[].icon` — термин `robot`
+  - Robot | Iconscout | 6783 | https://www.svgviewer.dev/s/492464/robot | https://www.svgviewer.dev/static-svgs/492464/robot.svg
+- **V2X-ready** — путь `sections[].cards[].icon` — термин `network`
+  - Network | puppylinux | 6762 | https://www.svgviewer.dev/s/483565/network | https://www.svgviewer.dev/static-svgs/483565/network.svg
+- **Drone-ready** — путь `sections[].cards[].icon` — термин `drone`
+  - Drone | vscode-icons | 6741 | https://www.svgviewer.dev/s/475960/drone | https://www.svgviewer.dev/static-svgs/475960/drone.svg
+- **Energy ready** — путь `sections[].cards[].icon` — термин `bolt`
+  - Bolt | Iconscout | 6783 | https://www.svgviewer.dev/s/491667/bolt | https://www.svgviewer.dev/static-svgs/491667/bolt.svg
+- **Подключение объектов строительства и реконструкции** — путь `sections[].cards[].icon` — термин `plug`
+  - Plug | Iconscout | 6783 | https://www.svgviewer.dev/s/492410/plug | https://www.svgviewer.dev/static-svgs/492410/plug.svg
+- **Подключение объектов коммерческой недвижимости** — путь `sections[].cards[].icon` — термин `plug`
+  - Plug | Iconscout | 6783 | https://www.svgviewer.dev/s/492410/plug | https://www.svgviewer.dev/static-svgs/492410/plug.svg
+- **Подключение объектов жилой недвижимости** — путь `sections[].cards[].icon` — термин `plug`
+  - Plug | Iconscout | 6783 | https://www.svgviewer.dev/s/492410/plug | https://www.svgviewer.dev/static-svgs/492410/plug.svg
+- **Индивидуальный подход** — путь `sections[].cards[].icon` — термин `puzzle`
+  - Puzzle | icons8 | 6785 | https://www.svgviewer.dev/s/493184/puzzle | https://www.svgviewer.dev/static-svgs/493184/puzzle.svg
+- **Опыт** — путь `sections[].cards[].icon` — термин ``
+  - _нет кандидата_
+- **Лучшие решения** — путь `sections[].cards[].icon` — термин `puzzle`
+  - Puzzle | icons8 | 6785 | https://www.svgviewer.dev/s/493184/puzzle | https://www.svgviewer.dev/static-svgs/493184/puzzle.svg
+- **Соблюдение нормативных актов РФ** — путь `sections[].cards[].icon` — термин `document`
+  - Document | icons8 | 6785 | https://www.svgviewer.dev/s/493061/document | https://www.svgviewer.dev/static-svgs/493061/document.svg
+- **БольшеЧемРабота** — путь `sections[].cards[].icon` — термин `trophy`
+  - Trophy | Mary Akveo | 7042 | https://www.svgviewer.dev/s/493852/trophy | https://www.svgviewer.dev/static-svgs/493852/trophy.svg
+- **БериДействуй** — путь `sections[].cards[].icon` — термин `bolt`
+  - Bolt | Iconscout | 6783 | https://www.svgviewer.dev/s/491667/bolt | https://www.svgviewer.dev/static-svgs/491667/bolt.svg
+- **ПроКлиента** — путь `sections[].cards[].icon` — термин ``
+  - _нет кандидата_
+- **СделайКрутo** — путь `sections[].cards[].icon` — термин `wrench`
+  - Wrench | Iconscout | 6783 | https://www.svgviewer.dev/s/492732/wrench | https://www.svgviewer.dev/static-svgs/492732/wrench.svg
+- **Вместе** — путь `sections[].cards[].icon` — термин `link`
+  - Link | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495606/link | https://www.svgviewer.dev/static-svgs/495606/link.svg
+- **БыстроПоСути** — путь `sections[].cards[].icon` — термин `bolt`
+  - Bolt | Iconscout | 6783 | https://www.svgviewer.dev/s/491667/bolt | https://www.svgviewer.dev/static-svgs/491667/bolt.svg
+- **Исключения из рассмотрения** — путь `sections[].cards[].icon` — термин ``
+  - _нет кандидата_
+- **Жалобы на обслуживание** — путь `sections[].cards[].icon` — термин `maintenance`
+  - Maintenance | Siemens | 5721 | https://www.svgviewer.dev/s/377569/maintenance | https://www.svgviewer.dev/static-svgs/377569/maintenance.svg
+- **Обыкновенные именные бездокументарные акции** — путь `sections[].cards[].icon` — термин `document`
+  - Document | icons8 | 6785 | https://www.svgviewer.dev/s/493061/document | https://www.svgviewer.dev/static-svgs/493061/document.svg
+- **Привилегированные именные бездокументарные акции** — путь `sections[].cards[].icon` — термин `document`
+  - Document | icons8 | 6785 | https://www.svgviewer.dev/s/493061/document | https://www.svgviewer.dev/static-svgs/493061/document.svg
+- **Подключение объектов недвижимости к сетям связи** — путь `sections[].cards[].icon` — термин `plug`
+  - Plug | Iconscout | 6783 | https://www.svgviewer.dev/s/492410/plug | https://www.svgviewer.dev/static-svgs/492410/plug.svg
+- **Компенсация убытков при выносе и/или ликвидации сооружений связи** — путь `sections[].cards[].icon` — термин `shield`
+  - Shield | Iconscout | 6783 | https://www.svgviewer.dev/s/492477/shield | https://www.svgviewer.dev/static-svgs/492477/shield.svg
+- **Цифровые решения** — путь `sections[].cards[].icon` — термин `network`
+  - Network | puppylinux | 6762 | https://www.svgviewer.dev/s/483565/network | https://www.svgviewer.dev/static-svgs/483565/network.svg
+- **Все услуги** — путь `sections[].cards[].icon` — термин ``
+  - _нет кандидата_
+- **Индивидуальный подход** — путь `sections[].cards[].icon` — термин `puzzle`
+  - Puzzle | icons8 | 6785 | https://www.svgviewer.dev/s/493184/puzzle | https://www.svgviewer.dev/static-svgs/493184/puzzle.svg
+- **Опыт** — путь `sections[].cards[].icon` — термин ``
+  - _нет кандидата_
+- **Лучшие решения** — путь `sections[].cards[].icon` — термин `puzzle`
+  - Puzzle | icons8 | 6785 | https://www.svgviewer.dev/s/493184/puzzle | https://www.svgviewer.dev/static-svgs/493184/puzzle.svg
+- **Соблюдение нормативных актов РФ** — путь `sections[].cards[].icon` — термин `document`
+  - Document | icons8 | 6785 | https://www.svgviewer.dev/s/493061/document | https://www.svgviewer.dev/static-svgs/493061/document.svg
+- **Присоединение и пропуск трафика** — путь `sections[].cards[].icon` — термин `data`
+  - Data | mapshakers | 6777 | https://www.svgviewer.dev/s/489955/data | https://www.svgviewer.dev/static-svgs/489955/data.svg
+- **Передача данных** — путь `sections[].cards[].icon` — термин `data`
+  - Data | mapshakers | 6777 | https://www.svgviewer.dev/s/489955/data | https://www.svgviewer.dev/static-svgs/489955/data.svg
+- **Инфраструктура** — путь `sections[].cards[].icon` — термин `network`
+  - Network | puppylinux | 6762 | https://www.svgviewer.dev/s/483565/network | https://www.svgviewer.dev/static-svgs/483565/network.svg
+- **Все услуги** — путь `sections[].cards[].icon` — термин ``
+  - _нет кандидата_
+- **Инфраструктура** — путь `sections[].cards[].icon` — термин `network`
+  - Network | puppylinux | 6762 | https://www.svgviewer.dev/s/483565/network | https://www.svgviewer.dev/static-svgs/483565/network.svg
+- **Опыт** — путь `sections[].cards[].icon` — термин ``
+  - _нет кандидата_
+- **Гибкость** — путь `sections[].cards[].icon` — термин `arrow`
+  - Arrow | Iconscout | 6783 | https://www.svgviewer.dev/s/491650/arrow | https://www.svgviewer.dev/static-svgs/491650/arrow.svg
+- **Поддержка 24/7** — путь `sections[].cards[].icon` — термин `headset`
+  - Headset | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495424/headset | https://www.svgviewer.dev/static-svgs/495424/headset.svg
+- **Присоединение и пропуск трафика** — путь `sections[].cards[].icon` — термин `data`
+  - Data | mapshakers | 6777 | https://www.svgviewer.dev/s/489955/data | https://www.svgviewer.dev/static-svgs/489955/data.svg
+- **Передача данных** — путь `sections[].cards[].icon` — термин `data`
+  - Data | mapshakers | 6777 | https://www.svgviewer.dev/s/489955/data | https://www.svgviewer.dev/static-svgs/489955/data.svg
+- **Предоставление места в кабельной канализации** — путь `sections[].cards[].icon` — термин `plug`
+  - Plug | Iconscout | 6783 | https://www.svgviewer.dev/s/492410/plug | https://www.svgviewer.dev/static-svgs/492410/plug.svg
+- **Размещение на объектах** — путь `sections[].cards[].icon` — термин `network`
+  - Network | puppylinux | 6762 | https://www.svgviewer.dev/s/483565/network | https://www.svgviewer.dev/static-svgs/483565/network.svg
+- **Проектирование и строительство сетей связи** — путь `sections[].cards[].icon` — термин `network`
+  - Network | puppylinux | 6762 | https://www.svgviewer.dev/s/483565/network | https://www.svgviewer.dev/static-svgs/483565/network.svg
+- **Инфраструктура связи** — путь `sections[].cards[].icon` — термин `network`
+  - Network | puppylinux | 6762 | https://www.svgviewer.dev/s/483565/network | https://www.svgviewer.dev/static-svgs/483565/network.svg
+- **Цифровые сервисы** — путь `sections[].cards[].icon` — термин ``
+  - _нет кандидата_
+- **Индивидуальные решения** — путь `sections[].cards[].icon` — термин `puzzle`
+  - Puzzle | icons8 | 6785 | https://www.svgviewer.dev/s/493184/puzzle | https://www.svgviewer.dev/static-svgs/493184/puzzle.svg
+- **Структурированная кабельная сеть** — путь `sections[].cards[].icon` — термин `plug`
+  - Plug | Iconscout | 6783 | https://www.svgviewer.dev/s/492410/plug | https://www.svgviewer.dev/static-svgs/492410/plug.svg
+- **Локальная вычислительная сеть** — путь `sections[].cards[].icon` — термин `network`
+  - Network | puppylinux | 6762 | https://www.svgviewer.dev/s/483565/network | https://www.svgviewer.dev/static-svgs/483565/network.svg
+- **Наружная сеть связи** — путь `sections[].cards[].icon` — термин `network`
+  - Network | puppylinux | 6762 | https://www.svgviewer.dev/s/483565/network | https://www.svgviewer.dev/static-svgs/483565/network.svg
+- **Эксплуатация сети** — путь `sections[].cards[].icon` — термин `maintenance`
+  - Maintenance | Siemens | 5721 | https://www.svgviewer.dev/s/377569/maintenance | https://www.svgviewer.dev/static-svgs/377569/maintenance.svg
+- **Экспертное обслуживание** — путь `sections[].cards[].icon` — термин `maintenance`
+  - Maintenance | Siemens | 5721 | https://www.svgviewer.dev/s/377569/maintenance | https://www.svgviewer.dev/static-svgs/377569/maintenance.svg
+- **Готовность к любым задачам** — путь `sections[].cards[].icon` — термин `key`
+  - Key | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495551/key | https://www.svgviewer.dev/static-svgs/495551/key.svg
+- **Цифровая инфраструктура** — путь `sections[].cards[].icon` — термин `network`
+  - Network | puppylinux | 6762 | https://www.svgviewer.dev/s/483565/network | https://www.svgviewer.dev/static-svgs/483565/network.svg
+- **Подъездное видеонаблюдение** — путь `sections[].cards[].icon` — термин `camera`
+  - Camera | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494595/camera | https://www.svgviewer.dev/static-svgs/494595/camera.svg
+- **Видеонаблюдение на объектах строительства** — путь `sections[].cards[].icon` — термин `camera`
+  - Camera | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494595/camera | https://www.svgviewer.dev/static-svgs/494595/camera.svg
+- **Техническое обслуживание системы видеонаблюдения** — путь `sections[].cards[].icon` — термин `camera`
+  - Camera | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494595/camera | https://www.svgviewer.dev/static-svgs/494595/camera.svg
+- **Оборудование** — путь `sections[].cards[].icon` — термин `network`
+  - Network | puppylinux | 6762 | https://www.svgviewer.dev/s/483565/network | https://www.svgviewer.dev/static-svgs/483565/network.svg
+- **Сопряжение с Региональной системой оповещения г. Москвы** — путь `sections[].cards[].icon` — термин `building`
+  - Building | Iconscout | 6783 | https://www.svgviewer.dev/s/491762/building | https://www.svgviewer.dev/static-svgs/491762/building.svg
+- **Техническое обслуживание устройства сопряжения** — путь `sections[].cards[].icon` — термин `plug`
+  - Plug | Iconscout | 6783 | https://www.svgviewer.dev/s/492410/plug | https://www.svgviewer.dev/static-svgs/492410/plug.svg
+- **Громкоговорящая связь** — путь `sections[].cards[].icon` — термин `link`
+  - Link | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495606/link | https://www.svgviewer.dev/static-svgs/495606/link.svg
+- **СКУД** — путь `sections[].cards[].icon` — термин `lock`
+  - Lock | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495639/lock | https://www.svgviewer.dev/static-svgs/495639/lock.svg
+- **АСУ** — путь `sections[].cards[].icon` — термин `network`
+  - Network | puppylinux | 6762 | https://www.svgviewer.dev/s/483565/network | https://www.svgviewer.dev/static-svgs/483565/network.svg
+- **АСКУЭ** — путь `sections[].cards[].icon` — термин `bolt`
+  - Bolt | Iconscout | 6783 | https://www.svgviewer.dev/s/491667/bolt | https://www.svgviewer.dev/static-svgs/491667/bolt.svg
+- **СОТ** — путь `sections[].cards[].icon` — термин `camera`
+  - Camera | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494595/camera | https://www.svgviewer.dev/static-svgs/494595/camera.svg
+- **Опыт** — путь `sections[].cards[].icon` — термин ``
+  - _нет кандидата_
+- **Индивидуальный подход** — путь `sections[].cards[].icon` — термин `puzzle`
+  - Puzzle | icons8 | 6785 | https://www.svgviewer.dev/s/493184/puzzle | https://www.svgviewer.dev/static-svgs/493184/puzzle.svg
+- **Инфраструктура** — путь `sections[].cards[].icon` — термин `network`
+  - Network | puppylinux | 6762 | https://www.svgviewer.dev/s/483565/network | https://www.svgviewer.dev/static-svgs/483565/network.svg
+- **Поддержка 24/7** — путь `sections[].cards[].icon` — термин `headset`
+  - Headset | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495424/headset | https://www.svgviewer.dev/static-svgs/495424/headset.svg
+- **Сетевая инфраструктура** — путь `sections[].cards[].icon` — термин `network`
+  - Network | puppylinux | 6762 | https://www.svgviewer.dev/s/483565/network | https://www.svgviewer.dev/static-svgs/483565/network.svg
+- **Сервисы** — путь `sections[].cards[].icon` — термин ``
+  - _нет кандидата_
+- **Оборудование** — путь `sections[].cards[].icon` — термин `network`
+  - Network | puppylinux | 6762 | https://www.svgviewer.dev/s/483565/network | https://www.svgviewer.dev/static-svgs/483565/network.svg
+- **Поддержка** — путь `sections[].cards[].icon` — термин `headset`
+  - Headset | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495424/headset | https://www.svgviewer.dev/static-svgs/495424/headset.svg
+- **Опыт** — путь `sections[].cards[].icon` — термин ``
+  - _нет кандидата_
+- **Индивидуальный подход** — путь `sections[].cards[].icon` — термин `puzzle`
+  - Puzzle | icons8 | 6785 | https://www.svgviewer.dev/s/493184/puzzle | https://www.svgviewer.dev/static-svgs/493184/puzzle.svg
+- **Инфраструктура** — путь `sections[].cards[].icon` — термин `network`
+  - Network | puppylinux | 6762 | https://www.svgviewer.dev/s/483565/network | https://www.svgviewer.dev/static-svgs/483565/network.svg
+- **Поддержка 24/7** — путь `sections[].cards[].icon` — термин `headset`
+  - Headset | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495424/headset | https://www.svgviewer.dev/static-svgs/495424/headset.svg
+- **Сценарий 1** — путь `sections[].cards[].icon` — термин `coin`
+  - Coin | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494792/coin | https://www.svgviewer.dev/static-svgs/494792/coin.svg
+- **Сценарий 2** — путь `sections[].cards[].icon` — термин `coin`
+  - Coin | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494792/coin | https://www.svgviewer.dev/static-svgs/494792/coin.svg
+- **Сценарий 3** — путь `sections[].cards[].icon` — термин `coin`
+  - Coin | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494792/coin | https://www.svgviewer.dev/static-svgs/494792/coin.svg
+- **Операторам связи** — путь `sections[].cards[].icon` — термин ``
+  - _нет кандидата_
+- **Госзаказчикам** — путь `sections[].cards[].icon` — термин `building`
+  - Building | Iconscout | 6783 | https://www.svgviewer.dev/s/491762/building | https://www.svgviewer.dev/static-svgs/491762/building.svg
+- **Застройщикам** — путь `sections[].cards[].icon` — термин `building`
+  - Building | Iconscout | 6783 | https://www.svgviewer.dev/s/491762/building | https://www.svgviewer.dev/static-svgs/491762/building.svg
+- **Бизнесу** — путь `sections[].cards[].icon` — термин `building`
+  - Building | Iconscout | 6783 | https://www.svgviewer.dev/s/491762/building | https://www.svgviewer.dev/static-svgs/491762/building.svg
+- **Партнерам** — путь `sections[].cards[].icon` — термин `handshake`
+  - Handshake | vaadin | 6746 | https://www.svgviewer.dev/s/478614/handshake | https://www.svgviewer.dev/static-svgs/478614/handshake.svg
+- **Допуск для проведения работ на линиях и сооружениях связи** — путь `sections[].cards[].icon` — термин `lock`
+  - Lock | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495639/lock | https://www.svgviewer.dev/static-svgs/495639/lock.svg
+- **Закупки** — путь `sections[].cards[].icon` — термин `cart`
+  - Cart | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494634/cart | https://www.svgviewer.dev/static-svgs/494634/cart.svg
+- **Реализация ТМЦ** — путь `sections[].cards[].icon` — термин `cart`
+  - Cart | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494634/cart | https://www.svgviewer.dev/static-svgs/494634/cart.svg
+- **Тарифы** — путь `sections[].cards[].icon` — термин `coin`
+  - Coin | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494792/coin | https://www.svgviewer.dev/static-svgs/494792/coin.svg
+- **Документация** — путь `sections[].cards[].icon` — термин `document`
+  - Document | icons8 | 6785 | https://www.svgviewer.dev/s/493061/document | https://www.svgviewer.dev/static-svgs/493061/document.svg
+- **Рамочный договор** — путь `sections[].cards[].icon` — термин `document`
+  - Document | icons8 | 6785 | https://www.svgviewer.dev/s/493061/document | https://www.svgviewer.dev/static-svgs/493061/document.svg
+- **Операторам связи** — путь `sections[].cards[].icon` — термин ``
+  - _нет кандидата_
+- **Госзаказчикам** — путь `sections[].cards[].icon` — термин `building`
+  - Building | Iconscout | 6783 | https://www.svgviewer.dev/s/491762/building | https://www.svgviewer.dev/static-svgs/491762/building.svg
+- **Застройщикам** — путь `sections[].cards[].icon` — термин `building`
+  - Building | Iconscout | 6783 | https://www.svgviewer.dev/s/491762/building | https://www.svgviewer.dev/static-svgs/491762/building.svg
+- **Бизнесу** — путь `sections[].cards[].icon` — термин `building`
+  - Building | Iconscout | 6783 | https://www.svgviewer.dev/s/491762/building | https://www.svgviewer.dev/static-svgs/491762/building.svg
+- **Партнерам** — путь `sections[].cards[].icon` — термин `handshake`
+  - Handshake | vaadin | 6746 | https://www.svgviewer.dev/s/478614/handshake | https://www.svgviewer.dev/static-svgs/478614/handshake.svg
+- **Допуск для проведения работ на линиях и сооружениях связи** — путь `sections[].cards[].icon` — термин `lock`
+  - Lock | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495639/lock | https://www.svgviewer.dev/static-svgs/495639/lock.svg
+- **Закупки** — путь `sections[].cards[].icon` — термин `cart`
+  - Cart | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494634/cart | https://www.svgviewer.dev/static-svgs/494634/cart.svg
+- **Реализация ТМЦ** — путь `sections[].cards[].icon` — термин `cart`
+  - Cart | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494634/cart | https://www.svgviewer.dev/static-svgs/494634/cart.svg
+- **Тарифы** — путь `sections[].cards[].icon` — термин `coin`
+  - Coin | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494792/coin | https://www.svgviewer.dev/static-svgs/494792/coin.svg
+- **Документация** — путь `sections[].cards[].icon` — термин `document`
+  - Document | icons8 | 6785 | https://www.svgviewer.dev/s/493061/document | https://www.svgviewer.dev/static-svgs/493061/document.svg
+- **Рамочный договор** — путь `sections[].cards[].icon` — термин `document`
+  - Document | icons8 | 6785 | https://www.svgviewer.dev/s/493061/document | https://www.svgviewer.dev/static-svgs/493061/document.svg
+- **Допуск для проведения работ на линиях и сооружениях связи** — путь `sections[].cards[].icon` — термин `lock`
+  - Lock | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495639/lock | https://www.svgviewer.dev/static-svgs/495639/lock.svg
+- **Закупки** — путь `sections[].cards[].icon` — термин `cart`
+  - Cart | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494634/cart | https://www.svgviewer.dev/static-svgs/494634/cart.svg
+- **Реализация ТМЦ** — путь `sections[].cards[].icon` — термин `cart`
+  - Cart | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494634/cart | https://www.svgviewer.dev/static-svgs/494634/cart.svg
+- **Тарифы** — путь `sections[].cards[].icon` — термин `coin`
+  - Coin | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494792/coin | https://www.svgviewer.dev/static-svgs/494792/coin.svg
+- **Документация** — путь `sections[].cards[].icon` — термин `document`
+  - Document | icons8 | 6785 | https://www.svgviewer.dev/s/493061/document | https://www.svgviewer.dev/static-svgs/493061/document.svg
+- **Рамочный договор** — путь `sections[].cards[].icon` — термин `document`
+  - Document | icons8 | 6785 | https://www.svgviewer.dev/s/493061/document | https://www.svgviewer.dev/static-svgs/493061/document.svg
+- **Подробнее о компании** — путь `sections[].cards[].icon` — термин `arrow`
+  - Arrow | Iconscout | 6783 | https://www.svgviewer.dev/s/491650/arrow | https://www.svgviewer.dev/static-svgs/491650/arrow.svg
+- **Широко шагая** — путь `sections[].cards[].icon` — термин `circle`
+  - Circle | icons8 | 6784 | https://www.svgviewer.dev/s/492846/circle | https://www.svgviewer.dev/static-svgs/492846/circle.svg
+- **Крупнейшая в Москве высокоскоростная оптическая сеть GPON** — путь `sections[].cards[].icon` — термин `network`
+  - Network | puppylinux | 6762 | https://www.svgviewer.dev/s/483565/network | https://www.svgviewer.dev/static-svgs/483565/network.svg
+- **Первый и основной телекоммуникационный партнер Москвы** — путь `sections[].cards[].icon` — термин `building`
+  - Building | Iconscout | 6783 | https://www.svgviewer.dev/s/491762/building | https://www.svgviewer.dev/static-svgs/491762/building.svg
+- **Высочайшие стандарты обслуживания мирового уровня** — путь `sections[].cards[].icon` — термин `maintenance`
+  - Maintenance | Siemens | 5721 | https://www.svgviewer.dev/s/377569/maintenance | https://www.svgviewer.dev/static-svgs/377569/maintenance.svg
+- **Передача данных** — путь `sections[].cards[].icon` — термин `data`
+  - Data | mapshakers | 6777 | https://www.svgviewer.dev/s/489955/data | https://www.svgviewer.dev/static-svgs/489955/data.svg
+- **Подробнее** — путь `sections[].cards[].icon` — термин `arrow`
+  - Arrow | Iconscout | 6783 | https://www.svgviewer.dev/s/491650/arrow | https://www.svgviewer.dev/static-svgs/491650/arrow.svg
+- **Подробнее** — путь `sections[].cards[].icon` — термин `arrow`
+  - Arrow | Iconscout | 6783 | https://www.svgviewer.dev/s/491650/arrow | https://www.svgviewer.dev/static-svgs/491650/arrow.svg
+- **Подробнее** — путь `sections[].cards[].icon` — термин `arrow`
+  - Arrow | Iconscout | 6783 | https://www.svgviewer.dev/s/491650/arrow | https://www.svgviewer.dev/static-svgs/491650/arrow.svg
+- **Допуск в ЛСС** — путь `sections[].cards[].icon` — термин `lock`
+  - Lock | Mary Akveo | 7042 | https://www.svgviewer.dev/s/495639/lock | https://www.svgviewer.dev/static-svgs/495639/lock.svg
+- **Аренда площадей** — путь `sections[].cards[].icon` — термин `building`
+  - Building | Iconscout | 6783 | https://www.svgviewer.dev/s/491762/building | https://www.svgviewer.dev/static-svgs/491762/building.svg
+- **Закупки** — путь `sections[].cards[].icon` — термин `cart`
+  - Cart | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494634/cart | https://www.svgviewer.dev/static-svgs/494634/cart.svg
+- **Средства ограничения передвижения** — путь `sections[].cards[].icon` — термин ``
+  - _нет кандидата_
+- **Видеоидентификация** — путь `sections[].cards[].icon` — термин `camera`
+  - Camera | Mary Akveo | 7042 | https://www.svgviewer.dev/s/494595/camera | https://www.svgviewer.dev/static-svgs/494595/camera.svg
+- **Вспомогательное оснащение** — путь `sections[].cards[].icon` — термин `wrench`
+  - Wrench | Iconscout | 6783 | https://www.svgviewer.dev/s/492732/wrench | https://www.svgviewer.dev/static-svgs/492732/wrench.svg
+- **Обеспечение безопасности** — путь `sections[].cards[].icon` — термин `shield`
+  - Shield | Iconscout | 6783 | https://www.svgviewer.dev/s/492477/shield | https://www.svgviewer.dev/static-svgs/492477/shield.svg
+- **Управление идентификацией** — путь `sections[].cards[].icon` — термин ``
+  - _нет кандидата_
+- **Интеграция с другими системами** — путь `sections[].cards[].icon` — термин `puzzle`
+  - Puzzle | icons8 | 6785 | https://www.svgviewer.dev/s/493184/puzzle | https://www.svgviewer.dev/static-svgs/493184/puzzle.svg
+- **Расширенные возможности** — путь `sections[].cards[].icon` — термин `arrow`
+  - Arrow | Iconscout | 6783 | https://www.svgviewer.dev/s/491650/arrow | https://www.svgviewer.dev/static-svgs/491650/arrow.svg

@@ -1,0 +1,487 @@
+{
+  "total": 123,
+  "categorized": 65,
+  "uncategorized": 58,
+  "categories": {
+    "fixes/pages": [
+      {
+        "name": "ABOUT_PAGES_FIX.md",
+        "path": "/Users/andrey_efremov/Downloads/runs/ABOUT_PAGES_FIX.md",
+        "size": 4025,
+        "category": "fixes/pages"
+      },
+      {
+        "name": "SEGMENT_PAGES_FIX_COMPLETE.md",
+        "path": "/Users/andrey_efremov/Downloads/runs/SEGMENT_PAGES_FIX_COMPLETE.md",
+        "size": 3512,
+        "category": "fixes/pages"
+      },
+      {
+        "name": "SEGMENT_PAGES_FIX_FINAL_REPORT.md",
+        "path": "/Users/andrey_efremov/Downloads/runs/SEGMENT_PAGES_FIX_FINAL_REPORT.md",
+        "size": 4231,
+        "category": "fixes/pages"
+      },
+      {
+        "name": "SEGMENT_PAGES_FIX_RECOMMENDATIONS.md",
+        "path": "/Users/andrey_efremov/Downloads/runs/SEGMENT_PAGES_FIX_RECOMMENDATIONS.md",
+        "size": 7388,
+        "category": "fixes/pages"
+      },
+      {
+        "name": "SEGMENT_PAGES_FIX_SUMMARY.md",
+        "path": "/Users/andrey_efremov/Downloads/runs/SEGMENT_PAGES_FIX_SUMMARY.md",
+        "size": 2309,
+        "category": "fixes/pages"
+      }
+    ],
+    "cms/integration": [
+      {
+        "name": "API_INTEGRATION_COMPLETE.md",
+        "path": "/Users/andrey_efremov/Downloads/runs/API_INTEGRATION_COMPLETE.md",
+        "size": 3952,
+        "category": "cms/integration"
+      },
+      {
+        "name": "CMS_CONNECTION_FIX.md",
+        "path": "/Users/andrey_efremov/Downloads/runs/CMS_CONNECTION_FIX.md",
+        "size": 4379,
+        "category": "cms/integration"
+      },
+      {
+        "name": "CMS_INTEGRATION_COMPLETE.md",
+        "path": "/Users/andrey_efremov/Downloads/runs/CMS_INTEGRATION_COMPLETE.md",
+        "size": 6706,
+        "category": "cms/integration"
+      },
+      {
+        "name": "CMS_INTEGRATION_PLAN.md",
+        "path": "/Users/andrey_efremov/Downloads/runs/CMS_INTEGRATION_PLAN.md",
+        "size": 9293,
+        "category": "cms/integration"
+      },
+      {
+        "name": "CMS_INTEGRATION_STATUS.md",
+        "path": "/Users/andrey_efremov/Downloads/runs/CMS_INTEGRATION_STATUS.md",
+        "size": 8912,
+        "category": "cms/integration"
+      }
+    ],
+    "installation/setup": [
+      {
+        "name": "AUTONOMOUS_SETUP_COMPLETE.md",
+        "path": "/Users/andrey_efremov/Downloads/runs/AUTONOMOUS_SETUP_COMPLETE.md",
+        "size": 5273,
+        "category": "installation/setup"
+      },
+      {
+        "name": "INSTALLATION_STATUS.md",
+        "path": "/Users/andrey_efremov/Downloads/runs/INSTALLATION_STATUS.md",
+        "size": 4754,
+        "category": "installation/setup"
+      },
+      {
+        "name": "QUICK_START_MAC.md",
+        "path": "/Users/andrey_efremov/Downloads/runs/QUICK_START_MAC.md",
+        "size": 3086,
+        "category": "installation/setup"
+      },
+      {
+        "name": "SETUP_NODEJS.md",
+        "path": "/Users/andrey_efremov/Downloads/runs/SETUP_NODEJS.md",
+        "size": 2568,
+        "category": "installation/setup"
+      }
+    ],
+    "installation/troubleshooting": [
+      {
+        "name": "CHECK_CMS_CONNECTION.md",
+        "path": "/Users/andrey_efremov/Downloads/runs/CHECK_CMS_CONNECTION.md",
+        "size": 5316,
+        "category": "installation/troubleshooting"
+      },
+      {
+        "name": "CMS_UPDATE_TROUBLESHOOTING.md",
+        "path": "/Users/andrey_efremov/Downloads/runs/CMS_UPDATE_TROUBLESHOOTING.md",
+        "size": 6871,
+        "category": "installation/troubleshooting"
+      }
+    ],
+    "cms/structure": [
+      {
+        "name": "CLASS_HIERARCHY_RULES.md",
+        "path": "/Users/andrey_efremov/Downloads/runs/CLASS_HIERARCHY_RULES.md",
+        "size": 8987,
+        "category": "cms/structure"
+      },
+      {
+        "name": "DIV_NORMALIZATION_SUMMARY.md",
+        "path": "/Users/andrey_efremov/Downloads/runs/DIV_NORMALIZATION_SUMMARY.md",
+        "size": 4123,
+        "category": "cms/structure"
+      },
+      {
+        "name": "TOP_LEVEL_ELEMENTS_RULES.md",
+        "path": "/Users/andrey_efremov/Downloads/runs/TOP_LEVEL_ELEMENTS_RULES.md",
+        "size": 9232,
+        "category": "cms/structure"
+      },
+      {
+        "name": "TOP_LEVEL_ELEMENTS_SUMMARY.md",
+        "path": "/Users/andrey_efremov/Downloads/runs/TOP_LEVEL_ELEMENTS_SUMMARY.md",
+        "size": 5222,
+        "category": "cms/structure"
+      }
+    ],
+    "cms/content-types": [
+      {
+        "name": "CMS_CONTENT_TYPES.md",
+        "path": "/Users/andrey_efremov/Downloads/runs/CMS_CONTENT_TYPES.md",
+        "size": 36507,
+        "category": "cms/content-types"
+      },
+      {
+        "name": "CONTENT_TYPE_COMPLETE.md",
+        "path": "/Users/andrey_efremov/Downloads/runs/CONTENT_TYPE_COMPLETE.md",
+        "size": 6096,
+        "category": "cms/content-types"
+      },
+      {
+        "name": "CONTENT_TYPE_SUMMARY.md",
+        "path": "/Users/andrey_efremov/Downloads/runs/CONTENT_TYPE_SUMMARY.md",
+        "size": 5118,
+        "category": "cms/content-types"
+      }
+    ],
+    "cms/grid-types": [
+      {
+        "name": "CMS_GRID_TYPES_USAGE.md",
+        "path": "/Users/andrey_efremov/Downloads/runs/CMS_GRID_TYPES_USAGE.md",
+        "size": 6706,
+        "category": "cms/grid-types"
+      },
+      {
+        "name": "GRID_TYPES_ANALYSIS.md",
+        "path": "/Users/andrey_efremov/Downloads/runs/GRID_TYPES_ANALYSIS.md",
+        "size": 9015,
+        "category": "cms/grid-types"
+      },
+      {
+        "name": "GRID_TYPES_CMS_IMPLEMENTATION.md",
+        "path": "/Users/andrey_efremov/Downloads/runs/GRID_TYPES_CMS_IMPLEMENTATION.md",
+        "size": 8093,
+        "category": "cms/grid-types"
+      }
+    ],
+    "status/progress": [
+      {
+        "name": "CMS_IMPROVEMENT_STATUS.md",
+        "path": "/Users/andrey_efremov/Downloads/runs/CMS_IMPROVEMENT_STATUS.md",
+        "size": 6720,
+        "category": "status/progress"
+      },
+      {
+        "name": "CURRENT_PROGRESS.md",
+        "path": "/Users/andrey_efremov/Downloads/runs/CURRENT_PROGRESS.md",
+        "size": 5473,
+        "category": "status/progress"
+      },
+      {
+        "name": "FINAL_IMPORT_STATUS.md",
+        "path": "/Users/andrey_efremov/Downloads/runs/FINAL_IMPORT_STATUS.md",
+        "size": 3101,
+        "category": "status/progress"
+      },
+      {
+        "name": "FINAL_STATUS.md",
+        "path": "/Users/andrey_efremov/Downloads/runs/FINAL_STATUS.md",
+        "size": 4012,
+        "category": "status/progress"
+      },
+      {
+        "name": "PROGRESS.md",
+        "path": "/Users/andrey_efremov/Downloads/runs/PROGRESS.md",
+        "size": 17731,
+        "category": "status/progress"
+      },
+      {
+        "name": "PROJECT_STATUS.md",
+        "path": "/Users/andrey_efremov/Downloads/runs/PROJECT_STATUS.md",
+        "size": 3792,
+        "category": "status/progress"
+      },
+      {
+        "name": "SERVERS_STATUS.md",
+        "path": "/Users/andrey_efremov/Downloads/runs/SERVERS_STATUS.md",
+        "size": 1926,
+        "category": "status/progress"
+      }
+    ],
+    "installation/migration": [
+      {
+        "name": "CMS_MIGRATION_PLAN.md",
+        "path": "/Users/andrey_efremov/Downloads/runs/CMS_MIGRATION_PLAN.md",
+        "size": 6843,
+        "category": "installation/migration"
+      },
+      {
+        "name": "EXECUTE_MIGRATION.md",
+        "path": "/Users/andrey_efremov/Downloads/runs/EXECUTE_MIGRATION.md",
+        "size": 2889,
+        "category": "installation/migration"
+      },
+      {
+        "name": "MAC_MIGRATION_GUIDE.md",
+        "path": "/Users/andrey_efremov/Downloads/runs/MAC_MIGRATION_GUIDE.md",
+        "size": 6168,
+        "category": "installation/migration"
+      },
+      {
+        "name": "MIGRATION_INSTRUCTIONS.md",
+        "path": "/Users/andrey_efremov/Downloads/runs/MIGRATION_INSTRUCTIONS.md",
+        "size": 3471,
+        "category": "installation/migration"
+      },
+      {
+        "name": "MIGRATION_STATUS.md",
+        "path": "/Users/andrey_efremov/Downloads/runs/MIGRATION_STATUS.md",
+        "size": 3868,
+        "category": "installation/migration"
+      }
+    ],
+    "status/completed": [
+      {
+        "name": "FINAL_STATUS_UPDATE.md",
+        "path": "/Users/andrey_efremov/Downloads/runs/FINAL_STATUS_UPDATE.md",
+        "size": 4712,
+        "category": "status/completed"
+      },
+      {
+        "name": "IMPORT_COMPLETED.md",
+        "path": "/Users/andrey_efremov/Downloads/runs/IMPORT_COMPLETED.md",
+        "size": 3591,
+        "category": "status/completed"
+      },
+      {
+        "name": "NEXT_ACTIONS_COMPLETED.md",
+        "path": "/Users/andrey_efremov/Downloads/runs/NEXT_ACTIONS_COMPLETED.md",
+        "size": 3580,
+        "category": "status/completed"
+      },
+      {
+        "name": "PROJECT_COMPLETE_SUMMARY.md",
+        "path": "/Users/andrey_efremov/Downloads/runs/PROJECT_COMPLETE_SUMMARY.md",
+        "size": 7135,
+        "category": "status/completed"
+      },
+      {
+        "name": "STEP_5_2_COMPLETE.md",
+        "path": "/Users/andrey_efremov/Downloads/runs/STEP_5_2_COMPLETE.md",
+        "size": 5570,
+        "category": "status/completed"
+      },
+      {
+        "name": "STEP_5_COMPLETE.md",
+        "path": "/Users/andrey_efremov/Downloads/runs/STEP_5_COMPLETE.md",
+        "size": 4524,
+        "category": "status/completed"
+      },
+      {
+        "name": "STEP_7_COMPLETE.md",
+        "path": "/Users/andrey_efremov/Downloads/runs/STEP_7_COMPLETE.md",
+        "size": 3787,
+        "category": "status/completed"
+      }
+    ],
+    "fixes/structure": [
+      {
+        "name": "FIX_APPLICATION_COMPLETE.md",
+        "path": "/Users/andrey_efremov/Downloads/runs/FIX_APPLICATION_COMPLETE.md",
+        "size": 2680,
+        "category": "fixes/structure"
+      },
+      {
+        "name": "FIX_COMPLETE_SUMMARY.md",
+        "path": "/Users/andrey_efremov/Downloads/runs/FIX_COMPLETE_SUMMARY.md",
+        "size": 4568,
+        "category": "fixes/structure"
+      },
+      {
+        "name": "FIX_SCRIPT_USAGE.md",
+        "path": "/Users/andrey_efremov/Downloads/runs/FIX_SCRIPT_USAGE.md",
+        "size": 4634,
+        "category": "fixes/structure"
+      },
+      {
+        "name": "FIX_SCRIPT_VERIFICATION.md",
+        "path": "/Users/andrey_efremov/Downloads/runs/FIX_SCRIPT_VERIFICATION.md",
+        "size": 2841,
+        "category": "fixes/structure"
+      },
+      {
+        "name": "STRUCTURE_ANALYSIS_REPORT.md",
+        "path": "/Users/andrey_efremov/Downloads/runs/STRUCTURE_ANALYSIS_REPORT.md",
+        "size": 7919,
+        "category": "fixes/structure"
+      }
+    ],
+    "guides/usage": [
+      {
+        "name": "HOW_TO_CHECK_IMPROVEMENTS.md",
+        "path": "/Users/andrey_efremov/Downloads/runs/HOW_TO_CHECK_IMPROVEMENTS.md",
+        "size": 11243,
+        "category": "guides/usage"
+      },
+      {
+        "name": "STRAPI_BACKUP_GUIDE.md",
+        "path": "/Users/andrey_efremov/Downloads/runs/STRAPI_BACKUP_GUIDE.md",
+        "size": 3955,
+        "category": "guides/usage"
+      },
+      {
+        "name": "STRAPI_UPDATE_PAGES_GUIDE.md",
+        "path": "/Users/andrey_efremov/Downloads/runs/STRAPI_UPDATE_PAGES_GUIDE.md",
+        "size": 8636,
+        "category": "guides/usage"
+      }
+    ],
+    "guides/development": [
+      {
+        "name": "HTML_FIXING_GUIDE.md",
+        "path": "/Users/andrey_efremov/Downloads/runs/HTML_FIXING_GUIDE.md",
+        "size": 4129,
+        "category": "guides/development"
+      },
+      {
+        "name": "HTML_FIXING_SUMMARY.md",
+        "path": "/Users/andrey_efremov/Downloads/runs/HTML_FIXING_SUMMARY.md",
+        "size": 4592,
+        "category": "guides/development"
+      },
+      {
+        "name": "HTML_TYPIZATION_PLAN.md",
+        "path": "/Users/andrey_efremov/Downloads/runs/HTML_TYPIZATION_PLAN.md",
+        "size": 6741,
+        "category": "guides/development"
+      },
+      {
+        "name": "UI_UX_IMPROVEMENT_PLAN.md",
+        "path": "/Users/andrey_efremov/Downloads/runs/UI_UX_IMPROVEMENT_PLAN.md",
+        "size": 63071,
+        "category": "guides/development"
+      },
+      {
+        "name": "UI_UX_PROGRESS.md",
+        "path": "/Users/andrey_efremov/Downloads/runs/UI_UX_PROGRESS.md",
+        "size": 13592,
+        "category": "guides/development"
+      }
+    ],
+    "fixes/styles": [
+      {
+        "name": "SERVICE_CARD_STYLES_FIX.md",
+        "path": "/Users/andrey_efremov/Downloads/runs/SERVICE_CARD_STYLES_FIX.md",
+        "size": 3582,
+        "category": "fixes/styles"
+      }
+    ],
+    "analysis/reports": [
+      {
+        "name": "about-pages-analysis.json",
+        "path": "/Users/andrey_efremov/Downloads/runs/about-pages-analysis.json",
+        "size": 15601,
+        "category": "analysis/reports"
+      },
+      {
+        "name": "analysis-results.json",
+        "path": "/Users/andrey_efremov/Downloads/runs/analysis-results.json",
+        "size": 11505,
+        "category": "analysis/reports"
+      },
+      {
+        "name": "div-classes-analysis.json",
+        "path": "/Users/andrey_efremov/Downloads/runs/div-classes-analysis.json",
+        "size": 113830,
+        "category": "analysis/reports"
+      },
+      {
+        "name": "fix-about-styles-results.json",
+        "path": "/Users/andrey_efremov/Downloads/runs/fix-about-styles-results.json",
+        "size": 1209,
+        "category": "analysis/reports"
+      },
+      {
+        "name": "fix-results.json",
+        "path": "/Users/andrey_efremov/Downloads/runs/fix-results.json",
+        "size": 6701,
+        "category": "analysis/reports"
+      },
+      {
+        "name": "fix-segment-pages-results.json",
+        "path": "/Users/andrey_efremov/Downloads/runs/fix-segment-pages-results.json",
+        "size": 721,
+        "category": "analysis/reports"
+      }
+    ]
+  },
+  "uncategorizedFiles": [
+    "ACTIONS_SUMMARY.md",
+    "CACHE_CLEAR_INSTRUCTIONS.md",
+    "CLEAN_MAIN_PAGE_HTML.md",
+    "CLOUDINARY_SETUP.md",
+    "CMS_NEXT_STEPS.md",
+    "COMPLETED_ACTIONS.md",
+    "COMPLETED_STEPS.md",
+    "CONTEXT.md",
+    "ENCODING_AND_PATHS_FIX.md",
+    "EXECUTED_STEPS.md",
+    "FIXED_business_telephony.html",
+    "IMPORT_SUCCESS.md",
+    "INSTALL_NODEJS_MANUAL.md",
+    "INTEGRATION_ALL_PAGES_FIX.md",
+    "INTEGRATION_TEST_RESULTS.md",
+    "LOCAL_STORAGE_SETUP.md",
+    "MIRROR_SLIDER_TEST.md",
+    "NEXT_STEPS.md",
+    "NEXT_STEPS_AFTER_NODEJS.md",
+    "NEXT_STEPS_DETAILED.md",
+    "PROJECT_RUNNING.md",
+    "README_INSTALLATION.md",
+    "STRAPI_CONTENT_FIX_business_security.md",
+    "STRAPI_REINSTALL.md",
+    "TESTING_RESULTS.md",
+    "check_environment.ps1",
+    "check_environment.sh",
+    "check_strapi_setup.ps1",
+    "class-hierarchy-report.json",
+    "clean-html-from-rtf.js",
+    "copy_mts_fonts.ps1",
+    "div-analysis-report.json",
+    "install_nodejs.sh",
+    "install_strapi_manual.ps1",
+    "main_page.txt",
+    "main_page_analysis.md",
+    "main_page_clean.html",
+    "main_page_clean.txt",
+    "main_page_content.html",
+    "main_page_fixed.txt",
+    "main_page_from_site.html",
+    "main_page_improved.txt",
+    "main_page_updated.txt",
+    "mirror-slider-1.jpg",
+    "mirror-slider-2.jpg",
+    "mirror-slider-3.jpg",
+    "move_strapi_to_runs.ps1",
+    "page-analysis-report.json",
+    "service-components-content.html",
+    "setup_env.sh",
+    "setup_step1.ps1",
+    "site-structure-tree.md",
+    "start_strapi.ps1",
+    "start_strapi.sh",
+    "test-cms-connection.html",
+    "top-level-elements-report.json",
+    "update_nav_script.ps1",
+    "Консоль.txt"
+  ]
+}

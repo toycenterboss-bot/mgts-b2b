@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_page_career_cv_forms",
+  "info": {
+    "displayName": "Career CV Form",
+    "description": "Форма отправки резюме"
+  },
+  "options": {},
+  "attributes": {
+    "isVisible": {
+      "type": "boolean",
+      "default": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "inputPlaceholder": {
+      "type": "string"
+    },
+    "inputType": {
+      "type": "enumeration",
+      "enum": [
+        "email",
+        "text",
+        "tel"
+      ],
+      "default": "email"
+    },
+    "buttonLabel": {
+      "type": "string"
+    },
+    "disclaimerHtml": {
+      "type": "richtext"
+    }
+  }
+}

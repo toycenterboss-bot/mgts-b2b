@@ -1,0 +1,11 @@
+{
+  "tabsContent": {
+    "Операторам связиГосзаказчикамЗастройщикамБизнесуПартнерам": "<div class=\"tab-buttons-container\"><a class=\"tab-button-item disable-selection type-size-M\" href=\"/operators/all_services\">Операторам связи</a><a class=\"tab-button-item disable-selection type-size-M\" href=\"/government/all_services\">Госзаказчикам</a><a class=\"tab-button-item disable-selection type-size-M\" href=\"/developers/all_services\">Застройщикам</a><a aria-current=\"page\" class=\"tab-button-item disable-selection type-size-M active\" href=\"/business/all_services\">Бизнесу</a><a class=\"tab-button-item disable-selection type-size-M\" href=\"/partners/all_services\">Партнерам</a></div>",
+    "Операторам связи": "[NO CONTENT] Контент не найден для таба \"Операторам связи\"",
+    "Госзаказчикам": "[NO CONTENT] Контент не найден для таба \"Госзаказчикам\"",
+    "Застройщикам": "[NO CONTENT] Контент не найден для таба \"Застройщикам\"",
+    "Бизнесу": "[NO CONTENT] Контент не найден для таба \"Бизнесу\"",
+    "Партнерам": "[NO CONTENT] Контент не найден для таба \"Партнерам\""
+  },
+  "allHiddenContent": {}
+}

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест Sticky CTA</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .test-content {
+            padding: 20px;
+            min-height: 200vh; /* Высокий контент для прокрутки */
+        }
+        .test-section {
+            margin: 50px 0;
+            padding: 20px;
+            background: #f0f0f0;
+            border-radius: 8px;
+        }
+        .debug-info {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            font-size: 12px;
+            z-index: 10000;
+            max-width: 300px;
+        }
+        .debug-info h3 {
+            margin: 0 0 10px 0;
+            font-size: 14px;
+        }
+        .debug-info p {
+            margin: 5px 0;
+        }
+        .status-ok {
+            color: #4CAF50;
+        }
+        .status-error {
+            color: #f44336;
+        }
+    </style>
+</head>
+<body>
+    <div class="debug-info" id="debugInfo">
+        <h3>🔍 Отладка Sticky CTA</h3>
+        <p id="scriptStatus">Проверка скрипта...</p>
+        <p id="elementStatus">Проверка элемента...</p>
+        <p id="scrollStatus">Позиция прокрутки: <span id="scrollPosition">0</span>px</p>
+        <p id="visibilityStatus">Видимость: <span id="visibility">-</span></p>
+        <p id="cssStatus">Проверка CSS...</p>
+    </div>
+
+    <div class="test-content">
+        <h1>Тестовая страница для проверки Sticky CTA</h1>
+        <p>Прокрутите страницу вниз, чтобы увидеть sticky CTA</p>
+        
+        <div class="test-section">
+            <h2>Секция 1</h2>
+            <p>Это тестовый контент для проверки работы sticky CTA.</p>
+            <p>Прокрутите страницу вниз на 300px, чтобы sticky CTA появился.</p>
+        </div>
+
+        <div class="test-section">
+            <h2>Секция 2</h2>
+            <p>Продолжайте прокручивать...</p>
+        </div>
+
+        <div class="test-section" id="service-order">
+            <h2>Форма заказа (якорь #service-order)</h2>
+            <p>Sticky CTA должен прокручивать к этой секции при клике на кнопку.</p>
+            <form>
+                <input type="text" placeholder="Ваше имя" style="padding: 10px; margin: 10px 0; width: 300px;">
+                <br>
+                <input type="tel" placeholder="Телефон" style="padding: 10px; margin: 10px 0; width: 300px;">
+                <br>
+                <button type="submit" style="padding: 10px 20px; margin: 10px 0;">Отправить</button>
+            </form>
+        </div>
+
+        <div class="test-section">
+            <h2>Секция 3</h2>
+            <p>Еще больше контента...</p>
+        </div>
+
+        <div class="test-section">
+            <h2>Секция 4</h2>
+            <p>Продолжайте прокручивать...</p>
+        </div>
+    </div>
+
+    <!-- Sticky CTA для страницы услуги -->
+    <div class="sticky-cta" id="sticky-cta" aria-label="Быстрое действие">
+        <div class="sticky-cta__container">
+            <div class="sticky-cta__content">
+                <div class="sticky-cta__text">
+                    <span class="sticky-cta__title">Готовы начать?</span>
+                    <span class="sticky-cta__subtitle">Получите консультацию или закажите услугу</span>
+                </div>
+                <div class="sticky-cta__actions">
+                    <a href="#service-order" class="btn btn-primary btn-lg sticky-cta__btn">
+                        Заказать услугу
+                    </a>
+                    <button class="sticky-cta__close" aria-label="Закрыть" id="sticky-cta-close">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <path d="M15 5L5 15M5 5L15 15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Подключаем стили и скрипты -->
+    <link rel="stylesheet" href="../SiteMGTS/css/style.css">
+    <script src="../SiteMGTS/js/sticky-cta.js"></script>
+
+    <script>
+        // Отладочный скрипт для проверки работы sticky CTA
+        function updateDebugInfo() {
+            const stickyCTA = document.getElementById('sticky-cta');
+            const scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+            const isVisible = stickyCTA && stickyCTA.classList.contains('sticky-cta--visible');
+            
+            // Проверка скрипта
+            const scriptStatus = document.getElementById('scriptStatus');
+            if (typeof window.stickyCTAInitialized !== 'undefined') {
+                scriptStatus.innerHTML = '<span class="status-ok">✅ Скрипт загружен</span>';
+            } else {
+                scriptStatus.innerHTML = '<span class="status-error">❌ Скрипт не загружен</span>';
+            }
+            
+            // Проверка элемента
+            const elementStatus = document.getElementById('elementStatus');
+            if (stickyCTA) {
+                elementStatus.innerHTML = '<span class="status-ok">✅ Элемент найден в DOM</span>';
+            } else {
+                elementStatus.innerHTML = '<span class="status-error">❌ Элемент не найден</span>';
+            }
+            
+            // Позиция прокрутки
+            document.getElementById('scrollPosition').textContent = Math.round(scrollPosition);
+            
+            // Видимость
+            const visibility = document.getElementById('visibility');
+            if (isVisible) {
+                visibility.textContent = 'Видим';
+                visibility.className = 'status-ok';
+            } else {
+                visibility.textContent = 'Скрыт';
+                visibility.className = '';
+            }
+            
+            // Проверка CSS
+            const cssStatus = document.getElementById('cssStatus');
+            if (stickyCTA) {
+                const computedStyle = window.getComputedStyle(stickyCTA);
+                const position = computedStyle.position;
+                const zIndex = computedStyle.zIndex;
+                
+                if (position === 'fixed') {
+                    cssStatus.innerHTML = `<span class="status-ok">✅ CSS: position=${position}, z-index=${zIndex}</span>`;
+                } else {
+                    cssStatus.innerHTML = `<span class="status-error">❌ CSS: position=${position} (должно быть fixed)</span>`;
+                }
+            }
+        }
+        
+        // Обновляем информацию при прокрутке
+        window.addEventListener('scroll', () => {
+            updateDebugInfo();
+        }, { passive: true });
+        
+        // Обновляем информацию при загрузке
+        window.addEventListener('load', () => {
+            setTimeout(updateDebugInfo, 500);
+        });
+        
+        // Обновляем информацию каждую секунду
+        setInterval(updateDebugInfo, 1000);
+        
+        // Проверка localStorage
+        const localStorageStatus = document.createElement('p');
+        localStorageStatus.id = 'localStorageStatus';
+        document.getElementById('debugInfo').appendChild(localStorageStatus);
+        
+        function checkLocalStorage() {
+            const wasClosed = localStorage.getItem('sticky-cta-closed');
+            const status = document.getElementById('localStorageStatus');
+            if (wasClosed === 'true') {
+                status.innerHTML = '<span class="status-error">⚠️ Sticky CTA был закрыт (очистите localStorage)</span>';
+            } else {
+                status.innerHTML = '<span class="status-ok">✅ Sticky CTA не был закрыт</span>';
+            }
+        }
+        
+        checkLocalStorage();
+        setInterval(checkLocalStorage, 1000);
+    </script>
+</body>
+</html>
+
+

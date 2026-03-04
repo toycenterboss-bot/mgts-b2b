@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_page_career_why_items",
+  "info": {
+    "displayName": "Career Why Item",
+    "description": "Пункт списка преимуществ"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string",
+      "customField": "plugin::icon-picker.icon"
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

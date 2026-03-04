@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html class="dark" lang="ru"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Новости и Документы | MGTS B2B</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="../../assets/fonts/google/9e05ed08ab/font.css" rel="stylesheet"/>
+<link href="../../assets/fonts/material-symbols-outlined/material-symbols-outlined.css" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#0066cc",
+                        "background-light": "#f5f7f8",
+                        "background-dark": "#0a0f14",
+                        "glass-dark": "rgba(255, 255, 255, 0.03)",
+                        "accent-glow": "rgba(0, 102, 204, 0.15)",
+                    },
+                    fontFamily: {
+                        "display": ["Space Grotesk", "Noto Sans", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "1rem", "2xl": "1.5rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style type="text/tailwindcss">
+        @layer base {
+            body {
+                font-family: 'Space Grotesk', 'Noto Sans', sans-serif;
+            }
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+        .perspective-1000 {
+            perspective: 1000px;
+        }
+        .news-card-3d {
+            transition: transform 0.4s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.4s ease;
+            transform-style: preserve-3d;
+        }
+        .news-card-3d:hover {
+            transform: translateY(-5px) rotateX(2deg) rotateY(-1deg);
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5), 0 0 20px rgba(0, 102, 204, 0.2);
+        }
+        .glass-effect {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .glow-leak {
+            background: radial-gradient(circle at 50% 50%, rgba(0, 102, 204, 0.12), transparent 70%);
+        }
+        .icon-3d {
+            filter: drop-shadow(0 4px 6px rgba(0,0,0,0.3));
+            transform: translateZ(10px);
+        }
+        .category-tag-glow {
+            transition: all 0.3s ease;
+        }
+        .news-card-3d:hover .category-tag-glow {
+            box-shadow: 0 0 15px rgba(0, 102, 204, 0.6);
+            background: rgba(0, 102, 204, 1);
+            color: white;
+        }
+        .image-overlay {
+            background: linear-gradient(45deg, rgba(0, 102, 204, 0.2) 0%, transparent 60%);
+        }
+    </style>
+</head>
+<body class="bg-background-dark text-slate-100 min-h-screen relative overflow-x-hidden">
+<div class="fixed top-0 right-0 w-[500px] h-[500px] glow-leak pointer-events-none -z-10 translate-x-1/2 -translate-y-1/2"></div>
+<div class="fixed bottom-0 left-0 w-[800px] h-[800px] glow-leak pointer-events-none -z-10 -translate-x-1/4 translate-y-1/4"></div>
+<header class="sticky top-0 z-50 border-b border-white/5 bg-background-dark/60 backdrop-blur-xl">
+<div class="max-w-[1400px] mx-auto flex items-center justify-between px-8 py-5">
+<div class="flex items-center gap-14">
+<div class="flex items-center gap-3 text-primary">
+<div class="size-9 icon-3d">
+<svg fill="currentColor" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M24 4H6V17.3333V30.6667H24V44H42V30.6667V17.3333H24V4Z" fill-rule="evenodd"></path>
+</svg>
+</div>
+<h2 class="text-2xl font-black tracking-[0.1em] uppercase italic">MGTS</h2>
+</div>
+<nav class="hidden lg:flex items-center gap-10">
+<a class="text-[13px] font-bold tracking-widest uppercase opacity-60 hover:opacity-100 transition-opacity" href="#">Главная</a>
+<a class="text-[13px] font-bold tracking-widest uppercase opacity-60 hover:opacity-100 transition-opacity" href="#">Услуги</a>
+<a class="text-[13px] font-bold tracking-widest uppercase text-primary border-b-2 border-primary pb-1" href="#">Пресс-центр</a>
+<a class="text-[13px] font-bold tracking-widest uppercase opacity-60 hover:opacity-100 transition-opacity" href="#">Партнерам</a>
+</nav>
+</div>
+<div class="flex items-center gap-6">
+<div class="relative hidden xl:block">
+<span class="absolute inset-y-0 left-4 flex items-center text-slate-400">
+<span class="material-symbols-outlined text-[20px]">search</span>
+</span>
+<input class="w-72 bg-white/5 border border-white/10 rounded-full py-2.5 pl-12 pr-6 text-sm focus:ring-2 focus:ring-primary/50 focus:bg-white/10 transition-all outline-none" placeholder="Поиск по архивам..." type="text"/>
+</div>
+<button class="bg-primary hover:brightness-110 shadow-[0_4px_20px_rgba(0,102,204,0.3)] text-white px-7 py-2.5 rounded-full text-sm font-bold flex items-center gap-2 transition-all">
+<span class="material-symbols-outlined text-[20px] fill-1">account_circle</span>
+                    Кабинет
+                </button>
+</div>
+</div>
+</header>
+<main class="max-w-[1400px] mx-auto px-8 py-12">
+<nav class="flex items-center gap-3 mb-10 opacity-50">
+<a class="text-xs font-bold uppercase tracking-wider hover:text-primary transition-colors" href="#">Главная</a>
+<span class="material-symbols-outlined text-sm">chevron_right</span>
+<span class="text-xs font-bold uppercase tracking-wider">Медиа-хаб</span>
+</nav>
+<div class="mb-16 relative">
+<div class="absolute -left-8 top-0 h-full w-1 bg-primary rounded-full"></div>
+<h1 class="text-6xl md:text-7xl font-black tracking-tighter mb-6 bg-gradient-to-br from-white via-white to-white/30 bg-clip-text text-transparent">
+                Новости и<br/>Медиа-ресурсы
+            </h1>
+<p class="text-slate-400 text-xl max-w-2xl font-light leading-relaxed">
+                Интеллектуальная среда MGTS: последние технологические прорывы, отраслевая экспертиза и полный доступ к нормативной базе.
+            </p>
+</div>
+<div class="mb-16">
+<div class="flex gap-4 p-1.5 bg-white/5 rounded-2xl w-fit border border-white/10">
+<a class="px-8 py-3 text-sm font-bold rounded-xl bg-primary shadow-lg shadow-primary/20 text-white" href="#">Все материалы</a>
+<a class="px-8 py-3 text-sm font-bold rounded-xl text-slate-400 hover:text-white hover:bg-white/5 transition-all" href="#">Технологии</a>
+<a class="px-8 py-3 text-sm font-bold rounded-xl text-slate-400 hover:text-white hover:bg-white/5 transition-all" href="#">Отчеты</a>
+<a class="px-8 py-3 text-sm font-bold rounded-xl text-slate-400 hover:text-white hover:bg-white/5 transition-all" href="#">Сертификаты</a>
+</div>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-10 perspective-1000">
+<div class="lg:col-span-8 space-y-12">
+<div class="flex items-center justify-between">
+<h3 class="text-2xl font-black tracking-tight flex items-center gap-4">
+<span class="size-10 rounded-xl bg-primary/10 flex items-center justify-center">
+<span class="material-symbols-outlined text-primary">dynamic_feed</span>
+</span>
+                        Свежие публикации
+                    </h3>
+<a class="group flex items-center gap-2 text-primary font-bold text-sm tracking-widest uppercase" href="#">
+                        Архив новостей
+                        <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_right_alt</span>
+</a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<div class="news-card-3d glass-effect group cursor-pointer rounded-2xl overflow-hidden">
+<div class="h-60 overflow-hidden relative">
+<div class="w-full h-full bg-center bg-no-repeat bg-cover transform group-hover:scale-110 transition-transform duration-700" style='background-image: url("../../assets/images/external/60b54c10dd84.png");'></div>
+<div class="absolute inset-0 image-overlay opacity-60"></div>
+<div class="absolute inset-0 border-2 border-white/0 group-hover:border-white/10 transition-colors pointer-events-none"></div>
+</div>
+<div class="p-8">
+<div class="flex items-center justify-between mb-5">
+<span class="category-tag-glow bg-white/5 border border-white/10 text-white/70 text-[10px] font-black uppercase tracking-[0.2em] px-3 py-1.5 rounded-md">Технологии</span>
+<span class="text-slate-500 text-[11px] font-bold">15 ОКТ 2023</span>
+</div>
+<h4 class="text-xl font-bold leading-tight group-hover:text-primary transition-colors">Масштабирование 5G-инфраструктуры в промзонах</h4>
+<p class="text-slate-400 text-sm mt-4 line-clamp-2 font-light">Внедрение выделенных сетей для бесперебойной автоматизации и интернета вещей на крупнейших предприятиях.</p>
+</div>
+</div>
+<div class="news-card-3d glass-effect group cursor-pointer rounded-2xl overflow-hidden">
+<div class="h-60 overflow-hidden relative">
+<div class="w-full h-full bg-center bg-no-repeat bg-cover transform group-hover:scale-110 transition-transform duration-700" style='background-image: url("../../assets/images/external/6eeb437dfc85.png");'></div>
+<div class="absolute inset-0 image-overlay opacity-60"></div>
+<div class="absolute inset-0 border-2 border-white/0 group-hover:border-white/10 transition-colors pointer-events-none"></div>
+</div>
+<div class="p-8">
+<div class="flex items-center justify-between mb-5">
+<span class="category-tag-glow bg-white/5 border border-white/10 text-white/70 text-[10px] font-black uppercase tracking-[0.2em] px-3 py-1.5 rounded-md">Бизнес</span>
+<span class="text-slate-500 text-[11px] font-bold">12 ОКТ 2023</span>
+</div>
+<h4 class="text-xl font-bold leading-tight group-hover:text-primary transition-colors">Квартальный отчет: Рост в сегменте B2B</h4>
+<p class="text-slate-400 text-sm mt-4 line-clamp-2 font-light">Статистика внедрения цифровых сервисов и новые горизонты корпоративной устойчивости за 3 квартал.</p>
+</div>
+</div>
+<div class="md:col-span-2 news-card-3d glass-effect group cursor-pointer rounded-2xl overflow-hidden flex flex-col md:flex-row">
+<div class="md:w-[45%] h-64 md:h-auto overflow-hidden relative">
+<div class="w-full h-full bg-center bg-no-repeat bg-cover transform group-hover:scale-110 transition-transform duration-700" style='background-image: url("../../assets/images/external/59b1b16623f4.png");'></div>
+<div class="absolute inset-0 image-overlay opacity-40"></div>
+</div>
+<div class="p-10 md:w-[55%] flex flex-col justify-center relative">
+<div class="flex items-center gap-4 mb-6">
+<span class="category-tag-glow bg-white/5 border border-white/10 text-white/70 text-[10px] font-black uppercase tracking-[0.2em] px-3 py-1.5 rounded-md">Инфраструктура</span>
+<span class="text-slate-500 text-[11px] font-bold uppercase tracking-widest">Топ событие</span>
+</div>
+<h4 class="text-3xl font-black leading-tight group-hover:text-primary transition-colors mb-4">Цифровой каркас будущего: модернизация завершена</h4>
+<p class="text-slate-400 text-base font-light mb-0">Завершена глобальная интеграция оптоволоконных магистралей нового поколения. Обеспечена 100% готовность к приему гигабитных нагрузок во всех деловых кластерах.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="lg:col-span-4 space-y-10">
+<div class="flex items-center justify-between">
+<h3 class="text-2xl font-black tracking-tight flex items-center gap-4">
+<span class="size-10 rounded-xl bg-primary/10 flex items-center justify-center">
+<span class="material-symbols-outlined text-primary">inventory_2</span>
+</span>
+                        Документы
+                    </h3>
+<span class="text-xs font-bold text-slate-500 uppercase">12 единиц</span>
+</div>
+<div class="space-y-4">
+<div class="group flex items-center justify-between p-5 glass-effect rounded-2xl hover:bg-white/10 transition-all border-l-4 border-l-red-500/50">
+<div class="flex items-center gap-5">
+<div class="size-14 relative flex items-center justify-center">
+<div class="absolute inset-0 bg-red-500/20 blur-xl opacity-0 group-hover:opacity-100 transition-opacity"></div>
+<div class="relative bg-gradient-to-br from-red-600 to-red-800 p-3 rounded-lg shadow-2xl icon-3d">
+<span class="material-symbols-outlined text-white text-2xl fill-1">picture_as_pdf</span>
+</div>
+</div>
+<div>
+<h5 class="text-[15px] font-bold text-white mb-1 group-hover:text-red-400 transition-colors">Договор B2B (2024)</h5>
+<p class="text-[11px] text-slate-500 uppercase tracking-widest font-bold">PDF • 2.4 MB</p>
+</div>
+</div>
+<button class="size-10 flex items-center justify-center bg-white/5 border border-white/10 text-white rounded-full hover:bg-primary hover:border-primary transition-all shadow-lg">
+<span class="material-symbols-outlined text-lg">download</span>
+</button>
+</div>
+<div class="group flex items-center justify-between p-5 glass-effect rounded-2xl hover:bg-white/10 transition-all border-l-4 border-l-blue-500/50">
+<div class="flex items-center gap-5">
+<div class="size-14 relative flex items-center justify-center">
+<div class="absolute inset-0 bg-blue-500/20 blur-xl opacity-0 group-hover:opacity-100 transition-opacity"></div>
+<div class="relative bg-gradient-to-br from-blue-600 to-blue-800 p-3 rounded-lg shadow-2xl icon-3d">
+<span class="material-symbols-outlined text-white text-2xl fill-1">description</span>
+</div>
+</div>
+<div>
+<h5 class="text-[15px] font-bold text-white mb-1 group-hover:text-blue-400 transition-colors">Тех. регламент V3</h5>
+<p class="text-[11px] text-slate-500 uppercase tracking-widest font-bold">DOCX • 1.1 MB</p>
+</div>
+</div>
+<button class="size-10 flex items-center justify-center bg-white/5 border border-white/10 text-white rounded-full hover:bg-primary hover:border-primary transition-all shadow-lg">
+<span class="material-symbols-outlined text-lg">download</span>
+</button>
+</div>
+<div class="group flex items-center justify-between p-5 glass-effect rounded-2xl hover:bg-white/10 transition-all border-l-4 border-l-amber-500/50">
+<div class="flex items-center gap-5">
+<div class="size-14 relative flex items-center justify-center">
+<div class="absolute inset-0 bg-amber-500/20 blur-xl opacity-0 group-hover:opacity-100 transition-opacity"></div>
+<div class="relative bg-gradient-to-br from-amber-500 to-amber-700 p-3 rounded-lg shadow-2xl icon-3d">
+<span class="material-symbols-outlined text-white text-2xl fill-1">verified_user</span>
+</div>
+</div>
+<div>
+<h5 class="text-[15px] font-bold text-white mb-1 group-hover:text-amber-400 transition-colors">Лицензия СОРМ</h5>
+<p class="text-[11px] text-slate-500 uppercase tracking-widest font-bold">PDF • 3.7 MB</p>
+</div>
+</div>
+<button class="size-10 flex items-center justify-center bg-white/5 border border-white/10 text-white rounded-full hover:bg-primary hover:border-primary transition-all shadow-lg">
+<span class="material-symbols-outlined text-lg">download</span>
+</button>
+</div>
+</div>
+<div class="mt-12 p-1 relative overflow-hidden rounded-3xl group">
+<div class="absolute inset-0 bg-gradient-to-br from-primary via-blue-500 to-indigo-600 opacity-20"></div>
+<div class="relative bg-background-dark p-8 rounded-[22px] border border-white/10">
+<div class="size-12 rounded-2xl bg-primary/20 flex items-center justify-center mb-6 icon-3d">
+<span class="material-symbols-outlined text-primary text-3xl">lock_open</span>
+</div>
+<h5 class="text-xl font-black mb-3">Приватная зона</h5>
+<p class="text-sm text-slate-400 mb-8 leading-relaxed">Для доступа к финансовым отчетам и персональным спецификациям требуется верификация через личный кабинет.</p>
+<button class="w-full py-4 bg-primary text-white hover:brightness-110 shadow-xl shadow-primary/20 rounded-xl text-xs font-black uppercase tracking-widest transition-all">
+                            Войти в систему
+                        </button>
+</div>
+</div>
+</div>
+</div>
+</main>
+<footer class="mt-32 border-t border-white/5 py-20 bg-black/30">
+<div class="max-w-[1400px] mx-auto px-8 grid grid-cols-1 md:grid-cols-4 gap-16">
+<div class="col-span-1">
+<div class="flex items-center gap-3 text-primary mb-8">
+<div class="size-8">
+<svg fill="currentColor" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M24 4H6V17.3333V30.6667H24V44H42V30.6667V17.3333H24V4Z" fill-rule="evenodd"></path>
+</svg>
+</div>
+<h2 class="text-xl font-black tracking-widest uppercase italic">MGTS</h2>
+</div>
+<p class="text-[11px] font-bold text-slate-600 uppercase tracking-[0.2em] leading-relaxed">
+                    © 2024 ПАО «МГТС»<br/>Инфраструктура возможностей.<br/>Все права защищены.
+                </p>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-3 col-span-1 md:col-span-3 gap-12">
+<div>
+<h6 class="text-[10px] font-black uppercase tracking-[0.3em] text-white/40 mb-8">Экосистема</h6>
+<ul class="space-y-4 text-sm font-medium">
+<li><a class="text-slate-400 hover:text-primary transition-colors" href="#">Каналы связи</a></li>
+<li><a class="text-slate-400 hover:text-primary transition-colors" href="#">ЦОД и Облака</a></li>
+<li><a class="text-slate-400 hover:text-primary transition-colors" href="#">Киберщит</a></li>
+</ul>
+</div>
+<div>
+<h6 class="text-[10px] font-black uppercase tracking-[0.3em] text-white/40 mb-8">Компания</h6>
+<ul class="space-y-4 text-sm font-medium">
+<li><a class="text-slate-400 hover:text-primary transition-colors" href="#">Экспертиза</a></li>
+<li><a class="text-slate-400 hover:text-primary transition-colors" href="#">Карьера</a></li>
+<li><a class="text-slate-400 hover:text-primary transition-colors" href="#">Комплаенс</a></li>
+</ul>
+</div>
+<div>
+<h6 class="text-[10px] font-black uppercase tracking-[0.3em] text-white/40 mb-8">Связь</h6>
+<ul class="space-y-4 text-sm font-medium">
+<li><a class="text-slate-400 hover:text-primary transition-colors" href="#">Медиа-кит</a></li>
+<li><a class="text-slate-400 hover:text-primary transition-colors" href="#">8 800 250 09 90</a></li>
+<li><a class="text-slate-400 hover:text-primary transition-colors" href="#">Поддержка</a></li>
+</ul>
+</div>
+</div>
+</div>
+</footer>
+
+</body></html>

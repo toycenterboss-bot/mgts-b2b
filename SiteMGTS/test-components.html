@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест компонентов</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <style>
+        .warning {
+            padding: 20px;
+            background: #fff3cd;
+            border: 2px solid #ffc107;
+            border-radius: 8px;
+            color: #856404;
+            margin: 20px 0;
+        }
+        .warning code {
+            background: #fff;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="warning" id="protocol-warning" style="display: none;">
+        <strong>⚠️ Внимание!</strong><br><br>
+        Вы открыли страницу через <code>file://</code> протокол. Для работы компонентов необходимо использовать локальный HTTP сервер.<br><br>
+        <strong>Запустите один из вариантов:</strong><br>
+        • <code>python -m http.server 8000</code><br>
+        • Или используйте <code>START_SERVER.bat</code> (Windows)<br><br>
+        Затем откройте: <code>http://localhost:8000/test-components.html</code>
+    </div>
+    
+    <h1>Тест загрузки компонентов</h1>
+    
+    <h2>Header:</h2>
+    <div data-component="header"></div>
+    
+    <h2>Footer:</h2>
+    <div data-component="footer"></div>
+    
+    <script src="/js/components-loader.js"></script>
+    <script>
+        // Проверка протокола
+        if (window.location.protocol === 'file:') {
+            document.getElementById('protocol-warning').style.display = 'block';
+        }
+        
+        // Дополнительная отладка
+        window.addEventListener('load', function() {
+            console.log('Page loaded');
+            console.log('Protocol:', window.location.protocol);
+            console.log('Base path:', ComponentLoader.getBasePath());
+            console.log('Current path:', window.location.pathname);
+            
+            setTimeout(function() {
+                const header = document.querySelector('[data-component="header"]');
+                const footer = document.querySelector('[data-component="footer"]');
+                console.log('Header element:', header);
+                console.log('Footer element:', footer);
+                console.log('Header innerHTML length:', header ? header.innerHTML.length : 0);
+                console.log('Footer innerHTML length:', footer ? footer.innerHTML.length : 0);
+                
+                if (header && header.innerHTML.trim() === '') {
+                    console.warn('Header is empty!');
+                }
+                if (footer && footer.innerHTML.trim() === '') {
+                    console.warn('Footer is empty!');
+                }
+            }, 1000);
+        });
+    </script>
+</body>
+</html>
+

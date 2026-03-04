@@ -1,0 +1,367 @@
+{
+  "page": {
+    "slug": "offers",
+    "url": "https://business.mgts.ru/offers",
+    "pathname": "/offers",
+    "analyzedAt": "2026-01-15T14:45:54.007Z",
+    "screenshot": "/Users/andrey_efremov/Downloads/runs/mgts-backend/temp/page-analysis-llm/offers_screenshot.png",
+    "llmProvider": "perplexity",
+    "llmModel": "sonar"
+  },
+  "metadata": {
+    "title": "Оферты"
+  },
+  "sections": [
+    {
+      "type": "sidebar",
+      "description": "Боковое навигационное меню, восстановленное по связанной странице",
+      "title": "Навигация",
+      "text": null,
+      "links": {
+        "internalLinks": [
+          {
+            "text": "Лицензии и СРО +",
+            "href": "/licenses",
+            "purpose": "Навигационный пункт бокового меню"
+          },
+          {
+            "text": "Оферты",
+            "href": "/offers",
+            "purpose": "Навигационный пункт бокового меню"
+          },
+          {
+            "text": "Формы типовых документов",
+            "href": "/forms_doc",
+            "purpose": "Навигационный пункт бокового меню"
+          },
+          {
+            "text": "Стандарты раскрытия информации",
+            "href": "/operinfo",
+            "purpose": "Навигационный пункт бокового меню"
+          },
+          {
+            "text": "Специальная оценка условий труда",
+            "href": "/wca",
+            "purpose": "Навигационный пункт бокового меню"
+          },
+          {
+            "text": "Предоставление копий документов",
+            "href": "/stockholder_copies_document",
+            "purpose": "Навигационный пункт бокового меню"
+          },
+          {
+            "text": "Сроки устранения неисправностей",
+            "href": "/timing_malfunctions",
+            "purpose": "Навигационный пункт бокового меню"
+          },
+          {
+            "text": "Политика обработки персональных данных",
+            "href": "/data_processing",
+            "purpose": "Навигационный пункт бокового меню"
+          },
+          {
+            "text": "Политика обработки cookies",
+            "href": "/cookie_processing",
+            "purpose": "Навигационный пункт бокового меню"
+          },
+          {
+            "text": "Политика в области охраны труда ПАО МГТС",
+            "href": "/labor_safety",
+            "purpose": "Навигационный пункт бокового меню"
+          }
+        ],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": []
+    },
+    {
+      "sectionIndex": 1,
+      "type": "hero",
+      "description": "Главный заголовок страницы",
+      "title": "Оферты",
+      "subtitle": "",
+      "text": "Оферты",
+      "elements": [],
+      "images": [],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [],
+      "tabs": [],
+      "table": null
+    },
+    {
+      "sectionIndex": 2,
+      "type": "title",
+      "description": "Главный заголовок страницы, обозначающий тему контента - публичные оферты компании МГТС",
+      "title": "Оферты",
+      "text": null,
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      }
+    },
+    {
+      "sectionIndex": 3,
+      "type": "tabs",
+      "description": "Интерактивная система табов для фильтрации и отображения оферт по категориям: для физических лиц, для юридических лиц, архивные документы ПАО МГТС и ЗАО АМТ. Позволяет пользователям быстро найти нужные документы в зависимости от типа абонента и периода действия оферты.",
+      "title": null,
+      "text": null,
+      "tabs": [
+        {
+          "title": "Для физических лиц",
+          "isActive": true,
+          "content": {
+            "title": null,
+            "text": "ОфертыДля физических лицДля юридических лицАрхив ПАО МГТСАрхив ЗАО «АМТ»Оферта о запуске услуги «Выкуп арендованного оборудования» для абонентов – физических лиц ПАО МТС и ПАО МГТС на территории г. Москвы и Московской области»docxПубличная оферта «О заключении соглашения на оказание услуг абонентам по доставке счета за услуги МГТС на электронный адрес»pdfОФЕРТА о заключении соглашения о смене тарифного плана по услуге доступа к сети Интернет, через «Интернет-помощник»pdfОферта о заключении соглашения о подключении дополнительных услуг через «Интернет-помощник»pdfОферта о заключении соглашения об оказании услуги «Белый Интернет» (с реализацией расширенного функционала контент-фильтрации)pdfОферта о заключении соглашения об оказании услуги «Статический IP адрес»pdfОферта об оказании услуг внутризоновой телефонной связи АбонентамpdfОферта о заключении Соглашения о пользовании Сервисами самообслуживанияdocxПравила Бонусной Программы МГТСdocx",
+            "links": {
+              "internalLinks": [],
+              "externalLinks": [],
+              "fileLinks": [
+                {
+                  "text": "Оферта для индивидуальной застройки (авансовый платеж)",
+                  "href": "http://localhost:1337/uploads/Oferta_AMT_dlya_individualnoy_zastroyki_avansovyy_platezh_17a23267f2.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Оферта для индивидуальной застройки с авансовым платежом - документ для физических лиц, занимающихся индивидуальным строительством"
+                },
+                {
+                  "text": "Оферта для многоквартирной застройки (авансовый платеж)",
+                  "href": "http://localhost:1337/uploads/Oferta_AMT_dlya_mnogokvartirnoy_zastroyki_avansovyy_platezh_ebe085d2ef.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Оферта для многоквартирной застройки с авансовым платежом - документ для физических лиц, занимающихся многоквартирным строительством"
+                },
+                {
+                  "text": "Оферта (отложенный платеж)",
+                  "href": "http://localhost:1337/uploads/oferta_AMT_otlozhennyy_platezh_a77131b7e2.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Оферта с отложенным платежом - документ для физических лиц с возможностью отсрочки платежа"
+                },
+                {
+                  "text": "Оферта о запуске услуги «Выкуп арендованного оборудования» для абонентов – физических лиц ПАО МТС и ПАО МГТС на территории г. Москвы и Московской области»",
+                  "href": "http://localhost:1337/uploads/Oferta_o_zapuske_uslugi_Vykup_arendovannogo_oborudovaniya_dlya_abonentov_fizicheskih_lic_MTS_i_MGTS_v_Moskve_i_Mosk_a366712480.docx",
+                  "fileType": "docx",
+                  "purpose": "Оферта о программе выкупа арендованного оборудования для физических лиц в Москве и Московской области"
+                },
+                {
+                  "text": "Публичная оферта «О заключении соглашения на оказание услуг абонентам по доставке счета за услуги МГТС на электронный адрес»",
+                  "href": "http://localhost:1337/uploads/oferta_po_dostavke_scheta_za_uslugi_MGTS_na_elektronnyy_adres_d264bd8416.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Публичная оферта об электронной доставке счетов за услуги МГТС"
+                },
+                {
+                  "text": "ОФЕРТА о заключении соглашения о смене тарифного плана по услуге доступа к сети Интернет, через «Интернет-помощник»",
+                  "href": "http://localhost:1337/uploads/offerta_fizlica_f64d1fda42.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Оферта о смене тарифного плана интернета через сервис Интернет-помощник"
+                },
+                {
+                  "text": "Оферта о заключении соглашения о подключении дополнительных услуг через «Интернет-помощник»",
+                  "href": "http://localhost:1337/uploads/Oferta_na_podklyuchenie_DVO_ITOG_3668cb81df.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Оферта о подключении дополнительных услуг через сервис Интернет-помощник"
+                },
+                {
+                  "text": "Оферта о заключении соглашения об оказании услуги «Белый Интернет» (с реализацией расширенного функционала контент-фильтрации)",
+                  "href": "http://localhost:1337/uploads/Oferta_BI_a548426dd6.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Оферта об услуге Белый Интернет с функцией контент-фильтрации"
+                },
+                {
+                  "text": "Оферта о заключении соглашения об оказании услуги «Статический IP адрес»",
+                  "href": "http://localhost:1337/uploads/oferta_o_zaklyuchenii_soglasheniya_ob_okazanii_uslugi_Staticheskiy_IP_828d5b8697.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Оферта об услуге статического IP адреса"
+                },
+                {
+                  "text": "Оферта об оказании услуг внутризоновой телефонной связи Абонентам",
+                  "href": "http://localhost:1337/uploads/Oferta_na_okazaniye_uslug_vnutrizonovoy_svyazi_actual_fcda022508.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Оферта об услугах внутризоновой телефонной связи"
+                },
+                {
+                  "text": "Оферта о заключении Соглашения о пользовании Сервисами самообслуживания",
+                  "href": "http://localhost:1337/uploads/Prilozhenie_1_Oferta_ispolzovanie_SSO_2021_21_06_2021_a05a75b8d1.docx",
+                  "fileType": "docx",
+                  "purpose": "Оферта о пользовании сервисами самообслуживания МГТС"
+                },
+                {
+                  "text": "Правила Бонусной Программы МГТС",
+                  "href": "http://localhost:1337/uploads/Pravila_Bonusnoy_Programmy_MGTS_0fa89d277b.docx",
+                  "fileType": "docx",
+                  "purpose": "Документ с правилами участия в бонусной программе МГТС"
+                }
+              ],
+              "imageLinks": []
+            }
+          }
+        },
+        {
+          "title": "Для юридических лиц",
+          "isActive": false,
+          "content": {
+            "title": null,
+            "text": "ОфертыДля физических лицДля юридических лицАрхив ПАО МГТСАрхив ЗАО «АМТ»Оферта о заключении соглашения об изменении тарифного плана на услугу доступа к сети Интернет посредством обмена сообщениями по электронной почтеpdfОферта о заключении соглашения об изменении системы оплаты местных телефонных соединенийpdfОферта на размещение и распространение рекламно-информационных материалов на Единых счетах для абонентов МГТСpdfОферта на размещение рекламного баннера в Едином Личном Кабинете Абонента (ЕЛКА) на Интернет сайте ПАО МГТСpdfОФЕРТА о предоставлении контактных данных посредством обмена сообщениями по электронной почте для Абонентов ПАО МГТС - юридических лиц и индивидуальных предпринимателейpdfОФЕРТА на изменение способа доставки платежных документов посредством обмена сообщениями по электронной почтеpdfОферта об оказании услуг внутризоновой телефонной связи Абонентамpdf",
+            "links": {
+              "internalLinks": [],
+              "externalLinks": [],
+              "fileLinks": [
+                {
+                  "text": "Оферта для индивидуальной застройки (авансовый платеж)",
+                  "href": "http://localhost:1337/uploads/Oferta_AMT_dlya_individualnoy_zastroyki_avansovyy_platezh_17a23267f2.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Оферта для индивидуальной застройки с авансовым платежом - документ для юридических лиц, занимающихся индивидуальным строительством"
+                },
+                {
+                  "text": "Оферта для многоквартирной застройки (авансовый платеж)",
+                  "href": "http://localhost:1337/uploads/Oferta_AMT_dlya_mnogokvartirnoy_zastroyki_avansovyy_platezh_ebe085d2ef.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Оферта для многоквартирной застройки с авансовым платежом - документ для юридических лиц, занимающихся многоквартирным строительством"
+                },
+                {
+                  "text": "Оферта (отложенный платеж)",
+                  "href": "http://localhost:1337/uploads/oferta_AMT_otlozhennyy_platezh_a77131b7e2.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Оферта с отложенным платежом - документ для юридических лиц с возможностью отсрочки платежа"
+                },
+                {
+                  "text": "Оферта о заключении соглашения об изменении тарифного плана на услугу доступа к сети Интернет посредством обмена сообщениями по электронной почте",
+                  "href": "http://localhost:1337/uploads/OFERTA_o_zaklyuchenii_soglasheniya_ob_izmenenii_tarifnogo_plana_na_uslugu_dostupa_k_seti_Internet_1b1a9fd59f.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Оферта об изменении интернет-тарифа для юридических лиц через электронную почту"
+                },
+                {
+                  "text": "Оферта о заключении соглашения об изменении системы оплаты местных телефонных соединений",
+                  "href": "http://localhost:1337/uploads/Oferta_NA_SMENU_TP_B2_B_7f617ca453.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Оферта об изменении системы оплаты местных телефонных соединений для юридических лиц"
+                },
+                {
+                  "text": "Оферта на размещение и распространение рекламно-информационных материалов на Единых счетах для абонентов МГТС",
+                  "href": "http://localhost:1337/uploads/Oferta_reklama_na_schetah_8b6b14d46f.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Оферта о размещении рекламных материалов на счетах абонентов"
+                },
+                {
+                  "text": "Оферта на размещение рекламного баннера в Едином Личном Кабинете Абонента (ЕЛКА) на Интернет сайте ПАО МГТС",
+                  "href": "http://localhost:1337/uploads/Ofertu_na_razmeshcheniye_reklamnogo_bannera_v_Yedinom_Lichnom_Kabinete_YELKA_d27d324726.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Оферта о размещении рекламного баннера в личном кабинете абонента ЕЛКА"
+                },
+                {
+                  "text": "ОФЕРТА о предоставлении контактных данных посредством обмена сообщениями по электронной почте для Абонентов ПАО МГТС - юридических лиц и индивидуальных предпринимателей",
+                  "href": "http://localhost:1337/uploads/Oferta_o_sbore_khranenii_obrabotke_i_ispolzovanii_KD_YUL_30f1be8676.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Оферта о сборе и обработке контактных данных юридических лиц и ИП"
+                },
+                {
+                  "text": "ОФЕРТА на изменение способа доставки платежных документов посредством обмена сообщениями по электронной почте",
+                  "href": "http://localhost:1337/uploads/OFERTA_na_izmeneniye_sposoba_dostavki_platezhnykh_dokumentov_posredstvom_obmena_soobshcheniyami_po_el_pochte_a4941d62f3.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Оферта об изменении способа доставки платежных документов на электронный адрес"
+                },
+                {
+                  "text": "Оферта об оказании услуг внутризоновой телефонной связи Абонентам",
+                  "href": "http://localhost:1337/uploads/Oferta_na_okazaniye_uslug_vnutrizonovoy_svyazi_actual_fcda022508.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Оферта об услугах внутризоновой телефонной связи для юридических лиц"
+                }
+              ],
+              "imageLinks": []
+            }
+          }
+        },
+        {
+          "title": "Архив ПАО МГТС",
+          "isActive": false,
+          "content": {
+            "title": null,
+            "text": "ОфертыДля физических лицДля юридических лицАрхив ПАО МГТСАрхив ЗАО «АМТ»Оферта об оказании услуг внутризоновой телефонной связи АбонентамpdfОферта на размещение информационных материалов в базах данных ССС 009, СС 09doc",
+            "links": {
+              "internalLinks": [],
+              "externalLinks": [],
+              "fileLinks": [
+                {
+                  "text": "Оферта для индивидуальной застройки (авансовый платеж)",
+                  "href": "http://localhost:1337/uploads/Oferta_AMT_dlya_individualnoy_zastroyki_avansovyy_platezh_17a23267f2.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Архивная оферта для индивидуальной застройки с авансовым платежом"
+                },
+                {
+                  "text": "Оферта для многоквартирной застройки (авансовый платеж)",
+                  "href": "http://localhost:1337/uploads/Oferta_AMT_dlya_mnogokvartirnoy_zastroyki_avansovyy_platezh_ebe085d2ef.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Архивная оферта для многоквартирной застройки с авансовым платежом"
+                },
+                {
+                  "text": "Оферта (отложенный платеж)",
+                  "href": "http://localhost:1337/uploads/oferta_AMT_otlozhennyy_platezh_a77131b7e2.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Архивная оферта с отложенным платежом"
+                },
+                {
+                  "text": "Оферта об оказании услуг внутризоновой телефонной связи Абонентам",
+                  "href": "http://localhost:1337/uploads/Oferta_na_okazaniye_uslug_vnutrizonovoy_svyazi_arkhiv_b05488430a.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Архивная оферта об услугах внутризоновой телефонной связи"
+                },
+                {
+                  "text": "Оферта на размещение информационных материалов в базах данных ССС 009, СС 09",
+                  "href": "http://localhost:1337/uploads/oferta_09_009_dlya_sajta_kuznecov_9194bf0c3f.doc",
+                  "fileType": "doc",
+                  "purpose": "Архивная оферта о размещении информационных материалов в базах данных"
+                }
+              ],
+              "imageLinks": []
+            }
+          }
+        },
+        {
+          "title": "Архив ЗАО «АМТ»",
+          "isActive": false,
+          "content": {
+            "title": null,
+            "text": "ОфертыДля физических лицДля юридических лицАрхив ПАО МГТСАрхив ЗАО «АМТ»Оферта для индивидуальной застройки (авансовый платеж)pdfОферта для многоквартирной застройки (авансовый платеж)pdfОферта (отложенный платеж)pdf",
+            "links": {
+              "internalLinks": [],
+              "externalLinks": [],
+              "fileLinks": [
+                {
+                  "text": "Оферта для индивидуальной застройки (авансовый платеж)",
+                  "href": "http://localhost:1337/uploads/Oferta_AMT_dlya_individualnoy_zastroyki_avansovyy_platezh_17a23267f2.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Архивная оферта ЗАО АМТ для индивидуальной застройки с авансовым платежом"
+                },
+                {
+                  "text": "Оферта для многоквартирной застройки (авансовый платеж)",
+                  "href": "http://localhost:1337/uploads/Oferta_AMT_dlya_mnogokvartirnoy_zastroyki_avansovyy_platezh_ebe085d2ef.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Архивная оферта ЗАО АМТ для многоквартирной застройки с авансовым платежом"
+                },
+                {
+                  "text": "Оферта (отложенный платеж)",
+                  "href": "http://localhost:1337/uploads/oferta_AMT_otlozhennyy_platezh_a77131b7e2.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Архивная оферта ЗАО АМТ с отложенным платежом"
+                }
+              ],
+              "imageLinks": []
+            }
+          }
+        }
+      ],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      }
+    }
+  ]
+}

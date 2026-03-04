@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_page_file_items",
+  "info": {
+    "displayName": "File Item",
+    "description": "Элемент файла в таблице"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "file": {
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "fileType": {
+      "type": "enumeration",
+      "enum": ["pdf", "doc", "docx", "xls", "xlsx", "zip", "other"],
+      "default": "pdf"
+    },
+    "categoryKey": {
+      "type": "string",
+      "description": "Ключ категории документа для фильтрации в UI (например: offers, reports, certificates). Пусто = 'Все'."
+    },
+    "size": {
+      "type": "string",
+      "description": "Размер файла (например, '626.6 КБ')"
+    },
+    "description": {
+      "type": "text"
+    },
+    "order": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

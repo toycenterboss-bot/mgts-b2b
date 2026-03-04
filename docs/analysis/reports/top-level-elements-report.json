@@ -1,0 +1,158 @@
+{
+  "totalTypes": 2,
+  "elements": [
+    {
+      "tag": "h2",
+      "count": 86,
+      "pagesCount": 42,
+      "pages": [
+        "index",
+        "business/telephony",
+        "about/values",
+        "about/ethics/single-hotline",
+        "about/governance/documents",
+        "about/governance",
+        "about/governance/infoformen",
+        "about/governance/principles",
+        "about/governance/registrar",
+        "about/governance/shareholders",
+        "contacts",
+        "about",
+        "about/ethics",
+        "about/ethics/compliance-policies",
+        "about/ethics/general-director-message",
+        "about/ethics/interaction-partners",
+        "main_page",
+        "business/cloud",
+        "business/security",
+        "business/tv",
+        "business/internet/gpon",
+        "business/internet/dedicated",
+        "business/internet/office",
+        "business/telephony/fixed",
+        "business/telephony/ip",
+        "business/telephony/vpbx",
+        "business/telephony/mobile",
+        "business/security/access-control",
+        "business/security/alarm",
+        "business/cloud/storage",
+        "business/cloud/services",
+        "business/tv/iptv",
+        "business/tv/office",
+        "business/internet",
+        "business/cloud/vps",
+        "business/security/video-surveillance",
+        "developers",
+        "government",
+        "operators",
+        "partners",
+        "about/ethics/partners-feedback",
+        "business"
+      ],
+      "positions": {
+        "between_blocks": 0,
+        "after_blocks": 0,
+        "inside_container": 86
+      },
+      "examples": [
+        {
+          "tag": "h2",
+          "preview": "<h2>Заказать услугу</h2>",
+          "position": "inside_container",
+          "page": "index"
+        },
+        {
+          "tag": "h2",
+          "preview": "<h2 class=\"section-title\">Услуги корпоративной телефонии</h2>",
+          "position": "inside_container",
+          "page": "business/telephony"
+        },
+        {
+          "tag": "h2",
+          "preview": "<h2 class=\"section-title\">Преимущества корпоративной телефонии МГТС</h2>",
+          "position": "inside_container",
+          "page": "business/telephony"
+        },
+        {
+          "tag": "h2",
+          "preview": "<h2>Заказать услугу</h2>",
+          "position": "inside_container",
+          "page": "business/telephony"
+        },
+        {
+          "tag": "h2",
+          "preview": "<h2>Наши ценности</h2>",
+          "position": "inside_container",
+          "page": "about/values"
+        }
+      ]
+    },
+    {
+      "tag": "p",
+      "count": 25,
+      "pagesCount": 23,
+      "pages": [
+        "index",
+        "business/telephony",
+        "main_page",
+        "business/internet/gpon",
+        "business/internet/dedicated",
+        "business/internet/office",
+        "business/telephony/fixed",
+        "business/telephony/ip",
+        "business/telephony/vpbx",
+        "business/telephony/mobile",
+        "business/security/access-control",
+        "business/security/alarm",
+        "business/cloud/storage",
+        "business/cloud/services",
+        "business/tv/iptv",
+        "business/tv/office",
+        "business/cloud/vps",
+        "business/security/video-surveillance",
+        "developers",
+        "government",
+        "operators",
+        "partners",
+        "business"
+      ],
+      "positions": {
+        "between_blocks": 0,
+        "after_blocks": 0,
+        "inside_container": 25
+      },
+      "examples": [
+        {
+          "tag": "p",
+          "preview": "<p>Оставьте заявку, и наш специалист свяжется с вами в течение 15 минут</p>",
+          "position": "inside_container",
+          "page": "index"
+        },
+        {
+          "tag": "p",
+          "preview": "<p>Оставьте заявку, и наш специалист свяжется с вами в течение 15 минут</p>",
+          "position": "inside_container",
+          "page": "business/telephony"
+        },
+        {
+          "tag": "p",
+          "preview": "<p class=\"section-promo-note__header-note\">¬ преимущества</p>",
+          "position": "inside_container",
+          "page": "main_page"
+        },
+        {
+          "tag": "p",
+          "preview": "<p class=\"section-promo-note__header-note\">¬ услуги</p>",
+          "position": "inside_container",
+          "page": "main_page"
+        },
+        {
+          "tag": "p",
+          "preview": "<p>Оставьте заявку, и наш специалист свяжется с вами в течение 15 минут</p>",
+          "position": "inside_container",
+          "page": "business/internet/gpon"
+        }
+      ]
+    }
+  ]
+}

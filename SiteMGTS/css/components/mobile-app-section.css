@@ -1,0 +1,56 @@
+/* ============================================
+   MOBILE-APP-SECTION
+   ============================================ */
+
+/* Генерировано на основе семантического анализа */
+/* Дата: 2026-01-09T15:41:02.775Z */
+
+/* Заголовок секции или подраздела */
+.mobile-app-section__title {
+  display: block;
+  font-size: clamp(1.75rem, 3vw, 2.25rem);
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--color-gray-900, #111827);
+  margin-bottom: var(--spacing-lg, 1.5rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+/* Элемент списка */
+.mobile-app-section__store-item {
+  display: list-item;
+}
+
+/* Общий элемент компонента */
+.mobile-app-section__header {
+  display: block;
+}
+
+/* Заголовок секции или подраздела */
+.mobile-app-section__title-wrapper {
+  display: block;
+  font-size: clamp(1.75rem, 3vw, 2.25rem);
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--color-gray-900, #111827);
+  margin-bottom: var(--spacing-lg, 1.5rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+/* Общий элемент компонента */
+.mobile-app-section__download {
+  display: block;
+}
+
+/* Общий элемент компонента */
+.mobile-app-section__stores {
+  display: block;
+}
+
+/* Элемент списка */
+.mobile-app-section__qr-item {
+  display: list-item;
+}
+

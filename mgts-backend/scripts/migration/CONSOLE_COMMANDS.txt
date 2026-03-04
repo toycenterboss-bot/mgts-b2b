@@ -1,0 +1,8 @@
+// Скопируйте и вставьте эти команды в консоль Strapi (npm run strapi console)
+
+const assignCardTypes = require('./scripts/migration/assign-card-types.js');
+await assignCardTypes({ strapi });
+
+
+
+

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="ru"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Document Preview Modal - MGTS B2B</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="../../assets/fonts/google/ce9d4d9683/font.css" rel="stylesheet"/>
+<link href="../../assets/fonts/material-symbols-outlined/material-symbols-outlined.css" rel="stylesheet"/>
+<link href="../../assets/fonts/material-symbols-outlined/material-symbols-outlined.css" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#f20713",
+                        "background-light": "#f8f5f6",
+                        "background-dark": "#181111",
+                    },
+                    fontFamily: {
+                        "display": ["Space Grotesk", "Noto Sans", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        .glass-overlay {
+            background: rgba(24, 17, 17, 0.8);
+            backdrop-filter: blur(12px);
+        }
+        .document-shadow {
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-white">
+<!-- Main Page Content (Blurred Background Simulation) -->
+<div class="layout-container flex h-screen grow flex-col filter blur-md">
+<header class="flex items-center justify-between border-b border-solid border-[#3a2728] px-40 py-3">
+<div class="flex items-center gap-4">
+<div class="size-6 text-primary">
+<svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 4H17.3334V17.3334H30.6666V30.6666H44V44H4V4Z" fill="currentColor"></path>
+</svg>
+</div>
+<h2 class="text-lg font-bold">MGTS B2B</h2>
+</div>
+<div class="flex gap-4">
+<div class="h-10 w-10 rounded-full bg-[#3a2728]"></div>
+<div class="h-10 w-32 rounded-lg bg-[#3a2728]"></div>
+</div>
+</header>
+<main class="px-40 py-10">
+<div class="grid grid-cols-3 gap-6">
+<div class="h-64 bg-[#3a2728] rounded-xl"></div>
+<div class="h-64 bg-[#3a2728] rounded-xl"></div>
+<div class="h-64 bg-[#3a2728] rounded-xl"></div>
+</div>
+</main>
+</div>
+<!-- Modal Backdrop -->
+<div class="fixed inset-0 z-50 flex items-center justify-center p-4 glass-overlay">
+<!-- Modal Container -->
+<div class="relative flex h-[90vh] w-full max-w-[1200px] flex-col overflow-hidden rounded-xl border border-[#3a2728] bg-[#230f10] shadow-2xl">
+<!-- Modal Header -->
+<header class="flex h-16 shrink-0 items-center justify-between border-b border-[#3a2728] px-6">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary">description</span>
+<h2 class="text-lg font-bold tracking-tight text-white">Предпросмотр документа</h2>
+</div>
+<div class="flex items-center gap-2">
+<button class="flex h-10 w-10 items-center justify-center rounded-lg hover:bg-white/10 transition-colors">
+<span class="material-symbols-outlined">close</span>
+</button>
+</div>
+</header>
+<!-- Modal Body (Split Pane) -->
+<div class="flex flex-1 overflow-hidden">
+<!-- PDF Viewer (Left Side) -->
+<div class="relative flex flex-1 flex-col items-center justify-center bg-[#181111] p-8">
+<!-- Navigation Arrows -->
+<button class="absolute left-6 top-1/2 -translate-y-1/2 flex h-12 w-12 items-center justify-center rounded-full bg-white/5 hover:bg-white/10 border border-white/10 text-white transition-all">
+<span class="material-symbols-outlined">chevron_left</span>
+</button>
+<button class="absolute right-6 top-1/2 -translate-y-1/2 flex h-12 w-12 items-center justify-center rounded-full bg-white/5 hover:bg-white/10 border border-white/10 text-white transition-all">
+<span class="material-symbols-outlined">chevron_right</span>
+</button>
+<!-- Document Page Wrapper -->
+<div class="document-shadow relative aspect-[1/1.414] h-full max-h-[75vh] overflow-hidden rounded-sm bg-white p-12">
+<!-- Simulated PDF Content -->
+<div class="h-full w-full border border-gray-100 p-4">
+<div class="mb-8 flex justify-between">
+<div class="h-8 w-32 bg-gray-200"></div>
+<div class="h-8 w-8 bg-gray-200"></div>
+</div>
+<div class="mb-4 h-6 w-3/4 bg-gray-800"></div>
+<div class="mb-8 h-4 w-1/2 bg-gray-300"></div>
+<div class="space-y-4">
+<div class="h-2 w-full bg-gray-100"></div>
+<div class="h-2 w-full bg-gray-100"></div>
+<div class="h-2 w-full bg-gray-100"></div>
+<div class="h-2 w-4/5 bg-gray-100"></div>
+</div>
+<div class="mt-20 flex gap-4">
+<div class="h-16 w-32 border-b-2 border-gray-400"></div>
+<div class="h-16 w-32 border-b-2 border-gray-400"></div>
+</div>
+</div>
+<img alt="Document content preview showing text and signatures" class="absolute inset-0 opacity-10" src="../../assets/images/external/7e32a3aba85d.png"/>
+</div>
+<!-- Bottom Controls -->
+<div class="absolute bottom-6 flex items-center gap-4">
+<div class="flex items-center rounded-lg bg-white/5 border border-white/10 p-1">
+<button class="p-2 hover:text-primary"><span class="material-symbols-outlined text-[20px]">zoom_out</span></button>
+<span class="px-2 text-xs font-medium">100%</span>
+<button class="p-2 hover:text-primary"><span class="material-symbols-outlined text-[20px]">zoom_in</span></button>
+</div>
+<div class="flex items-center rounded-lg bg-white/5 border border-white/10 px-4 py-2">
+<span class="text-xs font-medium text-white/60 uppercase tracking-widest">Страница 1 из 12</span>
+</div>
+</div>
+</div>
+<!-- Sidebar (Right Side) -->
+<aside class="flex w-80 flex-col border-l border-[#3a2728] bg-[#230f10] p-6">
+<div class="flex-1 space-y-8">
+<div>
+<h3 class="mb-4 text-xs font-bold uppercase tracking-widest text-white/40">Информация о документе</h3>
+<div class="space-y-6">
+<div>
+<p class="text-xs text-white/40">Название</p>
+<p class="text-sm font-medium leading-relaxed">Сервисное соглашение №452-B на оказание услуг связи</p>
+</div>
+<div>
+<p class="text-xs text-white/40">Дата загрузки</p>
+<p class="text-sm font-medium">12 Октября 2023</p>
+</div>
+<div>
+<p class="text-xs text-white/40">Размер файла</p>
+<p class="text-sm font-medium">2.4 MB</p>
+</div>
+<div>
+<p class="text-xs text-white/40">Тип документа</p>
+<div class="mt-1 flex items-center gap-2">
+<span class="flex items-center justify-center rounded bg-primary/20 px-2 py-0.5 text-[10px] font-bold text-primary">PDF</span>
+<p class="text-sm font-medium">Договор</p>
+</div>
+</div>
+</div>
+</div>
+<div>
+<h3 class="mb-4 text-xs font-bold uppercase tracking-widest text-white/40">Действия</h3>
+<div class="grid grid-cols-2 gap-3">
+<button class="flex items-center justify-center gap-2 rounded-lg bg-white/5 py-3 text-sm font-medium hover:bg-white/10 transition-colors">
+<span class="material-symbols-outlined text-[20px]">print</span>
+<span>Печать</span>
+</button>
+<button class="flex items-center justify-center gap-2 rounded-lg bg-white/5 py-3 text-sm font-medium hover:bg-white/10 transition-colors">
+<span class="material-symbols-outlined text-[20px]">share</span>
+<span>Поделиться</span>
+</button>
+</div>
+</div>
+</div>
+<!-- CTA Section -->
+<div class="mt-auto pt-6 border-t border-[#3a2728]">
+<button class="flex w-full items-center justify-center gap-3 rounded-lg bg-primary py-4 text-sm font-bold tracking-wide text-white transition-all hover:bg-primary/90 active:scale-[0.98]">
+<span class="material-symbols-outlined text-[20px]">download</span>
+                            СКАЧАТЬ
+                        </button>
+<p class="mt-3 text-center text-[10px] text-white/30 italic">Файл будет сохранен в формате .pdf</p>
+</div>
+</aside>
+</div>
+</div>
+</div>
+</body></html>

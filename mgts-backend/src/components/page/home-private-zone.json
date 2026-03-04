@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_page_home_private_zones",
+  "info": {
+    "displayName": "Home Private Zone",
+    "description": "Блок Приватная зона для главной"
+  },
+  "options": {},
+  "attributes": {
+    "isVisible": {
+      "type": "boolean",
+      "default": true
+    },
+    "title": {
+      "type": "string",
+      "default": "Приватная зона"
+    },
+    "description": {
+      "type": "text",
+      "default": "Для доступа к финансовым отчетам и персональным спецификациям требуется верификация через личный кабинет."
+    },
+    "buttonText": {
+      "type": "string",
+      "default": "Войти в систему"
+    },
+    "buttonHref": {
+      "type": "string",
+      "default": "#"
+    },
+    "icon": {
+      "type": "string",
+      "default": "lock_open",
+      "customField": "plugin::icon-picker.icon"
+    }
+  }
+}

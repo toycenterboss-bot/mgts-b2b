@@ -1,0 +1,115 @@
+<!-- Пример формы заказа/консультации для страниц услуг -->
+<section class="service-order">
+    <div class="container">
+        <h2>Заказать услугу</h2>
+        <p>Оставьте заявку, и наш специалист свяжется с вами в течение 15 минут</p>
+        
+        <form class="order-form" action="#" method="POST">
+            <div class="order-form__group">
+                <label for="order-name" class="order-form__label">
+                    Ваше имя
+                    <span class="order-form__required" aria-label="обязательное поле">*</span>
+                </label>
+                <input 
+                    type="text" 
+                    id="order-name" 
+                    name="name" 
+                    class="order-form__input" 
+                    required 
+                    aria-required="true"
+                    aria-invalid="false"
+                    placeholder="Иван Иванов"
+                >
+            </div>
+
+            <div class="order-form__group">
+                <label for="order-phone" class="order-form__label">
+                    Телефон
+                    <span class="order-form__required" aria-label="обязательное поле">*</span>
+                </label>
+                <input 
+                    type="tel" 
+                    id="order-phone" 
+                    name="phone" 
+                    class="order-form__input" 
+                    required 
+                    aria-required="true"
+                    aria-invalid="false"
+                    placeholder="+7 (999) 123-45-67"
+                >
+            </div>
+
+            <div class="order-form__group">
+                <label for="order-email" class="order-form__label">
+                    Email
+                    <span class="order-form__required" aria-label="обязательное поле">*</span>
+                </label>
+                <input 
+                    type="email" 
+                    id="order-email" 
+                    name="email" 
+                    class="order-form__input" 
+                    required 
+                    aria-required="true"
+                    aria-invalid="false"
+                    placeholder="ivan@example.com"
+                >
+            </div>
+
+            <div class="order-form__group">
+                <label for="order-company" class="order-form__label">
+                    Название компании
+                </label>
+                <input 
+                    type="text" 
+                    id="order-company" 
+                    name="company" 
+                    class="order-form__input" 
+                    placeholder="ООО «Пример»"
+                >
+            </div>
+
+            <div class="order-form__group">
+                <label for="order-message" class="order-form__label">
+                    Сообщение
+                </label>
+                <textarea 
+                    id="order-message" 
+                    name="message" 
+                    class="order-form__textarea" 
+                    rows="4"
+                    placeholder="Расскажите о ваших потребностях..."
+                ></textarea>
+            </div>
+
+            <div class="order-form__group">
+                <label class="order-form__label">
+                    <input 
+                        type="checkbox" 
+                        name="consent" 
+                        required 
+                        aria-required="true"
+                        style="margin-right: var(--spacing-xs);"
+                    >
+                    Я согласен на обработку персональных данных
+                    <span class="order-form__required" aria-label="обязательное поле">*</span>
+                </label>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-lg order-form__submit">
+                Отправить заявку
+            </button>
+
+            <div class="order-form__success" role="alert" aria-live="polite">
+                Спасибо! Ваша заявка принята. Мы свяжемся с вами в ближайшее время.
+            </div>
+
+            <div class="order-form__error" role="alert" aria-live="assertive">
+                Произошла ошибка. Пожалуйста, проверьте правильность заполнения полей.
+            </div>
+        </form>
+    </div>
+</section>
+
+
+

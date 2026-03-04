@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="ru"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>MGTS B2B - Облачная инфраструктура</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="../../assets/fonts/google/ce9d4d9683/font.css" rel="stylesheet"/>
+<link href="../../assets/fonts/material-symbols-outlined/material-symbols-outlined.css" rel="stylesheet"/>
+<link href="../../assets/fonts/material-symbols-outlined/material-symbols-outlined.css" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#2b6cee",
+                        "background-light": "#f6f6f8",
+                        "background-dark": "#101622",
+                    },
+                    fontFamily: {
+                        "display": ["Space Grotesk", "Noto Sans", "sans-serif"]
+                    },
+                    borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" },
+                },
+            },
+        }
+    </script>
+<style>
+        .glass-card {
+            background: rgba(28, 31, 39, 0.6);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(59, 67, 84, 0.5);
+        }
+        .hero-bg-overlay {
+            background: linear-gradient(180deg, rgba(16, 22, 34, 0.8) 0%, rgba(16, 22, 34, 0.4) 50%, rgba(16, 22, 34, 0.9) 100%);
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-white selection:bg-primary/30">
+<!-- Top Navigation Bar -->
+<header class="fixed top-0 w-full z-50 border-b border-white/10 bg-background-dark/80 backdrop-blur-md">
+<div class="max-w-[1280px] mx-auto px-6 h-20 flex items-center justify-between">
+<div class="flex items-center gap-4">
+<div class="size-8 text-primary">
+<svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M44 4H30.6666V17.3334H17.3334V30.6666H4V44H44V4Z" fill="currentColor"></path>
+</svg>
+</div>
+<h2 class="text-white text-xl font-bold leading-tight tracking-tight">МГТС B2B</h2>
+</div>
+<nav class="hidden md:flex items-center gap-10">
+<a class="text-white/80 hover:text-white text-sm font-medium transition-colors" href="#">Решения</a>
+<a class="text-white/80 hover:text-white text-sm font-medium transition-colors" href="#">Облако</a>
+<a class="text-white/80 hover:text-white text-sm font-medium transition-colors" href="#">Безопасность</a>
+<a class="text-white/80 hover:text-white text-sm font-medium transition-colors" href="#">Тарифы</a>
+<a class="text-white/80 hover:text-white text-sm font-medium transition-colors" href="#">Поддержка</a>
+</nav>
+<div class="flex items-center gap-4">
+<button class="bg-primary hover:bg-primary/90 text-white px-6 py-2.5 rounded-lg text-sm font-bold transition-all shadow-lg shadow-primary/20">
+                    Личный кабинет
+                </button>
+</div>
+</div>
+</header>
+<main class="pt-20">
+<!-- Hero Section with Cloud Nodes Background -->
+<section class="relative min-h-[90vh] flex items-center overflow-hidden">
+<!-- Background Image with data-alt -->
+<div class="absolute inset-0 z-0">
+<div class="w-full h-full bg-cover bg-center" data-alt="3D rendered cloud infrastructure with translucent glass nodes and network lines" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDcJwTpJZbcul8nTBzM9Zr_g29pH82_7niwVpqfiuH_aZTZwCkpH_qJKkavN5fYNiP-kLZ-6bTN3_YSE7K2yMSQiOy6yc5UI9I0zd4MchboA0kqa0ReVayI5ELGk-hYW9Y9zgydUaROW72L0q6bwg9z8lsNYY8ObWh2yVTCv2-VlATaE8GvucUMpfsLfT60UdD-Rd6nYG-GvamA-qbQ1yA-I7fBvsDa0qNVwgl2UY7baql9F68uyxvxaQtX9VU8pKxV8x2-3saNwQ');">
+</div>
+<!-- Deep overlay for contrast -->
+<div class="absolute inset-0 hero-bg-overlay"></div>
+</div>
+<div class="container mx-auto px-6 relative z-10">
+<div class="max-w-[1280px] mx-auto grid lg:grid-cols-2 gap-12 items-center">
+<div class="space-y-8">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/20 border border-primary/30 text-primary text-xs font-bold uppercase tracking-wider">
+<span>Вариант 4 / 10</span>
+</div>
+<h1 class="text-5xl md:text-7xl font-black leading-tight tracking-tight">
+                            Облачная <span class="text-primary">инфраструктура</span> для вашего бизнеса
+                        </h1>
+<p class="text-lg md:text-xl text-white/70 max-w-xl leading-relaxed">
+                            Масштабируемые решения MGTS: надежное хранение данных и бесперебойная связность в единой экосистеме. Современные узлы хранения с защитой корпоративного уровня.
+                        </p>
+<div class="flex flex-wrap gap-4">
+<button class="bg-primary hover:bg-primary/90 text-white px-8 py-4 rounded-lg text-base font-bold transition-all flex items-center gap-2">
+<span>Подключить сейчас</span>
+<span class="material-symbols-outlined">arrow_forward</span>
+</button>
+<button class="bg-white/10 hover:bg-white/20 text-white px-8 py-4 rounded-lg text-base font-bold backdrop-blur-sm transition-all border border-white/10">
+                                Узнать больше
+                            </button>
+</div>
+</div>
+<!-- Decorative Glass Nodes Illustration Area -->
+<div class="hidden lg:flex justify-center relative">
+<div class="w-full aspect-square relative">
+<!-- Simulated Glass Node 1 -->
+<div class="absolute top-10 right-10 w-48 h-48 glass-card rounded-2xl flex flex-col items-center justify-center gap-3 animate-bounce" style="animation-duration: 4s;">
+<span class="material-symbols-outlined text-4xl text-primary">cloud</span>
+<span class="text-sm font-bold">Cloud Storage</span>
+</div>
+<!-- Simulated Glass Node 2 -->
+<div class="absolute bottom-20 left-0 w-56 h-32 glass-card rounded-2xl p-6 flex items-start gap-4">
+<div class="bg-primary/20 p-2 rounded-lg">
+<span class="material-symbols-outlined text-primary">shield</span>
+</div>
+<div>
+<div class="text-xs text-white/50 uppercase font-bold mb-1">Security</div>
+<div class="text-sm font-bold">L7 Protection</div>
+</div>
+</div>
+<!-- Simulated Connectivity Path -->
+<svg class="absolute inset-0 w-full h-full pointer-events-none opacity-30" viewbox="0 0 400 400">
+<path d="M300,100 Q200,200 100,280" fill="none" stroke="#2b6cee" stroke-dasharray="5 5" stroke-width="2"></path>
+</svg>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Stats Section -->
+<section class="py-20 bg-background-dark">
+<div class="max-w-[1280px] mx-auto px-6">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="flex flex-col gap-3 glass-card p-8 rounded-xl border border-white/5">
+<p class="text-white/60 text-base font-medium">Доступность сети</p>
+<p class="text-white text-4xl font-bold tracking-tight">99.9% UN</p>
+<div class="flex items-center gap-2 text-[#0bda5e]">
+<span class="material-symbols-outlined text-sm">trending_up</span>
+<span class="text-sm font-bold">+0.01%</span>
+</div>
+</div>
+<div class="flex flex-col gap-3 glass-card p-8 rounded-xl border border-white/5">
+<p class="text-white/60 text-base font-medium">Скорость передачи</p>
+<p class="text-white text-4xl font-bold tracking-tight">100 Гбит/с</p>
+<div class="flex items-center gap-2 text-[#0bda5e]">
+<span class="material-symbols-outlined text-sm">trending_up</span>
+<span class="text-sm font-bold">+20%</span>
+</div>
+</div>
+<div class="flex flex-col gap-3 glass-card p-8 rounded-xl border border-white/5">
+<p class="text-white/60 text-base font-medium">Клиентов B2B</p>
+<p class="text-white text-4xl font-bold tracking-tight">5000+</p>
+<div class="flex items-center gap-2 text-[#0bda5e]">
+<span class="material-symbols-outlined text-sm">trending_up</span>
+<span class="text-sm font-bold">+15%</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Feature Section -->
+<section class="py-24 bg-background-dark relative">
+<div class="max-w-[1280px] mx-auto px-6">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-8 mb-16">
+<div class="max-w-2xl">
+<h2 class="text-4xl md:text-5xl font-bold tracking-tight mb-6">
+                            Преимущества нашего облака
+                        </h2>
+<p class="text-white/60 text-lg">
+                            Инновационные технологии для стабильного роста вашей компании и защиты критически важных данных.
+                        </p>
+</div>
+<div class="pb-2">
+<div class="flex gap-2 text-primary">
+<span class="material-symbols-outlined text-3xl">hub</span>
+<span class="material-symbols-outlined text-3xl">database</span>
+<span class="material-symbols-outlined text-3xl">lan</span>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="flex flex-col gap-6 p-8 rounded-2xl bg-[#1c1f27] border border-white/5 hover:border-primary/50 transition-all group">
+<div class="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-all">
+<span class="material-symbols-outlined">shield_lock</span>
+</div>
+<div class="space-y-3">
+<h3 class="text-xl font-bold">Безопасность</h3>
+<p class="text-white/60 leading-relaxed">
+                                Шифрование данных и защита от DDoS-атак на уровне узлов сети. Соответствие ФЗ-152 и высоким стандартам безопасности.
+                            </p>
+</div>
+</div>
+<div class="flex flex-col gap-6 p-8 rounded-2xl bg-[#1c1f27] border border-white/5 hover:border-primary/50 transition-all group">
+<div class="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-all">
+<span class="material-symbols-outlined">speed</span>
+</div>
+<div class="space-y-3">
+<h3 class="text-xl font-bold">Масштабируемость</h3>
+<p class="text-white/60 leading-relaxed">
+                                Мгновенное увеличение мощностей под задачи вашего бизнеса. Оплата только за фактически потребляемые ресурсы.
+                            </p>
+</div>
+</div>
+<div class="flex flex-col gap-6 p-8 rounded-2xl bg-[#1c1f27] border border-white/5 hover:border-primary/50 transition-all group">
+<div class="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-all">
+<span class="material-symbols-outlined">sync</span>
+</div>
+<div class="space-y-3">
+<h3 class="text-xl font-bold">Связность</h3>
+<p class="text-white/60 leading-relaxed">
+                                Бесперебойный доступ к данным из любой точки мира через выделенные каналы связи МГТС с минимальной задержкой.
+                            </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section with Glass Effect -->
+<section class="py-24 relative">
+<div class="absolute inset-0 z-0">
+<div class="w-full h-full bg-cover bg-center" data-alt="Abstract deep blue network background for call to action section" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuB3d3D75SkeCHZ_JpfOZ3xeLv6Ab7Zi1zeDsueMX81zepC8nLIskxMAqu3dzv_7ZDYiOmZ-2Pgbl_tx-DNZRJpGtWL49I5VS8wLuZ7LgPtJ9qnr2P9o0o0CXTH8ioHMcASD3-RIprVFWmT2amZVJdaIYXJWLtotc8pClvC8zPCDqK0axRTqWRZZubaqXNCOscbQ8cC8U2rjqyU9-beUCzuJobQ4GH6YYsAabHFTvR1ke-qBUxFlmy2hxBBtARRnx_5wObkAPSmibA');">
+</div>
+<div class="absolute inset-0 bg-background-dark/90"></div>
+</div>
+<div class="max-w-[1280px] mx-auto px-6 relative z-10">
+<div class="glass-card p-12 md:p-20 rounded-3xl text-center max-w-4xl mx-auto border border-white/10 shadow-2xl">
+<h2 class="text-3xl md:text-5xl font-black leading-tight mb-6">
+                        Готовы перенести бизнес в облако?
+                    </h2>
+<p class="text-lg md:text-xl text-white/70 mb-10 max-w-2xl mx-auto">
+                        Получите индивидуальную консультацию от наших экспертов по архитектуре решений и расчет стоимости в течение 15 минут.
+                    </p>
+<div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+<button class="w-full sm:w-auto bg-primary hover:bg-primary/90 text-white px-10 py-4 rounded-lg text-lg font-bold transition-all shadow-xl shadow-primary/20">
+                            Оставить заявку
+                        </button>
+<button class="w-full sm:w-auto bg-white/5 hover:bg-white/10 text-white px-10 py-4 rounded-lg text-lg font-bold backdrop-blur-md transition-all border border-white/10">
+                            Связаться с менеджером
+                        </button>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="bg-background-dark border-t border-white/5 py-12">
+<div class="max-w-[1280px] mx-auto px-6">
+<div class="flex flex-col md:flex-row justify-between items-center gap-8">
+<div class="flex items-center gap-3">
+<div class="size-6 text-white/40">
+<svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M44 4H30.6666V17.3334H17.3334V30.6666H4V44H44V4Z" fill="currentColor"></path>
+</svg>
+</div>
+<span class="text-white/40 font-bold">МГТС B2B © 2024</span>
+</div>
+<div class="flex gap-8 text-white/40 text-sm">
+<a class="hover:text-primary transition-colors" href="#">Политика конфиденциальности</a>
+<a class="hover:text-primary transition-colors" href="#">Правовая информация</a>
+<a class="hover:text-primary transition-colors" href="#">Контакты</a>
+</div>
+</div>
+</div>
+</footer>
+</body></html>

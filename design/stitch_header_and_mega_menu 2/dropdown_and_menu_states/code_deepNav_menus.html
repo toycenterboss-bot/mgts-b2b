@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="ru"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Dropdown and Menu States - MGTS B2B</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="../../assets/fonts/google/100e1be8c3/font.css" rel="stylesheet"/>
+<link href="../../assets/fonts/material-symbols-outlined/material-symbols-outlined.css" rel="stylesheet"/>
+<link href="../../assets/fonts/material-symbols-outlined/material-symbols-outlined.css" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#0566c7",
+                        "background-light": "#f5f7f8",
+                        "background-dark": "#0f1923",
+                    },
+                    fontFamily: {
+                        "display": ["Space Grotesk", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: "Space Grotesk", sans-serif;
+        }
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 4px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #1b2127;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #3a4755;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-white min-h-screen">
+<!-- Top Navigation Bar -->
+<header class="flex items-center justify-between border-b border-solid border-slate-200 dark:border-[#27303a] px-6 py-3 bg-white dark:bg-background-dark sticky top-0 z-50">
+<div class="flex items-center gap-8">
+<div class="flex items-center gap-3 text-primary">
+<div class="size-8 bg-primary rounded-lg flex items-center justify-center text-white">
+<span class="material-symbols-outlined text-xl">token</span>
+</div>
+<h2 class="text-slate-900 dark:text-white text-lg font-bold leading-tight tracking-tight">MGTS B2B Design</h2>
+</div>
+<nav class="hidden md:flex items-center gap-6">
+<a class="text-slate-600 dark:text-[#9babbb] hover:text-primary dark:hover:text-white text-sm font-medium transition-colors" href="#">Компоненты</a>
+<a class="text-slate-600 dark:text-[#9babbb] hover:text-primary dark:hover:text-white text-sm font-medium transition-colors" href="#">Стили</a>
+<a class="text-slate-600 dark:text-[#9babbb] hover:text-primary dark:hover:text-white text-sm font-medium transition-colors" href="#">Документация</a>
+</nav>
+</div>
+<div class="flex items-center gap-4">
+<div class="relative hidden sm:block">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 dark:text-[#9babbb] text-sm">search</span>
+<input class="w-64 h-10 rounded-lg bg-slate-100 dark:bg-[#27303a] border-none pl-10 pr-4 text-sm focus:ring-2 focus:ring-primary/50 text-slate-900 dark:text-white placeholder:text-slate-400 dark:placeholder:text-[#9babbb]" placeholder="Поиск компонентов..." type="text"/>
+</div>
+<button class="bg-primary hover:bg-primary/90 text-white px-5 py-2 rounded-lg text-sm font-bold transition-all">
+                Войти
+            </button>
+</div>
+</header>
+<div class="flex max-w-[1440px] mx-auto">
+<!-- Sidebar Navigation -->
+<aside class="w-64 border-r border-slate-200 dark:border-[#27303a] p-6 h-[calc(100vh-65px)] sticky top-[65px] hidden lg:block overflow-y-auto">
+<div class="mb-8">
+<h1 class="text-slate-900 dark:text-white text-base font-bold uppercase tracking-wider mb-1">UI Kit v1.0</h1>
+<p class="text-slate-500 dark:text-[#9babbb] text-xs">Система компонентов MGTS</p>
+</div>
+<div class="space-y-1">
+<p class="text-slate-400 dark:text-slate-500 text-[10px] font-bold uppercase tracking-widest px-3 mb-2">Навигация</p>
+<div class="flex items-center gap-3 px-3 py-2.5 rounded-lg hover:bg-slate-100 dark:hover:bg-[#27303a] cursor-pointer text-slate-700 dark:text-slate-300 transition-colors group">
+<span class="material-symbols-outlined text-xl group-hover:text-primary">dashboard</span>
+<span class="text-sm font-medium">Обзор</span>
+</div>
+<div class="flex items-center gap-3 px-3 py-2.5 rounded-lg bg-primary/10 text-primary cursor-pointer border-r-4 border-primary transition-all">
+<span class="material-symbols-outlined text-xl">layers</span>
+<span class="text-sm font-bold">Компоненты</span>
+</div>
+<div class="flex items-center gap-3 px-3 py-2.5 rounded-lg hover:bg-slate-100 dark:hover:bg-[#27303a] cursor-pointer text-slate-700 dark:text-slate-300 transition-colors group">
+<span class="material-symbols-outlined text-xl group-hover:text-primary">palette</span>
+<span class="text-sm font-medium">Стили</span>
+</div>
+<div class="flex items-center gap-3 px-3 py-2.5 rounded-lg hover:bg-slate-100 dark:hover:bg-[#27303a] cursor-pointer text-slate-700 dark:text-slate-300 transition-colors group">
+<span class="material-symbols-outlined text-xl group-hover:text-primary">description</span>
+<span class="text-sm font-medium">Документы</span>
+</div>
+</div>
+</aside>
+<!-- Main Content -->
+<main class="flex-1 p-8 lg:p-12 overflow-x-hidden">
+<!-- Page Heading -->
+<div class="mb-12">
+<span class="text-primary text-sm font-bold uppercase tracking-widest mb-2 block">Interactive States</span>
+<h1 class="text-slate-900 dark:text-white text-4xl font-black leading-tight tracking-tight mb-4">Dropdown and Menu States</h1>
+<p class="text-slate-600 dark:text-[#9babbb] text-lg max-w-2xl">Интерактивные элементы управления и навигации для бизнес-решений. Визуализация различных состояний компонентов: Default, Hover, Active и Expanded.</p>
+</div>
+<!-- Section: Dropdowns -->
+<section class="mb-16">
+<div class="flex items-center gap-3 mb-8">
+<h2 class="text-slate-900 dark:text-white text-2xl font-bold tracking-tight">Выпадающий список (Dropdown)</h2>
+<span class="bg-slate-200 dark:bg-[#27303a] text-slate-600 dark:text-[#9babbb] text-[10px] font-bold px-2 py-0.5 rounded-full uppercase">Select Component</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- State: Default -->
+<div class="space-y-4">
+<span class="text-slate-400 text-xs font-mono uppercase tracking-widest">State: Default</span>
+<div class="p-8 rounded-xl bg-white dark:bg-[#1b2127] border border-slate-200 dark:border-[#27303a] shadow-sm">
+<label class="block text-slate-900 dark:text-white text-sm font-medium mb-2">Выберите решение</label>
+<div class="relative">
+<button class="w-full flex items-center justify-between h-12 px-4 rounded-lg border border-slate-300 dark:border-[#3a4755] bg-slate-50 dark:bg-[#111418] text-slate-500 dark:text-[#9babbb] text-sm">
+<span>Выберите из списка...</span>
+<span class="material-symbols-outlined">expand_more</span>
+</button>
+</div>
+</div>
+</div>
+<!-- State: Hover Trigger -->
+<div class="space-y-4">
+<span class="text-primary text-xs font-mono uppercase tracking-widest">State: Hover (Trigger)</span>
+<div class="p-8 rounded-xl bg-white dark:bg-[#1b2127] border border-slate-200 dark:border-[#27303a] shadow-sm">
+<label class="block text-slate-900 dark:text-white text-sm font-medium mb-2">Выберите решение</label>
+<div class="relative">
+<button class="w-full flex items-center justify-between h-12 px-4 rounded-lg border border-primary bg-primary/5 text-slate-900 dark:text-white text-sm transition-all shadow-[0_0_15px_rgba(5,102,199,0.1)]">
+<span>Выберите из списка...</span>
+<span class="material-symbols-outlined text-primary">expand_more</span>
+</button>
+</div>
+</div>
+</div>
+<!-- State: Expanded / Item Hover -->
+<div class="space-y-4">
+<span class="text-primary text-xs font-mono uppercase tracking-widest">State: Expanded &amp; Hover Item</span>
+<div class="p-8 rounded-xl bg-white dark:bg-[#1b2127] border border-slate-200 dark:border-[#27303a] shadow-sm relative h-64 overflow-visible">
+<label class="block text-slate-900 dark:text-white text-sm font-medium mb-2">Выберите решение</label>
+<div class="relative z-10">
+<button class="w-full flex items-center justify-between h-12 px-4 rounded-t-lg border border-primary bg-slate-100 dark:bg-[#111418] text-slate-900 dark:text-white text-sm">
+<span>Облачные сервисы</span>
+<span class="material-symbols-outlined rotate-180 transition-transform">expand_more</span>
+</button>
+<div class="absolute w-full mt-0 bg-white dark:bg-[#1b2127] border border-primary border-t-0 rounded-b-lg shadow-xl overflow-hidden">
+<div class="p-1 space-y-0.5">
+<div class="flex items-center gap-3 px-3 py-2 text-sm text-slate-600 dark:text-[#9babbb] hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-pointer">
+<span class="material-symbols-outlined text-lg">router</span>
+<span>Выделенный интернет</span>
+</div>
+<div class="flex items-center justify-between gap-3 px-3 py-2 text-sm text-white bg-primary rounded-md shadow-lg shadow-primary/20 cursor-pointer">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-lg">cloud</span>
+<span class="font-medium">Облачные сервисы</span>
+</div>
+<span class="material-symbols-outlined text-sm">check</span>
+</div>
+<div class="flex items-center gap-3 px-3 py-2 text-sm text-slate-600 dark:text-[#9babbb] hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-pointer">
+<span class="material-symbols-outlined text-lg">security</span>
+<span>Кибербезопасность</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section: Menu States -->
+<section>
+<div class="flex items-center gap-3 mb-8">
+<h2 class="text-slate-900 dark:text-white text-2xl font-bold tracking-tight">Навигация (Sidebar Items)</h2>
+<span class="bg-slate-200 dark:bg-[#27303a] text-slate-600 dark:text-[#9babbb] text-[10px] font-bold px-2 py-0.5 rounded-full uppercase">Nav Component</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Nav State: Default -->
+<div class="space-y-4">
+<span class="text-slate-400 text-xs font-mono uppercase tracking-widest">State: Default</span>
+<div class="p-8 rounded-xl bg-white dark:bg-[#1b2127] border border-slate-200 dark:border-[#27303a]">
+<div class="max-w-[200px] mx-auto">
+<div class="flex items-center gap-3 px-4 py-3 rounded-lg text-slate-600 dark:text-[#9babbb] hover:cursor-default">
+<span class="material-symbols-outlined text-2xl">lan</span>
+<span class="text-base font-medium">Пункт меню</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Nav State: Hover -->
+<div class="space-y-4">
+<span class="text-primary text-xs font-mono uppercase tracking-widest">State: Hover</span>
+<div class="p-8 rounded-xl bg-white dark:bg-[#1b2127] border border-slate-200 dark:border-[#27303a]">
+<div class="max-w-[200px] mx-auto">
+<div class="flex items-center gap-3 px-4 py-3 rounded-lg bg-slate-100 dark:bg-[#27303a] text-slate-900 dark:text-white transition-all transform -translate-y-0.5 cursor-pointer shadow-sm">
+<span class="material-symbols-outlined text-2xl text-primary">lan</span>
+<span class="text-base font-bold">Пункт меню</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Nav State: Active -->
+<div class="space-y-4">
+<span class="text-primary text-xs font-mono uppercase tracking-widest">State: Active / Current</span>
+<div class="p-8 rounded-xl bg-white dark:bg-[#1b2127] border border-slate-200 dark:border-[#27303a]">
+<div class="max-w-[200px] mx-auto">
+<div class="flex items-center gap-3 px-4 py-3 rounded-lg bg-primary/10 text-primary border-l-4 border-primary shadow-[0_4px_12px_rgba(5,102,199,0.15)]">
+<span class="material-symbols-outlined text-2xl">lan</span>
+<span class="text-base font-bold">Пункт меню</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Example Contextual UI Card -->
+<section class="mt-16">
+<div class="bg-gradient-to-br from-primary/10 to-transparent p-1 rounded-2xl">
+<div class="bg-white dark:bg-[#111418] p-8 rounded-[calc(1rem-2px)] flex flex-col md:flex-row items-center gap-8 border border-white/5">
+<div class="w-24 h-24 rounded-2xl bg-primary/20 flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-primary text-5xl">handshake</span>
+</div>
+<div class="flex-1">
+<h3 class="text-xl font-bold mb-2">Готовое решение для вашего бизнеса</h3>
+<p class="text-slate-600 dark:text-[#9babbb] text-sm leading-relaxed mb-6">
+                                Используйте расширенные элементы управления для быстрой настройки корпоративных услуг. Все компоненты поддерживают темную тему и интерактивные состояния.
+                            </p>
+<div class="flex flex-wrap gap-4">
+<button class="px-6 py-2.5 bg-primary hover:bg-primary/90 text-white font-bold rounded-lg transition-all shadow-lg shadow-primary/20">
+                                    Настроить сейчас
+                                </button>
+<button class="px-6 py-2.5 bg-slate-100 dark:bg-[#27303a] hover:bg-slate-200 dark:hover:bg-[#3a4755] text-slate-900 dark:text-white font-bold rounded-lg transition-all">
+                                    Документация
+                                </button>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+</div>
+<!-- Footer -->
+<footer class="border-t border-slate-200 dark:border-[#27303a] py-8 px-6 mt-12 bg-white dark:bg-background-dark/50">
+<div class="max-w-[1440px] mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+<div class="flex items-center gap-2 text-slate-400">
+<span class="material-symbols-outlined text-sm">copyright</span>
+<span class="text-xs font-medium uppercase tracking-widest">2024 MGTS B2B Digital Solutions</span>
+</div>
+<div class="flex items-center gap-8">
+<a class="text-slate-500 hover:text-primary text-xs font-bold uppercase transition-colors" href="#">Политика</a>
+<a class="text-slate-500 hover:text-primary text-xs font-bold uppercase transition-colors" href="#">Контакты</a>
+<a class="text-slate-500 hover:text-primary text-xs font-bold uppercase transition-colors" href="#">Поддержка</a>
+</div>
+</div>
+</footer>
+</body></html>

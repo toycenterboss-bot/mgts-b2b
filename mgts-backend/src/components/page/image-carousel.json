@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_page_image_carousels",
+  "info": {
+    "displayName": "Image Carousel",
+    "description": "Карусель изображений с заголовками. CSS классы: image-carousel (контейнер), image-carousel__title (заголовок), image-carousel__container (контейнер), image-carousel__item (элемент карусели)"
+  },
+  "options": {},
+  "attributes": {
+    "isVisible": {
+      "type": "boolean",
+      "default": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.carousel-item"
+    },
+    "autoPlay": {
+      "type": "boolean",
+      "default": false
+    },
+    "showNavigation": {
+      "type": "boolean",
+      "default": true
+    },
+    "interval": {
+      "type": "integer",
+      "default": 5000,
+      "description": "Интервал автопрокрутки в миллисекундах"
+    }
+  }
+}

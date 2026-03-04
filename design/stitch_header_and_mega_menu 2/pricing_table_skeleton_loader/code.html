@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+
+<html class="light" lang="ru"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Pricing Table Skeleton Loader - MGTS B2B</title>
+<!-- Fonts -->
+<link href="../../assets/fonts/google/9e05ed08ab/font.css" rel="stylesheet"/>
+<!-- Material Symbols -->
+<link href="../../assets/fonts/material-symbols-outlined/material-symbols-outlined.css" rel="stylesheet"/>
+<link href="../../assets/fonts/material-symbols-outlined/material-symbols-outlined.css" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#f3f4f6",
+                        "background-light": "#f7f7f7",
+                        "background-dark": "#18191a",
+                    },
+                    fontFamily: {
+                        "display": ["Space Grotesk", "Noto Sans", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    keyframes: {
+                        shimmer: {
+                            '0%': { backgroundPosition: '-200% 0' },
+                            '100%': { backgroundPosition: '200% 0' },
+                        }
+                    },
+                    animation: {
+                        shimmer: 'shimmer 2s infinite linear',
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .skeleton-shimmer {
+            background: linear-gradient(90deg, #f3f4f6 25%, #e5e7eb 50%, #f3f4f6 75%);
+            background-size: 200% 100%;
+            animation: shimmer 2s infinite linear;
+        }
+        .dark .skeleton-shimmer {
+            background: linear-gradient(90deg, #2a2b2d 25%, #3f4042 50%, #2a2b2d 75%);
+            background-size: 200% 100%;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display min-h-screen text-[#141415] dark:text-white">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<!-- Top Navigation Bar -->
+<div class="px-4 md:px-20 lg:px-40 flex justify-center py-5 bg-white dark:bg-background-dark border-b border-[#dfe0e1] dark:border-gray-800">
+<div class="layout-content-container flex flex-col max-w-[1200px] flex-1">
+<header class="flex items-center justify-between whitespace-nowrap px-4 md:px-10 py-3">
+<div class="flex items-center gap-4 text-[#141415] dark:text-white">
+<div class="size-6 text-red-600">
+<svg fill="currentColor" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 4H17.3334V17.3334H30.6666V30.6666H44V44H4V4Z"></path>
+</svg>
+</div>
+<h2 class="text-lg font-bold leading-tight tracking-[-0.015em]">MGTS B2B</h2>
+</div>
+<div class="flex flex-1 justify-end gap-8 items-center">
+<div class="hidden md:flex items-center gap-9">
+<a class="text-sm font-medium leading-normal hover:text-red-600 transition-colors" href="#">Products</a>
+<a class="text-sm font-medium leading-normal hover:text-red-600 transition-colors" href="#">Solutions</a>
+<a class="text-sm font-medium leading-normal hover:text-red-600 transition-colors" href="#">Support</a>
+<a class="text-sm font-medium leading-normal hover:text-red-600 transition-colors" href="#">Contact</a>
+</div>
+<button class="flex min-w-[84px] cursor-pointer items-center justify-center rounded-lg h-10 px-4 bg-primary dark:bg-gray-800 text-[#141415] dark:text-white text-sm font-bold leading-normal tracking-[0.015em]">
+<span class="truncate">Login</span>
+</button>
+</div>
+</header>
+</div>
+</div>
+<!-- Main Content Container -->
+<div class="px-4 md:px-20 lg:px-40 flex flex-1 justify-center py-10">
+<div class="layout-content-container flex flex-col max-w-[1200px] flex-1 gap-8">
+<!-- Page Heading (Skeleton version of "Загрузка таблицы цен") -->
+<div class="flex flex-col gap-2 p-4">
+<h1 class="text-[#141415] dark:text-white text-4xl font-black leading-tight tracking-[-0.033em]">
+                            Загрузка таблицы цен
+                        </h1>
+<div class="w-64 h-4 rounded-lg skeleton-shimmer mt-2"></div>
+</div>
+<!-- Pricing Table Skeleton Container -->
+<div class="px-4 py-3 @container">
+<div class="flex flex-col overflow-hidden rounded-xl border border-[#dfe0e1] dark:border-gray-800 bg-white dark:bg-background-dark shadow-sm">
+<div class="overflow-x-auto">
+<table class="w-full text-left border-collapse min-w-[800px]">
+<thead>
+<tr class="bg-primary/30 dark:bg-gray-800/50">
+<th class="px-6 py-8 w-[25%]">
+<div class="w-3/4 h-6 rounded-md skeleton-shimmer"></div>
+</th>
+<th class="px-6 py-8 w-[25%] border-l border-[#dfe0e1] dark:border-gray-800">
+<div class="flex flex-col gap-3">
+<div class="w-2/3 h-6 rounded-md skeleton-shimmer"></div>
+<div class="w-1/2 h-4 rounded-md skeleton-shimmer opacity-60"></div>
+</div>
+</th>
+<th class="px-6 py-8 w-[25%] border-l border-[#dfe0e1] dark:border-gray-800">
+<div class="flex flex-col gap-3">
+<div class="w-2/3 h-6 rounded-md skeleton-shimmer"></div>
+<div class="w-1/2 h-4 rounded-md skeleton-shimmer opacity-60"></div>
+</div>
+</th>
+<th class="px-6 py-8 w-[25%] border-l border-[#dfe0e1] dark:border-gray-800">
+<div class="flex flex-col gap-3">
+<div class="w-2/3 h-6 rounded-md skeleton-shimmer"></div>
+<div class="w-1/2 h-4 rounded-md skeleton-shimmer opacity-60"></div>
+</div>
+</th>
+</tr>
+</thead>
+<tbody>
+<!-- Row 1 -->
+<tr class="border-t border-[#dfe0e1] dark:border-gray-800">
+<td class="px-6 py-6 h-20">
+<div class="w-4/5 h-4 rounded-md skeleton-shimmer"></div>
+</td>
+<td class="px-6 py-6 border-l border-[#dfe0e1] dark:border-gray-800">
+<div class="w-1/3 h-4 rounded-md skeleton-shimmer mx-auto"></div>
+</td>
+<td class="px-6 py-6 border-l border-[#dfe0e1] dark:border-gray-800">
+<div class="w-1/3 h-4 rounded-md skeleton-shimmer mx-auto"></div>
+</td>
+<td class="px-6 py-6 border-l border-[#dfe0e1] dark:border-gray-800">
+<div class="w-1/3 h-4 rounded-md skeleton-shimmer mx-auto"></div>
+</td>
+</tr>
+<!-- Row 2 -->
+<tr class="border-t border-[#dfe0e1] dark:border-gray-800">
+<td class="px-6 py-6 h-20">
+<div class="w-3/5 h-4 rounded-md skeleton-shimmer"></div>
+</td>
+<td class="px-6 py-6 border-l border-[#dfe0e1] dark:border-gray-800">
+<div class="w-8 h-8 rounded-full skeleton-shimmer mx-auto"></div>
+</td>
+<td class="px-6 py-6 border-l border-[#dfe0e1] dark:border-gray-800">
+<div class="w-8 h-8 rounded-full skeleton-shimmer mx-auto"></div>
+</td>
+<td class="px-6 py-6 border-l border-[#dfe0e1] dark:border-gray-800">
+<div class="w-8 h-8 rounded-full skeleton-shimmer mx-auto"></div>
+</td>
+</tr>
+<!-- Row 3 -->
+<tr class="border-t border-[#dfe0e1] dark:border-gray-800">
+<td class="px-6 py-6 h-20">
+<div class="w-1/2 h-4 rounded-md skeleton-shimmer"></div>
+</td>
+<td class="px-6 py-6 border-l border-[#dfe0e1] dark:border-gray-800">
+<div class="w-2/3 h-4 rounded-md skeleton-shimmer mx-auto"></div>
+</td>
+<td class="px-6 py-6 border-l border-[#dfe0e1] dark:border-gray-800">
+<div class="w-2/3 h-4 rounded-md skeleton-shimmer mx-auto"></div>
+</td>
+<td class="px-6 py-6 border-l border-[#dfe0e1] dark:border-gray-800">
+<div class="w-2/3 h-4 rounded-md skeleton-shimmer mx-auto"></div>
+</td>
+</tr>
+<!-- Row 4 -->
+<tr class="border-t border-[#dfe0e1] dark:border-gray-800">
+<td class="px-6 py-6 h-20">
+<div class="w-4/5 h-4 rounded-md skeleton-shimmer"></div>
+</td>
+<td class="px-6 py-6 border-l border-[#dfe0e1] dark:border-gray-800">
+<div class="w-1/4 h-4 rounded-md skeleton-shimmer mx-auto"></div>
+</td>
+<td class="px-6 py-6 border-l border-[#dfe0e1] dark:border-gray-800">
+<div class="w-1/4 h-4 rounded-md skeleton-shimmer mx-auto"></div>
+</td>
+<td class="px-6 py-6 border-l border-[#dfe0e1] dark:border-gray-800">
+<div class="w-1/4 h-4 rounded-md skeleton-shimmer mx-auto"></div>
+</td>
+</tr>
+<!-- Row 5 (Price Row) -->
+<tr class="border-t border-[#dfe0e1] dark:border-gray-800 bg-primary/10 dark:bg-gray-800/20">
+<td class="px-6 py-10 h-28">
+<div class="w-1/3 h-5 rounded-md skeleton-shimmer"></div>
+</td>
+<td class="px-6 py-10 border-l border-[#dfe0e1] dark:border-gray-800 text-center">
+<div class="flex flex-col items-center gap-2">
+<div class="w-24 h-8 rounded-md skeleton-shimmer"></div>
+<div class="w-16 h-3 rounded-md skeleton-shimmer opacity-40"></div>
+</div>
+</td>
+<td class="px-6 py-10 border-l border-[#dfe0e1] dark:border-gray-800 text-center">
+<div class="flex flex-col items-center gap-2">
+<div class="w-24 h-8 rounded-md skeleton-shimmer"></div>
+<div class="w-16 h-3 rounded-md skeleton-shimmer opacity-40"></div>
+</div>
+</td>
+<td class="px-6 py-10 border-l border-[#dfe0e1] dark:border-gray-800 text-center">
+<div class="flex flex-col items-center gap-2">
+<div class="w-24 h-8 rounded-md skeleton-shimmer"></div>
+<div class="w-16 h-3 rounded-md skeleton-shimmer opacity-40"></div>
+</div>
+</td>
+</tr>
+<!-- Action Buttons Row -->
+<tr class="border-t border-[#dfe0e1] dark:border-gray-800">
+<td class="px-6 py-8"></td>
+<td class="px-6 py-8 border-l border-[#dfe0e1] dark:border-gray-800">
+<div class="w-full h-12 rounded-lg skeleton-shimmer"></div>
+</td>
+<td class="px-6 py-8 border-l border-[#dfe0e1] dark:border-gray-800">
+<div class="w-full h-12 rounded-lg skeleton-shimmer"></div>
+</td>
+<td class="px-6 py-8 border-l border-[#dfe0e1] dark:border-gray-800">
+<div class="w-full h-12 rounded-lg skeleton-shimmer"></div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<!-- Additional Loader Controls -->
+<div class="flex justify-between items-center px-4 py-3 bg-white dark:bg-gray-800/30 rounded-xl border border-[#dfe0e1] dark:border-gray-800">
+<div class="flex gap-4">
+<div class="w-32 h-10 rounded-lg skeleton-shimmer"></div>
+<div class="w-32 h-10 rounded-lg skeleton-shimmer"></div>
+</div>
+<div class="w-48 h-12 rounded-lg skeleton-shimmer"></div>
+</div>
+</div>
+</div>
+<!-- Footer -->
+<div class="px-4 md:px-20 lg:px-40 flex justify-center py-10 border-t border-[#dfe0e1] dark:border-gray-800 bg-white dark:bg-background-dark mt-10">
+<div class="layout-content-container flex flex-col max-w-[1200px] flex-1">
+<footer class="flex flex-col gap-8 px-5 py-5 text-center @container">
+<div class="flex flex-wrap items-center justify-center gap-8 md:flex-row md:justify-around">
+<a class="text-[#727479] text-base font-normal leading-normal hover:text-[#141415] dark:hover:text-white" href="#">Privacy Policy</a>
+<a class="text-[#727479] text-base font-normal leading-normal hover:text-[#141415] dark:hover:text-white" href="#">Terms of Service</a>
+<a class="text-[#727479] text-base font-normal leading-normal hover:text-[#141415] dark:hover:text-white" href="#">Cookies</a>
+<a class="text-[#727479] text-base font-normal leading-normal hover:text-[#141415] dark:hover:text-white" href="#">About MGTS</a>
+</div>
+<div class="flex flex-col items-center gap-4">
+<p class="text-[#727479] text-sm font-normal leading-normal">© 2024 MGTS B2B. Все права защищены.</p>
+<div class="flex gap-4">
+<div class="w-8 h-8 rounded-full bg-primary dark:bg-gray-800 flex items-center justify-center cursor-pointer">
+<span class="material-symbols-outlined text-sm">public</span>
+</div>
+<div class="w-8 h-8 rounded-full bg-primary dark:bg-gray-800 flex items-center justify-center cursor-pointer">
+<span class="material-symbols-outlined text-sm">share</span>
+</div>
+</div>
+</div>
+</footer>
+</div>
+</div>
+</div>
+</div>
+</body></html>

@@ -1,0 +1,122 @@
+<svg viewBox="0 0 1200 700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a1428;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a2749;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="glowCore" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#0088cc;stop-opacity:0" />
+    </radialGradient>
+    <linearGradient id="nodeGradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0088cc;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="nodeGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00ffa3;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00cc7f;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="nodeGradient3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff006e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#cc0055;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <rect width="1200" height="700" fill="url(#bgGradient)"/>
+  
+  <!-- Central radial glow -->
+  <circle cx="600" cy="350" r="280" fill="url(#glowCore)" opacity="0.4"/>
+  
+  <!-- Connection lines forming network -->
+  <line x1="600" y1="350" x2="350" y2="200" stroke="#00d4ff" stroke-width="2" opacity="0.3"/>
+  <line x1="600" y1="350" x2="850" y2="200" stroke="#00ffa3" stroke-width="2" opacity="0.3"/>
+  <line x1="600" y1="350" x2="300" y2="500" stroke="#ff006e" stroke-width="2" opacity="0.3"/>
+  <line x1="600" y1="350" x2="900" y2="500" stroke="#00d4ff" stroke-width="2" opacity="0.3"/>
+  <line x1="600" y1="350" x2="450" y2="600" stroke="#00ffa3" stroke-width="2" opacity="0.3"/>
+  <line x1="600" y1="350" x2="750" y2="600" stroke="#ff006e" stroke-width="2" opacity="0.3"/>
+  
+  <!-- Secondary connection lines -->
+  <line x1="350" y1="200" x2="300" y2="500" stroke="#0088cc" stroke-width="1" opacity="0.2"/>
+  <line x1="850" y1="200" x2="900" y2="500" stroke="#00cc7f" stroke-width="1" opacity="0.2"/>
+  <line x1="450" y1="600" x2="300" y2="500" stroke="#cc0055" stroke-width="1" opacity="0.2"/>
+  <line x1="750" y1="600" x2="900" y2="500" stroke="#0088cc" stroke-width="1" opacity="0.2"/>
+  
+  <!-- Central hexagon core -->
+  <g filter="url(#glow)">
+    <circle cx="600" cy="350" r="60" fill="url(#nodeGradient1)" opacity="0.9"/>
+    <circle cx="600" cy="350" r="55" fill="none" stroke="#00d4ff" stroke-width="1.5" opacity="0.6"/>
+  </g>
+  
+  <!-- Top-left node -->
+  <g filter="url(#softGlow)">
+    <rect x="310" y="160" width="80" height="80" rx="10" fill="url(#nodeGradient1)" opacity="0.7"/>
+    <rect x="315" y="165" width="70" height="70" rx="8" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.4"/>
+  </g>
+  
+  <!-- Top-right node -->
+  <g filter="url(#softGlow)">
+    <polygon points="850,160 910,160 920,220 880,220" fill="url(#nodeGradient2)" opacity="0.7"/>
+    <polygon points="855,165 905,165 913,215 875,215" fill="none" stroke="#00ffa3" stroke-width="1" opacity="0.4"/>
+  </g>
+  
+  <!-- Left node -->
+  <g filter="url(#softGlow)">
+    <circle cx="300" cy="500" r="50" fill="url(#nodeGradient3)" opacity="0.7"/>
+    <circle cx="300" cy="500" r="45" fill="none" stroke="#ff006e" stroke-width="1" opacity="0.4"/>
+  </g>
+  
+  <!-- Right node -->
+  <g filter="url(#softGlow)">
+    <rect x="850" y="460" width="100" height="80" rx="15" fill="url(#nodeGradient1)" opacity="0.7"/>
+    <rect x="858" y="468" width="84" height="64" rx="12" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.4"/>
+  </g>
+  
+  <!-- Bottom-left node -->
+  <g filter="url(#softGlow)">
+    <polygon points="450,580 520,620 480,670 410,630" fill="url(#nodeGradient2)" opacity="0.7"/>
+    <polygon points="460,590 510,625 475,660 420,625" fill="none" stroke="#00ffa3" stroke-width="1" opacity="0.4"/>
+  </g>
+  
+  <!-- Bottom-right node -->
+  <g filter="url(#softGlow)">
+    <rect x="700" y="570" width="100" height="100" fill="url(#nodeGradient3)" opacity="0.7"/>
+    <rect x="710" y="580" width="80" height="80" fill="none" stroke="#ff006e" stroke-width="1" opacity="0.4"/>
+  </g>
+  
+  <!-- Decorative tech elements -->
+  <g opacity="0.2">
+    <circle cx="200" cy="150" r="3" fill="#00d4ff"/>
+    <circle cx="1000" cy="600" r="3" fill="#00ffa3"/>
+    <circle cx="150" cy="500" r="2" fill="#ff006e"/>
+    <circle cx="1050" cy="250" r="2" fill="#00d4ff"/>
+  </g>
+  
+  <!-- Subtle grid pattern in background -->
+  <g opacity="0.05" stroke="#00d4ff" stroke-width="1">
+    <line x1="0" y1="100" x2="1200" y2="100"/>
+    <line x1="0" y1="200" x2="1200" y2="200"/>
+    <line x1="0" y1="300" x2="1200" y2="300"/>
+    <line x1="0" y1="400" x2="1200" y2="400"/>
+    <line x1="0" y1="500" x2="1200" y2="500"/>
+    <line x1="0" y1="600" x2="1200" y2="600"/>
+    <line x1="200" y1="0" x2="200" y2="700"/>
+    <line x1="400" y1="0" x2="400" y2="700"/>
+    <line x1="600" y1="0" x2="600" y2="700"/>
+    <line x1="800" y1="0" x2="800" y2="700"/>
+    <line x1="1000" y1="0" x2="1000" y2="700"/>
+  </g>
+</svg>

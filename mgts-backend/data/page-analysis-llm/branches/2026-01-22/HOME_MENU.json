@@ -1,0 +1,833 @@
+{
+  "headerLinks": [
+    {
+      "text": "О компании",
+      "href": ""
+    },
+    {
+      "text": "Новости",
+      "href": "/news"
+    },
+    {
+      "text": "Контакты",
+      "href": "/contact_details"
+    },
+    {
+      "text": "8 495 700-70-70",
+      "href": "tel:+74957007070"
+    },
+    {
+      "text": "Операторам связи",
+      "href": "/operators"
+    },
+    {
+      "text": "Госзаказчикам",
+      "href": "/government"
+    },
+    {
+      "text": "Застройщикам",
+      "href": "/developers"
+    },
+    {
+      "text": "Партнерам",
+      "href": "/partners"
+    },
+    {
+      "text": "Недискриминационный доступ",
+      "href": "/operators/nondiscriminatory_access"
+    }
+  ],
+  "blocks": [
+    {
+      "title": "top_company_menu",
+      "links": [
+        {
+          "text": "О компании",
+          "href": ""
+        },
+        {
+          "text": "Новости",
+          "href": "/news"
+        },
+        {
+          "text": "Контакты",
+          "href": "/contact_details"
+        },
+        {
+          "text": "8 495 700-70-70",
+          "href": "tel:+74957007070"
+        }
+      ]
+    },
+    {
+      "title": "main_categories",
+      "links": [
+        {
+          "text": "Операторам связи",
+          "href": "/operators"
+        },
+        {
+          "text": "Госзаказчикам",
+          "href": "/government"
+        },
+        {
+          "text": "Застройщикам",
+          "href": "/developers"
+        },
+        {
+          "text": "Партнерам",
+          "href": "/partners"
+        },
+        {
+          "text": "Недискриминационный доступ",
+          "href": "/operators/nondiscriminatory_access"
+        }
+      ]
+    },
+    {
+      "title": "search",
+      "text": "Поиск"
+    }
+  ],
+  "mainMenu": [
+    {
+      "label": "Операторам связи",
+      "href": "/operators",
+      "submenuGroups": [],
+      "submenuSelectors": [
+        {
+          "text": "Инфраструктура",
+          "href": "",
+          "lineMenus": [
+            {
+              "text": "(default)",
+              "cards": [
+                {
+                  "text": "Предоставление места в кабельной канализации",
+                  "href": "/operators/infrastructure/lks_kr"
+                },
+                {
+                  "text": "Размещение на объектах",
+                  "href": "/operators/infrastructure/accommodation_at_sites"
+                },
+                {
+                  "text": "Проектирование и строительство сетей связи",
+                  "href": "/operators/infrastructure/pir_smr_mgts"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Присоединение и пропуск трафика",
+          "href": "/operators/joining_and_passing_traffic",
+          "lineMenus": [
+            {
+              "text": "(default)",
+              "cards": []
+            }
+          ]
+        },
+        {
+          "text": "Передача данных",
+          "href": "/operators/data_transfer",
+          "lineMenus": [
+            {
+              "text": "(default)",
+              "cards": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Госзаказчикам",
+      "href": "/government",
+      "submenuGroups": [],
+      "submenuSelectors": [
+        {
+          "text": "Цифровые сервисы",
+          "href": "",
+          "lineMenus": [
+            {
+              "text": "Видеонаблюдение",
+              "cards": [
+                {
+                  "text": "Подъездное видеонаблюдение",
+                  "href": "/government/digital_services/entrance_video_surveillance"
+                },
+                {
+                  "text": "Видеонаблюдение на объектах строительства",
+                  "href": "/government/digital_services/video_surveillance_building"
+                },
+                {
+                  "text": "Тех. обслуживание системы видеонаблюдения",
+                  "href": "/government/digital_services/video_surveillance_maintenance"
+                }
+              ]
+            },
+            {
+              "text": "Системы оповещения",
+              "cards": [
+                {
+                  "text": "Оборудование",
+                  "href": "/government/digital_services/equipment"
+                },
+                {
+                  "text": "Сопряжение с Региональной системой оповещения г. Москвы",
+                  "href": "/government/digital_services/main_and_backup_data_transmission"
+                },
+                {
+                  "text": "Техническое обслуживание устройства сопряжения",
+                  "href": "/government/digital_services/maintenance_interface_device"
+                },
+                {
+                  "text": "Громкоговорящая связь",
+                  "href": "/government/digital_services/speakerphone"
+                }
+              ]
+            },
+            {
+              "text": "Автоматизированные системы управления и контроля",
+              "cards": [
+                {
+                  "text": "СКУД",
+                  "href": "/government/digital_services/access_control_systems"
+                },
+                {
+                  "text": "АСУ",
+                  "href": "/government/digital_services/automated_control_systems"
+                },
+                {
+                  "text": "АСКУЭ",
+                  "href": "/government/digital_services/automated_system_monitoring_accounting"
+                },
+                {
+                  "text": "COT",
+                  "href": "/government/digital_services/introduction_security_tv_systems"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Инфраструктура связи",
+          "href": "",
+          "lineMenus": [
+            {
+              "text": "(default)",
+              "cards": [
+                {
+                  "text": "Проектирование и строительство наружных сетей",
+                  "href": "/government/communications_infrastructure/external_communication"
+                },
+                {
+                  "text": "Проектирование и строительство структурированных сетей",
+                  "href": "/government/communications_infrastructure/structured_cabling_networks"
+                },
+                {
+                  "text": "Проектирование и строительство локальных сетей",
+                  "href": "/government/communications_infrastructure/local_computing_network"
+                },
+                {
+                  "text": "Эксплуатация сетей",
+                  "href": "/government/communications_infrastructure/network_operation"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Индивидуальные решения",
+          "href": "/government/customized_solutions",
+          "lineMenus": [
+            {
+              "text": "(default)",
+              "cards": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Застройщикам",
+      "href": "/developers",
+      "submenuGroups": [],
+      "submenuSelectors": [
+        {
+          "text": "Инфраструктура",
+          "href": "",
+          "lineMenus": [
+            {
+              "text": "(default)",
+              "cards": [
+                {
+                  "text": "Подключение объектов капитального строительства к сетям электросвязи",
+                  "href": "/developers/connecting_objects"
+                },
+                {
+                  "text": "Компенсация убытков при выносе и/или ликвидации сооружений связи ПАО МГТС",
+                  "href": "/developers/compensation_for_losses"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Инфраструктурные продукты и решения",
+          "href": "",
+          "lineMenus": [
+            {
+              "text": "(default)",
+              "cards": [
+                {
+                  "text": "Цифровые решения",
+                  "href": "/developers/digital_solutions"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Партнерам",
+      "href": "/partners",
+      "submenuGroups": [],
+      "submenuSelectors": [
+        {
+          "text": "Порядок допуска к проведению работ",
+          "href": "",
+          "lineMenus": [
+            {
+              "text": "(default)",
+              "cards": [
+                {
+                  "text": "Порядок допуска для проведения работ",
+                  "href": "/partners/procedure_admission_work"
+                },
+                {
+                  "text": "Создание наряда на Обследование люка",
+                  "href": "/partners/creating_work_order"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Реализация ТМЦ",
+          "href": "/partners/realization",
+          "lineMenus": [
+            {
+              "text": "(default)",
+              "cards": []
+            }
+          ]
+        },
+        {
+          "text": "Рамочный договор",
+          "href": "/partners/ramochnie_dogovori",
+          "lineMenus": [
+            {
+              "text": "(default)",
+              "cards": []
+            }
+          ]
+        },
+        {
+          "text": "Документация",
+          "href": "/partners/documents",
+          "lineMenus": [
+            {
+              "text": "(default)",
+              "cards": []
+            }
+          ]
+        },
+        {
+          "text": "Закупки",
+          "href": "/partners/purchas",
+          "lineMenus": [
+            {
+              "text": "(default)",
+              "cards": []
+            }
+          ]
+        },
+        {
+          "text": "Тарифы",
+          "href": "/partners/tariffs",
+          "lineMenus": [
+            {
+              "text": "(default)",
+              "cards": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Недискриминационный доступ",
+      "href": "/operators/nondiscriminatory_access",
+      "submenuGroups": [],
+      "submenuSelectors": []
+    }
+  ],
+  "companyMenu": {
+    "label": "О компании",
+    "groups": [
+      {
+        "title": "Деловая этика и комплаенс",
+        "href": "",
+        "items": [
+          {
+            "text": "Обращение Генерального директора",
+            "href": "/general_director_message"
+          },
+          {
+            "text": "Комплаенс-политики МГТС",
+            "href": "/mgts_compliance_policies"
+          },
+          {
+            "text": "Взаимодействие с партнерами",
+            "href": "/interaction_with_partners"
+          },
+          {
+            "text": "Помогите нам стать лучше",
+            "href": "/partners_feedback_form"
+          },
+          {
+            "text": "Единая горячая линия",
+            "href": "/single_hotline"
+          }
+        ]
+      },
+      {
+        "title": "Корпоративное управление",
+        "href": "",
+        "items": [
+          {
+            "text": "Принципы корпоративного управления",
+            "href": "/principles_corporate_manage"
+          },
+          {
+            "text": "Корпоративные документы",
+            "href": "/corporate_documents"
+          },
+          {
+            "text": "Решения общих собраний акционеров",
+            "href": "/decisions_meetings_shareholders"
+          },
+          {
+            "text": "Информация для лиц, имеющих право на участие в годовых и внеочередных общих собраниях акционеров ПАО МГТС",
+            "href": "/infoformen"
+          },
+          {
+            "text": "О регистраторе",
+            "href": "/about_registrar"
+          }
+        ]
+      }
+    ],
+    "items": [
+      {
+        "text": "О МГТС",
+        "href": "/about_mgts"
+      },
+      {
+        "text": "Ценности МГТС",
+        "href": "/mgts_values"
+      },
+      {
+        "text": "Обращение Генерального директора",
+        "href": "/general_director_message"
+      },
+      {
+        "text": "Комплаенс-политики МГТС",
+        "href": "/mgts_compliance_policies"
+      },
+      {
+        "text": "Взаимодействие с партнерами",
+        "href": "/interaction_with_partners"
+      },
+      {
+        "text": "Помогите нам стать лучше",
+        "href": "/partners_feedback_form"
+      },
+      {
+        "text": "Единая горячая линия",
+        "href": "/single_hotline"
+      },
+      {
+        "text": "Принципы корпоративного управления",
+        "href": "/principles_corporate_manage"
+      },
+      {
+        "text": "Корпоративные документы",
+        "href": "/corporate_documents"
+      },
+      {
+        "text": "Решения общих собраний акционеров",
+        "href": "/decisions_meetings_shareholders"
+      },
+      {
+        "text": "Информация для лиц, имеющих право на участие в годовых и внеочередных общих собраниях акционеров ПАО МГТС",
+        "href": "/infoformen"
+      },
+      {
+        "text": "О регистраторе",
+        "href": "/about_registrar"
+      }
+    ]
+  },
+  "footer": {
+    "rowItems": [
+      {
+        "text": "О компании",
+        "href": ""
+      },
+      {
+        "text": "Документы",
+        "href": ""
+      },
+      {
+        "text": "Раскрытие информации",
+        "href": ""
+      },
+      {
+        "text": "Новости",
+        "href": "/news"
+      },
+      {
+        "text": "Контакты",
+        "href": "/contact_details"
+      },
+      {
+        "text": "Актив-отель Искра",
+        "href": "https://www.pansionatiskra.ru/"
+      },
+      {
+        "text": "Для дома",
+        "href": "https://mts.ru/"
+      },
+      {
+        "text": "Коммерческая недвижимость",
+        "href": "https://arenda.mgts.ru/"
+      }
+    ],
+    "columns": [
+      {
+        "title": "Операторам связи",
+        "links": [
+          {
+            "text": "Операторам связи",
+            "href": "/operators"
+          },
+          {
+            "text": "Присоединение и пропуск трафика",
+            "href": "/operators/joining_and_passing_traffic"
+          },
+          {
+            "text": "Передача данных",
+            "href": "/operators/data_transfer"
+          },
+          {
+            "text": "Инфраструктура",
+            "href": "/operators/infrastructure"
+          }
+        ]
+      },
+      {
+        "title": "Госзаказчикам",
+        "links": [
+          {
+            "text": "Госзаказчикам",
+            "href": "/government"
+          },
+          {
+            "text": "Инфраструктура связи",
+            "href": "/government/communications_infrastructure"
+          },
+          {
+            "text": "Цифровые сервисы",
+            "href": "/government/digital_services"
+          },
+          {
+            "text": "Индивидуальные решения",
+            "href": "/government/customized_solutions"
+          }
+        ]
+      },
+      {
+        "title": "Застройщикам",
+        "links": [
+          {
+            "text": "Застройщикам",
+            "href": "/developers"
+          },
+          {
+            "text": "Подключение объектов недвижимости к сетям связи",
+            "href": "/developers/connecting_objects"
+          },
+          {
+            "text": "Компенсация убытков при выносе и/или ликвидации сооружений связи",
+            "href": "/developers/compensation_for_losses"
+          },
+          {
+            "text": "Цифровые решения",
+            "href": "/developers/digital_solutions"
+          }
+        ]
+      },
+      {
+        "title": "Бизнесу",
+        "links": [
+          {
+            "text": "Бизнесу",
+            "href": "/business"
+          },
+          {
+            "text": "Телефон",
+            "href": "/business/telephony"
+          },
+          {
+            "text": "Мобильная связь",
+            "href": "/business/mobile_connection"
+          },
+          {
+            "text": "Виртуальная АТС",
+            "href": "/virtual_ate"
+          },
+          {
+            "text": "Доступ в интернет",
+            "href": "/business/access_internet"
+          },
+          {
+            "text": "Телевидение",
+            "href": "/business/digital_television"
+          },
+          {
+            "text": "Видеонаблюдение",
+            "href": "/business/video_surveillance_office"
+          },
+          {
+            "text": "Охрана",
+            "href": "/business/security_alarm"
+          },
+          {
+            "text": "Компьютерная помощь",
+            "href": "/business/equipment_setup/computer_help"
+          }
+        ]
+      },
+      {
+        "title": "Партнерам",
+        "links": [
+          {
+            "text": "Партнерам",
+            "href": "/partners"
+          },
+          {
+            "text": "Закупки",
+            "href": "/partners/purchas"
+          },
+          {
+            "text": "Допуск к проведению работ на линиях и сооружениях связи",
+            "href": "/partners/procedure_admission_work"
+          },
+          {
+            "text": "Реализация ТМЦ",
+            "href": "/partners/realization"
+          },
+          {
+            "text": "Тарифы",
+            "href": "/partners/tariffs"
+          },
+          {
+            "text": "Документация",
+            "href": "/partners/documents"
+          },
+          {
+            "text": "Рамочный договор",
+            "href": "/partners/ramochnie_dogovori"
+          }
+        ]
+      }
+    ],
+    "dropdownMenus": [
+      {
+        "title": "О компании",
+        "links": [
+          {
+            "text": "О МГТС",
+            "href": "/about_mgts"
+          },
+          {
+            "text": "Ценности МГТС",
+            "href": "/mgts_values"
+          }
+        ],
+        "groups": [
+          {
+            "title": "Деловая этика и комплаенс",
+            "href": "",
+            "items": [
+              {
+                "text": "Обращение Генерального директора",
+                "href": "/general_director_message"
+              },
+              {
+                "text": "Комплаенс-политики МГТС",
+                "href": "/mgts_compliance_policies"
+              },
+              {
+                "text": "Взаимодействие с партнерами",
+                "href": "/interaction_with_partners"
+              },
+              {
+                "text": "Помогите нам стать лучше",
+                "href": "/partners_feedback_form"
+              },
+              {
+                "text": "Единая горячая линия",
+                "href": "/single_hotline"
+              }
+            ]
+          },
+          {
+            "title": "Корпоративное управление",
+            "href": "",
+            "items": [
+              {
+                "text": "Принципы корпоративного управления",
+                "href": "/principles_corporate_manage"
+              },
+              {
+                "text": "Корпоративные документы",
+                "href": "/corporate_documents"
+              },
+              {
+                "text": "Решения общих собраний акционеров",
+                "href": "/decisions_meetings_shareholders"
+              },
+              {
+                "text": "Информация для лиц, имеющих право на участие в годовых и внеочередных общих собраниях акционеров ПАО МГТС",
+                "href": "/infoformen"
+              },
+              {
+                "text": "О регистраторе",
+                "href": "/about_registrar"
+              }
+            ]
+          }    
+        ]
+      },
+      {
+        "title": "Документы",
+        "links": [
+          {
+            "text": "Лицензии и СРО +",
+            "href": "/licenses"
+          },
+          {
+            "text": "Оферты",
+            "href": "/offers"
+          },
+          {
+            "text": "Формы типовых документов",
+            "href": "/forms_doc"
+          },
+          {
+            "text": "Стандарты раскрытия информации",
+            "href": "/operinfo"
+          },
+          {
+            "text": "Специальная оценка условий труда",
+            "href": "/wca"
+          },
+          {
+            "text": "Предоставление копий документов",
+            "href": "/stockholder_copies_document"
+          },
+          {
+            "text": "Сроки устранения неисправностей",
+            "href": "/timing_malfunctions"
+          },
+          {
+            "text": "Политика обработки персональных данных",
+            "href": "/data_processing"
+          },
+          {
+            "text": "Политика обработки cookies",
+            "href": "/cookie_processing"
+          },
+          {
+            "text": "Политика в области охраны труда ПАО МГТС",
+            "href": "/labor_safety"
+          }
+        ],
+        "groups": []
+      },
+      {
+        "title": "Раскрытие информации",
+        "links": [
+          {
+            "text": "Существенные факты",
+            "href": "/essential_facts"
+          },
+          {
+            "text": "Список аффилированных лиц",
+            "href": "/affiliated_persons"
+          },
+          {
+            "text": "Отчеты эмитента эмиссионных ценных бумаг",
+            "href": "/stocks_reports"
+          },
+          {
+            "text": "Годовые отчеты и финансовая отчетность",
+            "href": "/reports"
+          },
+          {
+            "text": "Перечень инсайдерской информации ПАО МГТС",
+            "href": "https://business.mgts.ru/static/files/disclose/perechen_insaiderskoi_informacii.pdf"
+          },
+          {
+            "text": "Списки компаний и организаций которым передаются персональные данные абонентов ПАО МГТС",
+            "href": "/personal_information"
+          },
+          {
+            "text": "Структура акционерного капитала ПАО МГТС",
+            "href": "https://business.mgts.ru/static/files/disclose/Struktura_aktsionernogo_kapitala.jpg"
+          },
+          {
+            "text": "Выпуск ценных бумаг",
+            "href": "/emission"
+          }
+        ],
+        "groups": []
+      }
+    ],
+    "staticLinks": [
+      {
+        "text": "Новости",
+        "href": "/news"
+      },
+      {
+        "text": "Контакты",
+        "href": "/contact_details"
+      },
+      {
+        "text": "Актив-отель Искра",
+        "href": "https://www.pansionatiskra.ru/"
+      },
+      {
+        "text": "Для дома",
+        "href": "https://mts.ru/"
+      },
+      {
+        "text": "Коммерческая недвижимость",
+        "href": "https://arenda.mgts.ru/"
+      }
+    ]
+  }
+}

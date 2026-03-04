@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_page_section_cards",
+  "info": {
+    "displayName": "Section Cards",
+    "description": "Секция с карточками. CSS классы: section-cards (контейнер), section-cards__title (заголовок), section-cards__container (контейнер карточек), section-cards__card (карточка), section-cards__card-title (заголовок карточки), section-cards__card-content (контент карточки)"
+  },
+  "options": {},
+  "attributes": {
+    "isVisible": {
+      "type": "boolean",
+      "default": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "columns": {
+      "type": "enumeration",
+      "enum": ["1", "2", "3", "4"],
+      "default": "3",
+      "description": "Количество карточек в ряд (1-4)"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.card"
+    }
+  }
+}
+

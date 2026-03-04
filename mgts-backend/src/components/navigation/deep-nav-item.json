@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_navigation_deep_nav_items",
+  "info": {
+    "displayName": "Deep Nav Item",
+    "description": "Элемент дерева левого меню (link или group с children)"
+  },
+  "options": {},
+  "attributes": {
+    "kind": {
+      "type": "enumeration",
+      "enum": [
+        "link",
+        "group"
+      ],
+      "default": "link",
+      "required": true
+    },
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "href": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string",
+      "customField": "plugin::icon-picker.icon"
+    },
+    "isExternal": {
+      "type": "boolean",
+      "default": false
+    },
+    "children": {
+      "type": "component",
+      "repeatable": true,
+      "component": "navigation.deep-nav-link"
+    },
+    "order": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

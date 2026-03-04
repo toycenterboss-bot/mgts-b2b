@@ -1,0 +1,106 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "Product",
+    "description": "Товары и услуги"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "shortDescription": {
+      "type": "text",
+      "required": true
+    },
+    "fullDescription": {
+      "type": "richtext",
+      "required": true
+    },
+    "sku": {
+      "type": "string",
+      "unique": true
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "currency": {
+      "type": "string",
+      "default": "RUB"
+    },
+    "oldPrice": {
+      "type": "decimal"
+    },
+    "isAvailable": {
+      "type": "boolean",
+      "default": true
+    },
+    "stockQuantity": {
+      "type": "integer"
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": true
+    },
+    "category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::product-category.product-category"
+    },
+    "specifications": {
+      "type": "json"
+    },
+    "variants": {
+      "type": "json"
+    },
+    "relatedProducts": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::product.product"
+    },
+    "metaDescription": {
+      "type": "text"
+    },
+    "metaKeywords": {
+      "type": "string"
+    },
+    "section": {
+      "type": "enumeration",
+      "enum": [
+        "business",
+        "operators",
+        "government",
+        "partners",
+        "developers"
+      ],
+      "description": "Раздел сайта"
+    },
+    "originalUrl": {
+      "type": "string",
+      "description": "Оригинальный URL со старого сайта"
+    },
+    "originalSlug": {
+      "type": "string",
+      "description": "Оригинальный slug со старого сайта"
+    },
+    "isFromOldSite": {
+      "type": "boolean",
+      "default": true,
+      "description": "Флаг: услуга со старого сайта"
+    }
+  }
+}
+

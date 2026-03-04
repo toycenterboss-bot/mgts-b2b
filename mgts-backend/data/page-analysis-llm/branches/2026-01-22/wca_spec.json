@@ -1,0 +1,656 @@
+{
+  "page": {
+    "slug": "wca",
+    "url": "https://business.mgts.ru/wca",
+    "pathname": "/wca",
+    "analyzedAt": "2026-01-16T11:27:48.968Z",
+    "screenshot": "/Users/andrey_efremov/Downloads/runs/mgts-backend/temp/page-analysis-llm/wca_screenshot.png",
+    "llmProvider": "perplexity",
+    "llmModel": "sonar"
+  },
+  "metadata": {
+    "title": "Специальная оценка условий труда"
+  },
+  "sections": [
+    {
+      "type": "sidebar",
+      "description": "Боковое навигационное меню, восстановленное по связанной странице",
+      "title": "Навигация",
+      "text": null,
+      "links": {
+        "internalLinks": [
+          {
+            "text": "Лицензии и СРО +",
+            "href": "/licenses",
+            "purpose": "Навигационный пункт бокового меню"
+          },
+          {
+            "text": "Оферты",
+            "href": "/offers",
+            "purpose": "Навигационный пункт бокового меню"
+          },
+          {
+            "text": "Формы типовых документов",
+            "href": "/forms_doc",
+            "purpose": "Навигационный пункт бокового меню"
+          },
+          {
+            "text": "Стандарты раскрытия информации",
+            "href": "/operinfo",
+            "purpose": "Навигационный пункт бокового меню"
+          },
+          {
+            "text": "Специальная оценка условий труда",
+            "href": "/wca",
+            "purpose": "Навигационный пункт бокового меню"
+          },
+          {
+            "text": "Предоставление копий документов",
+            "href": "/stockholder_copies_document",
+            "purpose": "Навигационный пункт бокового меню"
+          },
+          {
+            "text": "Сроки устранения неисправностей",
+            "href": "/timing_malfunctions",
+            "purpose": "Навигационный пункт бокового меню"
+          },
+          {
+            "text": "Политика обработки персональных данных",
+            "href": "/data_processing",
+            "purpose": "Навигационный пункт бокового меню"
+          },
+          {
+            "text": "Политика обработки cookies",
+            "href": "/cookie_processing",
+            "purpose": "Навигационный пункт бокового меню"
+          },
+          {
+            "text": "Политика в области охраны труда ПАО МГТС",
+            "href": "/labor_safety",
+            "purpose": "Навигационный пункт бокового меню"
+          }
+        ],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": []
+    },
+    {
+      "sectionIndex": 1,
+      "type": "hero",
+      "description": "Главный заголовок страницы",
+      "title": "Специальная оценка условий труда",
+      "subtitle": "",
+      "text": "Сводная ведомость результатов проведения специальной оценки условий трудаpdf",
+      "elements": [],
+      "images": [],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [],
+      "tabs": [],
+      "table": null
+    },
+    {
+      "sectionIndex": 2,
+      "type": "breadcrumbs",
+      "description": "Навигационная цепочка (хлебные крошки) для показа текущего местоположения пользователя на сайте и быстрого перехода к родительским разделам",
+      "title": "",
+      "text": "",
+      "links": {
+        "internalLinks": [
+          {
+            "text": "Главная",
+            "href": "/",
+            "purpose": "Переход на главную страницу сайта"
+          }
+        ],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      }
+    },
+    {
+      "sectionIndex": 3,
+      "type": "tabs",
+      "description": "Интерактивная система табов для выбора года, по которому пользователь хочет просмотреть документы о специальной оценке условий труда. Табы позволяют переключаться между годами с 2015 по 2023. Активный таб - 2017 год (по скриншоту), но в HTML указан как активный. При клике на другой год загружаются соответствующие документы для этого года.",
+      "title": "Выбор года для просмотра документов",
+      "text": "Выберите год для просмотра документов специальной оценки условий труда",
+      "tabs": [
+        {
+          "title": "2023",
+          "isActive": false,
+          "content": {
+            "text": "Специальная оценка условий труда202320222021202020192018201720162015Сводная ведомость внеплановая СОУТpdfПеречень рекомендуемых мероприятий по улучшению условий труда внеплановая СОУТpdf",
+            "links": {
+              "fileLinks": [
+                {
+                  "text": "Сводная ведомость результатов проведения специальной оценки условий труда",
+                  "href": "http://localhost:1337/uploads/Svodnaya_vedomost_resultatov_poredeniya_spets_otsenki_usloviy_truda_b189124194.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Сводная ведомость результатов проведения специальной оценки условий труда за 2023 год"
+                },
+                {
+                  "text": "Перечень рекомендуемых мероприятий по улучшению условий труда",
+                  "href": "http://localhost:1337/uploads/Perechen_rekomenduemykh_meropriyatiy_po_uluchsheniyu_usloviy_truda_3e3c1c4e66.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Перечень рекомендуемых мероприятий по улучшению условий труда за 2023 год"
+                },
+                {
+                  "text": "Сводная ведомость внеплановая СОУТ",
+                  "href": "http://localhost:1337/uploads/fdpyu3m8jr9rwa7qitq424z258ysuj2l_40f11c8e15.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Сводная ведомость внеплановой специальной оценки условий труда за 2023 год"
+                },
+                {
+                  "text": "Перечень рекомендуемых мероприятий по улучшению условий труда внеплановая СОУТ",
+                  "href": "http://localhost:1337/uploads/6g490sc2reu490c9q099e9frudqq8wpr_ff79abf93b.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Перечень рекомендуемых мероприятий по улучшению условий труда внеплановой СОУТ за 2023 год"
+                }
+              ],
+              "internalLinks": [],
+              "externalLinks": [],
+              "imageLinks": []
+            }
+          }
+        },
+        {
+          "title": "2022",
+          "isActive": false,
+          "content": {
+            "text": "Специальная оценка условий труда202320222021202020192018201720162015Сводная ведомость 3pdfПеречень рекомендуемых мероприятий по улучшению условий труда 3pdfСводная ведомость 2.2pdfСводная ведомость 2.1pdfПеречень рекомендуемых мероприятий по улучшению условий труда 2pdfСводная ведомость 1.2pdfСводная ведомость 1.1pdfПеречень рекомендуемых мероприятий по улучшению условий труда 1pdf",
+            "links": {
+              "fileLinks": [
+                {
+                  "text": "Сводная ведомость результатов проведения специальной оценки условий труда",
+                  "href": "http://localhost:1337/uploads/Svodnaya_vedomost_resultatov_poredeniya_spets_otsenki_usloviy_truda_b189124194.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Сводная ведомость результатов проведения специальной оценки условий труда за 2022 год"
+                },
+                {
+                  "text": "Перечень рекомендуемых мероприятий по улучшению условий труда",
+                  "href": "http://localhost:1337/uploads/Perechen_rekomenduemykh_meropriyatiy_po_uluchsheniyu_usloviy_truda_3e3c1c4e66.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Перечень рекомендуемых мероприятий по улучшению условий труда за 2022 год"
+                },
+                {
+                  "text": "Сводная ведомость 3",
+                  "href": "http://localhost:1337/uploads/5hm6sjmunt6ozj63d1v0xt9kdn13cdhp_5b810fa402.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Сводная ведомость 3 за 2022 год"
+                },
+                {
+                  "text": "Перечень рекомендуемых мероприятий по улучшению условий труда 3",
+                  "href": "http://localhost:1337/uploads/8lryzjl29ef18dmd27c7vvo8hgep9ofl_5063b5f484.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Перечень рекомендуемых мероприятий по улучшению условий труда 3 за 2022 год"
+                },
+                {
+                  "text": "Сводная ведомость 2.2",
+                  "href": "http://localhost:1337/uploads/vlpzxz2xf08ou9g65t4lyrx5i0yu2v0l_ccd5e9e928.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Сводная ведомость 2.2 за 2022 год"
+                },
+                {
+                  "text": "Сводная ведомость 2.1",
+                  "href": "http://localhost:1337/uploads/unntpyrmu1sfj3jmd5bf92f138uij31s_2cc7791944.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Сводная ведомость 2.1 за 2022 год"
+                },
+                {
+                  "text": "Перечень рекомендуемых мероприятий по улучшению условий труда 2",
+                  "href": "http://localhost:1337/uploads/dybrcmk18wsyxv2j4x1oml8k7op82eis_f4016d9fd8.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Перечень рекомендуемых мероприятий по улучшению условий труда 2 за 2022 год"
+                },
+                {
+                  "text": "Сводная ведомость 1.2",
+                  "href": "http://localhost:1337/uploads/bppm1bdx13pq0w9fi1r5v08tixfhgcrj_7931dd2e18.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Сводная ведомость 1.2 за 2022 год"
+                },
+                {
+                  "text": "Сводная ведомость 1.1",
+                  "href": "http://localhost:1337/uploads/9k28nyxep1vr1vzl34oecnnzu7z7xv94_888ca26dd5.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Сводная ведомость 1.1 за 2022 год"
+                },
+                {
+                  "text": "Перечень рекомендуемых мероприятий по улучшению условий труда 1",
+                  "href": "http://localhost:1337/uploads/3oho89e03uc0r1picnk7fx9pq68x18kr_a032c2a5fe.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Перечень рекомендуемых мероприятий по улучшению условий труда 1 за 2022 год"
+                }
+              ],
+              "internalLinks": [],
+              "externalLinks": [],
+              "imageLinks": []
+            }
+          }
+        },
+        {
+          "title": "2021",
+          "isActive": false,
+          "content": {
+            "text": "Специальная оценка условий труда202320222021202020192018201720162015Сводная ведомость внеплановая СОУТpdfПеречень рекомендуемых мероприятий по улучшению условий труда внеплановая СОУТpdfСводная ведомость 2pdfПеречень рекомендуемых мероприятий по улучшению условий труда 2pdfСводная ведомость 1.2pdfСводная ведомость 1.1pdfПеречень рекомендуемых мероприятий по улучшению условий труда 1pdf",
+            "links": {
+              "fileLinks": [
+                {
+                  "text": "Сводная ведомость результатов проведения специальной оценки условий труда",
+                  "href": "http://localhost:1337/uploads/Svodnaya_vedomost_resultatov_poredeniya_spets_otsenki_usloviy_truda_b189124194.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Сводная ведомость результатов проведения специальной оценки условий труда за 2021 год"
+                },
+                {
+                  "text": "Перечень рекомендуемых мероприятий по улучшению условий труда",
+                  "href": "http://localhost:1337/uploads/Perechen_rekomenduemykh_meropriyatiy_po_uluchsheniyu_usloviy_truda_3e3c1c4e66.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Перечень рекомендуемых мероприятий по улучшению условий труда за 2021 год"
+                },
+                {
+                  "text": "Сводная ведомость внеплановая СОУТ",
+                  "href": "http://localhost:1337/uploads/g2m6tejbo4ov7xuatcigj5dnid88kcme_aa2621677c.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Сводная ведомость внеплановой специальной оценки условий труда за 2021 год"
+                },
+                {
+                  "text": "Перечень рекомендуемых мероприятий по улучшению условий труда внеплановая СОУТ",
+                  "href": "http://localhost:1337/uploads/6areznphko8d0qzvoxoskmickix23atu_1f47a6e956.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Перечень рекомендуемых мероприятий по улучшению условий труда внеплановой СОУТ за 2021 год"
+                },
+                {
+                  "text": "Сводная ведомость 2",
+                  "href": "http://localhost:1337/uploads/svodnaya_vedomost_2_96f0d103e0.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Сводная ведомость 2 за 2021 год"
+                },
+                {
+                  "text": "Перечень рекомендуемых мероприятий по улучшению условий труда 2",
+                  "href": "http://localhost:1337/uploads/perechen_rekomenduemykh_meropriyatij_po_uluchsheniyu_uslovij_truda_2_ebccc30157.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Перечень рекомендуемых мероприятий по улучшению условий труда 2 за 2021 год"
+                },
+                {
+                  "text": "Сводная ведомость 1.2",
+                  "href": "http://localhost:1337/uploads/Svodnaya_vedomost_1_2_2021_2730e723e3.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Сводная ведомость 1.2 за 2021 год"
+                },
+                {
+                  "text": "Сводная ведомость 1.1",
+                  "href": "http://localhost:1337/uploads/Svodnaya_vedomost_1_1_2021_75cea36369.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Сводная ведомость 1.1 за 2021 год"
+                },
+                {
+                  "text": "Перечень рекомендуемых мероприятий по улучшению условий труда 1",
+                  "href": "http://localhost:1337/uploads/Perechen_rekomenduyemykh_meropriyatiy_po_uluchsheniyu_usloviy_truda_1_2021_489a5dac9e.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Перечень рекомендуемых мероприятий по улучшению условий труда 1 за 2021 год"
+                }
+              ],
+              "internalLinks": [],
+              "externalLinks": [],
+              "imageLinks": []
+            }
+          }
+        },
+        {
+          "title": "2020",
+          "isActive": false,
+          "content": {
+            "text": "Специальная оценка условий труда202320222021202020192018201720162015Сводная ведомость 3pdfПеречень рекомендуемых мероприятий по улучшению условий труда 3pdfСводная ведомость 2pdfПеречень рекомендуемых мероприятий по улучшению условий труда 2pdfСводная ведомость 1pdfПеречень рекомендуемых мероприятий по улучшению условий труда 1pdf",
+            "links": {
+              "fileLinks": [
+                {
+                  "text": "Сводная ведомость результатов проведения специальной оценки условий труда",
+                  "href": "http://localhost:1337/uploads/Svodnaya_vedomost_resultatov_poredeniya_spets_otsenki_usloviy_truda_b189124194.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Сводная ведомость результатов проведения специальной оценки условий труда за 2020 год"
+                },
+                {
+                  "text": "Перечень рекомендуемых мероприятий по улучшению условий труда",
+                  "href": "http://localhost:1337/uploads/Perechen_rekomenduemykh_meropriyatiy_po_uluchsheniyu_usloviy_truda_3e3c1c4e66.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Перечень рекомендуемых мероприятий по улучшению условий труда за 2020 год"
+                },
+                {
+                  "text": "Сводная ведомость 3",
+                  "href": "http://localhost:1337/uploads/Svodnaya_vedomost_3_2020_38b6b0a0c4.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Сводная ведомость 3 за 2020 год"
+                },
+                {
+                  "text": "Перечень рекомендуемых мероприятий по улучшению условий труда 3",
+                  "href": "http://localhost:1337/uploads/Perechen_rekomenduyemykh_meropriyatiy_po_uluchsheniyu_usloviy_truda_3_2020_c9a4d6b2fc.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Перечень рекомендуемых мероприятий по улучшению условий труда 3 за 2020 год"
+                },
+                {
+                  "text": "Сводная ведомость 2",
+                  "href": "http://localhost:1337/uploads/Svodnaya_vedomost_2_2020_bbafe1a2d3.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Сводная ведомость 2 за 2020 год"
+                },
+                {
+                  "text": "Перечень рекомендуемых мероприятий по улучшению условий труда 2",
+                  "href": "http://localhost:1337/uploads/Perechen_rekomenduyemykh_meropriyatiy_po_uluchsheniyu_usloviy_truda_2_2020_61f8a500f9.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Перечень рекомендуемых мероприятий по улучшению условий труда 2 за 2020 год"
+                },
+                {
+                  "text": "Сводная ведомость 1",
+                  "href": "http://localhost:1337/uploads/Svodnaya_vedomost_1_2020_7660905c9c.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Сводная ведомость 1 за 2020 год"
+                },
+                {
+                  "text": "Перечень рекомендуемых мероприятий по улучшению условий труда 1",
+                  "href": "http://localhost:1337/uploads/Perechen_rekomenduyemykh_meropriyatiy_po_uluchsheniyu_usloviy_truda_1_2020_c7eafe433d.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Перечень рекомендуемых мероприятий по улучшению условий труда 1 за 2020 год"
+                }
+              ],
+              "internalLinks": [],
+              "externalLinks": [],
+              "imageLinks": []
+            }
+          }
+        },
+        {
+          "title": "2019",
+          "isActive": false,
+          "content": {
+            "text": "Специальная оценка условий труда202320222021202020192018201720162015Сводная ведомость (внеплановая СОУТ)pdfПеречень рекомендуемых мероприятий по улучшению условий труда (внеплановая СОУТ)pdfСводная ведомость 4.1pdfСводная ведомость 4.2pdfПеречень рекомендуемых мероприятий по улучшению условий труда 4pdfСводная ведомость 3pdfПеречень рекомендуемых мероприятий по улучшению условий труда 3pdfСводная ведомость 2pdfПеречень рекомендуемых мероприятий по улучшению условий труда 2pdfСводная ведомость 1pdfПеречень рекомендуемых мероприятий по улучшению условий труда 1pdf",
+            "links": {
+              "fileLinks": [
+                {
+                  "text": "Сводная ведомость результатов проведения специальной оценки условий труда",
+                  "href": "http://localhost:1337/uploads/Svodnaya_vedomost_resultatov_poredeniya_spets_otsenki_usloviy_truda_b189124194.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Сводная ведомость результатов проведения специальной оценки условий труда за 2019 год"
+                },
+                {
+                  "text": "Перечень рекомендуемых мероприятий по улучшению условий труда",
+                  "href": "http://localhost:1337/uploads/Perechen_rekomenduemykh_meropriyatiy_po_uluchsheniyu_usloviy_truda_3e3c1c4e66.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Перечень рекомендуемых мероприятий по улучшению условий труда за 2019 год"
+                },
+                {
+                  "text": "Сводная ведомость (внеплановая СОУТ)",
+                  "href": "http://localhost:1337/uploads/Svodnaya_vedomost_vneplan_8db482a94a.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Сводная ведомость внеплановой специальной оценки условий труда за 2019 год"
+                },
+                {
+                  "text": "Перечень рекомендуемых мероприятий по улучшению условий труда (внеплановая СОУТ)",
+                  "href": "http://localhost:1337/uploads/Perechen_rekomendumykh_meropriyatiy_po_uluchsheniyu_usloviy_truda_vneplan_3eb3c412a9.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Перечень рекомендуемых мероприятий по улучшению условий труда внеплановой СОУТ за 2019 год"
+                },
+                {
+                  "text": "Сводная ведомость 4.1",
+                  "href": "http://localhost:1337/uploads/Svodnaya_vedomost_4_1_2019_90605d4ace.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Сводная ведомость 4.1 за 2019 год"
+                },
+                {
+                  "text": "Сводная ведомость 4.2",
+                  "href": "http://localhost:1337/uploads/Svodnaya_vedomost_4_2_2019_ce0821efe1.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Сводная ведомость 4.2 за 2019 год"
+                },
+                {
+                  "text": "Перечень рекомендуемых мероприятий по улучшению условий труда 4",
+                  "href": "http://localhost:1337/uploads/Perechen_rekomendumykh_meropriyatiy_po_uluchsheniyu_usloviy_truda_4_2019_4734926bb7.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Перечень рекомендуемых мероприятий по улучшению условий труда 4 за 2019 год"
+                },
+                {
+                  "text": "Сводная ведомость 3",
+                  "href": "http://localhost:1337/uploads/Svodnaya_vedomost_3_2019_05a1beaa88.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Сводная ведомость 3 за 2019 год"
+                },
+                {
+                  "text": "Перечень рекомендуемых мероприятий по улучшению условий труда 3",
+                  "href": "http://localhost:1337/uploads/Perechen_rekomendumykh_meropriyatiy_po_uluchsheniyu_usloviy_truda_3_2019_8c5f6e7f39.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Перечень рекомендуемых мероприятий по улучшению условий труда 3 за 2019 год"
+                },
+                {
+                  "text": "Сводная ведомость 2",
+                  "href": "http://localhost:1337/uploads/Svodnaya_vedomost_2_2019_58f4106981.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Сводная ведомость 2 за 2019 год"
+                },
+                {
+                  "text": "Перечень рекомендуемых мероприятий по улучшению условий труда 2",
+                  "href": "http://localhost:1337/uploads/Perechen_rekomendumykh_meropriyatiy_po_uluchsheniyu_usloviy_truda_2_2019_2857ae9c89.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Перечень рекомендуемых мероприятий по улучшению условий труда 2 за 2019 год"
+                },
+                {
+                  "text": "Сводная ведомость 1",
+                  "href": "http://localhost:1337/uploads/Svodnaya_vedomost_1_2019_3febc71bd9.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Сводная ведомость 1 за 2019 год"
+                },
+                {
+                  "text": "Перечень рекомендуемых мероприятий по улучшению условий труда 1",
+                  "href": "http://localhost:1337/uploads/Perechen_rekomendumykh_meropriyatiy_po_uluchsheniyu_usloviy_truda_1_2019_9b898af3a1.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Перечень рекомендуемых мероприятий по улучшению условий труда 1 за 2019 год"
+                }
+              ],
+              "internalLinks": [],
+              "externalLinks": [],
+              "imageLinks": []
+            }
+          }
+        },
+        {
+          "title": "2018",
+          "isActive": false,
+          "content": {
+            "text": "Специальная оценка условий труда202320222021202020192018201720162015Сводная ведомость 2pdfПеречень рекомендуемых мероприятий по улучшению условий труда 2pdfСводная ведомость 1pdfПеречень рекомендуемых мероприятий по улучшению условий труда 1pdf",
+            "links": {
+              "fileLinks": [
+                {
+                  "text": "Сводная ведомость результатов проведения специальной оценки условий труда",
+                  "href": "http://localhost:1337/uploads/Svodnaya_vedomost_resultatov_poredeniya_spets_otsenki_usloviy_truda_b189124194.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Сводная ведомость результатов проведения специальной оценки условий труда за 2018 год"
+                },
+                {
+                  "text": "Перечень рекомендуемых мероприятий по улучшению условий труда",
+                  "href": "http://localhost:1337/uploads/Perechen_rekomenduemykh_meropriyatiy_po_uluchsheniyu_usloviy_truda_3e3c1c4e66.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Перечень рекомендуемых мероприятий по улучшению условий труда за 2018 год"
+                },
+                {
+                  "text": "Сводная ведомость 2",
+                  "href": "http://localhost:1337/uploads/Svodnaya_vedomost_2_2018_846250e90e.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Сводная ведомость 2 за 2018 год"
+                },
+                {
+                  "text": "Перечень рекомендуемых мероприятий по улучшению условий труда 2",
+                  "href": "http://localhost:1337/uploads/Perechen_rekomendumykh_meropriyatiy_po_uluchsheniyu_usloviy_truda_2_2018_2e3a4357de.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Перечень рекомендуемых мероприятий по улучшению условий труда 2 за 2018 год"
+                },
+                {
+                  "text": "Сводная ведомость 1",
+                  "href": "http://localhost:1337/uploads/Svodnaya_vedomost_1_2018_8c00672dcb.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Сводная ведомость 1 за 2018 год"
+                },
+                {
+                  "text": "Перечень рекомендуемых мероприятий по улучшению условий труда 1",
+                  "href": "http://localhost:1337/uploads/Perechen_rekomendumykh_meropriyatiy_po_uluchsheniyu_usloviy_truda_1_2018_2054ca1481.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Перечень рекомендуемых мероприятий по улучшению условий труда 1 за 2018 год"
+                }
+              ],
+              "internalLinks": [],
+              "externalLinks": [],
+              "imageLinks": []
+            }
+          }
+        },
+        {
+          "title": "2017",
+          "isActive": true,
+          "content": {
+            "text": "Специальная оценка условий труда202320222021202020192018201720162015Сводная ведомость 2pdfПеречень рекомендуемых мероприятий по улучшению условий труда 2pdfСводная ведомость 1pdfПеречень рекомендуемых мероприятий по улучшению условий труда 1pdfПеречень рекомендуемых мероприятий по улучшению условий трудаpdfСводная ведомостьpdf",
+            "links": {
+              "fileLinks": [
+                {
+                  "text": "Сводная ведомость результатов проведения специальной оценки условий труда",
+                  "href": "http://localhost:1337/uploads/Svodnaya_vedomost_resultatov_poredeniya_spets_otsenki_usloviy_truda_b189124194.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Сводная ведомость результатов проведения специальной оценки условий труда за 2017 год"
+                },
+                {
+                  "text": "Перечень рекомендуемых мероприятий по улучшению условий труда",
+                  "href": "http://localhost:1337/uploads/Perechen_rekomenduemykh_meropriyatiy_po_uluchsheniyu_usloviy_truda_3e3c1c4e66.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Перечень рекомендуемых мероприятий по улучшению условий труда за 2017 год"
+                },
+                {
+                  "text": "Сводная ведомость 2",
+                  "href": "http://localhost:1337/uploads/Svodnaya_vedomost_2_6884f63a0f.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Сводная ведомость 2 за 2017 год"
+                },
+                {
+                  "text": "Перечень рекомендуемых мероприятий по улучшению условий труда 2",
+                  "href": "http://localhost:1337/uploads/Perechen_rekomenduyemykh_meropriyatiy_po_uluchsheniyu_usloviy_truda_2_b9a4a2906f.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Перечень рекомендуемых мероприятий по улучшению условий труда 2 за 2017 год"
+                },
+                {
+                  "text": "Сводная ведомость 1",
+                  "href": "http://localhost:1337/uploads/2017_11_svodnaya_vedomost1_a195643310.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Сводная ведомость 1 за 2017 год"
+                },
+                {
+                  "text": "Перечень рекомендуемых мероприятий по улучшению условий труда 1",
+                  "href": "http://localhost:1337/uploads/2017_11_perechen_rekomenduyemykh_meropriyatiy_po_uluchsheniyu_usloviy_truda1_2cb6bbf066.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Перечень рекомендуемых мероприятий по улучшению условий труда 1 за 2017 год"
+                },
+                {
+                  "text": "Сводная ведомость",
+                  "href": "http://localhost:1337/uploads/2017_02_15_svodnaya_vedomost_257abbe3f8.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Сводная ведомость за 2017 год"
+                }
+              ],
+              "internalLinks": [],
+              "externalLinks": [],
+              "imageLinks": []
+            }
+          }
+        },
+        {
+          "title": "2016",
+          "isActive": false,
+          "content": {
+            "text": "Специальная оценка условий труда202320222021202020192018201720162015Перечень рекомендуемых мероприятий по улучшению условий труда 1pdfПеречень рекомендуемых мероприятий по улучшению условий труда 2pdfСводная ведомость 1pdfСводная ведомость 2.1pdfСводная ведомость 2.2pdf",
+            "links": {
+              "fileLinks": [
+                {
+                  "text": "Сводная ведомость результатов проведения специальной оценки условий труда",
+                  "href": "http://localhost:1337/uploads/Svodnaya_vedomost_resultatov_poredeniya_spets_otsenki_usloviy_truda_b189124194.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Сводная ведомость результатов проведения специальной оценки условий труда за 2016 год"
+                },
+                {
+                  "text": "Перечень рекомендуемых мероприятий по улучшению условий труда",
+                  "href": "http://localhost:1337/uploads/Perechen_rekomenduemykh_meropriyatiy_po_uluchsheniyu_usloviy_truda_3e3c1c4e66.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Перечень рекомендуемых мероприятий по улучшению условий труда за 2016 год"
+                },
+                {
+                  "text": "Перечень рекомендуемых мероприятий по улучшению условий труда 1",
+                  "href": "http://localhost:1337/uploads/Perechen_rekomenduyemykh_meropriyatiy_po_uluchsheniyu_usloviy_truda_1_2016_293e903593.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Перечень рекомендуемых мероприятий по улучшению условий труда 1 за 2016 год"
+                },
+                {
+                  "text": "Перечень рекомендуемых мероприятий по улучшению условий труда 2",
+                  "href": "http://localhost:1337/uploads/Perechen_rekomenduyemykh_meropriyatiy_po_uluchsheniyu_usloviy_truda_2_2016_d782b4fe7d.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Перечень рекомендуемых мероприятий по улучшению условий труда 2 за 2016 год"
+                },
+                {
+                  "text": "Сводная ведомость 1",
+                  "href": "http://localhost:1337/uploads/Svodnaya_vedomost_1_2016_08f4a19c42.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Сводная ведомость 1 за 2016 год"
+                },
+                {
+                  "text": "Сводная ведомость 2.1",
+                  "href": "http://localhost:1337/uploads/Svodnaya_vedomost_2_1_2016_ff45e7e0a2.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Сводная ведомость 2.1 за 2016 год"
+                },
+                {
+                  "text": "Сводная ведомость 2.2",
+                  "href": "http://localhost:1337/uploads/Svodnaya_vedomost_2_2_2016_9252ca10ab.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Сводная ведомость 2.2 за 2016 год"
+                }
+              ],
+              "internalLinks": [],
+              "externalLinks": [],
+              "imageLinks": []
+            }
+          }
+        },
+        {
+          "title": "2015",
+          "isActive": false,
+          "content": {
+            "text": "Специальная оценка условий труда202320222021202020192018201720162015Сводная ведомость результатов проведения специальной оценки условий трудаpdfПеречень рекомендуемых мероприятий по улучшению условий трудаpdf",
+            "links": {
+              "fileLinks": [
+                {
+                  "text": "Сводная ведомость результатов проведения специальной оценки условий труда",
+                  "href": "http://localhost:1337/uploads/Svodnaya_vedomost_resultatov_poredeniya_spets_otsenki_usloviy_truda_b189124194.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Сводная ведомость результатов проведения специальной оценки условий труда за 2015 год"
+                },
+                {
+                  "text": "Перечень рекомендуемых мероприятий по улучшению условий труда",
+                  "href": "http://localhost:1337/uploads/Perechen_rekomenduemykh_meropriyatiy_po_uluchsheniyu_usloviy_truda_3e3c1c4e66.pdf",
+                  "fileType": "pdf",
+                  "purpose": "Перечень рекомендуемых мероприятий по улучшению условий труда за 2015 год"
+                }
+              ],
+              "internalLinks": [],
+              "externalLinks": [],
+              "imageLinks": []
+            }
+          }
+        }
+      ],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": []
+    }
+  ]
+}

@@ -1,0 +1,334 @@
+{
+  "summary": {
+    "total": 504,
+    "missing_svg_tag": 0,
+    "has_text": 48,
+    "has_image": 0,
+    "has_script": 0,
+    "has_background": 2,
+    "no_stroke": 3,
+    "fill_without_stroke": 0,
+    "multi_color": 0
+  },
+  "issues_count": 53,
+  "issues": [
+    {
+      "file": "/Users/andrey_efremov/Downloads/runs/design/generated_icons/perplexity/mgts-values/проклиента__23cdc989.svg",
+      "flags": [
+        "no_stroke"
+      ]
+    },
+    {
+      "file": "/Users/andrey_efremov/Downloads/runs/design/generated_icons/perplexity/access-internet/интернет-50__9c7260a0.svg",
+      "flags": [
+        "no_stroke"
+      ]
+    },
+    {
+      "file": "/Users/andrey_efremov/Downloads/runs/design/generated_icons/perplexity/virtual-ate/шаг-2__d83f0837.svg",
+      "flags": [
+        "text"
+      ]
+    },
+    {
+      "file": "/Users/andrey_efremov/Downloads/runs/design/generated_icons/perplexity/virtual-ate/шаг-4__2a78667b.svg",
+      "flags": [
+        "text"
+      ]
+    },
+    {
+      "file": "/Users/andrey_efremov/Downloads/runs/design/generated_icons/perplexity/virtual-ate/шаг-1__01a11b84.svg",
+      "flags": [
+        "text"
+      ]
+    },
+    {
+      "file": "/Users/andrey_efremov/Downloads/runs/design/generated_icons/perplexity/virtual-ate/шаг-3__28e20463.svg",
+      "flags": [
+        "text"
+      ]
+    },
+    {
+      "file": "/Users/andrey_efremov/Downloads/runs/design/generated_icons/perplexity/business/видеонаблюдение__fcd96651.svg",
+      "flags": [
+        "no_stroke"
+      ]
+    },
+    {
+      "file": "/Users/andrey_efremov/Downloads/runs/design/generated_icons/perplexity/business/телевидение__a7db4043.svg",
+      "flags": [
+        "background"
+      ]
+    },
+    {
+      "file": "/Users/andrey_efremov/Downloads/runs/design/generated_icons/perplexity/video-surveillance-maintenance/7__37f97653.svg",
+      "flags": [
+        "text"
+      ]
+    },
+    {
+      "file": "/Users/andrey_efremov/Downloads/runs/design/generated_icons/perplexity/video-surveillance-maintenance/11__a2ecd04e.svg",
+      "flags": [
+        "text"
+      ]
+    },
+    {
+      "file": "/Users/andrey_efremov/Downloads/runs/design/generated_icons/perplexity/video-surveillance-maintenance/9__052f7968.svg",
+      "flags": [
+        "text"
+      ]
+    },
+    {
+      "file": "/Users/andrey_efremov/Downloads/runs/design/generated_icons/perplexity/video-surveillance-maintenance/3__e488d8f0.svg",
+      "flags": [
+        "text"
+      ]
+    },
+    {
+      "file": "/Users/andrey_efremov/Downloads/runs/design/generated_icons/perplexity/video-surveillance-maintenance/4__894521ea.svg",
+      "flags": [
+        "text"
+      ]
+    },
+    {
+      "file": "/Users/andrey_efremov/Downloads/runs/design/generated_icons/perplexity/video-surveillance-maintenance/2__3f5a732e.svg",
+      "flags": [
+        "text"
+      ]
+    },
+    {
+      "file": "/Users/andrey_efremov/Downloads/runs/design/generated_icons/perplexity/video-surveillance-maintenance/8__3f8df90b.svg",
+      "flags": [
+        "text"
+      ]
+    },
+    {
+      "file": "/Users/andrey_efremov/Downloads/runs/design/generated_icons/perplexity/video-surveillance-maintenance/6__3fa7b64b.svg",
+      "flags": [
+        "text"
+      ]
+    },
+    {
+      "file": "/Users/andrey_efremov/Downloads/runs/design/generated_icons/perplexity/video-surveillance-maintenance/10__d18740f5.svg",
+      "flags": [
+        "text"
+      ]
+    },
+    {
+      "file": "/Users/andrey_efremov/Downloads/runs/design/generated_icons/perplexity/video-surveillance-maintenance/5__1995f105.svg",
+      "flags": [
+        "text"
+      ]
+    },
+    {
+      "file": "/Users/andrey_efremov/Downloads/runs/design/generated_icons/perplexity/navigation/реализация-тмц__3158d56a.svg",
+      "flags": [
+        "background"
+      ]
+    },
+    {
+      "file": "/Users/andrey_efremov/Downloads/runs/design/generated_icons/perplexity/entrance-video-surveillance/1__75b0bc5b.svg",
+      "flags": [
+        "text"
+      ]
+    },
+    {
+      "file": "/Users/andrey_efremov/Downloads/runs/design/generated_icons/perplexity/entrance-video-surveillance/2__9fe441d4.svg",
+      "flags": [
+        "text"
+      ]
+    },
+    {
+      "file": "/Users/andrey_efremov/Downloads/runs/design/generated_icons/perplexity/entrance-video-surveillance/6__207c5e97.svg",
+      "flags": [
+        "text"
+      ]
+    },
+    {
+      "file": "/Users/andrey_efremov/Downloads/runs/design/generated_icons/perplexity/entrance-video-surveillance/5__a4265813.svg",
+      "flags": [
+        "text"
+      ]
+    },
+    {
+      "file": "/Users/andrey_efremov/Downloads/runs/design/generated_icons/perplexity/entrance-video-surveillance/4__b2a355fe.svg",
+      "flags": [
+        "text"
+      ]
+    },
+    {
+      "file": "/Users/andrey_efremov/Downloads/runs/design/generated_icons/perplexity/entrance-video-surveillance/7__54d80cb6.svg",
+      "flags": [
+        "text"
+      ]
+    },
+    {
+      "file": "/Users/andrey_efremov/Downloads/runs/design/generated_icons/perplexity/entrance-video-surveillance/3__3b520b53.svg",
+      "flags": [
+        "text"
+      ]
+    },
+    {
+      "file": "/Users/andrey_efremov/Downloads/runs/design/generated_icons/perplexity/security-alarm/4__17f5a851.svg",
+      "flags": [
+        "text"
+      ]
+    },
+    {
+      "file": "/Users/andrey_efremov/Downloads/runs/design/generated_icons/perplexity/security-alarm/3__c7e0283b.svg",
+      "flags": [
+        "text"
+      ]
+    },
+    {
+      "file": "/Users/andrey_efremov/Downloads/runs/design/generated_icons/perplexity/security-alarm/6__e5b524a0.svg",
+      "flags": [
+        "text"
+      ]
+    },
+    {
+      "file": "/Users/andrey_efremov/Downloads/runs/design/generated_icons/perplexity/security-alarm/5__a1b9fced.svg",
+      "flags": [
+        "text"
+      ]
+    },
+    {
+      "file": "/Users/andrey_efremov/Downloads/runs/design/generated_icons/perplexity/security-alarm/2__1003ec4d.svg",
+      "flags": [
+        "text"
+      ]
+    },
+    {
+      "file": "/Users/andrey_efremov/Downloads/runs/design/generated_icons/perplexity/security-alarm/1__b86739e2.svg",
+      "flags": [
+        "text"
+      ]
+    },
+    {
+      "file": "/Users/andrey_efremov/Downloads/runs/design/generated_icons/perplexity/automated-system-monitoring-accounting/1__b3aaa2ce.svg",
+      "flags": [
+        "text"
+      ]
+    },
+    {
+      "file": "/Users/andrey_efremov/Downloads/runs/design/generated_icons/perplexity/automated-system-monitoring-accounting/2__428095b0.svg",
+      "flags": [
+        "text"
+      ]
+    },
+    {
+      "file": "/Users/andrey_efremov/Downloads/runs/design/generated_icons/perplexity/automated-system-monitoring-accounting/3__93c3a5c0.svg",
+      "flags": [
+        "text"
+      ]
+    },
+    {
+      "file": "/Users/andrey_efremov/Downloads/runs/design/generated_icons/perplexity/introduction-security-tv-systems/1__8d5a4804.svg",
+      "flags": [
+        "text"
+      ]
+    },
+    {
+      "file": "/Users/andrey_efremov/Downloads/runs/design/generated_icons/perplexity/introduction-security-tv-systems/3__e8bf5b79.svg",
+      "flags": [
+        "text"
+      ]
+    },
+    {
+      "file": "/Users/andrey_efremov/Downloads/runs/design/generated_icons/perplexity/introduction-security-tv-systems/2__7287fd22.svg",
+      "flags": [
+        "text"
+      ]
+    },
+    {
+      "file": "/Users/andrey_efremov/Downloads/runs/design/generated_icons/perplexity/introduction-security-tv-systems/4__e0313abd.svg",
+      "flags": [
+        "text"
+      ]
+    },
+    {
+      "file": "/Users/andrey_efremov/Downloads/runs/design/generated_icons/perplexity/equipment/4__8c49d339.svg",
+      "flags": [
+        "text"
+      ]
+    },
+    {
+      "file": "/Users/andrey_efremov/Downloads/runs/design/generated_icons/perplexity/equipment/1__6cc520a0.svg",
+      "flags": [
+        "text"
+      ]
+    },
+    {
+      "file": "/Users/andrey_efremov/Downloads/runs/design/generated_icons/perplexity/equipment/7__4566d49d.svg",
+      "flags": [
+        "text"
+      ]
+    },
+    {
+      "file": "/Users/andrey_efremov/Downloads/runs/design/generated_icons/perplexity/equipment/3__adf822a2.svg",
+      "flags": [
+        "text"
+      ]
+    },
+    {
+      "file": "/Users/andrey_efremov/Downloads/runs/design/generated_icons/perplexity/equipment/8__1d5295ec.svg",
+      "flags": [
+        "text"
+      ]
+    },
+    {
+      "file": "/Users/andrey_efremov/Downloads/runs/design/generated_icons/perplexity/equipment/6__cd2f5100.svg",
+      "flags": [
+        "text"
+      ]
+    },
+    {
+      "file": "/Users/andrey_efremov/Downloads/runs/design/generated_icons/perplexity/equipment/5__e5864798.svg",
+      "flags": [
+        "text"
+      ]
+    },
+    {
+      "file": "/Users/andrey_efremov/Downloads/runs/design/generated_icons/perplexity/equipment/2__c13fbdb0.svg",
+      "flags": [
+        "text"
+      ]
+    },
+    {
+      "file": "/Users/andrey_efremov/Downloads/runs/design/generated_icons/perplexity/video-surveillance-building/1__bff1bba3.svg",
+      "flags": [
+        "text"
+      ]
+    },
+    {
+      "file": "/Users/andrey_efremov/Downloads/runs/design/generated_icons/perplexity/video-surveillance-building/5__bc95553c.svg",
+      "flags": [
+        "text"
+      ]
+    },
+    {
+      "file": "/Users/andrey_efremov/Downloads/runs/design/generated_icons/perplexity/video-surveillance-building/3__5188d739.svg",
+      "flags": [
+        "text"
+      ]
+    },
+    {
+      "file": "/Users/andrey_efremov/Downloads/runs/design/generated_icons/perplexity/video-surveillance-building/2__08dc8810.svg",
+      "flags": [
+        "text"
+      ]
+    },
+    {
+      "file": "/Users/andrey_efremov/Downloads/runs/design/generated_icons/perplexity/video-surveillance-building/4__7ecff636.svg",
+      "flags": [
+        "text"
+      ]
+    },
+    {
+      "file": "/Users/andrey_efremov/Downloads/runs/design/generated_icons/perplexity/video-surveillance-building/6__662b31cc.svg",
+      "flags": [
+        "text"
+      ]
+    }
+  ]
+}

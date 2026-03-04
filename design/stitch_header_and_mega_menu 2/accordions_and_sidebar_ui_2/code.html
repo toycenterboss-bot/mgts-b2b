@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html class="dark" lang="ru"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>MGTS Design System - FAQ Accordion States</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="../../assets/fonts/google/a0eb410f31/font.css" rel="stylesheet"/>
+<link href="../../assets/fonts/material-symbols-outlined/material-symbols-outlined.css" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#0066cc",
+                        "background-light": "#f5f7f8",
+                        "background-dark": "#0f1923",
+                        "surface-dark": "#1a222c",
+                        "border-dark": "#2d3846"
+                    },
+                    fontFamily: {
+                        "display": ["Space Grotesk", "Noto Sans", "sans-serif"],
+                        "sans": ["Noto Sans", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style type="text/tailwindcss">
+        @layer base {
+            .material-symbols-outlined {
+                font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            }
+        }
+        details > summary::-webkit-details-marker {
+            display: none;
+        }
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 4px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #2d3846;
+            border-radius: 10px;
+        }details[open] summary ~ * {
+            animation: slideDown 0.3s ease-out;
+        }
+        @keyframes slideDown {
+            from { opacity: 0; transform: translateY(-8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 min-h-screen">
+<div class="flex h-screen overflow-hidden">
+<aside class="w-72 bg-white dark:bg-background-dark border-r border-slate-200 dark:border-border-dark flex flex-col shrink-0">
+<div class="p-6">
+<div class="flex items-center gap-3 mb-10">
+<div class="size-10 bg-primary rounded-lg flex items-center justify-center text-white">
+<span class="material-symbols-outlined text-2xl">router</span>
+</div>
+<div>
+<h1 class="text-lg font-bold leading-tight tracking-tight">MGTS B2B</h1>
+<p class="text-xs text-slate-500 dark:text-slate-400 font-medium">Telecom Infrastructure</p>
+</div>
+</div>
+<nav class="flex flex-col gap-1.5">
+<a class="flex items-center gap-3 px-4 py-3 rounded-lg text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-surface-dark transition-colors group" href="#">
+<span class="material-symbols-outlined text-xl">home</span>
+<span class="text-sm font-medium">Главная</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 rounded-lg text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-surface-dark transition-colors" href="#">
+<span class="material-symbols-outlined text-xl">business_center</span>
+<span class="text-sm font-medium">Услуги</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 rounded-lg text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-surface-dark transition-colors" href="#">
+<span class="material-symbols-outlined text-xl">memory</span>
+<span class="text-sm font-medium">Инфраструктура</span>
+</a>
+<div class="h-px bg-slate-200 dark:bg-border-dark my-2 mx-4"></div>
+<a class="flex items-center gap-3 px-4 py-3 rounded-lg bg-primary/10 text-primary transition-colors border border-primary/20" href="#">
+<span class="material-symbols-outlined text-xl">quiz</span>
+<span class="text-sm font-semibold">FAQ / Поддержка</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 rounded-lg text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-surface-dark transition-colors" href="#">
+<span class="material-symbols-outlined text-xl">settings</span>
+<span class="text-sm font-medium">Настройки</span>
+</a>
+</nav>
+</div>
+<div class="mt-auto p-6">
+<div class="p-4 rounded-xl bg-slate-100 dark:bg-surface-dark border border-slate-200 dark:border-border-dark">
+<p class="text-xs font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider mb-2">Статус сети</p>
+<div class="flex items-center gap-2">
+<span class="relative flex h-2 w-2">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
+</span>
+<span class="text-xs font-medium">Работает штатно</span>
+</div>
+</div>
+</div>
+</aside>
+<main class="flex-1 overflow-y-auto scroll-smooth bg-background-light dark:bg-background-dark">
+<header class="h-16 border-b border-slate-200 dark:border-border-dark flex items-center justify-between px-10 sticky top-0 bg-white/80 dark:bg-background-dark/80 backdrop-blur-md z-10">
+<div class="flex items-center gap-4 flex-1 max-w-xl">
+<span class="material-symbols-outlined text-slate-400">search</span>
+<input class="bg-transparent border-none focus:ring-0 text-sm w-full placeholder:text-slate-400" placeholder="Поиск по документации..." type="text"/>
+</div>
+<div class="flex items-center gap-6">
+<button class="text-slate-500 dark:text-slate-400 hover:text-primary transition-colors">
+<span class="material-symbols-outlined">notifications</span>
+</button>
+<div class="flex items-center gap-3 border-l border-slate-200 dark:border-border-dark pl-6">
+<div class="text-right hidden sm:block">
+<p class="text-sm font-bold leading-none">Александр В.</p>
+<p class="text-[10px] text-slate-500 dark:text-slate-400 font-medium mt-1">Администратор</p>
+</div>
+<div class="size-9 rounded-full bg-slate-200 dark:bg-surface-dark bg-cover bg-center border border-slate-200 dark:border-border-dark" data-alt="User avatar profile picture" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBME1L8Dl3f43LahSMhDcvv_zYnHYTswB1sMTDhqmO6ydk1i0Y_k0OID6PSMCTVWka3qr4OmjiNWqhuTedSfBceFdHZos5nAvaMC2FJAbEzB3kF4E3z8OfKOPsVyUOQnlSsXJxfWyVUDo81wrlzaglrQUv2ae7wSUTsO9RfYDiVE-9bjAwf6waDuqa2I1HKfmL-cW-UOciNJHBS-_85mhm4ZsQ8tf4QUD-_mClnzWKMhn6_kDYbINyxu7CUkBZNgIXjoEon5qSgAQ');"></div>
+</div>
+</div>
+</header>
+<div class="max-w-5xl mx-auto px-10 py-12">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
+<div class="max-w-2xl">
+<h2 class="text-4xl font-black tracking-tight mb-4">Компоненты MGTS Design System</h2>
+<p class="text-slate-500 dark:text-slate-400 text-lg leading-relaxed">
+                        Библиотека интерактивных элементов для корпоративных решений MGTS. 
+                        Разработана для обеспечения консистентности B2B интерфейсов.
+                    </p>
+</div>
+<button class="bg-primary hover:bg-primary/90 text-white px-6 py-3 rounded-lg font-bold text-sm transition-all flex items-center gap-2 shadow-lg shadow-primary/20">
+<span class="material-symbols-outlined text-lg">download</span>
+                    UI Kit v2.4
+                </button>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-10">
+<div class="lg:col-span-2 space-y-8">
+<div>
+<h3 class="text-2xl font-bold flex items-center gap-3 mb-6">
+<span class="material-symbols-outlined text-primary">help</span>
+                            Аккордеоны и FAQ
+                        </h3>
+<div class="flex flex-col gap-4">
+<details class="group bg-primary/[0.03] dark:bg-primary/[0.05] rounded-xl border border-primary/30 dark:border-primary/40 overflow-hidden transition-all shadow-sm" open="">
+<summary class="flex items-center justify-between p-5 cursor-pointer list-none">
+<span class="font-bold text-primary dark:text-primary">Что такое технология GPON?</span>
+<span class="material-symbols-outlined text-primary group-open:rotate-180 transition-transform duration-300">expand_more</span>
+</summary>
+<div class="px-5 pb-6 text-slate-700 dark:text-slate-300 text-sm leading-relaxed border-t border-primary/10 mt-1 pt-4">
+                                    GPON (Gigabit Passive Optical Network) — это технология доступа к интернету, позволяющая передавать данные на скорости до 1 Гбит/с по оптоволоконному кабелю непосредственно в офис клиента. В отличие от стандартных решений, здесь используется пассивная сеть, что повышает надежность за счет отсутствия промежуточного активного оборудования.
+                                </div>
+</details>
+<details class="group bg-white dark:bg-surface-dark rounded-xl border border-slate-200 dark:border-border-dark overflow-hidden transition-all shadow-sm hover:border-slate-300 dark:hover:border-slate-600">
+<summary class="flex items-center justify-between p-5 cursor-pointer list-none">
+<span class="font-semibold text-slate-900 dark:text-white group-hover:text-primary transition-colors">Облачное хранилище для бизнеса</span>
+<span class="material-symbols-outlined text-slate-400 group-open:rotate-180 transition-transform duration-300">expand_more</span>
+</summary>
+<div class="px-5 pb-5 text-slate-600 dark:text-slate-400 text-sm leading-relaxed border-t border-slate-100 dark:border-border-dark/50 mt-1 pt-4">
+                                    Мы предоставляем масштабируемые облачные хранилища с гарантированным уровнем доступности 99.9%. Интеграция с локальной инфраструктурой MGTS обеспечивает минимальные задержки при обмене данными.
+                                </div>
+</details>
+<details class="group bg-white dark:bg-surface-dark rounded-xl border border-slate-200 dark:border-border-dark overflow-hidden transition-all shadow-sm hover:border-slate-300 dark:hover:border-slate-600">
+<summary class="flex items-center justify-between p-5 cursor-pointer list-none">
+<span class="font-semibold text-slate-900 dark:text-white group-hover:text-primary transition-colors">Выделенные линии связи B2B</span>
+<span class="material-symbols-outlined text-slate-400 group-open:rotate-180 transition-transform duration-300">expand_more</span>
+</summary>
+<div class="px-5 pb-5 text-slate-600 dark:text-slate-400 text-sm leading-relaxed border-t border-slate-100 dark:border-border-dark/50 mt-1 pt-4">
+                                    Персональные каналы связи с фиксированной пропускной способностью и защищенным протоколом передачи. Идеально для объединения филиалов в единую корпоративную сеть.
+                                </div>
+</details>
+</div>
+</div>
+<div class="p-6 bg-gradient-to-br from-primary/10 to-transparent border border-primary/20 rounded-2xl relative overflow-hidden">
+<div class="relative z-10 flex flex-col md:flex-row items-center gap-6">
+<div class="size-16 rounded-full bg-primary/20 flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-3xl">support_agent</span>
+</div>
+<div class="text-center md:text-left">
+<h4 class="text-lg font-bold mb-1">Нужна персональная консультация?</h4>
+<p class="text-sm text-slate-500 dark:text-slate-400">Наши технические специалисты готовы ответить на любые вопросы по интеграции 24/7.</p>
+</div>
+<button class="ml-auto bg-primary text-white px-5 py-2 rounded-lg font-bold text-sm whitespace-nowrap">Связаться с нами</button>
+</div>
+<div class="absolute -right-10 -bottom-10 size-40 bg-primary/5 rounded-full blur-3xl"></div>
+</div>
+</div>
+<div class="space-y-8">
+<div>
+<h3 class="text-xl font-bold mb-6">Кастомизация</h3>
+<div class="bg-white dark:bg-surface-dark rounded-xl border border-slate-200 dark:border-border-dark p-6 space-y-6">
+<div class="space-y-2">
+<label class="text-xs font-bold uppercase tracking-wider text-slate-500">Тип подключения</label>
+<div class="relative group">
+<div class="flex items-center justify-between w-full bg-slate-50 dark:bg-background-dark border border-slate-200 dark:border-border-dark px-4 py-3 rounded-lg cursor-pointer hover:border-primary transition-colors">
+<span class="text-sm">Оптоволокно (GPON)</span>
+<span class="material-symbols-outlined text-slate-400">unfold_more</span>
+</div>
+<div class="absolute top-full left-0 right-0 mt-2 bg-white dark:bg-surface-dark border border-slate-200 dark:border-border-dark rounded-lg shadow-xl overflow-hidden z-20 hidden group-focus-within:block">
+<div class="p-2 border-b border-slate-100 dark:border-border-dark">
+<div class="flex items-center px-2 py-1.5 bg-slate-50 dark:bg-background-dark rounded-md">
+<span class="material-symbols-outlined text-lg text-slate-400 mr-2">search</span>
+<input class="bg-transparent border-none text-xs focus:ring-0 p-0 w-full" placeholder="Поиск..." type="text"/>
+</div>
+</div>
+<ul class="max-h-48 overflow-y-auto custom-scrollbar">
+<li class="px-4 py-2 text-sm hover:bg-primary hover:text-white cursor-pointer transition-colors bg-primary/10 text-primary font-semibold">Оптоволокно (GPON)</li>
+<li class="px-4 py-2 text-sm hover:bg-primary hover:text-white cursor-pointer transition-colors">Медная линия (VDSL)</li>
+<li class="px-4 py-2 text-sm hover:bg-primary hover:text-white cursor-pointer transition-colors">Спутниковая связь</li>
+<li class="px-4 py-2 text-sm hover:bg-primary hover:text-white cursor-pointer transition-colors">Радиоканал</li>
+<li class="px-4 py-2 text-sm hover:bg-primary hover:text-white cursor-pointer transition-colors">4G/5G Мост</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="space-y-4">
+<label class="text-xs font-bold uppercase tracking-wider text-slate-500">Дополнительные опции</label>
+<div class="flex items-center justify-between">
+<span class="text-sm font-medium">Статический IP</span>
+<button class="w-10 h-5 bg-primary rounded-full relative transition-colors">
+<span class="absolute right-1 top-1 size-3 bg-white rounded-full"></span>
+</button>
+</div>
+<div class="flex items-center justify-between">
+<span class="text-sm font-medium">Круглосуточный SLA</span>
+<button class="w-10 h-5 bg-slate-300 dark:bg-border-dark rounded-full relative transition-colors">
+<span class="absolute left-1 top-1 size-3 bg-white rounded-full"></span>
+</button>
+</div>
+</div>
+<button class="w-full py-3 border-2 border-primary text-primary font-bold rounded-lg hover:bg-primary hover:text-white transition-all text-sm">
+                                Применить настройки
+                            </button>
+</div>
+</div>
+<div class="bg-primary p-6 rounded-2xl text-white overflow-hidden relative">
+<h4 class="text-lg font-bold mb-4 relative z-10">Пропускная способность</h4>
+<div class="flex items-end gap-1 h-20 mb-4 relative z-10">
+<div class="flex-1 bg-white/20 rounded-t h-[40%]"></div>
+<div class="flex-1 bg-white/20 rounded-t h-[60%]"></div>
+<div class="flex-1 bg-white/40 rounded-t h-[80%]"></div>
+<div class="flex-1 bg-white/20 rounded-t h-[50%]"></div>
+<div class="flex-1 bg-white/60 rounded-t h-[90%]"></div>
+<div class="flex-1 bg-white rounded-t h-[100%]"></div>
+<div class="flex-1 bg-white/30 rounded-t h-[70%]"></div>
+</div>
+<div class="flex justify-between items-center relative z-10">
+<span class="text-xs font-medium opacity-80">Пиковая нагрузка</span>
+<span class="text-xl font-black">942 Mb/s</span>
+</div>
+<div class="absolute -left-4 -top-4 size-24 bg-white/10 rounded-full blur-2xl"></div>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+
+</body></html>

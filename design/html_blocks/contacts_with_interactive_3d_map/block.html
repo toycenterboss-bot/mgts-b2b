@@ -1,0 +1,212 @@
+<section class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-white min-h-screen" data-stitch-block="contacts_with_interactive_3d_map">
+<div class="relative flex min-h-screen w-full flex-col overflow-x-hidden">
+<!-- Header / TopNavBar -->
+<header class="sticky top-0 z-50 flex items-center justify-between border-b border-solid border-white/10 bg-background-dark/80 backdrop-blur-md px-6 py-3 lg:px-20">
+<div class="flex items-center gap-8">
+<div class="flex items-center gap-3 text-white">
+<div class="size-6 text-primary">
+<svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 4H17.3334V17.3334H30.6666V30.6666H44V44H4V4Z" fill="currentColor"></path>
+</svg>
+</div>
+<h2 class="text-xl font-bold leading-tight tracking-tight uppercase">MGTS B2B</h2>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-white/70 hover:text-white text-sm font-medium transition-colors" href="#">Услуги</a>
+<a class="text-white/70 hover:text-white text-sm font-medium transition-colors" href="#">Решения</a>
+<a class="text-white/70 hover:text-white text-sm font-medium transition-colors" href="#">Тарифы</a>
+<a class="text-white text-sm font-bold border-b-2 border-primary pb-1" href="#">Контакты</a>
+</nav>
+</div>
+<div class="flex items-center gap-6">
+<div class="hidden sm:flex items-center bg-white/5 rounded-lg px-3 py-1.5 border border-white/10">
+<span class="material-symbols-outlined text-white/50 text-xl">search</span>
+<input class="bg-transparent border-none focus:ring-0 text-sm text-white placeholder:text-white/30 w-40" placeholder="Поиск по сайту"/>
+</div>
+<button class="flex items-center justify-center rounded-lg h-10 px-6 bg-primary text-white text-sm font-bold transition-transform active:scale-95">
+                    Личный кабинет
+                </button>
+</div>
+</header>
+<main class="flex-1 flex flex-col relative h-[calc(100vh-64px)] overflow-hidden" data-contact-hub>
+<!-- Background 3D Map (Stylized) -->
+<div class="absolute inset-0 z-0">
+<div class="w-full h-full bg-slate-900 relative">
+<!-- Placeholder for 3D Map visualization -->
+<div class="absolute inset-0 bg-cover bg-center opacity-40 mix-blend-screen" data-alt="Futuristic dark blue 3D city map of Moscow" data-location="Moscow" style='background-image: url("../../assets/images/external/d2afb513d03f.png");' data-contact-map>
+</div>
+<!-- Digital nodes and connections simulation -->
+<div class="absolute inset-0 digital-twin-overlay"></div>
+<!-- Floating Map Markers -->
+<div class="absolute top-[30%] left-[45%] group cursor-pointer" data-contact-marker data-contact-id="dc_s1" data-contact-category="network">
+<div class="absolute -inset-4 rounded-full hidden" data-contact-halo></div>
+<div class="w-4 h-4 bg-primary rounded-full animate-pulse glow-node" data-contact-dot></div>
+<div class="absolute -top-12 left-1/2 -translate-x-1/2 bg-primary px-3 py-1 rounded text-[10px] font-bold whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity">DATA CENTER S1</div>
+</div>
+<div class="absolute top-[55%] left-[58%] group cursor-pointer" data-contact-marker data-contact-id="office_north" data-contact-category="offices">
+<div class="absolute -inset-4 rounded-full hidden" data-contact-halo></div>
+<div class="w-3 h-3 bg-cyan-400 rounded-full glow-node" data-contact-dot></div>
+<div class="absolute -top-12 left-1/2 -translate-x-1/2 bg-cyan-500 px-3 py-1 rounded text-[10px] font-bold whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity">OFFICE NORTH</div>
+</div>
+<div class="absolute top-[42%] left-[32%] group cursor-pointer" data-contact-marker data-contact-id="node_misc" data-contact-category="offices">
+<div class="w-5 h-5 bg-white rounded-full animate-ping opacity-20"></div>
+<div class="absolute -inset-4 rounded-full hidden" data-contact-halo></div>
+<div class="absolute inset-0 m-auto w-2 h-2 bg-white rounded-full" data-contact-dot></div>
+</div>
+</div>
+</div>
+<!-- Page Content Overlay -->
+<div class="relative z-10 flex h-full p-6 lg:p-10 pointer-events-none">
+<!-- Left Sidebar: Glassmorphism Info Panel -->
+<div class="flex flex-col w-full max-w-md gap-6 pointer-events-auto overflow-y-auto pr-4 scrollbar-hide relative z-30">
+<!-- Page Heading -->
+<div class="mb-4">
+<h1 class="text-white text-5xl font-black tracking-tight leading-tight">Контакты</h1>
+<p class="text-white/60 text-lg mt-2 font-light">Цифровая экосистема для вашего бизнеса</p>
+</div>
+<!-- Main Office Card (Glass) -->
+<div class="glass-panel p-8 rounded-xl flex flex-col gap-8 shadow-2xl">
+<div class="flex flex-col gap-1">
+<span class="text-primary text-xs font-bold uppercase tracking-widest">Штаб-квартира</span>
+<h2 class="text-white text-2xl font-bold">Центральный офис</h2>
+</div>
+<div class="flex flex-col gap-6">
+<div class="flex items-start gap-4">
+<div class="bg-primary/20 p-2 rounded-lg text-primary">
+<span class="material-symbols-outlined">location_on</span>
+</div>
+<div class="flex flex-col">
+<p class="text-white text-sm font-medium">Адрес</p>
+<p class="text-white/70 text-base leading-relaxed">ул. Большая Полянка, д. 2, стр. 2, Москва, 119180</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<div class="bg-primary/20 p-2 rounded-lg text-primary">
+<span class="material-symbols-outlined">call</span>
+</div>
+<div class="flex flex-col">
+<p class="text-white text-sm font-medium">Телефон</p>
+<p class="text-white/70 text-base">+7 (495) 636-0-636</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<div class="bg-primary/20 p-2 rounded-lg text-primary">
+<span class="material-symbols-outlined">mail</span>
+</div>
+<div class="flex flex-col">
+<p class="text-white text-sm font-medium">Электронная почта</p>
+<p class="text-white/70 text-base">b2b@mgts.ru</p>
+</div>
+</div>
+</div>
+<button class="w-full bg-primary hover:bg-primary/90 text-white font-bold py-4 rounded-lg flex items-center justify-center gap-2 transition-all">
+<span class="material-symbols-outlined text-xl">directions</span>
+                            Построить маршрут
+                        </button>
+</div>
+<!-- Quick Navigation -->
+<div class="flex flex-col gap-2 pointer-events-auto">
+<div class="flex items-center justify-between px-4 py-3 rounded-lg bg-white/5 border border-white/5 hover:bg-white/10 cursor-pointer transition-all">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary">database</span>
+<span class="text-sm font-medium">Дата-центры (12)</span>
+</div>
+<span class="material-symbols-outlined text-white/30">chevron_right</span>
+</div>
+<div class="flex items-center justify-between px-4 py-3 rounded-lg bg-white/5 border border-white/5 hover:bg-white/10 cursor-pointer transition-all">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary">support_agent</span>
+<span class="text-sm font-medium">Техподдержка 24/7</span>
+</div>
+<span class="material-symbols-outlined text-white/30">chevron_right</span>
+</div>
+</div>
+</div>
+<!-- Right Side: Map Controls & Small Cards -->
+<div class="flex-1 flex flex-col items-end justify-between">
+<!-- Search & Filters -->
+<div class="pointer-events-auto flex flex-col items-end gap-3">
+<div class="flex gap-2">
+<div class="flex bg-background-dark/90 border border-white/10 rounded-lg p-1 backdrop-blur-md" data-choice-group>
+<button class="px-4 py-2 text-xs font-bold uppercase tracking-tighter bg-primary rounded-md" type="button" data-choice aria-pressed="true" data-contact-category="offices" data-active-classes="bg-primary text-white" data-inactive-classes="text-white/50 hover:text-white">Офисы</button>
+<button class="px-4 py-2 text-xs font-bold uppercase tracking-tighter text-white/50 hover:text-white" type="button" data-choice aria-pressed="false" data-contact-category="network" data-active-classes="bg-primary text-white" data-inactive-classes="text-white/50 hover:text-white">Сеть</button>
+</div>
+</div>
+<label class="flex flex-col min-w-80 h-12">
+<div class="flex w-full flex-1 items-stretch rounded-lg h-full glass-panel">
+<div class="text-[#9babbb] flex border-none items-center justify-center pl-4 rounded-l-lg" data-icon="MagnifyingGlass">
+<span class="material-symbols-outlined">search</span>
+</div>
+<input class="form-input flex w-full min-w-0 flex-1 border-none bg-transparent focus:outline-0 focus:ring-0 text-white placeholder:text-white/40 px-4 pl-2 text-sm font-normal" placeholder="Поиск офиса или дата-центра" value=""/>
+</div>
+</label>
+</div>
+<!-- Map Navigation Controls -->
+<div class="flex flex-col items-end gap-4 pointer-events-auto">
+<div class="flex flex-col glass-panel rounded-xl overflow-hidden shadow-xl border border-white/10">
+<button class="flex size-12 items-center justify-center hover:bg-white/10 transition-colors border-b border-white/5">
+<span class="material-symbols-outlined text-white/70">add</span>
+</button>
+<button class="flex size-12 items-center justify-center hover:bg-white/10 transition-colors border-b border-white/5">
+<span class="material-symbols-outlined text-white/70">remove</span>
+</button>
+<button class="flex size-12 items-center justify-center hover:bg-white/10 transition-colors">
+<span class="material-symbols-outlined text-white/70">explore</span>
+</button>
+</div>
+<button class="flex size-12 items-center justify-center rounded-xl glass-panel shadow-xl border border-white/10 hover:bg-primary/20 group transition-all">
+<span class="material-symbols-outlined text-white/70 group-hover:text-primary">near_me</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Bottom Horizontal Scroll: Other Locations -->
+<div class="absolute bottom-6 left-0 right-0 z-10 px-6 lg:px-10 pointer-events-none">
+<div class="flex gap-4 overflow-x-auto pb-4 scrollbar-hide pointer-events-auto">
+<!-- Small Office Card 1 -->
+<div class="min-w-[320px] glass-panel p-5 rounded-xl border border-white/10 flex flex-col gap-4 group hover:border-primary/50 transition-all cursor-pointer" data-contact-item data-contact-id="office_north" data-contact-category="offices" data-lat="55.818" data-lng="37.574">
+<div class="flex justify-between items-start">
+<div class="flex flex-col">
+<h4 class="text-white font-bold">Офис "Северный"</h4>
+<p class="text-white/50 text-xs">ул. Тимирязевская, 2/3</p>
+</div>
+<span class="text-[10px] bg-green-500/20 text-green-400 px-2 py-0.5 rounded font-bold uppercase">Открыто</span>
+</div>
+<div class="flex gap-2">
+<button class="flex-1 text-[11px] font-bold bg-white/5 hover:bg-white/10 border border-white/10 py-2 rounded uppercase tracking-wider">Подробнее</button>
+<button class="flex-1 text-[11px] font-bold bg-primary py-2 rounded uppercase tracking-wider text-white">Маршрут</button>
+</div>
+</div>
+<!-- Small Office Card 2 -->
+<div class="min-w-[320px] glass-panel p-5 rounded-xl border border-white/10 flex flex-col gap-4 group hover:border-primary/50 transition-all cursor-pointer" data-contact-item data-contact-id="dc_s1" data-contact-category="network" data-lat="55.752" data-lng="37.618">
+<div class="flex justify-between items-start">
+<div class="flex flex-col">
+<h4 class="text-white font-bold">Дата-центр "Южный"</h4>
+<p class="text-white/50 text-xs">пр-т Вернадского, 18</p>
+</div>
+<span class="text-[10px] bg-primary/20 text-primary px-2 py-0.5 rounded font-bold uppercase">Узел связи</span>
+</div>
+<div class="flex gap-2">
+<button class="flex-1 text-[11px] font-bold bg-white/5 hover:bg-white/10 border border-white/10 py-2 rounded uppercase tracking-wider">Подробнее</button>
+<button class="flex-1 text-[11px] font-bold bg-primary py-2 rounded uppercase tracking-wider text-white">Маршрут</button>
+</div>
+</div>
+<!-- Small Office Card 3 -->
+<div class="min-w-[320px] glass-panel p-5 rounded-xl border border-white/10 flex flex-col gap-4 group hover:border-primary/50 transition-all cursor-pointer" data-contact-item data-contact-id="node_misc" data-contact-category="offices" data-lat="55.75" data-lng="37.64">
+<div class="flex justify-between items-start">
+<div class="flex flex-col">
+<h4 class="text-white font-bold">Центр "Восток"</h4>
+<p class="text-white/50 text-xs">ш. Энтузиастов, 56</p>
+</div>
+<span class="text-[10px] bg-green-500/20 text-green-400 px-2 py-0.5 rounded font-bold uppercase">Открыто</span>
+</div>
+<div class="flex gap-2">
+<button class="flex-1 text-[11px] font-bold bg-white/5 hover:bg-white/10 border border-white/10 py-2 rounded uppercase tracking-wider">Подробнее</button>
+<button class="flex-1 text-[11px] font-bold bg-primary py-2 rounded uppercase tracking-wider text-white">Маршрут</button>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+</section>

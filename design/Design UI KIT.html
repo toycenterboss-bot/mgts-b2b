@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="ru"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Technical UI Kit & CSS Tokens | MGTS B2B</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="../../assets/fonts/inter/inter.css" rel="stylesheet"/>
+<link href="../../assets/fonts/material-symbols-outlined/material-symbols-outlined.css" rel="stylesheet"/>
+<link href="../../assets/fonts/material-symbols-outlined/material-symbols-outlined.css" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode:"class",
+            theme: {
+                extend: {
+                    colors: {"primary":"#0300cc","background-light":"#f5f5f8","background-dark":"#0f0f23",
+                    },
+                    fontFamily: {"display": ["Inter","sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .glass {
+            background: rgba(39, 39, 58, 0.4);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-white min-h-screen overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<!-- Top Navigation -->
+<header class="sticky top-0 z-50 flex items-center justify-between whitespace-nowrap border-b border-solid border-slate-200 dark:border-[#27273a] bg-white/80 dark:bg-background-dark/80 backdrop-blur-md px-6 py-3 md:px-10">
+<div class="flex items-center gap-8">
+<div class="flex items-center gap-4 text-primary dark:text-white">
+<div class="size-8 flex items-center justify-center bg-primary rounded-lg text-white">
+<span class="material-symbols-outlined">developer_board</span>
+</div>
+<h2 class="text-slate-900 dark:text-white text-lg font-bold leading-tight tracking-[-0.015em]">MGTS B2B UI Kit</h2>
+</div>
+<nav class="hidden lg:flex items-center gap-9">
+<a class="text-slate-600 dark:text-[#9b9abc] hover:text-primary dark:hover:text-white text-sm font-medium transition-colors" href="#">Д</a>
+<a class="text-slate-600 dark:text-[#9b9abc] hover:text-primary dark:hover:text-white text-sm font-medium transition-colors" href="#">К</a>
+<a class="text-primary dark:text-white text-sm font-medium border-b-2 border-primary" href="#">Т</a>
+<a class="text-slate-600 dark:text-[#9b9abc] hover:text-primary dark:hover:text-white text-sm font-medium transition-colors" href="#">Р</a>
+</nav>
+</div>
+<div class="flex flex-1 justify-end gap-4 md:gap-8">
+<label class="hidden sm:flex flex-col min-w-40 h-10 max-w-64">
+<div class="flex w-full flex-1 items-stretch rounded-lg h-full overflow-hidden border border-slate-200 dark:border-none">
+<div class="text-slate-400 dark:text-[#9b9abc] flex bg-slate-100 dark:bg-[#27273a] items-center justify-center pl-4">
+<span class="material-symbols-outlined text-[20px]">search</span>
+</div>
+<input class="form-input flex w-full min-w-0 flex-1 border-none bg-slate-100 dark:bg-[#27273a] text-slate-900 dark:text-white focus:ring-0 h-full placeholder:text-slate-400 dark:placeholder:text-[#9b9abc] pl-2 text-sm" placeholder="П ..." value=""/>
+</div>
+</label>
+<button class="flex min-w-[84px] cursor-pointer items-center justify-center rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold tracking-[0.015em] hover:bg-opacity-90 transition-all">
+<span>Э CSS</span>
+</button>
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10 border border-slate-200 dark:border-slate-700" data-alt="User profile avatar" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAw-clDe3Offv45FHlmLvTd9tg5bk6iKphxE1XVy9atRrtqwDdE84hX1xr3dq82oxLY34DuRIrizi1ZQQ9_iMAYqYypYmsK1zkTT0zdZKcjvviWixOEKD3ESHkeJPLXpdzkXh0_gA01bccc8-bsLmyiOTdMNoo1E_ImnamtSDSsxntJTr-bzCZvyR9NvBXmwzXfieB4XCp4LiD3C_NjJvca3vnBZpbH-ry8GAET2pansePJcCs6IZ4b9-XL9gVVYrC7YRPDjEor0g");'></div>
+</div>
+</header>
+<div class="flex flex-1">
+<!-- Sidebar -->
+<aside class="hidden md:flex w-72 flex-col border-r border-slate-200 dark:border-[#27273a] bg-white dark:bg-background-dark p-6 sticky top-[65px] h-[calc(100vh-65px)] overflow-y-auto">
+<div class="flex flex-col gap-8">
+<div class="flex gap-3 items-center">
+<div class="bg-primary/10 text-primary p-2 rounded-lg">
+<span class="material-symbols-outlined">settings_input_component</span>
+</div>
+<div class="flex flex-col">
+<h1 class="text-slate-900 dark:text-white text-sm font-bold uppercase tracking-wider">Design System</h1>
+<p class="text-slate-500 dark:text-[#9b9abc] text-xs font-mono">v1.0.4 Technical Kit</p>
+</div>
+</div>
+<nav class="flex flex-col gap-1">
+<div class="flex items-center gap-3 px-3 py-2 rounded-lg bg-primary/10 text-primary">
+<span class="material-symbols-outlined text-[20px]">palette</span>
+<p class="text-sm font-semibold">П</p>
+</div>
+<div class="flex items-center gap-3 px-3 py-2 text-slate-600 dark:text-[#9b9abc] hover:bg-slate-100 dark:hover:bg-[#27273a] rounded-lg transition-colors cursor-pointer">
+<span class="material-symbols-outlined text-[20px]">match_word</span>
+<p class="text-sm font-medium">Т</p>
+</div>
+<div class="flex items-center gap-3 px-3 py-2 text-slate-600 dark:text-[#9b9abc] hover:bg-slate-100 dark:hover:bg-[#27273a] rounded-lg transition-colors cursor-pointer">
+<span class="material-symbols-outlined text-[20px]">grid_4x4</span>
+<p class="text-sm font-medium">О</p>
+</div>
+<div class="flex items-center gap-3 px-3 py-2 text-slate-600 dark:text-[#9b9abc] hover:bg-slate-100 dark:hover:bg-[#27273a] rounded-lg transition-colors cursor-pointer">
+<span class="material-symbols-outlined text-[20px]">layers</span>
+<p class="text-sm font-medium">Т  </p>
+</div>
+<div class="flex items-center gap-3 px-3 py-2 text-slate-600 dark:text-[#9b9abc] hover:bg-slate-100 dark:hover:bg-[#27273a] rounded-lg transition-colors cursor-pointer">
+<span class="material-symbols-outlined text-[20px]">touch_app</span>
+<p class="text-sm font-medium">С</p>
+</div>
+<div class="flex items-center gap-3 px-3 py-2 text-slate-600 dark:text-[#9b9abc] hover:bg-slate-100 dark:hover:bg-[#27273a] rounded-lg transition-colors cursor-pointer">
+<span class="material-symbols-outlined text-[20px]">rounded_corner</span>
+<p class="text-sm font-medium">С</p>
+</div>
+</nav>
+</div>
+</aside>
+<!-- Main Content -->
+<main class="flex-1 overflow-x-hidden">
+<div class="max-w-6xl mx-auto p-6 md:p-10 flex flex-col gap-12">
+<!-- Page Heading -->
+<div class="flex flex-col gap-3">
+<div class="flex items-center gap-2 text-primary font-bold text-sm uppercase tracking-widest">
+<span class="h-[2px] w-8 bg-primary"></span>
+                            С
+                        </div>
+<h1 class="text-slate-900 dark:text-white text-4xl md:text-5xl font-black leading-tight tracking-[-0.033em]">Т  (UI Kit)</h1>
+<p class="text-slate-600 dark:text-[#9b9abc] text-lg max-w-3xl leading-relaxed">Е     B2B  MGTS.    - 2024 .</p>
+</div>
+<!-- 1. Color Palette Section -->
+<section class="flex flex-col gap-6">
+<div class="flex items-center justify-between border-b border-slate-200 dark:border-[#3a3956] pb-4">
+<h2 class="text-slate-900 dark:text-white text-[22px] font-bold tracking-tight flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">colors</span>
+Ц  (Color Palette)
+                            </h2>
+</div>
+<div class="overflow-hidden rounded-xl border border-slate-200 dark:border-[#3a3956] bg-white dark:bg-[#101018]">
+<div class="overflow-x-auto">
+<table class="w-full text-left border-collapse">
+<thead>
+<tr class="bg-slate-50 dark:bg-[#1b1b28]">
+<th class="px-6 py-4 text-slate-900 dark:text-white text-sm font-semibold">Н</th>
+<th class="px-6 py-4 text-slate-900 dark:text-white text-sm font-semibold">Variable</th>
+<th class="px-6 py-4 text-slate-900 dark:text-white text-sm font-semibold">HEX</th>
+<th class="px-6 py-4 text-slate-900 dark:text-white text-sm font-semibold">RGBA</th>
+<th class="px-6 py-4 text-slate-900 dark:text-white text-sm font-semibold text-center">Preview</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-slate-100 dark:divide-[#3a3956]">
+<tr>
+<td class="px-6 py-5 text-slate-600 dark:text-[#9b9abc] text-sm">Primary Blue</td>
+<td class="px-6 py-5">
+<code class="px-2 py-1 rounded bg-slate-100 dark:bg-[#27273a] text-primary dark:text-blue-400 text-xs">--color-primary-blue</code>
+</td>
+<td class="px-6 py-5 font-mono text-sm">#0066CC</td>
+<td class="px-6 py-5 font-mono text-sm text-slate-500">2, 102, 204, 1</td>
+<td class="px-6 py-5">
+<div class="w-full h-10 rounded-lg bg-[#0066CC] shadow-inner border border-white/10"></div>
+</td>
+</tr>
+<tr>
+<td class="px-6 py-5 text-slate-600 dark:text-[#9b9abc] text-sm">Accent Red</td>
+<td class="px-6 py-5">
+<code class="px-2 py-1 rounded bg-slate-100 dark:bg-[#27273a] text-primary dark:text-blue-400 text-xs">--color-accent-red</code>
+</td>
+<td class="px-6 py-5 font-mono text-sm">#E30611</td>
+<td class="px-6 py-5 font-mono text-sm text-slate-500">227, 6, 17, 1</td>
+<td class="px-6 py-5">
+<div class="w-full h-10 rounded-lg bg-[#E30611] shadow-inner border border-white/10"></div>
+</td>
+</tr>
+<tr>
+<td class="px-6 py-5 text-slate-600 dark:text-[#9b9abc] text-sm">Neutral Dark</td>
+<td class="px-6 py-5">
+<code class="px-2 py-1 rounded bg-slate-100 dark:bg-[#27273a] text-primary dark:text-blue-400 text-xs">--color-neutral-900</code>
+</td>
+<td class="px-6 py-5 font-mono text-sm">#111827</td>
+<td class="px-6 py-5 font-mono text-sm text-slate-500">17, 24, 39, 1</td>
+<td class="px-6 py-5">
+<div class="w-full h-10 rounded-lg bg-[#111827] shadow-inner border border-white/10"></div>
+</td>
+</tr>
+<tr>
+<td class="px-6 py-5 text-slate-600 dark:text-[#9b9abc] text-sm">Neutral Light</td>
+<td class="px-6 py-5">
+<code class="px-2 py-1 rounded bg-slate-100 dark:bg-[#27273a] text-primary dark:text-blue-400 text-xs">--color-neutral-100</code>
+</td>
+<td class="px-6 py-5 font-mono text-sm">#F3F4F6</td>
+<td class="px-6 py-5 font-mono text-sm text-slate-500">243, 244, 246, 1</td>
+<td class="px-6 py-5">
+<div class="w-full h-10 rounded-lg bg-[#F3F4F6] shadow-inner border border-slate-200"></div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+<!-- 2. Typography Section -->
+<section class="flex flex-col gap-6">
+<div class="flex items-center justify-between border-b border-slate-200 dark:border-[#3a3956] pb-4">
+<h2 class="text-slate-900 dark:text-white text-[22px] font-bold tracking-tight flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">text_fields</span>
+                                Т (Typography)
+                            </h2>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+<!-- Titles -->
+<div class="p-6 rounded-xl border border-slate-200 dark:border-[#3a3956] bg-white dark:bg-[#101018] flex flex-col gap-6">
+<h3 class="text-sm font-bold uppercase tracking-widest text-primary">MTS Sans (З)</h3>
+<div class="flex flex-col gap-8">
+<div class="flex flex-col gap-2">
+<div class="flex justify-between items-baseline">
+<span class="text-xs font-mono text-[#9b9abc]">H1 / Bold / 48px</span>
+</div>
+<p class="text-4xl md:text-5xl font-bold leading-tight">З H1</p>
+</div>
+<div class="flex flex-col gap-2">
+<div class="flex justify-between items-baseline">
+<span class="text-xs font-mono text-[#9b9abc]">H2 / Bold / 32px</span>
+</div>
+<p class="text-2xl md:text-3xl font-bold leading-tight">З H2</p>
+</div>
+<div class="flex flex-col gap-2">
+<div class="flex justify-between items-baseline">
+<span class="text-xs font-mono text-[#9b9abc]">H3 / SemiBold / 24px</span>
+</div>
+<p class="text-xl md:text-2xl font-semibold leading-tight">З H3</p>
+</div>
+</div>
+</div>
+<!-- Body -->
+<div class="p-6 rounded-xl border border-slate-200 dark:border-[#3a3956] bg-white dark:bg-[#101018] flex flex-col gap-6">
+<h3 class="text-sm font-bold uppercase tracking-widest text-primary">MTS Text (О )</h3>
+<div class="flex flex-col gap-8">
+<div class="flex flex-col gap-2">
+<div class="flex justify-between items-baseline">
+<span class="text-xs font-mono text-[#9b9abc]">Body L / Regular / 18px</span>
+</div>
+<p class="text-lg leading-relaxed">О   (Body L).       .</p>
+</div>
+<div class="flex flex-col gap-2">
+<div class="flex justify-between items-baseline">
+<span class="text-xs font-mono text-[#9b9abc]">Body M / Regular / 16px</span>
+</div>
+<p class="text-base leading-normal">Т   (Body M).        .</p>
+</div>
+<div class="flex flex-col gap-2">
+<div class="flex justify-between items-baseline">
+<span class="text-xs font-mono text-[#9b9abc]">Caption / Medium / 12px</span>
+</div>
+<p class="text-xs font-medium text-slate-500 uppercase tracking-wide">П    (Caption)</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 3. Spacing & Grid -->
+<section class="flex flex-col gap-6">
+<div class="flex items-center justify-between border-b border-slate-200 dark:border-[#3a3956] pb-4">
+<h2 class="text-slate-900 dark:text-white text-[22px] font-bold tracking-tight flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">straighten</span>
+                                С  (8-pt Grid)
+                            </h2>
+</div>
+<div class="p-8 rounded-xl border border-slate-200 dark:border-[#3a3956] bg-white dark:bg-[#101018]">
+<div class="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-8 gap-6 items-end">
+<div class="flex flex-col items-center gap-3">
+<div class="w-2 h-2 bg-primary/40 rounded"></div>
+<span class="text-xs font-mono text-slate-500">8px</span>
+</div>
+<div class="flex flex-col items-center gap-3">
+<div class="w-4 h-4 bg-primary/50 rounded"></div>
+<span class="text-xs font-mono text-slate-500">16px</span>
+</div>
+<div class="flex flex-col items-center gap-3">
+<div class="w-6 h-6 bg-primary/60 rounded"></div>
+<span class="text-xs font-mono text-slate-500">24px</span>
+</div>
+<div class="flex flex-col items-center gap-3">
+<div class="w-8 h-8 bg-primary/70 rounded"></div>
+<span class="text-xs font-mono text-slate-500">32px</span>
+</div>
+<div class="flex flex-col items-center gap-3">
+<div class="w-10 h-10 bg-primary/80 rounded"></div>
+<span class="text-xs font-mono text-slate-500">40px</span>
+</div>
+<div class="flex flex-col items-center gap-3">
+<div class="w-12 h-12 bg-primary/90 rounded"></div>
+<span class="text-xs font-mono text-slate-500">48px</span>
+</div>
+<div class="flex flex-col items-center gap-3">
+<div class="w-14 h-14 bg-primary rounded"></div>
+<span class="text-xs font-mono text-slate-500">56px</span>
+</div>
+<div class="flex flex-col items-center gap-3">
+<div class="w-16 h-16 bg-primary ring-2 ring-primary/20 rounded"></div>
+<span class="text-xs font-mono text-slate-500">64px</span>
+</div>
+</div>
+<div class="mt-10 p-4 rounded-lg bg-slate-50 dark:bg-[#1b1b28] border border-dashed border-slate-300 dark:border-slate-700">
+<p class="text-sm text-slate-500 dark:text-[#9b9abc] italic text-center">В     (margin/padding)    8 .</p>
+</div>
+</div>
+</section>
+<!-- 4. Shadows & Effects -->
+<section class="flex flex-col gap-6">
+<div class="flex items-center justify-between border-b border-slate-200 dark:border-[#3a3956] pb-4">
+<h2 class="text-slate-900 dark:text-white text-[22px] font-bold tracking-tight flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">auto_fix_high</span>
+                                Т   (Shadows & Blur)
+                            </h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Glass -->
+<div class="relative h-48 rounded-xl overflow-hidden flex items-center justify-center bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500" data-alt="Abstract gradient background">
+<div class="glass p-6 rounded-xl text-center">
+<p class="text-white text-sm font-bold">Glassmorphism</p>
+<p class="text-white/70 text-xs font-mono mt-1">blur(20px)</p>
+</div>
+</div>
+<!-- Shadow 1 -->
+<div class="h-48 rounded-xl bg-white dark:bg-[#1b1b28] flex flex-col items-center justify-center border border-slate-200 dark:border-slate-800 shadow-lg">
+<p class="text-slate-900 dark:text-white text-sm font-bold">Elevation 1</p>
+<p class="text-slate-400 text-xs font-mono mt-1">0 10px 15px -3px</p>
+</div>
+<!-- Shadow 2 -->
+<div class="h-48 rounded-xl bg-white dark:bg-[#1b1b28] flex flex-col items-center justify-center border border-slate-200 dark:border-slate-800 shadow-2xl">
+<p class="text-slate-900 dark:text-white text-sm font-bold">Elevation 2</p>
+<p class="text-slate-400 text-xs font-mono mt-1">0 25px 50px -12px</p>
+</div>
+</div>
+</section>
+<!-- 5. Interactive States & Radius -->
+<section class="flex flex-col gap-6 mb-20">
+<div class="flex items-center justify-between border-b border-slate-200 dark:border-[#3a3956] pb-4">
+<h2 class="text-slate-900 dark:text-white text-[22px] font-bold tracking-tight flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">mouse</span>
+                                С  
+                            </h2>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+<!-- Buttons States -->
+<div class="flex flex-col gap-4">
+<h3 class="text-sm font-bold text-slate-500 uppercase tracking-widest">И </h3>
+<div class="grid grid-cols-2 gap-4">
+<div class="flex flex-col gap-2">
+<span class="text-xs font-mono text-[#9b9abc]">Default</span>
+<button class="bg-primary text-white py-3 px-6 rounded-lg font-bold text-sm">К</button>
+</div>
+<div class="flex flex-col gap-2">
+<span class="text-xs font-mono text-[#9b9abc]">Hover (10% lighter)</span>
+<button class="bg-[#2421ff] text-white py-3 px-6 rounded-lg font-bold text-sm">К</button>
+</div>
+<div class="flex flex-col gap-2">
+<span class="text-xs font-mono text-[#9b9abc]">Active (80% opacity)</span>
+<button class="bg-primary/80 text-white py-3 px-6 rounded-lg font-bold text-sm">К</button>
+</div>
+<div class="flex flex-col gap-2">
+<span class="text-xs font-mono text-[#9b9abc]">Disabled</span>
+<button class="bg-slate-200 dark:bg-[#27273a] text-slate-400 dark:text-slate-600 py-3 px-6 rounded-lg font-bold text-sm cursor-not-allowed">К</button>
+</div>
+</div>
+</div>
+<!-- Radius -->
+<div class="flex flex-col gap-4">
+<h3 class="text-sm font-bold text-slate-500 uppercase tracking-widest">С (Border Radius)</h3>
+<div class="grid grid-cols-2 gap-6">
+<div class="flex flex-col items-center gap-4 p-6 bg-slate-50 dark:bg-[#1b1b28] rounded-lg border border-slate-200 dark:border-slate-800">
+<div class="size-16 bg-primary rounded-lg"></div>
+<div class="text-center">
+<p class="text-sm font-bold">Standart LG</p>
+<p class="text-xs font-mono text-slate-500">8px</p>
+</div>
+</div>
+<div class="flex flex-col items-center gap-4 p-6 bg-slate-50 dark:bg-[#1b1b28] rounded-xl border border-slate-200 dark:border-slate-800">
+<div class="size-16 bg-primary rounded-xl"></div>
+<div class="text-center">
+<p class="text-sm font-bold">Accent XL</p>
+<p class="text-xs font-mono text-slate-500">12px</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</main>
+</div>
+</div>
+</body></html>

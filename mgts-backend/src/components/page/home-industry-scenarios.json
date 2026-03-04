@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_page_home_industry_scenarios",
+  "info": {
+    "displayName": "Home Industry Scenarios",
+    "description": "Секция отраслевых сценариев на главной"
+  },
+  "options": {},
+  "attributes": {
+    "isVisible": {
+      "type": "boolean",
+      "default": true
+    },
+    "title": {
+      "type": "string",
+      "default": "Отраслевые сценарии"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.home-industry-scenario-item"
+    }
+  }
+}

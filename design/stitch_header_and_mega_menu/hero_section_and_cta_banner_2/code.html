@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="ru"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="../../assets/fonts/google/100e1be8c3/font.css" rel="stylesheet"/>
+<link href="../../assets/fonts/material-symbols-outlined/material-symbols-outlined.css" rel="stylesheet"/>
+<link href="../../assets/fonts/material-symbols-outlined/material-symbols-outlined.css" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#0066cc",
+                        "accent-red": "#E30611",
+                        "background-light": "#f5f7f8",
+                        "background-dark": "#0f1923",
+                    },
+                    fontFamily: {
+                        "display": ["Space Grotesk", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .winter-frost {
+            background-image: radial-gradient(circle at top right, rgba(255,255,255,0.05) 0%, transparent 40%);
+            pointer-events: none;
+        }
+        .tech-gradient {
+            background: linear-gradient(135deg, #0f1923 0%, #1a2a3a 100%);
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-white antialiased">
+<!-- Header / Navigation -->
+<header class="sticky top-0 z-50 w-full border-b border-white/10 bg-background-dark/80 backdrop-blur-md">
+<div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+<div class="flex items-center gap-10">
+<div class="flex items-center gap-2">
+<div class="w-8 h-8 bg-primary rounded flex items-center justify-center">
+<span class="material-symbols-outlined text-white">lan</span>
+</div>
+<span class="text-2xl font-bold tracking-tighter text-white uppercase">МГТС</span>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-sm font-medium text-white/70 hover:text-white transition-colors" href="#">Решения</a>
+<a class="text-sm font-medium text-white/70 hover:text-white transition-colors" href="#">Инфраструктура</a>
+<a class="text-sm font-medium text-white/70 hover:text-white transition-colors" href="#">О компании</a>
+<a class="text-sm font-medium text-white/70 hover:text-white transition-colors" href="#">Поддержка</a>
+</nav>
+</div>
+<div class="flex items-center gap-4">
+<button class="flex items-center justify-center p-2 text-white/70 hover:text-white">
+<span class="material-symbols-outlined">search</span>
+</button>
+<button class="bg-primary hover:bg-primary/90 text-white px-5 py-2.5 rounded-lg text-sm font-bold transition-all shadow-lg shadow-primary/20">
+                    Личный кабинет
+                </button>
+</div>
+</div>
+</header>
+<main class="relative overflow-hidden">
+<!-- Seasonal Decoration (Winter) -->
+<div class="absolute top-0 right-0 w-96 h-96 winter-frost opacity-60"></div>
+<div class="absolute top-10 right-10 text-white/10 select-none">
+<span class="material-symbols-outlined text-6xl">ac_unit</span>
+</div>
+<!-- Hero Section -->
+<section class="relative min-h-[85vh] flex items-center pt-20 pb-32">
+<!-- Background Elements -->
+<div class="absolute inset-0 z-0">
+<div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1558494949-ef010cbdcc51?q=80&amp;w=2000')] bg-cover bg-center opacity-10 grayscale" data-alt="Close up of high speed server room lights"></div>
+<div class="absolute inset-0 bg-gradient-to-tr from-background-dark via-background-dark/90 to-primary/20"></div>
+</div>
+<div class="container mx-auto px-6 relative z-10">
+<div class="max-w-4xl">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs font-bold uppercase tracking-widest mb-6">
+<span class="relative flex h-2 w-2">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
+</span>
+                        Технологическое лидерство
+                    </div>
+<h1 class="text-5xl md:text-7xl lg:text-8xl font-black leading-[0.95] tracking-tight text-white mb-8">
+                        Цифровая <br/> экосистема <br/> <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-blue-400">для вашего бизнеса</span>
+</h1>
+<p class="text-lg md:text-xl text-slate-400 max-w-2xl mb-10 leading-relaxed">
+                        Надежная инфраструктура и инновационные решения МГТС для компаний любого масштаба. Мы строим будущее связи сегодня.
+                    </p>
+<div class="flex flex-col sm:flex-row gap-4">
+<button class="bg-accent-red hover:bg-[#c0050e] text-white px-8 py-4 rounded-xl text-lg font-bold transition-all flex items-center justify-center gap-2 group shadow-xl shadow-accent-red/20">
+                            Подобрать решение
+                            <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</button>
+<button class="bg-white/5 hover:bg-white/10 backdrop-blur-sm border border-white/10 text-white px-8 py-4 rounded-xl text-lg font-bold transition-all flex items-center justify-center">
+                            Оставить заявку
+                        </button>
+</div>
+</div>
+</div>
+<!-- Stats/Features Strip -->
+<div class="absolute bottom-0 left-0 w-full bg-white/5 backdrop-blur-xl border-t border-white/10 py-8 hidden lg:block">
+<div class="max-w-7xl mx-auto px-6 grid grid-cols-4 gap-8">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-primary text-3xl">speed</span>
+<div>
+<div class="text-white font-bold">100 Гбит/с</div>
+<div class="text-slate-500 text-xs uppercase tracking-wider">Скорость сети</div>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-primary text-3xl">verified_user</span>
+<div>
+<div class="text-white font-bold">99.9% SLA</div>
+<div class="text-slate-500 text-xs uppercase tracking-wider">Гарантия аптайма</div>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-primary text-3xl">hub</span>
+<div>
+<div class="text-white font-bold">Cloud Ready</div>
+<div class="text-slate-500 text-xs uppercase tracking-wider">Облачная среда</div>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-primary text-3xl">support_agent</span>
+<div>
+<div class="text-white font-bold">24/7 Expert</div>
+<div class="text-slate-500 text-xs uppercase tracking-wider">Техподдержка</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Banner Section -->
+<section class="py-24 bg-background-light dark:bg-background-dark relative">
+<div class="container mx-auto px-6">
+<div class="relative rounded-[2rem] overflow-hidden p-8 md:p-16 border border-white/5 shadow-2xl">
+<!-- Tech Abstract Background -->
+<div class="absolute inset-0 tech-gradient z-0"></div>
+<div class="absolute top-0 left-0 w-full h-full opacity-20 pointer-events-none" style="background-image: radial-gradient(circle at 20% 50%, #0066cc 0%, transparent 50%);"></div>
+<div class="relative z-10 flex flex-col lg:flex-row items-center justify-between gap-12">
+<div class="max-w-2xl text-center lg:text-left">
+<h2 class="text-4xl md:text-5xl font-black text-white leading-tight mb-6 tracking-tight">
+                                Готовы к цифровой <br/> трансформации?
+                            </h2>
+<p class="text-slate-400 text-lg md:text-xl leading-relaxed">
+                                Оставьте заявку сегодня и получите бесплатную консультацию эксперта по проектированию ИТ-инфраструктуры вашего предприятия.
+                            </p>
+</div>
+<div class="flex flex-col gap-6 w-full max-w-sm">
+<div class="p-1 bg-white/5 border border-white/10 rounded-2xl">
+<button class="w-full bg-primary hover:bg-primary/90 text-white py-5 px-8 rounded-xl text-xl font-bold transition-all shadow-lg shadow-primary/30 flex items-center justify-center gap-3">
+<span class="material-symbols-outlined">mail</span>
+                                    Связаться с нами
+                                </button>
+</div>
+<p class="text-slate-500 text-sm text-center">
+                                Отвечаем в течение 15 минут в рабочее время
+                            </p>
+</div>
+</div>
+<!-- Subtle Seasonal Element in CTA -->
+<div class="absolute bottom-4 left-4 text-white/5">
+<span class="material-symbols-outlined text-4xl">cloud_queue</span>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-background-dark border-t border-white/5 py-16">
+<div class="max-w-7xl mx-auto px-6">
+<div class="flex flex-col md:flex-row justify-between items-center gap-8 mb-12">
+<div class="flex items-center gap-2">
+<div class="w-6 h-6 bg-slate-700 rounded flex items-center justify-center">
+<span class="material-symbols-outlined text-xs text-white">lan</span>
+</div>
+<span class="text-xl font-bold tracking-tighter text-white uppercase opacity-50">МГТС</span>
+</div>
+<div class="flex gap-10 text-sm font-medium text-slate-500">
+<a class="hover:text-white transition-colors" href="#">Политика конфиденциальности</a>
+<a class="hover:text-white transition-colors" href="#">Условия использования</a>
+<a class="hover:text-white transition-colors" href="#">Контакты</a>
+</div>
+<div class="flex gap-4">
+<a class="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-slate-400 hover:text-white hover:border-white/30 transition-all" href="#">
+<span class="material-symbols-outlined text-xl">share</span>
+</a>
+<a class="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-slate-400 hover:text-white hover:border-white/30 transition-all" href="#">
+<span class="material-symbols-outlined text-xl">send</span>
+</a>
+</div>
+</div>
+<div class="text-center text-slate-600 text-sm border-t border-white/5 pt-8">
+                © 2024 ПАО МГТС. Все права защищены. Инфраструктурные решения нового поколения.
+            </div>
+</div>
+</footer>
+</body></html>

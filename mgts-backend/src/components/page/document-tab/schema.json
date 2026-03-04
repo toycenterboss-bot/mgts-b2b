@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_page_document_tabs_item",
+  "info": {
+    "displayName": "Document Tab",
+    "description": "Таб с документами (файлами)"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "description": "Название таба (например, 'Внутренние документы', 'Архив')"
+    },
+    "content": {
+      "type": "richtext",
+      "required": true,
+      "description": "HTML контент таба (files-table или другой контент)"
+    },
+    "filterKey": {
+      "type": "string",
+      "description": "Ключ фильтра категории (должен совпадать с file-item.categoryKey). Пусто = 'Все'."
+    },
+    "children": {
+      "type": "json",
+      "description": "Вложенные табы (массив объектов: { name, content, children })"
+    },
+    "order": {
+      "type": "integer",
+      "default": 0,
+      "description": "Порядок отображения таба"
+    }
+  }
+}

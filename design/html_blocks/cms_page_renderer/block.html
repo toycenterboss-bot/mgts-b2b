@@ -1,0 +1,35 @@
+<section class="bg-background-dark text-slate-100 min-h-screen relative overflow-x-hidden" data-stitch-block="cms_page_renderer">
+  <div class="fixed top-0 right-0 w-[500px] h-[500px] glow-leak pointer-events-none -z-10 translate-x-1/2 -translate-y-1/2"></div>
+  <div class="fixed bottom-0 left-0 w-[800px] h-[800px] glow-leak pointer-events-none -z-10 -translate-x-1/4 translate-y-1/4"></div>
+
+  <main class="max-w-[1400px] mx-auto px-8 py-12" data-cms-page>
+    <div class="mb-8" data-cms-demo>
+      <p class="text-xs font-black uppercase tracking-[0.25em] text-white/40">
+        CMS page demo • открой `tpl_cms_page.html?slug=...`
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
+      <aside class="lg:col-span-3 hidden" data-deepnav-sidebar>
+        <div class="rounded-2xl border border-white/10 bg-black/20 p-6">
+          <h3 class="text-xs font-black uppercase tracking-widest text-white/50 mb-4" data-deepnav-title>Раздел</h3>
+          <nav class="space-y-1.5" data-deepnav-nav></nav>
+        </div>
+      </aside>
+
+      <div class="lg:col-span-9" data-cms-content>
+        <header class="mb-10">
+          <h1 class="text-4xl md:text-5xl font-black tracking-tight" data-cms-title>Заголовок страницы</h1>
+          <p class="mt-4 text-white/60 max-w-3xl" data-cms-subtitle>Подзаголовок/описание (hero)</p>
+        </header>
+
+        <div class="space-y-10" data-cms-sections>
+          <section class="rounded-2xl border border-white/10 bg-white/5 p-6">
+            <p class="text-white/60 text-sm">Секции будут отрендерены из `Page.sections` (Dynamic Zone).</p>
+          </section>
+        </div>
+      </div>
+    </div>
+  </main>
+</section>
+

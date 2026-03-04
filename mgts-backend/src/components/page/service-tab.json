@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_page_service_tabs_item",
+  "info": {
+    "displayName": "Service Tab",
+    "description": "Таб с услугами (карточками услуг)"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "description": "Название таба (например, 'Интернет', 'Телефония', 'Телевидение')"
+    },
+    "content": {
+      "type": "richtext",
+      "required": true,
+      "description": "HTML контент таба (section-cards или другой контент)"
+    },
+    "order": {
+      "type": "integer",
+      "default": 0,
+      "description": "Порядок отображения таба"
+    }
+  }
+}

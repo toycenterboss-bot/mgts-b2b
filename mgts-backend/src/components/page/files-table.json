@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_page_files_tables",
+  "info": {
+    "displayName": "Files Table",
+    "description": "Табличное представление файловых документов. CSS классы: files-table (контейнер), files-table__title (заголовок), files-table__container (контейнер), files-table__item (элемент файла)"
+  },
+  "options": {},
+  "attributes": {
+    "isVisible": {
+      "type": "boolean",
+      "default": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "columns": {
+      "type": "json",
+      "description": "Массив названий колонок [{name: string, key: string}]"
+    },
+    "files": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.file-item"
+    }
+  }
+}

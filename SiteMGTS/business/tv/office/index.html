@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Корпоративное ТВ для офисов от МГТС">
+    <title>Корпоративное ТВ - МГТС Бизнес</title>
+    <link rel="stylesheet" href="../../../css/style.css">
+    <link rel="stylesheet" href="../../../css/service-components.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Skip Links для доступности -->
+    <a href="#main-content" class="skip-link">Перейти к основному контенту</a>
+    <a href="#mainNav" class="skip-link">Перейти к навигации</a>
+    
+    <header>
+
+    
+        <div data-component="header"></div>
+
+    
+    </header>
+
+    <nav class="breadcrumbs" aria-label="Хлебные крошки">
+        <div class="container">
+            <ul class="breadcrumbs-list" itemscope itemtype="https://schema.org/BreadcrumbList">
+                <li class="breadcrumbs-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <a href="../../../index.html" itemprop="item">Главная</a>
+                    <meta itemprop="position" content="1" />
+                </li>
+                <li class="breadcrumbs-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <a href="../../index.html" itemprop="item">Бизнес</a>
+                    <meta itemprop="position" content="2" />
+                </li>
+                <li class="breadcrumbs-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <a href="../index.html" itemprop="item">Цифровое ТВ</a>
+                    <meta itemprop="position" content="3" />
+                </li>
+                <li class="breadcrumbs-item active" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <span itemprop="name">Корпоративное ТВ</span>
+                    <meta itemprop="position" content="4" />
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="main-content" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Корпоративное телевидение</h1>
+                <p>Телевидение для офисов, гостиниц и общественных пространств. Множество экранов, корпоративные каналы, техническая поддержка.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контент будет загружен из CMS -->
+    <section class="section">
+        <div class="container">
+            <!-- Контент из CMS будет вставлен сюда -->
+        </div>
+    </section>
+
+<footer>
+
+
+    <div data-component="footer"></div>
+
+
+</footer>
+
+        <script src="../../../js/main.js">
+    <script src="../../../js/service-components.js"></script>    <!-- Компоненты должны загружаться первыми -->
+    <script src="../../../js/api-client.js"></script>
+    <script src="../../../js/navigation-renderer.js"></script>
+    <script src="../../../js/footer-renderer.js"></script>
+    <script src="../../../js/components-loader.js"></script>
+        <script src="../../../js/cms-processors.js"></script>
+    <script src="../../../js/cms-loader.js"></script>
+    <script src="../../../js/mirror-slider.js"></script>
+    <script src="../../../js/history-timeline.js"></script>
+    <script src="../../../js/section-map.js"></script>
+    <script src="../../../js/mobile-app-section.js"></script>
+    <script src="../../../js/crm-cards.js"></script>
+
+
+    <!-- Компоненты должны загружаться первыми -->
+    <script src="../../../js/seasonal.js"></script>
+    <script src="../../../js/icons-replace.js"></script>
+    <script src="../../../js/animations.js"></script>
+    <!-- Дополнительная инициализация после загрузки всех скриптов -->
+    <script>
+        // Убеждаемся, что компоненты загружены после всех скриптов
+        window.addEventListener('load', function() {
+            setTimeout(function() {
+                if (typeof ComponentLoader !== 'undefined' && typeof ComponentLoader.init === 'function') {
+                    // Повторная инициализация на случай, если первая не сработала
+                    const header = document.querySelector('[data-component="header"]');
+                    const footer = document.querySelector('[data-component="footer"]');
+                    
+                    if (header && header.innerHTML.trim() === '') {
+                        console.log('Retrying header load...');
+                        ComponentLoader.load('header', '[data-component="header"]');
+                    }
+                    
+                    if (footer && footer.innerHTML.trim() === '') {
+                        console.log('Retrying footer load...');
+                        ComponentLoader.load('footer', '[data-component="footer"]');
+                    }
+                }
+            }, 500);
+        });
+    </script></body>
+</html>

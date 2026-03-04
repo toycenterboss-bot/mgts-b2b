@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_page_cta_buttons",
+  "info": {
+    "displayName": "CTA Button",
+    "description": "Кнопка призыва к действию"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "href": {
+      "type": "string",
+      "required": true
+    },
+    "style": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "outline",
+        "secondary"
+      ],
+      "default": "primary"
+    }
+  }
+}
+

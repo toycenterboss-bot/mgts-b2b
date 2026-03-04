@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_page_career_vacancy_items",
+  "info": {
+    "displayName": "Career Vacancy Item",
+    "description": "Карточка вакансии"
+  },
+  "options": {},
+  "attributes": {
+    "isVisible": {
+      "type": "boolean",
+      "default": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.career-vacancy-meta"
+    },
+    "tags": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.career-vacancy-tag"
+    },
+    "salaryText": {
+      "type": "string"
+    },
+    "ctaLabel": {
+      "type": "string",
+      "default": "Откликнуться"
+    },
+    "ctaUrl": {
+      "type": "string"
+    }
+  }
+}

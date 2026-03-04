@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <!-- Background gradient - dark to lighter blue for high-tech feel -->
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#0a0f2a"/>
+      <stop offset="50%" stop-color="#1a1f4a"/>
+      <stop offset="100%" stop-color="#0a1425"/>
+    </radialGradient>
+    
+    <!-- Core shape gradient - electric blue glow -->
+    <linearGradient id="coreGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00d4ff"/>
+      <stop offset="50%" stop-color="#0099ff"/>
+      <stop offset="100%" stop-color="#0066cc"/>
+    </linearGradient>
+    
+    <!-- Secondary gradient - cyan to purple -->
+    <linearGradient id="secGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00ffcc"/>
+      <stop offset="50%" stop-color="#0099aa"/>
+      <stop offset="100%" stop-color="#004466"/>
+    </linearGradient>
+    
+    <!-- Glow effect for futuristic shine -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <filter id="outerGlow">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="700" fill="url(#bgGrad)"/>
+  
+  <!-- Main central shape: upward arrow-like form symbolizing striving for excellence -->
+  <g filter="url(#outerGlow)">
+    <path d="M 600 500 Q 450 300 600 150 Q 750 300 600 500 Z" fill="url(#coreGrad)" filter="url(#glow)"/>
+    <!-- Inner highlight for dimension -->
+    <path d="M 580 480 Q 470 280 580 170 Q 690 280 580 480 Z" fill="#40e0ff" opacity="0.4"/>
+  </g>
+  
+  <!-- Orbiting geometric elements symbolizing innovation, risk-taking, cycles of learning -->
+  <!-- Cycle 1: Experimentation ring -->
+  <g transform="rotate(-30 600 350)">
+    <ellipse cx="600" cy="350" rx="200" ry="60" fill="none" stroke="url(#secGrad)" stroke-width="4" filter="url(#glow)" opacity="0.8"/>
+    <!-- Nodes on ring -->
+    <circle cx="750" cy="320" r="12" fill="#00ffcc" filter="url(#glow)"/>
+    <circle cx="480" cy="360" r="12" fill="#00ffcc" filter="url(#glow)"/>
+  </g>
+  
+  <!-- Cycle 2: Growth spiral -->
+  <g transform="rotate(60 600 350)">
+    <path d="M 600 250 Q 750 300 700 400 Q 550 450 500 350 Q 550 250 600 250" 
+          fill="none" stroke="#ff99cc" stroke-width="3" stroke-linecap="round" filter="url(#glow)" opacity="0.7"/>
+    <!-- Spiral end glow -->
+    <circle cx="600" cy="250" r="8" fill="#ff99cc" filter="url(#glow)"/>
+  </g>
+  
+  <!-- Responsibility base: Solid geometric foundation -->
+  <rect x="450" y="520" width="300" height="120" rx="20" fill="#1a2a55" stroke="#00d4ff" stroke-width="3" filter="url(#glow)"/>
+  <!-- Top of base with shine -->
+  <ellipse cx="600" cy="520" rx="280" ry="15" fill="#40a0ff" opacity="0.6"/>
+  
+  <!-- Supporting abstract particles - lessons learned, constant development -->
+  <g opacity="0.6">
+    <circle cx="300" cy="200" r="8" fill="#00d4ff" filter="url(#glow)"/>
+    <circle cx="900" cy="180" r="6" fill="#00ffcc" filter="url(#glow)"/>
+    <circle cx="200" cy="450" r="10" fill="#ff99cc" filter="url(#glow)"/>
+    <circle cx="1000" cy="420" r="7" fill="#0099ff" filter="url(#glow)"/>
+    <circle cx="350" cy="100" r="5" fill="#00d4ff" filter="url(#glow)"/>
+    <circle cx="850" cy="550" r="9" fill="#00ffcc" filter="url(#glow)"/>
+  </g>
+  
+  <!-- Subtle grid lines for high-tech feel -->
+  <g stroke="#0f1a33" stroke-width="1" opacity="0.3">
+    <line x1="0" y1="175" x2="1200" y2="175"/>
+    <line x1="0" y1="350" x2="1200" y2="350"/>
+    <line x1="0" y1="525" x2="1200" y2="525"/>
+    <line x1="400" y1="0" x2="400" y2="700"/>
+    <line x1="800" y1="0" x2="800" y2="700"/>
+  </g>
+  
+  <!-- Final glow overlay for cohesion -->
+  <ellipse cx="600" cy="350" rx="500" ry="300" fill="#00aaff" opacity="0.05"/>
+</svg>

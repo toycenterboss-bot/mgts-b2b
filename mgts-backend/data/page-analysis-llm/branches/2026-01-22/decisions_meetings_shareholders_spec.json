@@ -1,0 +1,333 @@
+{
+  "page": {
+    "slug": "decisions_meetings_shareholders",
+    "url": "https://business.mgts.ru/decisions_meetings_shareholders",
+    "pathname": "/decisions_meetings_shareholders",
+    "analyzedAt": "2026-01-13T10:58:53.672Z",
+    "screenshot": "/Users/andrey_efremov/Downloads/runs/mgts-backend/temp/page-analysis-llm/decisions_meetings_shareholders_screenshot.png",
+    "llmProvider": "perplexity",
+    "llmModel": "sonar"
+  },
+  "metadata": {
+    "title": "Решения общих собраний акционеров"
+  },
+  "sections": [
+    {
+      "sectionIndex": 1,
+      "type": "breadcrumbs",
+      "description": "Навигационная цепочка (хлебные крошки) для показа пути пользователя на сайте. Позволяет быстро вернуться на главную страницу.",
+      "title": "",
+      "subtitle": "",
+      "text": "",
+      "elements": [],
+      "images": [],
+      "links": {
+        "internalLinks": [
+          {
+            "text": "Главная",
+            "href": "/",
+            "purpose": "Переход на главную страницу сайта"
+          }
+        ],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [],
+      "tabs": []
+    },
+    {
+      "sectionIndex": 2,
+      "type": "hero",
+      "description": "Главный заголовок страницы, определяющий основную тему - решения общих собраний акционеров ПАО МГТС. Служит для понимания цели страницы.",
+      "title": "Решения общих собраний акционеров",
+      "subtitle": "",
+      "text": "",
+      "elements": [],
+      "images": [],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [],
+      "tabs": []
+    },
+    {
+      "sectionIndex": 3,
+      "type": "documents-list",
+      "description": "Основной контент страницы - список документов по годам с отчетами об итогах голосований на общих собраниях акционеров. Каждый год представлен как отдельный блок с заголовком и ссылками на PDF-файлы отчетов. Предоставляет акционерам доступ к официальным результатам собраний.",
+      "title": "",
+      "subtitle": "",
+      "text": "Список решений общих собраний акционеров, организованный по годам от 2025 до 2019 (и ранее по текстовой версии). Каждый блок содержит заголовок года и ссылки на PDF-документы отчетов.",
+      "elements": [],
+      "images": [],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [
+          {
+            "text": "Отчет об итогах голосования внеочередного Общего собрания акционеров ПАО МГТС 16 сентября 2025 года",
+            "href": "https://business.mgts.ru/static/files/stockholder/decisions/Otchet_ob_itogakh_golosovaniya_na_vneocherednom_Obshchem_sobranii_aktsionerov_PAO_MGTS_16.09.25.pdf",
+            "fileType": "pdf",
+            "purpose": "Отчет об итогах голосования внеочередного ОСА 16.09.2025",
+            "title": "2025 год"
+          },
+          {
+            "text": "Отчет об итогах голосования на годовом Общем собрании акционеров ПАО МГТС 20 июня 2025 года",
+            "href": "https://business.mgts.ru/static/files/stockholder/decisions/7abubjcwabqy037vv5325c1ejn4qet7v.pdf",
+            "fileType": "pdf",
+            "purpose": "Отчет об итогах голосования годового ОСА 20.06.2025",
+            "title": "2025 год"
+          },
+          {
+            "text": "Отчет об итогах голосования на годовом Общем собрании акционеров ПАО МГТС 21 июня 2024 года",
+            "href": "https://business.mgts.ru/static/files/stockholder/decisions/voting-results-report-for-disclosure.pdf",
+            "fileType": "pdf",
+            "purpose": "Отчет об итогах голосования годового ОСА 21.06.2024",
+            "title": "2025 год"
+          },
+          {
+            "text": "Отчет об итогах голосования на годовом Общем собрании акционеров ПАО МГТС 17 июня 2022 года»",
+            "href": "https://business.mgts.ru/static/files/stockholder/decisions/05650n3fhms1b0nbqci5o19ycz4cnyv3.pdf",
+            "fileType": "pdf",
+            "purpose": "Отчет об итогах голосования годового ОСА 17.06.2022",
+            "title": "2025 год"
+          },
+          {
+            "text": "Отчет об итогах голосования на годовом Общем собрании акционеров ПАО МГТС 18 июня 2021 года»",
+            "href": "https://business.mgts.ru/static/files/stockholder/decisions/otchet-ob-itogakh-golosovaniya-na-godovom-obshhem-sobranii-akczionerov-pao-mgts-18-iyunya-2021-goda.pdf",
+            "fileType": "pdf",
+            "purpose": "Отчет об итогах голосования годового ОСА 18.06.2021",
+            "title": "2025 год"
+          },
+          {
+            "text": "Отчет об итогах голосования на годовом Общем собрании акционеров ПАО МГТС 19 июня 2020 года",
+            "href": "https://business.mgts.ru/static/files/stockholder/decisions/otchet-ob-itogakh-golosovaniya-na-godovom-obshhem-sobranii-akczionerov-pao-mgts-19-iyunya-2020-goda.pdf",
+            "fileType": "pdf",
+            "purpose": "Отчет об итогах голосования годового ОСА 19.06.2020",
+            "title": "2025 год"
+          },
+          {
+            "text": "Отчет об итогах голосования на внеочередном Общем собрании акционеров ПАО МГТС 24 декабря 2019 года",
+            "href": "https://business.mgts.ru/static/files/stockholder/decisions/Otchet_ob_itogakh_golosovaniya_na_vneocherednom_Obshchem_sobranii_aktsionerov_PAO_MGTS_24_dekabrya_2019_goda.pdf",
+            "fileType": "pdf",
+            "purpose": "Отчет об итогах голосования внеочередного ОСА 24.12.2019",
+            "title": "2019 год"
+          },
+          {
+            "text": "Отчет об итогах голосования на годовом Общем собрании акционеров ПАО МГТС 21 июня 2019 года",
+            "href": "https://business.mgts.ru/static/files/stockholder/decisions/Otchet_ob_itogakh_golosovaniya_na_godovom_Obshchem_sobranii_aktsionerov_21_iyunya_2019.pdf",
+            "fileType": "pdf",
+            "purpose": "Отчет об итогах голосования годового ОСА 21.06.2019",
+            "title": "2025 год"
+          },
+          {
+            "text": "Отчет об итогах голосования на ВОСА МГТС 03 ноября 2016 года",
+            "href": "https://business.mgts.ru/static/files/stockholder/decisions/Otchet_ob_itogakh_golosovaniya_na_VOSA_MGTS_03112016_.pdf",
+            "fileType": "pdf",
+            "purpose": "",
+            "title": "2016 год",
+            "fileName": "Otchet_ob_itogakh_golosovaniya_na_VOSA_MGTS_03112016_.pdf"
+          },
+          {
+            "text": "Протокол ГОСА от 19.06.2015 г.",
+            "href": "https://business.mgts.ru/static/files/stockholder/decisions/Protokol_GOSA_19062015.pdf",
+            "fileType": "pdf",
+            "purpose": "",
+            "title": "2015 год",
+            "fileName": "Protokol_GOSA_19062015.pdf"
+          },
+          {
+            "text": "Протокол ГОСА от 20.06.2014 г.",
+            "href": "https://business.mgts.ru/static/files/stockholder/decisions/2104_Protocol GOSA.pdf",
+            "fileType": "pdf",
+            "purpose": "",
+            "title": "2014 год",
+            "fileName": "2104_Protocol GOSA.pdf"
+          },
+          {
+            "text": "Протокол ВОСА № 3-13 от 26.12.2013 г.",
+            "href": "https://business.mgts.ru/static/files/stockholder/decisions/Протокол ВОСА № 3-13 от 26.12.2013.pdf",
+            "fileType": "pdf",
+            "purpose": "",
+            "title": "2013 год",
+            "fileName": "Протокол ВОСА № 3-13 от 26.12.2013.pdf"
+          },
+          {
+            "text": "Протокол ВОСА № 2-13 от 31.07.2013 г.",
+            "href": "https://business.mgts.ru/static/files/stockholder/decisions/Протокол ВОСА № 2-13 от 31.07.2013.pdf",
+            "fileType": "pdf",
+            "purpose": "",
+            "title": "2013 год",
+            "fileName": "Протокол ВОСА № 2-13 от 31.07.2013.pdf"
+          },
+          {
+            "text": "Протокол ВОСА от 21.07.2013 г.",
+            "href": "https://business.mgts.ru/static/files/stockholder/decisions/Протокол_ВОСА_31072013.pdf",
+            "fileType": "pdf",
+            "purpose": "",
+            "title": "2013 год",
+            "fileName": "Протокол_ВОСА_31072013.pdf"
+          },
+          {
+            "text": "Протокол ГОСА № 1-13 от 21.06.2013 г.",
+            "href": "https://business.mgts.ru/static/files/stockholder/decisions/Протокол ГОСА № 1-13 от 21.06.2013.pdf",
+            "fileType": "pdf",
+            "purpose": "",
+            "title": "2013 год",
+            "fileName": "Протокол ГОСА № 1-13 от 21.06.2013.pdf"
+          },
+          {
+            "text": "Протокол ВОСА № 2-12 от 21.12.2012 г.",
+            "href": "https://business.mgts.ru/static/files/stockholder/decisions/Протокол ВОСА № 2-12 от 21.12.2012.pdf",
+            "fileType": "pdf",
+            "purpose": "",
+            "title": "2012 год",
+            "fileName": "Протокол ВОСА № 2-12 от 21.12.2012.pdf"
+          },
+          {
+            "text": "Протокол ГОСА № 1-12 от 29.06.2012 г.",
+            "href": "https://business.mgts.ru/static/files/stockholder/decisions/Протокол ГОСА № 1-12 от 29.06.2012.pdf",
+            "fileType": "pdf",
+            "purpose": "",
+            "title": "2012 год",
+            "fileName": "Протокол ГОСА № 1-12 от 29.06.2012.pdf"
+          },
+          {
+            "text": "Протокол ВОСА № 3-11 от 05.08.2011 г.",
+            "href": "https://business.mgts.ru/static/files/stockholder/decisions/Протокол ВОСА № 3-11 от 05.08.2011.pdf",
+            "fileType": "pdf",
+            "purpose": "",
+            "title": "2011 год",
+            "fileName": "Протокол ВОСА № 3-11 от 05.08.2011.pdf"
+          },
+          {
+            "text": "Протокол ГОСА № 2-11 от 19.05.2011 г.",
+            "href": "https://business.mgts.ru/static/files/stockholder/decisions/Протокол ГОСА № 2-11 от 19.05.2011.pdf",
+            "fileType": "pdf",
+            "purpose": "",
+            "title": "2011 год",
+            "fileName": "Протокол ГОСА № 2-11 от 19.05.2011.pdf"
+          },
+          {
+            "text": "Протокол ВОСА № 1-11 от 22.04.2011 г.",
+            "href": "https://business.mgts.ru/static/files/stockholder/decisions/Протокол ВОСА № 1-11 от 22.04.2011.pdf",
+            "fileType": "pdf",
+            "purpose": "",
+            "title": "2011 год",
+            "fileName": "Протокол ВОСА № 1-11 от 22.04.2011.pdf"
+          },
+          {
+            "text": "Протокол ВОСА от 12.10.2010 г.",
+            "href": "https://business.mgts.ru/static/files/stockholder/decisions/Протокол ВОСА от 12 10 2010.pdf",
+            "fileType": "pdf",
+            "purpose": "",
+            "title": "2010 год",
+            "fileName": "Протокол ВОСА от 12 10 2010.pdf"
+          },
+          {
+            "text": "Протокол ГОСА от 28.06.2010 г.",
+            "href": "https://business.mgts.ru/static/files/stockholder/decisions/Протокол ГОСА от 28 06 2010.pdf",
+            "fileType": "pdf",
+            "purpose": "",
+            "title": "2010 год",
+            "fileName": "Протокол ГОСА от 28 06 2010.pdf"
+          },
+          {
+            "text": "Протокол ВОСА от 26.03.2010 г.",
+            "href": "https://business.mgts.ru/static/files/stockholder/decisions/Протокол ВОСА от 26 03 2010.pdf",
+            "fileType": "pdf",
+            "purpose": "",
+            "title": "2010 год",
+            "fileName": "Протокол ВОСА от 26 03 2010.pdf"
+          },
+          {
+            "text": "Протокол ВОСА от 12.02.2010 г.",
+            "href": "https://business.mgts.ru/static/files/stockholder/decisions/8.1_Протокол_ВОСА_12102010.pdf",
+            "fileType": "pdf",
+            "purpose": "",
+            "title": "2010 год",
+            "fileName": "8.1_Протокол_ВОСА_12102010.pdf"
+          },
+          {
+            "text": "Протокол ГОСА от 26.06.2009 г.",
+            "href": "https://business.mgts.ru/static/files/stockholder/decisions/Протокол ГОСА от 26 06 2009.pdf",
+            "fileType": "pdf",
+            "purpose": "",
+            "title": "2009 год",
+            "fileName": "Протокол ГОСА от 26 06 2009.pdf"
+          },
+          {
+            "text": "Протокол ГОСА от 27.06.2008 г.",
+            "href": "https://business.mgts.ru/static/files/stockholder/decisions/2008_Protokol_GOSA_ot_27.06.2008.pdf",
+            "fileType": "pdf",
+            "purpose": "",
+            "title": "2008 год",
+            "fileName": "2008_Protokol_GOSA_ot_27.06.2008.pdf"
+          },
+          {
+            "text": "Протокол ГОСА от 29.06.2007 г.",
+            "href": "https://business.mgts.ru/static/files/stockholder/decisions/2007_Protokol_GOSA_ot_29.06.2007.pdf",
+            "fileType": "pdf",
+            "purpose": "",
+            "title": "2007 год",
+            "fileName": "2007_Protokol_GOSA_ot_29.06.2007.pdf"
+          },
+          {
+            "text": "Протокол ГОСА от 17.06.2006 г.",
+            "href": "https://business.mgts.ru/static/files/stockholder/decisions/2006_Protokol_GOSA_ot_17_06_2006.pdf",
+            "fileType": "pdf",
+            "purpose": "",
+            "title": "2006 год",
+            "fileName": "2006_Protokol_GOSA_ot_17_06_2006.pdf"
+          },
+          {
+            "text": "Протокол ГОСА от 18.06.2005 г.",
+            "href": "https://business.mgts.ru/static/files/stockholder/decisions/2005_Protokol_GOSA_ot_18_06_2005.pdf",
+            "fileType": "pdf",
+            "purpose": "",
+            "title": "2005 год",
+            "fileName": "2005_Protokol_GOSA_ot_18_06_2005.pdf"
+          },
+          {
+            "text": "Протокол ГОСА от 19.06.2004 г.",
+            "href": "https://business.mgts.ru/static/files/stockholder/decisions/2004_Protokol_GOSA_ot_19_06_2004.pdf",
+            "fileType": "pdf",
+            "purpose": "",
+            "title": "2004 год",
+            "fileName": "2004_Protokol_GOSA_ot_19_06_2004.pdf"
+          },
+          {
+            "text": "Протокол ГОСА от 07.06.2003 г.",
+            "href": "https://business.mgts.ru/static/files/stockholder/decisions/2003_Protokol_GOSA_ot_07_06_2003.pdf",
+            "fileType": "pdf",
+            "purpose": "",
+            "title": "2003 год",
+            "fileName": "2003_Protokol_GOSA_ot_07_06_2003.pdf"
+          },
+          {
+            "text": "Протокол ОГСА от 15.06.2002 г.",
+            "href": "https://business.mgts.ru/static/files/stockholder/decisions/2002_Protokol_GOSA_ot_15_06_2002.pdf",
+            "fileType": "pdf",
+            "purpose": "",
+            "title": "2002 год",
+            "fileName": "2002_Protokol_GOSA_ot_15_06_2002.pdf"
+          },
+          {
+            "text": "Протокол ОГСА от 16.06.2001 г.",
+            "href": "https://business.mgts.ru/static/files/stockholder/decisions/2001_Protokol_GOSA_ot_16_06_2001.pdf",
+            "fileType": "pdf",
+            "purpose": "",
+            "title": "2001 год",
+            "fileName": "2001_Protokol_GOSA_ot_16_06_2001.pdf"
+          }
+        ],
+        "imageLinks": []
+      },
+      "cards": [],
+      "tabs": []
+    }
+  ]
+}

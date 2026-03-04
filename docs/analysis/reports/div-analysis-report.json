@@ -1,0 +1,1010 @@
+{
+  "totalClasses": 36,
+  "classes": [
+    {
+      "className": "card",
+      "count": 26,
+      "pagesCount": 24,
+      "pages": [
+        "business/telephony",
+        "about/values",
+        "about/ethics/single-hotline",
+        "about/governance/documents",
+        "about/governance",
+        "about/governance/infoformen",
+        "about/governance/principles",
+        "about/governance/registrar",
+        "about/governance/shareholders",
+        "contacts",
+        "business/cloud",
+        "business/security",
+        "business/tv",
+        "business/security/access-control",
+        "business/security/alarm",
+        "business/cloud/services",
+        "business/tv/office",
+        "business/internet",
+        "business/cloud/vps",
+        "business",
+        "developers",
+        "government",
+        "operators",
+        "partners"
+      ],
+      "examples": [
+        {
+          "classes": "card",
+          "id": null,
+          "hasStyle": false,
+          "page": "business/telephony"
+        },
+        {
+          "classes": "card",
+          "id": null,
+          "hasStyle": false,
+          "page": "about/values"
+        },
+        {
+          "classes": "card",
+          "id": null,
+          "hasStyle": false,
+          "page": "about/ethics/single-hotline"
+        },
+        {
+          "classes": "card",
+          "id": null,
+          "hasStyle": false,
+          "page": "about/governance/documents"
+        },
+        {
+          "classes": "card",
+          "id": null,
+          "hasStyle": false,
+          "page": "about/governance"
+        }
+      ]
+    },
+    {
+      "className": "grid",
+      "count": 22,
+      "pagesCount": 16,
+      "pages": [
+        "business/telephony",
+        "business/internet/gpon",
+        "business/internet/dedicated",
+        "business/internet/office",
+        "business/telephony/fixed",
+        "business/telephony/ip",
+        "business/telephony/vpbx",
+        "business/telephony/mobile",
+        "business/cloud/storage",
+        "business/tv/iptv",
+        "business/security/video-surveillance",
+        "business",
+        "developers",
+        "government",
+        "operators",
+        "partners"
+      ],
+      "examples": [
+        {
+          "classes": "grid",
+          "id": null,
+          "hasStyle": false,
+          "page": "business/telephony"
+        },
+        {
+          "classes": "grid",
+          "id": null,
+          "hasStyle": false,
+          "page": "business/telephony"
+        },
+        {
+          "classes": "grid",
+          "id": null,
+          "hasStyle": false,
+          "page": "business/internet/gpon"
+        },
+        {
+          "classes": "grid",
+          "id": null,
+          "hasStyle": false,
+          "page": "business/internet/dedicated"
+        },
+        {
+          "classes": "grid",
+          "id": null,
+          "hasStyle": false,
+          "page": "business/internet/office"
+        }
+      ]
+    },
+    {
+      "className": "grid-item",
+      "count": 11,
+      "pagesCount": 11,
+      "pages": [
+        "business/telephony",
+        "business/internet/gpon",
+        "business/internet/dedicated",
+        "business/internet/office",
+        "business/telephony/fixed",
+        "business/telephony/ip",
+        "business/telephony/vpbx",
+        "business/telephony/mobile",
+        "business/cloud/storage",
+        "business/tv/iptv",
+        "business/security/video-surveillance"
+      ],
+      "examples": [
+        {
+          "classes": "grid-item",
+          "id": null,
+          "hasStyle": false,
+          "page": "business/telephony"
+        },
+        {
+          "classes": "grid-item",
+          "id": null,
+          "hasStyle": false,
+          "page": "business/internet/gpon"
+        },
+        {
+          "classes": "grid-item",
+          "id": null,
+          "hasStyle": false,
+          "page": "business/internet/dedicated"
+        },
+        {
+          "classes": "grid-item",
+          "id": null,
+          "hasStyle": false,
+          "page": "business/internet/office"
+        },
+        {
+          "classes": "grid-item",
+          "id": null,
+          "hasStyle": false,
+          "page": "business/telephony/fixed"
+        }
+      ]
+    },
+    {
+      "className": "tariffs-grid",
+      "count": 11,
+      "pagesCount": 11,
+      "pages": [
+        "business/internet/gpon",
+        "business/internet/dedicated",
+        "business/internet/office",
+        "business/telephony/fixed",
+        "business/telephony/ip",
+        "business/telephony/vpbx",
+        "business/telephony/mobile",
+        "business/cloud/storage",
+        "business/tv/iptv",
+        "business/cloud/vps",
+        "business/security/video-surveillance"
+      ],
+      "examples": [
+        {
+          "classes": "tariffs-grid",
+          "id": null,
+          "hasStyle": false,
+          "page": "business/internet/gpon"
+        },
+        {
+          "classes": "tariffs-grid",
+          "id": null,
+          "hasStyle": false,
+          "page": "business/internet/dedicated"
+        },
+        {
+          "classes": "tariffs-grid",
+          "id": null,
+          "hasStyle": false,
+          "page": "business/internet/office"
+        },
+        {
+          "classes": "tariffs-grid",
+          "id": null,
+          "hasStyle": false,
+          "page": "business/telephony/fixed"
+        },
+        {
+          "classes": "tariffs-grid",
+          "id": null,
+          "hasStyle": false,
+          "page": "business/telephony/ip"
+        }
+      ]
+    },
+    {
+      "className": "tariff-card",
+      "count": 11,
+      "pagesCount": 11,
+      "pages": [
+        "business/internet/gpon",
+        "business/internet/dedicated",
+        "business/internet/office",
+        "business/telephony/fixed",
+        "business/telephony/ip",
+        "business/telephony/vpbx",
+        "business/telephony/mobile",
+        "business/cloud/storage",
+        "business/tv/iptv",
+        "business/cloud/vps",
+        "business/security/video-surveillance"
+      ],
+      "examples": [
+        {
+          "classes": "tariff-card",
+          "id": null,
+          "hasStyle": false,
+          "page": "business/internet/gpon"
+        },
+        {
+          "classes": "tariff-card",
+          "id": null,
+          "hasStyle": false,
+          "page": "business/internet/dedicated"
+        },
+        {
+          "classes": "tariff-card",
+          "id": null,
+          "hasStyle": false,
+          "page": "business/internet/office"
+        },
+        {
+          "classes": "tariff-card",
+          "id": null,
+          "hasStyle": false,
+          "page": "business/telephony/fixed"
+        },
+        {
+          "classes": "tariff-card",
+          "id": null,
+          "hasStyle": false,
+          "page": "business/telephony/ip"
+        }
+      ]
+    },
+    {
+      "className": "tariff-card__header",
+      "count": 11,
+      "pagesCount": 11,
+      "pages": [
+        "business/internet/gpon",
+        "business/internet/dedicated",
+        "business/internet/office",
+        "business/telephony/fixed",
+        "business/telephony/ip",
+        "business/telephony/vpbx",
+        "business/telephony/mobile",
+        "business/cloud/storage",
+        "business/tv/iptv",
+        "business/cloud/vps",
+        "business/security/video-surveillance"
+      ],
+      "examples": [
+        {
+          "classes": "tariff-card__header",
+          "id": null,
+          "hasStyle": false,
+          "page": "business/internet/gpon"
+        },
+        {
+          "classes": "tariff-card__header",
+          "id": null,
+          "hasStyle": false,
+          "page": "business/internet/dedicated"
+        },
+        {
+          "classes": "tariff-card__header",
+          "id": null,
+          "hasStyle": false,
+          "page": "business/internet/office"
+        },
+        {
+          "classes": "tariff-card__header",
+          "id": null,
+          "hasStyle": false,
+          "page": "business/telephony/fixed"
+        },
+        {
+          "classes": "tariff-card__header",
+          "id": null,
+          "hasStyle": false,
+          "page": "business/telephony/ip"
+        }
+      ]
+    },
+    {
+      "className": "tariff-price",
+      "count": 11,
+      "pagesCount": 11,
+      "pages": [
+        "business/internet/gpon",
+        "business/internet/dedicated",
+        "business/internet/office",
+        "business/telephony/fixed",
+        "business/telephony/ip",
+        "business/telephony/vpbx",
+        "business/telephony/mobile",
+        "business/cloud/storage",
+        "business/tv/iptv",
+        "business/cloud/vps",
+        "business/security/video-surveillance"
+      ],
+      "examples": [
+        {
+          "classes": "tariff-price",
+          "id": null,
+          "hasStyle": false,
+          "page": "business/internet/gpon"
+        },
+        {
+          "classes": "tariff-price",
+          "id": null,
+          "hasStyle": false,
+          "page": "business/internet/dedicated"
+        },
+        {
+          "classes": "tariff-price",
+          "id": null,
+          "hasStyle": false,
+          "page": "business/internet/office"
+        },
+        {
+          "classes": "tariff-price",
+          "id": null,
+          "hasStyle": false,
+          "page": "business/telephony/fixed"
+        },
+        {
+          "classes": "tariff-price",
+          "id": null,
+          "hasStyle": false,
+          "page": "business/telephony/ip"
+        }
+      ]
+    },
+    {
+      "className": "card-body",
+      "count": 8,
+      "pagesCount": 5,
+      "pages": [
+        "business",
+        "developers",
+        "government",
+        "operators",
+        "partners"
+      ],
+      "examples": [
+        {
+          "classes": "card-body",
+          "id": null,
+          "hasStyle": false,
+          "page": "business"
+        },
+        {
+          "classes": "card-body",
+          "id": null,
+          "hasStyle": false,
+          "page": "business"
+        },
+        {
+          "classes": "card-body",
+          "id": null,
+          "hasStyle": false,
+          "page": "business"
+        },
+        {
+          "classes": "card-body",
+          "id": null,
+          "hasStyle": false,
+          "page": "developers"
+        },
+        {
+          "classes": "card-body",
+          "id": null,
+          "hasStyle": false,
+          "page": "government"
+        }
+      ]
+    },
+    {
+      "className": "grid-cols-3",
+      "count": 6,
+      "pagesCount": 5,
+      "pages": [
+        "business",
+        "developers",
+        "government",
+        "operators",
+        "partners"
+      ],
+      "examples": [
+        {
+          "classes": "grid grid-cols-3",
+          "id": null,
+          "hasStyle": false,
+          "page": "business"
+        },
+        {
+          "classes": "grid grid-cols-3",
+          "id": null,
+          "hasStyle": false,
+          "page": "business"
+        },
+        {
+          "classes": "grid grid-cols-3",
+          "id": null,
+          "hasStyle": false,
+          "page": "developers"
+        },
+        {
+          "classes": "grid grid-cols-3",
+          "id": null,
+          "hasStyle": false,
+          "page": "government"
+        },
+        {
+          "classes": "grid grid-cols-3",
+          "id": null,
+          "hasStyle": false,
+          "page": "operators"
+        }
+      ]
+    },
+    {
+      "className": "faq-list",
+      "count": 4,
+      "pagesCount": 4,
+      "pages": [
+        "business/internet/gpon",
+        "business/internet/dedicated",
+        "business/telephony/ip",
+        "business/telephony/vpbx"
+      ],
+      "examples": [
+        {
+          "classes": "faq-list",
+          "id": null,
+          "hasStyle": false,
+          "page": "business/internet/gpon"
+        },
+        {
+          "classes": "faq-list",
+          "id": null,
+          "hasStyle": false,
+          "page": "business/internet/dedicated"
+        },
+        {
+          "classes": "faq-list",
+          "id": null,
+          "hasStyle": false,
+          "page": "business/telephony/ip"
+        },
+        {
+          "classes": "faq-list",
+          "id": null,
+          "hasStyle": false,
+          "page": "business/telephony/vpbx"
+        }
+      ]
+    },
+    {
+      "className": "faq-item",
+      "count": 4,
+      "pagesCount": 4,
+      "pages": [
+        "business/internet/gpon",
+        "business/internet/dedicated",
+        "business/telephony/ip",
+        "business/telephony/vpbx"
+      ],
+      "examples": [
+        {
+          "classes": "faq-item",
+          "id": null,
+          "hasStyle": false,
+          "page": "business/internet/gpon"
+        },
+        {
+          "classes": "faq-item",
+          "id": null,
+          "hasStyle": false,
+          "page": "business/internet/dedicated"
+        },
+        {
+          "classes": "faq-item",
+          "id": null,
+          "hasStyle": false,
+          "page": "business/telephony/ip"
+        },
+        {
+          "classes": "faq-item",
+          "id": null,
+          "hasStyle": false,
+          "page": "business/telephony/vpbx"
+        }
+      ]
+    },
+    {
+      "className": "faq-answer",
+      "count": 4,
+      "pagesCount": 4,
+      "pages": [
+        "business/internet/gpon",
+        "business/internet/dedicated",
+        "business/telephony/ip",
+        "business/telephony/vpbx"
+      ],
+      "examples": [
+        {
+          "classes": "faq-answer",
+          "id": "faq-answer-1",
+          "hasStyle": false,
+          "page": "business/internet/gpon"
+        },
+        {
+          "classes": "faq-answer",
+          "id": "faq-answer-1",
+          "hasStyle": false,
+          "page": "business/internet/dedicated"
+        },
+        {
+          "classes": "faq-answer",
+          "id": "faq-answer-1",
+          "hasStyle": false,
+          "page": "business/telephony/ip"
+        },
+        {
+          "classes": "faq-answer",
+          "id": "faq-answer-1",
+          "hasStyle": false,
+          "page": "business/telephony/vpbx"
+        }
+      ]
+    },
+    {
+      "className": "faq-answer-content",
+      "count": 4,
+      "pagesCount": 4,
+      "pages": [
+        "business/internet/gpon",
+        "business/internet/dedicated",
+        "business/telephony/ip",
+        "business/telephony/vpbx"
+      ],
+      "examples": [
+        {
+          "classes": "faq-answer-content",
+          "id": null,
+          "hasStyle": false,
+          "page": "business/internet/gpon"
+        },
+        {
+          "classes": "faq-answer-content",
+          "id": null,
+          "hasStyle": false,
+          "page": "business/internet/dedicated"
+        },
+        {
+          "classes": "faq-answer-content",
+          "id": null,
+          "hasStyle": false,
+          "page": "business/telephony/ip"
+        },
+        {
+          "classes": "faq-answer-content",
+          "id": null,
+          "hasStyle": false,
+          "page": "business/telephony/vpbx"
+        }
+      ]
+    },
+    {
+      "className": "grid-cols-2",
+      "count": 4,
+      "pagesCount": 4,
+      "pages": [
+        "business",
+        "developers",
+        "government",
+        "operators"
+      ],
+      "examples": [
+        {
+          "classes": "grid grid-cols-2",
+          "id": null,
+          "hasStyle": false,
+          "page": "business"
+        },
+        {
+          "classes": "grid grid-cols-2",
+          "id": null,
+          "hasStyle": false,
+          "page": "developers"
+        },
+        {
+          "classes": "grid grid-cols-2",
+          "id": null,
+          "hasStyle": false,
+          "page": "government"
+        },
+        {
+          "classes": "grid grid-cols-2",
+          "id": null,
+          "hasStyle": false,
+          "page": "operators"
+        }
+      ]
+    },
+    {
+      "className": "container-mgts",
+      "count": 2,
+      "pagesCount": 1,
+      "pages": [
+        "main_page"
+      ],
+      "examples": [
+        {
+          "classes": "about-company container-mgts",
+          "id": null,
+          "hasStyle": false,
+          "page": "main_page"
+        },
+        {
+          "classes": "section-our-services container-mgts",
+          "id": null,
+          "hasStyle": false,
+          "page": "main_page"
+        }
+      ]
+    },
+    {
+      "className": "section-promo-note__content-container",
+      "count": 2,
+      "pagesCount": 1,
+      "pages": [
+        "main_page"
+      ],
+      "examples": [
+        {
+          "classes": "section-promo-note__content-container",
+          "id": null,
+          "hasStyle": false,
+          "page": "main_page"
+        },
+        {
+          "classes": "section-promo-note__content-container",
+          "id": null,
+          "hasStyle": false,
+          "page": "main_page"
+        }
+      ]
+    },
+    {
+      "className": "form-group",
+      "count": 1,
+      "pagesCount": 1,
+      "pages": [
+        "about/ethics/partners-feedback"
+      ],
+      "examples": [
+        {
+          "classes": "form-group",
+          "id": null,
+          "hasStyle": false,
+          "page": "about/ethics/partners-feedback"
+        }
+      ]
+    },
+    {
+      "className": "home-section-container",
+      "count": 1,
+      "pagesCount": 1,
+      "pages": [
+        "main_page"
+      ],
+      "examples": [
+        {
+          "classes": "home-section-container",
+          "id": null,
+          "hasStyle": false,
+          "page": "main_page"
+        }
+      ]
+    },
+    {
+      "className": "about-company",
+      "count": 1,
+      "pagesCount": 1,
+      "pages": [
+        "main_page"
+      ],
+      "examples": [
+        {
+          "classes": "about-company container-mgts",
+          "id": null,
+          "hasStyle": false,
+          "page": "main_page"
+        }
+      ]
+    },
+    {
+      "className": "about-company__content",
+      "count": 1,
+      "pagesCount": 1,
+      "pages": [
+        "main_page"
+      ],
+      "examples": [
+        {
+          "classes": "about-company__content cl-6",
+          "id": null,
+          "hasStyle": false,
+          "page": "main_page"
+        }
+      ]
+    },
+    {
+      "className": "cl-6",
+      "count": 1,
+      "pagesCount": 1,
+      "pages": [
+        "main_page"
+      ],
+      "examples": [
+        {
+          "classes": "about-company__content cl-6",
+          "id": null,
+          "hasStyle": false,
+          "page": "main_page"
+        }
+      ]
+    },
+    {
+      "className": "about-company__content-text",
+      "count": 1,
+      "pagesCount": 1,
+      "pages": [
+        "main_page"
+      ],
+      "examples": [
+        {
+          "classes": "about-company__content-text",
+          "id": null,
+          "hasStyle": false,
+          "page": "main_page"
+        }
+      ]
+    },
+    {
+      "className": "mirror-slider",
+      "count": 1,
+      "pagesCount": 1,
+      "pages": [
+        "main_page"
+      ],
+      "examples": [
+        {
+          "classes": "mirror-slider",
+          "id": null,
+          "hasStyle": false,
+          "page": "main_page"
+        }
+      ]
+    },
+    {
+      "className": "mirror-slider__left-card",
+      "count": 1,
+      "pagesCount": 1,
+      "pages": [
+        "main_page"
+      ],
+      "examples": [
+        {
+          "classes": "mirror-slider__left-card",
+          "id": null,
+          "hasStyle": false,
+          "page": "main_page"
+        }
+      ]
+    },
+    {
+      "className": "mirror-slider__left-card-box",
+      "count": 1,
+      "pagesCount": 1,
+      "pages": [
+        "main_page"
+      ],
+      "examples": [
+        {
+          "classes": "mirror-slider__left-card-box close-left-slide",
+          "id": null,
+          "hasStyle": false,
+          "page": "main_page"
+        }
+      ]
+    },
+    {
+      "className": "close-left-slide",
+      "count": 1,
+      "pagesCount": 1,
+      "pages": [
+        "main_page"
+      ],
+      "examples": [
+        {
+          "classes": "mirror-slider__left-card-box close-left-slide",
+          "id": null,
+          "hasStyle": false,
+          "page": "main_page"
+        }
+      ]
+    },
+    {
+      "className": "section-our-services",
+      "count": 1,
+      "pagesCount": 1,
+      "pages": [
+        "main_page"
+      ],
+      "examples": [
+        {
+          "classes": "section-our-services container-mgts",
+          "id": null,
+          "hasStyle": false,
+          "page": "main_page"
+        }
+      ]
+    },
+    {
+      "className": "our-services__selectors",
+      "count": 1,
+      "pagesCount": 1,
+      "pages": [
+        "main_page"
+      ],
+      "examples": [
+        {
+          "classes": "our-services__selectors cl-8 cl-tab-12",
+          "id": null,
+          "hasStyle": false,
+          "page": "main_page"
+        }
+      ]
+    },
+    {
+      "className": "cl-8",
+      "count": 1,
+      "pagesCount": 1,
+      "pages": [
+        "main_page"
+      ],
+      "examples": [
+        {
+          "classes": "our-services__selectors cl-8 cl-tab-12",
+          "id": null,
+          "hasStyle": false,
+          "page": "main_page"
+        }
+      ]
+    },
+    {
+      "className": "cl-tab-12",
+      "count": 1,
+      "pagesCount": 1,
+      "pages": [
+        "main_page"
+      ],
+      "examples": [
+        {
+          "classes": "our-services__selectors cl-8 cl-tab-12",
+          "id": null,
+          "hasStyle": false,
+          "page": "main_page"
+        }
+      ]
+    },
+    {
+      "className": "selector-item__wrapper",
+      "count": 1,
+      "pagesCount": 1,
+      "pages": [
+        "main_page"
+      ],
+      "examples": [
+        {
+          "classes": "selector-item__wrapper",
+          "id": null,
+          "hasStyle": false,
+          "page": "main_page"
+        }
+      ]
+    },
+    {
+      "className": "selector-item",
+      "count": 1,
+      "pagesCount": 1,
+      "pages": [
+        "main_page"
+      ],
+      "examples": [
+        {
+          "classes": "selector-item disable-selection active",
+          "id": null,
+          "hasStyle": false,
+          "page": "main_page"
+        }
+      ]
+    },
+    {
+      "className": "disable-selection",
+      "count": 1,
+      "pagesCount": 1,
+      "pages": [
+        "main_page"
+      ],
+      "examples": [
+        {
+          "classes": "selector-item disable-selection active",
+          "id": null,
+          "hasStyle": false,
+          "page": "main_page"
+        }
+      ]
+    },
+    {
+      "className": "active",
+      "count": 1,
+      "pagesCount": 1,
+      "pages": [
+        "main_page"
+      ],
+      "examples": [
+        {
+          "classes": "selector-item disable-selection active",
+          "id": null,
+          "hasStyle": false,
+          "page": "main_page"
+        }
+      ]
+    },
+    {
+      "className": "selector-item__img-wrapper",
+      "count": 1,
+      "pagesCount": 1,
+      "pages": [
+        "main_page"
+      ],
+      "examples": [
+        {
+          "classes": "selector-item__img-wrapper",
+          "id": null,
+          "hasStyle": false,
+          "page": "main_page"
+        }
+      ]
+    },
+    {
+      "className": "header-container",
+      "count": 1,
+      "pagesCount": 1,
+      "pages": [
+        "main_page"
+      ],
+      "examples": [
+        {
+          "classes": "header-container",
+          "id": null,
+          "hasStyle": false,
+          "page": "main_page"
+        }
+      ]
+    }
+  ]
+}

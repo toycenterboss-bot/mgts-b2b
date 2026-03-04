@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_page_mobile_app_sections",
+  "info": {
+    "displayName": "Mobile App Section",
+    "description": "Раздел с информацией о мобильном приложении. CSS классы: mobile-app-section (контейнер), mobile-app-section__header (заголовок), mobile-app-section__title-wrapper (обертка заголовка), mobile-app-section__title (h1 заголовок), mobile-app-section__download (загрузка), mobile-app-section__stores (магазины приложений)"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "appStoreLinks": {
+      "type": "json",
+      "description": "Ссылки на App Store и Google Play {appStore: string, googlePlay: string}"
+    },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.section-text",
+      "description": "Список возможностей приложения"
+    },
+    "imageSwitcher": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.image-switcher",
+      "description": "Переключатель изображений приложения"
+    },
+    "content": {
+      "type": "richtext",
+      "description": "HTML контент раздела"
+    }
+  }
+}

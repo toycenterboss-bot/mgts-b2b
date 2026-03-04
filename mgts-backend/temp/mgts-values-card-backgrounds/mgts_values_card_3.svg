@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <defs>
+    <radialGradient id="glow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00d4ff"/>
+      <stop offset="50%" stop-color="#0099cc"/>
+      <stop offset="100%" stop-color="#006699"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#00ff88"/>
+      <stop offset="50%" stop-color="#00cc66"/>
+      <stop offset="100%" stop-color="#009944"/>
+    </radialGradient>
+    <radialGradient id="glow3" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#6677ff"/>
+      <stop offset="50%" stop-color="#4455cc"/>
+      <stop offset="100%" stop-color="#2233aa"/>
+    </radialGradient>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a1f"/>
+      <stop offset="100%" stop-color="#1a1a3a"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="outerGlow">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background gradient -->
+  <rect width="1200" height="700" fill="url(#bgGrad)"/>
+  
+  <!-- Subtle grid for high-tech feel -->
+  <g opacity="0.1">
+    <defs>
+      <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+        <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#333" stroke-width="0.5"/>
+      </pattern>
+    </defs>
+    <rect width="1200" height="700" fill="url(#grid)"/>
+  </g>
+  
+  <!-- Central client symbol: upward arrow/target with connection node -->
+  <g transform="translate(600, 350)" filter="url(#glow)">
+    <!-- Client core: glowing orb -->
+    <circle cx="0" cy="0" r="80" fill="url(#glow1)" filter="url(#outerGlow)" opacity="0.9">
+      <animate attributeName="r" values="80;85;80" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- Satisfaction aura -->
+    <circle cx="0" cy="0" r="120" fill="none" stroke="url(#glow1)" stroke-width="4" filter="url(#glow)" opacity="0.6">
+      <animate attributeName="r" values="120;130;120" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;0.8;0.6" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- Action flow: curved paths converging -->
+    <path d="M -150 50 Q -80 0, 0 30 Q 80 60, 150 20" fill="none" stroke="url(#glow2)" stroke-width="8" stroke-linecap="round" filter="url(#glow)" opacity="0.8">
+      <animate attributeName="stroke-dasharray" values="0,300;300,300" dur="2s" repeatCount="indefinite"/>
+    </path>
+    <path d="M -140 -30 Q -70 -60, 0 -20 Q 70 -50, 140 -40" fill="none" stroke="url(#glow2)" stroke-width="8" stroke-linecap="round" filter="url(#glow)" opacity="0.8">
+      <animate attributeName="stroke-dasharray" values="0,300;300,300" dur="2.5s" repeatCount="indefinite"/>
+    </path>
+    <path d="M -120 80 Q -50 120, 0 70 Q 50 110, 120 90" fill="none" stroke="url(#glow2)" stroke-width="8" stroke-linecap="round" filter="url(#glow)" opacity="0.8">
+      <animate attributeName="stroke-dasharray" values="0,300;300,300" dur="2.2s" repeatCount="indefinite"/>
+    </path>
+    
+    <!-- Exceeding expectations: upward burst -->
+    <g transform="scale(0.8) translate(0,-20)">
+      <polygon points="0,-60 30,-20 50,0 30,20 0,0 -30,20 -50,0 -30,-20" fill="url(#glow3)" filter="url(#outerGlow)" opacity="0.7">
+        <animate attributeName="transform" values="scale(0.8) scale(1.1) scale(0.8)" dur="2s" repeatCount="indefinite"/>
+      </polygon>
+    </g>
+    
+    <!-- Respect/Honesty rings -->
+    <circle cx="0" cy="0" r="200" fill="none" stroke="url(#glow3)" stroke-width="2" filter="url(#glow)" opacity="0.4" stroke-dasharray="10,10">
+      <animateTransform attributeName="transform" type="rotate" from="0 600 350" to="360 600 350" dur="20s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- High-tech connection nodes -->
+    <g>
+      <circle cx="-100" cy="40" r="12" fill="url(#glow2)" filter="url(#glow)"/>
+      <circle cx="100" cy="-20" r="12" fill="url(#glow2)" filter="url(#glow)"/>
+      <circle cx="-80" cy="100" r="12" fill="url(#glow2)" filter="url(#glow)"/>
+    </g>
+    
+    <!-- Floating particles for futuristic atmosphere -->
+    <g opacity="0.6">
+      <circle cx="-200" cy="-100" r="4" fill="url(#glow1)">
+        <animate attributeName="cy" values="-100;50;-100" dur="6s" repeatCount="indefinite"/>
+        <animate attributeName="r" values="4;6;4" dur="6s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="180" cy="80" r="3" fill="url(#glow3)">
+        <animate attributeName="cx" values="180;-50;180" dur="8s" repeatCount="indefinite"/>
+        <animate attributeName="r" values="3;5;3" dur="8s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="0" cy="-180" r="5" fill="url(#glow2)">
+        <animate attributeName="cy" values="-180;100;-180" dur="5s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="rotate" from="0 600 170" to="360 600 170" dur="10s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  </g>
+  
+  <!-- Ambient high-tech rays from corners -->
+  <g opacity="0.15">
+    <rect x="0" y="0" width="200" height="10" fill="url(#glow1)" transform="rotate(-15 0 0)">
+      <animate attributeName="opacity" values="0.15;0.3;0.15" dur="4s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="1000" y="0" width="200" height="10" fill="url(#glow2)" transform="rotate(15 1200 0)">
+      <animate attributeName="opacity" values="0.15;0.3;0.15" dur="4.5s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="0" y="690" width="200" height="10" fill="url(#glow3)" transform="rotate(15 0 700)">
+      <animate attributeName="opacity" values="0.15;0.3;0.15" dur="3.5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  
+  <!-- Subtle vignette for focus -->
+  <defs>
+    <radialGradient id="vignette" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="black" stop-opacity="0"/>
+      <stop offset="70%" stop-color="black" stop-opacity="0"/>
+      <stop offset="100%" stop-color="black" stop-opacity="0.4"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="700" fill="url(#vignette)"/>
+</svg>

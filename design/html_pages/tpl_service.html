@@ -1,0 +1,1027 @@
+<!DOCTYPE html>
+<html class="dark" lang="ru">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>tpl_service</title>
+<link href="/assets/css/stitch-tailwind.css" rel="stylesheet"/>
+<link href="/assets/fonts/material-symbols-outlined/material-symbols-outlined.css" rel="stylesheet"/>
+<style>
+        .mega-menu-blur {
+            backdrop-filter: blur(12px);
+            background-color: rgba(15, 25, 35, 0.95);
+        }
+        body {
+            font-family: 'Space Grotesk', sans-serif;
+        }
+    </style>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .winter-frost {
+            background-image: radial-gradient(circle at top right, rgba(255,255,255,0.05) 0%, transparent 40%);
+            pointer-events: none;
+        }
+        .tech-gradient {
+            background: linear-gradient(135deg, #0f1923 0%, #1a2a3a 100%);
+        }
+    </style>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .row-hover:hover {
+            background-color: rgba(0, 102, 204, 0.05);
+        }
+        .enterprise-glow {
+            box-shadow: inset 0 0 20px rgba(0, 102, 204, 0.1);
+        }
+    </style>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        details > summary::-webkit-details-marker {
+            display: none;
+        }
+    </style>
+<style>
+        /* Custom scrollbar for dropdowns */
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 4px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #2d3846;
+            border-radius: 10px;
+        }
+    </style>
+<style>
+        body {
+            font-family: 'Space Grotesk', sans-serif;
+        }
+        .form-glass {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+    </style>
+<style>
+        .hide-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .hide-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+<style>
+        .light-leak {
+            position: absolute;
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, rgba(17, 115, 212, 0.15) 0%, rgba(17, 115, 212, 0) 70%);
+            filter: blur(40px);
+            z-index: 0;
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark" data-page="tpl_service">
+<script src="/cms_loader/cms-loader.js?v=20260219a" defer></script>
+<script src="/cms_loader/cms-adapter.js?v=20260219a" defer></script>
+<div class="light-leak top-[-100px] left-[-100px]"></div>
+<div class="light-leak bottom-[-100px] right-[-100px]"></div>
+<section class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100" data-stitch-block="header_and_mega_menu">
+<!-- Utility Top Bar -->
+<div class="w-full border-b border-slate-200 dark:border-slate-800 bg-white dark:bg-background-dark/50">
+<div class="max-w-7xl mx-auto px-6 h-10 flex items-center justify-between text-xs font-medium tracking-wide">
+<div class="flex items-center gap-6">
+<a class="flex items-center gap-1.5 hover:text-primary transition-colors" href="#">
+<span class="material-symbols-outlined text-[16px]">location_on</span>
+                    Москва
+                </a>
+<a class="hover:text-primary transition-colors" href="#">Для дома</a>
+<a class="text-primary font-bold" href="#">Для бизнеса</a>
+</div>
+<div class="flex items-center gap-6">
+<a class="hover:text-primary transition-colors" href="#">Поддержка</a>
+<a class="hover:text-primary transition-colors" href="#">О компании</a>
+<div class="h-4 w-[1px] bg-slate-200 dark:border-slate-800"></div>
+<a class="flex items-center gap-1.5 text-primary hover:opacity-80 transition-opacity" href="#">
+<span class="material-symbols-outlined text-[18px]">account_circle</span>
+                    Личный кабинет
+                </a>
+</div>
+</div>
+</div>
+<!-- Main Header -->
+<header class="sticky top-0 z-50 w-full border-b border-slate-200 dark:border-slate-800 bg-white dark:bg-background-dark shadow-sm" data-mega-root>
+<div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+<!-- Logo -->
+<div class="flex items-center gap-10">
+<div class="flex items-center gap-2">
+<div class="size-8 bg-primary flex items-center justify-center rounded">
+<svg class="w-6 h-6 text-white" fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 4H17.3334V17.3334H30.6666V30.6666H44V44H4V4Z" fill="currentColor"></path>
+</svg>
+</div>
+<span class="text-xl font-bold tracking-tighter">MGTS <span class="text-primary">B2B</span></span>
+</div>
+<!-- Navigation -->
+<nav class="hidden lg:flex items-center gap-8" data-mega-triggers>
+<a class="text-sm font-semibold border-b-2 border-primary pb-1" href="#" data-mega-trigger data-mega-key="internet" aria-expanded="false" aria-controls="mgts-mega-panel">Интернет</a>
+<a class="text-sm font-semibold text-slate-500 hover:text-primary transition-colors pb-1 border-b-2 border-transparent" href="#" data-mega-trigger data-mega-key="cloud" aria-expanded="false" aria-controls="mgts-mega-panel">Облачные решения</a>
+<a class="text-sm font-semibold text-slate-500 hover:text-primary transition-colors pb-1 border-b-2 border-transparent" href="#" data-mega-trigger data-mega-key="iot" aria-expanded="false" aria-controls="mgts-mega-panel">IoT</a>
+<a class="text-sm font-semibold text-slate-500 hover:text-primary transition-colors pb-1 border-b-2 border-transparent" href="#" data-mega-trigger data-mega-key="telephony" aria-expanded="false" aria-controls="mgts-mega-panel">Телефония</a>
+<a class="text-sm font-semibold text-slate-500 hover:text-primary transition-colors pb-1 border-b-2 border-transparent" href="#" data-mega-trigger data-mega-key="it" aria-expanded="false" aria-controls="mgts-mega-panel">ИТ-услуги</a>
+</nav>
+</div>
+<div class="flex items-center gap-4">
+<div class="relative hidden xl:block">
+<input class="w-64 bg-slate-100 dark:bg-slate-800 border-none rounded-lg py-2 pl-10 text-sm focus:ring-2 focus:ring-primary" placeholder="Поиск услуг..." type="text"/>
+<span class="material-symbols-outlined absolute left-3 top-2 text-slate-400">search</span>
+</div>
+<button class="bg-primary text-white px-6 py-2.5 rounded-lg text-sm font-bold hover:bg-blue-700 transition-colors">
+                    Стать клиентом
+                </button>
+</div>
+</div>
+<!-- Mega Menu Expansion -->
+<div id="mgts-mega-panel" class="absolute top-full left-0 w-full mega-menu-blur border-b border-slate-200 dark:border-slate-800 shadow-2xl overflow-hidden hidden" aria-hidden="true" data-mega-panel>
+<div class="max-w-7xl mx-auto px-6 py-10">
+<div class="grid grid-cols-12 gap-10">
+<!-- Sidebar Categories inside Mega Menu -->
+<div class="col-span-3 flex flex-col gap-1 border-r border-slate-200 dark:border-slate-800 pr-6">
+<div class="p-3 rounded-lg flex items-center justify-between group cursor-pointer transition-colors text-slate-500 hover:bg-slate-100 dark:hover:bg-slate-800" data-mega-category="internet" role="button" tabindex="0">
+<span class="font-bold">Интернет для бизнеса</span>
+<span class="material-symbols-outlined">chevron_right</span>
+</div>
+<div class="p-3 rounded-lg flex items-center justify-between group cursor-pointer transition-colors text-slate-500 hover:bg-slate-100 dark:hover:bg-slate-800" data-mega-category="cloud" role="button" tabindex="0">
+<span class="font-bold">Облачные решения</span>
+<span class="material-symbols-outlined opacity-0 group-hover:opacity-100 transition-opacity">chevron_right</span>
+</div>
+<div class="p-3 rounded-lg flex items-center justify-between group cursor-pointer transition-colors text-slate-500 hover:bg-slate-100 dark:hover:bg-slate-800" data-mega-category="iot" role="button" tabindex="0">
+<span class="font-bold">Интернет вещей (IoT)</span>
+<span class="material-symbols-outlined opacity-0 group-hover:opacity-100 transition-opacity">chevron_right</span>
+</div>
+<div class="p-3 rounded-lg flex items-center justify-between group cursor-pointer transition-colors text-slate-500 hover:bg-slate-100 dark:hover:bg-slate-800" data-mega-category="telephony" role="button" tabindex="0">
+<span class="font-bold">Телефония и связь</span>
+<span class="material-symbols-outlined opacity-0 group-hover:opacity-100 transition-opacity">chevron_right</span>
+</div>
+<div class="p-3 rounded-lg flex items-center justify-between group cursor-pointer transition-colors text-slate-500 hover:bg-slate-100 dark:hover:bg-slate-800" data-mega-category="security" role="button" tabindex="0">
+<span class="font-bold">Информационная безопасность</span>
+<span class="material-symbols-outlined opacity-0 group-hover:opacity-100 transition-opacity">chevron_right</span>
+</div>
+</div>
+<!-- Main Grid Content -->
+<div class="col-span-6">
+<h3 class="text-xs uppercase tracking-widest text-slate-400 font-bold mb-6"><span data-mega-title>Основные услуги</span></h3>
+<div class="grid grid-cols-2 gap-6" data-mega-sections>
+<!-- Section: internet -->
+<div class="contents" data-mega-section="internet">
+<!-- Service Card 1 -->
+<div class="flex gap-4 p-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900/50 hover:border-primary/50 transition-all cursor-pointer group">
+<div class="size-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[28px]">speed</span>
+</div>
+<div>
+<h4 class="font-bold mb-1 group-hover:text-primary transition-colors">Оптоволокно</h4>
+<p class="text-xs text-slate-500 leading-relaxed">Высокоскоростной симметричный канал до 10 Гбит/с</p>
+</div>
+</div>
+<!-- Service Card 2 -->
+<div class="flex gap-4 p-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900/50 hover:border-primary/50 transition-all cursor-pointer group">
+<div class="size-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[28px]">settings_input_antenna</span>
+</div>
+<div>
+<h4 class="font-bold mb-1 group-hover:text-primary transition-colors">Выделенные линии</h4>
+<p class="text-xs text-slate-500 leading-relaxed">L2/L3 VPN для объединения офисов в единую сеть</p>
+</div>
+</div>
+<!-- Service Card 3 -->
+<div class="flex gap-4 p-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900/50 hover:border-primary/50 transition-all cursor-pointer group">
+<div class="size-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[28px]">wifi</span>
+</div>
+<div>
+<h4 class="font-bold mb-1 group-hover:text-primary transition-colors">Wi-Fi для бизнеса</h4>
+<p class="text-xs text-slate-500 leading-relaxed">Беспроводная сеть с авторизацией по закону</p>
+</div>
+</div>
+<!-- Service Card 4 -->
+<div class="flex gap-4 p-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900/50 hover:border-primary/50 transition-all cursor-pointer group">
+<div class="size-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[28px]">shield</span>
+</div>
+<div>
+<h4 class="font-bold mb-1 group-hover:text-primary transition-colors">Защита от DDoS</h4>
+<p class="text-xs text-slate-500 leading-relaxed">Круглосуточный мониторинг и очистка трафика</p>
+</div>
+</div>
+</div>
+
+<!-- Section: cloud -->
+<div class="contents hidden" data-mega-section="cloud" aria-hidden="true">
+<div class="flex gap-4 p-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900/50 hover:border-primary/50 transition-all cursor-pointer group">
+<div class="size-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[28px]">cloud</span>
+</div>
+<div>
+<h4 class="font-bold mb-1 group-hover:text-primary transition-colors">Облачное хранилище</h4>
+<p class="text-xs text-slate-500 leading-relaxed">S3‑совместимые хранилища и резервное копирование</p>
+</div>
+</div>
+<div class="flex gap-4 p-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900/50 hover:border-primary/50 transition-all cursor-pointer group">
+<div class="size-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[28px]">dns</span>
+</div>
+<div>
+<h4 class="font-bold mb-1 group-hover:text-primary transition-colors">IaaS / Виртуальные серверы</h4>
+<p class="text-xs text-slate-500 leading-relaxed">Гибкая инфраструктура под нагрузку бизнеса</p>
+</div>
+</div>
+</div>
+
+<!-- Section: iot -->
+<div class="contents hidden" data-mega-section="iot" aria-hidden="true">
+<div class="flex gap-4 p-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900/50 hover:border-primary/50 transition-all cursor-pointer group">
+<div class="size-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[28px]">sensors</span>
+</div>
+<div>
+<h4 class="font-bold mb-1 group-hover:text-primary transition-colors">Платформа IoT</h4>
+<p class="text-xs text-slate-500 leading-relaxed">Устройства, телеметрия, управление и аналитика</p>
+</div>
+</div>
+<div class="flex gap-4 p-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900/50 hover:border-primary/50 transition-all cursor-pointer group">
+<div class="size-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[28px]">factory</span>
+</div>
+<div>
+<h4 class="font-bold mb-1 group-hover:text-primary transition-colors">Промышленный мониторинг</h4>
+<p class="text-xs text-slate-500 leading-relaxed">Контроль показателей и событий в режиме 24/7</p>
+</div>
+</div>
+</div>
+
+<!-- Section: telephony -->
+<div class="contents hidden" data-mega-section="telephony" aria-hidden="true">
+<div class="flex gap-4 p-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900/50 hover:border-primary/50 transition-all cursor-pointer group">
+<div class="size-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[28px]">call</span>
+</div>
+<div>
+<h4 class="font-bold mb-1 group-hover:text-primary transition-colors">IP‑телефония</h4>
+<p class="text-xs text-slate-500 leading-relaxed">Единые номера, маршрутизация, запись разговоров</p>
+</div>
+</div>
+<div class="flex gap-4 p-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900/50 hover:border-primary/50 transition-all cursor-pointer group">
+<div class="size-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[28px]">support_agent</span>
+</div>
+<div>
+<h4 class="font-bold mb-1 group-hover:text-primary transition-colors">Контакт‑центр</h4>
+<p class="text-xs text-slate-500 leading-relaxed">Очереди, SLA, омниканал и аналитика</p>
+</div>
+</div>
+</div>
+
+<!-- Section: it -->
+<div class="contents hidden" data-mega-section="it" aria-hidden="true">
+<div class="flex gap-4 p-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900/50 hover:border-primary/50 transition-all cursor-pointer group">
+<div class="size-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[28px]">headset_mic</span>
+</div>
+<div>
+<h4 class="font-bold mb-1 group-hover:text-primary transition-colors">ИТ‑поддержка</h4>
+<p class="text-xs text-slate-500 leading-relaxed">Аутсорсинг, обслуживание рабочих мест и сетей</p>
+</div>
+</div>
+<div class="flex gap-4 p-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900/50 hover:border-primary/50 transition-all cursor-pointer group">
+<div class="size-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[28px]">security</span>
+</div>
+<div>
+<h4 class="font-bold mb-1 group-hover:text-primary transition-colors">Защита рабочих мест</h4>
+<p class="text-xs text-slate-500 leading-relaxed">EDR/AV, контроль доступа и обновления</p>
+</div>
+</div>
+</div>
+
+<!-- Section: security -->
+<div class="contents hidden" data-mega-section="security" aria-hidden="true">
+<div class="flex gap-4 p-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900/50 hover:border-primary/50 transition-all cursor-pointer group">
+<div class="size-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[28px]">shield_lock</span>
+</div>
+<div>
+<h4 class="font-bold mb-1 group-hover:text-primary transition-colors">Кибербезопасность</h4>
+<p class="text-xs text-slate-500 leading-relaxed">DDoS, WAF, SOC, аудит и соответствие</p>
+</div>
+</div>
+</div>
+</div>
+<div class="mt-8 pt-6 border-t border-slate-200 dark:border-slate-800 flex items-center gap-4">
+<span class="text-sm font-bold">Спецпредложения:</span>
+<a class="text-xs px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full hover:text-primary transition-colors" href="#">Бесплатный тест-драйв 14 дней</a>
+<a class="text-xs px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full hover:text-primary transition-colors" href="#">Скидка 20% при переезде</a>
+</div>
+</div>
+<!-- Right Promotion / Call to Action -->
+<div class="col-span-3">
+<div class="h-full rounded-2xl bg-gradient-to-br from-primary to-blue-800 p-6 text-white flex flex-col justify-between overflow-hidden relative">
+<!-- Background decoration -->
+<div class="absolute -right-4 -bottom-4 opacity-20">
+<span class="material-symbols-outlined text-[140px]">cell_tower</span>
+</div>
+<div class="relative z-10">
+<h4 class="text-xl font-bold mb-3">Нужна помощь в выборе?</h4>
+<p class="text-sm text-blue-100 opacity-90 leading-relaxed">Наши эксперты подберут оптимальное решение под задачи вашего бизнеса.</p>
+</div>
+<div class="relative z-10 flex flex-col gap-3 mt-8">
+<button class="w-full bg-white text-primary font-bold py-3 rounded-xl hover:bg-blue-50 transition-colors">
+                                    Получить консультацию
+                                </button>
+<div class="flex items-center justify-center gap-2 text-xs font-medium">
+<span class="material-symbols-outlined text-[16px]">call</span>
+                                    8 800 250 09 90
+                                </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</header>
+<!-- Page Content (Placeholder) -->
+<main class="max-w-7xl mx-auto px-6 py-16 opacity-40 select-none pointer-events-none hidden" aria-hidden="true">
+<div class="space-y-12">
+<section>
+<div class="h-8 w-64 bg-slate-200 dark:bg-slate-800 rounded-lg mb-6"></div>
+<div class="grid grid-cols-3 gap-8">
+<div class="h-64 bg-slate-100 dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800"></div>
+<div class="h-64 bg-slate-100 dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800"></div>
+<div class="h-64 bg-slate-100 dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800"></div>
+</div>
+</section>
+<section class="flex gap-12 items-center">
+<div class="flex-1 space-y-4">
+<div class="h-10 w-full bg-slate-200 dark:bg-slate-800 rounded-lg"></div>
+<div class="h-4 w-3/4 bg-slate-100 dark:bg-slate-900 rounded-lg"></div>
+<div class="h-4 w-1/2 bg-slate-100 dark:bg-slate-900 rounded-lg"></div>
+<div class="h-12 w-40 bg-primary/20 rounded-lg"></div>
+</div>
+<div class="flex-1 h-80 bg-slate-100 dark:bg-slate-900 rounded-3xl border border-slate-200 dark:border-slate-800"></div>
+</section>
+</div>
+</main>
+<!-- Bottom Footer (Simple) -->
+
+</section>
+<section class="bg-background-light dark:bg-background-dark" data-stitch-block="breadcrumbs">
+<div class="max-w-[1200px] mx-auto px-4 lg:px-10 py-4">
+<nav class="flex items-center gap-2 text-sm font-medium">
+<a class="text-slate-500 dark:text-slate-400 hover:text-primary transition-colors flex items-center gap-1" href="#">
+<span class="material-symbols-outlined text-base">home</span>
+Главная
+</a>
+<span class="material-symbols-outlined text-slate-400 text-sm">chevron_right</span>
+<a class="text-slate-500 dark:text-slate-400 hover:text-primary transition-colors" href="#">Раздел</a>
+<span class="material-symbols-outlined text-slate-400 text-sm">chevron_right</span>
+<span class="text-primary font-bold">Страница</span>
+</nav>
+</div>
+</section>
+<section class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-white antialiased" data-stitch-block="hero_section_and_cta_banner_2">
+<!-- Header / Navigation -->
+
+<main class="relative overflow-hidden">
+<!-- Seasonal Decoration (Winter) -->
+<div class="absolute top-0 right-0 w-96 h-96 winter-frost opacity-60"></div>
+<div class="absolute top-10 right-10 text-white/10 select-none">
+<span class="material-symbols-outlined text-6xl">ac_unit</span>
+</div>
+<!-- Hero Section -->
+<section class="relative min-h-[85vh] flex items-center pt-20 pb-32">
+<!-- Background Elements -->
+<div class="absolute inset-0 z-0">
+<div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1558494949-ef010cbdcc51?q=80&amp;w=2000')] bg-cover bg-center opacity-10 grayscale" data-alt="Close up of high speed server room lights" data-service-hero-bg style="background-image: url(/assets/images/external/60b54c10dd84.png); background-size: cover; background-position: center;"></div>
+<div class="absolute inset-0 bg-gradient-to-tr from-background-dark via-background-dark/90 to-primary/20"></div>
+</div>
+<div class="w-full max-w-7xl mx-auto px-6 lg:px-10 py-12 md:py-24 relative z-10">
+<div class="max-w-[640px]">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs font-bold uppercase tracking-widest mb-6">
+<span class="relative flex h-2 w-2">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
+</span>
+                        Технологическое лидерство
+                    </div>
+<h1 class="text-5xl md:text-7xl font-black leading-[1.1] tracking-tighter text-white mb-6" data-cms-hero-title>
+                        Цифровая <br/> экосистема <br/> <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-blue-400">для вашего бизнеса</span>
+</h1>
+<p class="text-lg md:text-xl text-slate-400 max-w-[540px] mb-10 leading-relaxed" data-cms-hero-subtitle>
+                        Надежная инфраструктура и инновационные решения МГТС для компаний любого масштаба. Мы строим будущее связи сегодня.
+                    </p>
+<div class="flex flex-wrap gap-4">
+<button class="flex min-w-[200px] cursor-pointer items-center justify-center rounded-lg h-14 px-8 bg-primary text-white text-base font-bold hover:scale-[1.02] transition-transform shadow-xl shadow-primary/30" data-service-hero-cta-primary data-service-cta-href="/contact">
+                            Подобрать решение
+                            <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</button>
+<button class="flex min-w-[200px] cursor-pointer items-center justify-center rounded-lg h-14 px-8 border border-slate-300 dark:border-slate-700 bg-white/5 dark:bg-slate-800/50 text-white text-base font-bold hover:bg-white/10 dark:hover:bg-slate-800 transition-colors" data-service-hero-cta-secondary data-service-cta-href="/contact">
+                            Оставить заявку
+                        </button>
+</div>
+</div>
+</div>
+<!-- Stats/Features Strip -->
+<div class="absolute bottom-0 left-0 w-full bg-white/5 backdrop-blur-xl border-t border-white/10 py-8 hidden lg:block">
+<div class="max-w-7xl mx-auto px-6 lg:px-10 grid grid-cols-4 gap-8">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-primary text-3xl">speed</span>
+<div>
+<div class="text-white font-bold">100 Гбит/с</div>
+<div class="text-slate-500 text-xs uppercase tracking-wider">Скорость сети</div>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-primary text-3xl">verified_user</span>
+<div>
+<div class="text-white font-bold">99.9% SLA</div>
+<div class="text-slate-500 text-xs uppercase tracking-wider">Гарантия аптайма</div>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-primary text-3xl">hub</span>
+<div>
+<div class="text-white font-bold">Cloud Ready</div>
+<div class="text-slate-500 text-xs uppercase tracking-wider">Облачная среда</div>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-primary text-3xl">support_agent</span>
+<div>
+<div class="text-white font-bold">24/7 Expert</div>
+<div class="text-slate-500 text-xs uppercase tracking-wider">Техподдержка</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Banner Section -->
+<section class="py-24 bg-background-light dark:bg-background-dark relative hidden" data-stitch-block="service_cta_banner">
+<div class="container mx-auto px-6">
+<div class="relative rounded-[2rem] overflow-hidden p-8 md:p-16 border border-white/5 shadow-2xl">
+<!-- Tech Abstract Background -->
+<div class="absolute inset-0 tech-gradient z-0"></div>
+<div class="absolute top-0 left-0 w-full h-full opacity-20 pointer-events-none" style="background-image: radial-gradient(circle at 20% 50%, #0066cc 0%, transparent 50%);"></div>
+<div class="relative z-10 flex flex-col lg:flex-row items-center justify-between gap-12">
+<div class="max-w-2xl text-center lg:text-left">
+<h2 class="text-4xl md:text-5xl font-black text-white leading-tight mb-6 tracking-tight" data-service-cta-title>
+                                Готовы к цифровой <br/> трансформации?
+                            </h2>
+<p class="text-slate-400 text-lg md:text-xl leading-relaxed" data-service-cta-subtitle>
+                                Оставьте заявку сегодня и получите бесплатную консультацию эксперта по проектированию ИТ-инфраструктуры вашего предприятия.
+                            </p>
+</div>
+<div class="flex flex-col gap-6 w-full max-w-sm">
+<div class="p-1 bg-white/5 border border-white/10 rounded-2xl">
+<button class="w-full bg-primary hover:bg-primary/90 text-white py-5 px-8 rounded-xl text-xl font-bold transition-all shadow-lg shadow-primary/30 flex items-center justify-center gap-3" data-service-cta-button>
+<span class="material-symbols-outlined" data-service-cta-icon>mail</span>
+<span data-service-cta-button-text>Связаться с нами</span>
+                                </button>
+</div>
+<p class="text-slate-500 text-sm text-center" data-service-cta-note>
+                                Отвечаем в течение 15 минут в рабочее время
+                            </p>
+</div>
+</div>
+<!-- Subtle Seasonal Element in CTA -->
+<div class="absolute bottom-4 left-4 text-white/5">
+<span class="material-symbols-outlined text-4xl">cloud_queue</span>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+
+</section>
+<section class="bg-background-light dark:bg-background-dark">
+<div class="max-w-[1200px] mx-auto px-6 lg:px-10 py-10 space-y-10" data-service-sections></div>
+</section>
+<section class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 antialiased transition-colors duration-300 tariff-table" data-stitch-block="pricing_and_specs_table" data-cms-tariff-root>
+<!-- Top Navigation Bar -->
+<div class="layout-container flex h-full grow flex-col">
+
+<main class="flex flex-1 justify-center py-12 px-4 md:px-10 lg:px-40">
+<div class="layout-content-container flex flex-col max-w-[1200px] flex-1">
+<!-- Page Heading -->
+<div class="flex flex-wrap justify-between items-end gap-6 mb-10">
+<div class="flex min-w-72 flex-col gap-3">
+<div class="flex items-center gap-2 mb-1">
+<span class="px-2 py-0.5 rounded bg-primary/10 text-primary text-xs font-bold uppercase tracking-widest">Pricing 2024</span>
+</div>
+<h1 class="text-slate-900 dark:text-white text-5xl font-black leading-tight tracking-tight tariff-table__title" data-cms-tariff-title>Тарифы и спецификации</h1>
+<p class="text-slate-500 dark:text-slate-400 text-lg font-normal max-w-2xl" data-cms-tariff-desc>Сравнение уровней SLA, параметров сетевой безопасности и инфраструктурных возможностей для вашего бизнеса.</p>
+</div>
+<div class="flex gap-3">
+<button class="flex items-center gap-2 cursor-pointer rounded-lg h-12 px-6 bg-slate-200 dark:bg-slate-800 text-slate-900 dark:text-white text-sm font-bold hover:bg-slate-300 dark:hover:bg-slate-700 transition-all">
+<span class="material-symbols-outlined">file_download</span>
+<span>Скачать PDF</span>
+</button>
+</div>
+</div>
+<!-- Billing Toggle -->
+<div class="flex justify-center mb-8" data-billing>
+<div class="flex h-12 w-full max-w-sm items-center justify-center rounded-xl bg-slate-100 dark:bg-slate-800/50 p-1 border border-slate-200 dark:border-slate-800">
+<label class="flex cursor-pointer h-full grow items-center justify-center rounded-lg px-4 transition-all has-[:checked]:bg-white dark:has-[:checked]:bg-background-dark has-[:checked]:shadow-sm text-slate-500 dark:text-slate-400 has-[:checked]:text-primary text-sm font-bold">
+<span class="truncate">Ежемесячно</span>
+<input class="invisible w-0" name="billing_cycle" type="radio" value="monthly"/>
+</label>
+<label class="flex cursor-pointer h-full grow items-center justify-center rounded-lg px-4 transition-all has-[:checked]:bg-white dark:has-[:checked]:bg-background-dark has-[:checked]:shadow-sm text-slate-500 dark:text-slate-400 has-[:checked]:text-primary text-sm font-bold">
+<div class="flex items-center gap-2">
+<span class="truncate">Ежегодно</span>
+<span class="bg-green-500/10 text-green-500 text-[10px] px-1.5 py-0.5 rounded">-20%</span>
+</div>
+<input checked="" class="invisible w-0" name="billing_cycle" type="radio" value="yearly"/>
+</label>
+</div>
+</div>
+<!-- Comparison Table -->
+<div class="overflow-hidden rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-background-dark shadow-2xl shadow-primary/5">
+<div class="overflow-x-auto">
+<table class="w-full border-collapse tariff-table__table" data-cms-tariff-table>
+<thead>
+<tr class="bg-slate-50 dark:bg-slate-900/50">
+<th class="p-6 text-left text-slate-900 dark:text-white min-w-[320px] border-b border-slate-200 dark:border-slate-800">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">tune</span>
+<span class="text-sm font-bold uppercase tracking-wider">Параметры</span>
+</div>
+</th>
+<th class="p-6 text-center border-b border-slate-200 dark:border-slate-800 min-w-[220px]">
+<p class="text-slate-500 dark:text-slate-400 text-xs font-bold uppercase tracking-widest mb-1">Старт</p>
+<p class="text-2xl font-black text-slate-900 dark:text-white">Базовый</p>
+<p class="text-primary text-sm font-bold mt-1" data-billing-text data-monthly="49 000 ₽ / мес" data-yearly="470 400 ₽ / год">49 000 ₽ / мес</p>
+</th>
+<th class="p-6 text-center border-b border-slate-200 dark:border-slate-800 min-w-[220px] bg-primary/5">
+<div class="inline-block bg-primary text-white text-[10px] font-bold px-2 py-0.5 rounded-full mb-1">РЕКОМЕНДУЕМ</div>
+<p class="text-2xl font-black text-slate-900 dark:text-white">Бизнес</p>
+<p class="text-primary text-sm font-bold mt-1" data-billing-text data-monthly="89 000 ₽ / мес" data-yearly="854 400 ₽ / год">89 000 ₽ / мес</p>
+</th>
+<th class="p-6 text-center border-b border-slate-200 dark:border-slate-800 min-w-[220px] relative overflow-hidden">
+<div class="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent"></div>
+<p class="text-slate-500 dark:text-slate-400 text-xs font-bold uppercase tracking-widest mb-1 relative z-10">Премиум</p>
+<p class="text-2xl font-black text-slate-900 dark:text-white relative z-10">Enterprise</p>
+<p class="text-primary text-sm font-bold mt-1 relative z-10">Индивидуально</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<!-- Category: SLA -->
+<tr class="bg-slate-100/30 dark:bg-slate-800/30">
+<td class="px-6 py-3 text-xs font-bold text-slate-400 uppercase tracking-widest border-b border-slate-200 dark:border-slate-800" colspan="4">
+                                        SLA и Надежность
+                                    </td>
+</tr>
+<tr class="row-hover transition-colors">
+<td class="p-6 border-b border-slate-100 dark:border-slate-800/50">
+<div class="flex flex-col">
+<span class="text-sm font-semibold text-slate-900 dark:text-slate-100">Доступность сервиса</span>
+<span class="text-xs text-slate-500">Гарантированный аптайм в месяц</span>
+</div>
+</td>
+<td class="p-6 text-center border-b border-slate-100 dark:border-slate-800/50">
+<span class="text-sm font-medium px-3 py-1 rounded-full bg-slate-100 dark:bg-slate-800">99.9%</span>
+</td>
+<td class="p-6 text-center border-b border-slate-100 dark:border-slate-800/50 bg-primary/5">
+<span class="text-sm font-bold text-primary px-3 py-1 rounded-full bg-primary/10">99.95%</span>
+</td>
+<td class="p-6 text-center border-b border-slate-100 dark:border-slate-800/50">
+<span class="text-sm font-bold text-primary px-3 py-1 rounded-full bg-primary/10">99.99%</span>
+</td>
+</tr>
+<tr class="row-hover transition-colors">
+<td class="p-6 border-b border-slate-100 dark:border-slate-800/50">
+<div class="flex flex-col">
+<span class="text-sm font-semibold text-slate-900 dark:text-slate-100">Время реакции</span>
+<span class="text-xs text-slate-500">Максимальное ожидание ответа инженера</span>
+</div>
+</td>
+<td class="p-6 text-center border-b border-slate-100 dark:border-slate-800/50 text-sm">4 часа</td>
+<td class="p-6 text-center border-b border-slate-100 dark:border-slate-800/50 text-sm font-bold bg-primary/5">1 час</td>
+<td class="p-6 text-center border-b border-slate-100 dark:border-slate-800/50 text-sm font-bold">15 минут</td>
+</tr>
+<!-- Category: Security -->
+<tr class="bg-slate-100/30 dark:bg-slate-800/30">
+<td class="px-6 py-3 text-xs font-bold text-slate-400 uppercase tracking-widest border-b border-slate-200 dark:border-slate-800" colspan="4">
+                                        Безопасность
+                                    </td>
+</tr>
+<tr class="row-hover transition-colors">
+<td class="p-6 border-b border-slate-100 dark:border-slate-800/50">
+<div class="flex flex-col">
+<span class="text-sm font-semibold text-slate-900 dark:text-slate-100">Защита от DDoS</span>
+<span class="text-xs text-slate-500">Уровни фильтрации трафика</span>
+</div>
+</td>
+<td class="p-6 text-center border-b border-slate-100 dark:border-slate-800/50 text-sm">L3 / L4</td>
+<td class="p-6 text-center border-b border-slate-100 dark:border-slate-800/50 text-sm bg-primary/5">L3 - L7 Standard</td>
+<td class="p-6 text-center border-b border-slate-100 dark:border-slate-800/50 text-sm font-bold text-primary">L3 - L7 AI Managed</td>
+</tr>
+<tr class="row-hover transition-colors">
+<td class="p-6 border-b border-slate-100 dark:border-slate-800/50">
+<div class="flex flex-col">
+<span class="text-sm font-semibold text-slate-900 dark:text-slate-100">Шифрование данных</span>
+<span class="text-xs text-slate-500">Методы защиты каналов связи</span>
+</div>
+</td>
+<td class="p-6 text-center border-b border-slate-100 dark:border-slate-800/50 text-sm">AES-128</td>
+<td class="p-6 text-center border-b border-slate-100 dark:border-slate-800/50 text-sm bg-primary/5">AES-256</td>
+<td class="p-6 text-center border-b border-slate-100 dark:border-slate-800/50 text-sm font-bold">ГОСТ / AES-256</td>
+</tr>
+<!-- Category: Support -->
+<tr class="bg-slate-100/30 dark:bg-slate-800/30">
+<td class="px-6 py-3 text-xs font-bold text-slate-400 uppercase tracking-widest border-b border-slate-200 dark:border-slate-800" colspan="4">
+                                        Поддержка и Сервис
+                                    </td>
+</tr>
+<tr class="row-hover transition-colors">
+<td class="p-6 border-b border-slate-100 dark:border-slate-800/50">
+<div class="flex flex-col">
+<span class="text-sm font-semibold text-slate-900 dark:text-slate-100">Режим работы техподдержки</span>
+</div>
+</td>
+<td class="p-6 text-center border-b border-slate-100 dark:border-slate-800/50 text-sm">8/5</td>
+<td class="p-6 text-center border-b border-slate-100 dark:border-slate-800/50 text-sm bg-primary/5">24/7</td>
+<td class="p-6 text-center border-b border-slate-100 dark:border-slate-800/50 text-sm font-bold">24/7 VIP Line</td>
+</tr>
+<tr class="row-hover transition-colors">
+<td class="p-6 border-b border-slate-100 dark:border-slate-800/50">
+<div class="flex flex-col">
+<span class="text-sm font-semibold text-slate-900 dark:text-slate-100">Персональный менеджер</span>
+</div>
+</td>
+<td class="p-6 text-center border-b border-slate-100 dark:border-slate-800/50">
+<span class="material-symbols-outlined text-slate-300 dark:text-slate-700">horizontal_rule</span>
+</td>
+<td class="p-6 text-center border-b border-slate-100 dark:border-slate-800/50 bg-primary/5">
+<span class="material-symbols-outlined text-slate-300 dark:text-slate-700">horizontal_rule</span>
+</td>
+<td class="p-6 text-center border-b border-slate-100 dark:border-slate-800/50">
+<span class="material-symbols-outlined text-primary font-bold">check_circle</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td class="p-6"></td>
+<td class="p-6 text-center">
+<button class="w-full py-3 px-4 rounded-lg bg-slate-200 dark:bg-slate-800 text-slate-900 dark:text-white font-bold text-sm hover:brightness-110 transition-all">
+                                            Выбрать Базовый
+                                        </button>
+</td>
+<td class="p-6 text-center bg-primary/5">
+<button class="w-full py-3 px-4 rounded-lg bg-primary text-white font-bold text-sm shadow-lg shadow-primary/25 hover:brightness-110 transition-all">
+                                            Выбрать Бизнес
+                                        </button>
+</td>
+<td class="p-6 text-center">
+<button class="w-full py-3 px-4 rounded-lg bg-slate-900 dark:bg-white dark:text-background-dark text-white font-bold text-sm hover:brightness-110 transition-all">
+                                            Связаться
+                                        </button>
+</td>
+</tr>
+</tfoot>
+</table>
+</div>
+</div>
+<!-- Specs Footer -->
+<div class="mt-12 p-8 rounded-xl bg-slate-100 dark:bg-slate-900/50 border border-slate-200 dark:border-slate-800 flex flex-col md:flex-row items-center gap-8">
+<div class="size-16 rounded-xl bg-primary/10 flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-primary text-3xl">info</span>
+</div>
+<div class="flex-1">
+<h4 class="text-lg font-bold text-slate-900 dark:text-white mb-1">Нужна индивидуальная конфигурация?</h4>
+<p class="text-slate-500 dark:text-slate-400">Мы можем подготовить специфическое решение под ваши задачи: от выделенных каналов связи до гибридных облачных инфраструктур с особыми требованиями безопасности.</p>
+</div>
+<button class="shrink-0 px-8 h-14 rounded-lg bg-transparent border-2 border-primary text-primary font-bold hover:bg-primary hover:text-white transition-all">
+                        Заказать консультацию
+                    </button>
+</div>
+<!-- Footer disclaimer -->
+<div class="mt-8 text-center">
+<p class="text-xs text-slate-400 dark:text-slate-600">
+                        * Все цены указаны в рублях с учетом НДС 20%. SLA фиксируется в договоре об оказании услуг. <br/>
+                        Технические параметры могут быть изменены в зависимости от региона присутствия.
+                    </p>
+</div>
+</div>
+</main>
+</div>
+</section>
+<section class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100" data-stitch-block="service_faq_section">
+<div class="max-w-5xl mx-auto px-6 lg:px-10 py-12">
+<div class="service-faq" data-cms-faq-root>
+<h3 class="text-2xl font-bold flex items-center gap-3 mb-6 service-faq__title" data-cms-faq-title>
+<span class="material-symbols-outlined text-primary">help</span>
+            Аккордеоны и FAQ
+        </h3>
+<div class="flex flex-col gap-4 service-faq__items" data-accordion data-accordion-multiple="false" data-cms-faq-items>
+<details class="group bg-white dark:bg-surface-dark rounded-xl border border-slate-200 dark:border-border-dark overflow-hidden transition-all shadow-sm" open="">
+<summary class="flex items-center justify-between p-5 cursor-pointer list-none">
+<span class="font-semibold text-slate-900 dark:text-white">Что такое технология GPON?</span>
+<span class="material-symbols-outlined text-slate-400 group-open:rotate-180 transition-transform duration-300">expand_more</span>
+</summary>
+<div class="px-5 pb-5 text-slate-600 dark:text-slate-400 text-sm leading-relaxed">
+                GPON (Gigabit Passive Optical Network) — это технология доступа к интернету, позволяющая передавать данные на скорости до 1 Гбит/с по оптоволоконному кабелю непосредственно в офис клиента.
+            </div>
+</details>
+<details class="group bg-white dark:bg-surface-dark rounded-xl border border-slate-200 dark:border-border-dark overflow-hidden transition-all shadow-sm">
+<summary class="flex items-center justify-between p-5 cursor-pointer list-none">
+<span class="font-semibold text-slate-900 dark:text-white">Облачное хранилище для бизнеса</span>
+<span class="material-symbols-outlined text-slate-400 group-open:rotate-180 transition-transform duration-300">expand_more</span>
+</summary>
+<div class="px-5 pb-5 text-slate-600 dark:text-slate-400 text-sm leading-relaxed">
+                Мы предоставляем масштабируемые облачные хранилища с гарантированным уровнем доступности 99.9%.
+            </div>
+</details>
+</div>
+</div>
+</div>
+</section>
+<section class="py-24 bg-background-light dark:bg-background-dark relative" data-stitch-block="service_consultation_card">
+<div class="max-w-[1200px] mx-auto px-6 lg:px-10">
+<div class="relative rounded-[2rem] overflow-hidden p-8 md:p-16 border border-white/5 shadow-2xl">
+<div class="absolute inset-0 tech-gradient z-0"></div>
+<div class="absolute top-0 left-0 w-full h-full opacity-20 pointer-events-none" style="background-image: radial-gradient(circle at 20% 50%, #0066cc 0%, transparent 50%);"></div>
+<div class="relative z-10 flex flex-col lg:flex-row items-center justify-between gap-12">
+<div class="max-w-2xl text-center lg:text-left">
+<h2 class="text-4xl md:text-5xl font-black text-white leading-tight mb-6 tracking-tight" data-service-consult-title>
+                                Нужна персональная консультация?
+                            </h2>
+<p class="text-slate-400 text-lg md:text-xl leading-relaxed" data-service-consult-subtitle>
+                                Наши технические специалисты готовы ответить на любые вопросы по интеграции 24/7.
+                            </p>
+</div>
+<div class="flex flex-col gap-6 w-full max-w-sm">
+<button class="w-full bg-primary hover:bg-primary/90 text-white py-5 px-8 rounded-xl text-xl font-bold transition-all shadow-lg shadow-primary/30 flex items-center justify-center gap-3" data-service-consult-button>
+<svg class="size-6" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+<path d="M4 6.5h16a1.5 1.5 0 0 1 1.5 1.5v8A1.5 1.5 0 0 1 20 17.5H4A1.5 1.5 0 0 1 2.5 16V8A1.5 1.5 0 0 1 4 6.5Z" stroke="currentColor" stroke-width="1.5"/>
+<path d="M3 8.5 12 13.5 21 8.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+<span>Связаться с нами</span>
+                                </button>
+</div>
+</div>
+<div class="absolute bottom-4 left-4 text-white/5">
+<span class="material-symbols-outlined text-4xl">cloud_queue</span>
+</div>
+</div>
+</div>
+</section>
+<section class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100" data-stitch-block="service_customization_panel">
+<div class="max-w-5xl mx-auto px-6 lg:px-10 py-12">
+<div class="max-w-xl">
+<h3 class="text-xl font-bold mb-6" data-service-customization-title>Кастомизация</h3>
+<div class="bg-white dark:bg-surface-dark rounded-xl border border-slate-200 dark:border-border-dark p-6 space-y-6">
+<!-- Select Component -->
+<div class="space-y-2">
+<label class="text-xs font-bold uppercase tracking-wider text-slate-500" data-service-customization-dropdown-label>Тип подключения</label>
+<div class="relative" data-dropdown>
+<button class="flex items-center justify-between w-full bg-slate-50 dark:bg-background-dark border border-slate-200 dark:border-border-dark px-4 py-3 rounded-lg cursor-pointer hover:border-primary transition-colors" type="button" data-dropdown-trigger aria-expanded="false">
+<span class="text-sm" data-dropdown-label>Оптоволокно (GPON)</span>
+<span class="material-symbols-outlined text-slate-400" data-dropdown-icon>unfold_more</span>
+</button>
+<div class="absolute top-full left-0 right-0 mt-2 bg-white dark:bg-surface-dark border border-slate-200 dark:border-border-dark rounded-lg shadow-xl overflow-hidden z-20 hidden" data-dropdown-menu>
+<div class="p-2 border-b border-slate-100 dark:border-border-dark">
+<div class="flex items-center px-2 py-1.5 bg-slate-50 dark:bg-background-dark rounded-md">
+<span class="material-symbols-outlined text-lg text-slate-400 mr-2">search</span>
+<input class="bg-transparent border-none text-xs focus:ring-0 p-0 w-full" placeholder="Поиск..." type="text" data-dropdown-search/>
+</div>
+</div>
+<ul class="max-h-48 overflow-y-auto custom-scrollbar" data-service-customization-options>
+<li><button class="w-full text-left px-4 py-2 text-sm hover:bg-primary hover:text-white cursor-pointer transition-colors" type="button" data-dropdown-option data-service-customization-option data-value="gpon" data-label="Оптоволокно (GPON)">Оптоволокно (GPON)</button></li>
+<li><button class="w-full text-left px-4 py-2 text-sm hover:bg-primary hover:text-white cursor-pointer transition-colors" type="button" data-dropdown-option data-service-customization-option data-value="vdsl" data-label="Медная линия (VDSL)">Медная линия (VDSL)</button></li>
+<li><button class="w-full text-left px-4 py-2 text-sm hover:bg-primary hover:text-white cursor-pointer transition-colors" type="button" data-dropdown-option data-service-customization-option data-value="sat" data-label="Спутниковая связь">Спутниковая связь</button></li>
+</ul>
+</div>
+</div>
+</div>
+
+<!-- Input Toggle -->
+<div class="space-y-4" data-service-customization-toggles>
+<label class="text-xs font-bold uppercase tracking-wider text-slate-500">Дополнительные опции</label>
+<div class="flex items-center justify-between" data-service-customization-toggle>
+<span class="text-sm font-medium" data-service-customization-toggle-label>Статический IP</span>
+<button class="w-10 h-5 bg-primary rounded-full relative transition-colors" type="button" data-switch aria-pressed="true" data-switch-on-class="bg-primary" data-switch-off-class="bg-slate-300 dark:bg-border-dark" data-switch-thumb-on-class="right-1" data-switch-thumb-off-class="left-1">
+<span class="absolute right-1 top-1 size-3 bg-white rounded-full" data-switch-thumb></span>
+</button>
+</div>
+<div class="flex items-center justify-between" data-service-customization-toggle>
+<span class="text-sm font-medium" data-service-customization-toggle-label>Круглосуточный SLA</span>
+<button class="w-10 h-5 bg-slate-300 dark:bg-border-dark rounded-full relative transition-colors" type="button" data-switch aria-pressed="false" data-switch-on-class="bg-primary" data-switch-off-class="bg-slate-300 dark:bg-border-dark" data-switch-thumb-on-class="right-1" data-switch-thumb-off-class="left-1">
+<span class="absolute left-1 top-1 size-3 bg-white rounded-full" data-switch-thumb></span>
+</button>
+</div>
+</div>
+
+<button class="w-full py-3 border-2 border-primary text-primary font-bold rounded-lg hover:bg-primary hover:text-white transition-all text-sm" data-service-customization-apply>
+        Применить настройки
+      </button>
+</div>
+</div>
+</div>
+</section>
+<section class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100" data-stitch-block="service_stats_card">
+<div class="max-w-5xl mx-auto px-6 lg:px-10 pb-12">
+<div class="bg-primary p-6 rounded-2xl text-white overflow-hidden relative max-w-xl">
+<h4 class="text-lg font-bold mb-4 relative z-10" data-service-stats-title>Пропускная способность</h4>
+<div class="flex items-end gap-1 h-20 mb-4 relative z-10" data-service-stats-bars>
+<div class="flex-1 bg-white/20 rounded-t h-[40%]" data-service-stats-bar></div>
+<div class="flex-1 bg-white/20 rounded-t h-[60%]" data-service-stats-bar></div>
+<div class="flex-1 bg-white/40 rounded-t h-[80%]" data-service-stats-bar></div>
+<div class="flex-1 bg-white/20 rounded-t h-[50%]" data-service-stats-bar></div>
+<div class="flex-1 bg-white/60 rounded-t h-[90%]" data-service-stats-bar></div>
+<div class="flex-1 bg-white rounded-t h-[100%]" data-service-stats-bar></div>
+<div class="flex-1 bg-white/30 rounded-t h-[70%]" data-service-stats-bar></div>
+</div>
+<div class="flex justify-between items-center relative z-10">
+<span class="text-xs font-medium opacity-80" data-service-stats-label>Пиковая нагрузка</span>
+<span class="text-xl font-black" data-service-stats-value>942 Mb/s</span>
+</div>
+<div class="absolute -left-4 -top-4 size-24 bg-white/10 rounded-full blur-2xl"></div>
+</div>
+</div>
+</section>
+<section class="bg-premium-dark text-white selection:bg-primary/30" data-stitch-block="footer_and_contact_form">
+<!-- Contact Form Section -->
+<section class="relative py-24 px-6 overflow-hidden">
+<!-- Abstract Glow Background -->
+<div class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full pointer-events-none opacity-20">
+<div class="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-primary rounded-full blur-[120px]"></div>
+<div class="absolute bottom-[-10%] right-[-10%] w-[30%] h-[30%] bg-blue-400 rounded-full blur-[100px]"></div>
+</div>
+<div class="max-w-[1200px] mx-auto relative z-10">
+<div class="grid lg:grid-cols-2 gap-16 items-center">
+<!-- Text Content -->
+<div class="flex flex-col gap-6">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 w-fit">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+<span class="text-xs font-bold uppercase tracking-wider text-primary" data-cms-order-badge>Готовы к масштабированию?</span>
+</div>
+<h2 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight tracking-tight" data-cms-order-title>
+                        Обсудим ваш проект <br/>
+<span class="text-primary">прямо сейчас</span>
+</h2>
+<p class="text-lg text-gray-400 max-w-md leading-relaxed" data-cms-order-subtitle>
+                        Оставьте заявку, и наш персональный менеджер свяжется с вами для детальной консультации по инфраструктурным решениям МГТС.
+                    </p>
+<div class="flex flex-col gap-4 mt-4">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-lg bg-white/5 flex items-center justify-center border border-white/10">
+<span class="material-symbols-outlined text-primary">support_agent</span>
+</div>
+<div>
+<p class="text-sm text-gray-500" data-cms-order-phone-label>Поддержка 24/7</p>
+<p class="font-medium" data-cms-order-phone-value>8 800 250 0890</p>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-lg bg-white/5 flex items-center justify-center border border-white/10">
+<span class="material-symbols-outlined text-primary">mail</span>
+</div>
+<div>
+<p class="text-sm text-gray-500" data-cms-order-email-label>Email для бизнеса</p>
+<p class="font-medium" data-cms-order-email-value>b2b@mgts.ru</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Form Card -->
+<div class="form-glass p-8 md:p-10 rounded-xl shadow-2xl">
+<form class="flex flex-col gap-6" data-cms-order-form>
+<!-- TextField Component Style -->
+<div class="flex flex-col gap-2">
+<label class="text-sm font-medium text-gray-300">Имя</label>
+<input class="w-full bg-white/5 border border-white/10 rounded-lg h-14 px-4 text-white placeholder:text-gray-600 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all" placeholder="Иван Иванов" type="text"/>
+</div>
+<div class="flex flex-col gap-2">
+<label class="text-sm font-medium text-gray-300">Номер телефона</label>
+<input class="w-full bg-white/5 border border-white/10 rounded-lg h-14 px-4 text-white placeholder:text-gray-600 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all" placeholder="+7 (___) ___-__-__" type="tel"/>
+</div>
+<div class="flex flex-col gap-2">
+<label class="text-sm font-medium text-gray-300">Название компании</label>
+<input class="w-full bg-white/5 border border-white/10 rounded-lg h-14 px-4 text-white placeholder:text-gray-600 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all" placeholder="ООО 'ТехноПрогресс'" type="text"/>
+</div>
+<div class="flex flex-col gap-4 pt-2">
+<button class="w-full h-14 bg-primary hover:bg-primary/90 text-white font-bold rounded-lg transition-all transform active:scale-[0.98] flex items-center justify-center gap-2 group" type="submit">
+<span data-cms-order-button-text>Отправить заявку</span>
+<span class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</button>
+<p class="text-[10px] text-gray-500 text-center leading-relaxed uppercase tracking-widest" data-cms-order-disclaimer>
+                                Нажимая кнопку, вы соглашаетесь с условиями <br/>
+<a class="underline hover:text-primary transition-colors" href="#">обработки персональных данных</a>
+</p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer Section -->
+<footer class="bg-[#0a0f18] border-t border-white/5 pt-20 pb-10">
+<div class="max-w-[1200px] mx-auto px-6">
+<div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-10 mb-16">
+<!-- Branding Column -->
+<div class="col-span-2 lg:col-span-1 flex flex-col gap-6">
+<div class="flex items-center gap-2">
+<div class="w-10 h-10 bg-primary flex items-center justify-center rounded-lg">
+<span class="text-white font-black text-xl">M</span>
+</div>
+<span class="text-2xl font-bold tracking-tighter">МГТС</span>
+</div>
+<p class="text-sm text-gray-500 leading-relaxed">
+                        Лидер телекоммуникационных решений в Москве. Надежная инфраструктура для вашего бизнеса с 1882 года.
+                    </p>
+<div class="flex items-center gap-3">
+<a class="w-10 h-10 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center hover:bg-primary/20 hover:border-primary/50 transition-all text-gray-400 hover:text-white" href="#">
+<span class="material-symbols-outlined text-xl">public</span>
+</a>
+<a class="w-10 h-10 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center hover:bg-primary/20 hover:border-primary/50 transition-all text-gray-400 hover:text-white" href="#">
+<span class="material-symbols-outlined text-xl">rss_feed</span>
+</a>
+<a class="w-10 h-10 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center hover:bg-primary/20 hover:border-primary/50 transition-all text-gray-400 hover:text-white" href="#">
+<span class="material-symbols-outlined text-xl">video_library</span>
+</a>
+</div>
+</div>
+<!-- Sitemap: Services -->
+<div class="flex flex-col gap-6">
+<h3 class="text-sm font-bold uppercase tracking-widest text-primary">Услуги</h3>
+<ul class="flex flex-col gap-3">
+<li><a class="text-sm text-gray-400 hover:text-white transition-colors" href="#">Интернет для бизнеса</a></li>
+<li><a class="text-sm text-gray-400 hover:text-white transition-colors" href="#">Облачные АТС</a></li>
+<li><a class="text-sm text-gray-400 hover:text-white transition-colors" href="#">Выделенные каналы</a></li>
+<li><a class="text-sm text-gray-400 hover:text-white transition-colors" href="#">Видеонаблюдение</a></li>
+<li><a class="text-sm text-gray-400 hover:text-white transition-colors" href="#">Colocation</a></li>
+</ul>
+</div>
+<!-- Sitemap: Company -->
+<div class="flex flex-col gap-6">
+<h3 class="text-sm font-bold uppercase tracking-widest text-primary">Компания</h3>
+<ul class="flex flex-col gap-3">
+<li><a class="text-sm text-gray-400 hover:text-white transition-colors" href="#">О нас</a></li>
+<li><a class="text-sm text-gray-400 hover:text-white transition-colors" href="#">Карьера</a></li>
+<li><a class="text-sm text-gray-400 hover:text-white transition-colors" href="#">Пресс-центр</a></li>
+<li><a class="text-sm text-gray-400 hover:text-white transition-colors" href="#">Инвесторам</a></li>
+<li><a class="text-sm text-gray-400 hover:text-white transition-colors" href="#">Тендеры</a></li>
+</ul>
+</div>
+<!-- Sitemap: Support -->
+<div class="flex flex-col gap-6">
+<h3 class="text-sm font-bold uppercase tracking-widest text-primary">Поддержка</h3>
+<ul class="flex flex-col gap-3">
+<li><a class="text-sm text-gray-400 hover:text-white transition-colors" href="#">Центр помощи</a></li>
+<li><a class="text-sm text-gray-400 hover:text-white transition-colors" href="#">Документация</a></li>
+<li><a class="text-sm text-gray-400 hover:text-white transition-colors" href="#">Статус сети</a></li>
+<li><a class="text-sm text-gray-400 hover:text-white transition-colors" href="#">Обратная связь</a></li>
+<li><a class="text-sm text-gray-400 hover:text-white transition-colors" href="#">Контакты</a></li>
+</ul>
+</div>
+<!-- Sitemap: Solutions -->
+<div class="flex flex-col gap-6">
+<h3 class="text-sm font-bold uppercase tracking-widest text-primary">Решения</h3>
+<ul class="flex flex-col gap-3">
+<li><a class="text-sm text-gray-400 hover:text-white transition-colors" href="#">Для госсектора</a></li>
+<li><a class="text-sm text-gray-400 hover:text-white transition-colors" href="#">Для малого бизнеса</a></li>
+<li><a class="text-sm text-gray-400 hover:text-white transition-colors" href="#">Крупный энтерпрайз</a></li>
+<li><a class="text-sm text-gray-400 hover:text-white transition-colors" href="#">IT-инфраструктура</a></li>
+</ul>
+</div>
+</div>
+<!-- Bottom Bar -->
+<div class="pt-10 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6">
+<div class="flex flex-col md:flex-row items-center gap-4 md:gap-8">
+<p class="text-xs text-gray-600 uppercase tracking-widest">© 2024 ПАО МГТС. Все права защищены.</p>
+<div class="flex items-center gap-4">
+<a class="text-xs text-gray-600 hover:text-gray-400 transition-colors uppercase tracking-widest" href="#">Политика безопасности</a>
+<a class="text-xs text-gray-600 hover:text-gray-400 transition-colors uppercase tracking-widest" href="#">Правовая информация</a>
+</div>
+</div>
+<div class="flex items-center gap-2 px-3 py-1.5 rounded bg-white/5 border border-white/10">
+<span class="material-symbols-outlined text-xs text-green-500">lock</span>
+<span class="text-[10px] text-gray-500 uppercase tracking-tighter">Соединение защищено SSL-шифрованием</span>
+</div>
+</div>
+</div>
+</footer>
+</section>
+</body>
+</html>

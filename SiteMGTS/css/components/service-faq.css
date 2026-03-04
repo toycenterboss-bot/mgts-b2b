@@ -1,0 +1,164 @@
+/* ============================================
+   SERVICE-FAQ
+   ============================================ */
+
+/* Генерировано на основе семантического анализа */
+/* Дата: 2026-01-09T15:41:02.775Z */
+
+/* Общий элемент компонента */
+.service-faq__question {
+  display: block;
+}
+
+/* Общий элемент компонента */
+.service-faq__answer {
+  display: block;
+}
+
+.service-faq__answer a {
+  color: var(--color-primary, #0066cc);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.service-faq__answer a:hover {
+  color: var(--color-primary-dark, #0052a3);
+  text-decoration: underline;
+}
+
+/* Элемент списка */
+.service-faq__item {
+  display: list-item;
+}
+
+.service-faq__item a {
+  color: var(--color-primary, #0066cc);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.service-faq__item a:hover {
+  color: var(--color-primary-dark, #0052a3);
+  text-decoration: underline;
+}
+
+/* Ссылка или иконка */
+.service-faq__question-icon {
+  display: inline-block;
+}
+
+/* Основной текстовый контент */
+.service-faq__answer-text {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-gray-700, #374151);
+  margin-bottom: var(--spacing-md, 1rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+/* Основной текстовый контент */
+.service-faq__content--narrow {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-gray-700, #374151);
+  margin-bottom: var(--spacing-md, 1rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+.service-faq__content--narrow a {
+  color: var(--color-primary, #0066cc);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.service-faq__content--narrow a:hover {
+  color: var(--color-primary-dark, #0052a3);
+  text-decoration: underline;
+}
+
+/* Основной текстовый контент */
+.service-faq__text {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-gray-700, #374151);
+  margin-bottom: var(--spacing-md, 1rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+.service-faq__text a {
+  color: var(--color-primary, #0066cc);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.service-faq__text a:hover {
+  color: var(--color-primary-dark, #0052a3);
+  text-decoration: underline;
+}
+
+/* Заголовок секции или подраздела */
+.service-faq__title {
+  display: block;
+  font-size: clamp(1.75rem, 3vw, 2.25rem);
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--color-gray-900, #111827);
+  margin-bottom: var(--spacing-lg, 1.5rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+/* Заголовок секции или подраздела */
+.service-faq__title-wrapper {
+  display: block;
+  font-size: clamp(1.75rem, 3vw, 2.25rem);
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--color-gray-900, #111827);
+  margin-bottom: var(--spacing-lg, 1.5rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+/* Ссылка или иконка */
+.service-faq__icon {
+  display: inline-block;
+}
+
+/* Заголовок секции или подраздела */
+.service-faq__subtitle {
+  display: block;
+  font-size: clamp(1.25rem, 2vw, 1.5rem);
+  font-weight: 500;
+  line-height: 1.3;
+  color: var(--color-gray-800, #1f2937);
+  margin-bottom: var(--spacing-lg, 1.5rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+/* Основной текстовый контент */
+.service-faq__text-box {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-gray-700, #374151);
+  margin-bottom: var(--spacing-md, 1rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+/* Контейнер для группировки элементов */
+.service-faq__container {
+  display: flex;
+  padding: var(--spacing-lg, 1.5rem);
+  max-width: var(--container-max-width, 1200px);
+  margin: 0 auto;
+}
+

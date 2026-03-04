@@ -1,0 +1,60 @@
+{
+  "collectionName": "components_page_history_timelines",
+  "info": {
+    "displayName": "History Timeline",
+    "description": "Блок истории с постраничным перелистыванием и табами. CSS классы: history-timeline (контейнер), history-timeline__title (h2 заголовок), history-timeline__tabs (табы), history-timeline__tab-button (кнопка таба), history-timeline__period (период), history-timeline__period-title (заголовок периода), history-timeline__period-content (контент периода), history-timeline__image (изображение)"
+  },
+  "options": {},
+  "attributes": {
+    "isVisible": {
+      "type": "boolean",
+      "default": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "introTitle": {
+      "type": "string",
+      "description": "Крупный заголовок блока истории"
+    },
+    "introSubtitle": {
+      "type": "text",
+      "description": "Подзаголовок под основным заголовком"
+    },
+    "ctaLabel": {
+      "type": "string",
+      "description": "Текст кнопки справа от заголовка"
+    },
+    "ctaHref": {
+      "type": "string",
+      "description": "Ссылка для кнопки справа от заголовка"
+    },
+    "secondaryCtaLabel": {
+      "type": "string",
+      "description": "Текст вторичной CTA внизу блока"
+    },
+    "secondaryCtaHref": {
+      "type": "string",
+      "description": "Ссылка вторичной CTA внизу блока"
+    },
+    "secondaryCtaSecondaryLabel": {
+      "type": "string",
+      "description": "Текст второй кнопки внизу блока"
+    },
+    "secondaryCtaSecondaryHref": {
+      "type": "string",
+      "description": "Ссылка второй кнопки внизу блока"
+    },
+    "periods": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.history-period"
+    },
+    "defaultPeriod": {
+      "type": "integer",
+      "default": 0,
+      "description": "Индекс периода по умолчанию"
+    }
+  }
+}

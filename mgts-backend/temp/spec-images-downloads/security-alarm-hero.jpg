@@ -1,0 +1,22 @@
+<!doctype html><html lang="ru"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/><title>МГТС</title><script src="https://api-maps.yandex.ru/v3/?apikey=d0bdbd4a-da29-4bfd-814d-934f45c1f2cd&&lang=ru_RU"></script><script async="" src="https://mc.yandex.ru/metrika/tag.js"></script><script>(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+                m[i].l=1*new Date();
+                for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+                k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+            ym(93875479, "init", {
+                clickmap:true,
+                trackLinks:true,
+                accurateTrackBounce:true,
+                webvisor:true
+            });</script><script>(function (dl, id) {
+                window[dl] = window[dl] || [];
+                const script = document.createElement('script'),
+                    params = dl !== 'dataLayer' ? '?l=' + dl : '';
+                script.async = true;
+                script.src = `https://tag.a.mts.ru/container/${id}/tag.js${params}`;
+                document.head.appendChild(script);
+            })('dataLayer', '019b09e6-3458-767e-8404-2ca768465a4d');</script><noscript><div><img src="https://mc.yandex.ru/watch/93875479" style="position:absolute; left:-9999px;" alt=""/></div></noscript><script src="https://api-maps.yandex.ru/2.1/?apikey=d0bdbd4a-da29-4bfd-814d-934f45c1f2cd&&lang=ru_RU"></script><script>const handleGesture = (event) => { if (event.scale !== 1) event.preventDefault() };
+            document.addEventListener('gesturestart', handleGesture, false);
+            document.addEventListener('gesturechange', handleGesture, false);
+            document.addEventListener('gestureend', handleGesture, false);</script><link rel="icon" href="/Logo.svg"><script defer="defer" src="/storage/bundle.ad4ddf1db361b5001936.js"></script><link href="/storage/main.494b4c6693acc8521346.css" rel="stylesheet"></head><body><div id="root" class="project-container"></div></body></html>

@@ -1,0 +1,198 @@
+{
+  "page": {
+    "slug": "avr_ppr",
+    "url": "https://business.mgts.ru/operators/infrastructure/avr_ppr",
+    "pathname": "/operators/infrastructure/avr_ppr",
+    "analyzedAt": "2026-01-13T14:08:55.397Z",
+    "screenshot": "/Users/andrey_efremov/Downloads/runs/mgts-backend/temp/page-analysis-llm/avr_ppr_screenshot.png",
+    "llmProvider": "perplexity",
+    "llmModel": "sonar"
+  },
+  "metadata": {
+    "title": "Оказание услуг АВР и ППР"
+  },
+  "sections": [
+    {
+      "sectionIndex": 1,
+      "type": "breadcrumbs",
+      "description": "Навигационная цепочка (хлебные крошки) для показа текущего местоположения пользователя на сайте и быстрого возврата к родительским разделам",
+      "title": "",
+      "subtitle": "",
+      "text": "",
+      "elements": [],
+      "images": [],
+      "links": {
+        "internalLinks": [
+          {
+            "text": "Главная",
+            "href": "/",
+            "purpose": "Переход на главную страницу сайта"
+          },
+          {
+            "text": "Операторам связи",
+            "href": "/operators",
+            "purpose": "Переход в раздел для операторов связи"
+          },
+          {
+            "text": "Инфраструктура",
+            "href": "/operators/infrastructure",
+            "purpose": "Переход в раздел инфраструктуры"
+          }
+        ],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [],
+      "tabs": [],
+      "table": null
+    },
+    {
+      "sectionIndex": 2,
+      "type": "hero",
+      "description": "Главный заголовок страницы, представляющий основную тему - оказание услуг АВР (аварийно-восстановительные работы) и ППР (планово-предупредительный ремонт)",
+      "title": "Оказание услуг АВР и ППР",
+      "subtitle": "",
+      "text": "[object Object]",
+      "elements": [],
+      "images": [],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [],
+      "tabs": [],
+      "table": null
+    },
+    {
+      "sectionIndex": 3,
+      "type": "advantages",
+      "description": "Блок преимуществ услуги в формате сетки из 4 карточек с фоновыми изображениями, демонстрирующий ключевые выгоды для клиентов: круглосуточную поддержку, контроль объектов, широкое покрытие и безопасность",
+      "title": "",
+      "subtitle": "",
+      "text": "",
+      "elements": [],
+      "images": [
+        {
+          "description": "Иконка круглосуточной технической поддержки",
+          "position": "фон первой карточки",
+          "src": "/images/1.png",
+          "alt": ""
+        },
+        {
+          "description": "Иконка контроля над объектами",
+          "position": "фон второй карточки",
+          "src": "/images/3.png",
+          "alt": ""
+        },
+        {
+          "description": "Иконка широкого покрытия",
+          "position": "фон третьей карточки",
+          "src": "/images/2.png",
+          "alt": ""
+        },
+        {
+          "description": "Иконка безопасности",
+          "position": "фон четвертой карточки",
+          "src": "/images/7.png",
+          "alt": ""
+        }
+      ],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [
+        {
+          "title": "Круглосуточная техническая поддержка",
+          "text": "Вы всегда можете обратиться за помощью к нашим специалистам",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "",
+            "href": "",
+            "purpose": ""
+          }
+        },
+        {
+          "title": "Контроль над всеми объектами",
+          "text": "Обеспечьте контроль различных объектов в вашей структуре: офисы, склады, торговые помещения и т. д.",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "",
+            "href": "",
+            "purpose": ""
+          }
+        },
+        {
+          "title": "Широкое покрытие",
+          "text": "Самая обширная и разветвленная сеть кабельной канализации в Москве",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "",
+            "href": "",
+            "purpose": ""
+          }
+        },
+        {
+          "title": "Безопасность",
+          "text": "Современная система безопасности гарантирует надежную защиту от несанкционированного доступа и безопасность вашей инфраструктуры в целом",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "",
+            "href": "",
+            "purpose": ""
+          }
+        }
+      ],
+      "tabs": [],
+      "table": null
+    },
+    {
+      "sectionIndex": 4,
+      "type": "contact",
+      "description": "Блок для связи с компанией, содержащий телефон, ссылку на контактные данные операторов, QR-код и кнопку входа в личный кабинет для операторов связи",
+      "title": "СВЯЗАТЬСЯ С НАМИ",
+      "subtitle": "¬ связаться с нами",
+      "text": "",
+      "elements": [
+        {
+          "type": "button",
+          "text": "Войти в личный кабинет",
+          "purpose": "Переход в личный кабинет для операторов связи",
+          "href": ""
+        }
+      ],
+      "images": [
+        {
+          "description": "QR-код для личного кабинета (генерируется canvas)",
+          "position": "в блоке личного кабинета",
+          "src": "",
+          "alt": ""
+        }
+      ],
+      "links": {
+        "internalLinks": [
+          {
+            "text": "Контактные данные для операторов связи",
+            "href": "/operators/contact_for_operators",
+            "purpose": "Переход на страницу с контактными данными для операторов связи"
+          }
+        ],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [],
+      "tabs": [],
+      "table": null
+    }
+  ]
+}

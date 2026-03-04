@@ -1,0 +1,12 @@
+<!-- Content Wrapper Component -->
+<!-- Используется для страниц с боковым меню (например, раздел "О компании") -->
+<div style="display: grid; grid-template-columns: 250px 1fr; gap: var(--spacing-2xl);">
+    <!-- Боковое меню (загружается через iframe или компонент) -->
+    <div data-component="sidebar-about"></div>
+    
+    <!-- Основной контент (загружается через iframe) -->
+    <div id="main-content-frame" style="min-height: 400px;">
+        <!-- Контент будет загружен через iframe -->
+    </div>
+</div>
+

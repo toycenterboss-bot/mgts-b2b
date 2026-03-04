@@ -1,0 +1,403 @@
+{
+  "page": {
+    "slug": "business",
+    "url": "https://business.mgts.ru/business",
+    "pathname": "/business",
+    "analyzedAt": "2026-01-13T14:10:09.450Z",
+    "screenshot": "/Users/andrey_efremov/Downloads/runs/mgts-backend/temp/page-analysis-llm/business_screenshot.png",
+    "llmProvider": "perplexity",
+    "llmModel": "sonar"
+  },
+  "metadata": {
+    "title": "Бизнесу"
+  },
+  "sections": [
+    {
+      "sectionIndex": 1,
+      "type": "hero",
+      "description": "Геройский блок с основным заголовком и тегами услуг для бизнеса, представляет ключевые услуги МГТС для привлечения внимания пользователей",
+      "title": "Бизнесу",
+      "subtitle": "МГТС – готовые решения по организации связи для вашего бизнеса",
+      "text": "",
+      "elements": [],
+      "images": [],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [],
+      "tabs": [
+        {
+          "title": "Бизнесу",
+          "isActive": true,
+          "content": {
+            "title": "",
+            "text": "МГТС – готовые решения по организации связи для вашего бизнеса",
+            "links": {
+              "internalLinks": [],
+              "externalLinks": [],
+              "fileLinks": [],
+              "imageLinks": []
+            }
+          }
+        },
+        {
+          "title": "МГТС – готовые решения по организации связи для вашего бизнеса",
+          "isActive": false,
+          "content": {
+            "title": "",
+            "text": "Пропуск трафикаПередача данныхОхранаВиртуальная АТСИнфраструктураАнтифродVPN",
+            "links": {
+              "internalLinks": [],
+              "externalLinks": [],
+              "fileLinks": [],
+              "imageLinks": []
+            }
+          }
+        },
+        {
+          "title": "Пропуск трафикаПередача данныхОхранаВиртуальная АТСИнфраструктураАнтифродVPN",
+          "isActive": false,
+          "content": {
+            "title": "",
+            "text": "БизнесуМГТС – готовые решения по организации связи для вашего бизнесаПропуск трафикаПередача данныхОхранаВиртуальная АТСИнфраструктураАнтифродVPN",
+            "links": {
+              "internalLinks": [],
+              "externalLinks": [],
+              "fileLinks": [],
+              "imageLinks": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sectionIndex": 2,
+      "type": "services",
+      "description": "Секция с горизонтально прокручиваемыми карточками основных услуг бизнеса, каждая карточка ведет на страницу услуги с иконкой и описанием",
+      "title": "",
+      "subtitle": "",
+      "text": "",
+      "elements": [
+        {
+          "type": "button",
+          "text": "Все услуги",
+          "purpose": "Переход к полной странице всех услуг бизнеса",
+          "href": "/business/all_services"
+        }
+      ],
+      "images": [],
+      "links": {
+        "internalLinks": [
+          {
+            "text": "Телефония",
+            "href": "/business/telephony",
+            "purpose": "Страница услуги телефонии для бизнеса"
+          },
+          {
+            "text": "Мобильная связь",
+            "href": "/business/mobile_connection",
+            "purpose": "Страница услуги мобильной связи для бизнеса"
+          },
+          {
+            "text": "Виртуальная АТС",
+            "href": "/virtual_ate",
+            "purpose": "Страница услуги виртуальной АТС"
+          },
+          {
+            "text": "Доступ в интернет",
+            "href": "/business/access_internet",
+            "purpose": "Страница услуги доступа в интернет для бизнеса"
+          },
+          {
+            "text": "Телевидение",
+            "href": "/business/digital_television",
+            "purpose": "Страница услуги цифрового телевидения для бизнеса"
+          },
+          {
+            "text": "Видеонаблюдение",
+            "href": "/business/video_surveillance_office",
+            "purpose": "Страница услуги видеонаблюдения для офиса"
+          },
+          {
+            "text": "Охрана",
+            "href": "/business/security_alarm",
+            "purpose": "Страница услуги охраны для бизнеса"
+          },
+          {
+            "text": "Компьютерная помощь",
+            "href": "/business/equipment_setup/computer_help",
+            "purpose": "Страница услуги компьютерной помощи и настройки оборудования"
+          }
+        ],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [
+        {
+          "title": "Телефония",
+          "text": "Надёжная и гибкая связь",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "Телефония",
+            "href": "/business/telephony",
+            "purpose": "Переход к услуге телефонии"
+          }
+        },
+        {
+          "title": "Мобильная связь",
+          "text": "Быстрая передача данных и постоянный доступ к связи",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "Мобильная связь",
+            "href": "/business/mobile_connection",
+            "purpose": "Переход к услуге мобильной связи"
+          }
+        },
+        {
+          "title": "Виртуальная АТС",
+          "text": "Современный сервис для управления телефонными вызовами",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "Виртуальная АТС",
+            "href": "/virtual_ate",
+            "purpose": "Переход к услуге виртуальной АТС"
+          }
+        },
+        {
+          "title": "Доступ в интернет",
+          "text": "Широкополосный доступ к высокоскоростным каналам передачи данных",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "Доступ в интернет",
+            "href": "/business/access_internet",
+            "purpose": "Переход к услуге доступа в интернет"
+          }
+        },
+        {
+          "title": "Телевидение",
+          "text": "Качественный видеоконтент для офисов, предприятий, торговых точек и т. д.",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "Телевидение",
+            "href": "/business/digital_television",
+            "purpose": "Переход к услуге телевидения"
+          }
+        },
+        {
+          "title": "Видеонаблюдение",
+          "text": "Единая система видеонаблюдения для безопасности и контроля доступа",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "Видеонаблюдение",
+            "href": "/business/video_surveillance_office",
+            "purpose": "Переход к услуге видеонаблюдения"
+          }
+        },
+        {
+          "title": "Охрана",
+          "text": "Организация безопасности вашего бизнеса. Оперативное реагирование на угрозы",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "Охрана",
+            "href": "/business/security_alarm",
+            "purpose": "Переход к услуге охраны"
+          }
+        },
+        {
+          "title": "Компьютерная помощь",
+          "text": "Помощь в монтаже и настройки вашего оборудования",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "Компьютерная помощь",
+            "href": "/business/equipment_setup/computer_help",
+            "purpose": "Переход к услуге компьютерной помощи"
+          }
+        }
+      ],
+      "tabs": []
+    },
+    {
+      "sectionIndex": 3,
+      "type": "additional-info",
+      "description": "Секция дополнительной информации с заголовком и карточками вспомогательных услуг для бизнеса",
+      "title": "Дополнительная информация",
+      "subtitle": "",
+      "text": "",
+      "elements": [],
+      "images": [],
+      "links": {
+        "internalLinks": [
+          {
+            "text": "Способы оплаты услуг для ИП и ООО",
+            "href": "/business/payment_methods",
+            "purpose": "Страница способов оплаты услуг для ИП и ООО"
+          },
+          {
+            "text": "Настройка оборудования",
+            "href": "/business/equipment_setup",
+            "purpose": "Страница настройки оборудования для бизнеса"
+          }
+        ],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [
+        {
+          "title": "Способы оплаты услуг для ИП и ООО",
+          "text": "Простые и понятные варианты оплаты наших услуг",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "Способы оплаты услуг для ИП и ООО",
+            "href": "/business/payment_methods",
+            "purpose": "Переход к способам оплаты"
+          }
+        },
+        {
+          "title": "Настройка оборудования",
+          "text": "Настройка TCP/IP/DNS-серверов, настройка IP-телефонов, настройка роутеров, коммутаторов, СКС",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "Настройка оборудования",
+            "href": "/business/equipment_setup",
+            "purpose": "Переход к настройке оборудования"
+          }
+        }
+      ],
+      "tabs": []
+    },
+    {
+      "sectionIndex": 4,
+      "type": "advantages",
+      "description": "Секция преимуществ компании с сеткой из 4 карточек, каждая с фоновым изображением, заголовком и описанием",
+      "title": "",
+      "subtitle": "",
+      "text": "",
+      "elements": [],
+      "images": [
+        {
+          "description": "Фоновое изображение для карточки 'Опыт' - иллюстрация опыта компании",
+          "position": "background",
+          "src": "/images/2.png",
+          "alt": ""
+        },
+        {
+          "description": "Фоновое изображение для карточки 'Индивидуальный подход' - иллюстрация персонализации",
+          "position": "background",
+          "src": "/images/1.png",
+          "alt": ""
+        },
+        {
+          "description": "Фоновое изображение для карточки 'Инфраструктура' - иллюстрация инфраструктуры",
+          "position": "background",
+          "src": "/images/4.png",
+          "alt": ""
+        },
+        {
+          "description": "Фоновое изображение для карточки 'Поддержка 24/7' - иллюстрация круглосуточной поддержки",
+          "position": "background",
+          "src": "/images/3.png",
+          "alt": ""
+        }
+      ],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [
+        {
+          "title": "Опыт",
+          "text": "Воспользуйтесь нашим опытом для создания качественной инфраструктуры связи",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "",
+            "href": "",
+            "purpose": ""
+          }
+        },
+        {
+          "title": "Индивидуальный подход",
+          "text": "Индивидуальный подход к вашим запросам – наша специализация. Специалисты МГТС подберут уникальное решение для любых задач",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "",
+            "href": "",
+            "purpose": ""
+          }
+        },
+        {
+          "title": "Инфраструктура",
+          "text": "Мы гарантируем удобное размещение оборудования в наших инфраструктурных линейно-кабельных сооружениях",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "",
+            "href": "",
+            "purpose": ""
+          }
+        },
+        {
+          "title": "Поддержка 24/7",
+          "text": "Наши специалисты обеспечивают круглосуточную поддержку. Если у вас возникну вопросы, мы найдём на них ответы",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "",
+            "href": "",
+            "purpose": ""
+          }
+        }
+      ],
+      "tabs": []
+    },
+    {
+      "sectionIndex": 5,
+      "type": "request-form",
+      "description": "Форма заявки на подбор решения с заголовком, полями ввода, чекбоксом и кнопкой отправки для сбора контактов пользователей",
+      "title": "ПОДОБРАТЬ РЕШЕНИЕ",
+      "subtitle": "¬ связаться с нами",
+      "text": "Вводя данные, вы подтверждаете свое ознакомление и согласие с условиями обработки персональных данных",
+      "elements": [
+        {
+          "type": "button",
+          "text": "Отправить",
+          "purpose": "Отправка формы заявки на подбор решения",
+          "href": ""
+        }
+      ],
+      "images": [],
+      "links": {
+        "internalLinks": [
+          {
+            "text": "условиями обработки персональных данных",
+            "href": "",
+            "purpose": "Ссылка на условия обработки персональных данных"
+          }
+        ],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [],
+      "tabs": []
+    }
+  ]
+}

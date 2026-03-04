@@ -1,0 +1,724 @@
+{
+  "page": {
+    "slug": "accommodation_at_sites",
+    "url": "https://business.mgts.ru/operators/infrastructure/accommodation_at_sites",
+    "pathname": "/operators/infrastructure/accommodation_at_sites",
+    "analyzedAt": "2026-01-12T13:56:59.987Z",
+    "screenshot": "/Users/andrey_efremov/Downloads/runs/mgts-backend/temp/page-analysis-llm/accommodation_at_sites_screenshot.png",
+    "llmProvider": "perplexity",
+    "llmModel": "sonar"
+  },
+  "metadata": {
+    "title": "Размещение на объектах"
+  },
+  "sections": [
+    {
+      "sectionIndex": 1,
+      "type": "breadcrumbs",
+      "description": "Навигационная цепочка хлебных крошек для указания текущего местоположения пользователя на сайте",
+      "title": "",
+      "subtitle": "",
+      "text": "",
+      "elements": [],
+      "images": [],
+      "links": {
+        "internalLinks": [
+          {
+            "text": "Главная",
+            "href": "/",
+            "purpose": "Переход на главную страницу сайта"
+          },
+          {
+            "text": "Операторам связи",
+            "href": "/operators",
+            "purpose": "Переход в раздел для операторов связи"
+          },
+          {
+            "text": "Инфраструктура",
+            "href": "/operators/infrastructure",
+            "purpose": "Переход в раздел инфраструктуры"
+          }
+        ],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [],
+      "tabs": []
+    },
+    {
+      "sectionIndex": 2,
+      "type": "hero",
+      "description": "Главный герой-блок с основным заголовком страницы и описанием услуги размещения оборудования на объектах МГТС",
+      "title": "Размещение на объектах",
+      "subtitle": "",
+      "text": "Мы предоставляем доступ к охраняемым технологическим площадкам для размещения оборудования, с обеспечением поддержки по температуре, влажности и электроснабжению. Возможность подключения к оборудованию МГТС и других операторов связи",
+      "elements": [],
+      "images": [],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [],
+      "tabs": []
+    },
+    {
+      "sectionIndex": 3,
+      "type": "advantages",
+      "description": "Блок преимуществ услуги в формате трех карточек с фоновыми изображениями, расположенных в ряд",
+      "title": "",
+      "subtitle": "",
+      "text": "",
+      "elements": [],
+      "images": [
+        {
+          "description": "Иконка безопасности (видеонаблюдение, защита)",
+          "position": "фон первой карточки",
+          "src": "/images/12.png",
+          "alt": ""
+        },
+        {
+          "description": "Иконка компетенции (профессионализм, квалификация)",
+          "position": "фон второй карточки",
+          "src": "/images/4.png",
+          "alt": ""
+        },
+        {
+          "description": "Иконка поддержки (круглосуточная помощь)",
+          "position": "фон третьей карточки",
+          "src": "/images/11.png",
+          "alt": ""
+        }
+      ],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [
+        {
+          "title": "Безопасность",
+          "text": "Постоянное видеонаблюдение и система пожаротушения, обеспечивают полную защиту объекта в любое время суток",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "",
+            "href": "",
+            "purpose": ""
+          }
+        },
+        {
+          "title": "Высокая компетенция",
+          "text": "Современный комплекс систем, поддерживаемый высококвалифицированным персоналом, предлагают высший уровень качества и профессионализма",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "",
+            "href": "",
+            "purpose": ""
+          }
+        },
+        {
+          "title": "Поддержка",
+          "text": "Круглосуточная поддержка гарантирует надёжное и оперативное реагирование на ваши запросы в любое время, включая выходные дни",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "",
+            "href": "",
+            "purpose": ""
+          }
+        }
+      ],
+      "tabs": []
+    },
+    {
+      "sectionIndex": 4,
+      "type": "addresses-map",
+      "description": "Интерактивный блок с вертикальным списком адресов объектов (табы слева) и интерактивной картой Яндекс.Карты справа. При клике на адрес карта центрируется на объекте",
+      "title": "Адреса объектов для размещения оборудования",
+      "subtitle": "",
+      "text": "",
+      "elements": [],
+      "images": [],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [
+          {
+            "text": "Условия использования",
+            "href": "https://yandex.ru/legal/maps_termsofuse/?lang=ru_RU",
+            "purpose": "Переход к условиям использования Яндекс.Карт"
+          },
+          {
+            "text": "© Яндекс",
+            "href": "https://yandex.ru/maps/?from=api-maps&utm_source=jsapi&ll=37.596883999999974%2C55.781250999993695&origin=jsapi_3&z=17&l=map",
+            "purpose": "Переход на Яндекс.Карты"
+          }
+        ],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [],
+      "tabs": [
+        {
+          "title": "Москва, Новослободская улица, 29с2",
+          "isActive": true,
+          "content": {
+            "title": "",
+            "text": "Интерактивная карта Яндекс.Карты с маркером на активном объекте",
+            "links": {
+              "internalLinks": [],
+              "externalLinks": [
+                {
+                  "text": "Условия использования",
+                  "href": "https://yandex.ru/legal/maps_termsofuse/?lang=ru_RU",
+                  "purpose": "Условия использования Яндекс.Карт"
+                }
+              ],
+              "fileLinks": [],
+              "imageLinks": []
+            }
+          }
+        },
+        {
+          "title": "Москва, Электрозаводская улица, 58",
+          "isActive": false,
+          "content": {
+            "title": "",
+            "text": "Интерактивная карта Яндекс.Карты с маркером на объекте",
+            "links": {
+              "internalLinks": [],
+              "externalLinks": [],
+              "fileLinks": [],
+              "imageLinks": []
+            }
+          }
+        },
+        {
+          "title": "Москва, Живописная улица, 8к1",
+          "isActive": false,
+          "content": {
+            "title": "",
+            "text": "Интерактивная карта Яндекс.Карты с маркером на объекте",
+            "links": {
+              "internalLinks": [],
+              "externalLinks": [],
+              "fileLinks": [],
+              "imageLinks": []
+            }
+          }
+        },
+        {
+          "title": "Москва, Винницкая улица, 4",
+          "isActive": false,
+          "content": {
+            "title": "",
+            "text": "Интерактивная карта Яндекс.Карты с маркером на объекте",
+            "links": {
+              "internalLinks": [],
+              "externalLinks": [],
+              "fileLinks": [],
+              "imageLinks": []
+            }
+          }
+        },
+        {
+          "title": "Москва, Милютинский переулок, 5с2",
+          "isActive": false,
+          "content": {
+            "title": "",
+            "text": "Интерактивная карта Яндекс.Карты с маркером на объекте",
+            "links": {
+              "internalLinks": [],
+              "externalLinks": [],
+              "fileLinks": [],
+              "imageLinks": []
+            }
+          }
+        },
+        {
+          "title": "Москва, улица Санникова, 11к2",
+          "isActive": false,
+          "content": {
+            "title": "",
+            "text": "Интерактивная карта Яндекс.Карты с маркером на объекте",
+            "links": {
+              "internalLinks": [],
+              "externalLinks": [],
+              "fileLinks": [],
+              "imageLinks": []
+            }
+          }
+        },
+        {
+          "title": "Москва, улица Маршала Катукова, 22к2",
+          "isActive": false,
+          "content": {
+            "title": "",
+            "text": "Интерактивная карта Яндекс.Карты с маркером на объекте",
+            "links": {
+              "internalLinks": [],
+              "externalLinks": [],
+              "fileLinks": [],
+              "imageLinks": []
+            }
+          }
+        },
+        {
+          "title": "Москва, Митинская улица, 40к2",
+          "isActive": false,
+          "content": {
+            "title": "",
+            "text": "Интерактивная карта Яндекс.Карты с маркером на объекте",
+            "links": {
+              "internalLinks": [],
+              "externalLinks": [],
+              "fileLinks": [],
+              "imageLinks": []
+            }
+          }
+        },
+        {
+          "title": "Москва, Городецкая улица, 8А",
+          "isActive": false,
+          "content": {
+            "title": "",
+            "text": "Интерактивная карта Яндекс.Карты с маркером на объекте",
+            "links": {
+              "internalLinks": [],
+              "externalLinks": [],
+              "fileLinks": [],
+              "imageLinks": []
+            }
+          }
+        },
+        {
+          "title": "Москва, улица Сайкина, 13к1",
+          "isActive": false,
+          "content": {
+            "title": "",
+            "text": "Интерактивная карта Яндекс.Карты с маркером на объекте",
+            "links": {
+              "internalLinks": [],
+              "externalLinks": [],
+              "fileLinks": [],
+              "imageLinks": []
+            }
+          }
+        },
+        {
+          "title": "Москва, Байкальская улица, 35А",
+          "isActive": false,
+          "content": {
+            "title": "",
+            "text": "Интерактивная карта Яндекс.Карты с маркером на объекте",
+            "links": {
+              "internalLinks": [],
+              "externalLinks": [],
+              "fileLinks": [],
+              "imageLinks": []
+            }
+          }
+        },
+        {
+          "title": "Москва, Можайское шоссе, 38к1",
+          "isActive": false,
+          "content": {
+            "title": "",
+            "text": "Интерактивная карта Яндекс.Карты с маркером на объекте",
+            "links": {
+              "internalLinks": [],
+              "externalLinks": [],
+              "fileLinks": [],
+              "imageLinks": []
+            }
+          }
+        },
+        {
+          "title": "Москва, улица 26-ти Бакинских Комиссаров, 5к1",
+          "isActive": false,
+          "content": {
+            "title": "",
+            "text": "Интерактивная карта Яндекс.Карты с маркером на объекте",
+            "links": {
+              "internalLinks": [],
+              "externalLinks": [],
+              "fileLinks": [],
+              "imageLinks": []
+            }
+          }
+        },
+        {
+          "title": "Москва, Ясногорская улица, 5с1",
+          "isActive": false,
+          "content": {
+            "title": "",
+            "text": "Интерактивная карта Яндекс.Карты с маркером на объекте",
+            "links": {
+              "internalLinks": [],
+              "externalLinks": [],
+              "fileLinks": [],
+              "imageLinks": []
+            }
+          }
+        },
+        {
+          "title": "Москва, Осенний бульвар, 4",
+          "isActive": false,
+          "content": {
+            "title": "",
+            "text": "Интерактивная карта Яндекс.Карты с маркером на объекте",
+            "links": {
+              "internalLinks": [],
+              "externalLinks": [],
+              "fileLinks": [],
+              "imageLinks": []
+            }
+          }
+        },
+        {
+          "title": "Москва, Шипиловская улица, 34к1",
+          "isActive": false,
+          "content": {
+            "title": "",
+            "text": "Интерактивная карта Яндекс.Карты с маркером на объекте",
+            "links": {
+              "internalLinks": [],
+              "externalLinks": [],
+              "fileLinks": [],
+              "imageLinks": []
+            }
+          }
+        },
+        {
+          "title": "Москва, Ташкентская улица, 15к2",
+          "isActive": false,
+          "content": {
+            "title": "",
+            "text": "Интерактивная карта Яндекс.Карты с маркером на объекте",
+            "links": {
+              "internalLinks": [],
+              "externalLinks": [],
+              "fileLinks": [],
+              "imageLinks": []
+            }
+          }
+        },
+        {
+          "title": "Москва, 3-й квартал Капотни, 13к2",
+          "isActive": false,
+          "content": {
+            "title": "",
+            "text": "Интерактивная карта Яндекс.Карты с маркером на объекте",
+            "links": {
+              "internalLinks": [],
+              "externalLinks": [],
+              "fileLinks": [],
+              "imageLinks": []
+            }
+          }
+        },
+        {
+          "title": "Москва, Паромная улица, 5к1",
+          "isActive": false,
+          "content": {
+            "title": "",
+            "text": "Интерактивная карта Яндекс.Карты с маркером на объекте",
+            "links": {
+              "internalLinks": [],
+              "externalLinks": [],
+              "fileLinks": [],
+              "imageLinks": []
+            }
+          }
+        },
+        {
+          "title": "Москва, Профсоюзная улица, 112",
+          "isActive": false,
+          "content": {
+            "title": "",
+            "text": "Интерактивная карта Яндекс.Карты с маркером на объекте",
+            "links": {
+              "internalLinks": [],
+              "externalLinks": [],
+              "fileLinks": [],
+              "imageLinks": []
+            }
+          }
+        },
+        {
+          "title": "Москва, Чертановская улица, 1Ак1",
+          "isActive": false,
+          "content": {
+            "title": "",
+            "text": "Интерактивная карта Яндекс.Карты с маркером на объекте",
+            "links": {
+              "internalLinks": [],
+              "externalLinks": [],
+              "fileLinks": [],
+              "imageLinks": []
+            }
+          }
+        },
+        {
+          "title": "Москва, Саянская улица, 7",
+          "isActive": false,
+          "content": {
+            "title": "",
+            "text": "Интерактивная карта Яндекс.Карты с маркером на объекте",
+            "links": {
+              "internalLinks": [],
+              "externalLinks": [],
+              "fileLinks": [],
+              "imageLinks": []
+            }
+          }
+        },
+        {
+          "title": "Москва, улица Щепкина, 51/4с2",
+          "isActive": false,
+          "content": {
+            "title": "",
+            "text": "Интерактивная карта Яндекс.Карты с маркером на объекте",
+            "links": {
+              "internalLinks": [],
+              "externalLinks": [],
+              "fileLinks": [],
+              "imageLinks": []
+            }
+          }
+        },
+        {
+          "title": "Москва, Столярный переулок, 5с1",
+          "isActive": false,
+          "content": {
+            "title": "",
+            "text": "Интерактивная карта Яндекс.Карты с маркером на объекте",
+            "links": {
+              "internalLinks": [],
+              "externalLinks": [],
+              "fileLinks": [],
+              "imageLinks": []
+            }
+          }
+        },
+        {
+          "title": "Москва, Земледельческий переулок, 15",
+          "isActive": false,
+          "content": {
+            "title": "",
+            "text": "Интерактивная карта Яндекс.Карты с маркером на объекте",
+            "links": {
+              "internalLinks": [],
+              "externalLinks": [],
+              "fileLinks": [],
+              "imageLinks": []
+            }
+          }
+        },
+        {
+          "title": "Москва, переулок Каменная Слобода, 7",
+          "isActive": false,
+          "content": {
+            "title": "",
+            "text": "Интерактивная карта Яндекс.Карты с маркером на объекте",
+            "links": {
+              "internalLinks": [],
+              "externalLinks": [],
+              "fileLinks": [],
+              "imageLinks": []
+            }
+          }
+        },
+        {
+          "title": "Москва, улица Малая Полянка, 3",
+          "isActive": false,
+          "content": {
+            "title": "",
+            "text": "Интерактивная карта Яндекс.Карты с маркером на объекте",
+            "links": {
+              "internalLinks": [],
+              "externalLinks": [],
+              "fileLinks": [],
+              "imageLinks": []
+            }
+          }
+        },
+        {
+          "title": "Москва, Звёздный бульвар, 44",
+          "isActive": false,
+          "content": {
+            "title": "",
+            "text": "Интерактивная карта Яндекс.Карты с маркером на объекте",
+            "links": {
+              "internalLinks": [],
+              "externalLinks": [],
+              "fileLinks": [],
+              "imageLinks": []
+            }
+          }
+        },
+        {
+          "title": "Москва, Тимирязевская улица, 1Ас2",
+          "isActive": false,
+          "content": {
+            "title": "",
+            "text": "Интерактивная карта Яндекс.Карты с маркером на объекте",
+            "links": {
+              "internalLinks": [],
+              "externalLinks": [],
+              "fileLinks": [],
+              "imageLinks": []
+            }
+          }
+        },
+        {
+          "title": "Москва, улица Малая Дмитровка, 5/9",
+          "isActive": false,
+          "content": {
+            "title": "",
+            "text": "Интерактивная карта Яндекс.Карты с маркером на объекте",
+            "links": {
+              "internalLinks": [],
+              "externalLinks": [],
+              "fileLinks": [],
+              "imageLinks": []
+            }
+          }
+        },
+        {
+          "title": "Москва, улица Зорге, 27Ас1",
+          "isActive": false,
+          "content": {
+            "title": "",
+            "text": "Интерактивная карта Яндекс.Карты с маркером на объекте",
+            "links": {
+              "internalLinks": [],
+              "externalLinks": [],
+              "fileLinks": [],
+              "imageLinks": []
+            }
+          }
+        },
+        {
+          "title": "Москва, Сельскохозяйственная улица, 5с1",
+          "isActive": false,
+          "content": {
+            "title": "",
+            "text": "Интерактивная карта Яндекс.Карты с маркером на объекте",
+            "links": {
+              "internalLinks": [],
+              "externalLinks": [],
+              "fileLinks": [],
+              "imageLinks": []
+            }
+          }
+        },
+        {
+          "title": "Москва, Саратовская улица, 9с1",
+          "isActive": false,
+          "content": {
+            "title": "",
+            "text": "Интерактивная карта Яндекс.Карты с маркером на объекте",
+            "links": {
+              "internalLinks": [],
+              "externalLinks": [],
+              "fileLinks": [],
+              "imageLinks": []
+            }
+          }
+        },
+        {
+          "title": "Москва, 5-й Новоподмосковный переулок, 6",
+          "isActive": false,
+          "content": {
+            "title": "",
+            "text": "Интерактивная карта Яндекс.Карты с маркером на объекте",
+            "links": {
+              "internalLinks": [],
+              "externalLinks": [],
+              "fileLinks": [],
+              "imageLinks": []
+            }
+          }
+        },
+        {
+          "title": "Москва, Багратионовский проезд, 18",
+          "isActive": false,
+          "content": {
+            "title": "",
+            "text": "Интерактивная карта Яндекс.Карты с маркером на объекте",
+            "links": {
+              "internalLinks": [],
+              "externalLinks": [],
+              "fileLinks": [],
+              "imageLinks": []
+            }
+          }
+        },
+        {
+          "title": "Москва, улица Вавилова, 68к2",
+          "isActive": false,
+          "content": {
+            "title": "",
+            "text": "Интерактивная карта Яндекс.Карты с маркером на объекте",
+            "links": {
+              "internalLinks": [],
+              "externalLinks": [],
+              "fileLinks": [],
+              "imageLinks": []
+            }
+          }
+        },
+        {
+          "title": "Москва, Кленовый бульвар, 23",
+          "isActive": false,
+          "content": {
+            "title": "",
+            "text": "Интерактивная карта Яндекс.Карты с маркером на объекте",
+            "links": {
+              "internalLinks": [],
+              "externalLinks": [],
+              "fileLinks": [],
+              "imageLinks": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sectionIndex": 5,
+      "type": "contact",
+      "description": "Блок призыва к действию со ссылкой на контакты и кнопкой входа в личный кабинет операторов связи",
+      "title": "СВЯЗАТЬСЯ С НАМИ",
+      "subtitle": "¬ связаться с нами",
+      "text": "",
+      "elements": [
+        {
+          "type": "button",
+          "text": "Войти в личный кабинет",
+          "purpose": "Переход в личный кабинет для операторов связи",
+          "href": ""
+        }
+      ],
+      "images": [],
+      "links": {
+        "internalLinks": [
+          {
+            "text": "Контактные данные для операторов связи",
+            "href": "/operators/contact_for_operators",
+            "purpose": "Переход на страницу с контактными данными для операторов связи"
+          }
+        ],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [],
+      "tabs": []
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+[
+  {
+    "slug": "news",
+    "template": "TPL_News_List",
+    "url": "http://localhost:8002/html_pages/tpl_news_list.html?slug=news",
+    "missingCount": 2,
+    "totalTokens": 3,
+    "missing": [
+      "Пример новости 1",
+      "Пример новости 2"
+    ]
+  },
+  {
+    "slug": "partners_ramochnie_dogovori",
+    "template": "TPL_Doc_Page",
+    "url": "http://localhost:8002/html_pages/tpl_doc_page.html?slug=partners_ramochnie_dogovori",
+    "missingCount": 4,
+    "totalTokens": 6,
+    "missing": [
+      "Название",
+      "Размер",
+      "Действующий рамочный договор",
+      "Рамочный договор версия 1 (архив)"
+    ]
+  },
+  {
+    "slug": "tariffs",
+    "template": "TPL_Doc_Page",
+    "url": "http://localhost:8002/html_pages/tpl_doc_page.html?slug=tariffs",
+    "missingCount": 8,
+    "totalTokens": 10,
+    "missing": [
+      "Название",
+      "Размер",
+      "Комплекс услуг по инвентаризации вводов трубопровода (отверстий) проложенной телефонной канализации третьих лиц, присоед",
+      "Комплекс услуг по инвентаризации кабеля связи третьих лиц, размещенного в линейно-кабельных сооружениях",
+      "Разовое выполнение аварийно-восстановительных работ на линиях связи третьих лиц силами МГТС",
+      "Тарифы на услугу нанесение огнеупорного состава в смотровом устройстве (колодце)",
+      "Тарифы на дополнительные услуги для производства работ на объектах инфраструктуры",
+      "Тарифы на предоставление доступа в линейно-кабельные сооружения (ЛКС) с 01.01.26г."
+    ]
+  },
+  {
+    "slug": "about_mgts",
+    "template": "TPL_DeepNav",
+    "url": "http://localhost:8002/html_pages/tpl_deepnav.html?slug=about_mgts",
+    "missingCount": 5,
+    "totalTokens": 9,
+    "missing": [
+      "Трансформация",
+      "Революция 2.0",
+      "Новые стандарты общения",
+      "Технологии победы",
+      "Технологии народу"
+    ]
+  },
+  {
+    "slug": "home",
+    "template": "TPL_Home",
+    "url": "http://localhost:8002/html_pages/tpl_home.html?slug=home",
+    "missingCount": 9,
+    "totalTokens": 15,
+    "missing": [
+      "МГТС - Главная",
+      "ПОЧЕМУ МГТС?",
+      "Крупнейшая в Москве высокоскоростная оптическая сеть GPON",
+      "Первый и основной телекоммуникационный партнер Москвы",
+      "Высочайшие стандарты обслуживания мирового уровня",
+      "НАШИ УСЛУГИ",
+      "ЗАРАБАТЫВАЙТЕ В ПАРТНЕРСТВЕ",
+      "Допуск в ЛСС",
+      "Аренда площадей"
+    ]
+  },
+  {
+    "slug": "business_payment_methods",
+    "template": "TPL_Service",
+    "url": "http://localhost:8002/html_pages/tpl_service.html?slug=business_payment_methods",
+    "missingCount": 6,
+    "totalTokens": 12,
+    "missing": [
+      "Электронный документооборот (ЭДО)",
+      "ПАО МГТС приглашает своих клиентов присоединиться к электронному документообороту (ЭДО) для получения документов в элект",
+      "Готовы к масштабированию?",
+      "Поддержка 24/7",
+      "Email для бизнеса",
+      "Отправить заявку"
+    ]
+  },
+  {
+    "slug": "video_surveillance_building",
+    "template": "TPL_Service",
+    "url": "http://localhost:8002/html_pages/tpl_service.html?slug=video_surveillance_building",
+    "missingCount": 6,
+    "totalTokens": 17,
+    "missing": [
+      "МГТС заинтересована в новых партнерах для реализации совместных проектов",
+      "Если у вас есть идеи и предложения для сотрудничества, направляйте их по адресу электронной почты. Или оставьте свои дан",
+      "Готовы к масштабированию?",
+      "Поддержка 24/7",
+      "Email для бизнеса",
+      "Отправить заявку"
+    ]
+  }
+]

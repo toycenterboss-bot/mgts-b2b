@@ -1,0 +1,47 @@
+[
+  {
+    "slug": "business/internet/office",
+    "changes": 0,
+    "fixed": false
+  },
+  {
+    "slug": "business/tv/iptv",
+    "changes": 0,
+    "fixed": false
+  },
+  {
+    "slug": "business/telephony",
+    "changes": 0,
+    "fixed": false
+  },
+  {
+    "slug": "business/tv",
+    "changes": 0,
+    "fixed": false
+  },
+  {
+    "slug": "business",
+    "changes": 0,
+    "fixed": false
+  },
+  {
+    "slug": "business/cloud",
+    "changes": 0,
+    "fixed": false
+  },
+  {
+    "slug": "business/security/video-surveillance",
+    "changes": 0,
+    "fixed": false
+  },
+  {
+    "slug": "business/telephony/mobile",
+    "changes": 0,
+    "fixed": false
+  },
+  {
+    "slug": "operators",
+    "changes": 0,
+    "fixed": false
+  }
+]

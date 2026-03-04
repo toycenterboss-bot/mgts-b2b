@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_page_carousel_items",
+  "info": {
+    "displayName": "Carousel Item",
+    "description": "Элемент карусели изображений"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "order": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

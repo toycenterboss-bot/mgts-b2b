@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_page_career_vacancies",
+  "info": {
+    "displayName": "Career Vacancies",
+    "description": "Секция открытых вакансий"
+  },
+  "options": {},
+  "attributes": {
+    "isVisible": {
+      "type": "boolean",
+      "default": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "filters": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.career-vacancy-filter"
+    },
+    "vacancies": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.career-vacancy-item"
+    },
+    "initialVisible": {
+      "type": "integer",
+      "default": 2,
+      "description": "Количество карточек до кнопки 'Показать все'"
+    },
+    "showMoreLabel": {
+      "type": "string",
+      "default": "Показать все"
+    },
+    "totalCount": {
+      "type": "integer"
+    },
+    "totalSuffix": {
+      "type": "string",
+      "default": "вакансии"
+    }
+  }
+}

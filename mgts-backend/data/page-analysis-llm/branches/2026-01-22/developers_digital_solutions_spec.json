@@ -1,0 +1,570 @@
+{
+  "page": {
+    "slug": "developers_digital_solutions",
+    "url": "https://business.mgts.ru/developers/digital_solutions",
+    "pathname": "/developers/digital_solutions",
+    "analyzedAt": "2026-01-13T14:50:44.382Z",
+    "screenshot": "/Users/andrey_efremov/Downloads/runs/mgts-backend/temp/page-analysis-llm/developers_digital_solutions_screenshot.png",
+    "llmProvider": "perplexity",
+    "llmModel": "sonar"
+  },
+  "metadata": {
+    "title": "Цифровые решения"
+  },
+  "sections": [
+    {
+      "sectionIndex": 1,
+      "type": "hero",
+      "description": "Главный герой-блок страницы, представляющий основные цифровые решения МГТС для застройщиков. Содержит заголовок, подзаголовок и кнопку основного действия для привлечения внимания и побуждения к контакту.",
+      "title": "Цифровые решения",
+      "subtitle": "Широкополосный доступ в Интернет",
+      "text": "",
+      "elements": [
+        {
+          "type": "button",
+          "text": "ПОДОБРАТЬ РЕШЕНИЕ",
+          "purpose": "Подобрать индивидуальное решение или комплекс решений для застройщика",
+          "href": ""
+        }
+      ],
+      "images": [],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [],
+      "tabs": []
+    },
+    {
+      "sectionIndex": 2,
+      "type": "services-grid",
+      "description": "Блок с сеткой карточек основных услуг цифровой инфраструктуры. Карточки расположены в два ряда по 4 штуки, каждая описывает услугу с заголовком и подзаголовком.",
+      "title": "",
+      "subtitle": "",
+      "text": "",
+      "elements": [],
+      "images": [],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [
+        {
+          "title": "Строительство интернет-инфраструктуры ( ТК, ДРС )",
+          "text": "Установка абонентских ONT в квартире",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "",
+            "href": "",
+            "purpose": ""
+          }
+        },
+        {
+          "title": "Организация публичного Wi-Fi",
+          "text": "INDOOR - Усиление сотовой связи",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "",
+            "href": "",
+            "purpose": ""
+          }
+        },
+        {
+          "title": "Разработка проектной документации",
+          "text": "Согласование проектной документации с операторами связи",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "",
+            "href": "",
+            "purpose": ""
+          }
+        },
+        {
+          "title": "СМР/ПНР антенно-фидерной сети",
+          "text": "Бесконтактный СКУД",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "",
+            "href": "",
+            "purpose": ""
+          }
+        },
+        {
+          "title": "Разработка клиентских сценариев",
+          "text": "Поставка необходимого оборудования",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "",
+            "href": "",
+            "purpose": ""
+          }
+        },
+        {
+          "title": "ПНР сетей СКУД",
+          "text": "Автоматика инженерных сетей",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "",
+            "href": "",
+            "purpose": ""
+          }
+        }
+      ],
+      "tabs": []
+    },
+    {
+      "sectionIndex": 3,
+      "type": "automation-services",
+      "description": "Блок с описанием комплексного решения по автоматизации инженерных систем. Содержит введение и нумерованный список услуг.",
+      "title": "Поставка отказоустойчивого решения автоматизации, включая комплекс услуг:",
+      "subtitle": "",
+      "text": "Разработка рабочей документации по разделу автоматизации\nПоставка оборудования, материалов и проведение строительно-монтажных работ\nПроведение пуско-наладочных работ и сдача готовой системы в эксплуатацию\nТехническое сопровождение ПИР/СМР\n\nАнализ и выдача рекомендаций по рабочей документации разделов слаботочных сетей\nСопровождение и контроль этапа СМР\nПроведение ПНР",
+      "elements": [],
+      "images": [],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [],
+      "tabs": []
+    },
+    {
+      "sectionIndex": 4,
+      "type": "new-directions",
+      "description": "Блок новых направлений развития цифровых решений с карточками технологий будущего (Robot-ready, V2X-ready, Drone-ready, Energy ready). Каждая карточка содержит заголовок и список преимуществ.",
+      "title": "Новые направления",
+      "subtitle": "",
+      "text": "",
+      "elements": [],
+      "images": [],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [
+        {
+          "title": "Robot-ready",
+          "text": "Интеграция роботов в сценарии обслуживания ЖК и жизнедеятельности жильцов\nИнфраструктура, связь, локальные карты для сервисных роботов, работающих на территории ЖК и внутри зданий\nИнтеграция сценариев за пределами и внутри ЖК",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "",
+            "href": "",
+            "purpose": ""
+          }
+        },
+        {
+          "title": "V2X-ready",
+          "text": "Инфраструктура, связь, локальные карты для беспилотных авто\nИнтеграция инфраструктуры ЖК с производителями авто",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "",
+            "href": "",
+            "purpose": ""
+          }
+        },
+        {
+          "title": "Drone-ready",
+          "text": "Дронопорты, ПВЗ, зарядные станции, связь, интеграция дронов в городские сервисы и системы и сценарии УК и жителей",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "",
+            "href": "",
+            "purpose": ""
+          }
+        },
+        {
+          "title": "Energy ready",
+          "text": "Электрозаправочные станции для электрокаров и средств индивидуальной мобильности",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "",
+            "href": "",
+            "purpose": ""
+          }
+        }
+      ],
+      "tabs": []
+    },
+    {
+      "sectionIndex": 5,
+      "type": "smart-security",
+      "description": "Блок 'Умная безопасность' с описанием технологий безопасности.",
+      "title": "Умная безопасность",
+      "subtitle": "",
+      "text": "Оптическая сенсорика для мониторинга периметра, механизмов, систем коммуникаций, пожароопасности\nАналитика видеопотока. Интеграция с другими системами",
+      "elements": [],
+      "images": [],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [],
+      "tabs": []
+    },
+    {
+      "sectionIndex": 6,
+      "type": "projects-slider",
+      "description": "Слайдер реализованных объектов (ЖК и МФК). Карточки проектов с изображениями зданий, расположены горизонтально с прокруткой.",
+      "title": "Реализованные объекты",
+      "subtitle": "",
+      "text": "",
+      "elements": [],
+      "images": [
+        {
+          "description": "Изображение ЖК Серебряный фонтан - современный жилой комплекс",
+          "position": "в карточке слайдера",
+          "src": "https://business.mgts.ru/images/realized-object-1.png",
+          "alt": ""
+        },
+        {
+          "description": "Изображение ЖК Primavera - жилой комплекс",
+          "position": "в карточке слайдера",
+          "src": "https://business.mgts.ru/images/realized-object-2.png",
+          "alt": ""
+        },
+        {
+          "description": "Изображение ЖК Остров - жилой комплекс на воде",
+          "position": "в карточке слайдера",
+          "src": "https://business.mgts.ru/images/realized-object-3.png",
+          "alt": ""
+        },
+        {
+          "description": "Изображение ЖК Событие - высотный жилой комплекс",
+          "position": "в карточке слайдера",
+          "src": "https://business.mgts.ru/images/realized-object-4.png",
+          "alt": ""
+        },
+        {
+          "description": "Изображение ЖК Символ - современная архитектура",
+          "position": "в карточке слайдера",
+          "src": "https://business.mgts.ru/images/realized-object-5.png",
+          "alt": ""
+        },
+        {
+          "description": "Изображение ЖК Крылья - жилой комплекс",
+          "position": "в карточке слайдера",
+          "src": "https://business.mgts.ru/images/realized-object-6.png",
+          "alt": ""
+        },
+        {
+          "description": "Изображение ЖК Огни - жилой комплекс",
+          "position": "в карточке слайдера",
+          "src": "https://business.mgts.ru/images/realized-object-7.png",
+          "alt": ""
+        },
+        {
+          "description": "Изображение ЖК Capital Towers - башни",
+          "position": "в карточке слайдера",
+          "src": "https://business.mgts.ru/images/realized-object-8.png",
+          "alt": ""
+        },
+        {
+          "description": "Изображение ЖК Кинетик - жилой комплекс",
+          "position": "в карточке слайдера",
+          "src": "https://business.mgts.ru/images/realized-object-9.png",
+          "alt": ""
+        },
+        {
+          "description": "Изображение ЖК Река - жилой комплекс у реки",
+          "position": "в карточке слайдера",
+          "src": "https://business.mgts.ru/images/realized-object-10.png",
+          "alt": ""
+        },
+        {
+          "description": "Изображение ЖК Hide - жилой комплекс",
+          "position": "в карточке слайдера",
+          "src": "https://business.mgts.ru/images/realized-object-11.png",
+          "alt": ""
+        },
+        {
+          "description": "Изображение МФК Зарядье - многофункциональный комплекс",
+          "position": "в карточке слайдера",
+          "src": "https://business.mgts.ru/images/realized-object-12.png",
+          "alt": ""
+        },
+        {
+          "description": "Изображение ЖК Достижение - жилой комплекс",
+          "position": "в карточке слайдера",
+          "src": "https://business.mgts.ru/images/realized-object-13.png",
+          "alt": ""
+        },
+        {
+          "description": "Изображение ЖК Метрополия - жилой комплекс",
+          "position": "в карточке слайдера",
+          "src": "https://business.mgts.ru/images/realized-object-14.png",
+          "alt": ""
+        },
+        {
+          "description": "Изображение ЖК Symphony 34 - жилой комплекс",
+          "position": "в карточке слайдера",
+          "src": "https://business.mgts.ru/images/realized-object-15.png",
+          "alt": ""
+        }
+      ],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [
+        {
+          "title": "ЖК Серебряный фонтан",
+          "text": "",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "",
+            "href": "",
+            "purpose": ""
+          }
+        },
+        {
+          "title": "ЖК Primavera",
+          "text": "",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "",
+            "href": "",
+            "purpose": ""
+          }
+        },
+        {
+          "title": "ЖК Остров",
+          "text": "",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "",
+            "href": "",
+            "purpose": ""
+          }
+        },
+        {
+          "title": "ЖК Событие",
+          "text": "",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "",
+            "href": "",
+            "purpose": ""
+          }
+        },
+        {
+          "title": "ЖК Символ",
+          "text": "",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "",
+            "href": "",
+            "purpose": ""
+          }
+        },
+        {
+          "title": "ЖК Крылья",
+          "text": "",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "",
+            "href": "",
+            "purpose": ""
+          }
+        },
+        {
+          "title": "ЖК Огни",
+          "text": "",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "",
+            "href": "",
+            "purpose": ""
+          }
+        },
+        {
+          "title": "ЖК Capital Towers",
+          "text": "",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "",
+            "href": "",
+            "purpose": ""
+          }
+        },
+        {
+          "title": "ЖК Кинетик",
+          "text": "",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "",
+            "href": "",
+            "purpose": ""
+          }
+        },
+        {
+          "title": "ЖК Река",
+          "text": "",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "",
+            "href": "",
+            "purpose": ""
+          }
+        },
+        {
+          "title": "ЖК Hide",
+          "text": "",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "",
+            "href": "",
+            "purpose": ""
+          }
+        },
+        {
+          "title": "МФК Зарядье",
+          "text": "",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "",
+            "href": "",
+            "purpose": ""
+          }
+        },
+        {
+          "title": "ЖК Достижение",
+          "text": "",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "",
+            "href": "",
+            "purpose": ""
+          }
+        },
+        {
+          "title": "ЖК Метрополия",
+          "text": "",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "",
+            "href": "",
+            "purpose": ""
+          }
+        },
+        {
+          "title": "ЖК Symphony 34",
+          "text": "",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "",
+            "href": "",
+            "purpose": ""
+          }
+        }
+      ],
+      "tabs": []
+    },
+    {
+      "sectionIndex": 7,
+      "type": "download-block",
+      "description": "Блок с кнопкой скачивания презентации и ссылкой 'Подробнее'. Предоставляет документ с решением МГТС для умных ЖК.",
+      "title": "",
+      "subtitle": "",
+      "text": "МГТС. Решение для умных ЖК\nPDF, 3.8 МБ",
+      "elements": [
+        {
+          "type": "button",
+          "text": "Подробнее",
+          "purpose": "Перейти к подробной информации о решении",
+          "href": ""
+        }
+      ],
+      "images": [],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [
+          {
+            "text": "МГТС. Решение для умных ЖК",
+            "href": "developers_digital_solutions_files/МГТС__Решение_для_умных_ЖК_3.pdf",
+            "fileType": "pdf",
+            "purpose": "Презентация решения МГТС для умных жилых комплексов, размер 3.8 МБ",
+            "fileName": "МГТС__Решение_для_умных_ЖК_3.pdf"
+          }
+        ],
+        "imageLinks": []
+      },
+      "cards": [],
+      "tabs": []
+    },
+    {
+      "sectionIndex": 8,
+      "type": "cta-form",
+      "description": "Блок призыва к действию с формой обратной связи для подбора индивидуального решения. Содержит описание, поля формы и кнопку отправки.",
+      "title": "Подберем для Вас индивидуальное решение или комплекс решений",
+      "subtitle": "",
+      "text": "¬ связаться с нами\n\nВаше имя\nНазвание организации\nВаш email\nТелефон\n\nВводя данные, вы подтверждаете свое ознакомление и согласие с условиями обработки персональных данных",
+      "elements": [
+        {
+          "type": "button",
+          "text": "Отправить",
+          "purpose": "Отправить заявку на подбор решения",
+          "href": ""
+        },
+        {
+          "type": "button",
+          "text": "Связаться",
+          "purpose": "Перейти к контактам",
+          "href": ""
+        }
+      ],
+      "images": [],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [
+          {
+            "text": "project.center@mgts.ru",
+            "href": "mailto:project.center@mgts.ru",
+            "purpose": "Написать на email проектного центра МГТС"
+          }
+        ],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [],
+      "tabs": []
+    }
+  ]
+}

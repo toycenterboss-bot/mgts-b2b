@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_navigation_megamenus",
+  "info": {
+    "displayName": "Mega Menu",
+    "description": "Mega-menu для навигации"
+  },
+  "options": {},
+  "attributes": {
+    "menuId": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "href": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "sections": {
+      "type": "component",
+      "repeatable": true,
+      "component": "navigation.mega-menu-section"
+    }
+  }
+}
+
+
+

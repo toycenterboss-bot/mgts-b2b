@@ -1,0 +1,160 @@
+/* ============================================
+   HISTORY-TIMELINE
+   ============================================ */
+
+/* Генерировано на основе семантического анализа */
+/* Дата: 2026-01-09T15:41:02.774Z */
+
+/* Интерактивная кнопка для действий */
+.history-timeline__tab-button {
+  display: flex;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+/* Заголовок секции или подраздела */
+.history-timeline__period-title {
+  display: block;
+  font-size: clamp(1.75rem, 3vw, 2.25rem);
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--color-gray-900, #111827);
+  margin-bottom: var(--spacing-lg, 1.5rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+/* Общий элемент компонента */
+.history-timeline__period {
+  display: block;
+}
+
+/* Основной текстовый контент */
+.history-timeline__period-content {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-gray-700, #374151);
+  margin-bottom: var(--spacing-md, 1rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+/* Заголовок секции или подраздела */
+.history-timeline__title {
+  display: block;
+  font-size: clamp(1.75rem, 3vw, 2.25rem);
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--color-gray-900, #111827);
+  margin-bottom: var(--spacing-lg, 1.5rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+/* Общий элемент компонента */
+.history-timeline__tabs {
+  display: block;
+}
+
+/* Контейнер для группировки элементов */
+.history-timeline__tabs-container {
+  display: flex;
+  padding: var(--spacing-lg, 1.5rem);
+  max-width: var(--container-max-width, 1200px);
+  margin: 0 auto;
+}
+
+/* Основной текстовый контент */
+.history-timeline__content {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-gray-700, #374151);
+  margin-bottom: var(--spacing-md, 1rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+.history-timeline__content img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Основной текстовый контент */
+.history-timeline__content-box {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-gray-700, #374151);
+  margin-bottom: var(--spacing-md, 1rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+/* Элемент списка */
+.history-timeline__periods-list {
+  display: list-item;
+}
+
+/* Общий элемент компонента */
+.history-timeline__period--last {
+  display: block;
+}
+
+/* Контейнер для группировки элементов */
+.history-timeline__image-container {
+  display: flex;
+  padding: var(--spacing-lg, 1.5rem);
+  max-width: var(--container-max-width, 1200px);
+  margin: 0 auto;
+}
+
+.history-timeline__image-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Изображение или медиа-контент */
+.history-timeline__image {
+  display: block;
+}
+
+.history-timeline__image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Изображение или медиа-контент */
+.history-timeline__image-img {
+  display: block;
+}
+
+.history-timeline__image-img img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Основной текстовый контент */
+.history-timeline__image-description {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-gray-700, #374151);
+  margin-bottom: var(--spacing-md, 1rem);
+  background-color: var(--color-gray-100, #f3f4f6);
+  color: var(--color-gray-900, #111827);
+}
+
+/* Общий элемент компонента */
+.history-timeline__note {
+  display: block;
+}
+

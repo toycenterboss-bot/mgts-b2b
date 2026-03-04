@@ -1,0 +1,402 @@
+{\rtf1\ansi\ansicpg1251\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red4\green53\blue157;}
+{\*\expandedcolortbl;;\cspthree\c0\c0\c0;\cspthree\c11494\c28922\c65427;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs26 \cf2 <!DOCTYPE html>\
+\
+<html class="dark" lang="ru"><head>\
+<meta charset="utf-8"/>\
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>\
+<title>Technical UI Kit &amp; CSS Tokens | MGTS B2B</title>\
+<script src="\cf3 https://cdn.tailwindcss.com?plugins=forms,container-queries\cf2 "></script>\
+<link href="\cf3 https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;display=swap\cf2 " rel="stylesheet"/>\
+<link href="\cf3 https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap\cf2 " rel="stylesheet"/>\
+<link href="\cf3 https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap\cf2 " rel="stylesheet"/>\
+<script id="tailwind-config">\
+        tailwind.config = \{\
+            darkMode: "class",\
+            theme: \{\
+                extend: \{\
+                    colors: \{\
+                        "primary": "\cf3 #0300cc\cf2 ",\
+                        "background-light": "\cf3 #f5f5f8\cf2 ",\
+                        "background-dark": "\cf3 #0f0f23\cf2 ",\
+                    \},\
+                    fontFamily: \{\
+                        "display": ["Inter", "sans-serif"]\
+                    \},\
+                    borderRadius: \{\
+                        "DEFAULT": "0.25rem",\
+                        "lg": "0.5rem",\
+                        "xl": "0.75rem",\
+                        "full": "9999px"\
+                    \},\
+                \},\
+            \},\
+        \}\
+    </script>\
+<style>\
+        .material-symbols-outlined \{\
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;\
+        \}\
+        .glass \{\
+            background: rgba(39, 39, 58, 0.4);\
+            backdrop-filter: blur(20px);\
+            border: 1px solid rgba(255, 255, 255, 0.1);\
+        \}\
+    </style>\
+</head>\
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-white min-h-screen overflow-x-hidden">\
+<div class="layout-container flex h-full grow flex-col">\
+<!-- Top Navigation -->\
+<header class="sticky top-0 z-50 flex items-center justify-between whitespace-nowrap border-b border-solid border-slate-200 dark:border-[\cf3 #27273a\cf2 ] bg-white/80 dark:bg-background-dark/80 backdrop-blur-md px-6 py-3 md:px-10">\
+<div class="flex items-center gap-8">\
+<div class="flex items-center gap-4 text-primary dark:text-white">\
+<div class="size-8 flex items-center justify-center bg-primary rounded-lg text-white">\
+<span class="material-symbols-outlined">developer_board</span>\
+</div>\
+<h2 class="text-slate-900 dark:text-white text-lg font-bold leading-tight tracking-[-0.015em]">MGTS B2B UI Kit</h2>\
+</div>\
+<nav class="hidden lg:flex items-center gap-9">\
+<a class="text-slate-600 dark:text-[\cf3 #9b9abc\cf2 ] hover:text-primary dark:hover:text-white text-sm font-medium transition-colors" href="#">\uc0\u1044 \u1086 \u1082 \u1091 \u1084 \u1077 \u1085 \u1090 \u1072 \u1094 \u1080 \u1103 </a>\
+<a class="text-slate-600 dark:text-[\cf3 #9b9abc\cf2 ] hover:text-primary dark:hover:text-white text-sm font-medium transition-colors" href="#">\uc0\u1050 \u1086 \u1084 \u1087 \u1086 \u1085 \u1077 \u1085 \u1090 \u1099 </a>\
+<a class="text-primary dark:text-white text-sm font-medium border-b-2 border-primary" href="#">\uc0\u1058 \u1086 \u1082 \u1077 \u1085 \u1099 </a>\
+<a class="text-slate-600 dark:text-[\cf3 #9b9abc\cf2 ] hover:text-primary dark:hover:text-white text-sm font-medium transition-colors" href="#">\uc0\u1056 \u1077 \u1089 \u1091 \u1088 \u1089 \u1099 </a>\
+</nav>\
+</div>\
+<div class="flex flex-1 justify-end gap-4 md:gap-8">\
+<label class="hidden sm:flex flex-col min-w-40 h-10 max-w-64">\
+<div class="flex w-full flex-1 items-stretch rounded-lg h-full overflow-hidden border border-slate-200 dark:border-none">\
+<div class="text-slate-400 dark:text-[\cf3 #9b9abc\cf2 ] flex bg-slate-100 dark:bg-[\cf3 #27273a\cf2 ] items-center justify-center pl-4">\
+<span class="material-symbols-outlined text-[20px]">search</span>\
+</div>\
+<input class="form-input flex w-full min-w-0 flex-1 border-none bg-slate-100 dark:bg-[\cf3 #27273a\cf2 ] text-slate-900 dark:text-white focus:ring-0 h-full placeholder:text-slate-400 dark:placeholder:text-[\cf3 #9b9abc\cf2 ] pl-2 text-sm" placeholder="\uc0\u1055 \u1086 \u1080 \u1089 \u1082  \u1090 \u1086 \u1082 \u1077 \u1085 \u1086 \u1074 ..." value=""/>\
+</div>\
+</label>\
+<button class="flex min-w-[84px] cursor-pointer items-center justify-center rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold tracking-[0.015em] hover:bg-opacity-90 transition-all">\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\cf2 <span>\uc0\u1069 \u1082 \u1089 \u1087 \u1086 \u1088 \u1090  CSS</span>\
+</button>\
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10 border border-slate-200 dark:border-slate-700" data-alt="User profile avatar" style='background-image: url("\cf3 https://lh3.googleusercontent.com/aida-public/AB6AXuAw-clDe3Offv45FHlmLvTd9tg5bk6iKphxE1XVy9atRrtqwDdE84hX1xr3dq82oxLY34DuRIrizi1ZQQ9_iMAYqYypYmsK1zkTT0zdZKcjvviWixOEKD3ESHkeJPLXpdzkXh0_gA01bccc8-bsLmyiOTdMNoo1E_ImnamtSDSsxntJTr-bzCZvyR9NvBXmwzXfieB4XCp4LiD3C_NjJvca3vnBZpbH-ry8GAET2pansePJcCs6IZ4b9-XL9gVVYrC7YRPDjEor0g\cf2 ");'></div>\
+</div>\
+</header>\
+<div class="flex flex-1">\
+<!-- Sidebar -->\
+<aside class="hidden md:flex w-72 flex-col border-r border-slate-200 dark:border-[\cf3 #27273a\cf2 ] bg-white dark:bg-background-dark p-6 sticky top-[65px] h-[calc(100vh-65px)] overflow-y-auto">\
+<div class="flex flex-col gap-8">\
+<div class="flex gap-3 items-center">\
+<div class="bg-primary/10 text-primary p-2 rounded-lg">\
+<span class="material-symbols-outlined">settings_input_component</span>\
+</div>\
+<div class="flex flex-col">\
+<h1 class="text-slate-900 dark:text-white text-sm font-bold uppercase tracking-wider">Design System</h1>\
+<p class="text-slate-500 dark:text-[\cf3 #9b9abc\cf2 ] text-xs font-mono">v1.0.4 Technical Kit</p>\
+</div>\
+</div>\
+<nav class="flex flex-col gap-1">\
+<div class="flex items-center gap-3 px-3 py-2 rounded-lg bg-primary/10 text-primary">\
+<span class="material-symbols-outlined text-[20px]">palette</span>\
+<p class="text-sm font-semibold">\uc0\u1055 \u1072 \u1083 \u1080 \u1090 \u1088 \u1072 </p>\
+</div>\
+<div class="flex items-center gap-3 px-3 py-2 text-slate-600 dark:text-[\cf3 #9b9abc\cf2 ] hover:bg-slate-100 dark:hover:bg-[\cf3 #27273a\cf2 ] rounded-lg transition-colors cursor-pointer">\
+<span class="material-symbols-outlined text-[20px]">match_word</span>\
+<p class="text-sm font-medium">\uc0\u1058 \u1080 \u1087 \u1086 \u1075 \u1088 \u1072 \u1092 \u1080 \u1082 \u1072 </p>\
+</div>\
+<div class="flex items-center gap-3 px-3 py-2 text-slate-600 dark:text-[\cf3 #9b9abc\cf2 ] hover:bg-slate-100 dark:hover:bg-[\cf3 #27273a\cf2 ] rounded-lg transition-colors cursor-pointer">\
+<span class="material-symbols-outlined text-[20px]">grid_4x4</span>\
+<p class="text-sm font-medium">\uc0\u1054 \u1090 \u1089 \u1090 \u1091 \u1087 \u1099 </p>\
+</div>\
+<div class="flex items-center gap-3 px-3 py-2 text-slate-600 dark:text-[\cf3 #9b9abc\cf2 ] hover:bg-slate-100 dark:hover:bg-[\cf3 #27273a\cf2 ] rounded-lg transition-colors cursor-pointer">\
+<span class="material-symbols-outlined text-[20px]">layers</span>\
+<p class="text-sm font-medium">\uc0\u1058 \u1077 \u1085 \u1080  \u1080  \u1041 \u1083 \u1102 \u1088 </p>\
+</div>\
+<div class="flex items-center gap-3 px-3 py-2 text-slate-600 dark:text-[\cf3 #9b9abc\cf2 ] hover:bg-slate-100 dark:hover:bg-[\cf3 #27273a\cf2 ] rounded-lg transition-colors cursor-pointer">\
+<span class="material-symbols-outlined text-[20px]">touch_app</span>\
+<p class="text-sm font-medium">\uc0\u1057 \u1086 \u1089 \u1090 \u1086 \u1103 \u1085 \u1080 \u1103 </p>\
+</div>\
+<div class="flex items-center gap-3 px-3 py-2 text-slate-600 dark:text-[\cf3 #9b9abc\cf2 ] hover:bg-slate-100 dark:hover:bg-[\cf3 #27273a\cf2 ] rounded-lg transition-colors cursor-pointer">\
+<span class="material-symbols-outlined text-[20px]">rounded_corner</span>\
+<p class="text-sm font-medium">\uc0\u1057 \u1082 \u1088 \u1091 \u1075 \u1083 \u1077 \u1085 \u1080 \u1103 </p>\
+</div>\
+</nav>\
+</div>\
+</aside>\
+<!-- Main Content -->\
+<main class="flex-1 overflow-x-hidden">\
+<div class="max-w-6xl mx-auto p-6 md:p-10 flex flex-col gap-12">\
+<!-- Page Heading -->\
+<div class="flex flex-col gap-3">\
+<div class="flex items-center gap-2 text-primary font-bold text-sm uppercase tracking-widest">\
+<span class="h-[2px] w-8 bg-primary"></span>\
+                            \uc0\u1057 \u1087 \u1077 \u1094 \u1080 \u1092 \u1080 \u1082 \u1072 \u1094 \u1080 \u1103 \
+                        </div>\
+<h1 class="text-slate-900 dark:text-white text-4xl md:text-5xl font-black leading-tight tracking-[-0.033em]">\uc0\u1058 \u1077 \u1093 \u1085 \u1080 \u1095 \u1077 \u1089 \u1082 \u1072 \u1103  \u1089 \u1087 \u1077 \u1094 \u1080 \u1092 \u1080 \u1082 \u1072 \u1094 \u1080 \u1103  (UI Kit)</h1>\
+<p class="text-slate-600 dark:text-[\cf3 #9b9abc\cf2 ] text-lg max-w-3xl leading-relaxed">\uc0\u1045 \u1076 \u1080 \u1085 \u1099 \u1081  \u1080 \u1089 \u1090 \u1086 \u1095 \u1085 \u1080 \u1082  \u1080 \u1089 \u1090 \u1080 \u1085 \u1099  \u1076 \u1083 \u1103  \u1088 \u1072 \u1079 \u1088 \u1072 \u1073 \u1086 \u1090 \u1082 \u1080  B2B \u1087 \u1086 \u1088 \u1090 \u1072 \u1083 \u1072  MGTS. \u1042 \u1089 \u1077  \u1090 \u1086 \u1082 \u1077 \u1085 \u1099  \u1089 \u1086 \u1086 \u1090 \u1074 \u1077 \u1090 \u1089 \u1090 \u1074 \u1091 \u1102 \u1090  \u1076 \u1080 \u1079 \u1072 \u1081 \u1085 -\u1089 \u1080 \u1089 \u1090 \u1077 \u1084 \u1077  2024 \u1075 \u1086 \u1076 \u1072 .</p>\
+</div>\
+<!-- 1. Color Palette Section -->\
+<section class="flex flex-col gap-6">\
+<div class="flex items-center justify-between border-b border-slate-200 dark:border-[\cf3 #3a3956\cf2 ] pb-4">\
+<h2 class="text-slate-900 dark:text-white text-[22px] font-bold tracking-tight flex items-center gap-2">\
+<span class="material-symbols-outlined text-primary">colors</span>\
+\uc0\u1062 \u1074 \u1077 \u1090 \u1086 \u1074 \u1072 \u1103  \u1087 \u1072 \u1083 \u1080 \u1090 \u1088 \u1072  (Color Palette)\
+                            </h2>\
+</div>\
+<div class="overflow-hidden rounded-xl border border-slate-200 dark:border-[\cf3 #3a3956\cf2 ] bg-white dark:bg-[#101018]">\
+<div class="overflow-x-auto">\
+<table class="w-full text-left border-collapse">\
+<thead>\
+<tr class="bg-slate-50 dark:bg-[\cf3 #1b1b28\cf2 ]">\
+<th class="px-6 py-4 text-slate-900 dark:text-white text-sm font-semibold">\uc0\u1053 \u1072 \u1079 \u1074 \u1072 \u1085 \u1080 \u1077 </th>\
+<th class="px-6 py-4 text-slate-900 dark:text-white text-sm font-semibold">Variable</th>\
+<th class="px-6 py-4 text-slate-900 dark:text-white text-sm font-semibold">HEX</th>\
+<th class="px-6 py-4 text-slate-900 dark:text-white text-sm font-semibold">RGBA</th>\
+<th class="px-6 py-4 text-slate-900 dark:text-white text-sm font-semibold text-center">Preview</th>\
+</tr>\
+</thead>\
+<tbody class="divide-y divide-slate-100 dark:divide-[\cf3 #3a3956\cf2 ]">\
+<tr>\
+<td class="px-6 py-5 text-slate-600 dark:text-[\cf3 #9b9abc\cf2 ] text-sm">Primary Blue</td>\
+<td class="px-6 py-5">\
+<code class="px-2 py-1 rounded bg-slate-100 dark:bg-[\cf3 #27273a\cf2 ] text-primary dark:text-blue-400 text-xs">--color-primary-blue</code>\
+</td>\
+<td class="px-6 py-5 font-mono text-sm">\cf3 #0066CC\cf2 </td>\
+<td class="px-6 py-5 font-mono text-sm text-slate-500">2, 102, 204, 1</td>\
+<td class="px-6 py-5">\
+<div class="w-full h-10 rounded-lg bg-[\cf3 #0066CC\cf2 ] shadow-inner border border-white/10"></div>\
+</td>\
+</tr>\
+<tr>\
+<td class="px-6 py-5 text-slate-600 dark:text-[\cf3 #9b9abc\cf2 ] text-sm">Accent Red</td>\
+<td class="px-6 py-5">\
+<code class="px-2 py-1 rounded bg-slate-100 dark:bg-[\cf3 #27273a\cf2 ] text-primary dark:text-blue-400 text-xs">--color-accent-red</code>\
+</td>\
+<td class="px-6 py-5 font-mono text-sm">\cf3 #E30611\cf2 </td>\
+<td class="px-6 py-5 font-mono text-sm text-slate-500">227, 6, 17, 1</td>\
+<td class="px-6 py-5">\
+<div class="w-full h-10 rounded-lg bg-[\cf3 #E30611\cf2 ] shadow-inner border border-white/10"></div>\
+</td>\
+</tr>\
+<tr>\
+<td class="px-6 py-5 text-slate-600 dark:text-[\cf3 #9b9abc\cf2 ] text-sm">Neutral Dark</td>\
+<td class="px-6 py-5">\
+<code class="px-2 py-1 rounded bg-slate-100 dark:bg-[\cf3 #27273a\cf2 ] text-primary dark:text-blue-400 text-xs">--color-neutral-900</code>\
+</td>\
+<td class="px-6 py-5 font-mono text-sm">#111827</td>\
+<td class="px-6 py-5 font-mono text-sm text-slate-500">17, 24, 39, 1</td>\
+<td class="px-6 py-5">\
+<div class="w-full h-10 rounded-lg bg-[#111827] shadow-inner border border-white/10"></div>\
+</td>\
+</tr>\
+<tr>\
+<td class="px-6 py-5 text-slate-600 dark:text-[\cf3 #9b9abc\cf2 ] text-sm">Neutral Light</td>\
+<td class="px-6 py-5">\
+<code class="px-2 py-1 rounded bg-slate-100 dark:bg-[\cf3 #27273a\cf2 ] text-primary dark:text-blue-400 text-xs">--color-neutral-100</code>\
+</td>\
+<td class="px-6 py-5 font-mono text-sm">\cf3 #F3F4F6\cf2 </td>\
+<td class="px-6 py-5 font-mono text-sm text-slate-500">243, 244, 246, 1</td>\
+<td class="px-6 py-5">\
+<div class="w-full h-10 rounded-lg bg-[\cf3 #F3F4F6\cf2 ] shadow-inner border border-slate-200"></div>\
+</td>\
+</tr>\
+</tbody>\
+</table>\
+</div>\
+</div>\
+</section>\
+<!-- 2. Typography Section -->\
+<section class="flex flex-col gap-6">\
+<div class="flex items-center justify-between border-b border-slate-200 dark:border-[\cf3 #3a3956\cf2 ] pb-4">\
+<h2 class="text-slate-900 dark:text-white text-[22px] font-bold tracking-tight flex items-center gap-2">\
+<span class="material-symbols-outlined text-primary">text_fields</span>\
+                                \uc0\u1058 \u1080 \u1087 \u1086 \u1075 \u1088 \u1072 \u1092 \u1080 \u1082 \u1072  (Typography)\
+                            </h2>\
+</div>\
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-6">\
+<!-- Titles -->\
+<div class="p-6 rounded-xl border border-slate-200 dark:border-[\cf3 #3a3956\cf2 ] bg-white dark:bg-[#101018] flex flex-col gap-6">\
+<h3 class="text-sm font-bold uppercase tracking-widest text-primary">MTS Sans (\uc0\u1047 \u1072 \u1075 \u1086 \u1083 \u1086 \u1074 \u1082 \u1080 )</h3>\
+<div class="flex flex-col gap-8">\
+<div class="flex flex-col gap-2">\
+<div class="flex justify-between items-baseline">\
+<span class="text-xs font-mono text-[\cf3 #9b9abc\cf2 ]">H1 / Bold / 48px</span>\
+</div>\
+<p class="text-4xl md:text-5xl font-bold leading-tight">\uc0\u1047 \u1072 \u1075 \u1086 \u1083 \u1086 \u1074 \u1086 \u1082  H1</p>\
+</div>\
+<div class="flex flex-col gap-2">\
+<div class="flex justify-between items-baseline">\
+<span class="text-xs font-mono text-[\cf3 #9b9abc\cf2 ]">H2 / Bold / 32px</span>\
+</div>\
+<p class="text-2xl md:text-3xl font-bold leading-tight">\uc0\u1047 \u1072 \u1075 \u1086 \u1083 \u1086 \u1074 \u1086 \u1082  H2</p>\
+</div>\
+<div class="flex flex-col gap-2">\
+<div class="flex justify-between items-baseline">\
+<span class="text-xs font-mono text-[\cf3 #9b9abc\cf2 ]">H3 / SemiBold / 24px</span>\
+</div>\
+<p class="text-xl md:text-2xl font-semibold leading-tight">\uc0\u1047 \u1072 \u1075 \u1086 \u1083 \u1086 \u1074 \u1086 \u1082  H3</p>\
+</div>\
+</div>\
+</div>\
+<!-- Body -->\
+<div class="p-6 rounded-xl border border-slate-200 dark:border-[\cf3 #3a3956\cf2 ] bg-white dark:bg-[#101018] flex flex-col gap-6">\
+<h3 class="text-sm font-bold uppercase tracking-widest text-primary">MTS Text (\uc0\u1054 \u1089 \u1085 \u1086 \u1074 \u1085 \u1086 \u1081  \u1090 \u1077 \u1082 \u1089 \u1090 )</h3>\
+<div class="flex flex-col gap-8">\
+<div class="flex flex-col gap-2">\
+<div class="flex justify-between items-baseline">\
+<span class="text-xs font-mono text-[\cf3 #9b9abc\cf2 ]">Body L / Regular / 18px</span>\
+</div>\
+<p class="text-lg leading-relaxed">\uc0\u1054 \u1089 \u1085 \u1086 \u1074 \u1085 \u1086 \u1081  \u1090 \u1077 \u1082 \u1089 \u1090  \u1082 \u1088 \u1091 \u1087 \u1085 \u1099 \u1081  (Body L). \u1048 \u1089 \u1087 \u1086 \u1083 \u1100 \u1079 \u1091 \u1077 \u1090 \u1089 \u1103  \u1076 \u1083 \u1103  \u1074 \u1089 \u1090 \u1091 \u1087 \u1083 \u1077 \u1085 \u1080 \u1081  \u1080  \u1074 \u1072 \u1078 \u1085 \u1099 \u1093  \u1073 \u1083 \u1086 \u1082 \u1086 \u1074  \u1090 \u1077 \u1082 \u1089 \u1090 \u1072 .</p>\
+</div>\
+<div class="flex flex-col gap-2">\
+<div class="flex justify-between items-baseline">\
+<span class="text-xs font-mono text-[\cf3 #9b9abc\cf2 ]">Body M / Regular / 16px</span>\
+</div>\
+<p class="text-base leading-normal">\uc0\u1058 \u1077 \u1082 \u1089 \u1090  \u1087 \u1086  \u1091 \u1084 \u1086 \u1083 \u1095 \u1072 \u1085 \u1080 \u1102  (Body M). \u1057 \u1090 \u1072 \u1085 \u1076 \u1072 \u1088 \u1090 \u1085 \u1099 \u1081  \u1088 \u1072 \u1079 \u1084 \u1077 \u1088  \u1076 \u1083 \u1103  \u1073 \u1086 \u1083 \u1100 \u1096 \u1080 \u1085 \u1089 \u1090 \u1074 \u1072  \u1082 \u1086 \u1085 \u1090 \u1077 \u1085 \u1090 \u1085 \u1099 \u1093  \u1073 \u1083 \u1086 \u1082 \u1086 \u1074  \u1080  \u1090 \u1072 \u1073 \u1083 \u1080 \u1094 .</p>\
+</div>\
+<div class="flex flex-col gap-2">\
+<div class="flex justify-between items-baseline">\
+<span class="text-xs font-mono text-[\cf3 #9b9abc\cf2 ]">Caption / Medium / 12px</span>\
+</div>\
+<p class="text-xs font-medium text-slate-500 uppercase tracking-wide">\uc0\u1055 \u1086 \u1076 \u1087 \u1080 \u1089 \u1100  \u1080 \u1083 \u1080  \u1074 \u1089 \u1087 \u1086 \u1084 \u1086 \u1075 \u1072 \u1090 \u1077 \u1083 \u1100 \u1085 \u1099 \u1081  \u1090 \u1077 \u1082 \u1089 \u1090  (Caption)</p>\
+</div>\
+</div>\
+</div>\
+</div>\
+</section>\
+<!-- 3. Spacing & Grid -->\
+<section class="flex flex-col gap-6">\
+<div class="flex items-center justify-between border-b border-slate-200 dark:border-[\cf3 #3a3956\cf2 ] pb-4">\
+<h2 class="text-slate-900 dark:text-white text-[22px] font-bold tracking-tight flex items-center gap-2">\
+<span class="material-symbols-outlined text-primary">straighten</span>\
+                                \uc0\u1057 \u1080 \u1089 \u1090 \u1077 \u1084 \u1072  \u1086 \u1090 \u1089 \u1090 \u1091 \u1087 \u1086 \u1074  (8-pt Grid)\
+                            </h2>\
+</div>\
+<div class="p-8 rounded-xl border border-slate-200 dark:border-[\cf3 #3a3956\cf2 ] bg-white dark:bg-[#101018]">\
+<div class="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-8 gap-6 items-end">\
+<div class="flex flex-col items-center gap-3">\
+<div class="w-2 h-2 bg-primary/40 rounded"></div>\
+<span class="text-xs font-mono text-slate-500">8px</span>\
+</div>\
+<div class="flex flex-col items-center gap-3">\
+<div class="w-4 h-4 bg-primary/50 rounded"></div>\
+<span class="text-xs font-mono text-slate-500">16px</span>\
+</div>\
+<div class="flex flex-col items-center gap-3">\
+<div class="w-6 h-6 bg-primary/60 rounded"></div>\
+<span class="text-xs font-mono text-slate-500">24px</span>\
+</div>\
+<div class="flex flex-col items-center gap-3">\
+<div class="w-8 h-8 bg-primary/70 rounded"></div>\
+<span class="text-xs font-mono text-slate-500">32px</span>\
+</div>\
+<div class="flex flex-col items-center gap-3">\
+<div class="w-10 h-10 bg-primary/80 rounded"></div>\
+<span class="text-xs font-mono text-slate-500">40px</span>\
+</div>\
+<div class="flex flex-col items-center gap-3">\
+<div class="w-12 h-12 bg-primary/90 rounded"></div>\
+<span class="text-xs font-mono text-slate-500">48px</span>\
+</div>\
+<div class="flex flex-col items-center gap-3">\
+<div class="w-14 h-14 bg-primary rounded"></div>\
+<span class="text-xs font-mono text-slate-500">56px</span>\
+</div>\
+<div class="flex flex-col items-center gap-3">\
+<div class="w-16 h-16 bg-primary ring-2 ring-primary/20 rounded"></div>\
+<span class="text-xs font-mono text-slate-500">64px</span>\
+</div>\
+</div>\
+<div class="mt-10 p-4 rounded-lg bg-slate-50 dark:bg-[\cf3 #1b1b28\cf2 ] border border-dashed border-slate-300 dark:border-slate-700">\
+<p class="text-sm text-slate-500 dark:text-[\cf3 #9b9abc\cf2 ] italic text-center">\uc0\u1042 \u1089 \u1077  \u1074 \u1085 \u1077 \u1096 \u1085 \u1080 \u1077  \u1080  \u1074 \u1085 \u1091 \u1090 \u1088 \u1077 \u1085 \u1085 \u1080 \u1077  \u1086 \u1090 \u1089 \u1090 \u1091 \u1087 \u1099  (margin/padding) \u1076 \u1086 \u1083 \u1078 \u1085 \u1099  \u1073 \u1099 \u1090 \u1100  \u1082 \u1088 \u1072 \u1090 \u1085 \u1099  8 \u1087 \u1080 \u1082 \u1089 \u1077 \u1083 \u1103 \u1084 .</p>\
+</div>\
+</div>\
+</section>\
+<!-- 4. Shadows & Effects -->\
+<section class="flex flex-col gap-6">\
+<div class="flex items-center justify-between border-b border-slate-200 dark:border-[\cf3 #3a3956\cf2 ] pb-4">\
+<h2 class="text-slate-900 dark:text-white text-[22px] font-bold tracking-tight flex items-center gap-2">\
+<span class="material-symbols-outlined text-primary">auto_fix_high</span>\
+                                \uc0\u1058 \u1077 \u1085 \u1080  \u1080  \u1041 \u1083 \u1102 \u1088  (Shadows &amp; Blur)\
+                            </h2>\
+</div>\
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">\
+<!-- Glass -->\
+<div class="relative h-48 rounded-xl overflow-hidden flex items-center justify-center bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500" data-alt="Abstract gradient background">\
+<div class="glass p-6 rounded-xl text-center">\
+<p class="text-white text-sm font-bold">Glassmorphism</p>\
+<p class="text-white/70 text-xs font-mono mt-1">blur(20px)</p>\
+</div>\
+</div>\
+<!-- Shadow 1 -->\
+<div class="h-48 rounded-xl bg-white dark:bg-[\cf3 #1b1b28\cf2 ] flex flex-col items-center justify-center border border-slate-200 dark:border-slate-800 shadow-lg">\
+<p class="text-slate-900 dark:text-white text-sm font-bold">Elevation 1</p>\
+<p class="text-slate-400 text-xs font-mono mt-1">0 10px 15px -3px</p>\
+</div>\
+<!-- Shadow 2 -->\
+<div class="h-48 rounded-xl bg-white dark:bg-[\cf3 #1b1b28\cf2 ] flex flex-col items-center justify-center border border-slate-200 dark:border-slate-800 shadow-2xl">\
+<p class="text-slate-900 dark:text-white text-sm font-bold">Elevation 2</p>\
+<p class="text-slate-400 text-xs font-mono mt-1">0 25px 50px -12px</p>\
+</div>\
+</div>\
+</section>\
+<!-- 5. Interactive States & Radius -->\
+<section class="flex flex-col gap-6 mb-20">\
+<div class="flex items-center justify-between border-b border-slate-200 dark:border-[\cf3 #3a3956\cf2 ] pb-4">\
+<h2 class="text-slate-900 dark:text-white text-[22px] font-bold tracking-tight flex items-center gap-2">\
+<span class="material-symbols-outlined text-primary">mouse</span>\
+                                \uc0\u1057 \u1086 \u1089 \u1090 \u1086 \u1103 \u1085 \u1080 \u1103  \u1080  \u1057 \u1082 \u1088 \u1091 \u1075 \u1083 \u1077 \u1085 \u1080 \u1103 \
+                            </h2>\
+</div>\
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-8">\
+<!-- Buttons States -->\
+<div class="flex flex-col gap-4">\
+<h3 class="text-sm font-bold text-slate-500 uppercase tracking-widest">\uc0\u1048 \u1085 \u1090 \u1077 \u1088 \u1072 \u1082 \u1090 \u1080 \u1074 \u1085 \u1099 \u1077  \u1089 \u1086 \u1089 \u1090 \u1086 \u1103 \u1085 \u1080 \u1103 </h3>\
+<div class="grid grid-cols-2 gap-4">\
+<div class="flex flex-col gap-2">\
+<span class="text-xs font-mono text-[\cf3 #9b9abc\cf2 ]">Default</span>\
+<button class="bg-primary text-white py-3 px-6 rounded-lg font-bold text-sm">\uc0\u1050 \u1085 \u1086 \u1087 \u1082 \u1072 </button>\
+</div>\
+<div class="flex flex-col gap-2">\
+<span class="text-xs font-mono text-[\cf3 #9b9abc\cf2 ]">Hover (10% lighter)</span>\
+<button class="bg-[\cf3 #2421ff\cf2 ] text-white py-3 px-6 rounded-lg font-bold text-sm">\uc0\u1050 \u1085 \u1086 \u1087 \u1082 \u1072 </button>\
+</div>\
+<div class="flex flex-col gap-2">\
+<span class="text-xs font-mono text-[\cf3 #9b9abc\cf2 ]">Active (80% opacity)</span>\
+<button class="bg-primary/80 text-white py-3 px-6 rounded-lg font-bold text-sm">\uc0\u1050 \u1085 \u1086 \u1087 \u1082 \u1072 </button>\
+</div>\
+<div class="flex flex-col gap-2">\
+<span class="text-xs font-mono text-[\cf3 #9b9abc\cf2 ]">Disabled</span>\
+<button class="bg-slate-200 dark:bg-[\cf3 #27273a\cf2 ] text-slate-400 dark:text-slate-600 py-3 px-6 rounded-lg font-bold text-sm cursor-not-allowed">\uc0\u1050 \u1085 \u1086 \u1087 \u1082 \u1072 </button>\
+</div>\
+</div>\
+</div>\
+<!-- Radius -->\
+<div class="flex flex-col gap-4">\
+<h3 class="text-sm font-bold text-slate-500 uppercase tracking-widest">\uc0\u1057 \u1082 \u1088 \u1091 \u1075 \u1083 \u1077 \u1085 \u1080 \u1103  (Border Radius)</h3>\
+<div class="grid grid-cols-2 gap-6">\
+<div class="flex flex-col items-center gap-4 p-6 bg-slate-50 dark:bg-[\cf3 #1b1b28\cf2 ] rounded-lg border border-slate-200 dark:border-slate-800">\
+<div class="size-16 bg-primary rounded-lg"></div>\
+<div class="text-center">\
+<p class="text-sm font-bold">Standart LG</p>\
+<p class="text-xs font-mono text-slate-500">8px</p>\
+</div>\
+</div>\
+<div class="flex flex-col items-center gap-4 p-6 bg-slate-50 dark:bg-[\cf3 #1b1b28\cf2 ] rounded-xl border border-slate-200 dark:border-slate-800">\
+<div class="size-16 bg-primary rounded-xl"></div>\
+<div class="text-center">\
+<p class="text-sm font-bold">Accent XL</p>\
+<p class="text-xs font-mono text-slate-500">12px</p>\
+</div>\
+</div>\
+</div>\
+</div>\
+</div>\
+</section>\
+</div>\
+</main>\
+</div>\
+</div>\
+</body></html>\
+}

@@ -1,0 +1,84 @@
+[
+  {
+    "slug": "business/cloud",
+    "totalCards": 3,
+    "cardsWithoutStructure": 3,
+    "cardsNotInGrid": 3,
+    "divsWithoutClass": 1,
+    "elementsWithoutClass": 18,
+    "issues": [
+      {
+        "type": "cards_without_structure",
+        "count": 3,
+        "examples": [
+          {
+            "title": "Облачное хранилище",
+            "contentPreview": "Облачное хранилище\n  Надежное хранение данных в облаке с защитой и резервным копированием."
+          },
+          {
+            "title": "Виртуальные серверы",
+            "contentPreview": "Виртуальные серверы\n  Виртуальные серверы (VPS) для хостинга приложений и веб-сайтов."
+          },
+          {
+            "title": "Облачные сервисы",
+            "contentPreview": "Облачные сервисы\n  Полный спектр облачных сервисов для автоматизации бизнеса."
+          }
+        ]
+      },
+      {
+        "type": "multiple_cards_without_grid",
+        "count": 3
+      },
+      {
+        "type": "divs_without_class",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "slug": "business/telephony",
+    "totalCards": 0,
+    "cardsWithoutStructure": 0,
+    "cardsNotInGrid": 0,
+    "divsWithoutClass": 0,
+    "elementsWithoutClass": 22,
+    "issues": []
+  },
+  {
+    "slug": "business/security",
+    "totalCards": 6,
+    "cardsWithoutStructure": 6,
+    "cardsNotInGrid": 0,
+    "divsWithoutClass": 0,
+    "elementsWithoutClass": 19,
+    "issues": [
+      {
+        "type": "cards_without_structure",
+        "count": 6,
+        "examples": [
+          {
+            "title": "Видеонаблюдение",
+            "contentPreview": "Видеонаблюдение\n                Системы видеонаблюдения для офисов, складов и производственных объек"
+          },
+          {
+            "title": "Контроль доступа",
+            "contentPreview": "Контроль доступа\n                Системы контроля доступа для управления входом в офисные помещения."
+          },
+          {
+            "title": "Охранная сигнализация",
+            "contentPreview": "Охранная сигнализация\n                Охранные системы для защиты помещений от несанкционированного "
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "business/tv",
+    "totalCards": 0,
+    "cardsWithoutStructure": 0,
+    "cardsNotInGrid": 0,
+    "divsWithoutClass": 0,
+    "elementsWithoutClass": 10,
+    "issues": []
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_page_document_tabs",
+  "info": {
+    "displayName": "Document Tabs",
+    "description": "Блок с табами документов (файлов). CSS классы: document-tabs (контейнер), document-tabs__title (h2 заголовок), document-tabs__tabs (табы), document-tabs__tab-button (кнопка таба), document-tabs__tab-content (контент таба), document-tabs__files-list (список файлов)"
+  },
+  "options": {},
+  "attributes": {
+    "isVisible": {
+      "type": "boolean",
+      "default": true
+    },
+    "title": {
+      "type": "string",
+      "description": "Заголовок блока табов"
+    },
+    "tabs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.document-tab"
+    },
+    "defaultTab": {
+      "type": "integer",
+      "default": 0,
+      "description": "Индекс таба по умолчанию"
+    }
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "page": {
+    "slug": "external_communication",
+    "url": "https://business.mgts.ru/government/communications_infrastructure/external_communication",
+    "pathname": "/government/communications_infrastructure/external_communication",
+    "analyzedAt": "2026-01-14T08:16:25.721Z",
+    "screenshot": "/Users/andrey_efremov/Downloads/runs/mgts-backend/temp/page-analysis-llm/external_communication_screenshot.png",
+    "llmProvider": "perplexity",
+    "llmModel": "sonar"
+  },
+  "metadata": {
+    "title": "Наружные сети связи"
+  },
+  "sections": [
+    {
+      "sectionIndex": 1,
+      "type": "breadcrumbs",
+      "description": "Навигационная цепочка хлебных крошек, показывающая путь от главной страницы до текущей",
+      "title": "",
+      "text": "",
+      "links": {
+        "internalLinks": [
+          {
+            "text": "Главная",
+            "href": "/",
+            "purpose": "Переход на главную страницу сайта"
+          },
+          {
+            "text": "Госзаказчикам",
+            "href": "/government",
+            "purpose": "Переход в раздел для государственных заказчиков"
+          },
+          {
+            "text": "Инфраструктура связи",
+            "href": "/government/communications_infrastructure",
+            "purpose": "Переход в раздел инфраструктуры связи"
+          }
+        ],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      }
+    },
+    {
+      "sectionIndex": 2,
+      "type": "hero",
+      "description": "Главный геройский блок с основным заголовком страницы и описанием услуги",
+      "title": "Наружные сети связи",
+      "subtitle": "",
+      "text": "Комплексная инфраструктура, объединяющая территориально разнесённые сетевые устройства в единую структуру",
+      "elements": [],
+      "images": [],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": []
+    },
+    {
+      "sectionIndex": 3,
+      "type": "services",
+      "description": "Блок с карточками услуг наружных сетей связи, расположенными в сетке 4 колонки. Каждая карточка содержит иконку SVG, заголовок и краткое описание",
+      "title": "",
+      "text": "",
+      "elements": [],
+      "images": [],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [
+        {
+          "title": "Системы безопасности",
+          "text": "Создаём наружные системы видеонаблюдения и сигнализации",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "",
+            "href": "",
+            "purpose": ""
+          }
+        },
+        {
+          "title": "Объединения локальных сетей",
+          "text": "Соединяем локальные сети отдельно стоящих зданий и сооружений",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "",
+            "href": "",
+            "purpose": ""
+          }
+        },
+        {
+          "title": "Уличные сети доступа Wi-Fi",
+          "text": "Развиваем уличные сети для доступа к Wi-Fi",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "",
+            "href": "",
+            "purpose": ""
+          }
+        },
+        {
+          "title": "Телефонные и телевизионные линии",
+          "text": "Устанавливаем телефонные и телевизионные линии",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "",
+            "href": "",
+            "purpose": ""
+          }
+        }
+      ]
+    },
+    {
+      "sectionIndex": 4,
+      "type": "experience",
+      "description": "Блок с заголовком об опыте компании и тремя преимуществами в виде карточек с фоновыми изображениями",
+      "title": "Опыт построения наружных сетей связи",
+      "subtitle": "",
+      "text": "Основываясь на более чем вековом опыте в создании внешних сетей связи, мы используем специализированные кабельные системы, оборудование и строительные технологии, позволяющие создавать и эксплуатировать сети в различных условиях",
+      "elements": [],
+      "images": [
+        {
+          "description": "Фоновое изображение для карточки 'Уникальная экспертиза'",
+          "position": "background",
+          "src": "/images/8.png",
+          "alt": ""
+        },
+        {
+          "description": "Фоновое изображение для карточки 'Быстрое решение задач'",
+          "position": "background",
+          "src": "/images/9.png",
+          "alt": ""
+        },
+        {
+          "description": "Фоновое изображение для карточки 'Детальное планирование'",
+          "position": "background",
+          "src": "/images/10.png",
+          "alt": ""
+        }
+      ],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": [
+        {
+          "title": "Уникальная экспертиза",
+          "text": "Мы обладаем уникальными знаниями и навыками",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "",
+            "href": "",
+            "purpose": ""
+          }
+        },
+        {
+          "title": "Быстрое решение задач",
+          "text": "Собственная кабельная канализация и обширная инфраструктура МГТС помогают быстро реализовывать кабельные сети",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "",
+            "href": "",
+            "purpose": ""
+          }
+        },
+        {
+          "title": "Детальное планирование",
+          "text": "Формируем список необходимого оборудования для непрерывной поддержки",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "",
+            "href": "",
+            "purpose": ""
+          }
+        }
+      ]
+    },
+    {
+      "sectionIndex": 5,
+      "type": "contact-form",
+      "description": "Блок с предложением сотрудничества, текстом с email и формой обратной связи для потенциальных партнеров",
+      "title": "МГТС заинтересована в новых партнерах для реализации совместных проектов",
+      "subtitle": "¬ связаться с нами",
+      "text": "Если у вас есть идеи и предложения для сотрудничества, направляйте их по адресу электронной почты: sotrudnichestvo@mgts.ru\n\nИли оставьте свои данные, мы сами свяжемся с вами",
+      "elements": [
+        {
+          "type": "button",
+          "text": "Отправить",
+          "purpose": "Отправка формы обратной связи",
+          "href": ""
+        }
+      ],
+      "images": [],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": []
+    }
+  ]
+}

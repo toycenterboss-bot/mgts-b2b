@@ -1,0 +1,189 @@
+{
+  "fixedAt": "2026-01-08T08:31:43.816Z",
+  "dryRun": false,
+  "totalPages": 42,
+  "pagesFixed": 18,
+  "totalChanges": 18,
+  "results": [
+    {
+      "slug": "about/ethics/single-hotline",
+      "title": "Единая горячая линия - Деловая этика - О компании - МГТС Бизнес",
+      "changes": [
+        "Добавлена сетка .grid.grid-cols-4 для 6 карточек в секции #1"
+      ],
+      "changeCount": 1,
+      "originalLength": 1869,
+      "fixedLength": 1944
+    },
+    {
+      "slug": "about/governance/documents",
+      "title": "Корпоративные документы - Корпоративное управление - О компании - МГТС Бизнес",
+      "changes": [
+        "Добавлена сетка .grid.grid-cols-4 для 8 карточек в секции #1"
+      ],
+      "changeCount": 1,
+      "originalLength": 2412,
+      "fixedLength": 2487
+    },
+    {
+      "slug": "about/governance",
+      "title": "Корпоративное управление - О компании - МГТС Бизнес",
+      "changes": [
+        "Добавлена сетка .grid.grid-cols-4 для 8 карточек в секции #1"
+      ],
+      "changeCount": 1,
+      "originalLength": 2130,
+      "fixedLength": 2205
+    },
+    {
+      "slug": "about/governance/infoformen",
+      "title": "Раскрытие информации - Корпоративное управление - О компании - МГТС Бизнес",
+      "changes": [
+        "Добавлена сетка .grid.grid-cols-4 для 6 карточек в секции #1"
+      ],
+      "changeCount": 1,
+      "originalLength": 1776,
+      "fixedLength": 1851
+    },
+    {
+      "slug": "about/governance/principles",
+      "title": "Принципы корпоративного управления - Корпоративное управление - О компании - МГТС Бизнес",
+      "changes": [
+        "Добавлена сетка .grid.grid-cols-4 для 7 карточек в секции #1"
+      ],
+      "changeCount": 1,
+      "originalLength": 2019,
+      "fixedLength": 2094
+    },
+    {
+      "slug": "about/governance/registrar",
+      "title": "О регистраторе - Корпоративное управление - О компании - МГТС Бизнес",
+      "changes": [
+        "Добавлена сетка .grid.grid-cols-4 для 5 карточек в секции #1"
+      ],
+      "changeCount": 1,
+      "originalLength": 1785,
+      "fixedLength": 1860
+    },
+    {
+      "slug": "about/governance/shareholders",
+      "title": "Решения собраний акционеров - Корпоративное управление - О компании - МГТС Бизнес",
+      "changes": [
+        "Добавлена сетка .grid.grid-cols-4 для 5 карточек в секции #1"
+      ],
+      "changeCount": 1,
+      "originalLength": 1486,
+      "fixedLength": 1561
+    },
+    {
+      "slug": "contacts",
+      "title": "Контакты - МГТС Бизнес",
+      "changes": [
+        "Добавлена сетка .grid.grid-cols-4 для 6 карточек в секции #1"
+      ],
+      "changeCount": 1,
+      "originalLength": 2860,
+      "fixedLength": 2935
+    },
+    {
+      "slug": "business/security/access-control",
+      "title": "Контроль доступа - МГТС Бизнес",
+      "changes": [
+        "Добавлена сетка .grid.grid-cols-4 для 4 карточек в секции #1"
+      ],
+      "changeCount": 1,
+      "originalLength": 4298,
+      "fixedLength": 4373
+    },
+    {
+      "slug": "business/security/alarm",
+      "title": "Охранная сигнализация - МГТС Бизнес",
+      "changes": [
+        "Добавлена сетка .grid.grid-cols-4 для 4 карточек в секции #1"
+      ],
+      "changeCount": 1,
+      "originalLength": 4193,
+      "fixedLength": 4268
+    },
+    {
+      "slug": "business/cloud/services",
+      "title": "Облачные сервисы - МГТС Бизнес",
+      "changes": [
+        "Добавлена сетка .grid.grid-cols-4 для 4 карточек в секции #1"
+      ],
+      "changeCount": 1,
+      "originalLength": 4131,
+      "fixedLength": 4206
+    },
+    {
+      "slug": "business/tv/office",
+      "title": "Корпоративное ТВ - МГТС Бизнес",
+      "changes": [
+        "Добавлена сетка .grid.grid-cols-4 для 4 карточек в секции #1"
+      ],
+      "changeCount": 1,
+      "originalLength": 4175,
+      "fixedLength": 4250
+    },
+    {
+      "slug": "business/internet",
+      "title": "Интернет для бизнеса - МГТС Бизнес",
+      "changes": [
+        "Добавлена сетка .grid.grid-cols-3 для 3 карточек в секции #1"
+      ],
+      "changeCount": 1,
+      "originalLength": 2312,
+      "fixedLength": 2387
+    },
+    {
+      "slug": "business/cloud/vps",
+      "title": "Виртуальные серверы - МГТС Бизнес",
+      "changes": [
+        "Добавлена сетка .grid.grid-cols-3 для 3 карточек в секции #1"
+      ],
+      "changeCount": 1,
+      "originalLength": 6297,
+      "fixedLength": 6372
+    },
+    {
+      "slug": "business/internet/dedicated",
+      "title": "Выделенный интернет для бизнеса - МГТС Бизнес",
+      "changes": [
+        "Добавлен класс section-title к заголовку h2 #6"
+      ],
+      "changeCount": 1,
+      "originalLength": 10477,
+      "fixedLength": 10538
+    },
+    {
+      "slug": "business/telephony/ip",
+      "title": "IP-телефония - МГТС Бизнес",
+      "changes": [
+        "Добавлен класс section-title к заголовку h2 #5"
+      ],
+      "changeCount": 1,
+      "originalLength": 8484,
+      "fixedLength": 8545
+    },
+    {
+      "slug": "business/telephony/vpbx",
+      "title": "Виртуальная АТС - МГТС Бизнес",
+      "changes": [
+        "Добавлен класс section-title к заголовку h2 #5"
+      ],
+      "changeCount": 1,
+      "originalLength": 8563,
+      "fixedLength": 8624
+    },
+    {
+      "slug": "business/internet/gpon",
+      "title": "GPON для бизнеса - МГТС Бизнес",
+      "changes": [
+        "Добавлен класс section-title к заголовку h2 #6"
+      ],
+      "changeCount": 1,
+      "originalLength": 12759,
+      "fixedLength": 12820
+    }
+  ]
+}

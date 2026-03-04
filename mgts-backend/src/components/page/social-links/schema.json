@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_social_links_groups",
+  "info": {
+    "displayName": "Social Links",
+    "description": "Группа ссылок на соцсети"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Социальные сети"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.social-link"
+    }
+  }
+}

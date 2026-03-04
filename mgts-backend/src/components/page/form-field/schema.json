@@ -1,0 +1,53 @@
+{
+  "collectionName": "components_page_form_fields",
+  "info": {
+    "displayName": "Form Field",
+    "description": "Поле формы (input/select/textarea/file/button)"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "input",
+        "select",
+        "textarea",
+        "file",
+        "button"
+      ],
+      "required": true
+    },
+    "label": {
+      "type": "string"
+    },
+    "placeholder": {
+      "type": "string"
+    },
+    "options": {
+      "type": "json",
+      "description": "Опции для select"
+    },
+    "optional": {
+      "type": "boolean",
+      "default": false
+    },
+    "description": {
+      "type": "string"
+    },
+    "accept": {
+      "type": "string"
+    },
+    "dragDrop": {
+      "type": "boolean",
+      "default": false
+    },
+    "text": {
+      "type": "string"
+    },
+    "maxLength": {
+      "type": "integer",
+      "default": 300,
+      "description": "Максимальная длина для textarea"
+    }
+  }
+}

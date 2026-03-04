@@ -1,0 +1,215 @@
+{
+  "page": {
+    "slug": "automated_control_systems",
+    "url": "https://business.mgts.ru/government/digital_services/automated_control_systems",
+    "pathname": "/government/digital_services/automated_control_systems",
+    "analyzedAt": "2026-01-13T14:08:13.770Z",
+    "screenshot": "/Users/andrey_efremov/Downloads/runs/mgts-backend/temp/page-analysis-llm/automated_control_systems_screenshot.png",
+    "llmProvider": "perplexity",
+    "llmModel": "sonar"
+  },
+  "metadata": {
+    "title": "Автоматизированные системы управления"
+  },
+  "sections": [
+    {
+      "sectionIndex": 1,
+      "type": "breadcrumbs",
+      "description": "Навигационная цепочка для ориентации пользователя на странице, показывает иерархию разделов сайта",
+      "links": {
+        "internalLinks": [
+          {
+            "text": "Главная",
+            "href": "/",
+            "purpose": "Ссылка на главную страницу сайта"
+          },
+          {
+            "text": "Госзаказчикам",
+            "href": "/government",
+            "purpose": "Ссылка на раздел для государственных заказчиков"
+          },
+          {
+            "text": "Цифровые сервисы",
+            "href": "/government/digital_services",
+            "purpose": "Ссылка на раздел цифровых сервисов"
+          }
+        ],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      }
+    },
+    {
+      "sectionIndex": 2,
+      "type": "hero",
+      "description": "Заголовочная секция страницы с основным названием услуги и описанием её назначения",
+      "title": "Автоматизированные системы управления",
+      "subtitle": null,
+      "text": "Оптимизируйте работу и повышайте производительность объектов через автоматизацию и удалённый контроль систем",
+      "elements": [],
+      "images": [],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      }
+    },
+    {
+      "sectionIndex": 3,
+      "type": "services_grid",
+      "description": "Сетка из 6 карточек с описанием основных услуг и функций автоматизированных систем управления. Каждая карточка содержит иконку, заголовок и описание",
+      "title": null,
+      "text": null,
+      "cards": [
+        {
+          "title": "Подбор и настройка оборудования",
+          "text": "Выбор и настройка оборудования, а также предоставление консультаций в ходе его использования",
+          "icon": "SettingEquipment_svg",
+          "link": null
+        },
+        {
+          "title": "Запуск и эксплуатация",
+          "text": "Подготовка и тестирование технологической системы объекта",
+          "icon": "Settings_svg",
+          "link": null
+        },
+        {
+          "title": "Расчёт и сборка элементов управления",
+          "text": "Настройка параметров и характеристик элементов системы управления и их установка",
+          "icon": "Customization_svg",
+          "link": null
+        },
+        {
+          "title": "Визуализация",
+          "text": "Графическое отображение данных, статусов и параметров объектов",
+          "icon": "VirtualDesktops_svg",
+          "link": null
+        },
+        {
+          "title": "Поддержка оборудования",
+          "text": "Обслуживание оборудования, включая настройку и поддержку поставляемого с ним ПО",
+          "icon": "Help_svg",
+          "link": null
+        }
+      ],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      }
+    },
+    {
+      "sectionIndex": 4,
+      "type": "advantages_grid",
+      "description": "Сетка из 4 карточек преимуществ автоматизированных систем управления с фоновыми изображениями. Каждая карточка содержит заголовок и описание преимущества",
+      "title": null,
+      "text": null,
+      "cards": [
+        {
+          "title": "Улучшенный мониторинг и контроль",
+          "text": "Эффективный мониторинг позволяет оперативно реагировать на изменения и управлять процессами в режиме реального времени",
+          "backgroundImage": "/images/7.png"
+        },
+        {
+          "title": "Гибкость и масштабируемость",
+          "text": "Лёгкая адаптация к вашим требованиям: масштабируемость процессов в зависимости от роста бизнеса или изменения условий работы",
+          "backgroundImage": "/images/8.png"
+        },
+        {
+          "title": "Безопасность и снижение рисков",
+          "text": "АСУ могут снизить риск человеческих ошибок, а также обеспечить более высокий уровень безопасности при выполнении опасных задач",
+          "backgroundImage": "/images/4.png"
+        },
+        {
+          "title": "Экономия времени и ресурсов",
+          "text": "Сокращение временных затрат и оптимизация использования ресурсов для повышения производительности",
+          "backgroundImage": "/images/1.png"
+        }
+      ],
+      "images": [
+        {
+          "description": "Фоновое изображение для карточки 'Улучшенный мониторинг и контроль'",
+          "position": "фон",
+          "src": "/images/7.png",
+          "alt": null
+        },
+        {
+          "description": "Фоновое изображение для карточки 'Гибкость и масштабируемость'",
+          "position": "фон",
+          "src": "/images/8.png",
+          "alt": null
+        },
+        {
+          "description": "Фоновое изображение для карточки 'Безопасность и снижение рисков'",
+          "position": "фон",
+          "src": "/images/4.png",
+          "alt": null
+        },
+        {
+          "description": "Фоновое изображение для карточки 'Экономия времени и ресурсов'",
+          "position": "фон",
+          "src": "/images/1.png",
+          "alt": null
+        }
+      ],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      }
+    },
+    {
+      "sectionIndex": 5,
+      "type": "partnership_cta",
+      "description": "Секция с предложением партнёрства и формой для связи. Содержит заголовок, описание, контактную информацию и форму обратной связи",
+      "title": "МГТС заинтересована в новых партнерах для реализации совместных проектов",
+      "subtitle": "¬ связаться с нами",
+      "text": "Если у вас есть идеи и предложения для сотрудничества, направляйте их по адресу электронной почты: sotrudnichestvo@mgts.ru\n\nИли оставьте свои данные, мы сами свяжемся с вами",
+      "elements": [
+        {
+          "type": "form_field",
+          "label": "Ваше имя",
+          "placeholder": "Имя",
+          "inputType": "text"
+        },
+        {
+          "type": "form_field",
+          "label": "Название организации",
+          "placeholder": "Организация",
+          "inputType": "text"
+        },
+        {
+          "type": "form_field",
+          "label": "Ваш email",
+          "placeholder": "Email",
+          "inputType": "email"
+        },
+        {
+          "type": "form_field",
+          "label": "Телефон",
+          "placeholder": "+7",
+          "inputType": "tel"
+        },
+        {
+          "type": "form_consent",
+          "text": "Вводя данные, вы подтверждаете свое ознакомление и согласие с условиями обработки персональных данных"
+        },
+        {
+          "type": "button",
+          "text": "Отправить",
+          "purpose": "Отправка формы обратной связи для связи с компанией"
+        }
+      ],
+      "images": [],
+      "links": {
+        "internalLinks": [],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      }
+    }
+  ]
+}

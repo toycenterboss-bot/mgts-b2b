@@ -1,0 +1,177 @@
+{
+  "page": {
+    "slug": "partners_ramochnie_dogovori",
+    "url": "https://business.mgts.ru/partners/ramochnie_dogovori",
+    "pathname": "/partners/ramochnie_dogovori",
+    "analyzedAt": "2026-01-17T12:39:57.920Z",
+    "screenshot": "/Users/andrey_efremov/Downloads/runs/mgts-backend/temp/page-analysis-llm/partners_ramochnie_dogovori_screenshot.png",
+    "llmProvider": "perplexity",
+    "llmModel": "sonar"
+  },
+  "metadata": {
+    "title": "Рамочный договор"
+  },
+  "sections": [
+    {
+      "type": "sidebar",
+      "description": "Боковое навигационное меню, восстановленное по связанной странице",
+      "title": "Навигация",
+      "text": null,
+      "links": {
+        "internalLinks": [
+          {
+            "text": "Закупки",
+            "href": "/partners/purchas",
+            "purpose": "Навигационный пункт бокового меню"
+          },
+          {
+            "text": "Допуск к проведению работ на линиях и сооружениях связи",
+            "href": "/partners/procedure_admission_work",
+            "purpose": "Навигационный пункт бокового меню"
+          },
+          {
+            "text": "Реализация ТМЦ",
+            "href": "/partners/realization",
+            "purpose": "Навигационный пункт бокового меню"
+          },
+          {
+            "text": "Тарифы",
+            "href": "/partners/tariffs",
+            "purpose": "Навигационный пункт бокового меню"
+          },
+          {
+            "text": "Документация",
+            "href": "/partners/documents",
+            "purpose": "Навигационный пункт бокового меню"
+          },
+          {
+            "text": "Рамочный договор",
+            "href": "/partners/ramochnie_dogovori",
+            "purpose": "Навигационный пункт бокового меню"
+          }
+        ],
+        "externalLinks": [],
+        "fileLinks": [],
+        "imageLinks": []
+      },
+      "cards": []
+    },
+    {
+      "sectionIndex": 1,
+      "type": "breadcrumbs",
+      "description": "Навигационная цепочка хлебных крошек показывает путь пользователя от главной страницы к текущей странице",
+      "links": {
+        "internalLinks": [
+          {
+            "text": "Главная",
+            "href": "/",
+            "purpose": "Переход на главную страницу сайта"
+          },
+          {
+            "text": "Партнерам",
+            "href": "/partners",
+            "purpose": "Переход в раздел для партнеров"
+          }
+        ]
+      }
+    },
+    {
+      "sectionIndex": 2,
+      "type": "hero",
+      "description": "Главный заголовок страницы, представляющий основную тему - Рамочный договор",
+      "title": "Рамочный договор",
+      "text": "Главная"
+    },
+    {
+      "sectionIndex": 3,
+      "type": "tabs",
+      "description": "Переключатель между актуальной версией рамочного договора и архивными версиями. Активный таб показывает текущую действующую версию",
+      "tabs": [
+        {
+          "title": "Актуальная версия",
+          "isActive": true,
+          "content": {
+            "text": "Рамочный договор, утвержденный приказом от 10.10.2024 № 473 Публичного акционерного общества «Московская городская телефонная сеть» (далее -  «МГТС»), опубликованный на  сайте МГТС по ссылке https://business.mgts.ru/partner (далее – «РД»), заключается между юридическим лицом, индивидуальным предпринимателем, физическим лицом  (далее – «Партнёр») и МГТС (далее именуемые вместе «Стороны») посредством подписания Договоров/Дополнительных соглашений/Заказов (далее именуются вместе – «ДСЗ»)."
+          }
+        },
+        {
+          "title": "Архив",
+          "isActive": false,
+          "content": {
+            "text": ""
+          }
+        }
+      ]
+    },
+    {
+      "sectionIndex": 4,
+      "type": "content",
+      "description": "Основной текстовый блок с описанием рамочного договора и ссылкой на партнерский раздел, а также файл действующего договора",
+      "text": "Рамочный договор, утвержденный приказом от 10.10.2024 № 473 Публичного акционерного общества «Московская городская телефонная сеть» (далее -  «МГТС»), опубликованный на  сайте МГТС по ссылке https://business.mgts.ru/partner (далее – «РД»), заключается между юридическим лицом, индивидуальным предпринимателем, физическим лицом  (далее – «Партнёр») и МГТС (далее именуемые вместе «Стороны») посредством подписания Договоров/Дополнительных соглашений/Заказов (далее именуются вместе – «ДСЗ»)."
+    },
+    {
+      "sectionIndex": 5,
+      "type": "files",
+      "description": "Список файлов для скачивания - действующий рамочный договор в формате DOCX",
+      "links": {
+        "fileLinks": [
+          {
+            "text": "Действующий рамочный договор",
+            "href": "https://business.mgts.ru/static/files/partner/ramochnyy_dogovor_versiya_2.docx",
+            "fileType": "docx",
+            "purpose": "Действующая версия рамочного договора для партнеров МГТС"
+          },
+          {
+            "text": "Рамочный договор версия 1 (архив)",
+            "href": "https://business.mgts.ru/static/files/partner/ramochnyy_dogovor_versiya_1_arhiv.docx",
+            "fileType": "docx",
+            "purpose": "",
+            "fileName": "ramochnyy_dogovor_versiya_1_arhiv.docx"
+          }
+        ]
+      },
+      "cards": [
+        {
+          "title": "Действующий рамочный договор",
+          "text": "docx",
+          "value": "",
+          "label": "",
+          "link": {
+            "text": "Действующий рамочный договор",
+            "href": "https://business.mgts.ru/static/files/partner/ramochnyy_dogovor_versiya_2.docx",
+            "fileName": "",
+            "fileType": "docx",
+            "title": "",
+            "purpose": "Действующая версия рамочного договора для партнеров МГТС"
+          }
+        }
+      ]
+    },
+    {
+      "sectionIndex": 6,
+      "type": "content",
+      "description": "Дополнительная внешняя ссылка в описательном тексте на партнерский раздел сайта",
+      "links": {
+        "externalLinks": [
+          {
+            "text": "https://business.mgts.ru/partner",
+            "href": "https://business.mgts.ru/partner",
+            "purpose": "Ссылка на партнерский раздел сайта МГТС, где опубликован РД"
+          }
+        ],
+        "internalLinks": [
+          {
+            "text": "Главная",
+            "href": "/",
+            "purpose": "Переход на главную страницу сайта"
+          },
+          {
+            "text": "Партнерам",
+            "href": "/partners",
+            "purpose": "Переход в раздел для партнеров"
+          }
+        ]
+      }
+    }
+  ]
+}

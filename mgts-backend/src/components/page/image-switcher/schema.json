@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_page_image_switchers",
+  "info": {
+    "displayName": "Image Switcher",
+    "description": "Переключение изображений на клик (SVG триггеры). CSS классы: image-switcher (контейнер), image-switcher__title (заголовок), image-switcher__container (контейнер), image-switcher__item (элемент переключателя)"
+  },
+  "options": {},
+  "attributes": {
+    "isVisible": {
+      "type": "boolean",
+      "default": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.switcher-item"
+    },
+    "defaultImage": {
+      "type": "integer",
+      "default": 0,
+      "description": "Индекс изображения по умолчанию"
+    }
+  }
+}

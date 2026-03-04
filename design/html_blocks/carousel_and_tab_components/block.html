@@ -1,0 +1,231 @@
+<section class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-white min-h-screen" data-stitch-block="carousel_and_tab_components">
+<!-- Top Navigation Bar -->
+<header class="sticky top-0 z-50 w-full border-b border-white/10 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-md">
+<div class="max-w-[1200px] mx-auto flex h-16 items-center justify-between px-6 lg:px-10">
+<div class="flex items-center gap-10">
+<div class="flex items-center gap-3">
+<div class="bg-primary p-1 rounded">
+<svg class="size-6 text-white" fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 4H17.3334V17.3334H30.6666V30.6666H44V44H4V4Z" fill="currentColor"></path>
+</svg>
+</div>
+<h2 class="text-xl font-bold tracking-tight">MGTS B2B</h2>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Услуги</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Решения</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Поддержка</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Контакты</a>
+</nav>
+</div>
+<div class="flex items-center gap-4">
+<div class="relative hidden lg:block">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-lg">search</span>
+<input class="h-10 w-64 rounded-lg border-none bg-slate-200 dark:bg-white/5 pl-10 text-sm focus:ring-2 focus:ring-primary/50 transition-all" placeholder="Поиск решений" type="text"/>
+</div>
+<button class="bg-primary hover:bg-primary/90 text-white px-5 py-2 rounded-lg text-sm font-semibold transition-all shadow-lg shadow-primary/20">
+                    Личный кабинет
+                </button>
+</div>
+</div>
+</header>
+<main class="max-w-[1200px] mx-auto px-6 lg:px-10 py-12 space-y-16">
+<!-- Section: Carousel -->
+<section class="space-y-6" data-carousel>
+<div class="flex items-end justify-between px-2">
+<div>
+<h1 class="text-3xl lg:text-4xl font-bold tracking-tight">Инфраструктура возможностей</h1>
+<p class="text-slate-500 dark:text-slate-400 mt-2">Передовые технологии для масштабирования вашего бизнеса</p>
+</div>
+<div class="flex gap-3">
+<button class="glass size-12 flex items-center justify-center rounded-full hover:bg-white/10 transition-colors" data-carousel-prev aria-label="Предыдущий слайд">
+<span class="material-symbols-outlined">chevron_left</span>
+</button>
+<button class="glass size-12 flex items-center justify-center rounded-full hover:bg-white/10 transition-colors" data-carousel-next aria-label="Следующий слайд">
+<span class="material-symbols-outlined">chevron_right</span>
+</button>
+</div>
+</div>
+<!-- Premium Slider Area -->
+<div class="relative group">
+<div class="flex gap-6 overflow-x-auto hide-scrollbar snap-x snap-mandatory pb-4" data-carousel-track>
+<!-- Slide 1 -->
+<div class="min-w-[85%] lg:min-w-[70%] aspect-[21/9] rounded-xl overflow-hidden snap-start relative group/card">
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent z-10"></div>
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover/card:scale-105" data-alt="Modern server room with blue lighting and high tech infrastructure" style="background-image: url(../../assets/images/external/59893c4fe97c.png)"></div>
+<div class="absolute bottom-0 left-0 p-8 lg:p-12 z-20 max-w-2xl">
+<span class="inline-block px-3 py-1 bg-primary text-[10px] font-bold uppercase tracking-widest rounded mb-4">Дата-центры</span>
+<h3 class="text-3xl font-bold text-white mb-4">Надежность государственного уровня</h3>
+<p class="text-slate-200 text-lg mb-6">Обеспечиваем бесперебойную работу критически важных сервисов с SLA 99.9%.</p>
+<button class="bg-white text-black px-6 py-3 rounded-lg font-bold text-sm hover:bg-slate-100 transition-colors">Узнать больше</button>
+</div>
+</div>
+<!-- Slide 2 (Peek ahead) -->
+<div class="min-w-[85%] lg:min-w-[70%] aspect-[21/9] rounded-xl overflow-hidden snap-start relative group/card opacity-60 hover:opacity-100 transition-opacity">
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent z-10"></div>
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover/card:scale-105" data-alt="Bright modern glass office space with collaborative work zones" style="background-image: url(../../assets/images/external/6e17da1a4c0e.png)"></div>
+<div class="absolute bottom-0 left-0 p-8 lg:p-12 z-20 max-w-2xl">
+<span class="inline-block px-3 py-1 bg-primary text-[10px] font-bold uppercase tracking-widest rounded mb-4">Цифровой офис</span>
+<h3 class="text-3xl font-bold text-white mb-4">Экосистема для продуктивности</h3>
+<p class="text-slate-200 text-lg mb-6">Объединяем сотрудников и процессы в едином защищенном цифровом пространстве.</p>
+</div>
+</div>
+</div>
+<!-- Progress Tracker -->
+<div class="mt-8 flex items-center gap-4 px-2">
+<div class="flex-1 h-1 bg-slate-200 dark:bg-white/10 rounded-full overflow-hidden" data-carousel-progress>
+<div class="w-1/3 h-full bg-primary tab-glow transition-all duration-500" data-carousel-progress-bar></div>
+</div>
+<div class="text-xs font-bold text-slate-500 tracking-widest"><span data-carousel-counter>01 / 03</span></div>
+</div>
+</div>
+</section>
+<!-- Section: Tab System -->
+<section class="space-y-8 bg-slate-100 dark:bg-white/[0.02] p-8 lg:p-12 rounded-2xl border border-slate-200 dark:border-white/5" data-tabs data-default-tab="startups">
+<div class="text-center max-w-2xl mx-auto space-y-4">
+<h2 class="text-3xl font-bold">Специализированные решения</h2>
+<p class="text-slate-500 dark:text-slate-400">Выберите категорию, чтобы увидеть подходящие инструменты для вашего типа бизнеса.</p>
+</div>
+<!-- Modern Tabs -->
+<div class="flex justify-center">
+<div class="inline-flex border-b border-slate-200 dark:border-white/10 px-2" role="tablist" aria-label="Категории решений">
+<a class="relative flex flex-col items-center px-8 py-4 group" href="#" data-tab="startups" aria-selected="true">
+<span data-tab-label data-active-classes="text-primary" data-inactive-classes="text-slate-500 dark:text-slate-400 group-hover:text-slate-900 dark:group-hover:text-white" class="text-primary text-sm font-bold tracking-wide transition-colors">Для стартапов</span>
+<div data-tab-underline class="absolute bottom-0 left-0 w-full h-[3px] bg-primary tab-glow rounded-t-full"></div>
+</a>
+<a class="relative flex flex-col items-center px-8 py-4 group hover:bg-slate-200/50 dark:hover:bg-white/5 transition-colors rounded-t-lg" href="#" data-tab="corp" aria-selected="false">
+<span data-tab-label data-active-classes="text-primary" data-inactive-classes="text-slate-500 dark:text-slate-400 group-hover:text-slate-900 dark:group-hover:text-white" class="text-slate-500 dark:text-slate-400 text-sm font-bold tracking-wide transition-colors group-hover:text-slate-900 dark:group-hover:text-white">Для корпораций</span>
+<div data-tab-underline class="absolute bottom-0 left-0 w-full h-[3px] bg-transparent group-hover:bg-slate-300 dark:group-hover:bg-white/20 transition-all hidden"></div>
+</a>
+<a class="relative flex flex-col items-center px-8 py-4 group hover:bg-slate-200/50 dark:hover:bg-white/5 transition-colors rounded-t-lg" href="#" data-tab="gov" aria-selected="false">
+<span data-tab-label data-active-classes="text-primary" data-inactive-classes="text-slate-500 dark:text-slate-400 group-hover:text-slate-900 dark:group-hover:text-white" class="text-slate-500 dark:text-slate-400 text-sm font-bold tracking-wide transition-colors group-hover:text-slate-900 dark:group-hover:text-white">Госзаказы</span>
+<div data-tab-underline class="absolute bottom-0 left-0 w-full h-[3px] bg-transparent group-hover:bg-slate-300 dark:group-hover:bg-white/20 transition-all hidden"></div>
+</a>
+</div>
+</div>
+<!-- Tab Content Panel -->
+<div class="pt-6">
+<div data-panel="startups" class="grid lg:grid-cols-3 gap-8" role="tabpanel">
+<div class="bg-white dark:bg-white/5 p-8 rounded-xl border border-slate-100 dark:border-white/5 hover:border-primary/30 transition-all hover:shadow-xl hover:shadow-primary/5">
+<div class="bg-primary/10 size-12 flex items-center justify-center rounded-lg mb-6">
+<span class="material-symbols-outlined text-primary">rocket_launch</span>
+</div>
+<h4 class="text-xl font-bold mb-3">Облачный старт</h4>
+<p class="text-slate-500 dark:text-slate-400 text-sm leading-relaxed mb-6">
+                        Масштабируемые серверные мощности с оплатой за использование. Идеально для быстрого запуска MVP.
+                    </p>
+<a class="text-primary text-sm font-bold flex items-center gap-2 hover:gap-3 transition-all" href="#">
+                        Подробнее <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+<div class="bg-white dark:bg-white/5 p-8 rounded-xl border border-slate-100 dark:border-white/5 hover:border-primary/30 transition-all hover:shadow-xl hover:shadow-primary/5">
+<div class="bg-primary/10 size-12 flex items-center justify-center rounded-lg mb-6">
+<span class="material-symbols-outlined text-primary">shield_lock</span>
+</div>
+<h4 class="text-xl font-bold mb-3">Кибербезопасность</h4>
+<p class="text-slate-500 dark:text-slate-400 text-sm leading-relaxed mb-6">
+                        Защита от DDoS-атак и шифрование каналов связи для безопасности ваших первых клиентов.
+                    </p>
+<a class="text-primary text-sm font-bold flex items-center gap-2 hover:gap-3 transition-all" href="#">
+                        Подробнее <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+<div class="bg-white dark:bg-white/5 p-8 rounded-xl border border-slate-100 dark:border-white/5 hover:border-primary/30 transition-all hover:shadow-xl hover:shadow-primary/5">
+<div class="bg-primary/10 size-12 flex items-center justify-center rounded-lg mb-6">
+<span class="material-symbols-outlined text-primary">hub</span>
+</div>
+<h4 class="text-xl font-bold mb-3">Выделенный интернет</h4>
+<p class="text-slate-500 dark:text-slate-400 text-sm leading-relaxed mb-6">
+                        Гарантированная скорость до 10 Гбит/с без просадок в часы пик для стабильной работы команды.
+                    </p>
+<a class="text-primary text-sm font-bold flex items-center gap-2 hover:gap-3 transition-all" href="#">
+                        Подробнее <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+
+<div data-panel="corp" class="grid lg:grid-cols-3 gap-8 hidden" role="tabpanel" aria-hidden="true">
+<div class="bg-white dark:bg-white/5 p-8 rounded-xl border border-slate-100 dark:border-white/5 hover:border-primary/30 transition-all hover:shadow-xl hover:shadow-primary/5">
+<div class="bg-primary/10 size-12 flex items-center justify-center rounded-lg mb-6">
+<span class="material-symbols-outlined text-primary">dns</span>
+</div>
+<h4 class="text-xl font-bold mb-3">Корпоративное облако</h4>
+<p class="text-slate-500 dark:text-slate-400 text-sm leading-relaxed mb-6">Частные облака, сегментация и каталог сервисов.</p>
+<a class="text-primary text-sm font-bold flex items-center gap-2 hover:gap-3 transition-all" href="#">Подробнее <span class="material-symbols-outlined text-sm">arrow_forward</span></a>
+</div>
+<div class="bg-white dark:bg-white/5 p-8 rounded-xl border border-slate-100 dark:border-white/5 hover:border-primary/30 transition-all hover:shadow-xl hover:shadow-primary/5">
+<div class="bg-primary/10 size-12 flex items-center justify-center rounded-lg mb-6">
+<span class="material-symbols-outlined text-primary">lan</span>
+</div>
+<h4 class="text-xl font-bold mb-3">VPN / SD‑WAN</h4>
+<p class="text-slate-500 dark:text-slate-400 text-sm leading-relaxed mb-6">Единая сеть филиалов, мониторинг и SLA.</p>
+<a class="text-primary text-sm font-bold flex items-center gap-2 hover:gap-3 transition-all" href="#">Подробнее <span class="material-symbols-outlined text-sm">arrow_forward</span></a>
+</div>
+<div class="bg-white dark:bg-white/5 p-8 rounded-xl border border-slate-100 dark:border-white/5 hover:border-primary/30 transition-all hover:shadow-xl hover:shadow-primary/5">
+<div class="bg-primary/10 size-12 flex items-center justify-center rounded-lg mb-6">
+<span class="material-symbols-outlined text-primary">support_agent</span>
+</div>
+<h4 class="text-xl font-bold mb-3">Сервис‑деск 24/7</h4>
+<p class="text-slate-500 dark:text-slate-400 text-sm leading-relaxed mb-6">Поддержка с измеримыми метриками качества.</p>
+<a class="text-primary text-sm font-bold flex items-center gap-2 hover:gap-3 transition-all" href="#">Подробнее <span class="material-symbols-outlined text-sm">arrow_forward</span></a>
+</div>
+</div>
+
+<div data-panel="gov" class="grid lg:grid-cols-3 gap-8 hidden" role="tabpanel" aria-hidden="true">
+<div class="bg-white dark:bg-white/5 p-8 rounded-xl border border-slate-100 dark:border-white/5 hover:border-primary/30 transition-all hover:shadow-xl hover:shadow-primary/5">
+<div class="bg-primary/10 size-12 flex items-center justify-center rounded-lg mb-6">
+<span class="material-symbols-outlined text-primary">verified_user</span>
+</div>
+<h4 class="text-xl font-bold mb-3">Соответствие требованиям</h4>
+<p class="text-slate-500 dark:text-slate-400 text-sm leading-relaxed mb-6">ФЗ‑152, аудит и контроль доступа.</p>
+<a class="text-primary text-sm font-bold flex items-center gap-2 hover:gap-3 transition-all" href="#">Подробнее <span class="material-symbols-outlined text-sm">arrow_forward</span></a>
+</div>
+<div class="bg-white dark:bg-white/5 p-8 rounded-xl border border-slate-100 dark:border-white/5 hover:border-primary/30 transition-all hover:shadow-xl hover:shadow-primary/5">
+<div class="bg-primary/10 size-12 flex items-center justify-center rounded-lg mb-6">
+<span class="material-symbols-outlined text-primary">shield_lock</span>
+</div>
+<h4 class="text-xl font-bold mb-3">Защищенные каналы</h4>
+<p class="text-slate-500 dark:text-slate-400 text-sm leading-relaxed mb-6">Выделенные линии и шифрование.</p>
+<a class="text-primary text-sm font-bold flex items-center gap-2 hover:gap-3 transition-all" href="#">Подробнее <span class="material-symbols-outlined text-sm">arrow_forward</span></a>
+</div>
+<div class="bg-white dark:bg-white/5 p-8 rounded-xl border border-slate-100 dark:border-white/5 hover:border-primary/30 transition-all hover:shadow-xl hover:shadow-primary/5">
+<div class="bg-primary/10 size-12 flex items-center justify-center rounded-lg mb-6">
+<span class="material-symbols-outlined text-primary">account_balance</span>
+</div>
+<h4 class="text-xl font-bold mb-3">Городские платформы</h4>
+<p class="text-slate-500 dark:text-slate-400 text-sm leading-relaxed mb-6">Интеграция систем и эксплуатация.</p>
+<a class="text-primary text-sm font-bold flex items-center gap-2 hover:gap-3 transition-all" href="#">Подробнее <span class="material-symbols-outlined text-sm">arrow_forward</span></a>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="relative rounded-2xl overflow-hidden py-16 px-8 text-center bg-primary">
+<div class="absolute inset-0 opacity-20 pointer-events-none" style="background-image: radial-gradient(circle at 20% 50%, rgba(255,255,255,0.4) 0%, transparent 50%);"></div>
+<div class="relative z-10 max-w-2xl mx-auto space-y-8">
+<h2 class="text-3xl font-bold text-white">Готовы масштабировать бизнес?</h2>
+<p class="text-white/80 text-lg">Оставьте заявку сегодня и получите месяц бесплатного тестирования облачных сервисов.</p>
+<div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+<button class="w-full sm:w-auto bg-white text-primary px-10 py-4 rounded-xl font-bold hover:bg-slate-50 transition-all shadow-xl">Связаться с менеджером</button>
+<button class="w-full sm:w-auto border border-white/30 text-white px-10 py-4 rounded-xl font-bold hover:bg-white/10 transition-all">Рассчитать стоимость</button>
+</div>
+</div>
+</section>
+</main>
+<footer class="border-t border-white/5 py-12 bg-slate-900 text-slate-400">
+<div class="max-w-[1200px] mx-auto px-6 lg:px-10 flex flex-col md:flex-row justify-between items-center gap-8">
+<div class="flex items-center gap-3 grayscale opacity-70">
+<svg class="size-5" fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 4H17.3334V17.3334H30.6666V30.6666H44V44H4V4Z" fill="currentColor"></path>
+</svg>
+<span class="text-sm font-bold">© 2023 ПАО МГТС. Все права защищены.</span>
+</div>
+<div class="flex gap-8 text-xs font-medium uppercase tracking-widest">
+<a class="hover:text-white transition-colors" href="#">Правовая информация</a>
+<a class="hover:text-white transition-colors" href="#">Политика конфиденциальности</a>
+<a class="hover:text-white transition-colors" href="#">Карта сайта</a>
+</div>
+</div>
+</footer>
+</section>

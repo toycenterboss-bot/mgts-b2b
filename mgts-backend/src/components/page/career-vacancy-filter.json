@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_page_career_vacancy_filters",
+  "info": {
+    "displayName": "Career Vacancy Filter",
+    "description": "Фильтр вакансий"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "key": {
+      "type": "string",
+      "description": "Ключ фильтра (slug)"
+    },
+    "isActive": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

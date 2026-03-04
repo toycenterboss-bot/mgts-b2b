@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "news_categories",
+  "info": {
+    "singularName": "news-category",
+    "pluralName": "news-categories",
+    "displayName": "News Category",
+    "description": "Категория новостей"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "slug": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "color": {
+      "type": "string",
+      "default": "#0066CC"
+    }
+  }
+}
+
+
+

@@ -1,0 +1,96 @@
+{
+  "collectionName": "components_page_ceo_feedbacks",
+  "info": {
+    "displayName": "CEO Feedback Form",
+    "description": "Форма обращения к генеральному директору. Структура по шаблону page_ceo_feedback."
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Написать генеральному директору"
+    },
+    "description": {
+      "type": "text",
+      "default": "У вас есть предложения по улучшению нашего сервиса или вы хотите поделиться отзывом о сотрудничестве напрямую? Ваше мнение крайне важно для нас."
+    },
+    "note": {
+      "type": "string",
+      "default": "Все обращения рассматриваются лично"
+    },
+    "noteIcon": {
+      "type": "string",
+      "default": "verified"
+    },
+    "portraitImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ],
+      "pluginOptions": {
+        "upload": {
+          "allowedTypes": [
+            "images"
+          ]
+        }
+      }
+    },
+    "video": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "videos"
+      ],
+      "pluginOptions": {
+        "upload": {
+          "allowedTypes": [
+            "videos"
+          ]
+        }
+      }
+    },
+    "nameLabel": {
+      "type": "string",
+      "default": "Имя и фамилия"
+    },
+    "namePlaceholder": {
+      "type": "string",
+      "default": "Константин Константинопольский"
+    },
+    "companyLabel": {
+      "type": "string",
+      "default": "Компания"
+    },
+    "companyPlaceholder": {
+      "type": "string",
+      "default": "Название организации"
+    },
+    "emailLabel": {
+      "type": "string",
+      "default": "Ваш E-mail"
+    },
+    "emailPlaceholder": {
+      "type": "string",
+      "default": "email@company.ru"
+    },
+    "messageLabel": {
+      "type": "string",
+      "default": "Сообщение"
+    },
+    "messagePlaceholder": {
+      "type": "string",
+      "default": "Ваше обращение..."
+    },
+    "submitLabel": {
+      "type": "string",
+      "default": "Отправить обращение"
+    },
+    "disclaimer": {
+      "type": "text",
+      "default": "Нажимая на кнопку, вы соглашаетесь с политикой конфиденциальности и обработкой персональных данных"
+    }
+  }
+}
