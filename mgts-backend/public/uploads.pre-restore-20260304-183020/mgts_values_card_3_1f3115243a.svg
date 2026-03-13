@@ -1,0 +1,64 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg1" cx="0.5" cy="0.5" r="0.6">
+      <stop offset="0%" stop-color="#2c3e50"/>
+      <stop offset="50%" stop-color="#34495e"/>
+      <stop offset="100%" stop-color="#1a252f"/>
+    </radialGradient>
+    <radialGradient id="bg2" cx="0.3" cy="0.7" r="0.4">
+      <stop offset="0%" stop-color="#3498db"/>
+      <stop offset="50%" stop-color="#2980b9"/>
+      <stop offset="100%" stop-color="#1f618d"/>
+    </radialGradient>
+    <linearGradient id="wave1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ecf0f1"/>
+      <stop offset="100%" stop-color="#bdc3c7"/>
+    </linearGradient>
+    <linearGradient id="wave2" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e74c3c"/>
+      <stop offset="50%" stop-color="#c0392b"/>
+      <stop offset="100%" stop-color="#a93226"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f39c12"/>
+      <stop offset="100%" stop-color="#e67e22"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Main background gradient -->
+  <rect width="1200" height="700" fill="url(#bg1)"/>
+  
+  <!-- Subtle overlay gradient -->
+  <rect width="1200" height="700" fill="url(#bg2)" opacity="0.1"/>
+  
+  <!-- Large soft shape 1 -->
+  <ellipse cx="200" cy="250" rx="400" ry="300" fill="url(#wave1)" opacity="0.15"/>
+  
+  <!-- Large soft shape 2 -->
+  <ellipse cx="1000" cy="450" rx="350" ry="250" fill="url(#wave2)" opacity="0.08"/>
+  
+  <!-- Horizontal wave shapes -->
+  <path d="M 0 400 Q 300 350 600 420 Q 900 380 1200 410 L 1200 700 L 0 700 Z" fill="url(#accent)" opacity="0.06"/>
+  <path d="M 0 500 Q 400 450 800 520 Q 1100 480 1200 510 L 1200 700 L 0 700 Z" fill="#27ae60" opacity="0.05"/>
+  
+  <!-- Vertical soft shapes -->
+  <rect x="50" y="50" width="80" height="600" rx="40" fill="url(#bg2)" opacity="0.2"/>
+  <rect x="1070" y="0" width="70" height="550" rx="35" fill="#e74c3c" opacity="0.12"/>
+  
+  <!-- Central connecting curves -->
+  <path d="M 300 100 Q 500 200 700 150 Q 900 220 1100 180" fill="none" stroke="url(#accent)" stroke-width="3" opacity="0.25"/>
+  <path d="M 250 300 Q 450 380 650 320 Q 850 390 1050 340" fill="none" stroke="#27ae60" stroke-width="2.5" opacity="0.2"/>
+  
+  <!-- Fine grid overlay for professionalism -->
+  <g opacity="0.03">
+    <line x1="0" y1="100" x2="1200" y2="100" stroke="#34495e" stroke-width="1"/>
+    <line x1="0" y1="200" x2="1200" y2="200" stroke="#34495e" stroke-width="1"/>
+    <line x1="0" y1="300" x2="1200" y2="300" stroke="#34495e" stroke-width="1"/>
+    <line x1="0" y1="400" x2="1200" y2="400" stroke="#34495e" stroke-width="1"/>
+    <line x1="0" y1="500" x2="1200" y2="500" stroke="#34495e" stroke-width="1"/>
+    <line x1="0" y1="600" x2="1200" y2="600" stroke="#34495e" stroke-width="1"/>
+  </g>
+  
+  <!-- Subtle bottom glow -->
+  <ellipse cx="600" cy="650" rx="600" ry="80" fill="#2c3e50" opacity="0.4"/>
+</svg>

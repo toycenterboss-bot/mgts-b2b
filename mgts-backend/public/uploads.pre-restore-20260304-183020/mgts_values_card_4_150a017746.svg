@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <defs>
+    <radialGradient id="bg1" cx="0.5" cy="0.5" r="0.7">
+      <stop offset="0%" stop-color="#2c3e50"/>
+      <stop offset="50%" stop-color="#34495e"/>
+      <stop offset="100%" stop-color="#1a252f"/>
+    </radialGradient>
+    <radialGradient id="bg2" cx="0.3" cy="0.7" r="0.6">
+      <stop offset="0%" stop-color="#3498db"/>
+      <stop offset="50%" stop-color="#5dade2"/>
+      <stop offset="100%" stop-color="#2980b9"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e74c3c"/>
+      <stop offset="100%" stop-color="#c0392b"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ecf0f1"/>
+      <stop offset="50%" stop-color="#bdc3c7"/>
+      <stop offset="100%" stop-color="#95a5a6"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Main background gradient -->
+  <rect width="1200" height="700" fill="url(#bg1)"/>
+  
+  <!-- Subtle overlay gradient for depth -->
+  <rect width="1200" height="700" fill="url(#bg2)" opacity="0.15"/>
+  
+  <!-- Large soft abstract shape 1 -->
+  <ellipse cx="300" cy="250" rx="400" ry="300" fill="url(#accent)" opacity="0.08"/>
+  
+  <!-- Large soft abstract shape 2 -->
+  <path d="M 0 400 Q 400 200 800 450 Q 1000 550 1200 400 L 1200 700 L 0 700 Z" fill="url(#wave)" opacity="0.1"/>
+  
+  <!-- Minimal curved shapes -->
+  <path d="M 150 500 Q 300 450 450 520 Q 550 550 650 480 Q 750 450 900 500" 
+        fill="none" stroke="url(#accent)" stroke-width="3" opacity="0.2" stroke-linecap="round"/>
+  
+  <!-- Soft geometric shapes -->
+  <rect x="800" y="100" width="200" height="150" rx="80" fill="url(#bg2)" opacity="0.12"/>
+  
+  <!-- Subtle diagonal lines for professionalism -->
+  <g opacity="0.06">
+    <line x1="0" y1="100" x2="1200" y2="600" stroke="#34495e" stroke-width="1"/>
+    <line x1="0" y1="200" x2="1200" y2="700" stroke="#34495e" stroke-width="1"/>
+    <line x1="0" y1="0" x2="1200" y2="500" stroke="#34495e" stroke-width="1"/>
+  </g>
+  
+  <!-- Final soft overlay for cohesion -->
+  <rect width="1200" height="700" fill="#ffffff" opacity="0.03"/>
+</svg>

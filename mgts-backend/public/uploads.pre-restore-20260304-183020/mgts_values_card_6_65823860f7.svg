@@ -1,0 +1,100 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="glow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00d4ff" stop-opacity="0.8">
+        <animate attributeName="stop-color" values="#00d4ff;#4a00ff;#00d4ff" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="70%" stop-color="#00d4ff" stop-opacity="0.4">
+        <animate attributeName="stop-color" values="#00d4ff;#4a00ff;#00d4ff" dur="4s" repeatCount="indefinite" begin="0.5s"/>
+      </stop>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#00ff88" stop-opacity="0.7">
+        <animate attributeName="stop-color" values="#00ff88;#ffaa00;#00ff88" dur="3s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="60%" stop-color="#00ff88" stop-opacity="0.3">
+        <animate attributeName="stop-color" values="#00ff88;#ffaa00;#00ff88" dur="3s" repeatCount="indefinite" begin="0.3s"/>
+      </stop>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow3" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#ff6b6b" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#ff6b6b" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="arrowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00d4ff"/>
+      <stop offset="50%" stop-color="#4a00ff"/>
+      <stop offset="100%" stop-color="#00d4ff"/>
+    </linearGradient>
+    <linearGradient id="pathGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00ff88"/>
+      <stop offset="50%" stop-color="#ffaa00"/>
+      <stop offset="100%" stop-color="#00ff88"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="outerGlow">
+      <feGaussianBlur stdDeviation="8" flood-color="#00d4ff" flood-opacity="0.5" result="glow1"/>
+      <feComposite in="SourceGraphic" in2="glow1" operator="arithmetic" k1="0" k2="1" k3="1" k4="0"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="700" fill="#0a0f1f" opacity="0.9"/>
+  <rect x="0" y="0" width="1200" height="700" fill="url(#glow1)" opacity="0.1">
+    <animate attributeName="opacity" values="0.1;0.2;0.1" dur="6s" repeatCount="indefinite"/>
+  </rect>
+  <g filter="url(#glow)">
+    <!-- Central node: concise core -->
+    <circle cx="600" cy="350" r="80" fill="url(#glow1)" stroke="#00d4ff" stroke-width="3">
+      <animate attributeName="r" values="80;90;80" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Context rings -->
+    <circle cx="600" cy="350" r="120" fill="none" stroke="url(#glow1)" stroke-width="2" opacity="0.7">
+      <animate attributeName="r" values="120;130;120" dur="3s" repeatCount="indefinite" begin="1s"/>
+      <animate attributeName="opacity" values="0.7;0.9;0.7" dur="3s" repeatCount="indefinite" begin="1s"/>
+    </circle>
+    <circle cx="600" cy="350" r="160" fill="none" stroke="url(#glow2)" stroke-width="1.5" opacity="0.5">
+      <animate attributeName="r" values="160;170;160" dur="4s" repeatCount="indefinite" begin="2s"/>
+    </circle>
+  </g>
+  <!-- Fast direct paths: speed and focus -->
+  <g filter="url(#outerGlow)">
+    <!-- Main arrow path to solution -->
+    <path d="M 300 200 Q 500 350 600 350 L 650 350 Q 700 340 750 350 Q 900 380 1000 300" fill="none" stroke="url(#pathGrad)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+      <animate attributeName="stroke-dasharray" values="0 400;400 400" dur="3s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 950 295 L 1000 300 L 950 305 Z" fill="url(#arrowGrad)" stroke="#ffffff" stroke-width="1">
+      <animateTransform attributeName="transform" type="rotate" values="0 975 300;10 975 300;0 975 300" dur="2s" repeatCount="indefinite"/>
+    </path>
+    <!-- Bypass curved path: avoiding waste -->
+    <path d="M 300 500 Q 400 450 500 500 Q 550 520 600 500" fill="none" stroke="#ff6b6b" stroke-width="6" stroke-linecap="round" stroke-dasharray="10 10" opacity="0.8">
+      <animate attributeName="stroke-dashoffset" values="0;-20" dur="1s" repeatCount="indefinite"/>
+    </path>
+    <circle cx="300" cy="200" r="35" fill="url(#glow2)" stroke="#00ff88" stroke-width="2"/>
+    <circle cx="300" cy="500" r="35" fill="#ff6b6b" stroke="#ff6b6b" stroke-width="2" opacity="0.9">
+      <animate attributeName="r" values="35;40;35" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Solution node -->
+    <circle cx="1000" cy="300" r="50" fill="url(#glow3)" stroke="#ffffff" stroke-width="2">
+      <animate attributeName="r" values="50;55;50" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Connecting nodes with glow -->
+    <circle cx="450" cy="275" r="25" fill="url(#glow1)" opacity="0.8"/>
+    <circle cx="750" cy="365" r="22" fill="url(#glow2)" opacity="0.8"/>
+    <!-- Subtle grid for high-tech feel -->
+    <g stroke="#0a1a3a" stroke-width="1" opacity="0.3">
+      <line x1="0" y1="100" x2="1200" y2="100"/>
+      <line x1="0" y1="300" x2="1200" y2="300"/>
+      <line x1="0" y1="500" x2="1200" y2="500"/>
+      <line x1="0" y1="600" x2="1200" y2="600"/>
+      <line x1="400" y1="0" x2="400" y2="700"/>
+      <line x1="800" y1="0" x2="800" y2="700"/>
+    </g>
+  </g>
+</svg>

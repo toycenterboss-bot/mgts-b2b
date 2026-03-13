@@ -10,7 +10,3 @@ __pycache__/
 *.pyc
 backups/
 strapi-backups/
-
-# Strapi media library (не коммитить в репозиторий)
-mgts-backend/public/uploads/
-mgts-backend/public/uploads.pre-restore-*/

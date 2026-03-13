@@ -1,0 +1,46 @@
+<svg viewBox="0 0 1200 700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a3a52;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2d5a7b;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3d7ca8;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#1a3a52;stop-opacity:0.1" />
+    </linearGradient>
+    <radialGradient id="grad3" cx="30%" cy="30%">
+      <stop offset="0%" style="stop-color:#4a8fc7;stop-opacity:0.25" />
+      <stop offset="100%" style="stop-color:#1a3a52;stop-opacity:0.05" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Base background -->
+  <rect width="1200" height="700" fill="url(#grad1)"/>
+  
+  <!-- Subtle overlay pattern -->
+  <rect width="1200" height="700" fill="url(#grad2)"/>
+  
+  <!-- Large soft shape - top right -->
+  <circle cx="1050" cy="100" r="280" fill="url(#grad3)" opacity="0.6"/>
+  
+  <!-- Medium soft shape - left side -->
+  <ellipse cx="-100" cy="400" rx="350" ry="280" fill="#3d7ca8" opacity="0.08"/>
+  
+  <!-- Accent soft shape - bottom right -->
+  <circle cx="1100" cy="600" r="200" fill="#4a8fc7" opacity="0.06"/>
+  
+  <!-- Geometric accent element - top left -->
+  <path d="M 50 50 Q 150 80 200 50 L 250 150 Q 180 180 100 150 Z" fill="#5a9fd4" opacity="0.12"/>
+  
+  <!-- Subtle diagonal movement -->
+  <path d="M 0 200 Q 300 250 600 220 T 1200 250" stroke="#4a8fc7" stroke-width="2" fill="none" opacity="0.08"/>
+  
+  <!-- Additional depth - curved shape bottom left -->
+  <path d="M -50 550 Q 200 480 400 550 L 350 700 L 0 700 Z" fill="#3d7ca8" opacity="0.05"/>
+  
+  <!-- Small accent elements for visual interest -->
+  <circle cx="200" cy="150" r="40" fill="#5a9fd4" opacity="0.1"/>
+  <circle cx="950" cy="500" r="35" fill="#4a8fc7" opacity="0.08"/>
+  <circle cx="100" cy="600" r="25" fill="#5a9fd4" opacity="0.09"/>
+  
+</svg>

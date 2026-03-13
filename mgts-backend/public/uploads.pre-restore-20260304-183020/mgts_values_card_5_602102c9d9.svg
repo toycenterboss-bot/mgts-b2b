@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <defs>
+    <radialGradient id="bgGrad1" cx="0.5" cy="0.3" r="0.7">
+      <stop offset="0%" stop-color="#2c3e50"/>
+      <stop offset="50%" stop-color="#34495e"/>
+      <stop offset="100%" stop-color="#1a252f"/>
+    </radialGradient>
+    <radialGradient id="bgGrad2" cx="0.7" cy="0.6" r="0.6">
+      <stop offset="0%" stop-color="#3498db"/>
+      <stop offset="60%" stop-color="#2980b9"/>
+      <stop offset="100%" stop-color="#1f618d"/>
+    </radialGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ecf0f1"/>
+      <stop offset="100%" stop-color="#bdc3c7"/>
+    </linearGradient>
+    <linearGradient id="lightGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="blur1">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+    </filter>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="texture" width="60" height="60" patternUnits="userSpaceOnUse">
+      <rect width="60" height="60" fill="#ffffff" fill-opacity="0.02"/>
+      <circle cx="10" cy="10" r="1" fill="#ffffff" opacity="0.3"/>
+      <circle cx="50" cy="20" r="0.8" fill="#ffffff" opacity="0.2"/>
+      <circle cx="30" cy="50" r="1.2" fill="#ffffff" opacity="0.25"/>
+      <circle cx="5" cy="45" r="0.9" fill="#ffffff" opacity="0.15"/>
+      <path d="M15 5 L20 12 L10 12 Z" fill="#ffffff" opacity="0.1"/>
+    </pattern>
+    <pattern id="subtleNoise" width="100" height="100" patternUnits="userSpaceOnUse">
+      <rect width="100" height="100" fill="#000000" opacity="0.03"/>
+    </pattern>
+  </defs>
+  
+  <!-- Main cinematic background gradient -->
+  <rect width="1200" height="700" fill="url(#bgGrad1)"/>
+  
+  <!-- Subtle overlay gradient for depth -->
+  <rect width="1200" height="700" fill="url(#bgGrad2)" opacity="0.4"/>
+  
+  <!-- Texture layer -->
+  <rect width="1200" height="700" fill="url(#texture)" opacity="0.8"/>
+  <rect width="1200" height="700" fill="url(#subtleNoise)"/>
+  
+  <!-- Cinematic light beams (collaboration theme - connecting light) -->
+  <g filter="url(#blur1)">
+    <rect x="0" y="0" width="200" height="700" fill="url(#lightGrad)" opacity="0.6"/>
+    <rect x="1000" y="0" width="200" height="700" fill="url(#lightGrad)" opacity="0.4"/>
+  </g>
+  
+  <!-- Central connecting light glow (teamwork theme) -->
+  <ellipse cx="600" cy="350" rx="300" ry="200" fill="url(#accentGrad)" opacity="0.15" filter="url(#glow)"/>
+  
+  <!-- Soft vignette for cinematic effect -->
+  <ellipse cx="600" cy="350" rx="650" ry="450" fill="#000000" opacity="0.3"/>
+  
+  <!-- Subtle horizon gradient for depth -->
+  <rect y="500" width="1200" height="200" fill="url(#bgGrad1)" opacity="0.7"/>
+  
+  <!-- Teamwork connection lines (abstract, subtle) -->
+  <g opacity="0.1" stroke="url(#accentGrad)" stroke-width="1" stroke-linecap="round" filter="url(#blur1)">
+    <path d="M200 200 Q400 350 600 300 Q800 350 1000 200" stroke-width="2"/>
+    <path d="M150 400 Q350 450 550 420 Q750 460 950 400" stroke-width="1.5"/>
+    <path d="M300 150 Q450 250 600 200 Q750 250 900 150" stroke-width="1"/>
+  </g>
+  
+  <!-- Foreground light rays for cinematic depth -->
+  <defs>
+    <radialGradient id="rayGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.2"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g opacity="0.3">
+    <path d="M100 100 L150 200 M200 50 L300 180 M1100 120 L1050 220 M900 80 L800 210" 
+          stroke="url(#rayGrad)" stroke-width="30" stroke-linecap="round"/>
+  </g>
+  
+</svg>
