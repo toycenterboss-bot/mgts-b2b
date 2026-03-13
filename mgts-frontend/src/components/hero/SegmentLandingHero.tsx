@@ -1,12 +1,11 @@
 "use client";
 
-import { resolveMediaAlt, resolveMediaUrl } from "@/lib/media";
+import { DEFAULT_HERO_FALLBACK_URL, resolveMediaAlt, resolveMediaUrl } from "@/lib/media";
 
 type SegmentLandingHeroProps = {
   hero?: any;
 };
 
-const DEFAULT_SEGMENT_BG = "/assets/images/external/7b093df37a55.png";
 const hasHtml = (value?: string | null) => Boolean(value && /<[^>]+>/.test(value));
 
 const resolveCtaClass = (style?: string) => {
@@ -19,7 +18,7 @@ const resolveCtaClass = (style?: string) => {
 
 export default function SegmentLandingHero({ hero }: SegmentLandingHeroProps) {
   if (!hero) return null;
-  const bgUrl = resolveMediaUrl(hero.backgroundImage || null) || DEFAULT_SEGMENT_BG;
+  const bgUrl = resolveMediaUrl(hero.backgroundImage || null) || DEFAULT_HERO_FALLBACK_URL;
   const bgAlt = resolveMediaAlt(hero.backgroundImage || null, hero.title);
   const ctas = Array.isArray(hero.ctaButtons) ? hero.ctaButtons : [];
   const slaItems = Array.isArray(hero.slaItems) ? hero.slaItems : [];
@@ -29,9 +28,9 @@ export default function SegmentLandingHero({ hero }: SegmentLandingHeroProps) {
   const subtitleHtml = String(hero.subtitle || "");
 
   return (
-    <div className="relative flex h-auto min-h-[85vh] w-full flex-col overflow-x-hidden">
+    <div className="relative flex h-auto min-h-[60vh] w-full flex-col overflow-x-hidden">
       <div className="layout-container flex h-full grow flex-col">
-        <main className="flex-1 flex flex-col items-center">
+        <main className="flex-1 flex flex-col items-start">
           <div className="w-full max-w-7xl mx-auto px-6 py-6 md:py-12">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="flex flex-col gap-8 z-10">
@@ -107,7 +106,7 @@ export default function SegmentLandingHero({ hero }: SegmentLandingHeroProps) {
                   aria-label={bgAlt}
                   style={{ backgroundImage: `url('${bgUrl}')`, backgroundSize: "cover", backgroundPosition: "center" }}
                 >
-                  <div className="absolute inset-0 bg-gradient-to-tr from-background-dark/80 via-transparent to-primary/20 pointer-events-none"></div>
+                  <div className="absolute inset-0 bg-gradient-to-tr from-background-dark/60 via-transparent to-primary/20 pointer-events-none"></div>
                   <div className="absolute inset-0 flex items-center justify-center overflow-hidden pointer-events-none">
                     <div className="w-64 h-64 border-2 border-primary/40 glass-panel rotate-45 flex items-center justify-center">
                       <div className="w-48 h-48 border border-white/20 glass-panel flex items-center justify-center">

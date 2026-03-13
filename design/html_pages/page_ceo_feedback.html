@@ -8,8 +8,8 @@
 <link href="/assets/fonts/material-symbols-outlined/material-symbols-outlined.css" rel="stylesheet"/>
 <style>
         .mega-menu-blur {
-            backdrop-filter: blur(12px);
-            background-color: rgba(15, 25, 35, 0.95);
+            backdrop-filter: blur(28px) saturate(200%);
+            background-color: rgba(15, 25, 35, 0.18);
         }
         body {
             font-family: 'Space Grotesk', sans-serif;
@@ -18,7 +18,7 @@
 <style>
         .glass-effect {
             background: rgba(255, 255, 255, 0.03);
-            backdrop-filter: blur(12px);
+            backdrop-filter: blur(28px) saturate(200%);
             border: 1px solid rgba(255, 255, 255, 0.1);
             box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
         }
@@ -44,7 +44,7 @@
     </style>
 </head>
 <body data-page="page_ceo_feedback">
-<script src="/cms_loader/cms-loader.js?v=20260219a" defer></script>
+<script src="/cms_loader/cms-loader.js?v=20260305-2" defer></script>
 <script src="/cms_loader/cms-adapter.js?v=20260219a" defer></script>
 <section class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100" data-stitch-block="header_and_mega_menu">
 <!-- Utility Top Bar -->
@@ -335,7 +335,7 @@
 
 </section>
 <section class="bg-background-light dark:bg-background-dark" data-stitch-block="breadcrumbs">
-<div class="max-w-[1200px] mx-auto px-4 lg:px-10 py-4">
+  <div class="max-w-7xl mx-auto px-6 py-2">
 <nav class="flex items-center gap-2 text-sm font-medium">
 <a class="text-slate-500 dark:text-slate-400 hover:text-primary transition-colors flex items-center gap-1" href="#">
 <span class="material-symbols-outlined text-base">home</span>
@@ -364,43 +364,25 @@
 <!-- Glassmorphism Frame Container -->
 <div class="relative z-10 glass-effect p-2 rounded-xl overflow-hidden aspect-[3/4]">
 <div class="w-full h-full rounded-lg overflow-hidden relative">
-<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Professional portrait of MGTS CEO in a suit" src="/assets/images/external/6ec3199c1b3c.png"/>
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-ceo-video-poster data-alt="Professional portrait of MGTS CEO in a suit" src="/assets/images/external/6ec3199c1b3c.png"/>
+<video class="absolute inset-0 h-full w-full object-cover hidden" playsinline controls controlslist="nodownload noremoteplayback nofullscreen" disablepictureinpicture preload="metadata" data-ceo-video></video>
 <!-- Play Button Overlay -->
-<div class="absolute inset-0 flex items-center justify-center bg-black/20 group-hover:bg-black/40 transition-all">
-<button class="flex items-center justify-center rounded-full size-20 bg-primary text-white shadow-2xl shadow-primary/50 transform group-hover:scale-110 transition-all" type="button" data-modal-open="ceo-video-modal">
+<div class="absolute inset-0 flex items-center justify-center bg-black/20 group-hover:bg-black/40 transition-all" data-ceo-video-overlay>
+<button class="flex items-center justify-center rounded-full size-20 bg-primary text-white shadow-2xl shadow-primary/50 transform group-hover:scale-110 transition-all" type="button" data-ceo-video-play>
 <span class="material-symbols-outlined !text-4xl fill-[1]">play_arrow</span>
 </button>
 </div>
+<button class="absolute top-3 right-3 flex h-10 w-10 items-center justify-center rounded-lg bg-black/50 text-white hover:bg-black/70 transition-colors hidden" type="button" data-ceo-video-close aria-label="Закрыть">
+<span class="material-symbols-outlined">close</span>
+</button>
 <!-- Overlay Badge -->
-<div class="absolute bottom-6 left-6 right-6 p-4 glass-effect rounded-lg">
+<div class="absolute bottom-6 left-6 right-6 p-4 glass-effect rounded-lg" data-ceo-video-badge>
 <p class="text-xs uppercase tracking-widest text-primary font-bold mb-1">Видеообращение</p>
 <p class="text-sm text-white/80">Смотреть послание генерального директора партнерам</p>
 </div>
 </div>
 </div>
 
-<!-- Video Modal (placeholder: video source will be injected by CMS) -->
-<div class="fixed inset-0 z-50 hidden" id="ceo-video-modal" data-modal aria-hidden="true">
-  <div class="absolute inset-0 bg-black/70 backdrop-blur-sm" data-modal-overlay></div>
-  <div class="relative mx-auto flex h-full w-full max-w-[600px] items-center justify-center p-4">
-    <div class="relative w-full overflow-hidden rounded-2xl border border-white/10 bg-[#0a0f18]" role="dialog" aria-modal="true" aria-label="Видеообращение" data-modal-dialog style="max-height: 50vh;">
-      <div class="flex items-center justify-between border-b border-white/10 px-6 py-4">
-        <div class="flex flex-col">
-          <p class="text-xs uppercase tracking-widest text-primary font-bold">Видеообращение</p>
-          <p class="text-sm text-white/70">Источник видео будет подставляться из CMS</p>
-        </div>
-        <button class="flex h-10 w-10 items-center justify-center rounded-lg hover:bg-white/10 transition-colors" type="button" data-modal-close aria-label="Закрыть">
-          <span class="material-symbols-outlined">close</span>
-        </button>
-      </div>
-      <div class="aspect-video w-full bg-black">
-        <video class="h-full w-full" controls preload="metadata" data-autopause-on-modal-close>
-          <!-- <source src="..." type="video/mp4" /> -->
-        </video>
-      </div>
-    </div>
-  </div>
-</div>
 <!-- Backdrop Glow -->
 <div class="absolute -inset-4 bg-primary/10 blur-3xl -z-10 rounded-full"></div>
 </div>

@@ -8,8 +8,8 @@
 <link href="/assets/fonts/material-symbols-outlined/material-symbols-outlined.css" rel="stylesheet"/>
 <style>
         .mega-menu-blur {
-            backdrop-filter: blur(12px);
-            background-color: rgba(15, 25, 35, 0.95);
+            backdrop-filter: blur(28px) saturate(200%);
+            background-color: rgba(15, 25, 35, 0.18);
         }
         body {
             font-family: 'Space Grotesk', sans-serif;
@@ -18,7 +18,7 @@
 <style>
         .glass-panel {
             background: rgba(255, 255, 255, 0.03);
-            backdrop-filter: blur(12px);
+            backdrop-filter: blur(28px) saturate(200%);
             border: 1px solid rgba(255, 255, 255, 0.1);
         }
         .fiber-glow {
@@ -62,7 +62,7 @@
     </style>
 </head>
 <body class="bg-background-light dark:bg-background-dark" data-page="tpl_segment_landing">
-<script src="/cms_loader/cms-loader.js?v=20260219a" defer></script>
+<script src="/cms_loader/cms-loader.js?v=20260305-2" defer></script>
 <script src="/cms_loader/cms-adapter.js?v=20260219a" defer></script>
 <div class="light-leak top-[-100px] left-[-100px]"></div>
 <div class="light-leak bottom-[-100px] right-[-100px]"></div>
@@ -355,7 +355,7 @@
 
 </section>
 <section class="bg-background-light dark:bg-background-dark" data-stitch-block="breadcrumbs">
-<div class="max-w-[1200px] mx-auto px-4 lg:px-10 py-4">
+  <div class="max-w-7xl mx-auto px-6 py-2">
 <nav class="flex items-center gap-2 text-sm font-medium">
 <a class="text-slate-500 dark:text-slate-400 hover:text-primary transition-colors flex items-center gap-1" href="#">
 <span class="material-symbols-outlined text-base">home</span>
@@ -369,7 +369,7 @@
 </div>
 </section>
 <section class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-white transition-colors duration-300" data-stitch-block="developers_industry_hero">
-<div class="relative flex h-auto min-h-[85vh] w-full flex-col overflow-x-hidden">
+<div class="relative flex h-auto min-h-[60vh] w-full flex-col overflow-x-hidden">
 <div class="layout-container flex h-full grow flex-col">
 <!-- Top Navigation Bar -->
 
@@ -418,7 +418,7 @@
 <div class="relative h-[400px] md:h-[600px] w-full flex items-center justify-center group">
 <div class="absolute inset-0 bg-primary/20 blur-[120px] rounded-full opacity-30"></div>
 <!-- Placeholder for the 3D Glassmorphism Visualization -->
-<div class="relative w-full h-full rounded-2xl overflow-hidden border border-white/10 glass-panel shadow-2xl flex items-center justify-center" data-alt="3D abstract glass building nodes with glowing blue fiber optic pulses" style="background-image: url(/assets/images/external/7b093df37a55.png); background-size: cover; background-position: center;" data-seg-hero-bg>
+                <div class="relative w-full h-full rounded-2xl overflow-hidden border border-white/10 glass-panel shadow-2xl flex items-center justify-center" data-alt="3D abstract glass building nodes with glowing blue fiber optic pulses" style="background-image: url(http://localhost:1337/uploads/about_hero_48a20b5ede.jpg); background-size: cover; background-position: center;" data-seg-hero-bg>
 <!-- Overlay Glass Effect -->
 <div class="absolute inset-0 bg-gradient-to-tr from-background-dark/80 via-transparent to-primary/20 pointer-events-none"></div>
 <!-- Abstract Elements Layer (CSS shapes representing nodes) -->
@@ -529,56 +529,43 @@
 </div>
 </section>
 <!-- Scenario Solutions -->
-<section class="mb-16">
-<h2 class="text-white text-2xl font-bold tracking-tight mb-8" data-seg-scenarios-title>Отраслевые сценарии</h2>
-<div class="grid grid-cols-1 md:grid-cols-3 gap-6" data-seg-scenarios-grid>
+<section class="w-full rounded-2xl border border-white/10 bg-white/5 p-6" data-seg-scenarios>
+<div class="flex items-center justify-between mb-6">
+<h2 class="text-white text-xl font-bold tracking-tight" data-seg-scenarios-title>Отраслевые сценарии</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-4" data-seg-scenarios-grid>
 <!-- Scenario Card 1 -->
-<div class="relative group h-64 overflow-hidden rounded-xl border border-white/10 bg-[#1a232e]" data-seg-scenario-card>
-<div class="absolute inset-0 bg-gradient-to-t from-background-dark via-background-dark/60 to-transparent z-10"></div>
-<div class="absolute inset-0 bg-primary/10 group-hover:bg-primary/20 transition-colors"></div>
-<div class="absolute inset-0 flex flex-col justify-end p-8 z-20">
-<span class="text-primary text-xs font-bold mb-2">РЕШЕНИЕ</span>
-<h3 class="text-white text-2xl font-bold mb-2" data-seg-scenario-title>Для Ритейла</h3>
-<p class="text-[#9aabbc] text-sm line-clamp-2" data-seg-scenario-desc>Wi-Fi аналитика, умное видеонаблюдение и кассовые решения для магазинов.</p>
-<div class="mt-4 opacity-0 group-hover:opacity-100 transition-opacity">
-<button class="px-4 py-2 bg-white text-black text-xs font-bold rounded">УЗНАТЬ БОЛЬШЕ</button>
-</div>
-</div>
-<div class="absolute top-4 right-4 z-20 size-10 rounded-full border border-white/20 flex items-center justify-center text-white backdrop-blur-md">
+<div class="bg-[#1a232e] border border-white/5 p-5 rounded-xl flex flex-col gap-3" data-seg-scenario-card>
+<div class="size-10 rounded-lg bg-primary/10 flex items-center justify-center text-primary">
 <span class="material-symbols-outlined">shopping_cart</span>
 </div>
+<h3 class="text-white text-sm font-bold leading-snug" data-seg-scenario-title>Для Ритейла</h3>
+<p class="text-[#9aabbc] text-xs leading-relaxed line-clamp-3" data-seg-scenario-desc>Wi-Fi аналитика, умное видеонаблюдение и кассовые решения для магазинов.</p>
+<span class="mt-auto text-primary text-[10px] font-bold uppercase tracking-widest flex items-center gap-1">
+                            Подробнее <span class="material-symbols-outlined text-xs">chevron_right</span>
+</span>
 </div>
 <!-- Scenario Card 2 -->
-<div class="relative group h-64 overflow-hidden rounded-xl border border-white/10 bg-[#1a232e]" data-seg-scenario-card>
-<div class="absolute inset-0 bg-gradient-to-t from-background-dark via-background-dark/60 to-transparent z-10"></div>
-<div class="absolute inset-0 bg-primary/10 group-hover:bg-primary/20 transition-colors"></div>
-<div class="absolute inset-0 flex flex-col justify-end p-8 z-20">
-<span class="text-primary text-xs font-bold mb-2">РЕШЕНИЕ</span>
-<h3 class="text-white text-2xl font-bold mb-2" data-seg-scenario-title>Для Застройщиков</h3>
-<p class="text-[#9aabbc] text-sm line-clamp-2" data-seg-scenario-desc>Цифровизация ЖК: умные домофоны, диспетчеризация и системы безопасности.</p>
-<div class="mt-4 opacity-0 group-hover:opacity-100 transition-opacity">
-<button class="px-4 py-2 bg-white text-black text-xs font-bold rounded">УЗНАТЬ БОЛЬШЕ</button>
-</div>
-</div>
-<div class="absolute top-4 right-4 z-20 size-10 rounded-full border border-white/20 flex items-center justify-center text-white backdrop-blur-md">
+<div class="bg-[#1a232e] border border-white/5 p-5 rounded-xl flex flex-col gap-3" data-seg-scenario-card>
+<div class="size-10 rounded-lg bg-primary/10 flex items-center justify-center text-primary">
 <span class="material-symbols-outlined">apartment</span>
 </div>
+<h3 class="text-white text-sm font-bold leading-snug" data-seg-scenario-title>Для Застройщиков</h3>
+<p class="text-[#9aabbc] text-xs leading-relaxed line-clamp-3" data-seg-scenario-desc>Цифровизация ЖК: умные домофоны, диспетчеризация и системы безопасности.</p>
+<span class="mt-auto text-primary text-[10px] font-bold uppercase tracking-widest flex items-center gap-1">
+                            Подробнее <span class="material-symbols-outlined text-xs">chevron_right</span>
+</span>
 </div>
 <!-- Scenario Card 3 -->
-<div class="relative group h-64 overflow-hidden rounded-xl border border-white/10 bg-[#1a232e]" data-seg-scenario-card>
-<div class="absolute inset-0 bg-gradient-to-t from-background-dark via-background-dark/60 to-transparent z-10"></div>
-<div class="absolute inset-0 bg-primary/10 group-hover:bg-primary/20 transition-colors"></div>
-<div class="absolute inset-0 flex flex-col justify-end p-8 z-20">
-<span class="text-primary text-xs font-bold mb-2">РЕШЕНИЕ</span>
-<h3 class="text-white text-2xl font-bold mb-2" data-seg-scenario-title>Для Госсектора</h3>
-<p class="text-[#9aabbc] text-sm line-clamp-2" data-seg-scenario-desc>Защищенные каналы связи, импортозамещение ПО и облачные платформы.</p>
-<div class="mt-4 opacity-0 group-hover:opacity-100 transition-opacity">
-<button class="px-4 py-2 bg-white text-black text-xs font-bold rounded">УЗНАТЬ БОЛЬШЕ</button>
-</div>
-</div>
-<div class="absolute top-4 right-4 z-20 size-10 rounded-full border border-white/20 flex items-center justify-center text-white backdrop-blur-md">
+<div class="bg-[#1a232e] border border-white/5 p-5 rounded-xl flex flex-col gap-3" data-seg-scenario-card>
+<div class="size-10 rounded-lg bg-primary/10 flex items-center justify-center text-primary">
 <span class="material-symbols-outlined">account_balance</span>
 </div>
+<h3 class="text-white text-sm font-bold leading-snug" data-seg-scenario-title>Для Госсектора</h3>
+<p class="text-[#9aabbc] text-xs leading-relaxed line-clamp-3" data-seg-scenario-desc>Защищенные каналы связи, импортозамещение ПО и облачные платформы.</p>
+<span class="mt-auto text-primary text-[10px] font-bold uppercase tracking-widest flex items-center gap-1">
+                            Подробнее <span class="material-symbols-outlined text-xs">chevron_right</span>
+</span>
 </div>
 </div>
 </section>

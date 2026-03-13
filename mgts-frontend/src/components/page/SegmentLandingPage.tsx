@@ -9,6 +9,7 @@ type SegmentLandingPageProps = {
   hero?: any;
   sections?: any[];
   breadcrumbs?: React.ReactNode;
+  compactSpacing?: boolean;
 };
 
 export default function SegmentLandingPage({
@@ -16,6 +17,7 @@ export default function SegmentLandingPage({
   hero,
   sections = [],
   breadcrumbs,
+  compactSpacing = false,
 }: SegmentLandingPageProps) {
   const safeSections = Array.isArray(sections) ? sections.filter(Boolean) : [];
   const cardSections = safeSections.filter((s) => s.__component === "page.section-cards");
@@ -47,11 +49,11 @@ export default function SegmentLandingPage({
         <SegmentLandingHero hero={hero} />
       </section>
       <section
-        className="bg-background-light dark:bg-background-dark min-h-screen text-white"
+        className="bg-background-light dark:bg-background-dark text-white"
         data-stitch-block="service_and_scenario_cards_2"
       >
         <div className="layout-container flex h-full grow flex-col">
-          <main className="max-w-[1200px] mx-auto w-full px-4 py-12">
+          <main className={compactSpacing ? "max-w-[1200px] mx-auto w-full px-4 pt-12 pb-4" : "max-w-[1200px] mx-auto w-full px-4 py-12"}>
             <div className="flex flex-col md:flex-row gap-6 items-center mb-10">
               <div className="w-full md:flex-1">
                 <label className="flex flex-col w-full h-14">

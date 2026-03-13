@@ -16,7 +16,7 @@ export default async function HomeNews() {
     >
       <div className="fixed top-0 right-0 w-[500px] h-[500px] glow-leak pointer-events-none -z-10 translate-x-1/2 -translate-y-1/2"></div>
       <div className="fixed bottom-0 left-0 w-[800px] h-[800px] glow-leak pointer-events-none -z-10 -translate-x-1/4 translate-y-1/4"></div>
-      <main className="max-w-[1400px] mx-auto px-8 py-12">
+      <main className="max-w-7xl mx-auto px-6 py-12">
         <div className="mb-16 relative">
           <div className="absolute -left-8 top-0 h-full w-1 bg-primary rounded-full"></div>
           <h1 className="text-6xl md:text-7xl font-black tracking-tighter mb-6 bg-gradient-to-br from-white via-white to-white/30 bg-clip-text text-transparent">

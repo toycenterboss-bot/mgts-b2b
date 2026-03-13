@@ -37,6 +37,7 @@ type SectionRendererProps = {
   currentSlug?: string;
   pageTitle?: string;
   pageSubtitle?: string;
+  isCatalogPage?: boolean;
 };
 
 export default function SectionRenderer({
@@ -47,6 +48,7 @@ export default function SectionRenderer({
   currentSlug,
   pageTitle,
   pageSubtitle,
+  isCatalogPage = false,
 }: SectionRendererProps) {
   if (!Array.isArray(sections) || sections.length === 0) return null;
   const safeSections = sections.filter(Boolean);
@@ -63,13 +65,10 @@ export default function SectionRenderer({
           case "page.template-block":
             return <TemplateBlock key={key} section={section} />;
           case "page.section-cards":
-            if (normalizedTemplate === "TPL_Service" || normalizedTemplate === "TPL_DeepNav") {
-              return <SectionCards key={key} section={{ ...section, variant: "service-cards" }} />;
-            }
             if (normalizedTemplate === "TPL_Segment_Landing" && section?.title === "Сценарии") {
               return <SegmentScenarioCards key={key} section={section} />;
             }
-            return <SectionCards key={key} section={section} />;
+            return <SectionCards key={key} section={section} compactSpacing={isCatalogPage} />;
           case "page.section-grid":
             return <SectionGrid key={key} section={section} />;
           case "page.section-text":

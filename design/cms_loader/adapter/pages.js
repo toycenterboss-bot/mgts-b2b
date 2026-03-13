@@ -45,6 +45,8 @@
     initSidebar,
   } = core;
 
+  const DEFAULT_HERO_BG = "/uploads/about_hero_48a20b5ede.jpg";
+
   const runNewsInit = (label, fn) => {
     let attempts = 0;
     const tryRun = () => {
@@ -65,14 +67,21 @@
   const isSectionVisible = (section) => section?.isVisible !== false;
   const appendSectionNode = (host, node, section) => {
     if (!host || !node) return;
-    const hasBg = !!resolveAnyMediaUrl(section?.backgroundImage);
-    if (section?.isVisible === false && !hasBg && node.childNodes && node.childNodes.length) {
+    if (section?.isVisible === false && node.childNodes && node.childNodes.length) {
       const frag = document.createDocumentFragment();
       while (node.firstChild) frag.appendChild(node.firstChild);
       host.appendChild(frag);
       return;
     }
     host.appendChild(node);
+  };
+  const normalizeScenarioSlug = (value) => {
+    const trimmed = String(value || "").trim();
+    if (!trimmed) return trimmed;
+    if (!trimmed.includes("/") && /^scenario[-_]/i.test(trimmed)) {
+      return `services/${trimmed}`;
+    }
+    return trimmed;
   };
   async function renderTplContactHubPage() {
     let slug = getSlugFromQueryOrPath("");
@@ -117,6 +126,7 @@
     }
 
     const sections = Array.isArray(page.sections) ? page.sections : [];
+    const hasCardSections = sections.some((s) => s && s.__component === "page.section-cards");
     const mapSection = sections.find((s) => s && s.__component === "page.section-map") || null;
     const markersData = safeParseJsonArray(mapSection?.markers);
     if (!markersData.length) return;
@@ -323,8 +333,12 @@
       let node = null;
         if (s.__component === "page.section-text") {
         node = renderSectionText(s);
-        } else if (s.__component === "page.section-cards") {
-        node = renderCardGrid(s.title || "", s.cards || [], { columns: s.columns, subtitle: s.subtitle });
+      } else if (s.__component === "page.section-cards") {
+        node = renderCardGrid(s.title || "", s.cards || [], {
+          columns: s.columns,
+          subtitle: s.subtitle,
+          variant: "home-service-cards",
+        });
         } else if (s.__component === "page.section-table") {
         node = renderSectionTable(s);
       } else if (s.__component === "page.files-table") {
@@ -414,7 +428,11 @@
     };
 
     if (page && page.hero) {
-      applyHeroBackground(document.querySelector("[data-home-hero-bg]"), page.hero?.backgroundImage);
+      applyHeroBackground(
+        document.querySelector("[data-home-hero-bg]"),
+        page.hero?.backgroundImage,
+        DEFAULT_HERO_BG
+      );
       const badgeEl = document.querySelector("[data-home-hero-badge]");
       if (badgeEl && page.hero?.title) {
         const text = badgeEl.childNodes && badgeEl.childNodes.length ? badgeEl.childNodes[badgeEl.childNodes.length - 1] : null;
@@ -620,7 +638,11 @@
           if (s === cardsSection) continue;
           let node = null;
           if (s.__component === "page.section-cards") {
-            node = renderCardGrid(s.title || "", s.cards || [], { columns: s.columns, subtitle: s.subtitle });
+            node = renderCardGrid(s.title || "", s.cards || [], {
+              columns: s.columns,
+              subtitle: s.subtitle,
+              variant: "home-service-cards",
+            });
           } else if (s.__component === "page.section-text") {
             node = renderSectionText(s);
           }
@@ -690,7 +712,11 @@
     if (!page) return;
 
     if (page.hero) {
-      applyHeroBackground(document.querySelector("[data-seg-hero-bg]"), page.hero?.backgroundImage);
+      applyHeroBackground(
+        document.querySelector("[data-seg-hero-bg]"),
+        page.hero?.backgroundImage,
+        DEFAULT_HERO_BG
+      );
       const badgeEl = document.querySelector("[data-seg-hero-badge]");
       if (badgeEl) {
         const last = badgeEl.childNodes && badgeEl.childNodes.length ? badgeEl.childNodes[badgeEl.childNodes.length - 1] : null;
@@ -1458,7 +1484,7 @@
   }
 
   async function renderTplScenarioPage() {
-    const slug = getSlugFromQueryOrPath("scenario_demo");
+    const slug = normalizeScenarioSlug(getSlugFromQueryOrPath("scenario_demo"));
     if (!slug) return;
 
     const url = `${STRAPI_BASE}/api/pages/by-slug?slug=${encodeURIComponent(slug)}`;
@@ -1467,11 +1493,63 @@
     if (!page) return;
 
     const heroTitleEl = document.querySelector("[data-cms-hero-title]");
-    if (heroTitleEl && page.hero?.title) heroTitleEl.innerHTML = String(page.hero.title);
+    if (heroTitleEl && (page.hero?.title || page.title)) {
+      heroTitleEl.innerHTML = String(page.hero?.title || page.title || "");
+    }
     const heroSubEl = document.querySelector("[data-cms-hero-subtitle]");
     if (heroSubEl) setText(heroSubEl, page.hero?.subtitle || "");
+    applyHeroBackground(
+      document.querySelector("[data-scenario-hero-bg]"),
+      page.hero?.backgroundImage,
+      DEFAULT_HERO_BG
+    );
 
     const sections = Array.isArray(page.sections) ? page.sections : [];
+    const sectionsHost = document.querySelector("[data-scenario-cms-sections]");
+    if (sectionsHost) {
+      clearNode(sectionsHost);
+      const renderables = sections.filter(
+        (s) =>
+          s &&
+          (s.__component === "page.section-text" ||
+            s.__component === "page.section-cards" ||
+            s.__component === "page.section-table" ||
+            s.__component === "page.section-map")
+      );
+      let hasRendered = false;
+      for (const s of renderables) {
+        let node = null;
+        if (s.__component === "page.section-text") {
+          node = renderSectionText(s);
+        } else if (s.__component === "page.section-cards") {
+          node = renderCardGrid(s.title || "", s.cards || [], {
+            columns: s.columns,
+            subtitle: s.subtitle,
+            linkText: s.linkText,
+            linkHref: s.linkHref,
+            variant: "home-service-cards",
+          });
+        } else if (s.__component === "page.section-table") {
+          node = renderSectionTable(s);
+        } else if (s.__component === "page.section-map") {
+          node = renderSectionMap(s);
+        }
+        if (node) {
+          appendSectionNode(sectionsHost, node, s);
+          hasRendered = true;
+        }
+      }
+      if (hasRendered || hasCardSections) {
+        const scope = sectionsHost.parentElement;
+        if (scope) {
+          Array.from(scope.children).forEach((child) => {
+            if (child === sectionsHost) return;
+            if (child.tagName !== "SECTION") return;
+            child.classList.add("hidden");
+          });
+        }
+      }
+    }
     const faqPanel =
       document.querySelector("[data-scenario-faq]") ||
       document.querySelector('[data-stitch-block="accordions_and_sidebar_ui_2"] [data-switch-panel][data-switch-key="faq"]');
@@ -1501,6 +1579,53 @@
         if (tabsEl) {
           tabsHost.appendChild(tabsEl);
           initSwitchers(tabsHost);
+        }
+      }
+    }
+
+    const orderSection = sections.find((s) => s?.__component === "page.service-order-form") || null;
+    const footerOrder = document.querySelector('[data-stitch-block="footer_and_contact_form"]');
+    const orderSectionEl = footerOrder ? footerOrder.querySelector("[data-order-form-section]") : null;
+    if (orderSectionEl) {
+      if (!orderSection || orderSection?.isVisible === false) {
+        orderSectionEl.classList.add("hidden");
+      } else {
+        orderSectionEl.classList.remove("hidden");
+        const badge = orderSectionEl.querySelector("[data-cms-order-badge]");
+        if (badge && orderSection.badgeText) badge.textContent = String(orderSection.badgeText);
+        const title = orderSectionEl.querySelector("[data-cms-order-title]");
+        if (title && orderSection.title) title.innerHTML = String(orderSection.title);
+        const subtitle = orderSectionEl.querySelector("[data-cms-order-subtitle]");
+        if (subtitle) {
+          const sub = (orderSection.subtitle || "").trim();
+          if (sub) subtitle.textContent = sub;
+        }
+        const phoneLabel = orderSectionEl.querySelector("[data-cms-order-support-phone-label]");
+        if (phoneLabel && orderSection.supportPhoneLabel) {
+          phoneLabel.textContent = String(orderSection.supportPhoneLabel);
+        }
+        const phoneValue = orderSectionEl.querySelector("[data-cms-order-support-phone-value]");
+        if (phoneValue && orderSection.supportPhoneValue) {
+          phoneValue.textContent = String(orderSection.supportPhoneValue);
+        }
+        const emailLabel = orderSectionEl.querySelector("[data-cms-order-support-email-label]");
+        if (emailLabel && orderSection.supportEmailLabel) {
+          emailLabel.textContent = String(orderSection.supportEmailLabel);
+        }
+        const emailValue = orderSectionEl.querySelector("[data-cms-order-support-email-value]");
+        if (emailValue && orderSection.supportEmailValue) {
+          emailValue.textContent = String(orderSection.supportEmailValue);
+        }
+        const form = orderSectionEl.querySelector("[data-cms-order-form]");
+        if (form) {
+          if (orderSection.formAction) form.setAttribute("action", String(orderSection.formAction));
+          if (orderSection.formMethod) form.setAttribute("method", String(orderSection.formMethod));
+        }
+        const submit = form ? form.querySelector("button[type='submit'] span") : null;
+        if (submit && orderSection.buttonText) submit.textContent = String(orderSection.buttonText);
+        const disclaimer = orderSectionEl.querySelector("[data-cms-order-disclaimer]");
+        if (disclaimer && orderSection.disclaimerHtml) {
+          disclaimer.innerHTML = String(orderSection.disclaimerHtml);
         }
       }
     }
@@ -1543,7 +1668,11 @@
       }
     }
 
-    applyHeroBackground(document.querySelector("[data-service-hero-bg]"), page.hero?.backgroundImage);
+    applyHeroBackground(
+      document.querySelector("[data-service-hero-bg]"),
+      page.hero?.backgroundImage,
+      DEFAULT_HERO_BG
+    );
 
     const servicePrimaryBtn = document.querySelector("[data-service-hero-cta-primary]");
     const serviceSecondaryBtn = document.querySelector("[data-service-hero-cta-secondary]");
@@ -1938,7 +2067,7 @@
           }
         } else if (s.__component === "page.section-cards") {
           node = renderCardGrid(s.title || "", s.cards || [], {
-            variant: page?.template === "TPL_Service" ? "service-cards" : "default",
+            variant: "home-service-cards",
             columns: s.columns,
             subtitle: s.subtitle,
           });

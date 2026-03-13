@@ -6,7 +6,7 @@ type SectionTextProps = {
 };
 
 export default function SectionText({ section }: SectionTextProps) {
-  if (section?.isVisible === false) return null;
+  const hideShell = section?.isVisible === false;
   const isContactExtra = section?.title === "Дополнительно";
   const isDetailsDoc = section?.title === "Подробнее";
   const extractSingleLink = (html: string) => {
@@ -22,7 +22,40 @@ export default function SectionText({ section }: SectionTextProps) {
   const docLink = isDetailsDoc ? extractSingleLink(section?.content || "") : null;
   const normalizeMarkdown = (input: string) =>
     String(input || "").replace(/!\[([^\]]*)\]\(([^)]+)\)/g, '<img src="$2" alt="$1" />');
-  const contentHtml = normalizeMarkdown(section?.content || "");
+  const buildNumberedListHtml = (raw: string) => {
+    const lines = String(raw || "")
+      .split(/\r?\n/)
+      .map((line) => line.trim())
+      .filter(Boolean);
+    const html: string[] = [];
+    let items: string[] = [];
+    const flush = () => {
+      if (!items.length) return;
+      html.push(`<ol class="cms-numbered-list">${items.map((item) => `<li>${item}</li>`).join("")}</ol>`);
+      items = [];
+    };
+    for (const line of lines) {
+      const match = line.match(/^\d+[.)]\s+(.*)$/);
+      if (match) {
+        items.push(normalizeMarkdown(match[1] || ""));
+      } else {
+        flush();
+        html.push(`<p>${normalizeMarkdown(line)}</p>`);
+      }
+    }
+    flush();
+    return html.join("\n");
+  };
+  const formatContentHtml = (raw: string) => {
+    const input = String(raw || "");
+    if (!input.trim()) return "";
+    const looksLikeHtml = /<[^>]+>/.test(input);
+    if (!looksLikeHtml && /^\s*\d+[.)]\s+/m.test(input)) {
+      return buildNumberedListHtml(input);
+    }
+    return normalizeMarkdown(input);
+  };
+  const contentHtml = formatContentHtml(section?.content || "");
   const hasInlineLinks = /<a\\s/i.test(contentHtml);
   const getDocMeta = (href: string) => {
     const clean = href.split("?")[0];
@@ -38,21 +71,23 @@ export default function SectionText({ section }: SectionTextProps) {
   const docMeta = docLink ? getDocMeta(docLink.href) : null;
   const bgUrl = resolveMediaUrl(section.backgroundImage || null);
   const style: Record<string, string> = {};
-  if (bgUrl) {
-    style.backgroundImage = `url('${bgUrl}')`;
-    style.backgroundSize = "cover";
-    style.backgroundPosition = "center";
-    style.backgroundRepeat = "no-repeat";
-  }
-  if (section.backgroundColor) {
-    style.backgroundColor = section.backgroundColor;
+  if (!hideShell) {
+    if (bgUrl) {
+      style.backgroundImage = `url('${bgUrl}')`;
+      style.backgroundSize = "cover";
+      style.backgroundPosition = "center";
+      style.backgroundRepeat = "no-repeat";
+    }
+    if (section.backgroundColor) {
+      style.backgroundColor = section.backgroundColor;
+    }
   }
 
   return (
     <section
-      className={`section-text rounded-2xl border border-white/10 bg-white/5 p-6${
-        isContactExtra ? " contact-details" : ""
-      }`}
+      className={`section-text${
+        hideShell ? " border-0 bg-transparent p-0 rounded-none" : " rounded-2xl border border-white/10 bg-white/5 p-6"
+      }${isContactExtra ? " contact-details" : ""}`}
       style={style}
       data-section-title={section?.title || undefined}
     >

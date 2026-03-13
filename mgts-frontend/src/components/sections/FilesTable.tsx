@@ -14,6 +14,13 @@ export default function FilesTable({ section, defaultFilterKey = "" }: FilesTabl
   const [filterKey, setFilterKey] = useState(defaultFilterKey);
   const [search, setSearch] = useState("");
   const [activeFile, setActiveFile] = useState<any | null>(null);
+  const categoryKeys = useMemo<string[]>(() => {
+    const keys = files
+      .map((f: any) => f.categoryKey)
+      .filter(Boolean)
+      .map((key: unknown) => String(key));
+    return Array.from(new Set<string>(keys));
+  }, [files]);
 
   const filtered = useMemo(() => {
     return files.filter((file: any) => {
@@ -101,7 +108,7 @@ export default function FilesTable({ section, defaultFilterKey = "" }: FilesTabl
           onChange={(e) => setFilterKey(e.target.value)}
         >
           <option value="">Все категории</option>
-          {[...new Set(files.map((f: any) => f.categoryKey).filter(Boolean))].map((key) => (
+          {categoryKeys.map((key) => (
             <option key={key} value={key}>
               {key}
             </option>

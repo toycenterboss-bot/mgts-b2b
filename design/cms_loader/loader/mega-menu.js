@@ -12,8 +12,14 @@
     style.id = "mgts-mega-contrast-styles";
     style.textContent = `
       [data-mega-panel] {
-        background-color: rgba(9, 14, 22, 0.96) !important;
+        backdrop-filter: blur(32px) saturate(220%);
+        -webkit-backdrop-filter: blur(32px) saturate(220%);
+        background-color: rgba(15, 25, 35, 0.08) !important;
         border-color: rgba(255, 255, 255, 0.18) !important;
+      }
+      html.light [data-mega-panel] {
+        background-color: rgba(255, 255, 255, 0.18) !important;
+        border-color: rgba(15, 23, 42, 0.12) !important;
       }
       [data-mega-panel] .border-r {
         border-right-color: rgba(255, 255, 255, 0.16) !important;
@@ -25,23 +31,34 @@
       }
       [data-mega-panel] .rounded-xl,
       [data-mega-panel] .rounded-2xl {
-        background-color: rgba(15, 23, 42, 0.6) !important;
+        background-color: rgba(15, 23, 42, 0.35) !important;
         border-color: rgba(255, 255, 255, 0.2) !important;
         box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.04);
+      }
+      html.light [data-mega-panel] .rounded-xl,
+      html.light [data-mega-panel] .rounded-2xl {
+        background-color: rgba(248, 250, 252, 0.7) !important;
+        border-color: rgba(15, 23, 42, 0.12) !important;
+        box-shadow: 0 0 0 1px rgba(15, 23, 42, 0.04);
       }
       [data-mega-panel] .rounded-xl:hover,
       [data-mega-panel] .rounded-2xl:hover {
         background-color: rgba(255, 255, 255, 0.12) !important;
         border-color: rgba(255, 255, 255, 0.28) !important;
       }
+      html.light [data-mega-panel] .rounded-xl:hover,
+      html.light [data-mega-panel] .rounded-2xl:hover {
+        background-color: rgba(255, 255, 255, 0.9) !important;
+        border-color: rgba(15, 23, 42, 0.2) !important;
+      }
       [data-mega-panel] [class*="bg-white"] {
-        background-color: rgba(15, 23, 42, 0.6) !important;
+        background-color: rgba(15, 23, 42, 0.35) !important;
       }
       [data-mega-panel] [class*="bg-slate-900"] {
-        background-color: rgba(15, 23, 42, 0.6) !important;
+        background-color: rgba(15, 23, 42, 0.35) !important;
       }
       [data-mega-panel] [class*="bg-black"] {
-        background-color: rgba(15, 23, 42, 0.6) !important;
+        background-color: rgba(15, 23, 42, 0.35) !important;
       }
       [data-mega-root] [data-mega-trigger] {
         color: rgba(226, 232, 240, 0.82);

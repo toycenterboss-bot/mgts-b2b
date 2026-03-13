@@ -18,18 +18,19 @@
       "multiple": false,
       "required": false,
       "allowedTypes": [
-        "images"
+        "images",
+        "videos"
       ]
     },
     "ctaButtons": {
       "type": "component",
-      "repeatable": true,
-      "component": "page.cta-button"
+      "component": "page.cta-button",
+      "repeatable": true
     },
     "slaItems": {
       "type": "component",
-      "repeatable": true,
-      "component": "page.hero-sla-item"
+      "component": "page.hero-sla-item",
+      "repeatable": true
     }
   }
 }

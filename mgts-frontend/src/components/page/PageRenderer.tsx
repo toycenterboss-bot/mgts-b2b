@@ -4,6 +4,7 @@ import CareerHero from "@/components/hero/CareerHero";
 import ServiceHero from "@/components/hero/ServiceHero";
 import HomePage from "@/components/page/HomePage";
 import SegmentLandingPage from "@/components/page/SegmentLandingPage";
+import ScenarioPage from "@/components/page/ScenarioPage";
 import SectionRenderer from "@/components/sections/SectionRenderer";
 import FormSection from "@/components/sections/FormSection";
 import FooterContactForm from "@/components/sections/FooterContactForm";
@@ -11,6 +12,7 @@ import Breadcrumbs from "@/components/navigation/Breadcrumbs";
 import LeftMenu from "@/components/navigation/LeftMenu";
 import { applyPageFallbacks } from "@/lib/fallbacks";
 import Icon from "@/components/ui/Icon";
+import InlineVideoFrame from "@/components/ui/InlineVideoFrame";
 import { resolveMediaAlt, resolveMediaUrl } from "@/lib/media";
 import PartnersFeedbackSurvey from "@/components/forms/PartnersFeedbackSurvey";
 
@@ -42,13 +44,40 @@ const stripHtml = (value: string) =>
     .replace(/\s+/g, " ")
     .trim();
 
+const normalizeText = (value: string) => stripHtml(value).toLowerCase().replace(/\s+/g, " ").trim();
+
+const isVideoMedia = (media?: any) => {
+  if (!media) return false;
+  const pick = Array.isArray(media) ? media[0] : media;
+  const mime = pick?.mime || pick?.attributes?.mime || pick?.data?.attributes?.mime;
+  if (mime) return String(mime).toLowerCase().startsWith("video/");
+  const url = resolveMediaUrl(pick || null);
+  return Boolean(url && /\.(mp4|mov|m4v|webm|ogg)(\?|#|$)/i.test(url));
+};
+
+const removeLeadingTitleParagraph = (html: string, title: string) => {
+  const raw = String(html || "");
+  const match = raw.match(/<p[^>]*>[\s\S]*?<\/p>/i);
+  if (!match) return raw;
+  const firstParagraph = match[0];
+  const firstText = stripHtml(firstParagraph);
+  if (!firstText) return raw;
+  const normalizedTitle = normalizeText(title);
+  const normalizedFirst = normalizeText(firstText);
+  if (normalizedTitle && normalizedFirst === normalizedTitle) {
+    return raw.replace(firstParagraph, "").trim();
+  }
+  return raw;
+};
+
 const extractCeoMessage = (html: string) => {
   const raw = String(html || "");
   const blocks = raw.match(/<p[^>]*>[\s\S]*?<\/p>/gi) || [];
   const paragraphs = blocks.map(stripHtml).filter(Boolean);
   const quote = paragraphs[0] || "";
   const author = paragraphs[1] || "";
-  const tail = stripHtml(raw.replace(blocks.join(""), ""));
+  const withoutBlocks = blocks.reduce((acc, block) => acc.replace(block, ""), raw);
+  const tail = stripHtml(withoutBlocks);
   return { quote, author, role: tail };
 };
 
@@ -65,26 +94,34 @@ export default function PageRenderer({ page }: PageRendererProps) {
   const breadcrumbs = showBreadcrumbs ? buildBreadcrumbs(page) : [];
 
   const template = String(page.template || "").trim();
+  const slugKey = String(page?.slug || "").trim();
+  const sectionKey = String(page?.section || "").trim();
   const deepNavKey = String(page?.deepNavKey || "").trim();
-  const leftMenuRoot = String(page?.section || "").trim();
-  const hasLeftMenu = template === "TPL_DeepNav" || template === "TPL_CMS_Page";
-  const isCmsTemplate = hasLeftMenu;
+  const leftMenuRoot = sectionKey;
+  const isServiceTemplate = template === "TPL_Service";
+  const isServiceCmsTemplate =
+    isServiceTemplate && ["operators", "government"].includes(sectionKey);
+  const isCmsTemplate =
+    template === "TPL_DeepNav" || template === "TPL_CMS_Page" || isServiceCmsTemplate;
+  const hasLeftMenu = isCmsTemplate && Boolean(deepNavKey);
 
-  const heroTemplates = new Set(["TPL_Home", "TPL_CMS_Page"]);
-  const shouldRenderHero = Boolean(hero && heroTemplates.has(template));
+  const heroTemplates = new Set(["TPL_Home", "TPL_CMS_Page", "TPL_DeepNav"]);
+  const shouldRenderHero = Boolean(hero && (heroTemplates.has(template) || isServiceCmsTemplate));
   const isDocTemplate = template === "TPL_Doc_Page";
   const isFormTemplate = template === "TPL_Form_Page";
   const isHomeTemplate = template === "TPL_Home";
   const isSearchTemplate = template === "TPL_Search_Results";
   const isAiChatTemplate = template === "TPL_AI_Chat";
-  const isServiceTemplate = template === "TPL_Service";
   const isScenarioTemplate = template === "TPL_Scenario";
   const isContactTemplate = template === "TPL_Contact_Hub";
   const isSegmentLanding = template === "TPL_Segment_Landing";
   const hasDocSidebar = Boolean(deepNavKey);
-  const isCeoMessagePage = isCmsTemplate && String(page.slug || "").trim() === "general_director_message";
+  const isCeoMessagePage = isCmsTemplate && slugKey === "general_director_message";
   const isPartnersFeedbackPage =
-    isCmsTemplate && String(page.slug || "").trim() === "partners_feedback_form";
+    isCmsTemplate && slugKey === "partners_feedback_form";
+  const isCatalogPage = ["partners_all_services", "developers", "operators", "government", "services"].includes(
+    slugKey
+  );
   const cmsTextClass =
     "cms-text-content prose prose-lg max-w-none text-slate-800 dark:text-white prose-p:leading-relaxed prose-a:text-primary";
   const useWideBreadcrumbs =
@@ -101,7 +138,7 @@ export default function PageRenderer({ page }: PageRendererProps) {
   const breadcrumbsMarkup = showBreadcrumbs ? (
     useWideBreadcrumbs ? (
       <section className="bg-background-light dark:bg-background-dark" data-stitch-block="breadcrumbs">
-        <div className="max-w-[1200px] mx-auto px-4 lg:px-10 py-4">{breadcrumbsNode}</div>
+        <div className="max-w-7xl mx-auto px-6 py-2">{breadcrumbsNode}</div>
       </section>
     ) : (
       breadcrumbsNode
@@ -125,8 +162,9 @@ export default function PageRenderer({ page }: PageRendererProps) {
           hero={hero}
           sections={contentSections}
           breadcrumbs={breadcrumbsMarkup}
+          compactSpacing={Boolean(serviceOrderSection)}
         />
-        {serviceOrderSection && <FooterContactForm section={serviceOrderSection} />}
+        {serviceOrderSection && <FooterContactForm section={serviceOrderSection} compactSpacing />}
       </>
     );
   }
@@ -221,11 +259,12 @@ export default function PageRenderer({ page }: PageRendererProps) {
       );
       const elements = Array.isArray(formSection?.elements) ? formSection.elements : [];
       const questions = elements.filter((el: any) => el && (el.text || el.label));
-      const subtitle = formSection?.subtitle || page.subtitle || "";
+      const subtitle = formSection?.subtitle || hero?.subtitle || page.subtitle || "";
 
       return (
         <div data-page-template={page.template || "default"}>
           {breadcrumbsMarkup}
+          {shouldRenderHero && <Hero hero={hero} />}
           <section
             className="bg-background-light dark:bg-background-dark font-display text-white min-h-screen relative overflow-x-hidden"
             data-stitch-block="b2b_survey_and_feedback_form"
@@ -283,9 +322,12 @@ export default function PageRenderer({ page }: PageRendererProps) {
       const ceoForm = contentSections.find(
         (section: any) => section?.__component === "page.ceo-feedback"
       );
-      const message = extractCeoMessage(mainText?.content || "");
+      const pageTitle = page.title || "Обращение генерального директора";
+      const cleanedMainHtml = removeLeadingTitleParagraph(mainText?.content || "", pageTitle);
+      const message = extractCeoMessage(cleanedMainHtml);
       const portraitUrl = resolveMediaUrl(ceoForm?.portraitImage || null);
-      const videoUrl = resolveMediaUrl(ceoForm?.video || null);
+      const heroVideoUrl = isVideoMedia(hero?.backgroundImage) ? resolveMediaUrl(hero?.backgroundImage) : null;
+      const videoUrl = resolveMediaUrl(ceoForm?.video || null) || heroVideoUrl;
       const noteHtml = String(noteText?.content || "").trim();
 
       return (
@@ -297,7 +339,7 @@ export default function PageRenderer({ page }: PageRendererProps) {
           >
             <div className="light-leak light-leak-1 top-[-100px] left-[-100px]" />
             <div className="light-leak light-leak-2 bottom-[-100px] right-[-100px]" />
-            <main className="max-w-[1400px] mx-auto px-8 py-12">
+            <main className="max-w-7xl mx-auto px-6 py-12">
               <div className="grid grid-cols-1 lg:grid-cols-12 gap-10">
                 {hasLeftMenu && (
                   <LeftMenu
@@ -314,30 +356,23 @@ export default function PageRenderer({ page }: PageRendererProps) {
                       <div className="relative group">
                         <div className="relative z-10 glass-effect p-2 rounded-xl overflow-hidden aspect-[3/4]">
                           <div className="w-full h-full rounded-lg overflow-hidden relative">
-                            {portraitUrl ? (
-                              <Image
-                                src={portraitUrl}
-                                alt={resolveMediaAlt(ceoForm?.portraitImage || null, ceoForm?.title)}
-                                fill
-                                sizes="(min-width: 1024px) 40vw, 100vw"
-                                className="object-cover transition-transform duration-700 group-hover:scale-105"
-                                priority
-                              />
-                            ) : (
-                              <div className="w-full h-full bg-slate-800/40" />
-                            )}
-                            {videoUrl && (
-                              <div className="absolute inset-0 flex items-center justify-center bg-black/20 group-hover:bg-black/40 transition-all">
-                                <a
-                                  href={videoUrl}
-                                  className="flex items-center justify-center rounded-full size-20 bg-primary text-white shadow-2xl shadow-primary/50 transform group-hover:scale-110 transition-all"
-                                >
-                                  <span className="material-symbols-outlined !text-4xl fill-[1]">
-                                    play_arrow
-                                  </span>
-                                </a>
-                              </div>
-                            )}
+                            <InlineVideoFrame
+                              imageUrl={portraitUrl}
+                              imageAlt={resolveMediaAlt(ceoForm?.portraitImage || null, ceoForm?.title)}
+                              videoUrl={videoUrl}
+                              badge={
+                                videoUrl ? (
+                                  <div className="absolute bottom-6 left-6 right-6 p-4 glass-effect rounded-lg">
+                                    <p className="text-xs uppercase tracking-widest text-primary font-bold mb-1">
+                                      Видеообращение
+                                    </p>
+                                    <p className="text-sm text-white/80">
+                                      Смотреть послание генерального директора партнерам
+                                    </p>
+                                  </div>
+                                ) : null
+                              }
+                            />
                           </div>
                         </div>
                         <div className="absolute -inset-4 bg-primary/10 blur-3xl -z-10 rounded-full" />
@@ -345,9 +380,12 @@ export default function PageRenderer({ page }: PageRendererProps) {
                     </div>
                     <div className="lg:col-span-7 flex flex-col gap-8">
                       <div>
-                        <h1 className="text-4xl lg:text-5xl font-black leading-tight tracking-tight mb-4">
-                          {page.title || "Обращение генерального директора"}
+                        <h1 className="text-3xl lg:text-4xl font-black leading-tight tracking-tight mb-4">
+                          {pageTitle}
                         </h1>
+                        {hero?.subtitle && (
+                          <p className="text-lg text-[#9dabb9] leading-relaxed mb-6">{hero.subtitle}</p>
+                        )}
                         <div className="h-1 w-20 bg-primary rounded-full" />
                       </div>
                       <div className="space-y-6 text-lg text-[#9dabb9] leading-relaxed font-light">
@@ -356,15 +394,15 @@ export default function PageRenderer({ page }: PageRendererProps) {
                             <span className="material-symbols-outlined absolute top-4 left-4 text-primary/20 text-6xl">
                               format_quote
                             </span>
-                            <p className="text-2xl lg:text-3xl font-bold text-white italic leading-snug relative z-10">
+                            <p className="text-xl lg:text-2xl font-bold text-white italic leading-snug relative z-10">
                               {message.quote}
                             </p>
                           </blockquote>
                         ) : (
-                          mainText?.content && (
+                          cleanedMainHtml && (
                             <div
                               className="cms-text-content prose prose-lg max-w-none text-white/80 prose-p:leading-relaxed prose-a:text-primary"
-                              dangerouslySetInnerHTML={{ __html: mainText.content }}
+                              dangerouslySetInnerHTML={{ __html: cleanedMainHtml }}
                             />
                           )
                         )}
@@ -529,7 +567,7 @@ export default function PageRenderer({ page }: PageRendererProps) {
         >
           <div className="fixed top-0 right-0 w-[500px] h-[500px] glow-leak pointer-events-none -z-10 translate-x-1/2 -translate-y-1/2" />
           <div className="fixed bottom-0 left-0 w-[800px] h-[800px] glow-leak pointer-events-none -z-10 -translate-x-1/4 translate-y-1/4" />
-          <main className="max-w-[1400px] mx-auto px-8 py-12" data-cms-page>
+          <main className="max-w-7xl mx-auto px-6 py-12" data-cms-page>
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-10">
               {hasLeftMenu && (
                 <LeftMenu
@@ -540,8 +578,12 @@ export default function PageRenderer({ page }: PageRendererProps) {
                   asideClassName="lg:col-span-3"
                 />
               )}
-              <div className="lg:col-span-9" data-cms-content>
-                {(page.title || page.subtitle) && (
+              <div
+                className="lg:col-span-9"
+                data-cms-content
+                style={hasLeftMenu ? undefined : { gridColumn: "1 / -1" }}
+              >
+                {!shouldRenderHero && (page.title || page.subtitle) && (
                   <div className="flex flex-wrap justify-between items-end gap-3 p-4 mb-6">
                     <div className="flex min-w-72 flex-col gap-3">
                       {page.title && (
@@ -555,7 +597,7 @@ export default function PageRenderer({ page }: PageRendererProps) {
                     </div>
                   </div>
                 )}
-                <div className="space-y-10" data-cms-sections>
+                <div className={isCatalogPage ? "space-y-3" : "space-y-10"} data-cms-sections>
                   {page.content && <div className={cmsTextClass} dangerouslySetInnerHTML={{ __html: page.content }} />}
                   <SectionRenderer
                     sections={contentSections}
@@ -563,6 +605,7 @@ export default function PageRenderer({ page }: PageRendererProps) {
                     deepNavKey={deepNavKey}
                     rootSlug={leftMenuRoot}
                     currentSlug={page.slug}
+                    isCatalogPage={isCatalogPage}
                   />
                 </div>
               </div>
@@ -599,17 +642,7 @@ export default function PageRenderer({ page }: PageRendererProps) {
 
   if (isScenarioTemplate) {
     return (
-      <div data-page-template={page.template || "default"}>
-        {breadcrumbsMarkup}
-        <SectionRenderer
-          sections={contentSections}
-          template={template}
-          deepNavKey={deepNavKey}
-          rootSlug={leftMenuRoot}
-          currentSlug={page.slug}
-        />
-        {serviceOrderSection && <FooterContactForm section={serviceOrderSection} />}
-      </div>
+      <ScenarioPage page={page} hero={hero} sections={sections} breadcrumbs={breadcrumbsMarkup} />
     );
   }
 
@@ -650,11 +683,11 @@ export default function PageRenderer({ page }: PageRendererProps) {
     }
     const sectionClass = isSearchTemplate
       ? "bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 min-h-screen"
-      : "bg-background-light dark:bg-background-dark text-slate-900 dark:text-white font-display min-h-[85vh] overflow-x-hidden";
+      : "bg-background-light dark:bg-background-dark text-slate-900 dark:text-white font-display min-h-[60vh] overflow-x-hidden text-left";
     const blockName = isSearchTemplate ? "search_results_layout" : "ai_assistant_landing_page";
     const containerClass = isSearchTemplate
-      ? "max-w-[1440px] mx-auto px-6 md:px-20 py-8"
-      : "max-w-[1200px] mx-auto px-4 pt-20 pb-16";
+      ? "max-w-7xl mx-auto px-6 py-8"
+      : "max-w-7xl mx-auto px-6 pt-12 pb-16";
     return (
       <div data-page-template={page.template || "default"}>
         {breadcrumbsMarkup}

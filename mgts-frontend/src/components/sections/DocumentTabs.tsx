@@ -75,6 +75,9 @@ export default function DocumentTabs({
   const [activeChildIndex, setActiveChildIndex] = useState(0);
   const [search, setSearch] = useState("");
   const [activeDoc, setActiveDoc] = useState<DocItem | null>(null);
+  const [isHydrated, setIsHydrated] = useState(false);
+  const [parsedDocs, setParsedDocs] = useState<DocItem[]>([]);
+  const [parsedIntro, setParsedIntro] = useState("");
 
   const active = tabs[activeIndex];
   const activeChildren = useMemo(
@@ -86,9 +89,19 @@ export default function DocumentTabs({
     setActiveChildIndex(0);
   }, [activeIndex]);
 
+  useEffect(() => {
+    setIsHydrated(true);
+  }, []);
+
   const activeContent = activeChildren.length > 0 ? activeChildren[activeChildIndex]?.content || "" : active?.content || "";
-  const docs = useMemo(() => extractDocs(activeContent), [activeContent]);
-  const intro = useMemo(() => extractIntro(activeContent), [activeContent]);
+  useEffect(() => {
+    if (!isHydrated) return;
+    setParsedDocs(extractDocs(activeContent));
+    setParsedIntro(extractIntro(activeContent));
+  }, [activeContent, isHydrated]);
+
+  const docs = isHydrated ? parsedDocs : [];
+  const intro = isHydrated ? parsedIntro : "";
   const filteredDocs = useMemo(() => {
     const q = search.trim().toLowerCase();
     if (!q) return docs;
@@ -237,7 +250,7 @@ export default function DocumentTabs({
           </p>
         )}
 
-        {filteredDocs.length > 0 && (
+        {isHydrated && filteredDocs.length > 0 && (
           <div className={isDocPage ? "space-y-4" : "document-tabs__tab-content"}>
             <div className="space-y-4">
               {filteredDocs.map((doc) => {
@@ -292,7 +305,7 @@ export default function DocumentTabs({
           </div>
         )}
 
-        {filteredDocs.length === 0 && active?.content && (
+        {isHydrated && filteredDocs.length === 0 && active?.content && (
           <div
             className="text-slate-600 dark:text-slate-400 text-base leading-relaxed"
             dangerouslySetInnerHTML={{ __html: active.content }}

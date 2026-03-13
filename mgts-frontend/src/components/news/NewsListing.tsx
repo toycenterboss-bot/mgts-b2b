@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { resolveMediaAlt, resolveMediaUrl } from "@/lib/media";
+import { DEFAULT_HERO_BG_URL, resolveMediaAlt, resolveMediaUrl } from "@/lib/media";
 
 type NewsItem = any;
 type NewsTag = { slug?: string; name?: string } | null;
@@ -202,13 +202,25 @@ export default function NewsListing({
     setModalLoading(false);
   };
 
+  const getNewsImageUrl = (item: NewsItem) => {
+    return (
+      resolveMediaUrl(item?.featuredImage || null) ||
+      resolveMediaUrl(Array.isArray(item?.gallery) ? item.gallery[0] : null) ||
+      resolveMediaUrl(item?.image || item?.cover || item?.previewImage || null) ||
+      DEFAULT_HERO_BG_URL
+    );
+  };
+
   const renderImage = (item: NewsItem) => {
-    const url = resolveMediaUrl(item?.featuredImage || null);
+    const url = getNewsImageUrl(item);
     return url ? { backgroundImage: `url('${url}')` } : undefined;
   };
 
-  const modalImageUrl = resolveMediaUrl(modalItem?.featuredImage || null);
-  const modalImageAlt = resolveMediaAlt(modalItem?.featuredImage || null, modalItem?.title || "Новость");
+  const modalImageUrl = modalItem ? getNewsImageUrl(modalItem) : null;
+  const modalImageAlt = resolveMediaAlt(
+    modalItem?.featuredImage || (Array.isArray(modalItem?.gallery) ? modalItem.gallery[0] : null),
+    modalItem?.title || "Новость"
+  );
 
   return (
     <>

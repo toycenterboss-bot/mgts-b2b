@@ -815,31 +815,60 @@
     if (!title && list.length === 0) return null;
 
     const variant = opts?.variant || "default";
+    const isHomeServiceCards = variant === "home-service-cards";
+    const isServiceCards = variant === "service-cards";
     const colsRaw = Number(opts?.columns);
-    const columns = Number.isFinite(colsRaw) ? Math.min(4, Math.max(1, colsRaw)) : 3;
+    const columns = Number.isFinite(colsRaw) ? Math.min(4, Math.max(1, colsRaw)) : isHomeServiceCards ? 4 : 3;
     const wrap = document.createElement("section");
-    wrap.className =
-      variant === "service-cards"
-        ? "w-full rounded-[2rem] border border-white/10 bg-white/5 p-8 md:p-10"
-        : "w-full rounded-2xl border border-white/10 bg-white/5 p-6";
+    wrap.className = isHomeServiceCards
+      ? "section-gradient -mx-4 px-4 py-20 rounded-[3rem] border border-white/10 dark:border-white/20"
+      : isServiceCards
+        ? "w-full rounded-[2rem] border border-white/10 dark:border-white/20 bg-white/5 p-8 md:p-10"
+        : "w-full rounded-2xl border border-white/10 dark:border-white/20 bg-white/5 p-6";
+
+    const contentHost = (() => {
+      if (!isHomeServiceCards) return wrap;
+      const container = document.createElement("div");
+      container.className = "max-w-[1200px] mx-auto";
+      wrap.appendChild(container);
+      return container;
+    })();
 
     if (title) {
-      const h = document.createElement("h2");
-      h.className =
-        variant === "service-cards"
+      if (isHomeServiceCards) {
+        const header = document.createElement("div");
+        header.className = "flex items-center justify-between mb-12";
+        const h = document.createElement("h2");
+        h.className = "text-white text-3xl font-bold tracking-tight";
+        h.textContent = title;
+        header.appendChild(h);
+        if (opts?.linkText && opts?.linkHref) {
+          const link = document.createElement("a");
+          link.className =
+            "text-accent text-sm font-bold flex items-center gap-2 hover:opacity-80 transition-opacity";
+          link.setAttribute("href", String(opts.linkHref));
+          link.innerHTML = `${String(opts.linkText)} <span class="material-symbols-outlined text-lg">arrow_right_alt</span>`;
+          header.appendChild(link);
+        }
+        contentHost.appendChild(header);
+      } else {
+        const h = document.createElement("h2");
+        h.className = isServiceCards
           ? "text-slate-900 dark:text-white text-3xl font-bold tracking-tight mb-8"
           : "text-xl font-black tracking-tight mb-4";
-      h.textContent = title;
-      wrap.appendChild(h);
+        h.textContent = title;
+        contentHost.appendChild(h);
+      }
     }
     if (opts?.subtitle) {
       const p = document.createElement("p");
-      p.className =
-        variant === "service-cards"
-          ? "text-slate-600 dark:text-slate-400 text-base leading-relaxed mb-8"
+      p.className = isServiceCards
+        ? "text-slate-600 dark:text-slate-400 text-base leading-relaxed mb-8"
+        : isHomeServiceCards
+          ? "text-[#9aabbc] text-sm leading-relaxed mb-8 max-w-2xl"
           : "text-sm text-white/70 leading-relaxed mb-4";
       p.textContent = String(opts.subtitle);
-      wrap.appendChild(p);
+      contentHost.appendChild(p);
     }
 
     const grid = document.createElement("div");
@@ -849,22 +878,106 @@
       if (columns === 3) return "grid-cols-1 md:grid-cols-2 lg:grid-cols-3";
       return "grid-cols-1 md:grid-cols-2 lg:grid-cols-4";
     })();
-    grid.className =
-      variant === "service-cards"
+    grid.className = isHomeServiceCards
+      ? `grid ${gridColsClass} gap-8`
+      : isServiceCards
         ? `grid ${gridColsClass} gap-8`
         : `grid ${gridColsClass} gap-4`;
 
     for (let idx = 0; idx < list.length; idx += 1) {
       const c = list[idx];
-      const cardLink = c.link ? String(c.link) : "";
+      const cardLink = c.link ? String(c.link).trim() : "";
       const inlineLink = /^mailto:|^tel:/i.test(cardLink);
       const a = document.createElement(cardLink && !inlineLink ? "a" : "div");
-      if (variant === "service-cards") {
+      if (isHomeServiceCards) {
+        const ctaLabel = c.ctaText || c.buttonText || c.ctaLabel || "Подробнее";
+        const isAccent = idx % 2 === 1;
+        const bgUrl = resolveAnyMediaUrl(c.backgroundImage);
+        a.className =
+          "glass-card border border-white/10 dark:border-white/20 p-8 rounded-3xl flex flex-col min-h-[320px] group relative overflow-hidden";
+        if (cardLink && !inlineLink) a.setAttribute("href", cardLink);
+
+        const sweep = document.createElement("div");
+        sweep.className = "light-sweep";
+        a.appendChild(sweep);
+
+        if (bgUrl) {
+          const bg = document.createElement("div");
+          bg.className = "absolute inset-0";
+          bg.style.backgroundImage =
+            "linear-gradient(180deg, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.35) 55%, rgba(0,0,0,0.5) 100%), " +
+            `url('${bgUrl}')`;
+          bg.style.backgroundSize = "cover";
+          bg.style.backgroundPosition = "center";
+          bg.style.backgroundRepeat = "no-repeat";
+          bg.style.backgroundBlendMode = "multiply";
+          a.appendChild(bg);
+        }
+
+        const contentWrap = document.createElement("div");
+        contentWrap.className = "relative z-10 flex flex-col h-full";
+
+        const iconWrap = document.createElement("div");
+        iconWrap.className = "icon-3d mb-8 relative";
+        const glow = document.createElement("div");
+        glow.className = `absolute inset-0 blur-xl rounded-full scale-75 group-hover:scale-110 transition-transform ${
+          isAccent ? "bg-accent/20" : "bg-primary/20"
+        }`;
+        iconWrap.appendChild(glow);
+
+        const imgUrl = resolveAnyMediaUrl(c.image);
+        if (imgUrl) {
+          const img = document.createElement("img");
+          img.className = "size-16 object-contain relative z-10";
+          img.alt = "";
+          img.src = imgUrl;
+          iconWrap.appendChild(img);
+        } else {
+          const iconName = resolveMaterialIconName(c.icon) || serviceIconFromTitle(c.title);
+          const iconEl = buildIconElement({
+            icon: c.icon,
+            fallback: iconName || "hub",
+            spanClass: `material-symbols-outlined text-[64px] relative z-10 ${
+              isAccent ? "text-accent" : "text-primary"
+            }`,
+            imgClass: "size-16 object-contain relative z-10",
+            alt: c.title || "",
+          });
+          iconWrap.appendChild(iconEl);
+        }
+        contentWrap.appendChild(iconWrap);
+
+        if (c.title) {
+          const h3 = document.createElement("h3");
+          h3.className = "text-white text-xl font-bold mb-3";
+          h3.textContent = c.title;
+          contentWrap.appendChild(h3);
+        }
+        const description = c.description || c.subtitle || "";
+        if (description) {
+          const p = document.createElement("p");
+          p.className = "text-[#9aabbc] text-sm leading-relaxed mb-6";
+          p.textContent = description;
+          contentWrap.appendChild(p);
+        }
+        if (cardLink && ctaLabel) {
+          const cta = document.createElement("div");
+          cta.className =
+            "mt-auto flex items-center text-primary text-xs font-black uppercase tracking-widest group-hover:text-accent transition-colors";
+          cta.innerHTML = `${ctaLabel} <span class="material-symbols-outlined ml-1 text-sm">trending_flat</span>`;
+          contentWrap.appendChild(cta);
+        }
+        a.appendChild(contentWrap);
+        grid.appendChild(a);
+        continue;
+      }
+
+      if (isServiceCards) {
         a.className =
           "relative overflow-hidden rounded-3xl border border-white/10 bg-white/5 backdrop-blur-md p-8 flex flex-col min-h-[320px] group transition-all hover:border-primary/40 hover:shadow-[0_20px_40px_rgba(0,0,0,0.4),inset_0_0_30px_rgba(0,102,204,0.3)] shadow-[inset_0_0_20px_rgba(255,255,255,0.05)] hover:-translate-y-1.5 hover:scale-[1.03]";
       } else {
-      a.className =
-        "block rounded-2xl border border-white/10 bg-black/20 hover:bg-black/10 transition-colors p-5";
+        a.className =
+          "block rounded-2xl border border-white/10 dark:border-white/20 bg-black/20 hover:bg-black/10 transition-colors p-5";
       }
       if (cardLink && !inlineLink) a.setAttribute("href", cardLink);
 
@@ -1074,7 +1187,7 @@
       grid.appendChild(a);
     }
 
-    wrap.appendChild(grid);
+    contentHost.appendChild(grid);
     return wrap;
   }
 

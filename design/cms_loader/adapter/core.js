@@ -92,29 +92,31 @@
     if (media.url) {
       const fmts = media.formats || {};
       return (
-        (fmts.small && fmts.small.url) ||
-        (fmts.thumbnail && fmts.thumbnail.url) ||
+        (fmts.large && fmts.large.url) ||
         (fmts.medium && fmts.medium.url) ||
-        media.url
+        media.url ||
+        (fmts.small && fmts.small.url) ||
+        (fmts.thumbnail && fmts.thumbnail.url)
       );
     }
     const attrs = media?.data?.attributes || media?.attributes || null;
     if (attrs && attrs.url) {
       const fmts = attrs.formats || {};
       return (
-        (fmts.small && fmts.small.url) ||
-        (fmts.thumbnail && fmts.thumbnail.url) ||
+        (fmts.large && fmts.large.url) ||
         (fmts.medium && fmts.medium.url) ||
-        attrs.url
+        attrs.url ||
+        (fmts.small && fmts.small.url) ||
+        (fmts.thumbnail && fmts.thumbnail.url)
       );
     }
     return null;
   }
 
 
-  function applyHeroBackground(el, media) {
-    if (!el || !media) return;
-    const url = resolveMediaUrl(media);
+  function applyHeroBackground(el, media, fallbackUrl) {
+    if (!el) return;
+    const url = resolveMediaUrl(media) || fallbackUrl;
     if (!url) return;
     const abs = url.startsWith("http") ? url : `${STRAPI_BASE}${url}`;
     el.style.backgroundImage = `url("${abs}")`;

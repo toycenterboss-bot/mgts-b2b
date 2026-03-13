@@ -1,8 +1,9 @@
 type FooterContactFormProps = {
   section?: any;
+  compactSpacing?: boolean;
 };
 
-export default function FooterContactForm({ section }: FooterContactFormProps) {
+export default function FooterContactForm({ section, compactSpacing = false }: FooterContactFormProps) {
   if (section?.isVisible === false) return null;
   const badge = section?.badgeText || section?.badge || "Готовы к масштабированию?";
   const title = section?.title || "Обсудим ваш проект";
@@ -27,7 +28,7 @@ export default function FooterContactForm({ section }: FooterContactFormProps) {
       className="bg-premium-dark text-white selection:bg-primary/30"
       data-stitch-block="footer_and_contact_form"
     >
-      <section className="relative py-24 px-6 overflow-hidden">
+      <section className={compactSpacing ? "relative py-16 px-6 overflow-hidden" : "relative py-24 px-6 overflow-hidden"}>
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full pointer-events-none opacity-20">
           <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-primary rounded-full blur-[120px]"></div>
           <div className="absolute bottom-[-10%] right-[-10%] w-[30%] h-[30%] bg-blue-400 rounded-full blur-[100px]"></div>

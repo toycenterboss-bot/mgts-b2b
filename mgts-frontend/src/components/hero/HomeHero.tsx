@@ -1,4 +1,4 @@
-import { resolveMediaAlt, resolveMediaUrl } from "@/lib/media";
+import { DEFAULT_HERO_FALLBACK_URL, resolveMediaAlt, resolveMediaUrl } from "@/lib/media";
 
 type HomeHeroProps = {
   hero?: any;
@@ -8,7 +8,7 @@ const hasHtml = (value?: string | null) => Boolean(value && /<[^>]+>/.test(value
 
 export default function HomeHero({ hero }: HomeHeroProps) {
   if (!hero) return null;
-  const bgUrl = resolveMediaUrl(hero.backgroundImage || null);
+  const bgUrl = resolveMediaUrl(hero.backgroundImage || null) || DEFAULT_HERO_FALLBACK_URL;
   const bgAlt = resolveMediaAlt(hero.backgroundImage || null, hero.title);
   const slaItems = Array.isArray(hero.slaItems) ? hero.slaItems : [];
   const titleHtml = String(hero.title || "");
@@ -16,12 +16,12 @@ export default function HomeHero({ hero }: HomeHeroProps) {
 
   return (
     <section
-      className="relative min-h-[70vh] lg:min-h-[75vh] flex items-center overflow-hidden hero-mesh pb-24 lg:pb-32"
+      className="relative min-h-[60vh] flex items-center overflow-hidden hero-mesh pb-24 lg:pb-32"
       data-home-hero
     >
       <div className="absolute inset-0 z-0">
         <div
-          className="absolute inset-0 bg-cover bg-center opacity-15"
+          className="absolute inset-0 bg-cover bg-center opacity-25"
           style={bgUrl ? { backgroundImage: `url('${bgUrl}')` } : undefined}
           data-home-hero-bg
           aria-label={bgAlt}
@@ -39,7 +39,7 @@ export default function HomeHero({ hero }: HomeHeroProps) {
           <div className="absolute bottom-0 left-0 w-64 h-64 bg-[radial-gradient(circle_at_bottom_left,rgba(255,255,255,0.05),transparent)]"></div>
         </div>
       </div>
-      <div className="container mx-auto px-6 relative z-10 pt-20">
+      <div className="max-w-7xl mx-auto px-6 relative z-10 pt-20">
         <div className="max-w-5xl">
           {hero.badgeText && (
             <div className="inline-flex items-center gap-3 px-4 py-1.5 rounded-full bg-white/5 border border-white/10 text-white/80 text-xs font-bold uppercase tracking-[0.2em] mb-10">

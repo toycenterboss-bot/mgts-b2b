@@ -1,24 +1,32 @@
 import Image from "next/image";
 import Icon from "@/components/ui/Icon";
+import HomeServiceCards from "@/components/sections/HomeServiceCards";
 import { resolveMediaAlt, resolveMediaUrl } from "@/lib/media";
 import { normalizeCmsHref } from "@/lib/routes";
 
 type SectionCardsProps = {
   section: any;
+  compactSpacing?: boolean;
 };
 
-export default function SectionCards({ section }: SectionCardsProps) {
+export default function SectionCards({ section, compactSpacing = false }: SectionCardsProps) {
   const cards = Array.isArray(section.cards) ? section.cards : [];
-  const hideShell =
-    section?.isHidden === true || section?.is_hidden === true || section?.isVisible === false;
+  const shouldHideSection = section?.isHidden === true || section?.is_hidden === true;
+  const showShell = section?.isVisible !== false;
+  const hideShell = !showShell;
+  if (shouldHideSection) return null;
   if (!cards.length && !section?.title && !section?.subtitle) return null;
-  const isInfoCards = cards.length > 0 && cards.every((card: any) => card?.cardType === "info");
   const isSegmentNavigation = cards.length > 0 && cards.every((card: any) => card?.cardType === "navigation");
   const shouldForceInfoCards = String(section?.title || "").trim() === "Контактные данные";
+  const rawVariant = String(section?.variant || section?.style || "").trim();
+  const isExplicitSegment = rawVariant === "segment-cards";
+  const isExplicitInfo = rawVariant === "info-cards";
   const variant =
-    section?.variant ||
-    section?.style ||
-    (isSegmentNavigation ? "segment-cards" : isInfoCards ? "info-cards" : "default");
+    isExplicitSegment || isSegmentNavigation
+      ? "segment-cards"
+      : shouldForceInfoCards || isExplicitInfo
+        ? "info-cards"
+        : "home-service-cards";
   const columnsRaw = Number(section?.columns);
   const columns = Number.isFinite(columnsRaw)
     ? Math.min(4, Math.max(1, columnsRaw))
@@ -36,16 +44,29 @@ export default function SectionCards({ section }: SectionCardsProps) {
           ? "grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
           : "grid-cols-1 md:grid-cols-2 lg:grid-cols-4";
 
+  if (variant === "home-service-cards") {
+    return (
+      <HomeServiceCards
+        section={section}
+        respectVisibility={false}
+        compactSpacing={compactSpacing && !hideShell}
+        hideShell={hideShell}
+      />
+    );
+  }
+
   return (
     <section
       className={
         hideShell
           ? "section-cards w-full border-0 bg-transparent p-0 rounded-none"
           : variant === "service-cards"
-            ? "section-cards w-full rounded-[2rem] border border-white/10 bg-white/5 p-8 md:p-10"
-            : `section-cards w-full rounded-2xl border border-white/10 bg-white/5 p-6${
-                shouldForceInfoCards ? " contact-details" : ""
+            ? `section-cards w-full rounded-[2rem] border border-white/10 dark:border-white/20 bg-white/5 p-8 md:p-10${
+                compactSpacing ? " -mb-24" : ""
               }`
+            : `section-cards w-full rounded-2xl border border-white/10 dark:border-white/20 bg-white/5 p-6${
+                shouldForceInfoCards ? " contact-details" : ""
+              }${compactSpacing ? " -mb-24" : ""}`
       }
     >
       {section.title && (
@@ -103,6 +124,16 @@ export default function SectionCards({ section }: SectionCardsProps) {
             if (t.includes("мониторинг") || t.includes("control")) return "monitoring";
             return "hub";
           };
+          const resolveContactIcon = () => {
+            const raw = typeof card?.icon === "string" ? card.icon.trim() : "";
+            if (raw) return raw;
+            const t = String(card?.title || "").toLowerCase();
+            if (t.includes("адрес") || t.includes("локац")) return "location_on";
+            if (t.includes("телефон") || t.includes("контакт")) return "call";
+            if (t.includes("email") || t.includes("почт")) return "mail";
+            if (t.includes("бизнес") || t.includes("реклам")) return "business_center";
+            return "info";
+          };
           const linkifyContactText = (input: string) => {
             let out = String(input || "");
             out = out.replace(
@@ -118,10 +149,18 @@ export default function SectionCards({ section }: SectionCardsProps) {
           };
           const imageUrl = resolveMediaUrl(card.image || null);
           const bgUrl = resolveMediaUrl(card.backgroundImage || null);
-          const href = normalizeCmsHref(card.link || "");
-          const isInlineLink = /^mailto:|^tel:/i.test(href);
-          const Tag = href && !isInlineLink ? "a" : "div";
-          const descriptionHtml = String(card.description || "");
+          const rawLink = String(card.link || "").trim();
+          const href = rawLink ? normalizeCmsHref(rawLink) : "";
+          const isInlineLink = /^mailto:|^tel:/i.test(rawLink);
+          const hasClickableLink = Boolean(rawLink && !isInlineLink);
+          const Tag = hasClickableLink ? "a" : "div";
+          const subtitleText = String(card.subtitle || "");
+          const descriptionText = String(card.description || "");
+          const hasDescription = descriptionText.trim().length > 0;
+          const hasSubtitle = subtitleText.trim().length > 0;
+          const effectiveDescription = hasDescription ? descriptionText : hasSubtitle ? subtitleText : "";
+          const showSubtitle = hasDescription && hasSubtitle;
+          const descriptionHtml = String(effectiveDescription || "");
           const descriptionMarkup = descriptionHtml.includes("<")
             ? descriptionHtml
             : linkifyContactText(descriptionHtml).replace(/\n/g, "<br/>");
@@ -130,13 +169,13 @@ export default function SectionCards({ section }: SectionCardsProps) {
               ? "section-cards__item relative overflow-hidden rounded-3xl border border-white/10 bg-white/5 backdrop-blur-md p-8 flex flex-col min-h-[320px] group transition-all hover:border-primary/40 hover:shadow-[0_20px_40px_rgba(0,0,0,0.4),inset_0_0_30px_rgba(0,102,204,0.3)] shadow-[inset_0_0_20px_rgba(255,255,255,0.05)] hover:-translate-y-1.5 hover:scale-[1.03]"
               : variant === "segment-cards"
                 ? "section-cards__item rounded-2xl border border-white/10 bg-[#1a232e] p-5 flex flex-col gap-4 hover:bg-[#202b38] transition-colors"
-                : `section-cards__item block rounded-2xl border border-white/10 bg-black/20 hover:bg-black/10 transition-colors p-5${
+                : `section-cards__item flex flex-col gap-3 rounded-2xl border border-white/10 bg-black/20 hover:bg-black/10 transition-colors p-5${
                     bgUrl ? " relative overflow-hidden" : ""
                   }`;
           return (
             <Tag
               key={`${card.title || "card"}-${idx}`}
-              href={href || undefined}
+              href={hasClickableLink ? href : undefined}
               className={baseClass}
               data-segment-card={variant === "segment-cards" ? card.title || "" : undefined}
             >
@@ -191,6 +230,11 @@ export default function SectionCards({ section }: SectionCardsProps) {
                     )}
                   </div>
                 )}
+              {shouldForceInfoCards && (
+                <div className="section-cards__icon flex items-center justify-center border border-white/10 text-primary">
+                  <span className="material-symbols-outlined text-xl">{resolveContactIcon()}</span>
+                </div>
+              )}
               {variant === "segment-cards" && (
                 <div className="size-10 rounded-lg bg-primary/10 flex items-center justify-center text-primary">
                   <span className="material-symbols-outlined text-xl">hub</span>
@@ -217,7 +261,7 @@ export default function SectionCards({ section }: SectionCardsProps) {
                     {card.title}
                   </h3>
                 )}
-                {card.subtitle && (
+                {showSubtitle && (
                   <p
                     className={
                       variant === "service-cards"
@@ -230,10 +274,10 @@ export default function SectionCards({ section }: SectionCardsProps) {
                         : undefined
                     }
                   >
-                    {card.subtitle}
+                    {subtitleText}
                   </p>
                 )}
-                {card.description &&
+                {effectiveDescription &&
                   (shouldForceInfoCards ? (
                     <div
                       className="section-cards__description text-xs text-white/70 leading-relaxed"
@@ -259,7 +303,7 @@ export default function SectionCards({ section }: SectionCardsProps) {
                           : undefined
                       }
                     >
-                      {card.description}
+                      {effectiveDescription}
                     </p>
                   ))}
                 {card.disclaimerHtml && (
@@ -273,7 +317,7 @@ export default function SectionCards({ section }: SectionCardsProps) {
                   />
                 )}
               </div>
-              {variant === "segment-cards" && (
+              {variant === "segment-cards" && hasClickableLink && (
                 <span className="mt-auto text-primary text-[10px] font-bold uppercase tracking-widest flex items-center gap-1">
                   Подробнее <span className="material-symbols-outlined text-xs">chevron_right</span>
                 </span>

@@ -1,10 +1,16 @@
+import Image from "next/image";
 import { normalizeCmsHref } from "@/lib/routes";
+import { resolveMediaAlt, resolveMediaUrl } from "@/lib/media";
 
 type FooterProps = {
   footer: any;
+  logo?: any;
+  logoAlt?: string;
 };
 
-export default function Footer({ footer }: FooterProps) {
+const defaultLogo = "/assets/img/mgts-logo.svg";
+
+export default function Footer({ footer, logo, logoAlt: logoAltProp }: FooterProps) {
   if (!footer) return null;
   const sections = Array.isArray(footer.sections)
     ? [...footer.sections].sort((a, b) => (a?.order ?? 0) - (b?.order ?? 0))
@@ -34,16 +40,27 @@ export default function Footer({ footer }: FooterProps) {
   ];
   const socialItems = socials.length > 0 ? socials : socialDefaults;
 
+  const logoUrl =
+    resolveMediaUrl(footer.logo || null) ||
+    resolveMediaUrl((footer as any)?.logoImage || null) ||
+    resolveMediaUrl((footer as any)?.brandLogo || null) ||
+    resolveMediaUrl((footer as any)?.logo?.data || null) ||
+    resolveMediaUrl((footer as any)?.logoImage?.data || null) ||
+    resolveMediaUrl((footer as any)?.brandLogo?.data || null) ||
+    null;
+  const fallbackLogoUrl = resolveMediaUrl(logo || null) || null;
+  const finalLogo = logoUrl || fallbackLogoUrl || defaultLogo;
+  const logoAlt =
+    resolveMediaAlt(footer.logo || null, logoAltProp || footer.logoAlt || (footer as any)?.logoText || "МГТС") ||
+    "МГТС";
+
   return (
     <footer className="bg-[#0a0f18] border-t border-white/5 pt-20 pb-10">
       <div className="max-w-[1200px] mx-auto px-6">
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-10 mb-16">
           <div className="col-span-2 lg:col-span-1 flex flex-col gap-6">
             <div className="flex items-center gap-2" aria-label="МГТС">
-              <div className="w-10 h-10 bg-primary flex items-center justify-center rounded-lg">
-                <span className="text-white font-black text-xl">M</span>
-              </div>
-              <span className="text-2xl font-bold tracking-tighter">МГТС</span>
+              <Image src={finalLogo} alt={logoAlt} width={44} height={44} />
             </div>
             <p className="text-sm text-gray-500 leading-relaxed">
               {description}

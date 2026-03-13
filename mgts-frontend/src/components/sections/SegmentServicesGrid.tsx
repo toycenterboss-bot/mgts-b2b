@@ -8,7 +8,6 @@ type SegmentServicesGridProps = {
 };
 
 export default function SegmentServicesGrid({ section }: SegmentServicesGridProps) {
-  if (section?.isVisible === false) return null;
   const cards = Array.isArray(section.cards) ? section.cards : [];
 
   if (cards.length === 0) return null;
@@ -32,11 +31,14 @@ export default function SegmentServicesGrid({ section }: SegmentServicesGridProp
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6" data-seg-services-grid>
         {cards.map((card: any, idx: number) => {
-          const href = normalizeCmsHref(card.link || "");
+          const rawLink = String(card.link || "").trim();
+          const href = rawLink ? normalizeCmsHref(rawLink) : "";
           const imageUrl = resolveMediaUrl(card.image || null);
-          const Tag = href ? "a" : "div";
+          const Tag = rawLink ? "a" : "div";
+          const description = card.description || card.subtitle || "";
           const ctaText =
-            card.buttonText || card.ctaText || card.ctaLabel || card.linkLabel || card.moreLabel;
+            card.buttonText || card.ctaText || card.ctaLabel || card.linkLabel || card.moreLabel || "Подробнее";
+          const showCta = Boolean(rawLink) && Boolean(ctaText);
           const resolveIcon = () => {
             const raw = typeof card?.icon === "string" ? card.icon.trim() : "";
             if (raw) return raw;
@@ -55,7 +57,7 @@ export default function SegmentServicesGrid({ section }: SegmentServicesGridProp
           return (
             <Tag
               key={`${card.title || "service"}-${idx}`}
-              href={href || undefined}
+              href={rawLink ? href : undefined}
               className="bg-[#1a232e] border border-white/5 p-6 rounded-xl flex flex-col gap-4 card-hover"
               data-seg-service-card
             >
@@ -77,12 +79,12 @@ export default function SegmentServicesGrid({ section }: SegmentServicesGridProp
                   {card.title}
                 </h3>
               )}
-              {card.description && (
+              {description && (
                 <p className="text-[#9aabbc] text-sm leading-relaxed" data-seg-service-desc>
-                  {card.description}
+                  {description}
                 </p>
               )}
-              {ctaText && (
+              {showCta && (
                 <div className="mt-auto text-primary text-xs font-bold uppercase tracking-widest flex items-center gap-1">
                   {ctaText} <span className="material-symbols-outlined text-xs">chevron_right</span>
                 </div>

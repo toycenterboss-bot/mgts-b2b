@@ -5,7 +5,7 @@
     document.currentScript ||
     document.querySelector('script[src*="cms-loader.js"]');
   const baseUrl = current && current.src ? new URL(".", current.src) : new URL("/cms_loader/", window.location.href);
-  const version = "?v=2026-03-03-4";
+  const version = "?v=2026-03-05-2";
   const scripts = [
     "loader/core.js",
     "loader/top-menu.js",

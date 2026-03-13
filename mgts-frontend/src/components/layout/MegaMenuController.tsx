@@ -15,6 +15,14 @@ export default function MegaMenuController() {
         .map((item) => item.trim())
         .filter(Boolean);
 
+    const applyPanelTransparency = (panel: HTMLElement | null) => {
+      if (!panel) return;
+      panel.style.setProperty("background", "rgba(15, 25, 35, 0.08)", "important");
+      panel.style.setProperty("background-color", "rgba(15, 25, 35, 0.08)", "important");
+      panel.style.setProperty("backdrop-filter", "blur(32px) saturate(220%)", "important");
+      panel.style.setProperty("-webkit-backdrop-filter", "blur(32px) saturate(220%)", "important");
+    };
+
     const setActiveCategory = (panel: Element, key: string) => {
       if (!key) return;
       const categories = Array.from(panel.querySelectorAll<HTMLElement>("[data-mega-category]"));
@@ -27,6 +35,7 @@ export default function MegaMenuController() {
         item.classList.remove(...activeClasses, ...inactiveClasses);
         item.classList.add(...(active ? activeClasses : inactiveClasses));
         item.setAttribute("aria-pressed", active ? "true" : "false");
+        item.setAttribute("data-mega-active", active ? "1" : "0");
         const icon = item.querySelector(".material-symbols-outlined");
         if (icon) icon.classList.toggle("opacity-0", !active);
       });
@@ -40,6 +49,7 @@ export default function MegaMenuController() {
 
     const initPanel = (panel: Element | null) => {
       if (!panel) return;
+      applyPanelTransparency(panel as HTMLElement);
       const first = panel.querySelector<HTMLElement>("[data-mega-category]");
       const key = first?.getAttribute("data-mega-category") || "";
       if (key) setActiveCategory(panel, key);
@@ -63,6 +73,7 @@ export default function MegaMenuController() {
         if (item !== target) item.removeAttribute("open");
       });
       if (!target.open) target.setAttribute("open", "");
+      applyPanelTransparency(target.querySelector(".mega-menu-panel") as HTMLElement | null);
       initPanel(target.querySelector(".mega-menu-panel"));
     };
 
@@ -76,6 +87,7 @@ export default function MegaMenuController() {
     };
 
     detailsList.forEach((item) => {
+      applyPanelTransparency(item.querySelector(".mega-menu-panel") as HTMLElement | null);
       item.addEventListener("toggle", onToggle);
       item.addEventListener("mouseenter", onEnter);
       item.addEventListener("mouseleave", onLeave);

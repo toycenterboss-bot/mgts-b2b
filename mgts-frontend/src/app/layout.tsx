@@ -23,14 +23,17 @@ export default async function RootLayout({
       <head>
         <link rel="stylesheet" href="/assets/css/stitch-tailwind.css" />
         <link rel="stylesheet" href="/assets/fonts/material-symbols-outlined/material-symbols-outlined.css" />
-        <link rel="stylesheet" href="/assets/fonts/google/73e5ac8a40/font.css" />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        />
       </head>
       <body className="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100">
         <ThemeInit />
         <div className="relative flex flex-col min-h-screen w-full">
           <Header navigation={navigation} />
           <main className="flex-1 site-main">{children}</main>
-          <Footer footer={footer} />
+          <Footer footer={footer} logo={(navigation as any)?.logo} logoAlt={(navigation as any)?.logoAlt} />
         </div>
       </body>
     </html>

@@ -39,19 +39,53 @@ const docIconColors = (ext: string) => {
 
 const isDocExt = (ext: string) => ["pdf", "doc", "docx", "xls", "xlsx", "zip"].includes(ext);
 
-const normalizeTableData = (tableData: any[]) => {
-  if (!Array.isArray(tableData) || !tableData.length) return { columns: [], rows: [] };
-  if (Array.isArray(tableData[0])) {
-    const columns = tableData[0].map((name: any, idx: number) => ({
-      key: `col-${idx}`,
-      name,
-    }));
-    return { columns, rows: tableData.slice(1) };
+const normalizeTableData = (tableData: any) => {
+  if (!tableData) return { columns: [], rows: [] };
+  if (Array.isArray(tableData)) {
+    if (!tableData.length) return { columns: [], rows: [] };
+    if (Array.isArray(tableData[0])) {
+      const columns = tableData[0].map((name: any, idx: number) => ({
+        key: `col-${idx}`,
+        name,
+      }));
+      return { columns, rows: tableData.slice(1) };
+    }
+    if (tableData[0] && typeof tableData[0] === "object") {
+      const keys = Object.keys(tableData[0] || {});
+      const columns = keys.map((key) => ({ key, name: key }));
+      return { columns, rows: tableData };
+    }
+    return { columns: [], rows: [] };
   }
-  if (tableData[0] && typeof tableData[0] === "object") {
-    const keys = Object.keys(tableData[0] || {});
-    const columns = keys.map((key) => ({ key, name: key }));
-    return { columns, rows: tableData };
+  if (typeof tableData === "object") {
+    const headers = Array.isArray((tableData as any).headers) ? (tableData as any).headers : null;
+    const rows = Array.isArray((tableData as any).rows) ? (tableData as any).rows : [];
+    const cols = Array.isArray((tableData as any).columns) ? (tableData as any).columns : null;
+    if (cols && cols.length) {
+      const columns = cols.map((col: any, idx: number) => {
+        if (typeof col === "string") return { key: `col-${idx}`, name: col };
+        if (col && typeof col === "object") {
+          return {
+            key: col.key || col.name || `col-${idx}`,
+            name: col.name || col.label || col.key || `Колонка ${idx + 1}`,
+          };
+        }
+        return { key: `col-${idx}`, name: `Колонка ${idx + 1}` };
+      });
+      return { columns, rows };
+    }
+    if (headers && headers.length) {
+      const columns = headers.map((name: any, idx: number) => ({
+        key: `col-${idx}`,
+        name,
+      }));
+      return { columns, rows };
+    }
+    if (Array.isArray(rows) && rows.length && rows[0] && typeof rows[0] === "object" && !Array.isArray(rows[0])) {
+      const keys = Object.keys(rows[0] || {});
+      const columns = keys.map((key) => ({ key, name: key }));
+      return { columns, rows };
+    }
   }
   return { columns: [], rows: [] };
 };
@@ -187,13 +221,18 @@ const renderCell = (
 };
 
 export default function SectionTable({ section }: SectionTableProps) {
-  if (section?.isVisible === false) return null;
-  const tableData = Array.isArray(section.tableData) ? section.tableData : [];
-  const { columns, rows } = normalizeTableData(tableData);
+  const hideShell = section?.isVisible === false;
+  const { columns, rows } = normalizeTableData(section?.tableData);
   const [activeDoc, setActiveDoc] = useState<DocPreview | null>(null);
 
   return (
-    <section className="section-table max-w-[1200px] mx-auto rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-background-dark p-6 md:p-8 shadow-2xl shadow-primary/5">
+    <section
+      className={`section-table max-w-[1200px] mx-auto${
+        hideShell
+          ? " border-0 bg-transparent p-0 rounded-none shadow-none"
+          : " rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-background-dark p-6 md:p-8 shadow-2xl shadow-primary/5"
+      }`}
+    >
       {section.title && (
         <h2 className="section-table__title text-slate-900 dark:text-white text-3xl font-bold tracking-tight mb-4">
           {section.title}

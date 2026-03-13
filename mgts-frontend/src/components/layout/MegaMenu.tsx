@@ -72,7 +72,10 @@ export default function MegaMenu({ menu, cta }: MegaMenuProps) {
   const firstKey = sectionEntries[0]?.__key || "";
 
   return (
-    <div className="mega-menu-panel absolute top-full left-0 w-full mega-menu-blur bg-white/95 dark:bg-background-dark/95 backdrop-blur-md border-b border-slate-200 dark:border-slate-800 shadow-2xl z-40 overflow-hidden">
+    <div
+      className="mega-menu-panel absolute top-full left-0 w-full mega-menu-blur bg-transparent backdrop-blur-3xl backdrop-saturate-200 border-b border-slate-200/40 dark:border-slate-800/40 shadow-2xl z-40 overflow-hidden"
+      data-mega-panel
+    >
       <div className="max-w-7xl mx-auto px-6 py-10">
         <div className="grid grid-cols-12 gap-10">
           <div className="col-span-3 flex flex-col gap-1 border-r border-slate-200 dark:border-slate-800 pr-6">
@@ -80,14 +83,14 @@ export default function MegaMenu({ menu, cta }: MegaMenuProps) {
               <button
                 key={`category-${section.__key}`}
                 type="button"
-                className="p-3 rounded-lg flex items-center justify-between group cursor-pointer transition-colors text-slate-500 hover:bg-slate-100 dark:hover:bg-slate-800"
+                className="p-3 rounded-lg flex items-center justify-between group cursor-pointer transition-colors text-slate-500 hover:bg-slate-100 dark:hover:bg-slate-800 text-left"
                 data-mega-category={section.__key}
                 data-mega-label={section.title || `Раздел ${idx + 1}`}
                 data-mega-active-classes="bg-slate-100 dark:bg-slate-800 text-slate-900 dark:text-white"
                 data-mega-inactive-classes="text-slate-500"
                 aria-pressed={section.__key === firstKey}
               >
-                <span className="font-bold">{section.title || `Раздел ${idx + 1}`}</span>
+                <span className="font-bold text-left">{section.title || `Раздел ${idx + 1}`}</span>
                 <span className="material-symbols-outlined opacity-0 group-hover:opacity-100 transition-opacity">
                   chevron_right
                 </span>

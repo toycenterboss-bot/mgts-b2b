@@ -8,8 +8,8 @@
 <link href="/assets/fonts/material-symbols-outlined/material-symbols-outlined.css" rel="stylesheet"/>
 <style>
         .mega-menu-blur {
-            backdrop-filter: blur(12px);
-            background-color: rgba(15, 25, 35, 0.95);
+            backdrop-filter: blur(28px) saturate(200%);
+            background-color: rgba(15, 25, 35, 0.18);
         }
         body {
             font-family: 'Space Grotesk', sans-serif;
@@ -27,8 +27,8 @@
             box-shadow: 0 0 100px 20px rgba(17, 115, 212, 0.15);
         }
         .glass-card {
-            backdrop-filter: blur(12px);
-            -webkit-backdrop-filter: blur(12px);
+            backdrop-filter: blur(28px) saturate(200%);
+            -webkit-backdrop-filter: blur(28px) saturate(200%);
             background: rgba(255, 255, 255, 0.03);
             border: 1px solid rgba(255, 255, 255, 0.08);
             transition: all 0.3s ease;
@@ -54,7 +54,7 @@
     </style>
 </head>
 <body data-page="tpl_ai_chat">
-<script src="/cms_loader/cms-loader.js?v=20260219a" defer></script>
+<script src="/cms_loader/cms-loader.js?v=20260305-2" defer></script>
 <script src="/cms_loader/cms-adapter.js?v=20260219a" defer></script>
 <section class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100" data-stitch-block="header_and_mega_menu">
 <!-- Utility Top Bar -->
@@ -345,7 +345,7 @@
 
 </section>
 <section class="bg-background-light dark:bg-background-dark" data-stitch-block="breadcrumbs">
-<div class="max-w-[1200px] mx-auto px-4 lg:px-10 py-4">
+<div class="max-w-7xl mx-auto px-6 py-2">
 <nav class="flex items-center gap-2 text-sm font-medium">
 <a class="text-slate-500 dark:text-slate-400 hover:text-primary transition-colors flex items-center gap-1" href="#">
 <span class="material-symbols-outlined text-base">home</span>
@@ -358,18 +358,18 @@
 </nav>
 </div>
 </section>
-<section class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-white font-display min-h-[85vh] overflow-x-hidden" data-stitch-block="ai_assistant_landing_page">
+<section class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-white font-display min-h-[60vh] overflow-x-hidden" data-stitch-block="ai_assistant_landing_page">
 <!-- Background Layers -->
 <div class="fixed inset-0 tech-pattern pointer-events-none"></div>
 <div class="fixed inset-0 hero-gradient pointer-events-none"></div>
-<div class="relative flex flex-col min-h-[85vh] w-full">
+<div class="relative flex flex-col min-h-[60vh] w-full">
 <!-- Top Navigation -->
 
-<main class="flex-1 flex flex-col items-center">
+<main class="flex-1 flex flex-col items-start">
 <!-- Hero Section -->
-<section class="relative w-full max-w-[1200px] px-4 pt-20 pb-16 flex flex-col items-center text-center">
+<section class="relative w-full max-w-7xl px-6 pt-12 pb-16 flex flex-col items-start text-left">
 <!-- AI Assistant Visual -->
-<div class="relative mb-12 flex items-center justify-center">
+<div class="relative mb-12 flex items-center justify-start">
 <!-- Concentric Circles -->
 <div class="absolute w-[300px] h-[300px] border border-primary/20 rounded-full animate-pulse"></div>
 <div class="absolute w-[450px] h-[450px] border border-primary/10 rounded-full"></div>
@@ -385,11 +385,11 @@
 <h1 class="text-4xl md:text-6xl font-black tracking-tighter leading-tight bg-gradient-to-b from-white to-white/60 bg-clip-text text-transparent">
                         Интеллектуальный помощник для вашего бизнеса
                     </h1>
-<p class="text-lg md:text-xl text-slate-400 font-normal max-w-2xl mx-auto">
+<p class="text-lg md:text-xl text-slate-400 font-normal max-w-2xl">
                         Автоматизируйте рутину с MGTS AI: от управления контрактами до мгновенных отчетов. Получайте данные мгновенно.
                     </p>
 <div class="pt-4">
-<button class="bg-primary hover:bg-primary/90 text-white px-8 py-4 rounded-xl text-lg font-bold shadow-2xl shadow-primary/30 transition-all flex items-center gap-3 mx-auto">
+<button class="bg-primary hover:bg-primary/90 text-white px-8 py-4 rounded-xl text-lg font-bold shadow-2xl shadow-primary/30 transition-all flex items-center gap-3">
 <span>Попробовать AI-помощника</span>
 <span class="material-symbols-outlined">arrow_forward</span>
 </button>

@@ -15,7 +15,8 @@ export default function CareerVacancies({ section }: CareerVacanciesProps) {
   const [showAll, setShowAll] = useState(false);
   const [activeFilter, setActiveFilter] = useState(() => {
     const active = filters.find((f: any) => f?.isActive);
-    return active?.key || "";
+    const key = active?.key || "";
+    return key === "all" ? "" : key;
   });
 
   const filteredVacancies = useMemo(() => {
@@ -40,17 +41,20 @@ export default function CareerVacancies({ section }: CareerVacanciesProps) {
         {filters.length > 0 && (
           <div className="career-vacancies__filters flex flex-wrap gap-2 mb-10 px-2">
             {filters.map((filter: any, idx: number) => {
-              const isActive = filter.key === activeFilter;
+              const isAllFilter = filter.key === "all";
+              const isActive = isAllFilter ? !activeFilter : filter.key === activeFilter;
               return (
                 <button
                   key={`${filter.key || "filter"}-${idx}`}
                   type="button"
-                  className={`career-vacancies__filter px-6 py-2 rounded-full text-sm transition-all ${
+                  className={`career-vacancies__filter px-6 py-2 rounded-full text-sm transition-all${
+                    isActive ? " is-active" : ""
+                  } ${
                     isActive
                       ? "bg-primary text-white font-bold"
                       : "bg-white/5 hover:bg-white/10 text-slate-300 font-medium border border-white/10"
                   }`}
-                  onClick={() => setActiveFilter(filter.key || "")}
+                  onClick={() => setActiveFilter(isAllFilter ? "" : filter.key || "")}
                 >
                   {filter.label || "Все"}
                 </button>

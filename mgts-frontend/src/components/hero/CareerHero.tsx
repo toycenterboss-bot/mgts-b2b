@@ -1,9 +1,29 @@
 import Image from "next/image";
-import { resolveMediaAlt, resolveMediaUrl } from "@/lib/media";
+import { DEFAULT_HERO_FALLBACK_URL, resolveMediaAlt, resolveMediaUrl } from "@/lib/media";
 
 type CareerHeroProps = {
   hero?: any;
 };
+
+const CAREER_HERO_BADGES = [
+  {
+    key: "lead-engineer",
+    name: "Александр",
+    role: "Ведущий Инженер, 15 лет в МГТС",
+    image: "/assets/images/external/8f18f563d6b2.png",
+    borderClass: "border-primary",
+    positionClass: "top-10 right-10",
+    pulse: true,
+  },
+  {
+    key: "devops",
+    name: "Мария",
+    role: "Senior DevOps, 2 года в МГТС",
+    image: "/assets/images/external/b4e4d0d17c1c.png",
+    borderClass: "border-[#E30611]",
+    positionClass: "bottom-10 left-10",
+  },
+];
 
 const formatCareerTitle = (title: string) => {
   const raw = String(title || "").trim();
@@ -28,14 +48,14 @@ const resolveCtaClass = (style?: string) => {
 
 export default function CareerHero({ hero }: CareerHeroProps) {
   if (!hero) return null;
-  const bgUrl = resolveMediaUrl(hero.backgroundImage || null);
+  const bgUrl = resolveMediaUrl(hero.backgroundImage || null) || DEFAULT_HERO_FALLBACK_URL;
   const bgAlt = resolveMediaAlt(hero.backgroundImage || null, hero.title);
   const titleHtml = formatCareerTitle(hero.title);
   const ctas = Array.isArray(hero.ctaButtons) ? hero.ctaButtons : [];
 
   return (
-    <section className="relative overflow-hidden blueprint-pattern bg-background-light dark:bg-background-dark text-slate-900 dark:text-white font-display">
-      <div className="mx-auto max-w-[1280px] px-6 lg:px-10 py-16 lg:py-24">
+    <section className="relative min-h-[60vh] overflow-hidden blueprint-pattern bg-background-light dark:bg-background-dark text-slate-900 dark:text-white font-display">
+      <div className="mx-auto max-w-7xl px-6 py-16 lg:py-24">
         <div className="flex flex-col lg:flex-row items-center gap-12">
           <div className="flex-1 space-y-8 z-10">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs font-bold uppercase tracking-wider">
@@ -70,16 +90,36 @@ export default function CareerHero({ hero }: CareerHeroProps) {
           </div>
           <div className="flex-1 relative w-full aspect-square max-w-[500px] lg:max-w-none">
             <div className="relative w-full h-full rounded-2xl overflow-hidden border border-white/10 shadow-2xl">
-              <div className="absolute inset-0 bg-gradient-to-tr from-background-dark via-transparent to-primary/20"></div>
+              <div className="absolute inset-0 bg-gradient-to-tr from-background-dark/70 via-transparent to-primary/20"></div>
               {bgUrl && (
                 <Image
                   src={bgUrl}
                   alt={bgAlt}
                   width={900}
                   height={900}
-                  className="w-full h-full object-cover grayscale opacity-40 mix-blend-overlay"
+                  className="w-full h-full object-cover grayscale opacity-55 mix-blend-overlay"
                 />
               )}
+              {CAREER_HERO_BADGES.map((badge) => (
+                <div
+                  key={badge.key}
+                  className={`absolute ${badge.positionClass} glass-card p-4 rounded-xl flex items-center gap-4 ${
+                    badge.pulse ? "animate-pulse" : ""
+                  }`}
+                >
+                  <Image
+                    src={badge.image}
+                    alt=""
+                    width={48}
+                    height={48}
+                    className={`w-12 h-12 rounded-full border-2 ${badge.borderClass}`}
+                  />
+                  <div>
+                    <p className="text-xs font-bold text-white">{badge.name}</p>
+                    <p className="text-[10px] text-slate-400">{badge.role}</p>
+                  </div>
+                </div>
+              ))}
               <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none opacity-20">
                 <span className="material-symbols-outlined text-[200px] text-white">hub</span>
               </div>

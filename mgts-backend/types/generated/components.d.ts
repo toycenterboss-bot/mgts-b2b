@@ -587,7 +587,7 @@ export interface PageHero extends Struct.ComponentSchema {
     displayName: 'Hero';
   };
   attributes: {
-    backgroundImage: Schema.Attribute.Media<'images'>;
+    backgroundImage: Schema.Attribute.Media<'images' | 'videos'>;
     ctaButtons: Schema.Attribute.Component<'page.cta-button', true>;
     slaItems: Schema.Attribute.Component<'page.hero-sla-item', true>;
     subtitle: Schema.Attribute.Text;

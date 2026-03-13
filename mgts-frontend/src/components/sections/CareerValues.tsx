@@ -4,6 +4,15 @@ type CareerValuesProps = {
   section: any;
 };
 
+const resolveValueIcon = (item: any, idx: number) => {
+  if (item?.icon) return item.icon;
+  const title = String(item?.title || "").toLowerCase();
+  if (title.includes("надеж")) return "verified_user";
+  if (title.includes("иннова")) return "psychology";
+  if (title.includes("масштаб")) return "rocket_launch";
+  return ["verified_user", "psychology", "rocket_launch"][idx] || "star";
+};
+
 export default function CareerValues({ section }: CareerValuesProps) {
   if (section?.isVisible === false) return null;
   const items = Array.isArray(section.items) ? section.items : [];
@@ -21,20 +30,31 @@ export default function CareerValues({ section }: CareerValuesProps) {
           {section.description && <p className="text-slate-400 max-w-sm text-sm">{section.description}</p>}
         </div>
         <div className="career-values__grid">
-          {items.map((item: any, idx: number) => (
-            <div
-              key={`value-${idx}`}
-              className="career-values__item glass-card p-8 rounded-xl border border-white/5 hover:border-primary/50 transition-all group"
-            >
-              {item.icon && (
-                <div className="w-14 h-14 bg-primary/10 rounded-lg flex items-center justify-center text-primary mb-6 group-hover:bg-primary group-hover:text-white transition-all">
-                  <Icon name={item.icon} size={28} />
+          {items.map((item: any, idx: number) => {
+            const iconName = resolveValueIcon(item, idx);
+            return (
+              <div
+                key={`value-${idx}`}
+                className="career-values__item glass-card p-8 rounded-xl border border-white/5 hover:border-primary/50 transition-all group"
+              >
+                {iconName && (
+                  <div className="w-14 h-14 bg-primary/10 rounded-lg flex items-center justify-center text-primary mb-6 group-hover:bg-primary group-hover:text-white transition-all">
+                    <Icon name={iconName} size={28} />
+                  </div>
+                )}
+              {item.title && (
+                <div className="career-values__item-title text-xl font-bold mb-3 text-white">
+                  {item.title}
                 </div>
               )}
-              {item.title && <div className="career-values__item-title">{item.title}</div>}
-              {item.description && <div className="career-values__item-text">{item.description}</div>}
-            </div>
-          ))}
+              {item.description && (
+                <div className="career-values__item-text text-slate-400 leading-relaxed">
+                  {item.description}
+                </div>
+              )}
+              </div>
+            );
+          })}
         </div>
       </div>
     </section>

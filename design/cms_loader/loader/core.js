@@ -133,8 +133,17 @@
     style.id = "mgts-base-overrides";
     style.textContent = `
       .mega-menu-blur {
-        backdrop-filter: blur(12px);
-        background-color: rgba(15, 25, 35, 0.95);
+        backdrop-filter: blur(32px) saturate(220%);
+        -webkit-backdrop-filter: blur(32px) saturate(220%);
+        background-color: rgba(15, 25, 35, 0.08) !important;
+      }
+      .min-h-\\[60vh\\] {
+        min-height: 60vh !important;
+      }
+      @media (min-width: 1024px) {
+        .lg\\:min-h-\\[60vh\\] {
+          min-height: 60vh !important;
+        }
       }
     `;
     document.head.appendChild(style);
@@ -272,6 +281,23 @@
       html.light [data-stitch-block="footer_and_contact_form"] {
         color: #0f172a;
       }
+      html.light [data-stitch-block="footer_and_contact_form"] h1,
+      html.light [data-stitch-block="footer_and_contact_form"] h2,
+      html.light [data-stitch-block="footer_and_contact_form"] h3,
+      html.light [data-stitch-block="footer_and_contact_form"] [data-cms-order-title] {
+        color: #0f172a !important;
+      }
+      html.light [data-stitch-block="footer_and_contact_form"] [data-cms-order-title],
+      html.light [data-stitch-block="footer_and_contact_form"] h1,
+      html.light [data-stitch-block="footer_and_contact_form"] h2,
+      html.light [data-stitch-block="footer_and_contact_form"] h3 {
+        color: #0f172a !important;
+        -webkit-text-fill-color: #0f172a !important;
+      }
+      html.light [data-stitch-block="footer_and_contact_form"] label,
+      html.light [data-stitch-block="footer_and_contact_form"] p {
+        color: #0f172a !important;
+      }
       html.light [data-stitch-block="footer_and_contact_form"] .form-glass {
         background: #ffffff !important;
         border-color: #e2e8f0 !important;
@@ -294,24 +320,68 @@
       }
       html.light [data-order-form-section] {
         color: #0f172a;
+        background-color: #f8fafc !important;
+      }
+      html.light [data-order-form-section] h1,
+      html.light [data-order-form-section] h2,
+      html.light [data-order-form-section] h3,
+      html.light [data-order-form-section] [data-cms-order-title] {
+        color: #0f172a !important;
+      }
+      html.light [data-order-form-section] [data-cms-order-title],
+      html.light [data-order-form-section] h1,
+      html.light [data-order-form-section] h2,
+      html.light [data-order-form-section] h3 {
+        color: #0f172a !important;
+        -webkit-text-fill-color: #0f172a !important;
+      }
+      html.light [data-order-form-section] label,
+      html.light [data-order-form-section] p {
+        color: #0f172a !important;
       }
       html.light [data-order-form-section] [class*="text-gray-"] {
         color: #475569 !important;
+      }
+      html.light [data-order-form-section] [class*="text-white/"],
+      html.light [data-order-form-section] [class*="text-white"],
+      html.light [data-order-form-section] .text-white {
+        color: #0f172a !important;
       }
       html.light [data-order-form-section] .bg-primary.text-white,
       html.light [data-order-form-section] .bg-primary.text-white * {
         color: #ffffff !important;
       }
+      html.light [data-order-form-section] .form-glass {
+        background: #ffffff !important;
+        border-color: #e2e8f0 !important;
+        box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+      }
+      html.light [data-order-form-section] input,
+      html.light [data-order-form-section] textarea {
+        background-color: #ffffff !important;
+        color: #0f172a !important;
+        border-color: #e2e8f0 !important;
+      }
+      html.light [data-order-form-section] input::placeholder,
+      html.light [data-order-form-section] textarea::placeholder {
+        color: #94a3b8 !important;
+      }
       html.light [data-stitch-block="service_consultation_card"] {
-        color: #ffffff !important;
+        color: #0f172a !important;
+      }
+      html.light [data-stitch-block="service_consultation_card"] h1,
+      html.light [data-stitch-block="service_consultation_card"] h2,
+      html.light [data-stitch-block="service_consultation_card"] h3,
+      html.light [data-stitch-block="service_consultation_card"] [data-service-consult-title] {
+        color: #0f172a !important;
       }
       html.light [data-stitch-block="service_consultation_card"] .text-white,
       html.light [data-stitch-block="service_consultation_card"] [class*="text-white/"] {
-        color: #ffffff !important;
+        color: #0f172a !important;
       }
       html.light [data-stitch-block="service_consultation_card"] .text-slate-400,
       html.light [data-stitch-block="service_consultation_card"] .text-slate-500 {
-        color: rgba(226, 232, 240, 0.82) !important;
+        color: #475569 !important;
       }
       html.light [data-stitch-block="service_consultation_card"] .bg-primary.text-white,
       html.light [data-stitch-block="service_consultation_card"] .bg-primary.text-white * {
@@ -487,8 +557,8 @@
         color: #64748b !important;
       }
       html.light .mega-menu-blur {
-        background-color: rgba(255, 255, 255, 0.95) !important;
-        border-color: rgba(15, 23, 42, 0.08) !important;
+        background-color: rgba(255, 255, 255, 0.18) !important;
+        border-color: rgba(15, 23, 42, 0.12) !important;
       }
       html.light .hero-gradient,
       html.light .tech-gradient,
@@ -730,12 +800,21 @@
 
   ensureThemeLinkDecorator();
 
+  const normalizeScenarioSlug = (value) => {
+    const trimmed = String(value || "").trim();
+    if (!trimmed) return trimmed;
+    if (!trimmed.includes("/") && /^scenario[-_]/i.test(trimmed)) {
+      return `services/${trimmed}`;
+    }
+    return trimmed;
+  };
+
   /** @returns {string} */
   function getSlugFromQueryOrPath() {
     try {
       const qs = new URLSearchParams(window.location.search);
       const fromQuery = String(qs.get("slug") || "").trim();
-      if (fromQuery) return fromQuery;
+      if (fromQuery) return normalizeScenarioSlug(fromQuery);
     } catch {
       // ignore
     }
@@ -749,7 +828,7 @@
     // If it's an HTML page path (design server), we usually rely on ?slug=...
     if (cleaned.endsWith(".html")) return "";
 
-    return cleaned;
+    return normalizeScenarioSlug(cleaned);
   }
 
   function unwrapApiData(payload) {

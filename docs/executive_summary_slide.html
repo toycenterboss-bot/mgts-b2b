@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MGTS — Executive Summary</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600;700&family=Fraunces:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --bg: #0b0f1a;
+        --bg-2: #111827;
+        --text: #e5e7eb;
+        --muted: #9ca3af;
+        --accent: #ff4d4f;
+        --accent-2: #22d3ee;
+        --card: #111827;
+        --card-border: rgba(255, 255, 255, 0.08);
+        --success: #7cfc8d;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: radial-gradient(1200px 800px at 80% -10%, #1f2937 0%, var(--bg) 60%);
+        color: var(--text);
+        font-family: "Manrope", system-ui, -apple-system, sans-serif;
+      }
+
+      .slide {
+        width: 1600px;
+        height: 900px;
+        margin: 24px auto;
+        background: linear-gradient(135deg, #0b0f1a 0%, #0f172a 55%, #0b1220 100%);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-radius: 28px;
+        padding: 48px 56px;
+        display: grid;
+        grid-template-rows: auto auto 1fr auto;
+        gap: 28px;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .glow {
+        position: absolute;
+        inset: -200px -200px auto auto;
+        width: 520px;
+        height: 520px;
+        background: radial-gradient(circle, rgba(255, 77, 79, 0.25) 0%, rgba(255, 77, 79, 0) 70%);
+        filter: blur(10px);
+        pointer-events: none;
+      }
+
+      .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+      }
+
+      .brand img {
+        height: 40px;
+        width: auto;
+        filter: drop-shadow(0 8px 24px rgba(255, 77, 79, 0.35));
+      }
+
+      .title {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+      }
+
+      .title h1 {
+        margin: 0;
+        font-family: "Fraunces", serif;
+        font-size: 36px;
+        letter-spacing: 0.5px;
+      }
+
+      .title span {
+        color: var(--muted);
+        font-size: 14px;
+      }
+
+      .date {
+        color: var(--muted);
+        font-size: 14px;
+      }
+
+      .kpis {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 18px;
+      }
+
+      .card {
+        background: rgba(17, 24, 39, 0.9);
+        border: 1px solid var(--card-border);
+        border-radius: 20px;
+        padding: 18px 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        min-height: 92px;
+      }
+
+      .card .label {
+        color: var(--muted);
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+
+      .card .value {
+        font-size: 28px;
+        font-weight: 700;
+      }
+
+      .card .hint {
+        color: var(--muted);
+        font-size: 13px;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: 1.15fr 1fr;
+        gap: 22px;
+      }
+
+      .panel {
+        background: rgba(17, 24, 39, 0.85);
+        border: 1px solid var(--card-border);
+        border-radius: 22px;
+        padding: 22px 24px;
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+      }
+
+      .panel h3 {
+        margin: 0;
+        font-size: 18px;
+        letter-spacing: 0.3px;
+      }
+
+      .stack {
+        display: grid;
+        gap: 10px;
+      }
+
+      .stack .layer {
+        background: #0f172a;
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-radius: 14px;
+        padding: 12px 14px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 14px;
+      }
+
+      .stack .layer span {
+        color: var(--muted);
+        font-size: 12px;
+      }
+
+      .bars {
+        display: grid;
+        gap: 12px;
+      }
+
+      .bar-row {
+        display: grid;
+        grid-template-columns: 140px 1fr 70px;
+        align-items: center;
+        gap: 12px;
+        font-size: 13px;
+      }
+
+      .bar {
+        height: 12px;
+        background: rgba(255, 255, 255, 0.08);
+        border-radius: 999px;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .bar > span {
+        position: absolute;
+        inset: 0;
+        width: 0;
+        background: linear-gradient(90deg, var(--accent) 0%, var(--accent-2) 100%);
+        border-radius: inherit;
+      }
+
+      .bar-row:nth-child(2) .bar > span {
+        background: linear-gradient(90deg, #f97316 0%, #fde047 100%);
+      }
+
+      .bar-row:nth-child(3) .bar > span {
+        background: linear-gradient(90deg, #22c55e 0%, #14b8a6 100%);
+      }
+
+      .bar-row:nth-child(4) .bar > span {
+        background: linear-gradient(90deg, #60a5fa 0%, #a78bfa 100%);
+      }
+
+      .bar-row:nth-child(5) .bar > span {
+        background: linear-gradient(90deg, #e879f9 0%, #fb7185 100%);
+      }
+
+      .foot {
+        display: grid;
+        grid-template-columns: 1.2fr 1fr;
+        gap: 22px;
+        align-items: center;
+      }
+
+      .pill {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 6px 12px;
+        border-radius: 999px;
+        background: rgba(124, 252, 141, 0.12);
+        color: var(--success);
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+
+      .summary {
+        font-size: 14px;
+        color: var(--muted);
+        line-height: 1.4;
+      }
+
+      .metrics {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 14px;
+      }
+
+      .metric {
+        background: rgba(17, 24, 39, 0.8);
+        border: 1px solid var(--card-border);
+        border-radius: 16px;
+        padding: 12px 14px;
+        font-size: 13px;
+      }
+
+      .metric strong {
+        display: block;
+        font-size: 18px;
+        color: var(--text);
+        margin-bottom: 2px;
+      }
+
+      .note {
+        color: var(--muted);
+        font-size: 12px;
+      }
+
+      @media (max-width: 1680px) {
+        .slide {
+          transform: scale(0.9);
+          transform-origin: top center;
+        }
+      }
+
+      @media (max-width: 1280px) {
+        .slide {
+          width: 100%;
+          height: auto;
+          border-radius: 0;
+          margin: 0;
+          transform: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="slide">
+      <div class="glow"></div>
+      <header class="header">
+        <div class="brand">
+          <img src="../mgts-frontend/public/assets/img/mgts-logo.svg" alt="MGTS" />
+          <div class="title">
+            <h1>Executive Summary • MGTS Digital Stack</h1>
+            <span>Архитектура, объём работ и готовность к масштабированию</span>
+          </div>
+        </div>
+        <div class="date">10 марта 2026</div>
+      </header>
+
+      <section class="kpis">
+        <div class="card">
+          <div class="label">Масштаб репозитория</div>
+          <div class="value">14 579 файлов</div>
+          <div class="hint">985 папок • 8.0 GB</div>
+        </div>
+        <div class="card">
+          <div class="label">CMS / Backend (Strapi)</div>
+          <div class="value">9 content‑types</div>
+          <div class="hint">68 компонентов • 4 категории</div>
+        </div>
+        <div class="card">
+          <div class="label">Frontend (Next.js 16)</div>
+          <div class="value">9 страниц</div>
+          <div class="hint">61 компонент • App Router</div>
+        </div>
+        <div class="card">
+          <div class="label">Design‑library</div>
+          <div class="value">61 HTML‑блок</div>
+          <div class="hint">29 страниц • 103 stitch‑сцены</div>
+        </div>
+      </section>
+
+      <section class="grid">
+        <div class="panel">
+          <h3>Архитектурный слой и готовность</h3>
+          <div class="stack">
+            <div class="layer">
+              <strong>Design System / HTML‑библиотека</strong>
+              <span>61 блок • deps + block</span>
+            </div>
+            <div class="layer">
+              <strong>CMS‑Loader интерактивов</strong>
+              <span>override, page‑scoped логика</span>
+            </div>
+            <div class="layer">
+              <strong>CMS (Strapi 5)</strong>
+              <span>контент‑типы, компоненты, медиа</span>
+            </div>
+            <div class="layer">
+              <strong>Frontend (Next.js)</strong>
+              <span>App Router, UI‑компоненты</span>
+            </div>
+            <div class="layer">
+              <strong>Документация & процессы</strong>
+              <span>600+ файлов, гайды и миграции</span>
+            </div>
+          </div>
+          <div class="summary">
+            Результат: собран полный цифровой стек — от дизайн‑библиотеки и
+            интерактивов до CMS‑контента и прод‑фронтенда. Проект готов к
+            масштабированию и дальнейшему релизу.
+          </div>
+          <div class="pill">Ready for scale</div>
+        </div>
+
+        <div class="panel">
+          <h3>Объём по слоям (GB)</h3>
+          <div class="bars">
+            <div class="bar-row">
+              <div>mgts‑backend</div>
+              <div class="bar"><span style="width: 100%"></span></div>
+              <div>4.4</div>
+            </div>
+            <div class="bar-row">
+              <div>strapi‑backups</div>
+              <div class="bar"><span style="width: 45%"></span></div>
+              <div>2.0</div>
+            </div>
+            <div class="bar-row">
+              <div>mgts‑frontend</div>
+              <div class="bar"><span style="width: 16%"></span></div>
+              <div>0.7</div>
+            </div>
+            <div class="bar-row">
+              <div>docs</div>
+              <div class="bar"><span style="width: 7%"></span></div>
+              <div>0.29</div>
+            </div>
+            <div class="bar-row">
+              <div>design</div>
+              <div class="bar"><span style="width: 2.5%"></span></div>
+              <div>0.11</div>
+            </div>
+          </div>
+          <div class="note">Примечание: объёмы без учёта внешних артефактов CI.</div>
+        </div>
+      </section>
+
+      <section class="foot">
+        <div class="metrics">
+          <div class="metric">
+            <strong>HTML‑блоки</strong>
+            61 блок • deps + block
+          </div>
+          <div class="metric">
+            <strong>Собранные страницы</strong>
+            29 HTML‑страниц
+          </div>
+          <div class="metric">
+            <strong>Stitch‑сборки</strong>
+            103 сцены
+          </div>
+        </div>
+        <div class="summary">
+          Конфигурация включает бэкапы Strapi, медиабиблиотеку и полную
+          документацию по CMS, структуре контента, исправлениям и процессам.
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

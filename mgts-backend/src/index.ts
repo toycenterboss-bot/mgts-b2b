@@ -20,6 +20,39 @@ export default {
     // Автоматический импорт/миграции при первом запуске (legacy).
     // IMPORTANT: Disabled by default to avoid interfering with the new CMS_TARGET_SCHEMA/import v2 pipeline.
     try {
+      // Optional: seed admin user from env (for clean local setups).
+      const adminEmail = process.env.STRAPI_ADMIN_EMAIL;
+      const adminPassword = process.env.STRAPI_ADMIN_PASSWORD;
+      if (adminEmail && adminPassword) {
+        const adminQuery = strapi.db.query('admin::user');
+        const existingAdmin = await adminQuery.findOne({ where: { email: adminEmail } });
+        if (!existingAdmin) {
+          const roleQuery = strapi.db.query('admin::role');
+          const superAdminRole = await roleQuery.findOne({ where: { code: 'strapi-super-admin' } });
+          const username =
+            process.env.STRAPI_ADMIN_USERNAME ||
+            (String(adminEmail).split('@')[0] || 'admin');
+          const firstname = process.env.STRAPI_ADMIN_FIRSTNAME || 'Admin';
+          const lastname = process.env.STRAPI_ADMIN_LASTNAME || 'User';
+
+          await adminQuery.create({
+            data: {
+              email: adminEmail,
+              username,
+              firstname,
+              lastname,
+              password: adminPassword,
+              blocked: false,
+              isActive: true,
+              roles: superAdminRole ? [superAdminRole.id] : [],
+            },
+          });
+          console.log('✅ Admin user created from STRAPI_ADMIN_EMAIL');
+        }
+      } else {
+        console.log('ℹ️  Admin bootstrap skipped (set STRAPI_ADMIN_EMAIL/STRAPI_ADMIN_PASSWORD).');
+      }
+
       const pagesCount = await strapi.entityService.findMany('api::page.page', {});
       
       const ENABLE_BOOTSTRAP_IMPORT = process.env.MGTS_BOOTSTRAP_IMPORT === '1';

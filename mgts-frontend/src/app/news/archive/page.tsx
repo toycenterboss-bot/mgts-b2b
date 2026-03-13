@@ -3,14 +3,15 @@ import Breadcrumbs from "@/components/navigation/Breadcrumbs";
 import NewsListing from "@/components/news/NewsListing";
 
 type NewsArchivePageProps = {
-  searchParams?: { page?: string; tag?: string; year?: string };
+  searchParams?: Promise<{ page?: string; tag?: string; year?: string }> | { page?: string; tag?: string; year?: string };
 };
 
 export default async function NewsArchivePage({ searchParams }: NewsArchivePageProps) {
   const pageSize = 12;
-  const page = Math.max(1, parseInt(searchParams?.page || "1", 10) || 1);
-  const tag = (searchParams?.tag || "").trim();
-  const year = (searchParams?.year || "").trim();
+  const resolvedParams = searchParams ? await searchParams : {};
+  const page = Math.max(1, parseInt(resolvedParams?.page || "1", 10) || 1);
+  const tag = (resolvedParams?.tag || "").trim();
+  const year = (resolvedParams?.year || "").trim();
   const [payload, tagsPayload, yearsPayload] = await Promise.all([
     getNewsList({ page, pageSize, tag, year: year ? parseInt(year, 10) : undefined }),
     getNewsTags(),
@@ -37,7 +38,7 @@ export default async function NewsArchivePage({ searchParams }: NewsArchivePageP
       >
         <div className="fixed top-0 right-0 w-[500px] h-[500px] glow-leak pointer-events-none -z-10 translate-x-1/2 -translate-y-1/2"></div>
         <div className="fixed bottom-0 left-0 w-[800px] h-[800px] glow-leak pointer-events-none -z-10 -translate-x-1/4 translate-y-1/4"></div>
-        <main className="max-w-[1400px] mx-auto px-8 py-12">
+      <main className="max-w-7xl mx-auto px-6 py-12">
           <div className="mb-16 relative">
             <div className="absolute -left-8 top-0 h-full w-1 bg-primary rounded-full"></div>
             <h1 className="text-6xl md:text-7xl font-black tracking-tighter mb-6 bg-gradient-to-br from-white via-white to-white/30 bg-clip-text text-transparent">

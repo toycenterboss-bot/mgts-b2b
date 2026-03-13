@@ -46,6 +46,10 @@ def _map_path(path: str) -> str | None:
         if rest and rest not in ("archive", "archive/"):
             return "/html_pages/tpl_news_detail.html"
 
+    # Scenario pages (Solutions section)
+    if p.startswith("/services/scenario-") or p.startswith("/services/scenario_"):
+        return "/html_pages/tpl_scenario.html"
+
     # Home route
     if p == "/" or p == "/index.html":
         return "/html_pages/tpl_home.html"
@@ -70,6 +74,13 @@ class Handler(http.server.SimpleHTTPRequestHandler):
         # Force root to be `design/` even if CWD differs.
         rel = os.path.relpath(out, os.getcwd())
         return os.path.join(ROOT, rel)
+
+    def end_headers(self) -> None:
+        # Prevent aggressive caching during dev previews.
+        self.send_header("Cache-Control", "no-store, no-cache, must-revalidate, max-age=0")
+        self.send_header("Pragma", "no-cache")
+        self.send_header("Expires", "0")
+        super().end_headers()
 
     def log_message(self, fmt: str, *args) -> None:
         # Keep logs concise

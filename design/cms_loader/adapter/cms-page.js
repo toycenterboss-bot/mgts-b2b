@@ -33,11 +33,30 @@
     renderCareerCvForm,
   } = core;
 
+  const DEFAULT_HERO_BG = `${STRAPI_BASE}/uploads/4dcbb3aa0967_15f7f8b9fc.png`;
+  const isVideoMedia = (media) => {
+    if (!media) return false;
+    const pick = Array.isArray(media) ? media[0] : media;
+    const mime = pick?.mime || pick?.attributes?.mime || pick?.data?.attributes?.mime;
+    if (mime) return String(mime).toLowerCase().startsWith("video/");
+    const url = resolveAnyMediaUrl(pick);
+    return Boolean(url && /\.(mp4|mov|m4v|webm|ogg)(\?|#|$)/i.test(url));
+  };
+
+  const normalizeScenarioSlug = (value) => {
+    const trimmed = String(value || "").trim();
+    if (!trimmed) return trimmed;
+    if (!trimmed.includes("/") && /^scenario[-_]/i.test(trimmed)) {
+      return `services/${trimmed}`;
+    }
+    return trimmed;
+  };
+
   async function renderCmsPage() {
     const root = document.querySelector("[data-cms-page]");
     if (!root) return;
 
-    const slug = getSlugFromQueryOrPath("");
+    const slug = normalizeScenarioSlug(getSlugFromQueryOrPath(""));
     const demo = root.querySelector("[data-cms-demo]");
     const qs = new URLSearchParams(window.location.search || "");
     const debugEnabled = qs.get("cmsDebug") === "1";
@@ -108,41 +127,46 @@
       sectionEl.style.marginRight = "calc(50% - 50vw)";
     };
 
-    const renderCmsHero = () => {
-      if (page?.template && page.template !== "TPL_CMS_Page") return null;
+    const renderCmsHero = (opts = {}) => {
       const hero = page.hero;
       if (!hero) return null;
+      const fullBleed = opts.fullBleed !== false;
       const title = String(hero.title || page.title || "");
       const subtitle = hero.subtitle ? String(hero.subtitle) : "";
       const ctaButtons = Array.isArray(hero.ctaButtons) ? hero.ctaButtons.filter(Boolean) : [];
 
       const heroSection = document.createElement("section");
-      heroSection.className = "relative overflow-hidden py-16 lg:py-24 bg-background-dark w-full";
+      heroSection.className =
+        "relative overflow-hidden min-h-[60vh] flex items-center py-16 lg:py-24 bg-background-dark w-full text-left";
       heroSection.setAttribute("data-cms-hero", "");
-      applyFullBleed(heroSection);
+      if (fullBleed) {
+        applyFullBleed(heroSection);
+      } else {
+        heroSection.classList.add("mb-10");
+      }
 
-      const bgUrl = resolveAnyMediaUrl(hero.backgroundImage);
+      const bgUrl = resolveAnyMediaUrl(hero.backgroundImage) || DEFAULT_HERO_BG;
       if (bgUrl) {
         heroSection.style.backgroundImage =
-          "linear-gradient(180deg, rgba(6,10,18,0.78) 0%, rgba(6,10,18,0.85) 100%), " +
+          "linear-gradient(180deg, rgba(6,10,18,0.55) 0%, rgba(6,10,18,0.65) 100%), " +
           `url('${bgUrl}')`;
         heroSection.style.backgroundSize = "cover";
         heroSection.style.backgroundPosition = "center";
       }
 
       const container = document.createElement("div");
-      container.className = "max-w-[1280px] mx-auto px-6 lg:px-10";
+      container.className = "max-w-7xl mx-auto px-6 w-full text-left";
 
       if (title) {
         const h1 = document.createElement("h1");
-        h1.className = "text-4xl lg:text-6xl font-black leading-[1.1] tracking-tight text-white mb-6";
+        h1.className = "text-4xl lg:text-6xl font-black leading-[1.1] tracking-tight text-white mb-6 text-left";
         h1.textContent = title;
         container.appendChild(h1);
       }
 
       if (subtitle) {
         const p = document.createElement("p");
-        p.className = "text-lg text-slate-300 max-w-2xl leading-relaxed mb-8";
+        p.className = "text-lg text-slate-300 max-w-2xl leading-relaxed mb-8 text-left";
         p.textContent = subtitle;
         container.appendChild(p);
       }
@@ -183,12 +207,14 @@
     }
     const appendSectionNode = (host, node, section) => {
       if (!host || !node) return;
-      const hasBg = !!resolveAnyMediaUrl(section?.backgroundImage);
-      if (section?.isVisible === false && !hasBg && node.childNodes && node.childNodes.length) {
+      if (section?.isVisible === false && node.childNodes && node.childNodes.length) {
         const frag = document.createDocumentFragment();
         while (node.firstChild) frag.appendChild(node.firstChild);
         host.appendChild(frag);
         return;
+      }
+      if (isCatalogPage && section?.__component === "page.section-cards" && node && node.style) {
+        node.style.setProperty("margin-bottom", "-6rem", "important");
       }
       if (debugEnabled && node && node.style) {
         node.style.outline = "2px dashed rgba(34,197,94,0.7)";
@@ -350,29 +376,58 @@
     const sections = Array.isArray(page.sections) ? page.sections : [];
     const isDeepNavTemplate =
       document.body && document.body.getAttribute("data-page") === "tpl_deepnav";
-    const cardVariant =
-      isDeepNavTemplate || page?.template === "TPL_DeepNav" || page?.template === "TPL_Service"
-        ? "service-cards"
-        : "default";
+    const isCatalogPage =
+      ["partners_all_services", "developers", "operators", "government", "services"].indexOf(String(slug || "")) !== -1;
+    if (isCatalogPage) {
+      const cmsRoot = document.querySelector('[data-stitch-block="cms_page_renderer"]');
+      if (cmsRoot) cmsRoot.classList.remove("min-h-screen");
+    }
+    const cardVariant = "home-service-cards";
     const orderSection = sections.find((s) => s?.__component === "page.service-order-form");
     const consultSectionData = sections.find((s) => s?.__component === "page.service-consultation-card");
     const orderSectionEl = document.querySelector("[data-order-form-section]");
     if (contentHost && !isCeo) {
-      const existingHero = contentHost.querySelector("[data-cms-hero]");
-      if (existingHero) existingHero.remove();
-      const heroSection = renderCmsHero();
+      const existingHeroes = document.querySelectorAll("[data-cms-hero]");
+      if (existingHeroes.length) {
+        existingHeroes.forEach((el) => el.remove());
+      }
+      const isDeepNavHero =
+        page?.template === "TPL_DeepNav" || document.body.getAttribute("data-page") === "tpl_deepnav";
+      const heroSection = renderCmsHero({ fullBleed: true });
       if (heroSection) {
-        if (sectionsHost && sectionsHost.parentElement) {
+        if (isDeepNavHero) {
+          const titleEl = root.querySelector("[data-cms-title]");
+          if (titleEl && titleEl.parentElement) {
+            titleEl.parentElement.classList.add("hidden");
+          }
+        }
+        const cmsSection =
+          root.closest('[data-stitch-block="cms_page_renderer"]') ||
+          document.querySelector('[data-stitch-block="cms_page_renderer"]');
+        const cmsMain = cmsSection ? cmsSection.querySelector("[data-cms-page]") : null;
+        const cmsMainTarget = cmsMain || (root && root.matches("[data-cms-page]") ? root : null);
+        if (cmsSection && cmsMainTarget) {
+          cmsSection.insertBefore(heroSection, cmsMainTarget);
+          if (isDeepNavHero) {
+            cmsMainTarget.classList.remove("py-12");
+            cmsMainTarget.classList.add("pt-0", "pb-12");
+          }
+        } else if (cmsSection && cmsSection.parentElement) {
+          cmsSection.parentElement.insertBefore(heroSection, cmsSection);
+        } else if (sectionsHost && sectionsHost.parentElement) {
           sectionsHost.parentElement.insertBefore(heroSection, sectionsHost);
-        } else {
+        } else if (contentHost) {
           contentHost.insertBefore(heroSection, contentHost.firstChild);
         }
       }
     }
 
+    if (sectionsHost && isCatalogPage) {
+      sectionsHost.className = "space-y-3";
+    }
     if (!sectionsHost && contentHost) {
       sectionsHost = document.createElement("div");
-      sectionsHost.className = "space-y-10";
+      sectionsHost.className = isCatalogPage ? "space-y-3" : "space-y-10";
       sectionsHost.setAttribute("data-cms-sections", "");
       contentHost.appendChild(sectionsHost);
     }
@@ -630,6 +685,12 @@
       const consultSection = document.querySelector('[data-stitch-block="service_consultation_card"]');
       if (consultSection) {
         consultSection.classList.remove("hidden");
+        if (isCatalogPage) {
+          consultSection.classList.remove("py-24");
+          consultSection.classList.add("py-8");
+          consultSection.style.setProperty("padding-top", "1.5rem", "important");
+          consultSection.style.setProperty("padding-bottom", "2.5rem", "important");
+        }
         const title = consultSection.querySelector("[data-service-consult-title]");
         const subtitle = consultSection.querySelector("[data-service-consult-subtitle]");
         if (title) title.textContent = String(consultSectionData.title || "");
@@ -649,7 +710,13 @@
       } else {
         const footer = document.querySelector('[data-stitch-block="footer_and_contact_form"]');
         const holder = document.createElement("section");
-        holder.className = "py-24 bg-background-light dark:bg-background-dark relative";
+        holder.className = `${
+          isCatalogPage ? "py-8" : "py-24"
+        } bg-background-light dark:bg-background-dark relative`;
+        if (isCatalogPage) {
+          holder.style.setProperty("padding-top", "1.5rem", "important");
+          holder.style.setProperty("padding-bottom", "2.5rem", "important");
+        }
         holder.setAttribute("data-stitch-block", "service_consultation_card");
         holder.innerHTML = `
           <div class="max-w-[1200px] mx-auto px-6 lg:px-10">
@@ -698,6 +765,8 @@
       }
       if (orderSectionEl) orderSectionEl.classList.add("hidden");
     }
+
+    // Keep catalog spacing tweaks minimal; do not override consultation card markup.
 
     const sidebarPromise = Promise.resolve(initSidebar(page, root));
     if (isCeo) {
@@ -815,46 +884,67 @@
         if (img) img.setAttribute("src", portrait);
       }
 
-      const videoUrl = resolveAnyMediaUrl(feedbackData.video);
-      const modal = ceoScope.querySelector("#ceo-video-modal");
-      const playBtn = ceoScope.querySelector("[data-modal-open='ceo-video-modal']");
-      const badge = ceoScope.querySelector(".absolute.bottom-6.left-6");
-      if (videoUrl) {
-        const videoEl = ceoScope.querySelector("video");
-        if (videoEl) {
-          videoEl.setAttribute("src", videoUrl);
-          videoEl.load();
-        }
-        if (modal && playBtn) {
-          const openModal = () => {
-            modal.classList.remove("hidden");
-            modal.setAttribute("aria-hidden", "false");
-            const v = modal.querySelector("video");
-            if (v && v.play) {
-              v.play().catch(() => {
-                // ignore autoplay restrictions
-              });
-            }
-          };
-          const closeModal = () => {
-            modal.classList.add("hidden");
-            modal.setAttribute("aria-hidden", "true");
-            const v = modal.querySelector("video");
-            if (v && v.pause) v.pause();
-          };
+      const heroVideoUrl = isVideoMedia(page?.hero?.backgroundImage)
+        ? resolveAnyMediaUrl(page?.hero?.backgroundImage)
+        : null;
+      const videoUrl = resolveAnyMediaUrl(feedbackData.video) || heroVideoUrl;
+      const videoEl = ceoScope.querySelector("[data-ceo-video]");
+      const playBtn = ceoScope.querySelector("[data-ceo-video-play]");
+      const closeBtn = ceoScope.querySelector("[data-ceo-video-close]");
+      const overlay = ceoScope.querySelector("[data-ceo-video-overlay]");
+      const badge = ceoScope.querySelector("[data-ceo-video-badge]");
+
+      if (videoUrl && videoEl) {
+        videoEl.setAttribute("src", videoUrl);
+        videoEl.load();
+        if (overlay) overlay.classList.remove("hidden");
+        if (badge) badge.classList.remove("hidden");
+        if (closeBtn) closeBtn.classList.add("hidden");
+
+        const showVideo = () => {
+          videoEl.classList.remove("hidden");
+          if (overlay) overlay.classList.add("hidden");
+          if (badge) badge.classList.add("hidden");
+          if (closeBtn) closeBtn.classList.remove("hidden");
+          if (videoEl.play) {
+            videoEl.play().catch(() => {
+              // ignore autoplay restrictions
+            });
+          }
+        };
+
+        const hideVideo = () => {
+          if (videoEl.pause) videoEl.pause();
+          try {
+            videoEl.currentTime = 0;
+          } catch {
+            // ignore seek errors
+          }
+          videoEl.classList.add("hidden");
+          if (overlay) overlay.classList.remove("hidden");
+          if (badge) badge.classList.remove("hidden");
+          if (closeBtn) closeBtn.classList.add("hidden");
+        };
+
+        if (playBtn) {
           playBtn.addEventListener("click", (e) => {
             e.preventDefault();
-            openModal();
+            showVideo();
           });
-          const overlay = modal.querySelector("[data-modal-overlay]");
-          const closeBtn = modal.querySelector("[data-modal-close]");
-          if (overlay) overlay.addEventListener("click", closeModal);
-          if (closeBtn) closeBtn.addEventListener("click", closeModal);
         }
+        if (closeBtn) {
+          closeBtn.addEventListener("click", (e) => {
+            e.preventDefault();
+            hideVideo();
+          });
+        }
+        videoEl.addEventListener("ended", hideVideo);
       } else {
         if (playBtn) playBtn.classList.add("hidden");
+        if (overlay) overlay.classList.add("hidden");
         if (badge) badge.classList.add("hidden");
-        if (modal) modal.remove();
+        if (closeBtn) closeBtn.classList.add("hidden");
+        if (videoEl) videoEl.remove();
       }
 
       const form = feedbackSection.querySelector("form");

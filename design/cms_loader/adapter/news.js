@@ -92,7 +92,11 @@
           added += 1;
         }
       } else if (s.__component === "page.section-cards") {
-        const node = renderCardGrid(s.title || "", s.cards || [], { columns: s.columns });
+        const node = renderCardGrid(s.title || "", s.cards || [], {
+          columns: s.columns,
+          subtitle: s.subtitle,
+          variant: "home-service-cards",
+        });
         if (node) {
           docs.appendChild(node);
           added += 1;

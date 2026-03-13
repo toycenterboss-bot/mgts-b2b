@@ -2,6 +2,7 @@
 
 import { useMemo, useState } from "react";
 import Icon from "@/components/ui/Icon";
+import { normalizeCmsHref } from "@/lib/routes";
 
 type SegmentScenarioCardsProps = {
   section: any;
@@ -16,7 +17,7 @@ export default function SegmentScenarioCards({
   showFilters = true,
   showAction = true,
 }: SegmentScenarioCardsProps) {
-  if (section?.isVisible === false) return null;
+  const hideShell = section?.isVisible === false;
   const cards = useMemo(() => (Array.isArray(section.cards) ? section.cards.filter(Boolean) : []), [section]);
   const [query, setQuery] = useState("");
   const [activeFilter, setActiveFilter] = useState(FILTERS[0]);
@@ -28,7 +29,11 @@ export default function SegmentScenarioCards({
   }, [cards, query]);
 
   return (
-    <section className="w-full rounded-2xl border border-white/10 bg-white/5 p-6">
+    <section
+      className={
+        hideShell ? "w-full border-0 bg-transparent p-0 rounded-none" : "w-full rounded-2xl border border-white/10 bg-white/5 p-6"
+      }
+    >
       {showFilters && (
         <div className="flex flex-col md:flex-row gap-6 items-center mb-8">
           <div className="w-full md:flex-1">
@@ -76,23 +81,32 @@ export default function SegmentScenarioCards({
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-        {filtered.map((card: any, idx: number) => (
-          <div
-            key={`${card.title || "scenario"}-${idx}`}
-            className="bg-[#1a232e] border border-white/5 p-5 rounded-xl flex flex-col gap-3"
-          >
-            <div className="size-10 rounded-lg bg-primary/10 flex items-center justify-center text-primary">
-              {card.icon ? <Icon name={card.icon} size={22} /> : <span className="material-symbols-outlined">hub</span>}
-            </div>
-            <h3 className="text-white text-sm font-bold leading-snug">{card.title || "Сценарий"}</h3>
-            {card.description && (
-              <p className="text-[#9aabbc] text-xs leading-relaxed line-clamp-3">{card.description}</p>
-            )}
-            <span className="mt-auto text-primary text-[10px] font-bold uppercase tracking-widest flex items-center gap-1">
-              Подробнее <span className="material-symbols-outlined text-xs">chevron_right</span>
-            </span>
-          </div>
-        ))}
+        {filtered.map((card: any, idx: number) => {
+          const rawLink = String(card.link || "").trim();
+          const href = rawLink ? normalizeCmsHref(rawLink) : "";
+          const Tag = rawLink ? "a" : "div";
+          const description = card.description || card.subtitle || "";
+          const showCta = Boolean(rawLink);
+
+          return (
+            <Tag
+              key={`${card.title || "scenario"}-${idx}`}
+              href={rawLink ? href : undefined}
+              className="bg-[#1a232e] border border-white/5 p-5 rounded-xl flex flex-col gap-3"
+            >
+              <div className="size-10 rounded-lg bg-primary/10 flex items-center justify-center text-primary">
+                {card.icon ? <Icon name={card.icon} size={22} /> : <span className="material-symbols-outlined">hub</span>}
+              </div>
+              <h3 className="text-white text-sm font-bold leading-snug">{card.title || "Сценарий"}</h3>
+              {description && <p className="text-[#9aabbc] text-xs leading-relaxed line-clamp-3">{description}</p>}
+              {showCta && (
+                <span className="mt-auto text-primary text-[10px] font-bold uppercase tracking-widest flex items-center gap-1">
+                  Подробнее <span className="material-symbols-outlined text-xs">chevron_right</span>
+                </span>
+              )}
+            </Tag>
+          );
+        })}
       </div>
     </section>
   );

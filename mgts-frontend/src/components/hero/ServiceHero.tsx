@@ -1,10 +1,10 @@
-import { resolveMediaUrl } from "@/lib/media";
+import { DEFAULT_HERO_FALLBACK_URL, resolveMediaUrl } from "@/lib/media";
 
 type ServiceHeroProps = {
   hero?: any;
 };
 
-const DEFAULT_SERVICE_BG = "http://localhost:8002/assets/images/external/60b54c10dd84.png";
+const DEFAULT_SERVICE_BG = DEFAULT_HERO_FALLBACK_URL;
 
 const resolveSlaIcon = (label?: string, value?: string) => {
   const l = String(label || "").toLowerCase();
@@ -32,6 +32,11 @@ export default function ServiceHero({ hero }: ServiceHeroProps) {
   if (!hero) return null;
   const bgUrl = resolveMediaUrl(hero.backgroundImage || null) || DEFAULT_SERVICE_BG;
   const ctas = Array.isArray(hero.ctaButtons) ? hero.ctaButtons : [];
+  const fallbackCtas = [
+    { text: "Подобрать решение", href: "/contact", style: "primary" },
+    { text: "Оставить заявку", href: "/contact", style: "outline" },
+  ];
+  const heroCtas = ctas.length > 0 ? ctas : fallbackCtas;
   const slaItems = Array.isArray(hero.slaItems) ? hero.slaItems : [];
   const titleHtml = String(hero.title || "");
   const useHtmlTitle = titleHtml.includes("<");
@@ -48,18 +53,18 @@ export default function ServiceHero({ hero }: ServiceHeroProps) {
         <div className="absolute top-10 right-10 text-white/10 select-none">
           <span className="material-symbols-outlined text-6xl">ac_unit</span>
         </div>
-        <section className="relative min-h-[85vh] flex items-center pt-20 pb-32">
+        <section className="relative min-h-[60vh] flex items-center pt-12 pb-32">
           <div className="absolute inset-0 z-0">
             {bgUrl && (
               <div
-                className="absolute inset-0 bg-cover bg-center opacity-10 grayscale"
+                className="absolute inset-0 bg-cover bg-center opacity-20 grayscale"
                 style={{ backgroundImage: `url('${bgUrl}')` }}
                 data-service-hero-bg
               />
             )}
-            <div className="absolute inset-0 bg-gradient-to-tr from-background-dark via-background-dark/90 to-primary/20" />
+            <div className="absolute inset-0 bg-gradient-to-tr from-background-dark/70 via-background-dark/60 to-primary/20" />
           </div>
-          <div className="w-full max-w-7xl mx-auto px-6 lg:px-10 py-12 md:py-24 relative z-10">
+          <div className="w-full max-w-7xl mx-auto px-6 py-12 md:py-24 relative z-10">
             <div className="max-w-[640px]">
               {showBadge && badgeText && (
                 <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs font-bold uppercase tracking-widest mb-6">
@@ -91,9 +96,9 @@ export default function ServiceHero({ hero }: ServiceHeroProps) {
                   {hero.subtitle}
                 </p>
               )}
-              {ctas.length > 0 && (
+              {heroCtas.length > 0 && (
                 <div className="flex flex-wrap gap-4">
-                  {ctas.map((cta: any, idx: number) => (
+                  {heroCtas.map((cta: any, idx: number) => (
                     <a
                       key={`${cta?.text || "cta"}-${idx}`}
                       href={cta?.href || "#"}
@@ -114,7 +119,7 @@ export default function ServiceHero({ hero }: ServiceHeroProps) {
           </div>
           {slaItems.length > 0 && (
             <div className="absolute bottom-0 left-0 w-full bg-white/5 backdrop-blur-xl border-t border-white/10 py-8 hidden lg:block">
-              <div className="max-w-7xl mx-auto px-6 lg:px-10 grid grid-cols-4 gap-8">
+              <div className="max-w-7xl mx-auto px-6 grid grid-cols-4 gap-8">
                 {slaItems.map((item: any, idx: number) => (
                   <div key={`${item?.label || "sla"}-${idx}`} className="flex items-center gap-4">
                     <span className="material-symbols-outlined text-primary text-3xl">

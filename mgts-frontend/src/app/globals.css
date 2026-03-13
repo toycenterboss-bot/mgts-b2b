@@ -3,7 +3,7 @@
 }
 
 html {
-  font-family: "Space Grotesk", "Noto Sans", "Segoe UI", system-ui, sans-serif;
+  font-family: "Space Grotesk", sans-serif;
 }
 
 body {
@@ -22,7 +22,7 @@ textarea {
 }
 
 .font-display {
-  font-family: "Space Grotesk", "Noto Sans", "Segoe UI", system-ui, sans-serif;
+  font-family: "Space Grotesk", sans-serif;
 }
 
 a {
@@ -210,11 +210,19 @@ a {
   grid-template-columns: 1.2fr 1fr;
   gap: 32px;
   align-items: center;
+  min-height: 60vh;
   padding: 32px;
   border-radius: 28px;
   background: radial-gradient(circle at top left, rgba(37, 99, 235, 0.25), rgba(15, 23, 42, 0.9));
   border: 1px solid rgba(148, 163, 184, 0.2);
   margin-bottom: 32px;
+}
+
+[data-cms-hero],
+[data-home-hero],
+[data-stitch-block="hero_section_and_cta_banner_2"] > main > section,
+[data-stitch-block="developers_industry_hero"] > div {
+  min-height: 60vh !important;
 }
 
 .hero__title {
@@ -418,6 +426,40 @@ a {
   padding-left: 18px;
   list-style: disc;
   color: rgba(226, 232, 240, 0.7);
+}
+
+.cms-text-content ol {
+  padding-left: 22px;
+  list-style: decimal;
+  margin: 10px 0 16px;
+  color: rgba(226, 232, 240, 0.85);
+}
+
+.cms-text-content ol li {
+  margin: 6px 0;
+  padding-left: 6px;
+}
+
+.cms-text-content ol li::marker {
+  color: #60a5fa;
+  font-weight: 700;
+}
+
+.cms-text-content .cms-numbered-list {
+  padding-left: 22px;
+  list-style: decimal;
+  margin: 10px 0 16px;
+  color: rgba(226, 232, 240, 0.85);
+}
+
+.cms-text-content .cms-numbered-list li {
+  margin: 6px 0;
+  padding-left: 6px;
+}
+
+.cms-text-content .cms-numbered-list li::marker {
+  color: #60a5fa;
+  font-weight: 700;
 }
 
 .cms-text-content a {
@@ -640,13 +682,22 @@ a {
 }
 
 .career-why-card {
-  background: rgba(15, 23, 42, 0.4);
-  border: 1px solid rgba(148, 163, 184, 0.2);
+  position: relative;
+  overflow: hidden;
+  border-radius: 24px;
+  padding: 32px;
+  background: linear-gradient(135deg, rgba(15, 23, 42, 0.9), rgba(15, 23, 42, 0.6));
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .career-why-card--primary {
-  background: linear-gradient(135deg, rgba(59, 130, 246, 0.45), rgba(15, 23, 42, 0.6));
-  border-color: rgba(59, 130, 246, 0.35);
+  background: linear-gradient(135deg, rgba(15, 23, 42, 0.95), rgba(15, 23, 42, 0.6));
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+.career-why-card--brand-red {
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.12), rgba(15, 23, 42, 0.6));
+  border-color: rgba(59, 130, 246, 0.25);
 }
 
 .career-why-card--accent {
@@ -659,16 +710,32 @@ a {
   border-color: rgba(249, 115, 22, 0.35);
 }
 
+.career-why-card__icon {
+  position: absolute;
+  right: -40px;
+  bottom: -40px;
+  opacity: 0.1;
+  transform: rotate(12deg);
+  transition: transform 0.5s ease;
+  pointer-events: none;
+}
+
+.career-why-card:hover .career-why-card__icon {
+  transform: rotate(0deg);
+}
+
 .career-why-card__title {
-  font-size: 16px;
+  font-size: 24px;
   font-weight: 700;
-  margin-bottom: 6px;
+  margin-bottom: 16px;
+  color: #ffffff;
 }
 
 .career-why-card__description {
-  color: rgba(226, 232, 240, 0.75);
-  font-size: 13px;
-  margin-bottom: 8px;
+  color: #94a3b8;
+  font-size: 15px;
+  margin-bottom: 32px;
+  max-width: 360px;
 }
 
 .career-why-card__list {
@@ -676,14 +743,14 @@ a {
   padding: 0;
   margin: 0;
   display: grid;
-  gap: 8px;
-  color: rgba(226, 232, 240, 0.75);
-  font-size: 12px;
+  gap: 16px;
+  color: #cbd5f5;
+  font-size: 14px;
 }
 
 .career-why-card__list-item {
   display: flex;
-  gap: 8px;
+  gap: 12px;
   align-items: flex-start;
 }
 
@@ -805,9 +872,96 @@ a {
   background: linear-gradient(90deg, rgba(15, 25, 35, 1) 0%, rgba(15, 25, 35, 0.8) 40%, rgba(15, 25, 35, 0) 100%);
 }
 
+.min-h-\[60vh\] {
+  min-height: 60vh !important;
+}
+
+@media (min-width: 1024px) {
+  .lg\:min-h-\[60vh\] {
+    min-height: 60vh !important;
+  }
+}
+
 .mega-menu-blur {
-  backdrop-filter: blur(12px);
-  background-color: rgba(15, 25, 35, 0.95);
+  backdrop-filter: blur(32px) saturate(220%);
+  -webkit-backdrop-filter: blur(32px) saturate(220%);
+  background-color: rgba(15, 25, 35, 0.08) !important;
+}
+
+[data-mega-panel] {
+  backdrop-filter: blur(32px) saturate(220%);
+  -webkit-backdrop-filter: blur(32px) saturate(220%);
+  background-color: rgba(15, 25, 35, 0.08) !important;
+  border-color: rgba(255, 255, 255, 0.18) !important;
+}
+
+[data-mega-panel] .border-r {
+  border-right-color: rgba(255, 255, 255, 0.16) !important;
+}
+
+[data-mega-panel] .border,
+[data-mega-panel] .border-slate-200,
+[data-mega-panel] .border-slate-800 {
+  border-color: rgba(255, 255, 255, 0.18) !important;
+}
+
+[data-mega-panel] .rounded-xl,
+[data-mega-panel] .rounded-2xl {
+  background-color: rgba(15, 23, 42, 0.35) !important;
+  border-color: rgba(255, 255, 255, 0.2) !important;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.04);
+}
+
+[data-mega-panel] .rounded-xl:hover,
+[data-mega-panel] .rounded-2xl:hover {
+  background-color: rgba(255, 255, 255, 0.12) !important;
+  border-color: rgba(255, 255, 255, 0.28) !important;
+}
+
+[data-mega-panel] [class*="bg-white"],
+[data-mega-panel] [class*="bg-slate-900"],
+[data-mega-panel] [class*="bg-black"] {
+  background-color: rgba(15, 23, 42, 0.35) !important;
+}
+
+[data-mega-panel] [data-mega-category] {
+  color: rgba(226, 232, 240, 0.78);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background-color: rgba(15, 23, 42, 0.55);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.04);
+}
+
+[data-mega-panel] [data-mega-category]:hover {
+  background-color: rgba(255, 255, 255, 0.16);
+  border-color: rgba(255, 255, 255, 0.38);
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.2), 0 6px 16px rgba(0, 0, 0, 0.35);
+  color: #ffffff;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+[data-mega-panel] [data-mega-category][data-mega-active="1"] {
+  color: #ffffff;
+  background-color: rgba(37, 99, 235, 0.2);
+  border-color: rgba(37, 99, 235, 0.45);
+  box-shadow: 0 0 0 1px rgba(37, 99, 235, 0.25);
+}
+
+[data-mega-panel] [data-mega-category] .material-symbols-outlined,
+[data-mega-panel] .material-symbols-outlined {
+  color: rgba(248, 250, 252, 0.85);
+}
+
+[data-mega-panel] h3 {
+  color: rgba(226, 232, 240, 0.82);
+}
+
+[data-mega-panel] h4 {
+  color: #f8fafc;
+}
+
+[data-mega-panel] p {
+  color: rgba(226, 232, 240, 0.7);
 }
 
 .glass-nav,
