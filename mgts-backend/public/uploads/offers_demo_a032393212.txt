@@ -1,0 +1,5 @@
+MGTS • Demo document
+
+Категория: offers
+
+Это тестовый файл, загруженный сидером, чтобы проверить files-table + preview modal.

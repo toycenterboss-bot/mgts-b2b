@@ -1,0 +1,58 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Main soft gradient background: dark blue to navy for corporate professionalism, high contrast for white text -->
+  <defs>
+    <radialGradient id="bgGrad" cx="0.5" cy="0.7" r="0.8">
+      <stop offset="0%" stop-color="#1a237e"/>
+      <stop offset="50%" stop-color="#0d1421"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </radialGradient>
+    <radialGradient id="lightGrad" cx="0.3" cy="0.3" r="0.6">
+      <stop offset="0%" stop-color="#3949ab" stop-opacity="0.3"/>
+      <stop offset="70%" stop-color="#1e3a8a" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#0d1421" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="subtleGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#283593" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#1565c0" stop-opacity="0"/>
+    </linearGradient>
+    <!-- Subtle paper-like texture noise pattern -->
+    <filter id="textureNoise">
+      <feTurbulence baseFrequency="0.5" numOctaves="3" result="noise"/>
+      <feDiffuseLighting in="noise" result="litNoise" lighting-color="#ffffff">
+        <feDistantLight azimuth="45" elevation="30" />
+      </feDiffuseLighting>
+      <feComposite in="litNoise" in2="SourceGraphic" operator="arithmetic" k1="0.1" k2="0.3" k3="0" k4="0"/>
+      <feBlend in="SourceGraphic" mode="multiply"/>
+    </filter>
+    <!-- Cinematic vignette -->
+    <filter id="vignette">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="40" result="blur"/>
+      <feFlood flood-color="#000000"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+      <feBlend mode="multiply"/>
+    </filter>
+  </defs>
+  
+  <!-- Base gradient background -->
+  <rect width="1200" height="700" fill="url(#bgGrad)" filter="url(#vignette)"/>
+  
+  <!-- Cinematic soft light beams (subtle god rays effect) -->
+  <rect x="0" y="0" width="400" height="700" fill="url(#lightGrad)"/>
+  
+  <!-- Additional subtle glow overlay for depth -->
+  <rect x="200" y="100" width="800" height="500" fill="url(#subtleGlow)" opacity="0.4"/>
+  
+  <!-- Multiple layered soft light spots for cinematic lighting -->
+  <ellipse cx="150" cy="200" rx="250" ry="180" fill="#1e40af" opacity="0.25"/>
+  <ellipse cx="900" cy="450" rx="300" ry="220" fill="#3b82f6" opacity="0.15"/>
+  <ellipse cx="400" cy="550" rx="180" ry="120" fill="#60a5fa" opacity="0.2"/>
+  
+  <!-- Subtle texture overlay for photorealistic paper/surface feel -->
+  <rect width="1200" height="700" fill="#ffffff" opacity="0.03" filter="url(#textureNoise)"/>
+  
+  <!-- Final vignette enhancement for cinematic depth -->
+  <rect width="1200" height="700" fill="#000000" opacity="0.15">
+    <feDropShadow dx="0" dy="0" stdDeviation="60"/>
+  </rect>
+</svg>

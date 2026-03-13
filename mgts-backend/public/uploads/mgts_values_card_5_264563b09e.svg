@@ -1,0 +1,59 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient - deep blue to lighter blue for corporate feel -->
+  <defs>
+    <radialGradient id="bgGrad" cx="0.5" cy="0.5" r="0.7">
+      <stop offset="0%" stop-color="#1e3a8a"/>
+      <stop offset="50%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#1e40af"/>
+    </radialGradient>
+    <linearGradient id="waveGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#60a5fa" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.3"/>
+    </linearGradient>
+    <linearGradient id="waveGrad2" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a5b4fc" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#60a5fa" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="shapeGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e0f2fe" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#bfdbfe" stop-opacity="0.1"/>
+    </linearGradient>
+    <linearGradient id="shapeGrad2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#93c5fd" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#60a5fa" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Main background -->
+  <rect width="1200" height="700" fill="url(#bgGrad)"/>
+  
+  <!-- Subtle overlapping waves symbolizing collaboration -->
+  <path d="M0,200 Q300,150 600,220 Q900,180 1200,250 L1200,700 L0,700 Z" fill="url(#waveGrad1)" opacity="0.7"/>
+  <path d="M0,350 Q400,280 800,360 Q1100,310 1200,380 L1200,700 L0,700 Z" fill="url(#waveGrad2)" opacity="0.5"/>
+  
+  <!-- Soft abstract shapes for unity and connection -->
+  <ellipse cx="200" cy="150" rx="180" ry="120" fill="url(#shapeGrad1)" opacity="0.6"/>
+  <ellipse cx="1000" cy="500" rx="150" ry="90" fill="url(#shapeGrad2)" opacity="0.4"/>
+  
+  <!-- Interconnecting soft shapes in center -->
+  <circle cx="550" cy="300" r="140" fill="url(#shapeGrad1)" opacity="0.5"/>
+  <circle cx="650" cy="380" r="110" fill="url(#shapeGrad2)" opacity="0.4"/>
+  
+  <!-- Gentle overlay curves for flow and teamwork -->
+  <path d="M100,450 Q400,380 700,480 Q1000,420 1100,500" stroke="url(#waveGrad1)" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.6"/>
+  <path d="M150,500 Q450,430 750,530 Q1050,470 1150,550" stroke="url(#waveGrad2)" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.5"/>
+  
+  <!-- Subtle grid-like pattern for digital ecosystem feel -->
+  <g opacity="0.1" stroke="#93c5fd" stroke-width="1" stroke-linecap="round">
+    <line x1="0" y1="100" x2="1200" y2="100"/>
+    <line x1="0" y1="250" x2="1200" y2="250"/>
+    <line x1="0" y1="400" x2="1200" y2="400"/>
+    <line x1="0" y1="550" x2="1200" y2="550"/>
+    <line x1="300" y1="0" x2="300" y2="700"/>
+    <line x1="600" y1="0" x2="600" y2="700"/>
+    <line x1="900" y1="0" x2="900" y2="700"/>
+  </g>
+  
+  <!-- Final soft overlay for depth -->
+  <rect x="0" y="0" width="1200" height="700" fill="#1e3a8a" fill-opacity="0.05"/>
+</svg>

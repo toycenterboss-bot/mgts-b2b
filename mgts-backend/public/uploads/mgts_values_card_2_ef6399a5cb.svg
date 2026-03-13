@@ -1,0 +1,51 @@
+<svg viewBox="0 0 1200 700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a2a3a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#2d4563;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1f3a52;stop-opacity:1" />
+    </linearGradient>
+    
+    <radialGradient id="lightGlow" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.15" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0" />
+    </radialGradient>
+    
+    <filter id="softNoise">
+      <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="4" result="noise" seed="2" />
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="2" />
+    </filter>
+    
+    <filter id="subtleBlur">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="0.8" />
+    </filter>
+  </defs>
+  
+  <!-- Base gradient background -->
+  <rect width="1200" height="700" fill="url(#bgGradient)" />
+  
+  <!-- Light glow overlay -->
+  <rect width="1200" height="700" fill="url(#lightGlow)" />
+  
+  <!-- Subtle texture layer -->
+  <g filter="url(#softNoise)" opacity="0.08">
+    <rect width="1200" height="700" fill="#ffffff" />
+  </g>
+  
+  <!-- Soft lighting accent - top left -->
+  <ellipse cx="150" cy="100" rx="400" ry="300" fill="#4a7ba7" opacity="0.12" filter="url(#subtleBlur)" />
+  
+  <!-- Soft lighting accent - bottom right -->
+  <ellipse cx="1050" cy="600" rx="350" ry="280" fill="#3d5a78" opacity="0.1" filter="url(#subtleBlur)" />
+  
+  <!-- Subtle gradient lines for depth -->
+  <g opacity="0.05">
+    <line x1="0" y1="0" x2="1200" y2="700" stroke="#ffffff" stroke-width="1" />
+    <line x1="1200" y1="0" x2="0" y2="700" stroke="#ffffff" stroke-width="1" />
+  </g>
+  
+  <!-- Fine texture pattern overlay -->
+  <g opacity="0.04" filter="url(#softNoise)">
+    <circle cx="600" cy="350" r="500" fill="url(#lightGlow)" />
+  </g>
+</svg>

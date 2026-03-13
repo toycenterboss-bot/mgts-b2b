@@ -1,0 +1,78 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bgGrad" cx="0.5" cy="0.6" r="0.7">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="50%" stop-color="#16213e"/>
+      <stop offset="100%" stop-color="#0f0f23"/>
+    </radialGradient>
+    <radialGradient id="accentGrad" cx="0.3" cy="0.3" r="0.4">
+      <stop offset="0%" stop-color="#4a90e2" stop-opacity="0.3"/>
+      <stop offset="60%" stop-color="#7bb2f0" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#4a90e2" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="lightGrad" x1="0%" y1="20%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#667eea" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#764ba2" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="subtleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.02"/>
+      <stop offset="100%" stop-color="#f0f0f0" stop-opacity="0.01"/>
+    </linearGradient>
+    <filter id="blur1">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+    </filter>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="15" flood-color="#4a90e2" flood-opacity="0.3" result="coloredBlur"/>
+      <feComposite in="SourceGraphic" in2="coloredBlur" operator="in"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode/>
+      </feMerge>
+    </filter>
+    <pattern id="texture" width="100" height="100" patternUnits="userSpaceOnUse">
+      <rect width="100" height="100" fill="#ffffff" opacity="0.03"/>
+      <circle cx="20" cy="20" r="1" fill="#ffffff" opacity="0.5">
+        <animateTransform attributeName="transform" type="translate" values="0,0; 2,-2; 0,0" dur="20s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="80" cy="80" r="0.8" fill="#ffffff" opacity="0.4">
+        <animateTransform attributeName="transform" type="translate" values="0,0; -1,1; 0,0" dur="25s" repeatCount="indefinite"/>
+      </circle>
+      <path d="M10 90 L20 85 L30 92" stroke="#ffffff" stroke-width="0.3" opacity="0.3" fill="none">
+        <animateTransform attributeName="transform" type="rotate" values="0 20 87.5; 5 20 87.5; 0 20 87.5" dur="30s" repeatCount="indefinite"/>
+      </path>
+    </pattern>
+    <pattern id="grain" width="8" height="8" patternUnits="userSpaceOnUse">
+      <rect width="8" height="8" fill="#000000" opacity="0.05"/>
+      <circle cx="2" cy="2" r="0.5" fill="#ffffff" opacity="0.1"/>
+      <circle cx="6" cy="6" r="0.4" fill="#ffffff" opacity="0.08"/>
+    </pattern>
+  </defs>
+  
+  <!-- Main cinematic background gradient -->
+  <rect width="1200" height="700" fill="url(#bgGrad)"/>
+  
+  <!-- Subtle accent glow for depth -->
+  <ellipse cx="360" cy="210" rx="280" ry="180" fill="url(#accentGrad)" filter="url(#glow)"/>
+  
+  <!-- Cinematic light streak -->
+  <rect x="0" y="140" width="1200" height="120" fill="url(#lightGrad)" opacity="0.4"/>
+  
+  <!-- Foreground vignette gradient -->
+  <ellipse cx="600" cy="350" rx="650" ry="400" fill="#000000" opacity="0.35"/>
+  
+  <!-- Subtle texture overlay -->
+  <rect width="1200" height="700" fill="url(#texture)" opacity="0.6"/>
+  
+  <!-- Fine grain texture -->
+  <rect width="1200" height="700" fill="url(#grain)" opacity="0.8"/>
+  
+  <!-- Soft highlight rim lighting -->
+  <rect x="0" y="0" width="1200" height="80" fill="url(#subtleGrad)"/>
+  <rect x="0" y="620" width="1200" height="80" fill="#000000" opacity="0.2"/>
+  <rect x="0" y="0" width="80" height="700" fill="#ffffff" opacity="0.08"/>
+  <rect x="1120" y="0" width="80" height="700" fill="#ffffff" opacity="0.06"/>
+  
+  <!-- Business card safe area highlight (subtle shadow preparation) -->
+  <rect x="300" y="240" width="600" height="220" rx="8" fill="none" stroke="#ffffff" stroke-width="0.3" opacity="0.1"/>
+  
+</svg>

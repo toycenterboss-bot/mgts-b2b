@@ -1,0 +1,87 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Main gradient background: dark navy to deep blue-gray, cinematic feel -->
+  <defs>
+    <radialGradient id="bgGrad1" cx="0.5" cy="0.6" r="0.7">
+      <stop offset="0%" stop-color="#1a1f3a"/>
+      <stop offset="30%" stop-color="#2a334f"/>
+      <stop offset="70%" stop-color="#1e2535"/>
+      <stop offset="100%" stop-color="#0f141f"/>
+    </radialGradient>
+    
+    <!-- Subtle overlay gradient for depth -->
+    <radialGradient id="bgGrad2" cx="0.3" cy="0.3" r="0.6">
+      <stop offset="0%" stop-color="#3a4a60" stop-opacity="0.3"/>
+      <stop offset="50%" stop-color="#2a3a50" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#1a2a40" stop-opacity="0"/>
+    </radialGradient>
+    
+    <!-- Cinematic light beam gradient -->
+    <linearGradient id="lightBeam" x1="0.2" y1="0.1" x2="0.8" y2="0.9">
+      <stop offset="0%" stop-color="#ffeb99" stop-opacity="0.15"/>
+      <stop offset="30%" stop-color="#ffd54f" stop-opacity="0.08"/>
+      <stop offset="70%" stop-color="#ffb74d" stop-opacity="0.03"/>
+      <stop offset="100%" stop-color="#ff9800" stop-opacity="0"/>
+    </linearGradient>
+    
+    <!-- Subtle paper texture noise pattern -->
+    <filter id="texture">
+      <feTurbulence baseFrequency="0.02" numOctaves="3" result="noise"/>
+      <feDiffuseLighting in="noise" lighting-color="#ffffff" surfaceScale="1" diffuseConstant="1">
+        <feDistantLight azimuth="45" elevation="30"/>
+      </feDiffuseLighting>
+      <feComposite in2="SourceGraphic" operator="in" result="textured"/>
+      <feBlend in="SourceGraphic" in2="textured" mode="soft-light"/>
+    </filter>
+    
+    <!-- Vignette filter for cinematic edges -->
+    <filter id="vignette">
+      <feFlood flood-color="#000000" flood-opacity="0.4" result="vignette"/>
+      <feMorphology in="SourceGraphic" operator="dilate" radius="20"/>
+      <feGaussianBlur in="SourceGraphic" stdDeviation="20"/>
+      <feComposite in2="vignette" operator="arithmetic" k1="0" k2="1" k3="1" k4="0"/>
+    </filter>
+    
+    <!-- Soft glow for light elements -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Base background -->
+  <rect width="1200" height="700" fill="url(#bgGrad1)"/>
+  
+  <!-- Subtle depth overlay -->
+  <rect width="1200" height="700" fill="url(#bgGrad2)"/>
+  
+  <!-- Cinematic light beam from top-left -->
+  <rect x="0" y="0" width="600" height="500" fill="url(#lightBeam)" filter="url(#glow)"/>
+  
+  <!-- Subtle horizon gradient for corporate professionalism -->
+  <rect y="450" width="1200" height="250" fill="url(#bgGrad1)"/>
+  
+  <!-- Faint geometric corporate elements (abstract architecture) -->
+  <g filter="url(#texture)" opacity="0.15">
+    <!-- Vertical divider lines -->
+    <rect x="200" y="0" width="1" height="700" fill="#3a4a60"/>
+    <rect x="800" y="0" width="1" height="700" fill="#4a5a70"/>
+    
+    <!-- Horizontal subtle lines -->
+    <rect x="0" y="200" width="1200" height="1" fill="#2a3a50"/>
+    <rect x="0" y="500" width="1200" height="1" fill="#3a4a60"/>
+  </g>
+  
+  <!-- Apply texture and vignette to entire scene -->
+  <g filter="url(#texture)">
+    <rect width="1200" height="700" fill="#000000" opacity="0.03"/>
+  </g>
+  
+  <!-- Final vignette -->
+  <rect width="1200" height="700" fill="black" opacity="0.2" rx="200"/>
+  
+  <!-- Ensure text overlay area maintains contrast - center area is lighter -->
+  <rect x="300" y="150" width="600" height="400" fill="none" stroke="none"/>
+</svg>
