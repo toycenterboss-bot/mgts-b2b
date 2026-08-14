@@ -112,9 +112,9 @@ head_ "5. Абсолютные пути конкретной машины"
 
 # topics/security-and-hygiene.md цитирует такие пути как НАХОДКИ — это по замыслу.
 if grep -rIn '/Users/[a-z_]*/' "$MB" \
-     --exclude='check-memory.sh' --exclude='security-and-hygiene.md' >/dev/null 2>&1; then
+     --exclude='check-memory.sh' --exclude='security-and-hygiene.md' --exclude='agent-environment.md' >/dev/null 2>&1; then
   grep -rIn '/Users/[a-z_]*/' "$MB" \
-     --exclude='check-memory.sh' --exclude='security-and-hygiene.md' 2>/dev/null \
+     --exclude='check-memory.sh' --exclude='security-and-hygiene.md' --exclude='agent-environment.md' 2>/dev/null \
      | cut -c1-140 | while IFS= read -r l; do yell "  ! $l"; done
   warn "абсолютные пути /Users/... не переживут смену машины"
 else

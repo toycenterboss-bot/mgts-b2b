@@ -32,6 +32,7 @@
 | `topics/strapi-runbook.md` | Операционка: запуск, reset БД, EntityService vs HTTP, populate DZ |
 | `topics/legacy-sitemgts.md` | Легаси-сайт: структура, роль, что из него ещё живо |
 | `topics/security-and-hygiene.md` | Секреты, публичные роуты, размер репо, абсолютные пути |
+| `topics/agent-environment.md` | Три среды агента, почему git ломается в `device_bash`, перенос коммитов бандлом |
 
 ## `patterns/` — классы ошибок
 
