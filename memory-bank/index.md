@@ -1,0 +1,68 @@
+# Индекс мемори-банка — MGTS B2B
+
+Оглавление: какой файл о чём. **Новый файл в `topics/` или `implementation-plans/`
+без строки здесь — ошибка, её ловит `check-memory.sh`.**
+
+## Корень
+
+| Файл | О чём | Лимит строк |
+|---|---|---|
+| `activeContext.md` | Что происходит прямо сейчас, что горит, что брать следующим | 60 |
+| `index.md` | Этот файл | — |
+| `backlog.md` | Очередь задач с приоритетами и доказательствами | — |
+| `slots.md` | Кто в какой ветке работает | — |
+| `check-memory.sh` | Машина, которая проверяет всё вышеперечисленное | — |
+| `secrets.local.md` | Значения секретов. **В `.gitignore`**, в репозиторий не едет | — |
+
+## `context/` — оперативка параллельных сессий (лимит 120 строк на файл)
+
+| Файл | Слот |
+|---|---|
+| `context/arch.md` | Слот `arch` — архитектура, аудит, мемори-банк |
+
+## `topics/` — ЗНАНИЯ: как устроено и почему
+
+| Файл | О чём |
+|---|---|
+| `topics/architecture.md` | Три поколения архитектуры, почему Strapi, почему Next.js, что мертво |
+| `topics/content-pipeline.md` | Цепочка легаси HTML → LLM-анализ → маппинг → Strapi → Next |
+| `topics/strapi-schema.md` | Content-types, 72 компонента, Dynamic Zone, дубли схем, отсутствующий `api::icon.icon` |
+| `topics/frontend-render.md` | PageRenderer/SectionRenderer, шаблоны `TPL_*`, провал сборки Tailwind |
+| `topics/css-class-mapping.md` | Две системы классов, маппинг легаси→BEM, grid/card types, SVG |
+| `topics/strapi-runbook.md` | Операционка: запуск, reset БД, EntityService vs HTTP, populate DZ |
+| `topics/legacy-sitemgts.md` | Легаси-сайт: структура, роль, что из него ещё живо |
+| `topics/security-and-hygiene.md` | Секреты, публичные роуты, размер репо, абсолютные пути |
+
+## `patterns/` — классы ошибок
+
+| Файл | О чём |
+|---|---|
+| `patterns/catalog.md` | К-01…К-12: триггер, вопрос, артефакт, следы. **Читать не подряд, а по триггеру** |
+
+## `inbox/` — сырые находки до разбора
+
+| Файл | Период |
+|---|---|
+| `inbox/2026-08.md` | Август 2026 |
+
+## `implementation-plans/` — планы работ
+
+| Файл | О чём |
+|---|---|
+| `implementation-plans/README.md` | Правила: когда заводить план, формат, требование §0.0 Табло |
+
+## `sessions/` — архив закрытых треков
+
+| Файл | О чём |
+|---|---|
+| `sessions/2026-08/2026-08-14-audit.md` | Заведение мемори-банка + полный аудит проекта |
+
+## Внешние документы, на которые опирается мемори-банк
+
+| Путь | Статус |
+|---|---|
+| `МЕТОДОЛОГИЯ-работы-с-ИИ-агентами.md` | Источник правил этого мемори-банка |
+| `docs/project/{DECISION_LOG,CMS_TARGET_SCHEMA,CMS_INTEGRATION_CONTRACT}.md` | Живой справочник, выжимка — в `topics/` |
+| `docs/project/{PAGE_BLOCK_MAPPING,PAGE_CONTENT_MAPPING,STRAPI_RUNBOOK}.md` | Живой справочник |
+| `docs/STRAPI_COMPONENTS_CSS_CLASSES.md`, `docs/SVG_ELEMENTS_HANDLING.md` | Живой справочник |
+| `_to_delete/docs-generation-A/**` | Архив поколения A. Читать только как историю |

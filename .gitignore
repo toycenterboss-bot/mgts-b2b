@@ -10,3 +10,7 @@ __pycache__/
 *.pyc
 backups/
 strapi-backups/
+
+# memory-bank
+memory-bank/secrets.local.md
+_to_delete/

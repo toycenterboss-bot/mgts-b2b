@@ -1,0 +1,206 @@
+# Бэклог — MGTS B2B
+
+Правило: у задачи обязаны быть **доказательство** (путь + строка или вывод команды)
+и **DoD**, который проверяется машиной, а не мнением. Задача без DoD не берётся в работу.
+
+Статусы: `⬜ нет` · `🟡 частично / проверки нет` · `✅ работает и проверка ловит`
+
+---
+
+## 🔴 P0 — безопасность и воспроизводимость
+
+### B-01 · Отозвать секреты, лежащие в git-истории · ⬜
+**Доказательство**
+- `docs/project/CONTEXT.md:17` и `:22` — Perplexity API key (`pplx-…`) открытым текстом.
+- `docs/project/CHAT_LOG_2026_02_09_Cards_Issue.md:166225,166235,166236,166245,166246`
+  — Strapi API token (полный hex), 5 вхождений.
+- `mgts-backend/temp/page-analysis-llm/{infoformen_chrome_profile,infoformen_chrome_home}/`
+  — 455 файлов Chrome-профиля, в `Cookies` по 19 записей, хосты `.mgts.ru`, `.mts.ru`,
+  `.yandex.ru`. `Login Data` пуст (паролей нет).
+- `docs/project/CONTEXT.md` также содержит логин/пароль локального Penpot.
+
+**Отягчающее:** ключ читается кодом, а не только лежит —
+`mgts-backend/scripts/analyze-infoformen-accordion.js:146-156` парсит `pplx-[A-Za-z0-9]+`
+из `CONTEXT.md`. То есть удаление файла ломает скрипты: сначала перевести на env.
+
+**Противоречие, которое надо закрыть:** `docs/project/STRAPI_RUNBOOK.md` §1 прямо
+запрещает хранить токены в репозитории. Правило написано и ни разу не применено —
+классический К-20 (обещание без носителя).
+
+**DoD**
+1. Ключи отозваны у провайдеров (Perplexity, Strapi admin → API Tokens), Penpot-пароль сменён.
+2. `gitleaks detect --no-git` по рабочей копии → 0 находок.
+3. `gitleaks detect` по всей истории → 0 находок (потребует `git filter-repo` + force-push).
+4. Скрипты берут ключ только из env; `grep -rn "CONTEXT.md" mgts-backend/scripts` → 0.
+5. Хук `pre-commit` с gitleaks установлен И **поймал искусственный инцидент**
+   (подсадить фальшивый `pplx-` в тестовый файл → коммит обязан упасть).
+
+---
+
+### B-02 · Закрыть публичные пишущие эндпоинты Strapi · ⬜
+**Доказательство** — `mgts-backend/src/api/page/routes/custom-page.ts`:
+- `:50-58` — `DELETE /api/pages/delete-all`, `auth: false`. **Удаление всех страниц без авторизации.**
+- `:59-68` `POST /api/pages/update-parent-relations`
+- `:93-101` `POST /api/pages/seed-service-sections`
+- `:106-114` `seed-doc-sections` · `:119-127` `seed-contact-hub` · `:132-140` `seed-segment-landing`
+
+Плюс `mgts-backend/config/middlewares.ts:50` — CORS `origin` включает `'null'`
+(разрешает `file://`) при `credentials: true` (`:53`); `:8` — `frameguard: false`.
+
+**DoD**
+1. Все пишущие роуты либо `auth: true`, либо удалены (сид-логика уезжает в CLI-скрипты).
+2. Мутационная проверка: `curl -X DELETE http://localhost:1337/api/pages/delete-all`
+   на пустой dev-базе возвращает **401/403**, а не 200.
+3. `origin: 'null'` убран, CORS-список вынесен в env.
+
+---
+
+### B-03 · Сделать проект разворачиваемым с нуля · ⬜
+**Доказательство**
+- `mgts-backend/database/migrations/` содержит **только `.gitkeep`** — 0 миграций
+  при 8 content-types и 72 компонентах.
+- `mgts-backend/config/database.ts:45-50` — `path.join(__dirname,'..','..', DATABASE_FILENAME)`;
+  `__dirname` = `mgts-backend/config`, значит дефолтный путь ведёт **над** `mgts-backend`.
+  Файла нет ни там, ни там.
+- `api::icon.icon` используется (`src/plugins/icon-picker/server/src/controllers/icon-picker.js:10`,
+  `types/generated/contentTypes.d.ts:1376`, populate в `src/api/page/controllers/page.ts:1047-1064`),
+  но каталога `src/api/icon/` **нет** — тип жил только в БД разработчика.
+- `mgts-backend/.env.example` не содержит ни одной `DATABASE_*`, ни `STRAPI_ADMIN_*`,
+  ни `STRAPI_API_TOKEN`, ни `PERPLEXITY_API_KEY`.
+
+**DoD**
+1. Схема `src/api/icon/content-types/icon/schema.json` восстановлена и закоммичена.
+2. `.env.example` содержит **все** имена переменных, которые реально читает код
+   (проверяется `grep -rho "env(['\"][A-Z_]*" | sort -u` против файла).
+3. `git clone` → `npm ci` → `npm run develop` → `curl :1337/api/pages` даёт 200
+   на чистой машине. Прогон записан в `sessions/`.
+
+---
+
+## 🟠 P1 — качество продукта
+
+### B-04 · Tailwind не собирается из исходников фронта · ⬜
+**Это корневая причина визуальных расхождений, а не «недоделанная вёрстка».**
+
+**Доказательство**
+- `mgts-frontend/src/app/globals.css` и `light-theme.css` не содержат ни одной директивы
+  `@import "tailwindcss"` / `@tailwind` / `@theme` / `@apply` — 0 совпадений.
+  Значит установленный `tailwindcss@4` (`package.json:16,22`) утилит **не генерирует**.
+- Реальный источник утилит — готовый бандл **Tailwind v3**
+  `design/assets/css/stitch-tailwind.css`, подключаемый `<link>` в `src/app/layout.tsx:24`.
+- `design/tailwind/tailwind.config.cjs:3` — `content: ["../html_blocks/**/*.html"]`.
+  **`mgts-frontend/src/**/*.tsx` в сканирование не входит.**
+- Следствие, проверено пофайлово: классы `-mb-24` (`SectionCards.tsx:65,69`),
+  `min-h-[60vh]` (`PageRenderer.tsx:686` и ещё 4), `aspect-[16/9]` (5 файлов),
+  `tracking-[0.25em]` (`news/[slug]/page.tsx:67`) — используются в TSX, в CSS отсутствуют.
+- Классы `tech-pattern` (`PageRenderer.tsx:696`), `hero-mesh` (`HomeHero.tsx:19`),
+  `layout-container` (`HomePage.tsx:48`) не определены **нигде**.
+- `light-theme.css` — 689 строк, **181 `!important`**: светлая тема сделана перекрытием.
+
+**DoD**
+1. Скрипт/тест, который берёт все Tailwind-подобные классы из `src/**/*.tsx` и падает,
+   если класс не имеет правила ни в одном подключённом CSS. На текущем коде — красный.
+2. После починки сборки тот же скрипт зелёный, а `visual-compare` даёт медиану
+   расхождения ниже названного порога (порог назначить и записать).
+
+### B-05 · Ни одна форма не отправляет данные · ⬜
+6 форм с `action="#"`: `PageRenderer.tsx:449`, `FormSection.tsx:160`, `CeoFeedback.tsx:41`,
+`CareerCvForm.tsx:22`, `ServiceOrderForm.tsx:84`, `FooterContactForm.tsx:91`.
+Хуже: у полей нет атрибута `name` — например `FooterContactForm.tsx:96,106,116`.
+**DoD:** e2e-тест отправляет форму и проверяет, что бэкенд получил все поля.
+
+### B-06 · Нарушение Rules of Hooks в 9 клиентских компонентах · ⬜
+Ранний `return null` до первого хука: `SectionMap.tsx:29/55`, `ServiceTabs.tsx:10/11`,
+`ImageSwitcher.tsx:12/13`, `ImageCarousel.tsx:11/12`, `HistoryTimeline.tsx:12/13`,
+`CareerVacancies.tsx:11/15`, `FilesTable.tsx:12/13`, `DocumentTabs.tsx:69/72`,
+`ServiceCustomizationPanel.tsx:32/33`.
+**DoD:** `eslint-plugin-react-hooks` включён в `eslint.config.mjs` и падает на этих файлах
+до починки; после — зелёный.
+
+### B-07 · Рантайм фронта читает файлы вне пакета · ⬜
+`src/app/assets/[...path]/route.ts:6` → `../design/assets`;
+`src/lib/templateBlocks.ts:8` → `../design/html_pages`;
+`src/lib/hierarchy.ts:13-20` → `../mgts-backend/temp/services-extraction/pages-hierarchy.json`.
+Плюс тот же `pages-hierarchy.json` читает **боевой контроллер бэкенда**
+(`mgts-backend/src/api/page/controllers/page.ts:196,318`) — из `temp/`, который по имени
+временный. Любой деплой вне монорепо-чекаута ломается.
+**DoD:** `next build` + запуск из изолированной директории отдаёт 200 на `/`.
+
+### B-08 · Абсолютные пути `/Users/andrey_efremov/` в продакшн-коде · ⬜
+72 вхождения по репозиторию, в том числе **в контроллере**:
+`mgts-backend/src/api/page/controllers/page.ts:53,206,343`.
+**DoD:** `grep -rn "/Users/andrey_efremov" mgts-backend/src mgts-frontend/src scripts` → 0,
+и это проверяется хуком `pre-commit`.
+
+### B-09 · Отсутствуют `error.tsx` / `not-found.tsx`, layout падает вместе со Strapi · ⬜
+`src/app/layout.tsx:19` — `Promise.all([getNavigation(), getFooter()])` без try/catch.
+Недоступность CMS = 500 на каждой странице сайта. Спец-файлов App Router нет ни одного.
+**DoD:** тест «Strapi выключен» → сайт отдаёт деградированную страницу, а не 500.
+
+---
+
+## 🟡 P2 — гигиена и долг
+
+### B-10 · Ноль тестов, ноль CI · ⬜
+`find` по `*.test.*`, `*.spec.*`, `jest|vitest|playwright.config` — пусто.
+`.github/` не существует. `package.json` не имеет скрипта `test`.
+`scripts/visual-compare.js` тестом не является: нет порога, всегда `exit 0`.
+**DoD:** CI, который падает. Проверить мутацией — сломать заведомо и увидеть красный.
+
+### B-11 · 68 мёртвых дублей схем компонентов · ⬜
+Помимо рабочих плоских `src/components/<группа>/<имя>.json` (72 шт.) лежат 68 файлов
+`src/components/<группа>/<имя>/schema.json` в формате content-type — Strapi их не грузит.
+31 из них содержательно расходится с рабочей версией; 4 не имеют пары вообще
+(`footer/footersection`, `footer/legallink`, `footer/sociallink`, `navigation/megamenusection`).
+Правка в них не делает ничего — идеальная ловушка.
+**DoD:** удалены; `types/generated/components.d.ts` по-прежнему 72 интерфейса.
+
+### B-12 · Репозиторий 1.2 ГБ `.git`, медиа и temp внутри · ⬜
+`mgts-backend/public/uploads` 1.2 ГБ (1907 файлов) + `uploads.pre-restore-20260304-183020`
+ещё 1.2 ГБ (1857 файлов) + `mgts-backend/temp/` 546 МБ.
+Git LFS настроен ровно на один паттерн (`.gitattributes:1`).
+Противоречие: `mgts-backend/public/README.md:3` пишет «медиатеку не коммитим», а коммиты
+`541cfc4` и `932e20e` её добавили.
+**DoD:** решение владельца (Q1 ниже) + фактический размер `.git` после чистки.
+
+### B-13 · Два несовместимых источника меню и футера · ⬜
+`page.getMainMenu` / `page.getFooter` (`page.ts:196,318`) читают JSON с диска;
+`navigation.find` / `footer.find` — из CMS-компонентов. Фронт ходит в `/api/navigation`
+и `/api/footer`. Кто источник истины — не зафиксировано.
+**DoD:** один источник, второй удалён, `grep` подтверждает отсутствие второй реализации.
+
+### B-14 · Мёртвый код во фронте · ⬜
+`PageRenderer.tsx:517-539` — второй `if (isPartnersFeedbackPage)`, недостижим (первый
+возвращает на `:256`). `SectionCards.tsx` — 12 веток `variant === "service-cards"`
+(строки 64,75,88,168,196,199,204,209,216-222,247,267,294,312) недостижимы, т.к. `variant`
+вычисляется на `:24-29` и такого значения принимать не может.
+`LeftMenu.tsx:76-83` — тернарники с идентичными ветками.
+Плюс тройной дубль блока новостей: `news/page.tsx:26-53`, `news/archive/page.tsx:35-64`,
+`HomeNews.tsx:13-33` (последний даёт третий `<h1>` на главной).
+
+### B-15 · Кэш-теги проставлены, но не инвалидируются · ⬜
+`src/lib/strapi.ts:42-47` задаёт `next: {tags}` для всех запросов, но `revalidateTag` /
+`revalidatePath` не вызывается **нигде**, webhook-роута нет. Работает только таймер (300/120 с).
+Теги — мёртвая декорация.
+
+### B-16 · N+1 на иконках · ⬜
+`src/components/ui/Icon.tsx:36` — async server-компонент, делающий отдельный HTTP-запрос
+в Strapi на **каждую** иконку. `<Icon` встречается 15 раз в 13 файлах.
+
+---
+
+## Открытые вопросы владельцу (не угадывать)
+
+- **Q1.** Медиа (2.4 ГБ) остаются в git, уезжают в LFS целиком или во внешнее хранилище?
+  От ответа зависит B-12 и вообще возможность клонировать репозиторий за разумное время.
+- **Q2.** `docs/project/DECISION_LOG.md` — **все 18 решений в статусе `Pending`**, при этом
+  у каждого проставлен готовый `Answer`, написанный ИИ-агентом. Это решения де-факто,
+  но не подтверждённые владельцами (Marketing, Sales, Legal, Infosec, HR). Подтверждаем,
+  пересматриваем или помечаем как принятые? До ответа они — риск, а не база.
+- **Q3.** Планируемые типы `api::service.service` (должен был заменить `product`),
+  `api::document.document`, `api::vacancy.vacancy`, `api::location.location` не созданы.
+  `product`/`product-category` живы. Делаем замену или закрываем план?
+- **Q4.** Проект стоит с 2026-03-13. Возобновляем разработку или задача — привести
+  в состояние «передаётся другой команде»? Приоритеты бэклога зависят от ответа.
+- **Q5.** Порог визуального паритета: какой процент расхождения считаем приёмкой?
+  Без числа B-04 не имеет DoD.
