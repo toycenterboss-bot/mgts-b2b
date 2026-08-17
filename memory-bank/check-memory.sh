@@ -206,7 +206,7 @@ fi
 # ------------------------------------------------- 9. планы по стандарту
 head_ "9. Планы по стандарту"
 
-# Правила из implementation-plans/README.md, принципы 11, 12, 13.
+# Правила из PLANNING-STANDARD.md, принципы 11, 12, 13.
 PLANS=$(ls "$ROOT"/memory-bank/implementation-plans/*.md 2>/dev/null | grep -v '/README\.md$')
 if [ -z "$PLANS" ]; then
   warn "планов нет — нечего проверять"
