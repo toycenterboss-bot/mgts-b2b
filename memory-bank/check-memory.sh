@@ -178,7 +178,8 @@ if [ -d "$ROOT/.git" ]; then
   if [ -n "$W" ] && [ -n "$M" ]; then
     if [ "$W" -gt "$M" ]; then
       D=$(( (W - M) / 86400 ))
-      fail "проект правился позже, чем activeContext — разрыв $D дн. Работа шла, знание не записано"
+      if [ "$D" -ge 1 ]; then GAP="$D дн."; else GAP="$(( (W - M) / 3600 )) ч."; fi
+      fail "проект правился позже, чем activeContext — разрыв $GAP Работа шла, знание не записано"
       (cd "$ROOT" && git log -1 --format='      последняя правка проекта: %h %ad · %s' \
          --date=short -- $WORK_PATHS 2>/dev/null | cut -c1-130)
       (cd "$ROOT" && git log -1 --format='      последняя запись в память: %h %ad · %s' \
