@@ -203,6 +203,46 @@ else
   warn "не git-репозиторий, сверку с работой пропускаю"
 fi
 
+# ------------------------------------------------- 9. планы по стандарту
+head_ "9. Планы по стандарту"
+
+# Правила из implementation-plans/README.md, принципы 11, 12, 13.
+PLANS=$(ls "$ROOT"/memory-bank/implementation-plans/*.md 2>/dev/null | grep -v '/README\.md$')
+if [ -z "$PLANS" ]; then
+  warn "планов нет — нечего проверять"
+else
+  for P in $PLANS; do
+    N=$(basename "$P")
+    if grep -q '^## 0\.0' "$P"; then
+      ok "$N: §0.0 табло на месте"
+    else
+      fail "$N: нет §0.0 табло состояния (принцип 13)"
+    fi
+
+    PH=$(grep -c '^### Ф[0-9]' "$P" 2>/dev/null | head -1 | tr -dc '0-9')
+    RB=$(grep -c '^\*\*Откат\.\*\*' "$P" 2>/dev/null | head -1 | tr -dc '0-9')
+    PH=${PH:-0}; RB=${RB:-0}
+    if [ "$PH" -gt 0 ]; then
+      if [ "$RB" -lt "$PH" ]; then
+        fail "$N: фаз $PH, строк отката $RB — фаза без отката считается необратимой (принцип 11)"
+      else
+        ok "$N: у всех $PH фаз назван откат"
+      fi
+    fi
+
+    CL=$(grep -c '^—— ЗАКРЫТА' "$P" 2>/dev/null | head -1 | tr -dc '0-9')
+    ND=$(grep -c 'Что НЕ доказано' "$P" 2>/dev/null | head -1 | tr -dc '0-9')
+    CL=${CL:-0}; ND=${ND:-0}
+    if [ "$CL" -gt 0 ]; then
+      if [ "$ND" -lt "$CL" ]; then
+        fail "$N: закрытых фаз $CL, полей «что НЕ доказано» $ND — фаза, у которой всё доказано, неотличима от непроверенной (принцип 12)"
+      else
+        ok "$N: у всех $CL закрытых фаз назван недоказанный остаток"
+      fi
+    fi
+  done
+fi
+
 # ------------------------------------------------------------------- итог
 head_ "Итог"
 if [ "$FAIL" -ne 0 ]; then
