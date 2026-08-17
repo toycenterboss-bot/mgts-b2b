@@ -44,6 +44,9 @@
 - `:93-101` `POST /api/pages/seed-service-sections`
 - `:106-114` `seed-doc-sections` · `:119-127` `seed-contact-hub` · `:132-140` `seed-segment-landing`
 
+🔴 **Блокирует шаг 8 PLAN-01** — день ручной сборки главной владельцами направлений
+стирается одним анонимным `DELETE`. Закрывать до, а не после.
+
 Плюс `mgts-backend/config/middlewares.ts:50` — CORS `origin` включает `'null'`
 (разрешает `file://`) при `credentials: true` (`:53`); `:8` — `frameguard: false`.
 
