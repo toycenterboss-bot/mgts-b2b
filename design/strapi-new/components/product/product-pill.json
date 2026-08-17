@@ -1,0 +1,48 @@
+{
+  "collectionName": "components_product_product_pills",
+  "info": {
+    "displayName": "Плитка продукта",
+    "icon": "puzzle"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "division": {
+      "type": "enumeration",
+      "enum": [
+        "proptech",
+        "infratech",
+        "urbantech",
+        "rnd",
+        "hr"
+      ],
+      "default": "proptech",
+      "required": true
+    },
+    "lead": {
+      "type": "text"
+    },
+    "href": {
+      "type": "string"
+    },
+    "state": {
+      "type": "enumeration",
+      "enum": [
+        "live",
+        "pilot",
+        "roadmap"
+      ],
+      "default": "roadmap",
+      "required": true
+    },
+    "stub": {
+      "type": "component",
+      "repeatable": false,
+      "component": "meta.stub",
+      "required": true
+    }
+  }
+}

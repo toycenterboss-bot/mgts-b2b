@@ -1,0 +1,88 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cases",
+  "info": {
+    "singularName": "case",
+    "pluralName": "cases",
+    "displayName": "Кейс",
+    "description": "Кейс PropTech. Носитель показа обязателен, точный адрес по умолчанию не публикуется."
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    },
+    "clientSlug": {
+      "type": "string"
+    },
+    "objectType": {
+      "type": "enumeration",
+      "enum": [
+        "residential",
+        "business-center",
+        "city-infra",
+        "datacenter",
+        "other"
+      ],
+      "default": "residential",
+      "required": true
+    },
+    "district": {
+      "type": "string"
+    },
+    "x": {
+      "type": "decimal"
+    },
+    "y": {
+      "type": "decimal"
+    },
+    "sitePrecision": {
+      "type": "enumeration",
+      "enum": [
+        "district",
+        "exact"
+      ],
+      "default": "district",
+      "required": true
+    },
+    "summary": {
+      "type": "text"
+    },
+    "facts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "data.metric"
+    },
+    "works": {
+      "type": "component",
+      "repeatable": true,
+      "component": "data.metric"
+    },
+    "media": {
+      "type": "component",
+      "repeatable": false,
+      "component": "case.media-slot",
+      "required": true
+    },
+    "testimonial": {
+      "type": "component",
+      "repeatable": false,
+      "component": "client.testimonial-frame"
+    },
+    "stub": {
+      "type": "component",
+      "repeatable": false,
+      "component": "meta.stub",
+      "required": true
+    }
+  }
+}

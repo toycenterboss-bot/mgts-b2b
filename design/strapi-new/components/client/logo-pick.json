@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_client_logo_picks",
+  "info": {
+    "displayName": "Выбор клиента",
+    "icon": "user"
+  },
+  "options": {},
+  "attributes": {
+    "clientSlug": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

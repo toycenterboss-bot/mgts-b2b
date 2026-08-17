@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_home_segment_entrys",
+  "info": {
+    "displayName": "Вход сегмента",
+    "icon": "arrowRight"
+  },
+  "options": {},
+  "attributes": {
+    "key": {
+      "type": "enumeration",
+      "enum": [
+        "proptech",
+        "infratech",
+        "account",
+        "spec"
+      ],
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "lead": {
+      "type": "text"
+    },
+    "href": {
+      "type": "string",
+      "required": true
+    },
+    "ctaLabel": {
+      "type": "string"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nav.menu-link-lite"
+    },
+    "stub": {
+      "type": "component",
+      "repeatable": false,
+      "component": "meta.stub",
+      "required": true
+    }
+  }
+}

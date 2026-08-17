@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_home_maturity_levels",
+  "info": {
+    "displayName": "Ступень зрелости",
+    "icon": "stairs"
+  },
+  "options": {},
+  "attributes": {
+    "level": {
+      "type": "integer",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "lead": {
+      "type": "text"
+    },
+    "state": {
+      "type": "enumeration",
+      "enum": [
+        "pilot",
+        "production",
+        "roadmap"
+      ],
+      "default": "roadmap",
+      "required": true
+    },
+    "patent": {
+      "type": "boolean",
+      "default": false
+    },
+    "stub": {
+      "type": "component",
+      "repeatable": false,
+      "component": "meta.stub",
+      "required": true
+    }
+  }
+}

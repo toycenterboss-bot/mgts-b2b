@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_home_maturity_ladders",
+  "info": {
+    "displayName": "Лестница зрелости",
+    "icon": "stairs"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "lead": {
+      "type": "text"
+    },
+    "levels": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.maturity-level",
+      "required": true
+    }
+  }
+}

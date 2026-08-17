@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_meta_stubs",
+  "info": {
+    "displayName": "Заглушка",
+    "icon": "question"
+  },
+  "options": {},
+  "attributes": {
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "stub",
+        "draft",
+        "approved"
+      ],
+      "default": "stub",
+      "required": true
+    },
+    "owner": {
+      "type": "string",
+      "default": "владелец направления, коммерческий блок"
+    },
+    "due": {
+      "type": "date"
+    },
+    "expectedForm": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    },
+    "approvedBy": {
+      "type": "string"
+    },
+    "approvedAt": {
+      "type": "date"
+    },
+    "note": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "collectionName": "components_case_media_slots",
+  "info": {
+    "displayName": "Носитель показа",
+    "icon": "picture"
+  },
+  "options": {},
+  "attributes": {
+    "carrier": {
+      "type": "enumeration",
+      "enum": [
+        "photo",
+        "model",
+        "scheme"
+      ],
+      "default": "scheme",
+      "required": true
+    },
+    "mediaExpected": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "photoBefore": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "photoDuring": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "photoAfter": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "photoApproved": {
+      "type": "boolean",
+      "default": false
+    },
+    "modelUrl": {
+      "type": "string"
+    },
+    "modelFormat": {
+      "type": "enumeration",
+      "enum": [
+        "gltf",
+        "ifc",
+        "obj",
+        "other"
+      ],
+      "default": "gltf"
+    },
+    "modelStates": {
+      "type": "text"
+    },
+    "scheme": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "caption": {
+      "type": "string"
+    },
+    "stub": {
+      "type": "component",
+      "repeatable": false,
+      "component": "meta.stub",
+      "required": true
+    }
+  }
+}

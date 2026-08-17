@@ -1,0 +1,60 @@
+{
+  "collectionName": "components_client_testimonial_frames",
+  "info": {
+    "displayName": "Каркас отзыва",
+    "icon": "quote"
+  },
+  "options": {},
+  "attributes": {
+    "clientSlug": {
+      "type": "string",
+      "required": true
+    },
+    "authorRole": {
+      "type": "string"
+    },
+    "topic": {
+      "type": "string",
+      "required": true
+    },
+    "askFor": {
+      "type": "text"
+    },
+    "lengthHint": {
+      "type": "enumeration",
+      "enum": [
+        "short",
+        "medium",
+        "long"
+      ],
+      "default": "medium"
+    },
+    "quote": {
+      "type": "text"
+    },
+    "authorName": {
+      "type": "string"
+    },
+    "requestStatus": {
+      "type": "enumeration",
+      "enum": [
+        "not_asked",
+        "asked",
+        "received",
+        "approved"
+      ],
+      "default": "not_asked",
+      "required": true
+    },
+    "quoteApproved": {
+      "type": "boolean",
+      "default": false
+    },
+    "stub": {
+      "type": "component",
+      "repeatable": false,
+      "component": "meta.stub",
+      "required": true
+    }
+  }
+}

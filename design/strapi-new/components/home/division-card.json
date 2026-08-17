@@ -1,0 +1,49 @@
+{
+  "collectionName": "components_home_division_cards",
+  "info": {
+    "displayName": "Карточка дивизиона",
+    "icon": "briefcase"
+  },
+  "options": {},
+  "attributes": {
+    "division": {
+      "type": "enumeration",
+      "enum": [
+        "proptech",
+        "infratech",
+        "urbantech",
+        "rnd",
+        "hr"
+      ],
+      "default": "proptech",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "lead": {
+      "type": "text"
+    },
+    "bullets": {
+      "type": "text"
+    },
+    "href": {
+      "type": "string"
+    },
+    "ctaLabel": {
+      "type": "string"
+    },
+    "metrics": {
+      "type": "component",
+      "repeatable": true,
+      "component": "data.metric"
+    },
+    "stub": {
+      "type": "component",
+      "repeatable": false,
+      "component": "meta.stub",
+      "required": true
+    }
+  }
+}

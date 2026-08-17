@@ -1,0 +1,50 @@
+{
+  "collectionName": "components_client_logo_walls",
+  "info": {
+    "displayName": "Витрина логотипов",
+    "icon": "grid"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "lead": {
+      "type": "text"
+    },
+    "selection": {
+      "type": "enumeration",
+      "enum": [
+        "auto",
+        "manual"
+      ],
+      "default": "auto"
+    },
+    "segment": {
+      "type": "enumeration",
+      "enum": [
+        "all",
+        "developer",
+        "operator",
+        "bigtech",
+        "city"
+      ],
+      "default": "all"
+    },
+    "limit": {
+      "type": "integer",
+      "default": 12
+    },
+    "picks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "client.logo-pick"
+    },
+    "stub": {
+      "type": "component",
+      "repeatable": false,
+      "component": "meta.stub",
+      "required": true
+    }
+  }
+}

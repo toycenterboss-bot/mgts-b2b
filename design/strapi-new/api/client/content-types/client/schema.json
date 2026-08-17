@@ -1,0 +1,73 @@
+{
+  "kind": "collectionType",
+  "collectionName": "clients",
+  "info": {
+    "singularName": "client",
+    "pluralName": "clients",
+    "displayName": "Клиент",
+    "description": "Реестр клиентов. Единственное место, где живут флаги согласования логотипа и имени."
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name",
+      "required": true
+    },
+    "shortName": {
+      "type": "string"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "segment": {
+      "type": "enumeration",
+      "enum": [
+        "developer",
+        "operator",
+        "bigtech",
+        "city",
+        "other"
+      ],
+      "default": "developer",
+      "required": true
+    },
+    "site": {
+      "type": "string"
+    },
+    "nameUsageApproved": {
+      "type": "boolean",
+      "default": false
+    },
+    "logoApproved": {
+      "type": "boolean",
+      "default": false
+    },
+    "approvedBy": {
+      "type": "string"
+    },
+    "approvedAt": {
+      "type": "date"
+    },
+    "ndaNote": {
+      "type": "text"
+    },
+    "stub": {
+      "type": "component",
+      "repeatable": false,
+      "component": "meta.stub",
+      "required": true
+    }
+  }
+}

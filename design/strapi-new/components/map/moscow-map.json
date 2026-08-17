@@ -1,0 +1,62 @@
+{
+  "collectionName": "components_map_moscow_maps",
+  "info": {
+    "displayName": "Карта Москвы",
+    "icon": "earth"
+  },
+  "options": {},
+  "attributes": {
+    "mode": {
+      "type": "enumeration",
+      "enum": [
+        "hero",
+        "section",
+        "cases"
+      ],
+      "default": "hero",
+      "required": true
+    },
+    "scale": {
+      "type": "integer",
+      "default": 44
+    },
+    "offsetX": {
+      "type": "integer",
+      "default": 70
+    },
+    "opacity": {
+      "type": "integer",
+      "default": 62
+    },
+    "mask": {
+      "type": "integer",
+      "default": 30
+    },
+    "showSites": {
+      "type": "boolean",
+      "default": true
+    },
+    "showEdges": {
+      "type": "boolean",
+      "default": true
+    },
+    "showDistricts": {
+      "type": "boolean",
+      "default": false
+    },
+    "disclaimer": {
+      "type": "string",
+      "default": "Схема связности условная, не трассировка ЛКС"
+    },
+    "attribution": {
+      "type": "string",
+      "default": "© OpenStreetMap contributors, ODbL"
+    },
+    "stub": {
+      "type": "component",
+      "repeatable": false,
+      "component": "meta.stub",
+      "required": true
+    }
+  }
+}

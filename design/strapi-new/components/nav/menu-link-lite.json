@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_nav_menu_link_lites",
+  "info": {
+    "displayName": "Ссылка меню",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "href": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "type": "string"
+    },
+    "badge": {
+      "type": "string"
+    }
+  }
+}

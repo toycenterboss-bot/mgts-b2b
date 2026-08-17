@@ -1,0 +1,48 @@
+{
+  "collectionName": "components_data_metrics",
+  "info": {
+    "displayName": "Показатель",
+    "icon": "chartLine"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "value": {
+      "type": "string"
+    },
+    "unit": {
+      "type": "string"
+    },
+    "trend": {
+      "type": "enumeration",
+      "enum": [
+        "up",
+        "down",
+        "flat",
+        "none"
+      ],
+      "default": "none"
+    },
+    "audience": {
+      "type": "enumeration",
+      "enum": [
+        "client",
+        "company"
+      ],
+      "default": "client",
+      "required": true
+    },
+    "caption": {
+      "type": "string"
+    },
+    "stub": {
+      "type": "component",
+      "repeatable": false,
+      "component": "meta.stub",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_home_division_splits",
+  "info": {
+    "displayName": "Два дивизиона",
+    "icon": "columns"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "lead": {
+      "type": "text"
+    },
+    "left": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.division-card",
+      "required": true
+    },
+    "right": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.division-card",
+      "required": true
+    }
+  }
+}

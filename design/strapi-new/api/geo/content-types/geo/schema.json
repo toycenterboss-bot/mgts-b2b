@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "geos",
+  "info": {
+    "singularName": "geo",
+    "pluralName": "geos",
+    "displayName": "Геометрия карты",
+    "description": "Геометрия Москвы отдельным запросом, чтобы не попасть в бандл."
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "moscow": {
+      "type": "json",
+      "required": true
+    },
+    "meta": {
+      "type": "json",
+      "required": true
+    },
+    "districts": {
+      "type": "json"
+    },
+    "sites": {
+      "type": "json"
+    },
+    "attribution": {
+      "type": "string",
+      "default": "© OpenStreetMap contributors, ODbL"
+    },
+    "stub": {
+      "type": "component",
+      "repeatable": false,
+      "component": "meta.stub",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_home_segment_forks",
+  "info": {
+    "displayName": "Развилка сегментов",
+    "icon": "crosshairs"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "lead": {
+      "type": "text"
+    },
+    "entries": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.segment-entry",
+      "required": true
+    },
+    "map": {
+      "type": "component",
+      "repeatable": false,
+      "component": "map.moscow-map"
+    },
+    "stub": {
+      "type": "component",
+      "repeatable": false,
+      "component": "meta.stub",
+      "required": true
+    }
+  }
+}
