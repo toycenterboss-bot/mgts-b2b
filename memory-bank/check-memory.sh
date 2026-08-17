@@ -165,6 +165,43 @@ else
   ok "activeContext.md свежий"
 fi
 
+# ------------------------------------------- 8. память не отстала от работы
+head_ "8. Память не отстала от работы"
+
+# Каталоги, изменение которых означает «шла работа над проектом».
+# temp/, uploads/, .dev/ намеренно не включены: они шумят и не отражают работу.
+WORK_PATHS="docs design mgts-frontend/src mgts-backend/src scripts"
+
+if [ -d "$ROOT/.git" ]; then
+  W=$(cd "$ROOT" && git log -1 --format=%ct -- $WORK_PATHS 2>/dev/null)
+  M=$(cd "$ROOT" && git log -1 --format=%ct -- memory-bank/activeContext.md 2>/dev/null)
+  if [ -n "$W" ] && [ -n "$M" ]; then
+    if [ "$W" -gt "$M" ]; then
+      D=$(( (W - M) / 86400 ))
+      fail "проект правился позже, чем activeContext — разрыв $D дн. Работа шла, знание не записано"
+      (cd "$ROOT" && git log -1 --format='      последняя правка проекта: %h %ad · %s' \
+         --date=short -- $WORK_PATHS 2>/dev/null | cut -c1-130)
+      (cd "$ROOT" && git log -1 --format='      последняя запись в память: %h %ad · %s' \
+         --date=short -- memory-bank/activeContext.md 2>/dev/null | cut -c1-130)
+    else
+      ok "activeContext не старше последней правки проекта"
+    fi
+  else
+    warn "не с чем сравнить: нет коммитов по одной из сторон"
+  fi
+
+  # незакоммиченная работа при нетронутой памяти — тот же провал, только раньше
+  DW=$(cd "$ROOT" && git status --porcelain -- $WORK_PATHS 2>/dev/null | wc -l | tr -d ' ')
+  DM=$(cd "$ROOT" && git status --porcelain -- memory-bank 2>/dev/null | wc -l | tr -d ' ')
+  if [ "$DW" -gt 0 ] && [ "$DM" -eq 0 ]; then
+    fail "$DW незакоммиченных правок в проекте и НИ ОДНОЙ в memory-bank — запиши, что делаешь"
+  elif [ "$DW" -gt 0 ]; then
+    ok "работа идёт и память вместе с ней ($DW правок в проекте, $DM в памяти)"
+  fi
+else
+  warn "не git-репозиторий, сверку с работой пропускаю"
+fi
+
 # ------------------------------------------------------------------- итог
 head_ "Итог"
 if [ "$FAIL" -ne 0 ]; then
