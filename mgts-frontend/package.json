@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "check:stubs": "node scripts/check-stubs.mts"
   },
   "dependencies": {
     "next": "16.1.6",
