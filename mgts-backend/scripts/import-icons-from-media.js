@@ -1,4 +1,8 @@
 #!/usr/bin/env node
+// Секреты из mgts-backend/.env (B-01). Скрипты запускаются напрямую,
+// поэтому .env нужно загрузить явно — Strapi это делает сам, node — нет.
+require('dotenv').config({ path: require('path').join(__dirname, '..', '.env') });
+
 /**
  * Import SVGs from Media Library into api::icon.icon.
  * Uses REST API so Strapi can stay running.
