@@ -14,3 +14,6 @@ strapi-backups/
 # memory-bank
 memory-bank/secrets.local.md
 _to_delete/
+
+# Профили Chrome с куками .mgts.ru/.mts.ru — в репозитории им не место (B-01)
+mgts-backend/temp/page-analysis-llm/*_chrome_*/
