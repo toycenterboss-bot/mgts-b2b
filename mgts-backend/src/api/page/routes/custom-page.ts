@@ -51,7 +51,6 @@ export default {
       path: '/pages/delete-all',
       handler: 'page.deleteAll',
       config: {
-        auth: false,
         policies: [],
         middlewares: [],
       },
@@ -61,7 +60,6 @@ export default {
       path: '/pages/update-parent-relations',
       handler: 'page.updateParentRelations',
       config: {
-        auth: false,
         policies: [],
         middlewares: [],
       },
@@ -94,7 +92,6 @@ export default {
       path: '/pages/seed-service-sections',
       handler: 'page.seedServiceSections',
       config: {
-        auth: false,
         policies: [],
         middlewares: [],
       },
@@ -107,7 +104,6 @@ export default {
       path: '/pages/seed-doc-sections',
       handler: 'page.seedDocSections',
       config: {
-        auth: false,
         policies: [],
         middlewares: [],
       },
@@ -120,7 +116,6 @@ export default {
       path: '/pages/seed-contact-hub',
       handler: 'page.seedContactHub',
       config: {
-        auth: false,
         policies: [],
         middlewares: [],
       },
@@ -133,7 +128,6 @@ export default {
       path: '/pages/seed-segment-landing',
       handler: 'page.seedSegmentLanding',
       config: {
-        auth: false,
         policies: [],
         middlewares: [],
       },

@@ -1,3 +1,7 @@
+// Секреты из mgts-backend/.env (B-01). Скрипты запускаются напрямую,
+// поэтому .env нужно загрузить явно — Strapi это делает сам, node — нет.
+require('dotenv').config({ path: require('path').join(__dirname, '..', '.env') });
+
 /**
  * Скрипт для обновления страниц в Strapi с нормализованным контентом через API
  * Использует API токен из docs/project/CONTEXT.md

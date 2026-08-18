@@ -1,3 +1,7 @@
+// Секреты из mgts-backend/.env (B-01). Скрипты запускаются напрямую,
+// поэтому .env нужно загрузить явно — Strapi это делает сам, node — нет.
+require('dotenv').config({ path: require('path').join(__dirname, '..', '.env') });
+
 /**
  * Скрипт для обновления путей к изображениям в HTML-контенте страниц
  * Заменяет старые пути (/images/...) на URL из Strapi Media Library
