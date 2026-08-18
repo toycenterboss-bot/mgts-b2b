@@ -230,8 +230,9 @@ else
       fi
     fi
 
-    CL=$(grep -c '^—— ЗАКРЫТА' "$P" 2>/dev/null | head -1 | tr -dc '0-9')
-    ND=$(grep -c 'Что НЕ доказано' "$P" 2>/dev/null | head -1 | tr -dc '0-9')
+    # шаблон закрывающего блока (ДД.ММ, «обязательное поле») за фазу не считается
+    CL=$(grep '^—— ЗАКРЫТА' "$P" 2>/dev/null | grep -v 'ДД\.ММ' | wc -l | tr -d ' ')
+    ND=$(grep 'Что НЕ доказано' "$P" 2>/dev/null | grep -v 'обязательное поле' | wc -l | tr -d ' ')
     CL=${CL:-0}; ND=${ND:-0}
     if [ "$CL" -gt 0 ]; then
       if [ "$ND" -lt "$CL" ]; then
