@@ -4,6 +4,7 @@ dist/
 *.log
 .env*
 !.env.example
+!mgts-frontend/.env.example
 .DS_Store
 .dev/
 __pycache__/
