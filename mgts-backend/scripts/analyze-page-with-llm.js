@@ -165,32 +165,8 @@ function normalizeInfoformenResult(result) {
  * Читает API ключ из CONTEXT.md
  */
 function getApiKeyFromContext() {
-    try {
-        const contextPath = path.join(__dirname, '..', '..', 'docs', 'project', 'CONTEXT.md');
-        if (fs.existsSync(contextPath)) {
-            const contextContent = fs.readFileSync(contextPath, 'utf-8');
-            
-            // Ищем Perplexity API ключ (формат: pplx-...)
-            const perplexityKeyMatch = contextContent.match(/pplx-[a-zA-Z0-9]+/);
-            if (perplexityKeyMatch) {
-                return perplexityKeyMatch[0];
-            }
-            
-            // Ищем в export строке
-            const perplexityExportMatch = contextContent.match(/PERPLEXITY_API_KEY["']?\s*=\s*["']?([^"'\s]+)["']?/i);
-            if (perplexityExportMatch) {
-                return perplexityExportMatch[1];
-            }
-            
-            // Ищем OpenAI API ключ
-            const openaiMatch = contextContent.match(/OPENAI_API_KEY["']?\s*=\s*["']?([^"'\s]+)["']?/i);
-            if (openaiMatch) {
-                return openaiMatch[1];
-            }
-        }
-    } catch (error) {
-        console.warn('⚠️  Не удалось прочитать CONTEXT.md:', error.message);
-    }
+    // Больше не читает docs/project/CONTEXT.md (B-01): ключ только из окружения.
+    // Имя сохранено, чтобы не трогать места вызова — возвращает null всегда.
     return null;
 }
 

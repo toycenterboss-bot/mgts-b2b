@@ -476,20 +476,9 @@ function buildRoleCriteria(roleKey) {
 const MODEL = process.env.PERPLEXITY_MODEL || 'sonar';
 
 function getApiKeyFromContext() {
-  try {
-    const contextPath = path.join(__dirname, '..', '..', 'docs', 'project', 'CONTEXT.md');
-    if (!fs.existsSync(contextPath)) return null;
-    const contextContent = fs.readFileSync(contextPath, 'utf-8');
-
-    const perplexityKeyMatch = contextContent.match(/pplx-[a-zA-Z0-9]+/);
-    if (perplexityKeyMatch) return perplexityKeyMatch[0];
-
-    const exportMatch = contextContent.match(/PERPLEXITY_API_KEY["']?\s*=\s*["']?([^"'\s]+)["']?/i);
-    if (exportMatch) return exportMatch[1];
-  } catch (error) {
-    console.warn('⚠️  Не удалось прочитать CONTEXT.md:', error.message);
-  }
-  return null;
+    // Больше не читает docs/project/CONTEXT.md (B-01): ключ только из окружения.
+    // Имя сохранено, чтобы не трогать места вызова — возвращает null всегда.
+    return null;
 }
 
 const API_KEY = process.env.PERPLEXITY_API_KEY || getApiKeyFromContext();

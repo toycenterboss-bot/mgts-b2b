@@ -8,7 +8,7 @@ API токен для доступа к Strapi API:
 
 **Использование:**
 ```bash
-export STRAPI_API_TOKEN="248ed20567238625e73c43dd552d09cd01965984a8216bf60a11e226a158ae416a08a4c3a3e849e0a3d4cfce46069b2284b6a56ad50c6b206273c4159ea9dbe8a35d26c81fa60089dd3710cbafb59883637ed2b2e611991a69900fab5818d6df8b98ca2101f0ec0a81c383b083579e978b562e0eca037cd3e3f9c3c479ea8251"
+export STRAPI_API_TOKEN="<REDACTED — токен живёт в mgts-backend/.env, переменная STRAPI_API_TOKEN>"
 ```
 
 ## Perplexity API Token
