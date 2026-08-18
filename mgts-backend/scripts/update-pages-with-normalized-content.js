@@ -15,22 +15,15 @@ const STRAPI_URL = process.env.STRAPI_URL || 'http://localhost:1337';
 
 // Читаем токен из контекста
 function getApiToken() {
-    const contextPath = path.join(__dirname, '../../docs/project/CONTEXT.md');
-    if (fs.existsSync(contextPath)) {
-        const context = fs.readFileSync(contextPath, 'utf-8');
-        const patterns = [
-            /export STRAPI_API_TOKEN="([^"]+)"/i,
-            /STRAPI_API_TOKEN[:\s=]+([a-zA-Z0-9]{200,})/i,
-            /STRAPI_API_TOKEN[:\s=]+([^\s\n]+)/i,
-        ];
-        for (const pattern of patterns) {
-            const tokenMatch = context.match(pattern);
-            if (tokenMatch && tokenMatch[1]) {
-                return tokenMatch[1].trim();
-            }
-        }
+    // Только из окружения: секретам не место в файлах репозитория (B-01).
+    // Раньше здесь читался docs/project/CONTEXT.md — публичный файл.
+    const token = process.env.STRAPI_API_TOKEN || '';
+    if (!token) {
+        console.error('❌ Не задан STRAPI_API_TOKEN.');
+        console.error('   Положите его в mgts-backend/.env');
+        console.error('   Взять: Strapi → Settings → API Tokens → Full access');
     }
-    return process.env.STRAPI_API_TOKEN || '';
+    return token;
 }
 
 const API_TOKEN = getApiToken();
