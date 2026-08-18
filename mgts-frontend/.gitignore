@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# снимки визуального эталона — локальные, в репозиторий не едут
+.visual/
