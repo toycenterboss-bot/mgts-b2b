@@ -16,14 +16,14 @@ export default function HomeCooperationCta({ section }: HomeCooperationCtaProps)
     <section className="py-32 relative overflow-hidden" data-home-cooperation>
       <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-primary/10 to-transparent pointer-events-none"></div>
       <div className="container mx-auto px-6">
-        <div className="relative bg-gradient-to-br from-[#0a1622] to-background-dark rounded-[3rem] p-12 md:p-20 border border-white/10 shadow-3xl overflow-hidden group">
+        <div className="relative bg-gradient-to-br from-bg to-background-dark rounded-[3rem] p-12 md:p-20 border border-fg/10 shadow-3xl overflow-hidden group">
           <div className="absolute -top-20 -right-20 w-80 h-80 bg-accent-red/10 blur-[100px] rounded-full"></div>
           <div className="absolute -bottom-20 -left-20 w-80 h-80 bg-primary/10 blur-[100px] rounded-full"></div>
           <div className="relative z-10 flex flex-col lg:flex-row items-center justify-between gap-16">
             <div className="max-w-2xl">
               {section.title && (
                 <h2
-                  className="text-4xl md:text-6xl mts-bold text-white leading-tight mb-8"
+                  className="text-4xl md:text-6xl mts-bold text-fg leading-tight mb-8"
                   data-home-coop-title
                   {...(hasHtml(titleHtml) ? { dangerouslySetInnerHTML: { __html: titleHtml } } : {})}
                 >
@@ -32,7 +32,7 @@ export default function HomeCooperationCta({ section }: HomeCooperationCtaProps)
               )}
               {section.description && (
                 <p
-                  className="text-white/50 text-xl leading-relaxed font-medium"
+                  className="text-fg-subtle text-xl leading-relaxed font-medium"
                   data-home-coop-desc
                   {...(hasHtml(descHtml) ? { dangerouslySetInnerHTML: { __html: descHtml } } : {})}
                 >
@@ -44,7 +44,7 @@ export default function HomeCooperationCta({ section }: HomeCooperationCtaProps)
               {section.buttonText && (
                 <div className="p-1.5 rounded-[2rem] bg-gradient-to-r from-primary to-accent-red">
                   <a
-                    className="w-full bg-background-dark hover:bg-transparent text-white py-6 rounded-[1.8rem] text-xl mts-bold transition-all flex items-center justify-center gap-4 group"
+                    className="w-full bg-background-dark hover:bg-transparent text-fg py-6 rounded-[1.8rem] text-xl mts-bold transition-all flex items-center justify-center gap-4 group"
                     href={normalizeCmsHref(section.buttonHref || "#")}
                     data-home-coop-button
                   >
@@ -58,7 +58,7 @@ export default function HomeCooperationCta({ section }: HomeCooperationCtaProps)
                 </div>
               )}
               {perks.length > 0 && (
-                <div className="flex items-center justify-center gap-6 text-white/40" data-home-coop-perks>
+                <div className="flex items-center justify-center gap-6 text-fg-subtle" data-home-coop-perks>
                   {perks.map((perk: any, idx: number) => (
                     <div key={`${perk.label || "perk"}-${idx}`} className="flex items-center gap-2" data-home-coop-perk>
                       {perk.icon && (
@@ -75,7 +75,7 @@ export default function HomeCooperationCta({ section }: HomeCooperationCtaProps)
               )}
             </div>
           </div>
-          <div className="absolute bottom-6 right-10 text-white/5 select-none pointer-events-none">
+          <div className="absolute bottom-6 right-10 text-fg/5 select-none pointer-events-none">
             <span className="material-symbols-outlined text-8xl">ac_unit</span>
           </div>
         </div>

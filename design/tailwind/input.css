@@ -1,5 +1,12 @@
+/* Импорт обязан идти ДО @tailwind: postcss-import подставляет его на месте,
+   а CSS-спека требует @import в начале файла. Пока импорт стоял в конце,
+   он молча не срабатывал.
+   🔴 Так и обнаружилось, что `custom.css` (303 строки: .glass-card, .glass-panel,
+   .news-card-3d, .hero-mesh, .glow-leak) НИКОГДА не попадал в бандл — классы
+   стоят в разметке и не имеют стилей. Это отдельная правка с отдельным замером,
+   а не побочный эффект темы: см. дефект Д-33. Поэтому здесь пока только токены. */
+@import "./tokens.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import "./custom.css";

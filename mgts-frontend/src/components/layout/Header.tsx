@@ -29,16 +29,16 @@ export default function Header({ navigation }: HeaderProps) {
 
   return (
     <section
-      className="mgts-header bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100"
+      className="mgts-header bg-background-light dark:bg-background-dark text-fg dark:text-fg"
       data-stitch-block="header_and_mega_menu"
     >
-      <div className="w-full border-b border-slate-200 dark:border-slate-800 bg-white dark:bg-background-dark/50">
+      <div className="w-full border-b border-line dark:border-line bg-surface dark:bg-background-dark/50">
         <div className="max-w-7xl mx-auto px-6 h-10 flex items-center justify-between text-xs font-medium tracking-wide">
           <div className="flex items-center gap-6">
             {topItems.map((item: any, idx: number) => (
               <a
                 key={`${item.label || "top"}-${idx}`}
-                className="hover:text-primary transition-colors"
+                className="hover:text-accent-text transition-colors"
                 href={normalizeCmsHref(item.href || "#")}
               >
                 {item.label}
@@ -47,7 +47,7 @@ export default function Header({ navigation }: HeaderProps) {
           </div>
           <div className="flex items-center gap-6">
             {navigation.phone && (
-              <a className="hover:text-primary transition-colors" href={`tel:${navigation.phone}`}>
+              <a className="hover:text-accent-text transition-colors" href={`tel:${navigation.phone}`}>
                 {navigation.phoneDisplay || navigation.phone}
               </a>
             )}
@@ -56,7 +56,7 @@ export default function Header({ navigation }: HeaderProps) {
         </div>
       </div>
       <header
-        className="sticky top-0 z-50 w-full border-b border-slate-200 dark:border-slate-800 bg-white dark:bg-background-dark shadow-sm relative"
+        className="sticky top-0 z-50 w-full border-b border-line dark:border-line bg-surface dark:bg-background-dark shadow-sm relative"
         data-mega-root
       >
         <MegaMenuController />
@@ -68,7 +68,7 @@ export default function Header({ navigation }: HeaderProps) {
             <nav className="hidden lg:flex items-center gap-8" data-mega-triggers>
               {megaMenus.map((menu: any, idx: number) => (
                 <details key={`${menu.menuId || "mega"}-${idx}`} className="group">
-                  <summary className="text-sm font-semibold text-slate-500 hover:text-primary transition-colors pb-1 border-b-2 border-transparent cursor-pointer list-none">
+                  <summary className="text-sm font-semibold text-fg-subtle hover:text-accent-text transition-colors pb-1 border-b-2 border-transparent cursor-pointer list-none">
                     {menu.title}
                   </summary>
                   <MegaMenu menu={menu} cta={cta} />
@@ -79,14 +79,14 @@ export default function Header({ navigation }: HeaderProps) {
           <div className="flex items-center gap-4">
             <div className="relative hidden xl:block">
               <input
-                className="w-64 bg-slate-100 dark:bg-slate-800 border-none rounded-lg py-2 pl-10 text-sm focus:ring-2 focus:ring-primary"
+                className="w-64 bg-surface-2 dark:bg-surface-2 border-none rounded-lg py-2 pl-10 text-sm focus:ring-2 focus:ring-primary"
                 placeholder="Поиск услуг..."
                 type="text"
               />
-              <span className="material-symbols-outlined absolute left-3 top-2 text-slate-400">search</span>
+              <span className="material-symbols-outlined absolute left-3 top-2 text-fg-muted">search</span>
             </div>
             <a
-              className="bg-primary text-white px-6 py-2.5 rounded-lg text-sm font-bold hover:bg-blue-700 transition-colors"
+              className="bg-primary text-on-primary px-6 py-2.5 rounded-lg text-sm font-bold hover:bg-blue-700 transition-colors"
               href={normalizeCmsHref("/contact_details")}
             >
               Стать клиентом

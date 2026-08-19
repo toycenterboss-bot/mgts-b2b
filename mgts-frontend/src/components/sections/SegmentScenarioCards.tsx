@@ -31,19 +31,19 @@ export default function SegmentScenarioCards({
   return (
     <section
       className={
-        hideShell ? "w-full border-0 bg-transparent p-0 rounded-none" : "w-full rounded-2xl border border-white/10 bg-white/5 p-6"
+        hideShell ? "w-full border-0 bg-transparent p-0 rounded-none" : "w-full rounded-2xl border border-fg/10 bg-fg/5 p-6"
       }
     >
       {showFilters && (
         <div className="flex flex-col md:flex-row gap-6 items-center mb-8">
           <div className="w-full md:flex-1">
             <label className="flex flex-col w-full h-12">
-              <div className="flex w-full flex-1 items-stretch rounded-xl h-full overflow-hidden border border-white/10 bg-[#1a232e]">
-                <div className="text-[#9aabbc] flex items-center justify-center pl-4 bg-transparent">
+              <div className="flex w-full flex-1 items-stretch rounded-xl h-full overflow-hidden border border-fg/10 bg-surface">
+                <div className="text-fg-muted flex items-center justify-center pl-4 bg-transparent">
                   <span className="material-symbols-outlined">search</span>
                 </div>
                 <input
-                  className="form-input flex w-full flex-1 border-none bg-transparent text-white focus:outline-0 focus:ring-0 placeholder:text-[#9aabbc] px-4 text-base font-normal"
+                  className="form-input flex w-full flex-1 border-none bg-transparent text-fg focus:outline-0 focus:ring-0 placeholder:text-fg-muted px-4 text-base font-normal"
                   placeholder="Поиск B2B решений..."
                   value={query}
                   onChange={(event) => setQuery(event.target.value)}
@@ -51,14 +51,14 @@ export default function SegmentScenarioCards({
               </div>
             </label>
           </div>
-          <div className="flex gap-2 p-1 bg-[#1a232e] rounded-xl border border-white/10 overflow-x-auto w-full md:w-auto">
+          <div className="flex gap-2 p-1 bg-surface rounded-xl border border-fg/10 overflow-x-auto w-full md:w-auto">
             {FILTERS.map((filter) => {
               const isActive = filter === activeFilter;
               return (
                 <button
                   key={filter}
                   className={`px-5 py-2 rounded-lg text-sm font-semibold whitespace-nowrap transition-colors ${
-                    isActive ? "bg-primary text-white" : "text-[#9aabbc] hover:text-white"
+                    isActive ? "bg-primary text-on-primary" : "text-fg-muted hover:text-fg"
                   }`}
                   type="button"
                   onClick={() => setActiveFilter(filter)}
@@ -72,9 +72,9 @@ export default function SegmentScenarioCards({
       )}
 
       <div className="flex items-center justify-between mb-6">
-        <h2 className="text-white text-xl font-bold tracking-tight">{section.title || "Сценарии"}</h2>
+        <h2 className="text-fg text-xl font-bold tracking-tight">{section.title || "Сценарии"}</h2>
         {showAction && (
-          <span className="text-primary text-sm font-bold flex items-center gap-1">
+          <span className="text-accent-text text-sm font-bold flex items-center gap-1">
             Смотреть все <span className="material-symbols-outlined text-sm">arrow_forward</span>
           </span>
         )}
@@ -92,15 +92,15 @@ export default function SegmentScenarioCards({
             <Tag
               key={`${card.title || "scenario"}-${idx}`}
               href={rawLink ? href : undefined}
-              className="bg-[#1a232e] border border-white/5 p-5 rounded-xl flex flex-col gap-3"
+              className="bg-surface border border-fg/5 p-5 rounded-xl flex flex-col gap-3"
             >
-              <div className="size-10 rounded-lg bg-primary/10 flex items-center justify-center text-primary">
+              <div className="size-10 rounded-lg bg-primary/10 flex items-center justify-center text-accent-text">
                 {card.icon ? <Icon name={card.icon} size={22} /> : <span className="material-symbols-outlined">hub</span>}
               </div>
-              <h3 className="text-white text-sm font-bold leading-snug">{card.title || "Сценарий"}</h3>
-              {description && <p className="text-[#9aabbc] text-xs leading-relaxed line-clamp-3">{description}</p>}
+              <h3 className="text-fg text-sm font-bold leading-snug">{card.title || "Сценарий"}</h3>
+              {description && <p className="text-fg-muted text-xs leading-relaxed line-clamp-3">{description}</p>}
               {showCta && (
-                <span className="mt-auto text-primary text-[10px] font-bold uppercase tracking-widest flex items-center gap-1">
+                <span className="mt-auto text-accent-text text-[10px] font-bold uppercase tracking-widest flex items-center gap-1">
                   Подробнее <span className="material-symbols-outlined text-xs">chevron_right</span>
                 </span>
               )}

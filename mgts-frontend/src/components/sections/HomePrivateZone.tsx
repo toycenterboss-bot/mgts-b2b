@@ -12,7 +12,7 @@ export default function HomePrivateZone({ section }: HomePrivateZoneProps) {
     <section className="mt-16" data-home-private-zone>
       <div className="max-w-[1200px] mx-auto">
         <div
-          className="p-10 glass-effect rounded-3xl border border-white/10 relative overflow-hidden"
+          className="p-10 glass-effect rounded-3xl border border-fg/10 relative overflow-hidden"
           data-home-private-card
         >
           <div className="absolute -right-10 -top-10 size-32 bg-primary/30 blur-[80px]"></div>
@@ -23,11 +23,11 @@ export default function HomePrivateZone({ section }: HomePrivateZoneProps) {
               data-home-private-icon-wrap
             >
               {section.icon && (
-                <span className="material-symbols-outlined text-primary text-3xl" data-home-private-icon>
+                <span className="material-symbols-outlined text-accent-text text-3xl" data-home-private-icon>
                   {section.icon}
                 </span>
               )}
-              {!section.icon && <Icon name="lock_open" size={28} className="text-primary" />}
+              {!section.icon && <Icon name="lock_open" size={28} className="text-accent-text" />}
             </div>
             {section.title && (
               <h5 className="text-xl font-black mb-3" data-home-private-title>
@@ -35,13 +35,13 @@ export default function HomePrivateZone({ section }: HomePrivateZoneProps) {
               </h5>
             )}
             {section.description && (
-              <p className="text-sm text-slate-400 mb-8 leading-relaxed" data-home-private-desc>
+              <p className="text-sm text-fg-muted mb-8 leading-relaxed" data-home-private-desc>
                 {section.description}
               </p>
             )}
             {section.buttonText && (
               <a
-                className="w-full inline-flex justify-center py-4 bg-primary text-white hover:brightness-110 shadow-xl shadow-primary/20 rounded-xl text-xs font-black uppercase tracking-widest transition-all"
+                className="w-full inline-flex justify-center py-4 bg-primary text-on-primary hover:brightness-110 shadow-xl shadow-primary/20 rounded-xl text-xs font-black uppercase tracking-widest transition-all"
                 href={normalizeCmsHref(section.buttonHref || "#")}
                 data-home-private-button
               >

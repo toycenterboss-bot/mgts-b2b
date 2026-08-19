@@ -31,10 +31,10 @@ export default function CareerVacancies({ section }: CareerVacanciesProps) {
     : filteredVacancies.slice(0, initialVisible);
 
   return (
-    <section className="career-vacancies py-20 bg-[#0b0e14]" data-career-section="vacancies">
+    <section className="career-vacancies py-20 bg-bg" data-career-section="vacancies">
       <div className="mx-auto max-w-[1280px] px-6 lg:px-10">
         {section.title && (
-          <h2 className="career-vacancies__title text-3xl font-bold text-white mb-8 px-2">
+          <h2 className="career-vacancies__title text-3xl font-bold text-fg mb-8 px-2">
             {section.title}
           </h2>
         )}
@@ -51,8 +51,8 @@ export default function CareerVacancies({ section }: CareerVacanciesProps) {
                     isActive ? " is-active" : ""
                   } ${
                     isActive
-                      ? "bg-primary text-white font-bold"
-                      : "bg-white/5 hover:bg-white/10 text-slate-300 font-medium border border-white/10"
+                      ? "bg-primary text-on-primary font-bold"
+                      : "bg-fg/5 hover:bg-fg/10 text-fg-muted font-medium border border-fg/10"
                   }`}
                   onClick={() => setActiveFilter(isAllFilter ? "" : filter.key || "")}
                 >

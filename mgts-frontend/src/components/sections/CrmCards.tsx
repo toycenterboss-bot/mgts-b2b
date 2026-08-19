@@ -14,9 +14,9 @@ export default function CrmCards({ section }: CrmCardsProps) {
   const sorted = [...cards].sort((a, b) => (a?.order || 0) - (b?.order || 0));
 
   return (
-    <section className="crm-cards rounded-2xl border border-white/10 bg-white/5 p-6">
+    <section className="crm-cards rounded-2xl border border-fg/10 bg-fg/5 p-6">
       {section.title && <h2 className="crm-cards__title text-xl font-black tracking-tight mb-2">{section.title}</h2>}
-      {section.description && <p className="text-sm text-white/60 mb-5">{section.description}</p>}
+      {section.description && <p className="text-sm text-fg-subtle mb-5">{section.description}</p>}
       <div className="crm-cards__container grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
         {sorted.map((card: any, idx: number) => {
           const imgUrl = resolveMediaUrl(card.image || null);
@@ -26,7 +26,7 @@ export default function CrmCards({ section }: CrmCardsProps) {
           return (
             <Tag
               key={`${card.title || "crm"}-${idx}`}
-              className="crm-cards__card flex items-center justify-center rounded-2xl border border-white/10 bg-black/20 hover:bg-black/10 transition-colors p-4 min-h-[84px]"
+              className="crm-cards__card flex items-center justify-center rounded-2xl border border-fg/10 bg-bg/20 hover:bg-bg/10 transition-colors p-4 min-h-[84px]"
               href={href || undefined}
               target={href && isExternal ? "_blank" : undefined}
               rel={href && isExternal ? "noreferrer" : undefined}
@@ -40,7 +40,7 @@ export default function CrmCards({ section }: CrmCardsProps) {
                   height={80}
                 />
               ) : (
-                <span className="font-black text-white/80 text-sm text-center">{card.title || "CRM"}</span>
+                <span className="font-black text-fg-muted text-sm text-center">{card.title || "CRM"}</span>
               )}
             </Tag>
           );

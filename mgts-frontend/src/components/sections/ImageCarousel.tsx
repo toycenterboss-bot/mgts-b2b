@@ -78,16 +78,16 @@ export default function ImageCarousel({ section }: ImageCarouselProps) {
       <div className="flex items-end justify-between px-2">
         <div>
           {section.title && (
-            <h2 className="image-carousel__title text-white text-3xl lg:text-4xl font-bold tracking-tight">
+            <h2 className="image-carousel__title text-fg text-3xl lg:text-4xl font-bold tracking-tight">
               {section.title}
             </h2>
           )}
-          {section.subtitle && <p className="text-slate-500 dark:text-slate-400 mt-2">{section.subtitle}</p>}
+          {section.subtitle && <p className="text-fg-subtle dark:text-fg-muted mt-2">{section.subtitle}</p>}
         </div>
         {showNavigation && (
           <div className="flex gap-3">
             <button
-              className="glass size-12 flex items-center justify-center rounded-full hover:bg-white/10 transition-colors"
+              className="glass size-12 flex items-center justify-center rounded-full hover:bg-fg/10 transition-colors"
               data-carousel-prev
               aria-label="Предыдущий слайд"
               type="button"
@@ -98,7 +98,7 @@ export default function ImageCarousel({ section }: ImageCarouselProps) {
               <span className="material-symbols-outlined">chevron_left</span>
             </button>
             <button
-              className="glass size-12 flex items-center justify-center rounded-full hover:bg-white/10 transition-colors"
+              className="glass size-12 flex items-center justify-center rounded-full hover:bg-fg/10 transition-colors"
               data-carousel-next
               aria-label="Следующий слайд"
               type="button"
@@ -126,7 +126,7 @@ export default function ImageCarousel({ section }: ImageCarouselProps) {
                 className="image-carousel__item min-w-[85%] lg:min-w-[70%] aspect-[21/9] rounded-xl overflow-hidden snap-start relative group/card"
                 data-carousel-slide
               >
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent z-10"></div>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-bg/20 to-transparent z-10"></div>
                 <div
                   className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover/card:scale-105"
                   style={url ? { backgroundImage: `url('${url}')` } : undefined}
@@ -137,11 +137,11 @@ export default function ImageCarousel({ section }: ImageCarouselProps) {
                       {item.badge || item.tag}
                     </span>
                   )}
-                  {item.title && <h3 className="text-3xl font-bold text-white mb-4">{item.title}</h3>}
-                  {item.description && <p className="text-slate-200 text-lg mb-6">{item.description}</p>}
+                  {item.title && <h3 className="text-3xl font-bold text-fg mb-4">{item.title}</h3>}
+                  {item.description && <p className="text-fg text-lg mb-6">{item.description}</p>}
                   {item?.ctaText && item?.ctaHref && (
                     <a
-                      className="bg-white text-black px-6 py-3 rounded-lg font-bold text-sm hover:bg-slate-100 transition-colors inline-flex"
+                      className="bg-surface text-fg px-6 py-3 rounded-lg font-bold text-sm hover:bg-surface-2 transition-colors inline-flex"
                       href={item.ctaHref}
                     >
                       {item.ctaText}
@@ -155,10 +155,10 @@ export default function ImageCarousel({ section }: ImageCarouselProps) {
 
         {showNavigation && (
           <div className="mt-8 flex items-center gap-4 px-2">
-            <div className="flex-1 h-1 bg-slate-200 dark:bg-white/10 rounded-full overflow-hidden">
+            <div className="flex-1 h-1 bg-surface-2 dark:bg-fg/10 rounded-full overflow-hidden">
               <div ref={progressRef} className="h-full bg-primary tab-glow transition-all duration-500" />
             </div>
-            <div className="text-xs font-bold text-slate-500 tracking-widest">
+            <div className="text-xs font-bold text-fg-subtle tracking-widest">
               <span ref={counterRef} data-carousel-counter />
             </div>
           </div>

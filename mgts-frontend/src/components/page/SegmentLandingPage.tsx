@@ -43,13 +43,13 @@ export default function SegmentLandingPage({
     <div data-page-template={page.template || "TPL_Segment_Landing"}>
       {breadcrumbs}
       <section
-        className="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-white transition-colors duration-300"
+        className="bg-background-light dark:bg-background-dark font-display text-fg dark:text-fg transition-colors duration-300"
         data-stitch-block="developers_industry_hero"
       >
         <SegmentLandingHero hero={hero} />
       </section>
       <section
-        className="bg-background-light dark:bg-background-dark text-white"
+        className="bg-background-light dark:bg-background-dark text-fg"
         data-stitch-block="service_and_scenario_cards_2"
       >
         <div className="layout-container flex h-full grow flex-col">
@@ -57,24 +57,24 @@ export default function SegmentLandingPage({
             <div className="flex flex-col md:flex-row gap-6 items-center mb-10">
               <div className="w-full md:flex-1">
                 <label className="flex flex-col w-full h-14">
-                  <div className="flex w-full flex-1 items-stretch rounded-xl h-full overflow-hidden border border-white/10 bg-[#1a232e]">
-                    <div className="text-[#9aabbc] flex items-center justify-center pl-4 bg-transparent">
+                  <div className="flex w-full flex-1 items-stretch rounded-xl h-full overflow-hidden border border-fg/10 bg-surface">
+                    <div className="text-fg-muted flex items-center justify-center pl-4 bg-transparent">
                       <span className="material-symbols-outlined">search</span>
                     </div>
                     <input
-                      className="form-input flex w-full flex-1 border-none bg-transparent text-white focus:outline-0 focus:ring-0 placeholder:text-[#9aabbc] px-4 text-base font-normal"
+                      className="form-input flex w-full flex-1 border-none bg-transparent text-fg focus:outline-0 focus:ring-0 placeholder:text-fg-muted px-4 text-base font-normal"
                       placeholder="Поиск B2B решений..."
                     />
                   </div>
                 </label>
               </div>
               {showFilters && (
-                <div className="flex gap-2 p-1 bg-[#1a232e] rounded-xl border border-white/10 overflow-x-auto w-full md:w-auto">
+                <div className="flex gap-2 p-1 bg-surface rounded-xl border border-fg/10 overflow-x-auto w-full md:w-auto">
                   {["Все услуги", "Инфраструктура", "Безопасность", "Облако"].map((filter) => (
                     <button
                       key={filter}
                       className={`px-5 py-2 rounded-lg text-sm font-semibold whitespace-nowrap transition-colors ${
-                        filter === "Все услуги" ? "bg-primary text-white" : "text-[#9aabbc] hover:text-white"
+                        filter === "Все услуги" ? "bg-primary text-on-primary" : "text-fg-muted hover:text-fg"
                       }`}
                       type="button"
                     >

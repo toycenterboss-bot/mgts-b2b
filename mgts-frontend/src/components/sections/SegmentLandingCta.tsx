@@ -19,12 +19,12 @@ export default function SegmentLandingCta({ section }: SegmentLandingCtaProps) {
       </div>
       <div className="z-10 text-center md:text-left">
         {section.title && (
-          <h2 className="text-white text-3xl font-bold mb-2" data-service-cta-title>
+          <h2 className="text-fg text-3xl font-bold mb-2" data-service-cta-title>
             {section.title}
           </h2>
         )}
         {section.subtitle && (
-          <p className="text-white/80 text-lg" data-service-cta-subtitle>
+          <p className="text-fg/90 text-lg" data-service-cta-subtitle>
             {section.subtitle}
           </p>
         )}
@@ -32,7 +32,7 @@ export default function SegmentLandingCta({ section }: SegmentLandingCtaProps) {
       <div className="z-10 flex flex-col sm:flex-row gap-4">
         {section.buttonText && (
           <a
-            className="px-8 py-4 bg-white text-primary font-bold rounded-xl hover:bg-white/90 transition-all"
+            className="px-8 py-4 bg-surface text-accent-text font-bold rounded-xl hover:bg-fg/90 transition-all"
             href={normalizeCmsHref(section.buttonHref || "#")}
             data-service-cta-button
           >
@@ -41,7 +41,7 @@ export default function SegmentLandingCta({ section }: SegmentLandingCtaProps) {
         )}
         {section.secondaryButtonText && (
           <a
-            className="px-8 py-4 border-2 border-white/30 text-white font-bold rounded-xl hover:bg-white/10 transition-all"
+            className="px-8 py-4 border-2 border-fg/30 text-fg font-bold rounded-xl hover:bg-fg/10 transition-all"
             href={normalizeCmsHref(section.secondaryButtonHref || "#")}
             data-service-cta-secondary
           >

@@ -82,7 +82,7 @@ export default function PartnersFeedbackSurvey({
         const error = errors[idx];
         return (
           <section key={`survey-q-${idx}`} id={`survey-q-${idx}`} className="space-y-4">
-            <h3 className="text-white text-lg font-bold tracking-tight">{title}</h3>
+            <h3 className="text-fg text-lg font-bold tracking-tight">{title}</h3>
             {options.length > 0 ? (
               <div className="flex flex-col gap-3">
                 {options.map((opt: any, optIdx: number) => {
@@ -94,14 +94,14 @@ export default function PartnersFeedbackSurvey({
                       className="flex items-center gap-4 cursor-pointer group"
                     >
                       <input
-                        className="w-5 h-5 border-white/20 bg-transparent text-primary focus:ring-primary focus:ring-offset-0"
+                        className="w-5 h-5 border-fg/20 bg-transparent text-accent-text focus:ring-primary focus:ring-offset-0"
                         name={`survey_q_${idx + 1}`}
                         type="radio"
                         value={String(value)}
                         checked={answers[idx] === String(value)}
                         onChange={(event) => updateAnswer(idx, event.target.value)}
                       />
-                      <span className="text-white/80 group-hover:text-white transition-colors">
+                      <span className="text-fg-muted group-hover:text-fg transition-colors">
                         {String(text)}
                       </span>
                     </label>
@@ -110,7 +110,7 @@ export default function PartnersFeedbackSurvey({
               </div>
             ) : (
               <textarea
-                className="w-full bg-white/5 border border-white/10 rounded-xl p-4 text-white placeholder:text-white/20 focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all"
+                className="w-full bg-fg/5 border border-fg/10 rounded-xl p-4 text-fg placeholder:text-fg-subtle focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all"
                 placeholder={question?.placeholder || "Напишите здесь свой ответ..."}
                 rows={question?.rows || 4}
                 value={answers[idx]}
@@ -121,9 +121,9 @@ export default function PartnersFeedbackSurvey({
           </section>
         );
       })}
-      <div className="flex flex-col md:flex-row items-center justify-between gap-6 pt-6 border-t border-white/10">
+      <div className="flex flex-col md:flex-row items-center justify-between gap-6 pt-6 border-t border-fg/10">
         <p
-          className="text-white/40 text-xs max-w-sm text-center md:text-left"
+          className="text-fg-subtle text-xs max-w-sm text-center md:text-left"
           dangerouslySetInnerHTML={{
             __html:
               disclaimerHtml ||
@@ -131,7 +131,7 @@ export default function PartnersFeedbackSurvey({
           }}
         />
         <button
-          className="glow-button w-full md:w-auto flex min-w-[200px] cursor-pointer items-center justify-center rounded-xl h-14 px-10 bg-primary text-white text-lg font-bold transition-all hover:scale-[1.02] active:scale-95"
+          className="glow-button w-full md:w-auto flex min-w-[200px] cursor-pointer items-center justify-center rounded-xl h-14 px-10 bg-primary text-on-primary text-lg font-bold transition-all hover:scale-[1.02] active:scale-95"
           type="button"
           onClick={handleSubmit}
         >

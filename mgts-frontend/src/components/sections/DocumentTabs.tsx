@@ -51,12 +51,12 @@ const getDocMeta = (href: string) => {
   const clean = href.split("?")[0];
   const ext = (clean.split(".").pop() || "").toLowerCase();
   if (ext.includes("pdf")) return { icon: "picture_as_pdf", color: "text-red-500", bg: "bg-red-500/10", label: "PDF" };
-  if (ext.includes("doc")) return { icon: "description", color: "text-blue-500", bg: "bg-blue-500/10", label: "DOCX" };
+  if (ext.includes("doc")) return { icon: "description", color: "text-accent-text", bg: "bg-blue-500/10", label: "DOCX" };
   if (ext.includes("xls") || ext.includes("csv"))
     return { icon: "table_chart", color: "text-amber-500", bg: "bg-amber-500/10", label: "XLSX" };
   if (ext.includes("zip") || ext.includes("rar"))
-    return { icon: "inventory_2", color: "text-primary", bg: "bg-primary/10", label: "ARCHIVE" };
-  return { icon: "insert_drive_file", color: "text-slate-500", bg: "bg-slate-500/10", label: ext.toUpperCase() || "DOC" };
+    return { icon: "inventory_2", color: "text-accent-text", bg: "bg-primary/10", label: "ARCHIVE" };
+  return { icon: "insert_drive_file", color: "text-fg-subtle", bg: "bg-fg-subtle/10", label: ext.toUpperCase() || "DOC" };
 };
 
 export default function DocumentTabs({
@@ -116,28 +116,28 @@ export default function DocumentTabs({
     <section>
       {headerTitle && isDocPage && (
         <div className="mb-10">
-          <h1 className="text-4xl md:text-5xl font-black tracking-tight mb-4 bg-gradient-to-r from-slate-900 to-slate-600 dark:from-white dark:to-slate-400 bg-clip-text text-transparent">
+          <h1 className="text-4xl md:text-5xl font-black tracking-tight mb-4 bg-gradient-to-r from-fg-subtle to-fg-subtle dark:from-fg dark:to-fg-subtle bg-clip-text text-transparent">
             {headerTitle}
           </h1>
           {headerSubtitle && (
-            <p className="text-slate-600 dark:text-slate-400 text-lg max-w-2xl font-light">
+            <p className="text-fg-subtle dark:text-fg-muted text-lg max-w-2xl font-light">
               {headerSubtitle}
             </p>
           )}
         </div>
       )}
-      <div className={isDocPage ? "" : "document-tabs rounded-2xl border border-white/10 bg-white/5 p-6"}>
+      <div className={isDocPage ? "" : "document-tabs rounded-2xl border border-fg/10 bg-fg/5 p-6"}>
         {!isDocPage && section.title && (
           <h2 className="document-tabs__title text-xl font-black tracking-tight mb-4">{section.title}</h2>
         )}
         {showTabsLabel && (
-          <div className="text-sm font-bold text-slate-500 dark:text-slate-400 mb-3">{section.title}</div>
+          <div className="text-sm font-bold text-fg-subtle dark:text-fg-muted mb-3">{section.title}</div>
         )}
         <div className={isDocPage ? "" : "document-tabs__tabs-stack space-y-2 mb-4"}>
           <div
             className={
               isDocPage
-                ? "border-b border-slate-200 dark:border-slate-800 mb-8 overflow-x-auto"
+                ? "border-b border-line dark:border-line mb-8 overflow-x-auto"
                 : "overflow-x-auto"
             }
             data-doc-top-tabs
@@ -157,12 +157,12 @@ export default function DocumentTabs({
                     className={
                       isDocPage
                         ? isActive
-                          ? "relative pb-4 text-sm font-bold text-primary"
-                          : "pb-4 text-sm font-bold text-slate-500 hover:text-slate-900 dark:hover:text-white transition-colors"
+                          ? "relative pb-4 text-sm font-bold text-accent-text"
+                          : "pb-4 text-sm font-bold text-fg-subtle hover:text-fg dark:hover:text-fg transition-colors"
                         : `document-tabs__tab-button px-4 py-2 rounded-lg transition-colors border text-sm font-black ${
                             isActive
-                              ? "bg-primary/20 border-primary/40 text-white"
-                              : "bg-black/20 border-white/10 text-white/70 hover:bg-black/10"
+                              ? "bg-primary/20 border-primary/40 text-accent-text"
+                              : "bg-bg/20 border-fg/10 text-fg-muted hover:bg-bg/10"
                           }`
                     }
                     type="button"
@@ -185,13 +185,13 @@ export default function DocumentTabs({
         {isDocPage && (
           <div className="flex flex-col md:flex-row gap-4 mb-6">
             <input
-              className="w-full md:flex-1 bg-white dark:bg-slate-800/20 border border-slate-200 dark:border-slate-800 rounded-xl h-12 px-4 text-slate-900 dark:text-white placeholder:text-slate-400 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all"
+              className="w-full md:flex-1 bg-surface dark:bg-surface-2/20 border border-line dark:border-line rounded-xl h-12 px-4 text-fg dark:text-fg placeholder:text-fg-muted focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all"
               placeholder="Поиск по документам"
               value={search}
               onChange={(event) => setSearch(event.target.value)}
             />
             <select
-              className="w-full md:w-64 bg-white dark:bg-slate-800/20 border border-slate-200 dark:border-slate-800 rounded-xl h-12 px-4 text-slate-900 dark:text-white focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all"
+              className="w-full md:w-64 bg-surface dark:bg-surface-2/20 border border-line dark:border-line rounded-xl h-12 px-4 text-fg dark:text-fg focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all"
               value={activeIndex}
               onChange={(event) => {
                 const next = Number(event.target.value);
@@ -220,8 +220,8 @@ export default function DocumentTabs({
                   type="button"
                   className={
                     isActive
-                      ? "px-4 py-2 rounded-full bg-primary text-white text-xs font-bold"
-                      : "px-4 py-2 rounded-full border border-slate-700 text-slate-300 text-xs font-bold hover:border-primary/60 hover:text-white transition-colors"
+                      ? "px-4 py-2 rounded-full bg-primary text-on-primary text-xs font-bold"
+                      : "px-4 py-2 rounded-full border border-line text-fg-muted text-xs font-bold hover:border-primary/60 hover:text-fg transition-colors"
                   }
                   onClick={() => setActiveChildIndex(idx)}
                 >
@@ -235,17 +235,17 @@ export default function DocumentTabs({
         {isDocPage && (
           <div className="flex items-center justify-between mb-6">
             <h3 className="text-xl font-bold flex items-center gap-2">
-              <span className="material-symbols-outlined text-primary">folder_open</span>
+              <span className="material-symbols-outlined text-accent-text">folder_open</span>
               <span data-doc-docs-title>Документация</span>
             </h3>
-            <span className="text-slate-400 text-sm" data-doc-docs-count>
+            <span className="text-fg-muted text-sm" data-doc-docs-count>
               Найдено: {filteredDocs.length} файлов
             </span>
           </div>
         )}
 
         {intro && isDocPage && (
-          <p className="mb-6 text-sm leading-relaxed text-slate-500 dark:text-slate-400">
+          <p className="mb-6 text-sm leading-relaxed text-fg-subtle dark:text-fg-muted">
             {intro}
           </p>
         )}
@@ -259,7 +259,7 @@ export default function DocumentTabs({
                 const isImage = ["png", "jpg", "jpeg", "webp", "gif"].includes(ext);
                 const isPdf = ext === "pdf";
                 const itemClass =
-                  "flex items-center justify-between p-4 bg-white dark:bg-slate-800/20 border border-slate-200 dark:border-slate-800 rounded-xl hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors";
+                  "flex items-center justify-between p-4 bg-surface dark:bg-surface-2/20 border border-line dark:border-line rounded-xl hover:bg-surface-2 dark:hover:bg-surface-2 transition-colors";
                 return (
                   <div
                     key={`${doc.href}-${doc.title}`}
@@ -276,10 +276,10 @@ export default function DocumentTabs({
                         <span className="material-symbols-outlined">{meta.icon}</span>
                       </div>
                       <div>
-                        <h5 className={`text-sm font-bold leading-none mb-1 ${isDocPage ? "" : "text-white"}`}>
+                        <h5 className={`text-sm font-bold leading-none mb-1 ${isDocPage ? "" : "text-fg"}`}>
                           {doc.title}
                         </h5>
-                        <p className="text-xs text-slate-500 dark:text-slate-400">
+                        <p className="text-xs text-fg-subtle dark:text-fg-muted">
                           {meta.label} • документ
                         </p>
                       </div>
@@ -287,8 +287,8 @@ export default function DocumentTabs({
                     <button
                       className={
                         isDocPage
-                          ? "size-9 flex items-center justify-center border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 rounded-lg hover:bg-primary hover:text-white hover:border-primary transition-all"
-                          : "size-9 flex items-center justify-center border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 rounded-lg hover:bg-primary hover:text-white hover:border-primary transition-all"
+                          ? "size-9 flex items-center justify-center border border-line dark:border-line text-fg-subtle dark:text-fg-muted rounded-lg hover:bg-primary hover:text-on-primary hover:border-primary transition-all"
+                          : "size-9 flex items-center justify-center border border-line dark:border-line text-fg-subtle dark:text-fg-muted rounded-lg hover:bg-primary hover:text-on-primary hover:border-primary transition-all"
                       }
                       type="button"
                       onClick={(event) => {
@@ -307,7 +307,7 @@ export default function DocumentTabs({
 
         {isHydrated && filteredDocs.length === 0 && active?.content && (
           <div
-            className="text-slate-600 dark:text-slate-400 text-base leading-relaxed"
+            className="text-fg-subtle dark:text-fg-muted text-base leading-relaxed"
             dangerouslySetInnerHTML={{ __html: active.content }}
           />
         )}
@@ -322,13 +322,13 @@ export default function DocumentTabs({
           ></div>
           <div className="relative mx-auto flex h-full w-full max-w-[1100px] items-center justify-center p-6">
             <div
-              className="relative w-full overflow-hidden rounded-2xl border border-white/10 bg-[#0a0f18] shadow-2xl"
+              className="relative w-full overflow-hidden rounded-2xl border border-fg/10 bg-bg shadow-2xl"
               style={{ maxHeight: "90vh", display: "flex", flexDirection: "column" }}
             >
-              <div className="flex items-center justify-between border-b border-white/10 px-6 py-4">
-                <div className="text-sm font-bold text-white">{activeDoc.title || "Документ"}</div>
+              <div className="flex items-center justify-between border-b border-fg/10 px-6 py-4">
+                <div className="text-sm font-bold text-fg">{activeDoc.title || "Документ"}</div>
                 <button
-                  className="flex h-10 w-10 items-center justify-center rounded-lg hover:bg-white/10 transition-colors"
+                  className="flex h-10 w-10 items-center justify-center rounded-lg hover:bg-fg/10 transition-colors"
                   type="button"
                   onClick={() => setActiveDoc(null)}
                   aria-label="Закрыть"
@@ -337,9 +337,9 @@ export default function DocumentTabs({
                 </button>
               </div>
               <div className="p-6 space-y-4" style={{ overflow: "auto", flex: "1 1 auto", minHeight: 0 }}>
-                <div className="aspect-[16/9] rounded-xl bg-white/5 border border-white/10 overflow-hidden flex items-center justify-center">
+                <div className="aspect-[16/9] rounded-xl bg-fg/5 border border-fg/10 overflow-hidden flex items-center justify-center">
                   {!activeDoc.href && (
-                    <div className="text-slate-400">Просмотр недоступен</div>
+                    <div className="text-fg-muted">Просмотр недоступен</div>
                   )}
                   {activeDoc.href && activeDoc.isPdf && (
                     <iframe title={activeDoc.title || "Документ"} src={activeDoc.href} className="w-full h-full" />
@@ -348,14 +348,14 @@ export default function DocumentTabs({
                     <img src={activeDoc.href} alt={activeDoc.title || "Документ"} className="w-full h-full object-contain" />
                   )}
                   {activeDoc.href && !activeDoc.isPdf && !activeDoc.isImage && (
-                    <div className="text-slate-400 text-sm text-center px-6">
+                    <div className="text-fg-muted text-sm text-center px-6">
                       Предпросмотр доступен только для PDF и изображений. Используйте кнопку для открытия файла.
                     </div>
                   )}
                 </div>
                 {activeDoc.href && (
                   <a
-                    className="inline-flex items-center gap-2 text-primary font-bold text-sm"
+                    className="inline-flex items-center gap-2 text-accent-text font-bold text-sm"
                     href={activeDoc.href}
                     target="_blank"
                     rel="noreferrer"

@@ -21,7 +21,8 @@ import { execSync } from "node:child_process";
 
 const REG = "../docs/design-review/defects.md";
 const AFTER = { "design-metrics": "../docs/design-review/metrics-after.json",
-                "design-metrics-mobile": "../docs/design-review/metrics-after-mobile.json" };
+                "design-metrics-mobile": "../docs/design-review/metrics-after-mobile.json",
+                "design-metrics-light": "../docs/design-review/metrics-after-light.json" };
 
 const red = [], warn = [];
 const rows = [];
@@ -50,7 +51,7 @@ for (const c of rows) {
   const paused = status.startsWith("⏸");
   if (paused && !/потому что/i.test(status)) { red.push(`${id}: отложен без «потому что»`); continue; }
 
-  const m = check.match(/^`?(design-metrics(?:-mobile)?)\s*·\s*([A-Za-z0-9_]+)\s*(≤|≥)\s*(-?\d+)`?$/);
+  const m = check.match(/^`?(design-metrics(?:-mobile|-light)?)\s*·\s*([A-Za-z0-9_]+)\s*(≤|≥)\s*(-?\d+)`?$/);
   if (m) {
     const [, kind, field, op, limRaw] = m;
     const lim = Number(limRaw);

@@ -20,12 +20,12 @@ const resolveCtaClass = (style?: string) => {
   const base =
     "group flex min-w-[200px] cursor-pointer items-center justify-center rounded-lg h-14 px-8 text-base font-bold transition-all gap-2";
   if (style === "outline") {
-    return `${base} border border-slate-300 dark:border-slate-700 bg-white/5 dark:bg-slate-800/50 text-white hover:bg-white/10 dark:hover:bg-slate-800`;
+    return `${base} border border-line dark:border-line bg-fg/5 dark:bg-surface-2/50 text-fg hover:bg-fg/10 dark:hover:bg-surface-2`;
   }
   if (style === "secondary") {
-    return `${base} bg-white/10 border border-white/20 text-white backdrop-blur-sm hover:bg-white/20`;
+    return `${base} bg-fg/10 border border-fg/20 text-fg backdrop-blur-sm hover:bg-fg/20`;
   }
-  return `${base} bg-primary text-white hover:scale-[1.02] shadow-xl shadow-primary/30`;
+  return `${base} bg-primary text-on-primary hover:scale-[1.02] shadow-xl shadow-primary/30`;
 };
 
 export default function ServiceHero({ hero }: ServiceHeroProps) {
@@ -45,12 +45,12 @@ export default function ServiceHero({ hero }: ServiceHeroProps) {
 
   return (
     <section
-      className="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-white antialiased"
+      className="bg-background-light dark:bg-background-dark font-display text-fg dark:text-fg antialiased"
       data-stitch-block="hero_section_and_cta_banner_2"
     >
       <main className="relative overflow-hidden">
         <div className="absolute top-0 right-0 w-96 h-96 winter-frost opacity-60"></div>
-        <div className="absolute top-10 right-10 text-white/10 select-none">
+        <div className="absolute top-10 right-10 text-fg/10 select-none">
           <span className="material-symbols-outlined text-6xl">ac_unit</span>
         </div>
         <section className="relative min-h-[60vh] flex items-center pt-12 pb-32">
@@ -67,7 +67,7 @@ export default function ServiceHero({ hero }: ServiceHeroProps) {
           <div className="w-full max-w-7xl mx-auto px-6 py-12 md:py-24 relative z-10">
             <div className="max-w-[640px]">
               {showBadge && badgeText && (
-                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs font-bold uppercase tracking-widest mb-6">
+                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-accent-text text-xs font-bold uppercase tracking-widest mb-6">
                   <span className="relative flex h-2 w-2">
                     <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
                     <span className="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
@@ -78,13 +78,13 @@ export default function ServiceHero({ hero }: ServiceHeroProps) {
               {hero.title && (
                 useHtmlTitle ? (
                   <h1
-                    className="text-5xl md:text-7xl font-black leading-[1.1] tracking-tighter text-white mb-6"
+                    className="text-5xl md:text-7xl font-black leading-[1.1] tracking-tighter text-fg mb-6"
                     data-cms-hero-title
                     dangerouslySetInnerHTML={{ __html: titleHtml }}
                   />
                 ) : (
                   <h1
-                    className="text-5xl md:text-7xl font-black leading-[1.1] tracking-tighter text-white mb-6"
+                    className="text-5xl md:text-7xl font-black leading-[1.1] tracking-tighter text-fg mb-6"
                     data-cms-hero-title
                   >
                     {hero.title}
@@ -92,7 +92,7 @@ export default function ServiceHero({ hero }: ServiceHeroProps) {
                 )
               )}
               {hero.subtitle && (
-                <p className="text-lg md:text-xl text-slate-400 max-w-[540px] mb-10 leading-relaxed" data-cms-hero-subtitle>
+                <p className="text-lg md:text-xl text-fg-muted max-w-[540px] mb-10 leading-relaxed" data-cms-hero-subtitle>
                   {hero.subtitle}
                 </p>
               )}
@@ -118,16 +118,16 @@ export default function ServiceHero({ hero }: ServiceHeroProps) {
             </div>
           </div>
           {slaItems.length > 0 && (
-            <div className="absolute bottom-0 left-0 w-full bg-white/5 backdrop-blur-xl border-t border-white/10 py-8 hidden lg:block">
+            <div className="absolute bottom-0 left-0 w-full bg-fg/5 backdrop-blur-xl border-t border-fg/10 py-8 hidden lg:block">
               <div className="max-w-7xl mx-auto px-6 grid grid-cols-4 gap-8">
                 {slaItems.map((item: any, idx: number) => (
                   <div key={`${item?.label || "sla"}-${idx}`} className="flex items-center gap-4">
-                    <span className="material-symbols-outlined text-primary text-3xl">
+                    <span className="material-symbols-outlined text-accent-text text-3xl">
                       {resolveSlaIcon(item?.label, item?.value)}
                     </span>
                     <div>
-                      <div className="text-white font-bold">{item?.value}</div>
-                      <div className="text-slate-500 text-xs uppercase tracking-wider">{item?.label}</div>
+                      <div className="text-fg font-bold">{item?.value}</div>
+                      <div className="text-fg-subtle text-xs uppercase tracking-wider">{item?.label}</div>
                     </div>
                   </div>
                 ))}

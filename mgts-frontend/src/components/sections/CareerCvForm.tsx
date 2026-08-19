@@ -10,24 +10,24 @@ export default function CareerCvForm({ section }: CareerCvFormProps) {
       <div className="absolute inset-0 bg-primary/10"></div>
       <div className="mx-auto max-w-[800px] px-6 relative z-10 text-center">
         {section.title && (
-          <h2 className="career-cv-form__title text-4xl font-bold text-white mb-6" data-career-cv-title>
+          <h2 className="career-cv-form__title text-4xl font-bold text-fg mb-6" data-career-cv-title>
             {section.title}
           </h2>
         )}
         {section.description && (
-          <p className="career-cv-form__description text-slate-400 mb-10 text-lg" data-career-cv-description>
+          <p className="career-cv-form__description text-fg-muted mb-10 text-lg" data-career-cv-description>
             {section.description}
           </p>
         )}
         <form className="career-cv-form__form flex flex-col sm:flex-row gap-4 justify-center" action="#" method="post">
           <input
-            className="career-cv-form__input bg-white/5 border border-white/20 rounded-lg px-6 py-4 text-white focus:outline-none focus:ring-2 focus:ring-primary min-w-[300px]"
+            className="career-cv-form__input bg-fg/5 border border-fg/20 rounded-lg px-6 py-4 text-fg focus:outline-none focus:ring-2 focus:ring-primary min-w-[300px]"
             data-career-cv-input
             type={section.inputType || "email"}
             placeholder={section.inputPlaceholder || ""}
           />
           <button
-            className="career-cv-form__submit bg-primary hover:bg-primary/90 text-white px-8 py-4 rounded-lg font-bold text-base transition-all"
+            className="career-cv-form__submit bg-primary hover:bg-primary/90 text-on-primary px-8 py-4 rounded-lg font-bold text-base transition-all"
             type="submit"
           >
             {section.buttonLabel || "Отправить"}
@@ -35,7 +35,7 @@ export default function CareerCvForm({ section }: CareerCvFormProps) {
         </form>
         {section.disclaimerHtml && (
           <div
-            className="career-cv-form__disclaimer mt-4 text-xs text-slate-500"
+            className="career-cv-form__disclaimer mt-4 text-xs text-fg-subtle"
             data-career-cv-disclaimer
             dangerouslySetInnerHTML={{ __html: section.disclaimerHtml }}
           />

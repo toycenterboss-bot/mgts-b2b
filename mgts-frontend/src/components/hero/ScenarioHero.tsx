@@ -11,9 +11,9 @@ type ScenarioHeroProps = {
 const resolveCtaClass = (style?: string) => {
   const normalized = String(style || "").toLowerCase();
   if (normalized === "secondary" || normalized === "outline") {
-    return "flex min-w-[180px] items-center justify-center rounded-lg h-14 px-8 bg-white/10 border border-white/20 text-white text-lg font-bold backdrop-blur-sm transition-all hover:bg-white/20";
+    return "flex min-w-[180px] items-center justify-center rounded-lg h-14 px-8 bg-fg/10 border border-fg/20 text-fg text-lg font-bold backdrop-blur-sm transition-all hover:bg-fg/20";
   }
-  return "flex min-w-[180px] items-center justify-center rounded-lg h-14 px-8 bg-primary text-white text-lg font-bold transition-all hover:scale-105 active:scale-95 shadow-xl shadow-primary/30";
+  return "flex min-w-[180px] items-center justify-center rounded-lg h-14 px-8 bg-primary text-on-primary text-lg font-bold transition-all hover:scale-105 active:scale-95 shadow-xl shadow-primary/30";
 };
 
 const resolveFeatureIcon = (index: number, icon?: string) => {
@@ -40,18 +40,18 @@ export default function ScenarioHero({ hero, title, subtitle, featureCards = [] 
         className="absolute inset-0 z-0 bg-cover bg-center"
         style={{ backgroundImage: `url('${bgUrl}')` }}
       >
-        <div className="absolute inset-0 bg-[#0f1923]/40"></div>
+        <div className="absolute inset-0 bg-bg/40"></div>
         <div className="absolute inset-0 hero-gradient"></div>
       </div>
       <div className="max-w-7xl mx-auto px-6 w-full relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <div className="flex flex-col gap-8 max-w-[640px]">
           {heading && (
-            <h1 className="text-white text-5xl md:text-7xl font-black leading-[1.1] tracking-tight" data-cms-hero-title>
+            <h1 className="text-fg text-5xl md:text-7xl font-black leading-[1.1] tracking-tight" data-cms-hero-title>
               {heading}
             </h1>
           )}
           {subheading && (
-            <p className="text-white/70 text-lg md:text-xl font-normal leading-relaxed" data-cms-hero-subtitle>
+            <p className="text-fg-muted text-lg md:text-xl font-normal leading-relaxed" data-cms-hero-subtitle>
               {subheading}
             </p>
           )}
@@ -74,15 +74,15 @@ export default function ScenarioHero({ hero, title, subtitle, featureCards = [] 
               {slaItems.map((item: any, idx: number) => (
                 <div
                   key={`${item.label || "sla"}-${idx}`}
-                  className="flex flex-col gap-1 p-4 rounded-xl border border-white/10 bg-white/5 backdrop-blur-md"
+                  className="flex flex-col gap-1 p-4 rounded-xl border border-fg/10 bg-fg/5 backdrop-blur-md"
                 >
                   <div className="flex items-center gap-2">
-                    <span className="material-symbols-outlined text-primary text-xl">
+                    <span className="material-symbols-outlined text-accent-text text-xl">
                       {item.icon || item.iconName || "verified"}
                     </span>
-                    <span className="text-white font-bold text-xl tracking-tight">{item.value}</span>
+                    <span className="text-fg font-bold text-xl tracking-tight">{item.value}</span>
                   </div>
-                  <p className="text-white/50 text-xs font-medium uppercase tracking-widest">{item.label}</p>
+                  <p className="text-fg-subtle text-xs font-medium uppercase tracking-widest">{item.label}</p>
                 </div>
               ))}
             </div>
@@ -94,13 +94,13 @@ export default function ScenarioHero({ hero, title, subtitle, featureCards = [] 
               {cards.slice(0, 2).map((card: any, idx: number) => (
                 <div
                   key={`${card.title || "feature"}-${idx}`}
-                  className="bg-[#1b2127]/80 backdrop-blur-md border border-white/10 p-6 rounded-2xl flex flex-col gap-4 hover:border-primary/50 transition-all group"
+                  className="bg-surface/80 backdrop-blur-md border border-fg/10 p-6 rounded-2xl flex flex-col gap-4 hover:border-primary/50 transition-all group"
                 >
-                  <span className="material-symbols-outlined text-4xl text-primary group-hover:scale-110 transition-transform">
+                  <span className="material-symbols-outlined text-4xl text-accent-text group-hover:scale-110 transition-transform">
                     {resolveFeatureIcon(idx, card.icon)}
                   </span>
-                  <h3 className="text-xl font-bold text-white leading-tight">{card.title}</h3>
-                  <p className="text-white/60 text-sm">{card.description}</p>
+                  <h3 className="text-xl font-bold text-fg leading-tight">{card.title}</h3>
+                  <p className="text-fg-subtle text-sm">{card.description}</p>
                 </div>
               ))}
             </div>
@@ -108,19 +108,19 @@ export default function ScenarioHero({ hero, title, subtitle, featureCards = [] 
               {cards.slice(2, 3).map((card: any, idx: number) => (
                 <div
                   key={`${card.title || "feature"}-${idx}`}
-                  className="bg-[#1b2127]/80 backdrop-blur-md border border-white/10 p-6 rounded-2xl flex flex-col gap-4 hover:border-primary/50 transition-all group"
+                  className="bg-surface/80 backdrop-blur-md border border-fg/10 p-6 rounded-2xl flex flex-col gap-4 hover:border-primary/50 transition-all group"
                 >
-                  <span className="material-symbols-outlined text-4xl text-primary group-hover:scale-110 transition-transform">
+                  <span className="material-symbols-outlined text-4xl text-accent-text group-hover:scale-110 transition-transform">
                     {resolveFeatureIcon(idx + 2, card.icon)}
                   </span>
-                  <h3 className="text-xl font-bold text-white leading-tight">{card.title}</h3>
-                  <p className="text-white/60 text-sm">{card.description}</p>
+                  <h3 className="text-xl font-bold text-fg leading-tight">{card.title}</h3>
+                  <p className="text-fg-subtle text-sm">{card.description}</p>
                 </div>
               ))}
               <div className="bg-primary/10 border border-primary/20 p-6 rounded-2xl flex flex-col justify-end gap-2 relative overflow-hidden h-48">
                 <div className="absolute -top-4 -right-4 size-32 bg-primary/20 blur-3xl"></div>
-                <span className="text-4xl font-black text-white italic">MGTS</span>
-                <p className="text-primary text-sm font-bold uppercase tracking-widest">Business Elite</p>
+                <span className="text-4xl font-black text-fg italic">MGTS</span>
+                <p className="text-accent-text text-sm font-bold uppercase tracking-widest">Business Elite</p>
               </div>
             </div>
           </div>

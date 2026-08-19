@@ -52,11 +52,11 @@ export default function HistoryTimeline({ section }: HistoryTimelineProps) {
 
   return (
     <section className="history-timeline w-full" style={{ minHeight: "calc(100vh - 220px)" }}>
-      {introTitle && <h2 className="text-3xl md:text-4xl font-black tracking-tight text-white mb-6">{introTitle}</h2>}
-      {introSubtitle && <p className="text-white/60 text-lg leading-relaxed mb-6 max-w-3xl">{introSubtitle}</p>}
+      {introTitle && <h2 className="text-3xl md:text-4xl font-black tracking-tight text-fg mb-6">{introTitle}</h2>}
+      {introSubtitle && <p className="text-fg-subtle text-lg leading-relaxed mb-6 max-w-3xl">{introSubtitle}</p>}
       {ctaLabel && (
         <a
-          className="inline-flex items-center gap-2 bg-white/5 hover:bg-white/10 border border-white/10 px-5 py-3 rounded-xl transition-all text-sm font-bold mb-8"
+          className="inline-flex items-center gap-2 bg-fg/5 hover:bg-fg/10 border border-fg/10 px-5 py-3 rounded-xl transition-all text-sm font-bold mb-8"
           href={ctaHref || "#"}
         >
           <ClientIcon name={section?.icon || "mail"} size={20} />
@@ -73,8 +73,8 @@ export default function HistoryTimeline({ section }: HistoryTimelineProps) {
               type="button"
               className={`flex-1 min-w-[160px] py-4 px-2 border-b-2 text-center transition-all ${
                 isActive
-                  ? "border-primary text-primary bg-primary/10"
-                  : "border-white/20 text-white/40 hover:text-white"
+                  ? "border-primary text-accent-text bg-primary/10"
+                  : "border-fg/20 text-fg-subtle hover:text-fg"
               }`}
               onClick={() => setActiveIndex(idx)}
             >
@@ -92,8 +92,8 @@ export default function HistoryTimeline({ section }: HistoryTimelineProps) {
           className="absolute left-4 right-4 h-px"
           style={{
             background:
-              "linear-gradient(90deg, rgba(112,66,20,0.9) 0%, rgba(0,102,204,0.9) 100%)",
-            boxShadow: "0 0 18px rgba(0, 102, 204, 0.35)",
+              "linear-gradient(90deg, rgba(112,66,20,0.9) 0%, rgb(var(--c-primary) / 0.9) 100%)",
+            boxShadow: "0 0 18px rgb(var(--c-primary) / 0.35)",
           }}
           data-history-line
         ></div>
@@ -104,17 +104,17 @@ export default function HistoryTimeline({ section }: HistoryTimelineProps) {
               <div key={`dot-${idx}`} className="relative" data-history-dot>
                 {isActive ? (
                   <>
-                    <div className="w-6 h-6 rounded-full bg-primary border-4 border-white shadow-[0_0_20px_#0066cc] animate-pulse"></div>
-                    <div className="absolute -top-8 left-1/2 -translate-x-1/2 whitespace-nowrap text-primary text-xs font-bold uppercase">
+                    <div className="w-6 h-6 rounded-full bg-primary border-4 border-fg shadow-[0_0_20px_rgb(var(--c-primary))] animate-pulse"></div>
+                    <div className="absolute -top-8 left-1/2 -translate-x-1/2 whitespace-nowrap text-accent-text text-xs font-bold uppercase">
                       Вы здесь
                     </div>
                   </>
                 ) : (
                   <div
-                    className="w-4 h-4 rounded-full border-2 border-white/20"
+                    className="w-4 h-4 rounded-full border-2 border-fg/20"
                     style={{
                       background:
-                        "radial-gradient(circle at top left, rgba(112,66,20,0.7), rgba(0,102,204,0.7))",
+                        "radial-gradient(circle at top left, rgba(112,66,20,0.7), rgb(var(--c-primary) / 0.7))",
                     }}
                   ></div>
                 )}
@@ -148,7 +148,7 @@ export default function HistoryTimeline({ section }: HistoryTimelineProps) {
                 </span>
               </div>
               {activePeriod.title && <h3 className="text-4xl font-black mb-4 leading-tight">{activePeriod.title}</h3>}
-              <div className="text-white/70 text-lg max-w-md overflow-y-auto" style={{ maxHeight: 170 }}>
+              <div className="text-fg-muted text-lg max-w-md overflow-y-auto" style={{ maxHeight: 170 }}>
                 {activePeriod.imageDescription || extractParagraphs(String(activePeriod.content || ""))[0] || ""}
               </div>
             </div>
@@ -156,7 +156,7 @@ export default function HistoryTimeline({ section }: HistoryTimelineProps) {
 
           <div className="lg:w-1/2 p-8 lg:p-10 flex flex-col justify-between gap-10" style={{ maxHeight: 520 }}>
             <div className="flex flex-col gap-10 overflow-y-auto" style={{ maxHeight: 520 }}>
-              <h4 className="text-sm font-bold uppercase tracking-[0.2em] text-primary mb-6 flex items-center gap-2">
+              <h4 className="text-sm font-bold uppercase tracking-[0.2em] text-accent-text mb-6 flex items-center gap-2">
                 <span className="material-symbols-outlined text-lg">verified_user</span>
                 Ключевые достижения
               </h4>
@@ -169,18 +169,18 @@ export default function HistoryTimeline({ section }: HistoryTimelineProps) {
                       </div>
                       <div>
                         <p className="font-bold text-lg mb-1">{item.title}</p>
-                        <p className="text-white/50 text-sm">{item.description}</p>
+                        <p className="text-fg-subtle text-sm">{item.description}</p>
                       </div>
                     </li>
                   ))}
                 </ul>
               )}
               {activePeriod.factText && (
-                <div className="bg-white/5 rounded-2xl p-6 border border-white/10 relative overflow-hidden group">
-                  <p className="text-primary font-bold text-xs uppercase tracking-widest mb-2">
+                <div className="bg-fg/5 rounded-2xl p-6 border border-fg/10 relative overflow-hidden group">
+                  <p className="text-accent-text font-bold text-xs uppercase tracking-widest mb-2">
                     {activePeriod.factLabel || "Интересный факт"}
                   </p>
-                  <p className="text-white/80 leading-relaxed italic">{activePeriod.factText}</p>
+                  <p className="text-fg-muted leading-relaxed italic">{activePeriod.factText}</p>
                 </div>
               )}
             </div>
@@ -190,7 +190,7 @@ export default function HistoryTimeline({ section }: HistoryTimelineProps) {
                 position: "relative",
                 height: 40,
                 marginTop: -40,
-                background: "linear-gradient(180deg, rgba(15,25,35,0) 0%, rgba(15,25,35,0.9) 100%)",
+                background: "linear-gradient(180deg, rgb(var(--c-bg) / 0) 0%, rgb(var(--c-bg) / 0.9) 100%)",
               }}
             ></div>
           </div>
@@ -199,14 +199,14 @@ export default function HistoryTimeline({ section }: HistoryTimelineProps) {
 
       {(section.secondaryCtaLabel || section.secondaryCtaSecondaryLabel) && (
         <div className="mt-12 text-center">
-          <p className="text-white/40 mb-6 max-w-xl mx-auto">
+          <p className="text-fg-subtle mb-6 max-w-xl mx-auto">
             Хотите стать частью нашей истории и внедрить инновации в свой бизнес? Наши эксперты помогут подобрать
             оптимальное решение.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             {section.secondaryCtaLabel && (
               <a
-                className="bg-primary hover:bg-primary/80 text-white px-8 py-4 rounded-xl font-bold transition-all shadow-xl shadow-primary/20 flex items-center gap-3"
+                className="bg-primary hover:bg-primary/80 text-on-primary px-8 py-4 rounded-xl font-bold transition-all shadow-xl shadow-primary/20 flex items-center gap-3"
                 href={section.secondaryCtaHref || "#"}
               >
                 {section.secondaryCtaLabel}
@@ -215,7 +215,7 @@ export default function HistoryTimeline({ section }: HistoryTimelineProps) {
             )}
             {section.secondaryCtaSecondaryLabel && (
               <a
-                className="bg-white/5 hover:bg-white/10 border border-white/10 px-8 py-4 rounded-xl font-bold transition-all flex items-center gap-3"
+                className="bg-fg/5 hover:bg-fg/10 border border-fg/10 px-8 py-4 rounded-xl font-bold transition-all flex items-center gap-3"
                 href={section.secondaryCtaSecondaryHref || "#"}
               >
                 <span className="material-symbols-outlined">download</span>

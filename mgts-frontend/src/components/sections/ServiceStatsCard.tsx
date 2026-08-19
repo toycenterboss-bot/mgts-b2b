@@ -24,11 +24,11 @@ export default function ServiceStatsCard({ section }: ServiceStatsCardProps) {
 
   return (
     <section
-      className="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100"
+      className="bg-background-light dark:bg-background-dark font-display text-fg dark:text-fg"
       data-stitch-block="service_stats_card"
     >
       <div className="max-w-5xl mx-auto px-6 lg:px-10 pb-12">
-        <div className="bg-primary p-6 rounded-2xl text-white overflow-hidden relative max-w-xl">
+        <div className="bg-primary p-6 rounded-2xl text-on-primary overflow-hidden relative max-w-xl">
           <h4 className="text-lg font-bold mb-4 relative z-10" data-service-stats-title>
             {title}
           </h4>
@@ -53,7 +53,7 @@ export default function ServiceStatsCard({ section }: ServiceStatsCardProps) {
               {value}
             </span>
           </div>
-          <div className="absolute -left-4 -top-4 size-24 bg-white/10 rounded-full blur-2xl"></div>
+          <div className="absolute -left-4 -top-4 size-24 bg-fg/10 rounded-full blur-2xl"></div>
         </div>
       </div>
     </section>

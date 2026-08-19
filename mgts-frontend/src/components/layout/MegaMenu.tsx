@@ -73,21 +73,21 @@ export default function MegaMenu({ menu, cta }: MegaMenuProps) {
 
   return (
     <div
-      className="mega-menu-panel absolute top-full left-0 w-full mega-menu-blur bg-transparent backdrop-blur-3xl backdrop-saturate-200 border-b border-slate-200/40 dark:border-slate-800/40 shadow-2xl z-40 overflow-hidden"
+      className="mega-menu-panel absolute top-full left-0 w-full mega-menu-blur bg-transparent backdrop-blur-3xl backdrop-saturate-200 border-b border-line/40 dark:border-line/40 shadow-2xl z-40 overflow-hidden"
       data-mega-panel
     >
       <div className="max-w-7xl mx-auto px-6 py-10">
         <div className="grid grid-cols-12 gap-10">
-          <div className="col-span-3 flex flex-col gap-1 border-r border-slate-200 dark:border-slate-800 pr-6">
+          <div className="col-span-3 flex flex-col gap-1 border-r border-line dark:border-line pr-6">
             {sectionEntries.map((section: any, idx: number) => (
               <button
                 key={`category-${section.__key}`}
                 type="button"
-                className="p-3 rounded-lg flex items-center justify-between group cursor-pointer transition-colors text-slate-500 hover:bg-slate-100 dark:hover:bg-slate-800 text-left"
+                className="p-3 rounded-lg flex items-center justify-between group cursor-pointer transition-colors text-fg-subtle hover:bg-surface-2 dark:hover:bg-surface-2 text-left"
                 data-mega-category={section.__key}
                 data-mega-label={section.title || `Раздел ${idx + 1}`}
-                data-mega-active-classes="bg-slate-100 dark:bg-slate-800 text-slate-900 dark:text-white"
-                data-mega-inactive-classes="text-slate-500"
+                data-mega-active-classes="bg-surface-2 dark:bg-surface-2 text-fg dark:text-fg"
+                data-mega-inactive-classes="text-fg-subtle"
                 aria-pressed={section.__key === firstKey}
               >
                 <span className="font-bold text-left">{section.title || `Раздел ${idx + 1}`}</span>
@@ -98,7 +98,7 @@ export default function MegaMenu({ menu, cta }: MegaMenuProps) {
             ))}
           </div>
           <div className={`${showCta ? "col-span-6" : "col-span-9"}`}>
-            <h3 className="text-xs uppercase tracking-widest text-slate-400 font-bold mb-6">
+            <h3 className="text-xs uppercase tracking-widest text-fg-muted font-bold mb-6">
               <span data-mega-title>{panelTitle}</span>
             </h3>
             <div data-mega-sections="true">
@@ -115,10 +115,10 @@ export default function MegaMenu({ menu, cta }: MegaMenuProps) {
                     <a
                       key={`${link.label || "link"}-${ldx}`}
                       href={normalizeCmsHref(link.href || "#")}
-                      className="block w-full flex gap-4 p-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900/50 hover:border-primary/50 transition-all cursor-pointer group"
+                      className="block w-full flex gap-4 p-4 rounded-xl border border-line dark:border-line bg-surface dark:bg-surface/50 hover:border-primary/50 transition-all cursor-pointer group"
                     >
                       <div
-                        className="size-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary shrink-0"
+                        className="size-12 rounded-lg bg-primary/10 flex items-center justify-center text-accent-text shrink-0"
                         suppressHydrationWarning
                       >
                         {iconName && (
@@ -130,11 +130,11 @@ export default function MegaMenu({ menu, cta }: MegaMenuProps) {
                         )}
                       </div>
                       <div>
-                        <h4 className="font-bold mb-1 group-hover:text-primary transition-colors">
+                        <h4 className="font-bold mb-1 group-hover:text-accent-text transition-colors">
                           {link.label}
                         </h4>
                         {link.description && (
-                          <p className="text-xs text-slate-500 leading-relaxed">{link.description}</p>
+                          <p className="text-xs text-fg-subtle leading-relaxed">{link.description}</p>
                         )}
                       </div>
                     </a>
@@ -146,7 +146,7 @@ export default function MegaMenu({ menu, cta }: MegaMenuProps) {
           </div>
           {showCta && (
             <div className="col-span-3">
-              <div className="h-[280px] min-h-[280px] max-h-[280px] rounded-2xl bg-gradient-to-br from-primary to-blue-800 p-6 text-white flex flex-col justify-between overflow-hidden relative">
+              <div className="h-[280px] min-h-[280px] max-h-[280px] rounded-2xl bg-gradient-to-br from-primary to-blue-800 p-6 text-fg flex flex-col justify-between overflow-hidden relative">
                 <div className="absolute -right-4 -bottom-4 opacity-20">
                   <Icon name={cta?.backgroundIcon || "cell_tower"} size={140} className="w-32 h-32 object-contain" />
                 </div>
@@ -162,7 +162,7 @@ export default function MegaMenu({ menu, cta }: MegaMenuProps) {
                   {cta.buttonText && (
                     <a
                       href={normalizeCmsHref(cta.buttonHref || "#")}
-                      className="w-full bg-white text-primary font-bold py-3 rounded-xl hover:bg-blue-50 transition-colors text-center"
+                      className="w-full bg-surface text-accent-text font-bold py-3 rounded-xl hover:bg-blue-50 transition-colors text-center"
                     >
                       {cta.buttonText}
                     </a>

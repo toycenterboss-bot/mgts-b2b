@@ -48,7 +48,7 @@ export default function ScenarioPage({ page, hero, sections = [], breadcrumbs }:
     <div data-page-template={page.template || "TPL_Scenario"}>
       {breadcrumbs}
       <section
-        className="bg-background-light dark:bg-background-dark text-slate-900 dark:text-white antialiased font-display"
+        className="bg-background-light dark:bg-background-dark text-fg dark:text-fg antialiased font-display"
         data-stitch-block="connectivity_hero_variant"
       >
         <main className="relative pt-12 overflow-hidden min-h-[60vh] flex items-center">
@@ -56,7 +56,7 @@ export default function ScenarioPage({ page, hero, sections = [], breadcrumbs }:
         </main>
       </section>
 
-      <section className="bg-background-dark text-white min-h-screen" data-stitch-block="service_and_scenario_cards_1">
+      <section className="bg-background-dark text-fg min-h-screen" data-stitch-block="service_and_scenario_cards_1">
         <div className="layout-container flex h-full grow flex-col">
           <main className="w-full">
             <section className="max-w-[1200px] mx-auto px-4 py-20">
@@ -67,39 +67,39 @@ export default function ScenarioPage({ page, hero, sections = [], breadcrumbs }:
                     <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent opacity-75"></span>
                     <span className="relative inline-flex rounded-full h-2 w-2 bg-accent"></span>
                   </span>
-                  <span className="text-accent text-xs font-bold uppercase tracking-[0.1em]">Решения MGTS</span>
+                  <span className="text-accent-text text-xs font-bold uppercase tracking-[0.1em]">Решения MGTS</span>
                 </div>
                 {headline && (
-                  <h1 className="text-white text-6xl font-black leading-tight tracking-[-0.03em] max-w-3xl">
+                  <h1 className="text-fg text-6xl font-black leading-tight tracking-[-0.03em] max-w-3xl">
                     {headline}
                   </h1>
                 )}
-                <p className="text-[#9aabbc] text-xl font-normal leading-relaxed max-w-2xl">{intro}</p>
+                <p className="text-fg-muted text-xl font-normal leading-relaxed max-w-2xl">{intro}</p>
               </div>
 
               <div className="flex flex-col md:flex-row gap-6 items-center mb-20 relative z-10">
                 <div className="w-full md:flex-1">
-                  <div className="flex w-full items-stretch rounded-2xl h-16 border border-white/10 bg-white/5 backdrop-blur-md focus-within:border-primary/50 transition-all">
-                    <div className="text-[#9aabbc] flex items-center justify-center pl-6">
+                  <div className="flex w-full items-stretch rounded-2xl h-16 border border-fg/10 bg-fg/5 backdrop-blur-md focus-within:border-primary/50 transition-all">
+                    <div className="text-fg-muted flex items-center justify-center pl-6">
                       <span className="material-symbols-outlined text-2xl">search</span>
                     </div>
                     <input
-                      className="form-input flex w-full border-none bg-transparent text-white focus:outline-0 focus:ring-0 placeholder:text-[#9aabbc]/60 px-6 text-lg"
+                      className="form-input flex w-full border-none bg-transparent text-fg focus:outline-0 focus:ring-0 placeholder:text-fg-muted/60 px-6 text-lg"
                       placeholder="Найти инновационное решение..."
                     />
                   </div>
                 </div>
-                <div className="flex gap-2 p-1.5 bg-white/5 rounded-2xl border border-white/10 backdrop-blur-md overflow-x-auto w-full md:w-auto">
-                  <button className="px-6 py-3 rounded-xl bg-primary shadow-lg shadow-primary/25 text-white text-sm font-bold whitespace-nowrap">
+                <div className="flex gap-2 p-1.5 bg-fg/5 rounded-2xl border border-fg/10 backdrop-blur-md overflow-x-auto w-full md:w-auto">
+                  <button className="px-6 py-3 rounded-xl bg-primary shadow-lg shadow-primary/25 text-on-primary text-sm font-bold whitespace-nowrap">
                     Все услуги
                   </button>
-                  <button className="px-6 py-3 rounded-xl text-[#9aabbc] hover:text-white hover:bg-white/5 text-sm font-semibold transition-all whitespace-nowrap">
+                  <button className="px-6 py-3 rounded-xl text-fg-muted hover:text-fg hover:bg-fg/5 text-sm font-semibold transition-all whitespace-nowrap">
                     Инфраструктура
                   </button>
-                  <button className="px-6 py-3 rounded-xl text-[#9aabbc] hover:text-white hover:bg-white/5 text-sm font-semibold transition-all whitespace-nowrap">
+                  <button className="px-6 py-3 rounded-xl text-fg-muted hover:text-fg hover:bg-fg/5 text-sm font-semibold transition-all whitespace-nowrap">
                     Безопасность
                   </button>
-                  <button className="px-6 py-3 rounded-xl text-[#9aabbc] hover:text-white hover:bg-white/5 text-sm font-semibold transition-all whitespace-nowrap">
+                  <button className="px-6 py-3 rounded-xl text-fg-muted hover:text-fg hover:bg-fg/5 text-sm font-semibold transition-all whitespace-nowrap">
                     Облако
                   </button>
                 </div>

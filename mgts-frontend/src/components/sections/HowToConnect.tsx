@@ -28,11 +28,11 @@ export default function HowToConnect({ section }: HowToConnectProps) {
   };
 
   return (
-    <section className="how-to-connect rounded-2xl border border-white/10 bg-white/5 p-6">
+    <section className="how-to-connect rounded-2xl border border-fg/10 bg-fg/5 p-6">
       {section.title && (
         <h2 className="how-to-connect__title text-xl font-black tracking-tight mb-2">{section.title}</h2>
       )}
-      {section.description && <p className="text-sm text-white/60 mb-5">{section.description}</p>}
+      {section.description && <p className="text-sm text-fg-subtle mb-5">{section.description}</p>}
       {sortedSteps.length > 0 && (
         <div className="how-to-connect__steps grid grid-cols-1 md:grid-cols-2 gap-4">
           {sortedSteps.map((step: any, idx: number) => {
@@ -40,7 +40,7 @@ export default function HowToConnect({ section }: HowToConnectProps) {
             return (
               <div
                 key={`step-${idx}`}
-                className="how-to-connect__step rounded-2xl border border-white/10 bg-black/20 p-5 flex flex-col transition-all hover:border-primary hover:bg-primary/5 hover:shadow-xl hover:shadow-primary/20"
+                className="how-to-connect__step rounded-2xl border border-fg/10 bg-bg/20 p-5 flex flex-col transition-all hover:border-primary hover:bg-primary/5 hover:shadow-xl hover:shadow-primary/20"
                 style={{ minHeight: 190 }}
               >
                 <div className="flex items-start gap-4 flex-1">
@@ -48,14 +48,14 @@ export default function HowToConnect({ section }: HowToConnectProps) {
                     {step.stepNumber || idx + 1}
                   </div>
                   <div className="min-w-0 flex flex-col h-full">
-                    {step.title && <div className="font-black text-white/90">{step.title}</div>}
+                    {step.title && <div className="font-black text-fg-muted">{step.title}</div>}
                     {step.description && (
-                      <div className="mt-3 text-sm text-white/65 leading-relaxed">{step.description}</div>
+                      <div className="mt-3 text-sm text-fg/65 leading-relaxed">{step.description}</div>
                     )}
                     {step.modalHtml && (
                       <button
                         type="button"
-                        className="mt-auto text-primary text-sm font-medium flex items-center gap-2 hover:gap-3 transition-all"
+                        className="mt-auto text-accent-text text-sm font-medium flex items-center gap-2 hover:gap-3 transition-all"
                         onClick={() => setActiveIdx(idx)}
                       >
                         Подробнее <span className="material-symbols-outlined text-sm">arrow_forward</span>
@@ -69,7 +69,7 @@ export default function HowToConnect({ section }: HowToConnectProps) {
                     alt={resolveMediaAlt(step.image || null, step.title)}
                     width={480}
                     height={320}
-                    className="mt-4 w-full h-40 object-cover rounded-xl border border-white/10"
+                    className="mt-4 w-full h-40 object-cover rounded-xl border border-fg/10"
                   />
                 )}
                 {step.content && (
@@ -97,19 +97,19 @@ export default function HowToConnect({ section }: HowToConnectProps) {
           ></div>
           <div className="relative mx-auto flex h-full w-full max-w-[1100px] items-center justify-center p-6">
             <div
-              className="relative w-full overflow-hidden rounded-2xl border border-white/10 bg-[#0a0f18] shadow-2xl"
+              className="relative w-full overflow-hidden rounded-2xl border border-fg/10 bg-bg shadow-2xl"
               style={{ maxHeight: "90vh", display: "flex", flexDirection: "column" }}
               onClick={(event) => event.stopPropagation()}
             >
-              <div className="flex items-center justify-between border-b border-white/10 px-6 py-4 gap-4">
+              <div className="flex items-center justify-between border-b border-fg/10 px-6 py-4 gap-4">
                 <div className="min-w-0">
-                  <p className="text-xs uppercase tracking-widest text-primary font-bold">Шаг</p>
-                  <p className="text-base font-black tracking-tight text-white truncate">
+                  <p className="text-xs uppercase tracking-widest text-accent-text font-bold">Шаг</p>
+                  <p className="text-base font-black tracking-tight text-fg truncate">
                     {activeStep.title || ""}
                   </p>
                 </div>
                 <button
-                  className="flex h-10 w-10 items-center justify-center rounded-lg border border-white/20 bg-white/10 text-white hover:bg-white/20 hover:border-white/40 transition-colors"
+                  className="flex h-10 w-10 items-center justify-center rounded-lg border border-fg/20 bg-fg/10 text-fg hover:bg-fg/20 hover:border-fg/40 transition-colors"
                   type="button"
                   onClick={() => setActiveIdx(null)}
                   aria-label="Закрыть"

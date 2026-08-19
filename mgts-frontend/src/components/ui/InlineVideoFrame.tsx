@@ -57,7 +57,7 @@ export default function InlineVideoFrame({
         />
       ) : (
         <div
-          className={`absolute inset-0 bg-slate-800/40 ${
+          className={`absolute inset-0 bg-surface-2/40 ${
             isPlaying ? "opacity-0" : "opacity-100"
           }`}
         />
@@ -80,14 +80,16 @@ export default function InlineVideoFrame({
       )}
 
       {videoUrl && !isPlaying && (
-        <div className="absolute inset-0 flex items-center justify-center bg-black/20 group-hover:bg-black/40 transition-all">
+        <div className="absolute inset-0 flex items-center justify-center bg-bg/20 group-hover:bg-bg/40 transition-all">
           <button
-            className="flex items-center justify-center rounded-full size-20 bg-primary text-white shadow-2xl shadow-primary/50 transform group-hover:scale-110 transition-all"
+            className="flex items-center justify-center rounded-full size-20 bg-primary text-on-primary shadow-2xl shadow-primary/50 transform group-hover:scale-110 transition-all"
             type="button"
             aria-label="Смотреть видео"
             onClick={handlePlay}
           >
-            <span className="material-symbols-outlined !text-4xl fill-[1]">play_arrow</span>
+            {/* размер задан стилем, а не `!text-4xl`: восклицательный знак здесь боролся
+                с font-size шрифта иконок, и каждый такой случай тащит !important в бандл */}
+            <span className="material-symbols-outlined fill-[1]" style={{ fontSize: "2.25rem" }}>play_arrow</span>
           </button>
         </div>
       )}
@@ -100,7 +102,7 @@ export default function InlineVideoFrame({
 
       {videoUrl && isPlaying && (
         <button
-          className="absolute top-3 right-3 flex h-10 w-10 items-center justify-center rounded-lg bg-black/50 text-white hover:bg-black/70 transition-colors"
+          className="absolute top-3 right-3 flex h-10 w-10 items-center justify-center rounded-lg bg-bg/50 text-fg hover:bg-bg/70 transition-colors"
           type="button"
           aria-label="Закрыть видео"
           onClick={handleClose}

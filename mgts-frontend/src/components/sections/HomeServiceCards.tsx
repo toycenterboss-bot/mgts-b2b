@@ -37,13 +37,13 @@ export default function HomeServiceCards({
       {(section.title || (section.linkText && section.linkHref)) && (
         <div className="flex items-center justify-between mb-12">
           {section.title && (
-            <h2 className="text-white text-3xl font-bold tracking-tight" data-home-services-title>
+            <h2 className="text-fg text-3xl font-bold tracking-tight" data-home-services-title>
               {section.title}
             </h2>
           )}
           {section.linkText && section.linkHref && (
             <a
-              className="text-accent text-sm font-bold flex items-center gap-2 hover:opacity-80 transition-opacity"
+              className="text-accent-text text-sm font-bold flex items-center gap-2 hover:opacity-80 transition-opacity"
               href={normalizeCmsHref(section.linkHref)}
             >
               {section.linkText} <span className="material-symbols-outlined text-lg">arrow_right_alt</span>
@@ -52,7 +52,7 @@ export default function HomeServiceCards({
         </div>
       )}
       {section.subtitle && (
-        <p className="text-[#9aabbc] text-sm leading-relaxed mb-8 max-w-2xl">{section.subtitle}</p>
+        <p className="text-fg-muted text-sm leading-relaxed mb-8 max-w-2xl">{section.subtitle}</p>
       )}
       <div className={`grid ${gridColsClass} gap-8`} data-home-services-grid>
         {cards.map((card: any, idx: number) => {
@@ -70,7 +70,7 @@ export default function HomeServiceCards({
             <Tag
               key={`${card.title || "service"}-${idx}`}
               href={rawLink ? href : undefined}
-                className="glass-card border border-white/10 dark:border-white/20 p-8 rounded-3xl flex flex-col min-h-[320px] group relative overflow-hidden"
+                className="glass-card border border-fg/10 dark:border-fg/20 p-8 rounded-3xl flex flex-col min-h-[320px] group relative overflow-hidden"
               data-home-service-card
             >
               <div className="light-sweep"></div>
@@ -107,23 +107,23 @@ export default function HomeServiceCards({
                       <Icon
                         name={card.icon || "hub"}
                         size={64}
-                        className={`relative z-10 ${isAccent ? "text-accent" : "text-primary"}`}
+                        className={`relative z-10 ${isAccent ? "text-accent-text" : "text-accent-text"}`}
                       />
                     )}
                   </div>
                   {card.title && (
-                    <h3 className="text-white text-xl font-bold mb-3" data-home-service-title>
+                    <h3 className="text-fg text-xl font-bold mb-3" data-home-service-title>
                       {card.title}
                     </h3>
                   )}
                   {description && (
-                    <p className="text-[#9aabbc] text-sm leading-relaxed mb-6" data-home-service-desc>
+                    <p className="text-fg-muted text-sm leading-relaxed mb-6" data-home-service-desc>
                       {description}
                     </p>
                   )}
                   {showCta && (
                     <div
-                      className="mt-auto flex items-center text-primary text-xs font-black uppercase tracking-widest group-hover:text-accent transition-colors"
+                      className="mt-auto flex items-center text-accent-text text-xs font-black uppercase tracking-widest group-hover:text-accent-text transition-colors"
                       data-home-service-cta
                     >
                       {ctaLabel} <span className="material-symbols-outlined ml-1 text-sm">trending_flat</span>
@@ -147,7 +147,7 @@ export default function HomeServiceCards({
 
   return (
     <section
-      className={`section-gradient -mx-4 px-4 py-20 rounded-[3rem] border border-white/10 dark:border-white/20${
+      className={`section-gradient -mx-4 px-4 py-20 rounded-[3rem] border border-fg/10 dark:border-fg/20${
         compactSpacing ? " -mb-24" : ""
       }`}
       data-home-services

@@ -23,11 +23,11 @@ export default function CareerValues({ section }: CareerValuesProps) {
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
           <div className="space-y-2">
             {section.eyebrow && (
-              <h3 className="text-primary font-bold text-sm tracking-widest uppercase">{section.eyebrow}</h3>
+              <h3 className="text-accent-text font-bold text-sm tracking-widest uppercase">{section.eyebrow}</h3>
             )}
-            {section.title && <h2 className="text-3xl font-bold text-white">{section.title}</h2>}
+            {section.title && <h2 className="text-3xl font-bold text-fg">{section.title}</h2>}
           </div>
-          {section.description && <p className="text-slate-400 max-w-sm text-sm">{section.description}</p>}
+          {section.description && <p className="text-fg-muted max-w-sm text-sm">{section.description}</p>}
         </div>
         <div className="career-values__grid">
           {items.map((item: any, idx: number) => {
@@ -35,20 +35,20 @@ export default function CareerValues({ section }: CareerValuesProps) {
             return (
               <div
                 key={`value-${idx}`}
-                className="career-values__item glass-card p-8 rounded-xl border border-white/5 hover:border-primary/50 transition-all group"
+                className="career-values__item glass-card p-8 rounded-xl border border-fg/5 hover:border-primary/50 transition-all group"
               >
                 {iconName && (
-                  <div className="w-14 h-14 bg-primary/10 rounded-lg flex items-center justify-center text-primary mb-6 group-hover:bg-primary group-hover:text-white transition-all">
+                  <div className="w-14 h-14 bg-primary/10 rounded-lg flex items-center justify-center text-accent-text mb-6 group-hover:bg-primary group-hover:text-on-primary transition-all">
                     <Icon name={iconName} size={28} />
                   </div>
                 )}
               {item.title && (
-                <div className="career-values__item-title text-xl font-bold mb-3 text-white">
+                <div className="career-values__item-title text-xl font-bold mb-3 text-fg">
                   {item.title}
                 </div>
               )}
               {item.description && (
-                <div className="career-values__item-text text-slate-400 leading-relaxed">
+                <div className="career-values__item-text text-fg-muted leading-relaxed">
                   {item.description}
                 </div>
               )}
