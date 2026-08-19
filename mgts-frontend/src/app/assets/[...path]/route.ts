@@ -35,12 +35,27 @@ export async function GET(
 
   try {
     const data = await fs.readFile(targetPath);
+    const stat = await fs.stat(targetPath);
     const ext = path.extname(targetPath).toLowerCase();
     const contentType = CONTENT_TYPES[ext] || "application/octet-stream";
+    /**
+     * ETag + Last-Modified обязательны. Раньше отдавался только `no-cache`
+     * без единого валидатора: браузеру нечем было проверить, изменился файл
+     * или нет, и Safari отдавал старую копию. 19.08 это стоило часа — владелец
+     * видел прежнюю вёрстку, сервер отдавал новую, и спорить было не с чем.
+     * Теперь ответ можно проверить: `?v=` в ссылке меняется вместе с файлом,
+     * а ETag ловит случай, когда ссылку забыли обновить.
+     */
+    const etag = `W/"${stat.size}-${Math.round(stat.mtimeMs)}"`;
+    if (_req.headers.get("if-none-match") === etag) {
+      return new Response(null, { status: 304, headers: { etag, "cache-control": "no-cache" } });
+    }
     return new Response(data, {
       headers: {
         "content-type": contentType,
         "cache-control": "no-cache",
+        etag,
+        "last-modified": new Date(stat.mtimeMs).toUTCString(),
       },
     });
   } catch {

@@ -1,5 +1,20 @@
 import type { Metadata } from "next";
 import { Space_Grotesk } from "next/font/google";
+import { statSync } from "node:fs";
+import { join } from "node:path";
+
+/**
+ * Версия таблицы стилей = время последней сборки файла. Без неё браузер
+ * держит старую копию: ссылка та же, значит и файл «тот же». 19.08 владелец
+ * час смотрел на прежнюю вёрстку, пока сервер отдавал новую.
+ */
+function assetVersion(relative: string): string {
+  try {
+    return String(Math.round(statSync(join(process.cwd(), "..", "design", "assets", relative)).mtimeMs));
+  } catch {
+    return "0";
+  }
+}
 import "./globals.css";
 import "./light-theme.css";
 import Header from "@/components/layout/Header";
@@ -41,7 +56,7 @@ export default async function RootLayout({
   return (
     <html lang="ru" className={`dark ${display.variable}`}>
       <head>
-        <link rel="stylesheet" href="/assets/css/stitch-tailwind.css" />
+        <link rel="stylesheet" href={`/assets/css/stitch-tailwind.css?v=${assetVersion("css/stitch-tailwind.css")}`} />
         <link rel="stylesheet" href="/assets/fonts/material-symbols-outlined/material-symbols-outlined.css" />
       </head>
       <body className="bg-background-light dark:bg-background-dark text-fg dark:text-fg">
