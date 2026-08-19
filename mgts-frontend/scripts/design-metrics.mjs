@@ -52,6 +52,11 @@ function walk(dir, acc = []) {
 }
 
 const COLOR = /#[0-9a-fA-F]{3,8}\b|\brgba?\(|\bhsla?\(/g;
+/* разнобой значений: сколько РАЗЛИЧНЫХ решений принято по одному вопросу */
+const TYPE_SCALE = /font-size:\s*[^;]+|\btext-\[[^\]]+\]|\btext-(?:xs|sm|base|lg|xl|[2-9]xl)\b/g;
+const RADIUS = /border-radius:\s*[^;]+|\brounded(?:-[a-z0-9\[\]%.]+)?\b/g;
+const SHADOW = /box-shadow:\s*[^;]+|\bshadow-[a-z0-9\[\]%.\/]+/g;
+const FONT_DECL = /font-family:\s*[^;]+/g;
 
 function staticMetrics() {
   const files = SRC_ROOTS.flatMap((r) => walk(r));
@@ -59,16 +64,26 @@ function staticMetrics() {
   const importantBy = {};
   let literals = 0;
   const literalsBy = {};
+  const scale = new Set(), radii = new Set(), shadows = new Set(), fonts = new Set();
+  let focusVisible = 0;
   for (const f of files) {
     const text = readFileSync(f, "utf8");
     const imp = (text.match(/!important/g) || []).length;
     if (imp) { important += imp; importantBy[f] = imp; }
+    focusVisible += (text.match(/:focus-visible/g) || []).length;
+    for (const x of text.match(TYPE_SCALE) || []) scale.add(x.trim());
+    for (const x of text.match(RADIUS) || []) radii.add(x.trim());
+    for (const x of text.match(SHADOW) || []) shadows.add(x.trim().slice(0, 60));
+    for (const x of text.match(FONT_DECL) || []) fonts.add(x.replace(/\s+/g, " ").trim().slice(0, 60));
     if (f.endsWith(TOKEN_FILE) || f === TOKEN_FILE) continue; // токенам литералы положены
     const col = (text.match(COLOR) || []).length;
     if (col) { literals += col; literalsBy[f] = col; }
   }
   const top = (o) => Object.entries(o).sort((a, b) => b[1] - a[1]).slice(0, 8);
-  return { filesScanned: files.length, important, importantTop: top(importantBy), literals, literalsTop: top(literalsBy) };
+  return { filesScanned: files.length, important, importantTop: top(importantBy),
+    literals, literalsTop: top(literalsBy),
+    typeScaleValues: scale.size, radiusValues: radii.size, shadowValues: shadows.size,
+    fontFamilyDeclarations: fonts.size, focusVisibleRules: focusVisible };
 }
 
 /* ── в браузере: контраст, цели, навигация, alt ──────────────────────── */
@@ -281,6 +296,11 @@ const report = {
   langAttr: Array.from(new Set(ok.map((p) => p.lang))),
   important: st.important, importantTop: st.importantTop,
   colorLiterals: st.literals, colorLiteralsTop: st.literalsTop,
+  typeScaleValues: st.typeScaleValues,
+  radiusValues: st.radiusValues,
+  shadowValues: st.shadowValues,
+  fontFamilyDeclarations: st.fontFamilyDeclarations,
+  focusVisibleRules: st.focusVisibleRules,
   filesScanned: st.filesScanned,
   failedPages: perPage.filter((p) => !p.ok).map((p) => ({ slug: p.slug, error: p.error })),
 };
@@ -301,6 +321,9 @@ console.log(`иконок из CMS / аварийных ...... ${report.iconFrom
 console.log(`ошибок в консоли ............... ${report.consoleErrors} на ${report.consoleErrorPages} страницах`);
 console.log(`!important ..................... ${report.important}`);
 console.log(`литеральных цветов вне токенов . ${report.colorLiterals}`);
+console.log(`различных кеглей / скруглений .. ${report.typeScaleValues} / ${report.radiusValues}`);
+console.log(`различных теней / гарнитур ..... ${report.shadowValues} / ${report.fontFamilyDeclarations}`);
+console.log(`правил :focus-visible .......... ${report.focusVisibleRules}`);
 console.log(`→ ${out}`);
 
 /* ── ворота (К-10: обещание без носителя) ────────────────────────────

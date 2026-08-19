@@ -9,7 +9,11 @@
     "lint": "eslint",
     "test": "vitest run",
     "test:watch": "vitest",
-    "check:stubs": "node scripts/check-stubs.mts"
+    "check:stubs": "node scripts/check-stubs.mts",
+    "design:metrics": "node scripts/design-metrics.mjs --out ../docs/design-review/metrics-after.json",
+    "design:metrics:mobile": "node scripts/design-metrics.mjs --vw 390 --vh 844 --out ../docs/design-review/metrics-after-mobile.json",
+    "design:gate": "node scripts/design-metrics.mjs --gate --out ../docs/design-review/metrics-after.json",
+    "design:defects": "node scripts/check-defects.mjs"
   },
   "dependencies": {
     "next": "16.1.6",
