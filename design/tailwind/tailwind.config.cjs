@@ -1,6 +1,14 @@
 module.exports = {
   darkMode: "class",
-  content: ["../html_blocks/**/*.html"],
+  content: [
+    // B-04: раньше сканировались только html_blocks. Классы, живущие в React,
+    // в бандл не попадали — 44 из 562 utility-классов оставались без стилей,
+    // 74 вхождения в разметке. Мутация: убрать строку с mgts-frontend и пересобрать
+    // — тест tailwind-coverage обязан покраснеть.
+    "../html_blocks/**/*.html",
+    "../html_pages/**/*.html",
+    "../../mgts-frontend/src/**/*.{ts,tsx,js,jsx}",
+  ],
   theme: {
     extend: {
       colors: {

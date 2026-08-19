@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tailwindcss -c tailwind.config.cjs -i input.css -o ../assets/css/stitch-tailwind.css --minify"
   },
   "keywords": [],
   "author": "",
