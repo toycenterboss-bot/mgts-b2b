@@ -61,12 +61,12 @@ export default function SectionText({ section }: SectionTextProps) {
     const clean = href.split("?")[0];
     const ext = (clean.split(".").pop() || "").toLowerCase();
     if (ext.includes("pdf")) return { icon: "picture_as_pdf", color: "text-red-500", bg: "bg-red-500/10", label: "PDF" };
-    if (ext.includes("doc")) return { icon: "description", color: "text-blue-500", bg: "bg-blue-500/10", label: "DOCX" };
+    if (ext.includes("doc")) return { icon: "description", color: "text-accent-text", bg: "bg-blue-500/10", label: "DOCX" };
     if (ext.includes("xls") || ext.includes("csv"))
       return { icon: "table_chart", color: "text-amber-500", bg: "bg-amber-500/10", label: "XLSX" };
     if (ext.includes("zip") || ext.includes("rar"))
-      return { icon: "inventory_2", color: "text-primary", bg: "bg-primary/10", label: "ARCHIVE" };
-    return { icon: "insert_drive_file", color: "text-slate-500", bg: "bg-slate-500/10", label: ext.toUpperCase() || "DOC" };
+      return { icon: "inventory_2", color: "text-accent-text", bg: "bg-primary/10", label: "ARCHIVE" };
+    return { icon: "insert_drive_file", color: "text-fg-subtle", bg: "bg-fg-subtle/10", label: ext.toUpperCase() || "DOC" };
   };
   const docMeta = docLink ? getDocMeta(docLink.href) : null;
   const bgUrl = resolveMediaUrl(section.backgroundImage || null);
@@ -86,34 +86,34 @@ export default function SectionText({ section }: SectionTextProps) {
   return (
     <section
       className={`section-text${
-        hideShell ? " border-0 bg-transparent p-0 rounded-none" : " rounded-2xl border border-white/10 bg-white/5 p-6"
+        hideShell ? " border-0 bg-transparent p-0 rounded-none" : " rounded-2xl border border-fg/10 bg-fg/5 p-6"
       }${isContactExtra ? " contact-details" : ""}`}
       style={style}
       data-section-title={section?.title || undefined}
     >
       {section.title && (
-        <h2 className="section-text__title text-slate-900 dark:text-white text-3xl font-bold tracking-tight mb-4">
+        <h2 className="section-text__title text-fg dark:text-fg text-3xl font-bold tracking-tight mb-4">
           {section.title}
         </h2>
       )}
       {section.subtitle && (
-        <p className="section-text__subtitle text-slate-600 dark:text-slate-400 text-base leading-relaxed mb-4">
+        <p className="section-text__subtitle text-fg-subtle dark:text-fg-muted text-base leading-relaxed mb-4">
           {section.subtitle}
         </p>
       )}
       {docLink && docMeta && (
-        <div className="flex items-center justify-between p-4 bg-[#2b3641] border border-white/10 rounded-xl">
+        <div className="flex items-center justify-between p-4 bg-surface-2 border border-fg/10 rounded-xl">
           <div className="flex items-center gap-4">
             <div className={`size-10 flex items-center justify-center rounded-lg ${docMeta.bg} ${docMeta.color}`}>
               <span className="material-symbols-outlined">{docMeta.icon}</span>
             </div>
             <div>
-              <h5 className="text-sm font-bold leading-none mb-1 text-white">{docLink.text || "Документ"}</h5>
-              <p className="text-xs text-slate-400">{docMeta.label}</p>
+              <h5 className="text-sm font-bold leading-none mb-1 text-fg">{docLink.text || "Документ"}</h5>
+              <p className="text-xs text-fg-muted">{docMeta.label}</p>
             </div>
           </div>
           <a
-            className="size-9 flex items-center justify-center border border-white/10 text-slate-300 rounded-lg hover:bg-primary hover:text-white hover:border-primary transition-all"
+            className="size-9 flex items-center justify-center border border-fg/10 text-fg-muted rounded-lg hover:bg-primary hover:text-on-primary hover:border-primary transition-all"
             href={docLink.href}
             target="_blank"
             rel="noreferrer"
@@ -125,7 +125,7 @@ export default function SectionText({ section }: SectionTextProps) {
       )}
       {!docLink && section.content && (
         <div
-          className="section-text__content cms-text-content prose prose-lg max-w-none text-slate-800 dark:text-white prose-p:leading-relaxed prose-a:text-primary"
+          className="section-text__content cms-text-content prose prose-lg max-w-none text-fg dark:text-fg prose-p:leading-relaxed prose-a:text-primary"
           dangerouslySetInnerHTML={{ __html: contentHtml }}
         />
       )}

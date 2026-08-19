@@ -15,7 +15,7 @@ export default function ServiceOrderForm({ section }: ServiceOrderFormProps) {
   const buttonText = section?.buttonText;
 
   return (
-    <section className="bg-premium-dark text-white selection:bg-primary/30" data-order-form-section>
+    <section className="bg-premium-dark text-accent-text selection:bg-primary/30" data-order-form-section>
       <div className="relative py-24 px-6 overflow-hidden">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full pointer-events-none opacity-20">
           <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-primary rounded-full blur-[120px]"></div>
@@ -27,7 +27,7 @@ export default function ServiceOrderForm({ section }: ServiceOrderFormProps) {
               {badgeText && (
                 <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 w-fit">
                   <span className="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
-                  <span className="text-xs font-bold uppercase tracking-wider text-primary" data-cms-order-badge>
+                  <span className="text-xs font-bold uppercase tracking-wider text-accent-text" data-cms-order-badge>
                     {badgeText}
                   </span>
                 </div>
@@ -41,7 +41,7 @@ export default function ServiceOrderForm({ section }: ServiceOrderFormProps) {
                 </h2>
               )}
               {subtitle && (
-                <p className="text-lg text-gray-400 max-w-md leading-relaxed" data-cms-order-subtitle>
+                <p className="text-lg text-fg-muted max-w-md leading-relaxed" data-cms-order-subtitle>
                   {subtitle}
                 </p>
               )}
@@ -49,11 +49,11 @@ export default function ServiceOrderForm({ section }: ServiceOrderFormProps) {
                 <div className="flex flex-col gap-4 mt-4">
                   {phoneLabel && phoneValue && (
                     <div className="flex items-center gap-4">
-                      <div className="w-12 h-12 rounded-lg bg-white/5 flex items-center justify-center border border-white/10">
-                        <span className="material-symbols-outlined text-primary">support_agent</span>
+                      <div className="w-12 h-12 rounded-lg bg-fg/5 flex items-center justify-center border border-fg/10">
+                        <span className="material-symbols-outlined text-accent-text">support_agent</span>
                       </div>
                       <div>
-                        <p className="text-sm text-gray-500" data-cms-order-support-phone-label>
+                        <p className="text-sm text-fg-subtle" data-cms-order-support-phone-label>
                           {phoneLabel}
                         </p>
                         <p className="font-medium" data-cms-order-support-phone-value>
@@ -64,11 +64,11 @@ export default function ServiceOrderForm({ section }: ServiceOrderFormProps) {
                   )}
                   {emailLabel && emailValue && (
                     <div className="flex items-center gap-4">
-                      <div className="w-12 h-12 rounded-lg bg-white/5 flex items-center justify-center border border-white/10">
-                        <span className="material-symbols-outlined text-primary">mail</span>
+                      <div className="w-12 h-12 rounded-lg bg-fg/5 flex items-center justify-center border border-fg/10">
+                        <span className="material-symbols-outlined text-accent-text">mail</span>
                       </div>
                       <div>
-                        <p className="text-sm text-gray-500" data-cms-order-support-email-label>
+                        <p className="text-sm text-fg-subtle" data-cms-order-support-email-label>
                           {emailLabel}
                         </p>
                         <p className="font-medium" data-cms-order-support-email-value>
@@ -83,11 +83,11 @@ export default function ServiceOrderForm({ section }: ServiceOrderFormProps) {
             <div className="form-glass p-8 md:p-10 rounded-xl shadow-2xl">
               <form className="flex flex-col gap-6" data-cms-order-form action={section.formAction || "#"} method={method}>
                 <div className="flex flex-col gap-2">
-                  <label className="text-sm font-medium text-gray-300" htmlFor="name">
+                  <label className="text-sm font-medium text-fg-muted" htmlFor="name">
                     Имя
                   </label>
                   <input
-                    className="w-full bg-white/5 border border-white/10 rounded-lg h-14 px-4 text-white placeholder:text-gray-600 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all"
+                    className="w-full bg-fg/5 border border-fg/10 rounded-lg h-14 px-4 text-fg placeholder:text-fg-subtle focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all"
                     id="name"
                     name="name"
                     maxLength={section.nameMaxLength || 300}
@@ -97,11 +97,11 @@ export default function ServiceOrderForm({ section }: ServiceOrderFormProps) {
                   />
                 </div>
                 <div className="flex flex-col gap-2">
-                  <label className="text-sm font-medium text-gray-300" htmlFor="phone">
+                  <label className="text-sm font-medium text-fg-muted" htmlFor="phone">
                     Номер телефона
                   </label>
                   <input
-                    className="w-full bg-white/5 border border-white/10 rounded-lg h-14 px-4 text-white placeholder:text-gray-600 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all"
+                    className="w-full bg-fg/5 border border-fg/10 rounded-lg h-14 px-4 text-fg placeholder:text-fg-subtle focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all"
                     id="phone"
                     name="phone"
                     maxLength={section.phoneMaxLength || 18}
@@ -111,11 +111,11 @@ export default function ServiceOrderForm({ section }: ServiceOrderFormProps) {
                   />
                 </div>
                 <div className="flex flex-col gap-2">
-                  <label className="text-sm font-medium text-gray-300" htmlFor="company">
+                  <label className="text-sm font-medium text-fg-muted" htmlFor="company">
                     Название компании
                   </label>
                   <input
-                    className="w-full bg-white/5 border border-white/10 rounded-lg h-14 px-4 text-white placeholder:text-gray-600 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all"
+                    className="w-full bg-fg/5 border border-fg/10 rounded-lg h-14 px-4 text-fg placeholder:text-fg-subtle focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all"
                     id="company"
                     name="company"
                     maxLength={section.companyMaxLength || 300}
@@ -126,7 +126,7 @@ export default function ServiceOrderForm({ section }: ServiceOrderFormProps) {
                 </div>
                 <div className="flex flex-col gap-4 pt-2">
                   <button
-                    className="w-full h-14 bg-primary hover:bg-primary/90 text-white font-bold rounded-lg transition-all transform active:scale-[0.98] flex items-center justify-center gap-2 group"
+                    className="w-full h-14 bg-primary hover:bg-primary/90 text-on-primary font-bold rounded-lg transition-all transform active:scale-[0.98] flex items-center justify-center gap-2 group"
                     type="submit"
                   >
                     <span data-cms-order-button-text>{buttonText || "Отправить заявку"}</span>
@@ -136,7 +136,7 @@ export default function ServiceOrderForm({ section }: ServiceOrderFormProps) {
                   </button>
                   {section.disclaimerHtml && (
                     <p
-                      className="text-[10px] text-gray-500 text-center leading-relaxed uppercase tracking-widest"
+                      className="text-[10px] text-fg-subtle text-center leading-relaxed uppercase tracking-widest"
                       data-cms-order-disclaimer
                       dangerouslySetInnerHTML={{ __html: section.disclaimerHtml }}
                     />

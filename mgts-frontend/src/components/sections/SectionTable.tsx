@@ -32,9 +32,9 @@ const humanFileType = (ext: string) => {
 
 const docIconColors = (ext: string) => {
   if (ext === "pdf") return ["bg-red-500/10", "text-red-500"];
-  if (ext === "doc" || ext === "docx") return ["bg-blue-500/10", "text-blue-500"];
+  if (ext === "doc" || ext === "docx") return ["bg-blue-500/10", "text-accent-text"];
   if (ext === "xls" || ext === "xlsx") return ["bg-emerald-500/10", "text-emerald-400"];
-  return ["bg-slate-500/10", "text-slate-400"];
+  return ["bg-fg-subtle/10", "text-fg-muted"];
 };
 
 const isDocExt = (ext: string) => ["pdf", "doc", "docx", "xls", "xlsx", "zip"].includes(ext);
@@ -111,7 +111,7 @@ const renderDocList = (
       return (
         <div
           key={`${href}-${idx}`}
-          className="flex items-center justify-between p-4 bg-white dark:bg-slate-800/20 border border-slate-200 dark:border-slate-800 rounded-xl hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors"
+          className="flex items-center justify-between p-4 bg-surface dark:bg-surface-2/20 border border-line dark:border-line rounded-xl hover:bg-surface-2 dark:hover:bg-surface-2 transition-colors"
           data-doc-file-item
           data-file-name={String(link.label || "").toLowerCase()}
           data-file-type={ext}
@@ -124,16 +124,16 @@ const renderDocList = (
             <div>
               <button
                 type="button"
-                className="text-sm font-bold leading-none mb-1 text-left hover:text-primary transition-colors"
+                className="text-sm font-bold leading-none mb-1 text-left hover:text-accent-text transition-colors"
                 onClick={() => onPreview({ title: link.label, href, isPdf, isImage })}
               >
                 {link.label}
               </button>
-              <p className="text-xs text-slate-500 dark:text-slate-400">{humanFileType(ext)} • документ</p>
+              <p className="text-xs text-fg-subtle dark:text-fg-muted">{humanFileType(ext)} • документ</p>
             </div>
           </div>
           <a
-            className="size-9 flex items-center justify-center border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 rounded-lg hover:bg-primary hover:text-white hover:border-primary transition-all"
+            className="size-9 flex items-center justify-center border border-line dark:border-line text-fg-subtle dark:text-fg-muted rounded-lg hover:bg-primary hover:text-on-primary hover:border-primary transition-all"
             href={href}
             download
           >
@@ -153,8 +153,8 @@ const renderLink = (item: any, key: string) => {
     Boolean(item.download) ||
     /\.(pdf|docx?|xlsx?|csv|zip|rar)$/i.test(String(href).split("?")[0] || "");
   const linkClass = isDownload
-    ? "inline-flex items-center gap-2 px-3 py-2 rounded-lg border border-white/10 text-xs font-bold text-slate-200 hover:bg-primary/20 hover:border-primary/40 transition-colors"
-    : "text-primary hover:underline";
+    ? "inline-flex items-center gap-2 px-3 py-2 rounded-lg border border-fg/10 text-xs font-bold text-accent-text hover:bg-primary/20 hover:border-primary/40 transition-colors"
+    : "text-accent-text hover:underline";
   return (
     <a
       key={key}
@@ -177,8 +177,8 @@ const renderCell = (
   onPreview: (doc: DocPreview) => void
 ) => {
   const cellClass = isFirst
-    ? "p-6 border-b border-slate-100 dark:border-slate-800/50 text-sm align-top text-slate-900 dark:text-slate-100 font-semibold"
-    : "p-6 border-b border-slate-100 dark:border-slate-800/50 text-sm align-top text-center text-slate-900 dark:text-slate-100";
+    ? "p-6 border-b border-line dark:border-line/50 text-sm align-top text-fg dark:text-fg font-semibold"
+    : "p-6 border-b border-line dark:border-line/50 text-sm align-top text-center text-fg dark:text-fg";
   if (Array.isArray(cell)) {
     const links = cell.filter((item) => item && typeof item === "object" && (item.href || item.text || item.url));
     const docLinks = links
@@ -230,32 +230,32 @@ export default function SectionTable({ section }: SectionTableProps) {
       className={`section-table max-w-[1200px] mx-auto${
         hideShell
           ? " border-0 bg-transparent p-0 rounded-none shadow-none"
-          : " rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-background-dark p-6 md:p-8 shadow-2xl shadow-primary/5"
+          : " rounded-2xl border border-line dark:border-line bg-surface dark:bg-background-dark p-6 md:p-8 shadow-2xl shadow-primary/5"
       }`}
     >
       {section.title && (
-        <h2 className="section-table__title text-slate-900 dark:text-white text-3xl font-bold tracking-tight mb-4">
+        <h2 className="section-table__title text-fg dark:text-fg text-3xl font-bold tracking-tight mb-4">
           {section.title}
         </h2>
       )}
       {section.description && (
-        <p className="section-table__description text-slate-500 dark:text-slate-400 text-lg font-normal max-w-2xl mb-6">
+        <p className="section-table__description text-fg-subtle dark:text-fg-muted text-lg font-normal max-w-2xl mb-6">
           {section.description}
         </p>
       )}
       {columns.length > 0 && (
-        <div className="section-table__table w-full overflow-hidden rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-background-dark shadow-2xl shadow-primary/5">
+        <div className="section-table__table w-full overflow-hidden rounded-xl border border-line dark:border-line bg-surface dark:bg-background-dark shadow-2xl shadow-primary/5">
           <div className="overflow-x-auto">
             <table className="w-full border-collapse section-table__table">
               <thead>
-                <tr className="bg-slate-50 dark:bg-slate-900/50">
+                <tr className="bg-surface-2 dark:bg-surface/50">
                   {columns.map((col: any, idx: number) => (
                     <th
                       key={`head-${idx}`}
                       className={
                         idx === 0
-                          ? "p-6 text-left text-slate-900 dark:text-white min-w-[220px] border-b border-slate-200 dark:border-slate-800 text-xs font-bold uppercase tracking-widest"
-                          : "p-6 text-center text-slate-900 dark:text-white min-w-[220px] border-b border-slate-200 dark:border-slate-800 text-xs font-bold uppercase tracking-widest"
+                          ? "p-6 text-left text-fg dark:text-fg min-w-[220px] border-b border-line dark:border-line text-xs font-bold uppercase tracking-widest"
+                          : "p-6 text-center text-fg dark:text-fg min-w-[220px] border-b border-line dark:border-line text-xs font-bold uppercase tracking-widest"
                       }
                     >
                       {col.name || col.key}
@@ -279,21 +279,21 @@ export default function SectionTable({ section }: SectionTableProps) {
         </div>
       )}
       {section.showCustomization !== false && (
-        <div className="mt-12 p-8 rounded-xl bg-slate-100 dark:bg-slate-900/50 border border-slate-200 dark:border-slate-800 flex flex-col md:flex-row items-center gap-8">
+        <div className="mt-12 p-8 rounded-xl bg-surface-2 dark:bg-surface/50 border border-line dark:border-line flex flex-col md:flex-row items-center gap-8">
           <div className="size-16 rounded-xl bg-primary/10 flex items-center justify-center shrink-0">
-            <span className="material-symbols-outlined text-primary text-3xl">info</span>
+            <span className="material-symbols-outlined text-accent-text text-3xl">info</span>
           </div>
           <div className="flex-1">
-            <h4 className="text-lg font-bold text-slate-900 dark:text-white mb-1">
+            <h4 className="text-lg font-bold text-fg dark:text-fg mb-1">
               {section.customizationTitle || "Нужна индивидуальная конфигурация?"}
             </h4>
-            <p className="text-slate-500 dark:text-slate-400">
+            <p className="text-fg-subtle dark:text-fg-muted">
               {section.customizationText ||
                 "Мы можем подготовить специфическое решение под ваши задачи: от выделенных каналов связи до гибридных облачных инфраструктур с особыми требованиями безопасности."}
             </p>
           </div>
           <a
-            className="shrink-0 px-8 h-14 rounded-lg bg-transparent border-2 border-primary text-primary font-bold hover:bg-primary hover:text-white transition-all flex items-center justify-center"
+            className="shrink-0 px-8 h-14 rounded-lg bg-transparent border-2 border-primary text-accent-text font-bold hover:bg-primary hover:text-on-primary transition-all flex items-center justify-center"
             href={section.customizationButtonHref || "/contact"}
           >
             {section.customizationButtonText || "Заказать консультацию"}
@@ -309,13 +309,13 @@ export default function SectionTable({ section }: SectionTableProps) {
           ></div>
           <div className="relative mx-auto flex h-full w-full max-w-[1100px] items-center justify-center p-6">
             <div
-              className="relative w-full overflow-hidden rounded-2xl border border-white/10 bg-[#0a0f18] shadow-2xl"
+              className="relative w-full overflow-hidden rounded-2xl border border-fg/10 bg-bg shadow-2xl"
               style={{ maxHeight: "90vh", display: "flex", flexDirection: "column" }}
             >
-              <div className="flex items-center justify-between border-b border-white/10 px-6 py-4">
-                <div className="text-sm font-bold text-white">{activeDoc.title || "Документ"}</div>
+              <div className="flex items-center justify-between border-b border-fg/10 px-6 py-4">
+                <div className="text-sm font-bold text-fg">{activeDoc.title || "Документ"}</div>
                 <button
-                  className="flex h-10 w-10 items-center justify-center rounded-lg hover:bg-white/10 transition-colors"
+                  className="flex h-10 w-10 items-center justify-center rounded-lg hover:bg-fg/10 transition-colors"
                   type="button"
                   onClick={() => setActiveDoc(null)}
                   aria-label="Закрыть"
@@ -324,8 +324,8 @@ export default function SectionTable({ section }: SectionTableProps) {
                 </button>
               </div>
               <div className="p-6 space-y-4" style={{ overflow: "auto", flex: "1 1 auto", minHeight: 0 }}>
-                <div className="aspect-[16/9] rounded-xl bg-white/5 border border-white/10 overflow-hidden flex items-center justify-center">
-                  {!activeDoc.href && <div className="text-slate-400">Просмотр недоступен</div>}
+                <div className="aspect-[16/9] rounded-xl bg-fg/5 border border-fg/10 overflow-hidden flex items-center justify-center">
+                  {!activeDoc.href && <div className="text-fg-muted">Просмотр недоступен</div>}
                   {activeDoc.href && activeDoc.isPdf && (
                     <iframe title={activeDoc.title || "Документ"} src={activeDoc.href} className="w-full h-full" />
                   )}
@@ -333,13 +333,13 @@ export default function SectionTable({ section }: SectionTableProps) {
                     <img src={activeDoc.href} alt={activeDoc.title || "Документ"} className="w-full h-full object-contain" />
                   )}
                   {activeDoc.href && !activeDoc.isPdf && !activeDoc.isImage && (
-                    <div className="text-slate-400 text-sm text-center px-6">
+                    <div className="text-fg-muted text-sm text-center px-6">
                       Предпросмотр доступен только для PDF и изображений. Используйте кнопку для открытия файла.
                     </div>
                   )}
                 </div>
                 {activeDoc.href && (
-                  <a className="inline-flex items-center gap-2 text-primary font-bold text-sm" href={activeDoc.href} download>
+                  <a className="inline-flex items-center gap-2 text-accent-text font-bold text-sm" href={activeDoc.href} download>
                     <span className="material-symbols-outlined text-base">download</span>
                     Скачать файл
                   </a>

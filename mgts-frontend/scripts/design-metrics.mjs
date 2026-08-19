@@ -31,12 +31,22 @@ const SITE = process.env.SITE_BASE_URL || "http://localhost:3000";
 const arg = (name, dflt) => { const i = process.argv.indexOf(name); return i > -1 ? process.argv[i + 1] : dflt; };
 const LIMIT = Number(arg("--limit", 0));
 const OUT = arg("--out", "");
+/* Д-31: светлая тема не измерялась ни разу. ThemeInit читает ?theme= — значит
+   тот же прибор умеет мерить обе темы, менять надо один аргумент. */
+const THEME = arg("--theme", "");
 const VIEWPORT = { width: Number(arg("--vw", 1366)), height: Number(arg("--vh", 900)) };
 
 /* ── статика: !important и литеральные цвета ─────────────────────────── */
 
 const SRC_ROOTS = ["src", "../design/tailwind", "../design/assets/css"];
-const TOKEN_FILE = "src/app/globals.css"; // единственное место, где цвет разрешён литералом
+/* Места, где литеральный цвет разрешён: он там и должен быть. */
+const TOKEN_FILES = ["src/app/globals.css", "../design/tailwind/tokens.css"];
+/* Сгенерированное. Считать литералы в собранном бандле — значит мерить не
+   свой код, а вывод Tailwind: он раскрывает каждый токен в rgb(...) и растёт
+   от любой новой утилиты. 19.08 базовая линия 1143 включала этот файл (820 из
+   них — он), поэтому вместе со сменой охвата пересчитан и базовый замер:
+   1143 всего → 382 в исходниках. Менять охват молча — это К-05. */
+const GENERATED = ["../design/assets/css/stitch-tailwind.css"];
 const CODE_EXT = /\.(css|ts|tsx|js|jsx)$/;
 const SKIP_DIR = /node_modules|\.next|\.visual|dist|build/;
 
@@ -65,23 +75,34 @@ function staticMetrics() {
   let literals = 0;
   const literalsBy = {};
   const scale = new Set(), radii = new Set(), shadows = new Set(), fonts = new Set();
-  let focusVisible = 0;
+  let focusVisible = 0, generated = 0, importantGen = 0;
   for (const f of files) {
-    const text = readFileSync(f, "utf8");
+    /* Комментарии из подсчёта убираются: объяснение, ПОЧЕМУ !important здесь
+       больше не нужен, само содержит слово «!important» — и метрика начинает
+       мерить документацию вместо кода. */
+    const text = readFileSync(f, "utf8").replace(/\/\*[\s\S]*?\*\//g, "").replace(/(^|[^:])\/\/.*$/gm, "$1");
     const imp = (text.match(/!important/g) || []).length;
-    if (imp) { important += imp; importantBy[f] = imp; }
+    if (imp) {
+      /* Собранный бандл считаем отдельно: Tailwind тащит туда !important из
+         `!text-5xl` в design/html_blocks — это легаси-статика, а не код фронта.
+         Смешивать их в одном числе значит требовать от Ф1 правки чужого слоя. */
+      if (GENERATED.some((x) => f === x || f.endsWith(x))) importantGen += imp;
+      else { important += imp; importantBy[f] = imp; }
+    }
     focusVisible += (text.match(/:focus-visible/g) || []).length;
     for (const x of text.match(TYPE_SCALE) || []) scale.add(x.trim());
     for (const x of text.match(RADIUS) || []) radii.add(x.trim());
     for (const x of text.match(SHADOW) || []) shadows.add(x.trim().slice(0, 60));
     for (const x of text.match(FONT_DECL) || []) fonts.add(x.replace(/\s+/g, " ").trim().slice(0, 60));
-    if (f.endsWith(TOKEN_FILE) || f === TOKEN_FILE) continue; // токенам литералы положены
     const col = (text.match(COLOR) || []).length;
-    if (col) { literals += col; literalsBy[f] = col; }
+    if (!col) continue;
+    if (TOKEN_FILES.some((x) => f === x || f.endsWith(x))) continue; // токенам литералы положены
+    if (GENERATED.some((x) => f === x || f.endsWith(x))) { generated += col; continue; }
+    literals += col; literalsBy[f] = col;
   }
   const top = (o) => Object.entries(o).sort((a, b) => b[1] - a[1]).slice(0, 8);
-  return { filesScanned: files.length, important, importantTop: top(importantBy),
-    literals, literalsTop: top(literalsBy),
+  return { filesScanned: files.length, important, importantTop: top(importantBy), importantGenerated: importantGen,
+    literals, literalsTop: top(literalsBy), literalsGenerated: generated,
     typeScaleValues: scale.size, radiusValues: radii.size, shadowValues: shadows.size,
     fontFamilyDeclarations: fonts.size, focusVisibleRules: focusVisible };
 }
@@ -240,7 +261,8 @@ page.on("pageerror", (e) => errs.push("pageerror: " + String(e.message).slice(0,
 for (const slug of list) {
   errs = [];
   try {
-    const r = await page.goto(`${SITE}/${slug}`, { waitUntil: "networkidle", timeout: 25000 });
+    const url = `${SITE}/${slug}` + (THEME ? `?theme=${THEME}` : "");
+    const r = await page.goto(url, { waitUntil: "networkidle", timeout: 25000 });
     if (!r || r.status() >= 400) throw new Error(`код ${r?.status()}`);
     const m = await page.evaluate(IN_PAGE);
     perPage.push({ slug, ok: true, ...m, consoleErrors: errs.length, consoleSamples: errs.slice(0, 2) });
@@ -266,7 +288,7 @@ const st = staticMetrics();
 
 const report = {
   measuredAt: new Date().toISOString(),
-  site: SITE, viewport: VIEWPORT,
+  site: SITE, viewport: VIEWPORT, theme: THEME || "dark",
   pages: { requested: list.length, opened: ok.length, failed: perPage.length - ok.length },
   contrastPairsBelowAA: uniqPairs.size,
   contrastNodesBelowAA: Array.from(uniqPairs.values()).reduce((s, c) => s + c.n, 0),
@@ -294,8 +316,9 @@ const report = {
   consoleErrorPages: ok.filter((p) => (p.consoleErrors || 0) > 0).length,
   consoleErrorSamples: Array.from(new Set(ok.flatMap((p) => p.consoleSamples || []))).slice(0, 8),
   langAttr: Array.from(new Set(ok.map((p) => p.lang))),
-  important: st.important, importantTop: st.importantTop,
+  important: st.important, importantTop: st.importantTop, importantGenerated: st.importantGenerated,
   colorLiterals: st.literals, colorLiteralsTop: st.literalsTop,
+  colorLiteralsGenerated: st.literalsGenerated,
   typeScaleValues: st.typeScaleValues,
   radiusValues: st.radiusValues,
   shadowValues: st.shadowValues,
@@ -319,8 +342,8 @@ console.log(`страниц с боковой прокруткой ... ${report.
 console.log(`блоков шаблонного текста ....... ${report.templateCopyBlocks} на ${report.templateCopyPages} страницах`);
 console.log(`иконок из CMS / аварийных ...... ${report.iconFromCms} / ${report.iconFallback}`);
 console.log(`ошибок в консоли ............... ${report.consoleErrors} на ${report.consoleErrorPages} страницах`);
-console.log(`!important ..................... ${report.important}`);
-console.log(`литеральных цветов вне токенов . ${report.colorLiterals}`);
+console.log(`!important ..................... ${report.important}  (в собранном бандле ещё ${report.importantGenerated}, из design/html_blocks)`);
+console.log(`литеральных цветов вне токенов . ${report.colorLiterals}  (в собранном бандле ещё ${report.colorLiteralsGenerated}, не считаются)`);
 console.log(`различных кеглей / скруглений .. ${report.typeScaleValues} / ${report.radiusValues}`);
 console.log(`различных теней / гарнитур ..... ${report.shadowValues} / ${report.fontFamilyDeclarations}`);
 console.log(`правил :focus-visible .......... ${report.focusVisibleRules}`);

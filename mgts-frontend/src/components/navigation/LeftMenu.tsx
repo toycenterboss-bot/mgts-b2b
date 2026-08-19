@@ -75,12 +75,12 @@ const renderDeepNavItems = (items: any[], currentPath: string, variant: "cms" | 
 
   const linkBaseClass =
     variant === "doc"
-      ? "text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-[#27303a]"
-      : "text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-[#27303a]";
+      ? "text-fg dark:text-fg-muted hover:bg-surface-2 dark:hover:bg-surface-2"
+      : "text-fg dark:text-fg-muted hover:bg-surface-2 dark:hover:bg-surface-2";
   const activeClass =
     variant === "doc"
-      ? "bg-primary/10 text-primary border-l-4 border-primary dark:text-primary"
-      : "bg-primary/10 text-primary border-l-4 border-primary dark:text-primary";
+      ? "bg-primary/10 text-accent-text border-l-4 border-primary dark:text-accent-text"
+      : "bg-primary/10 text-accent-text border-l-4 border-primary dark:text-accent-text";
 
   const makeLink = (label: string, href: string | null, active: boolean, icon?: any, indent = 0) => {
     const iconName = getIconName(icon) || pickSidebarIcon(label);
@@ -88,13 +88,13 @@ const renderDeepNavItems = (items: any[], currentPath: string, variant: "cms" | 
       <Icon
         name={iconName}
         size={20}
-        className={`mgts-nav-icon ${active ? "text-primary" : "group-hover:text-primary"}`}
+        className={`mgts-nav-icon ${active ? "text-accent-text" : "group-hover:text-accent-text"}`}
         allowFallback
       />
     ) : (
       <span
         className={`material-symbols-outlined text-xl mgts-nav-icon ${
-          active ? "text-primary" : "group-hover:text-primary"
+          active ? "text-accent-text" : "group-hover:text-accent-text"
         }`}
       >
         lan
@@ -120,8 +120,8 @@ const renderDeepNavItems = (items: any[], currentPath: string, variant: "cms" | 
 
   const groupTitleClass =
     variant === "doc"
-      ? "text-slate-400 dark:text-slate-500"
-      : "text-white/60";
+      ? "text-fg-muted dark:text-fg-subtle"
+      : "text-fg-subtle";
   const makeGroupTitle = (label: string, indent = 0) => (
     <div
       key={`group-${label}`}
@@ -168,9 +168,9 @@ export default async function LeftMenu({
     if (items.length) {
       const titleClass =
         variant === "doc"
-          ? "text-xs font-bold uppercase tracking-widest text-slate-500 dark:text-white/60 mb-3 font-display"
-          : "text-xs font-bold uppercase tracking-widest text-white/60 mb-3 font-display";
-      const wrapClass = variant === "cms" ? "rounded-2xl border border-white/10 bg-black/20 p-6" : "p-0";
+          ? "text-xs font-bold uppercase tracking-widest text-fg-subtle dark:text-fg-subtle mb-3 font-display"
+          : "text-xs font-bold uppercase tracking-widest text-fg-subtle mb-3 font-display";
+      const wrapClass = variant === "cms" ? "rounded-2xl border border-fg/10 bg-bg/20 p-6" : "p-0";
       const asideClass = `hidden lg:block font-display${asideClassName ? ` ${asideClassName}` : ""}`;
 
       return (

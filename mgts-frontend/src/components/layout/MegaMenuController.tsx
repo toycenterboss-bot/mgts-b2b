@@ -17,8 +17,8 @@ export default function MegaMenuController() {
 
     const applyPanelTransparency = (panel: HTMLElement | null) => {
       if (!panel) return;
-      panel.style.setProperty("background", "rgba(15, 25, 35, 0.08)", "important");
-      panel.style.setProperty("background-color", "rgba(15, 25, 35, 0.08)", "important");
+      panel.style.setProperty("background", "rgb(var(--c-bg) / 0.08)", "important");
+      panel.style.setProperty("background-color", "rgb(var(--c-bg) / 0.08)", "important");
       panel.style.setProperty("backdrop-filter", "blur(32px) saturate(220%)", "important");
       panel.style.setProperty("-webkit-backdrop-filter", "blur(32px) saturate(220%)", "important");
     };

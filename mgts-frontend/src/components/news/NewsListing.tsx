@@ -225,12 +225,12 @@ export default function NewsListing({
   return (
     <>
       <div className="mb-16">
-        <div className="flex gap-4 p-1.5 bg-white/5 rounded-2xl w-fit border border-white/10" data-news-tags>
+        <div className="flex gap-4 p-1.5 bg-fg/5 rounded-2xl w-fit border border-fg/10" data-news-tags>
           <button
             className={`px-8 py-3 text-sm font-bold rounded-xl transition-all${
               !activeTag
-                ? " bg-primary shadow-lg shadow-primary/20 text-white"
-                : " text-slate-400 hover:text-white hover:bg-white/5"
+                ? " bg-primary shadow-lg shadow-primary/20 text-on-primary"
+                : " text-fg-muted hover:text-fg hover:bg-fg/5"
             }`}
             type="button"
             data-news-tag
@@ -244,8 +244,8 @@ export default function NewsListing({
               key={tag.slug || tag.name}
               className={`px-8 py-3 text-sm font-bold rounded-xl transition-all${
                 activeTag === tag.slug
-                  ? " bg-primary shadow-lg shadow-primary/20 text-white"
-                  : " text-slate-400 hover:text-white hover:bg-white/5"
+                  ? " bg-primary shadow-lg shadow-primary/20 text-on-primary"
+                  : " text-fg-muted hover:text-fg hover:bg-fg/5"
               }`}
               type="button"
               data-news-tag
@@ -262,8 +262,8 @@ export default function NewsListing({
         <div className={`mb-10 ${normalizedYears.length ? "" : "hidden"}`} data-news-years>
           <div className="flex flex-wrap gap-2">
             <button
-              className={`px-4 py-2 text-xs font-black rounded-xl border border-white/10 transition-all${
-                !activeYear ? " bg-white/10 text-white" : " bg-white/5 text-white/80 hover:bg-white/10"
+              className={`px-4 py-2 text-xs font-black rounded-xl border border-fg/10 transition-all${
+                !activeYear ? " bg-fg/10 text-fg" : " bg-fg/5 text-fg-muted hover:bg-fg/10"
               }`}
               type="button"
               data-news-year
@@ -275,8 +275,8 @@ export default function NewsListing({
             {normalizedYears.map((year) => (
               <button
                 key={year}
-                className={`px-4 py-2 text-xs font-black rounded-xl border border-white/10 transition-all${
-                  activeYear === year ? " bg-white/10 text-white" : " bg-white/5 text-white/80 hover:bg-white/10"
+                className={`px-4 py-2 text-xs font-black rounded-xl border border-fg/10 transition-all${
+                  activeYear === year ? " bg-fg/10 text-fg" : " bg-fg/5 text-fg-muted hover:bg-fg/10"
                 }`}
                 type="button"
                 data-news-year
@@ -295,13 +295,13 @@ export default function NewsListing({
           <div className="flex items-center justify-between">
             <h3 className="text-2xl font-black tracking-tight flex items-center gap-4">
               <span className="size-10 rounded-xl bg-primary/10 flex items-center justify-center">
-                <span className="material-symbols-outlined text-primary">dynamic_feed</span>
+                <span className="material-symbols-outlined text-accent-text">dynamic_feed</span>
               </span>
               Свежие публикации
             </h3>
             {showArchiveLink && (
               <a
-                className="group flex items-center gap-2 text-primary font-bold text-sm tracking-widest uppercase"
+                className="group flex items-center gap-2 text-accent-text font-bold text-sm tracking-widest uppercase"
                 href="/news/archive"
                 data-news-archive-link
               >
@@ -333,22 +333,22 @@ export default function NewsListing({
                 </div>
                 <div className="p-10 md:w-[55%] flex flex-col justify-center relative">
                   <div className="flex items-center justify-between mb-6">
-                    <span className="category-tag-glow bg-white/5 border border-white/10 text-white/70 text-[10px] font-black uppercase tracking-[0.2em] px-3 py-1.5 rounded-md">
+                    <span className="category-tag-glow bg-fg/5 border border-fg/10 text-fg-muted text-[10px] font-black uppercase tracking-[0.2em] px-3 py-1.5 rounded-md">
                       {item.category?.name || "Новости"}
                     </span>
-                    <span className="text-slate-500 text-[11px] font-bold uppercase tracking-widest">
+                    <span className="text-fg-subtle text-[11px] font-bold uppercase tracking-widest">
                       {formatDate(item.publishDate)}
                     </span>
                   </div>
-                  <h4 className="text-3xl font-black leading-tight group-hover:text-primary transition-colors mb-4">
+                  <h4 className="text-3xl font-black leading-tight group-hover:text-accent-text transition-colors mb-4">
                     {item.title}
                   </h4>
-                  {item.shortDescription && <p className="text-slate-400 text-base font-light mb-0">{item.shortDescription}</p>}
+                  {item.shortDescription && <p className="text-fg-muted text-base font-light mb-0">{item.shortDescription}</p>}
                 </div>
               </button>
             ))}
             {items.length === 0 && (
-              <div className="rounded-2xl border border-white/10 bg-white/5 p-8 text-slate-400 text-sm">
+              <div className="rounded-2xl border border-fg/10 bg-fg/5 p-8 text-fg-muted text-sm">
                 Новостей пока нет.
               </div>
             )}
@@ -356,7 +356,7 @@ export default function NewsListing({
           <div className="mt-10 flex flex-col gap-4" data-news-pagination-root>
             <div className="flex items-center gap-3">
               <button
-                className="glass-button flex items-center gap-2 px-4 h-10 rounded-lg text-white text-sm font-bold transition-all group disabled:opacity-40 disabled:cursor-not-allowed"
+                className="glass-button flex items-center gap-2 px-4 h-10 rounded-lg text-fg text-sm font-bold transition-all group disabled:opacity-40 disabled:cursor-not-allowed"
                 type="button"
                 aria-label="Предыдущая страница"
                 disabled={page <= 1}
@@ -369,7 +369,7 @@ export default function NewsListing({
               <div className="flex items-center gap-1" data-news-pages>
                 {pagesModel.map((num, idx) =>
                   num === 0 ? (
-                    <span key={`dots-${idx}`} className="flex size-10 items-center justify-center text-white/40 text-sm">
+                    <span key={`dots-${idx}`} className="flex size-10 items-center justify-center text-fg-subtle text-sm">
                       ...
                     </span>
                   ) : (
@@ -377,7 +377,7 @@ export default function NewsListing({
                       key={`page-${num}`}
                       type="button"
                       className={`glass-button h-10 w-10 rounded-lg text-sm font-bold transition-all${
-                        num === page ? " bg-primary text-white" : " text-white/70 hover:text-white"
+                        num === page ? " bg-primary text-on-primary" : " text-fg-muted hover:text-fg"
                       }`}
                       data-news-page={num}
                       aria-pressed={num === page}
@@ -389,7 +389,7 @@ export default function NewsListing({
                 )}
               </div>
               <button
-                className="glass-button flex items-center gap-2 px-4 h-10 rounded-lg text-white text-sm font-bold transition-all group disabled:opacity-40 disabled:cursor-not-allowed"
+                className="glass-button flex items-center gap-2 px-4 h-10 rounded-lg text-fg text-sm font-bold transition-all group disabled:opacity-40 disabled:cursor-not-allowed"
                 type="button"
                 aria-label="Следующая страница"
                 disabled={page >= pageCount}
@@ -400,7 +400,7 @@ export default function NewsListing({
                 <span className="material-symbols-outlined text-lg">chevron_right</span>
               </button>
             </div>
-            <p className="text-xs font-bold text-white/50 uppercase tracking-wider" data-news-summary>
+            <p className="text-xs font-bold text-fg-subtle uppercase tracking-wider" data-news-summary>
               {total
                 ? `Показано ${(page - 1) * pageSize + 1}-${Math.min(total, page * pageSize)} из ${total} новостей`
                 : "Нет новостей"}
@@ -418,15 +418,15 @@ export default function NewsListing({
           ></div>
           <div className="relative mx-auto flex h-full w-full max-w-[1100px] items-center justify-center p-6">
             <div
-              className="relative w-full overflow-hidden rounded-2xl border border-white/10 bg-[#0a0f18] shadow-2xl"
+              className="relative w-full overflow-hidden rounded-2xl border border-fg/10 bg-bg shadow-2xl"
               style={{ maxHeight: "90vh", display: "flex", flexDirection: "column" }}
               role="dialog"
               aria-modal="true"
               aria-label="Новость"
             >
-              <div className="flex items-center justify-end border-b border-white/10 px-6 py-4">
+              <div className="flex items-center justify-end border-b border-fg/10 px-6 py-4">
                 <button
-                  className="flex h-10 w-10 items-center justify-center rounded-lg hover:bg-white/10 transition-colors"
+                  className="flex h-10 w-10 items-center justify-center rounded-lg hover:bg-fg/10 transition-colors"
                   type="button"
                   onClick={closeModal}
                   aria-label="Закрыть"
@@ -435,18 +435,18 @@ export default function NewsListing({
                 </button>
               </div>
               <div className="p-8 space-y-6" style={{ overflow: "auto", flex: "1 1 auto", minHeight: 0 }}>
-                {modalLoading && <div className="text-slate-400">Загрузка...</div>}
+                {modalLoading && <div className="text-fg-muted">Загрузка...</div>}
                 {!modalLoading && modalItem && (
                   <>
-                    <h2 className="text-3xl font-black tracking-tight text-white">{modalItem.title || "Новость"}</h2>
+                    <h2 className="text-3xl font-black tracking-tight text-fg">{modalItem.title || "Новость"}</h2>
                     {modalItem.content && (
                       <div
-                        className="text-slate-300 leading-relaxed space-y-4"
+                        className="text-fg-muted leading-relaxed space-y-4"
                         dangerouslySetInnerHTML={{ __html: modalItem.content }}
                       />
                     )}
                     <div
-                      className={`aspect-[16/9] rounded-xl bg-white/5 border border-white/10 overflow-hidden ${
+                      className={`aspect-[16/9] rounded-xl bg-fg/5 border border-fg/10 overflow-hidden ${
                         modalImageUrl ? "" : "hidden"
                       }`}
                     >
@@ -456,7 +456,7 @@ export default function NewsListing({
                     </div>
                   </>
                 )}
-                {!modalLoading && !modalItem && <div className="text-slate-400">Новость не найдена.</div>}
+                {!modalLoading && !modalItem && <div className="text-fg-muted">Новость не найдена.</div>}
               </div>
             </div>
           </div>

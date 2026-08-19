@@ -59,7 +59,7 @@ export default function FilesTable({ section, defaultFilterKey = "" }: FilesTabl
       border: "border-l-blue-500/50",
       glow: "bg-blue-500/20",
       gradient: "from-blue-600 to-blue-800",
-      hover: "group-hover:text-blue-400",
+      hover: "group-hover:text-accent-text",
     },
     amber: {
       border: "border-l-amber-500/50",
@@ -75,9 +75,9 @@ export default function FilesTable({ section, defaultFilterKey = "" }: FilesTabl
     },
     slate: {
       border: "border-l-slate-500/50",
-      glow: "bg-slate-500/20",
-      gradient: "from-slate-600 to-slate-800",
-      hover: "group-hover:text-slate-400",
+      glow: "bg-fg-subtle/20",
+      gradient: "from-fg-subtle to-fg-subtle",
+      hover: "group-hover:text-fg-muted",
     },
   } as const;
 
@@ -86,10 +86,10 @@ export default function FilesTable({ section, defaultFilterKey = "" }: FilesTabl
       {section.title && (
         <div className="flex items-center justify-between mb-8">
           <h3 className="text-xl font-bold flex items-center gap-2">
-            <span className="material-symbols-outlined text-primary">folder_open</span>
+            <span className="material-symbols-outlined text-accent-text">folder_open</span>
             <span data-doc-docs-title>{section.title}</span>
           </h3>
-          <span className="text-slate-400 text-sm" data-doc-docs-count>
+          <span className="text-fg-muted text-sm" data-doc-docs-count>
             Найдено: {filtered.length} файлов
           </span>
         </div>
@@ -97,13 +97,13 @@ export default function FilesTable({ section, defaultFilterKey = "" }: FilesTabl
 
       <div className="flex flex-col md:flex-row gap-4 mb-6">
         <input
-          className="w-full md:w-1/2 bg-white dark:bg-slate-800/20 border border-slate-200 dark:border-slate-800 rounded-xl h-12 px-4 text-slate-900 dark:text-white placeholder:text-slate-400 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all"
+          className="w-full md:w-1/2 bg-surface dark:bg-surface-2/20 border border-line dark:border-line rounded-xl h-12 px-4 text-fg dark:text-fg placeholder:text-fg-muted focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all"
           placeholder="Поиск по документам"
           value={search}
           onChange={(e) => setSearch(e.target.value)}
         />
         <select
-          className="w-full md:w-1/3 bg-white dark:bg-slate-800/20 border border-slate-200 dark:border-slate-800 rounded-xl h-12 px-4 text-slate-900 dark:text-white focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all"
+          className="w-full md:w-1/3 bg-surface dark:bg-surface-2/20 border border-line dark:border-line rounded-xl h-12 px-4 text-fg dark:text-fg focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all"
           value={filterKey}
           onChange={(e) => setFilterKey(e.target.value)}
         >
@@ -124,7 +124,7 @@ export default function FilesTable({ section, defaultFilterKey = "" }: FilesTabl
           return (
             <div
               key={`${file.name || "file"}-${idx}`}
-              className={`group flex items-center justify-between p-5 glass-effect rounded-2xl hover:bg-white/10 transition-all border-l-4 ${palette.border}`}
+              className={`group flex items-center justify-between p-5 glass-effect rounded-2xl hover:bg-fg/10 transition-all border-l-4 ${palette.border}`}
               role="button"
               tabIndex={0}
               onClick={() => openPreview(file)}
@@ -138,23 +138,23 @@ export default function FilesTable({ section, defaultFilterKey = "" }: FilesTabl
                     className={`absolute inset-0 ${palette.glow} blur-xl opacity-0 group-hover:opacity-100 transition-opacity`}
                   ></div>
                   <div className={`relative bg-gradient-to-br ${palette.gradient} p-3 rounded-lg shadow-2xl icon-3d`}>
-                    <span className="material-symbols-outlined text-white text-2xl fill-1">{meta.icon}</span>
+                    <span className="material-symbols-outlined text-fg text-2xl fill-1">{meta.icon}</span>
                   </div>
                 </div>
                 <div>
                   <h5
-                    className={`text-[15px] font-bold text-white mb-1 ${palette.hover} transition-colors`}
+                    className={`text-[15px] font-bold text-fg mb-1 ${palette.hover} transition-colors`}
                   >
                     {file.name || "Документ"}
                   </h5>
-                  <p className="text-[11px] text-slate-500 uppercase tracking-widest font-bold">
+                  <p className="text-[11px] text-fg-subtle uppercase tracking-widest font-bold">
                     {file.fileType || "DOC"}{file.size ? ` • ${file.size}` : ""}
                   </p>
-                  {file.description && <p className="text-xs text-slate-400 mt-2">{file.description}</p>}
+                  {file.description && <p className="text-xs text-fg-muted mt-2">{file.description}</p>}
                 </div>
               </div>
               <button
-                className="size-10 flex items-center justify-center bg-white/5 border border-white/10 text-white rounded-full hover:bg-primary hover:border-primary transition-all shadow-lg"
+                className="size-10 flex items-center justify-center bg-fg/5 border border-fg/10 text-on-primary rounded-full hover:bg-primary hover:border-primary transition-all shadow-lg"
                 type="button"
                 onClick={(e) => {
                   e.stopPropagation();
@@ -177,13 +177,13 @@ export default function FilesTable({ section, defaultFilterKey = "" }: FilesTabl
           ></div>
           <div className="relative mx-auto flex h-full w-full max-w-[1100px] items-center justify-center p-6">
             <div
-              className="relative w-full overflow-hidden rounded-2xl border border-white/10 bg-[#0a0f18] shadow-2xl"
+              className="relative w-full overflow-hidden rounded-2xl border border-fg/10 bg-bg shadow-2xl"
               style={{ maxHeight: "90vh", display: "flex", flexDirection: "column" }}
             >
-              <div className="flex items-center justify-between border-b border-white/10 px-6 py-4">
-                <div className="text-sm font-bold text-white">{activeFile.name || "Документ"}</div>
+              <div className="flex items-center justify-between border-b border-fg/10 px-6 py-4">
+                <div className="text-sm font-bold text-fg">{activeFile.name || "Документ"}</div>
                 <button
-                  className="flex h-10 w-10 items-center justify-center rounded-lg hover:bg-white/10 transition-colors"
+                  className="flex h-10 w-10 items-center justify-center rounded-lg hover:bg-fg/10 transition-colors"
                   type="button"
                   onClick={() => setActiveFile(null)}
                   aria-label="Закрыть"
@@ -192,7 +192,7 @@ export default function FilesTable({ section, defaultFilterKey = "" }: FilesTabl
                 </button>
               </div>
               <div className="p-6 space-y-4" style={{ overflow: "auto", flex: "1 1 auto", minHeight: 0 }}>
-                <div className="aspect-[16/9] rounded-xl bg-white/5 border border-white/10 overflow-hidden">
+                <div className="aspect-[16/9] rounded-xl bg-fg/5 border border-fg/10 overflow-hidden">
                   {activeFile.url ? (
                     <iframe
                       title={activeFile.name || "Документ"}
@@ -200,14 +200,14 @@ export default function FilesTable({ section, defaultFilterKey = "" }: FilesTabl
                       className="w-full h-full"
                     />
                   ) : (
-                    <div className="h-full w-full flex items-center justify-center text-slate-400">
+                    <div className="h-full w-full flex items-center justify-center text-fg-muted">
                       Просмотр недоступен
                     </div>
                   )}
                 </div>
                 {activeFile.url && (
                   <a
-                    className="inline-flex items-center gap-2 text-primary font-bold text-sm"
+                    className="inline-flex items-center gap-2 text-accent-text font-bold text-sm"
                     href={activeFile.url}
                     target="_blank"
                     rel="noreferrer"

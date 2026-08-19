@@ -29,8 +29,8 @@ export default function HomeHero({ hero }: HomeHeroProps) {
         <div className="absolute top-1/4 right-0 w-[800px] h-[1px] bg-gradient-to-r from-transparent via-primary to-transparent opacity-40 rotate-12"></div>
         <div className="absolute top-1/3 right-10 w-[600px] h-[1px] bg-gradient-to-r from-transparent via-accent-red to-transparent opacity-30 -rotate-6"></div>
         <div className="absolute bottom-1/4 left-0 w-[1000px] h-[2px] bg-gradient-to-r from-primary/20 via-primary to-transparent opacity-20 rotate-[-15deg]"></div>
-        <div className="absolute top-1/2 right-[10%] w-96 h-96 bg-white/5 backdrop-blur-3xl rounded-full border border-white/10 -translate-y-1/2"></div>
-        <div className="absolute top-1/2 right-[5%] w-64 h-64 bg-primary/10 backdrop-blur-2xl rounded-2xl border border-white/5 rotate-45 -translate-y-1/2"></div>
+        <div className="absolute top-1/2 right-[10%] w-96 h-96 bg-fg/5 backdrop-blur-3xl rounded-full border border-fg/10 -translate-y-1/2"></div>
+        <div className="absolute top-1/2 right-[5%] w-64 h-64 bg-primary/10 backdrop-blur-2xl rounded-2xl border border-fg/5 rotate-45 -translate-y-1/2"></div>
         <div className="absolute inset-0 pointer-events-none">
           <div className="frost-particle absolute top-10 right-20 w-4 h-4 opacity-40"></div>
           <div className="frost-particle absolute top-40 right-40 w-2 h-2 opacity-30"></div>
@@ -42,14 +42,14 @@ export default function HomeHero({ hero }: HomeHeroProps) {
       <div className="max-w-7xl mx-auto px-6 relative z-10 pt-20">
         <div className="max-w-5xl">
           {hero.badgeText && (
-            <div className="inline-flex items-center gap-3 px-4 py-1.5 rounded-full bg-white/5 border border-white/10 text-white/80 text-xs font-bold uppercase tracking-[0.2em] mb-10">
+            <div className="inline-flex items-center gap-3 px-4 py-1.5 rounded-full bg-fg/5 border border-fg/10 text-fg-muted text-xs font-bold uppercase tracking-[0.2em] mb-10">
               <span className="w-2 h-2 rounded-full bg-accent-red animate-pulse"></span>
               {hero.badgeText}
             </div>
           )}
           {hero.title && (
             <h1
-              className="text-6xl md:text-8xl lg:text-9xl mts-bold leading-[0.9] text-white mb-10"
+              className="text-6xl md:text-8xl lg:text-9xl mts-bold leading-[0.9] text-fg mb-10"
               data-home-hero-title
               {...(hasHtml(titleHtml) ? { dangerouslySetInnerHTML: { __html: titleHtml } } : {})}
             >
@@ -58,7 +58,7 @@ export default function HomeHero({ hero }: HomeHeroProps) {
           )}
           {hero.subtitle && (
             <p
-              className="text-xl md:text-2xl text-white/60 max-w-2xl mb-14 leading-relaxed font-medium"
+              className="text-xl md:text-2xl text-fg-subtle max-w-2xl mb-14 leading-relaxed font-medium"
               data-home-hero-subtitle
               {...(hasHtml(subtitleHtml) ? { dangerouslySetInnerHTML: { __html: subtitleHtml } } : {})}
             >
@@ -68,13 +68,13 @@ export default function HomeHero({ hero }: HomeHeroProps) {
         </div>
       </div>
       {slaItems.length > 0 && (
-        <div className="absolute bottom-0 left-0 w-full border-t border-white/10 bg-white/5 backdrop-blur-md hidden lg:block">
+        <div className="absolute bottom-0 left-0 w-full border-t border-fg/10 bg-fg/5 backdrop-blur-md hidden lg:block">
           <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 divide-x divide-white/10">
             {slaItems.map((item: any, idx: number) => (
               <div key={`${item.label || "sla"}-${idx}`} className="py-10 px-8">
                 {item.value && <div className="text-3xl mts-bold mb-1">{item.value}</div>}
                 {item.label && (
-                  <div className="text-white/40 text-[10px] uppercase font-bold tracking-widest">
+                  <div className="text-fg-subtle text-[10px] uppercase font-bold tracking-widest">
                     {item.label}
                   </div>
                 )}

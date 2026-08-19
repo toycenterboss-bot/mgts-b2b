@@ -1,0 +1,546 @@
+{
+  "measuredAt": "2026-08-19T09:50:10.733Z",
+  "site": "http://localhost:3000",
+  "viewport": {
+    "width": 1366,
+    "height": 900
+  },
+  "theme": "light",
+  "pages": {
+    "requested": 100,
+    "opened": 100,
+    "failed": 0
+  },
+  "contrastPairsBelowAA": 16,
+  "contrastNodesBelowAA": 6717,
+  "contrastWorst": [
+    {
+      "key": "rgb(255, 255, 255) / rgb(255, 255, 255) @16px",
+      "n": 1,
+      "ratio": 1,
+      "need": 4.5,
+      "sample": "Адреса объектов для размещения оборудования",
+      "tag": "h2",
+      "pages": 1
+    },
+    {
+      "key": "rgb(255, 255, 255) / rgb(255, 255, 255) @30px large",
+      "n": 1,
+      "ratio": 1,
+      "need": 3,
+      "sample": "Открытые вакансии",
+      "tag": "h2",
+      "pages": 1
+    },
+    {
+      "key": "rgb(255, 255, 255) / rgb(255, 255, 255) @14px",
+      "n": 1,
+      "ratio": 1,
+      "need": 4.5,
+      "sample": "1",
+      "tag": "button",
+      "pages": 1
+    },
+    {
+      "key": "rgb(255, 255, 255) / rgb(245, 247, 248) @30px large",
+      "n": 15,
+      "ratio": 1.07,
+      "need": 3,
+      "sample": "ЖК Серебряный фонтан",
+      "tag": "h3",
+      "pages": 1
+    },
+    {
+      "key": "rgb(51, 65, 85) / rgb(43, 54, 65) @12px",
+      "n": 1,
+      "ratio": 1.19,
+      "need": 4.5,
+      "sample": "PDF",
+      "tag": "p",
+      "pages": 1
+    },
+    {
+      "key": "rgb(51, 65, 85) / rgb(43, 54, 65) @24px large",
+      "n": 1,
+      "ratio": 1.19,
+      "need": 3,
+      "sample": "download",
+      "tag": "span",
+      "pages": 1
+    },
+    {
+      "key": "rgb(71, 85, 105) / rgb(0, 102, 204) @18px",
+      "n": 3,
+      "ratio": 1.36,
+      "need": 4.5,
+      "sample": "Наши технические специалисты готовы ответить на любые вопрос",
+      "tag": "p",
+      "pages": 3
+    },
+    {
+      "key": "rgb(0, 242, 255) / rgb(255, 255, 255) @64px large",
+      "n": 140,
+      "ratio": 1.39,
+      "need": 3,
+      "sample": "hub",
+      "tag": "span",
+      "pages": 43
+    },
+    {
+      "key": "rgb(15, 23, 42) / rgb(43, 54, 65) @14px",
+      "n": 1,
+      "ratio": 1.45,
+      "need": 4.5,
+      "sample": "МГТС. Решение для умных ЖК PDF, 3.8 МБ",
+      "tag": "h5",
+      "pages": 1
+    },
+    {
+      "key": "rgb(96, 165, 250) / rgb(245, 247, 248) @14px",
+      "n": 8,
+      "ratio": 2.37,
+      "need": 4.5,
+      "sample": "Оплатить сервисы МГТС можно через электронные терминалы и ба",
+      "tag": "a",
+      "pages": 4
+    },
+    {
+      "key": "rgb(156, 163, 175) / rgb(255, 255, 255) @12px",
+      "n": 6500,
+      "ratio": 2.54,
+      "need": 4.5,
+      "sample": "Контакты",
+      "tag": "a",
+      "pages": 100
+    },
+    {
+      "key": "rgb(15, 23, 42) / rgb(0, 102, 204) @16px",
+      "n": 32,
+      "ratio": 3.21,
+      "need": 4.5,
+      "sample": "Отправить заявку",
+      "tag": "span",
+      "pages": 32
+    },
+    {
+      "key": "rgb(15, 23, 42) / rgb(0, 102, 204) @18px",
+      "n": 1,
+      "ratio": 3.21,
+      "need": 4.5,
+      "sample": "Отправить",
+      "tag": "span",
+      "pages": 1
+    },
+    {
+      "key": "rgb(0, 102, 204) / rgb(11, 14, 20) @14px",
+      "n": 1,
+      "ratio": 3.47,
+      "need": 4.5,
+      "sample": "Наши фундаменты",
+      "tag": "h3",
+      "pages": 1
+    },
+    {
+      "key": "rgb(100, 116, 139) / rgb(245, 247, 248) @14px",
+      "n": 4,
+      "ratio": 4.43,
+      "need": 4.5,
+      "sample": "Контактная информация для операторов связи, желающих подключ",
+      "tag": "p",
+      "pages": 4
+    }
+  ],
+  "contrastNodesChecked": 14506,
+  "contrastNodesSkipped": 1463,
+  "smallTargetsUnique": 206,
+  "smallTargetsTop": [
+    [
+      "a 71×16 О компании",
+      100
+    ],
+    [
+      "a 50×16 Новости",
+      100
+    ],
+    [
+      "a 58×16 Контакты",
+      100
+    ],
+    [
+      "a 49×16 Карьера",
+      100
+    ],
+    [
+      "a 184×16 Недискриминационный доступ",
+      100
+    ],
+    [
+      "a 36×16 AI‑чат",
+      100
+    ],
+    [
+      "a 100×16 +7 495 700-70-70",
+      100
+    ],
+    [
+      "button 98×30 Тёмная тема",
+      100
+    ],
+    [
+      "input 256×36 ",
+      100
+    ],
+    [
+      "a 160×40 Стать клиентом",
+      100
+    ],
+    [
+      "a 82×24 homeГлавная",
+      100
+    ],
+    [
+      "a 40×40 public",
+      100
+    ],
+    [
+      "a 40×40 rss_feed",
+      100
+    ],
+    [
+      "a 40×40 video_library",
+      100
+    ],
+    [
+      "a 260×32 Политика обработки персональных данных",
+      100
+    ]
+  ],
+  "pagesWithoutFocusableNav": [],
+  "pagesWithoutH1": [
+    "affiliated_persons",
+    "ai-chat",
+    "business_equipment_setup",
+    "contact",
+    "emission",
+    "essential_facts",
+    "partners_ramochnie_dogovori",
+    "reports",
+    "search",
+    "sitemap",
+    "stocks_reports",
+    "tariffs",
+    "terms"
+  ],
+  "pagesWithMultipleH1": [
+    "scenario_demo",
+    "services/scenario-connecting-object",
+    "services/scenario-connectivity-data",
+    "services/scenario-infrastructure-360",
+    "services/scenario-network-ops",
+    "services/scenario-safe-object",
+    "services/scenario-video-access"
+  ],
+  "imagesWithoutAlt": 0,
+  "pagesWithHorizontalOverflow": 64,
+  "overflowWorst": [
+    {
+      "slug": "about_mgts",
+      "px": 100,
+      "culprits": [
+        {
+          "tag": "div",
+          "cls": "fixed top-0 right-0 w-[500px] h-[500px] glow-leak ",
+          "right": 1616
+        },
+        {
+          "tag": "div",
+          "cls": "light-leak light-leak-2 bottom-[-100px] right-[-10",
+          "right": 1466
+        },
+        {
+          "tag": "button",
+          "cls": "flex-1 min-w-[160px] py-4 px-2 border-b-2 text-cen",
+          "right": 1406
+        }
+      ]
+    },
+    {
+      "slug": "about_registrar",
+      "px": 100,
+      "culprits": [
+        {
+          "tag": "div",
+          "cls": "fixed top-0 right-0 w-[500px] h-[500px] glow-leak ",
+          "right": 1616
+        },
+        {
+          "tag": "div",
+          "cls": "light-leak light-leak-2 bottom-[-100px] right-[-10",
+          "right": 1466
+        }
+      ]
+    },
+    {
+      "slug": "access_control_systems",
+      "px": 100,
+      "culprits": [
+        {
+          "tag": "div",
+          "cls": "fixed top-0 right-0 w-[500px] h-[500px] glow-leak ",
+          "right": 1616
+        },
+        {
+          "tag": "div",
+          "cls": "absolute bottom-[-10%] right-[-10%] w-[30%] h-[30%",
+          "right": 1503
+        },
+        {
+          "tag": "div",
+          "cls": "light-leak light-leak-2 bottom-[-100px] right-[-10",
+          "right": 1466
+        }
+      ]
+    },
+    {
+      "slug": "access_internet",
+      "px": 100,
+      "culprits": [
+        {
+          "tag": "div",
+          "cls": "light-leak bottom-[-100px] right-[-100px]",
+          "right": 1466
+        }
+      ]
+    },
+    {
+      "slug": "accommodation_at_sites",
+      "px": 100,
+      "culprits": [
+        {
+          "tag": "div",
+          "cls": "fixed top-0 right-0 w-[500px] h-[500px] glow-leak ",
+          "right": 1616
+        },
+        {
+          "tag": "div",
+          "cls": "light-leak light-leak-2 bottom-[-100px] right-[-10",
+          "right": 1466
+        }
+      ]
+    },
+    {
+      "slug": "automated_control_systems",
+      "px": 100,
+      "culprits": [
+        {
+          "tag": "div",
+          "cls": "fixed top-0 right-0 w-[500px] h-[500px] glow-leak ",
+          "right": 1616
+        },
+        {
+          "tag": "div",
+          "cls": "absolute bottom-[-10%] right-[-10%] w-[30%] h-[30%",
+          "right": 1503
+        },
+        {
+          "tag": "div",
+          "cls": "light-leak light-leak-2 bottom-[-100px] right-[-10",
+          "right": 1466
+        }
+      ]
+    },
+    {
+      "slug": "automated_system_monitoring_accounting",
+      "px": 100,
+      "culprits": [
+        {
+          "tag": "div",
+          "cls": "fixed top-0 right-0 w-[500px] h-[500px] glow-leak ",
+          "right": 1616
+        },
+        {
+          "tag": "div",
+          "cls": "absolute bottom-[-10%] right-[-10%] w-[30%] h-[30%",
+          "right": 1503
+        },
+        {
+          "tag": "div",
+          "cls": "light-leak light-leak-2 bottom-[-100px] right-[-10",
+          "right": 1466
+        }
+      ]
+    },
+    {
+      "slug": "avr_ppr",
+      "px": 100,
+      "culprits": [
+        {
+          "tag": "div",
+          "cls": "fixed top-0 right-0 w-[500px] h-[500px] glow-leak ",
+          "right": 1616
+        },
+        {
+          "tag": "div",
+          "cls": "light-leak light-leak-2 bottom-[-100px] right-[-10",
+          "right": 1466
+        }
+      ]
+    },
+    {
+      "slug": "business_equipment_setup",
+      "px": 100,
+      "culprits": [
+        {
+          "tag": "div",
+          "cls": "light-leak bottom-[-100px] right-[-100px]",
+          "right": 1466
+        }
+      ]
+    },
+    {
+      "slug": "business_payment_methods",
+      "px": 100,
+      "culprits": [
+        {
+          "tag": "div",
+          "cls": "absolute bottom-[-10%] right-[-10%] w-[30%] h-[30%",
+          "right": 1503
+        },
+        {
+          "tag": "div",
+          "cls": "light-leak bottom-[-100px] right-[-100px]",
+          "right": 1466
+        }
+      ]
+    }
+  ],
+  "templateCopyBlocks": 17,
+  "templateCopyPages": 4,
+  "templateCopySamples": [
+    "Страница услуги телефонии для бизнеса",
+    "Страница услуги мобильной связи для бизнеса",
+    "Страница услуги виртуальной АТС",
+    "Страница услуги подключения объектов недвижимости к сетям связи",
+    "Страница услуги компенсации убытков при выносе сооружений связи",
+    "Страница услуги по присоединению к сети МГТС и пропуску трафика",
+    "Страница услуги передачи данных по цифровым каналам",
+    "Страница услуги присоединения и пропуска трафика для операторов связи"
+  ],
+  "iconSlots": 7631,
+  "iconFromCms": 7,
+  "iconFallback": 7624,
+  "iconGlyphTop": [
+    [
+      "chevron_right",
+      1442
+    ],
+    [
+      "bolt",
+      1001
+    ],
+    [
+      "hub",
+      519
+    ],
+    [
+      "cell_tower",
+      500
+    ],
+    [
+      "videocam",
+      304
+    ],
+    [
+      "location_city",
+      300
+    ],
+    [
+      "description",
+      279
+    ],
+    [
+      "lan",
+      208
+    ],
+    [
+      "swap_horiz",
+      200
+    ],
+    [
+      "sync_alt",
+      200
+    ],
+    [
+      "download",
+      142
+    ],
+    [
+      "search",
+      119
+    ]
+  ],
+  "consoleErrors": 28,
+  "consoleErrorPages": 28,
+  "consoleErrorSamples": [
+    "pageerror: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed ",
+    "A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client"
+  ],
+  "langAttr": [
+    "ru"
+  ],
+  "important": 196,
+  "importantTop": [
+    [
+      "src/app/light-theme.css",
+      181
+    ],
+    [
+      "src/app/globals.css",
+      15
+    ]
+  ],
+  "importantGenerated": 10,
+  "colorLiterals": 382,
+  "colorLiteralsTop": [
+    [
+      "src/app/light-theme.css",
+      234
+    ],
+    [
+      "../design/tailwind/custom.css",
+      54
+    ],
+    [
+      "src/components/sections/SectionCards.tsx",
+      15
+    ],
+    [
+      "src/components/page/PageRenderer.tsx",
+      9
+    ],
+    [
+      "src/components/sections/HistoryTimeline.tsx",
+      8
+    ],
+    [
+      "src/components/sections/SegmentScenarioCards.tsx",
+      7
+    ],
+    [
+      "src/components/page/HomePage.tsx",
+      6
+    ],
+    [
+      "src/components/page/ScenarioPage.tsx",
+      6
+    ]
+  ],
+  "colorLiteralsGenerated": 761,
+  "typeScaleValues": 53,
+  "radiusValues": 32,
+  "shadowValues": 50,
+  "fontFamilyDeclarations": 9,
+  "focusVisibleRules": 1,
+  "filesScanned": 87,
+  "failedPages": []
+}

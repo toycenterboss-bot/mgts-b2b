@@ -37,14 +37,14 @@ export default function HomePage({ page, hero, sections = [] }: HomePageProps) {
 
   return (
     <div data-page-template={page.template || "TPL_Home"}>
-      <section className="selection:bg-primary selection:text-white" data-stitch-block="hero_section_and_cta_banner_1">
+      <section className="selection:bg-primary selection:text-on-primary" data-stitch-block="hero_section_and_cta_banner_1">
         <main className="relative">
           <HomeHero hero={hero} />
           {cooperation && <HomeCooperationCta section={cooperation} />}
         </main>
       </section>
 
-      <section className="bg-background-dark text-white min-h-screen" data-stitch-block="service_and_scenario_cards_1">
+      <section className="bg-background-dark text-fg min-h-screen" data-stitch-block="service_and_scenario_cards_1">
         <div className="layout-container flex h-full grow flex-col">
           <main className="w-full">
             <section className="max-w-[1200px] mx-auto px-4 py-20">
@@ -55,42 +55,42 @@ export default function HomePage({ page, hero, sections = [] }: HomePageProps) {
                     <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent opacity-75"></span>
                     <span className="relative inline-flex rounded-full h-2 w-2 bg-accent"></span>
                   </span>
-                  <span className="text-accent text-xs font-bold uppercase tracking-[0.1em]">Инфраструктура будущего</span>
+                  <span className="text-accent-text text-xs font-bold uppercase tracking-[0.1em]">Инфраструктура будущего</span>
                 </div>
-                <h1 className="text-white text-6xl font-black leading-tight tracking-[-0.03em] max-w-3xl">
+                <h1 className="text-fg text-6xl font-black leading-tight tracking-[-0.03em] max-w-3xl">
                   Технологии, которые <br />
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">
                     двигают ваш бизнес
                   </span>
                 </h1>
-                <p className="text-[#9aabbc] text-xl font-normal leading-relaxed max-w-2xl">
+                <p className="text-fg-muted text-xl font-normal leading-relaxed max-w-2xl">
                   Интеллектуальная экосистема сервисов: от квантово-защищенных каналов связи до облачных вычислений
                   нового поколения.
                 </p>
               </div>
               <div className="flex flex-col md:flex-row gap-6 items-center mb-20 relative z-10">
                 <div className="w-full md:flex-1">
-                  <div className="flex w-full items-stretch rounded-2xl h-16 border border-white/10 bg-white/5 backdrop-blur-md focus-within:border-primary/50 transition-all">
-                    <div className="text-[#9aabbc] flex items-center justify-center pl-6">
+                  <div className="flex w-full items-stretch rounded-2xl h-16 border border-fg/10 bg-fg/5 backdrop-blur-md focus-within:border-primary/50 transition-all">
+                    <div className="text-fg-muted flex items-center justify-center pl-6">
                       <span className="material-symbols-outlined text-2xl">search</span>
                     </div>
                     <input
-                      className="form-input flex w-full border-none bg-transparent text-white focus:outline-0 focus:ring-0 placeholder:text-[#9aabbc]/60 px-6 text-lg"
+                      className="form-input flex w-full border-none bg-transparent text-fg focus:outline-0 focus:ring-0 placeholder:text-fg-muted/60 px-6 text-lg"
                       placeholder="Найти инновационное решение..."
                     />
                   </div>
                 </div>
-                <div className="flex gap-2 p-1.5 bg-white/5 rounded-2xl border border-white/10 backdrop-blur-md overflow-x-auto w-full md:w-auto">
-                  <button className="px-6 py-3 rounded-xl bg-primary shadow-lg shadow-primary/25 text-white text-sm font-bold whitespace-nowrap">
+                <div className="flex gap-2 p-1.5 bg-fg/5 rounded-2xl border border-fg/10 backdrop-blur-md overflow-x-auto w-full md:w-auto">
+                  <button className="px-6 py-3 rounded-xl bg-primary shadow-lg shadow-primary/25 text-on-primary text-sm font-bold whitespace-nowrap">
                     Все услуги
                   </button>
-                  <button className="px-6 py-3 rounded-xl text-[#9aabbc] hover:text-white hover:bg-white/5 text-sm font-semibold transition-all whitespace-nowrap">
+                  <button className="px-6 py-3 rounded-xl text-fg-muted hover:text-fg hover:bg-fg/5 text-sm font-semibold transition-all whitespace-nowrap">
                     Инфраструктура
                   </button>
-                  <button className="px-6 py-3 rounded-xl text-[#9aabbc] hover:text-white hover:bg-white/5 text-sm font-semibold transition-all whitespace-nowrap">
+                  <button className="px-6 py-3 rounded-xl text-fg-muted hover:text-fg hover:bg-fg/5 text-sm font-semibold transition-all whitespace-nowrap">
                     Безопасность
                   </button>
-                  <button className="px-6 py-3 rounded-xl text-[#9aabbc] hover:text-white hover:bg-white/5 text-sm font-semibold transition-all whitespace-nowrap">
+                  <button className="px-6 py-3 rounded-xl text-fg-muted hover:text-fg hover:bg-fg/5 text-sm font-semibold transition-all whitespace-nowrap">
                     Облако
                   </button>
                 </div>
@@ -117,16 +117,16 @@ export default function HomePage({ page, hero, sections = [] }: HomePageProps) {
                 </div>
                 <div className="relative z-10 flex flex-col lg:flex-row items-center justify-between gap-12">
                   <div className="max-w-2xl text-center lg:text-left">
-                    <h2 className="text-white text-4xl font-black mb-4">Начните цифровую трансформацию сегодня</h2>
-                    <p className="text-white/80 text-xl">
+                    <h2 className="text-fg text-4xl font-black mb-4">Начните цифровую трансформацию сегодня</h2>
+                    <p className="text-fg-muted text-xl">
                       Наши эксперты помогут спроектировать инфраструктуру любой сложности.
                     </p>
                   </div>
                   <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
-                    <button className="px-10 py-5 bg-white text-primary font-black rounded-2xl hover:scale-105 transition-all shadow-xl shadow-black/20">
+                    <button className="px-10 py-5 bg-surface text-accent-text font-black rounded-2xl hover:scale-105 transition-all shadow-xl shadow-black/20">
                       ОСТАВИТЬ ЗАЯВКУ
                     </button>
-                    <button className="px-10 py-5 border-2 border-white/30 text-white font-black rounded-2xl hover:bg-white/10 transition-all">
+                    <button className="px-10 py-5 border-2 border-fg/30 text-fg font-black rounded-2xl hover:bg-fg/10 transition-all">
                       СВЯЗАТЬСЯ С НАМИ
                     </button>
                   </div>

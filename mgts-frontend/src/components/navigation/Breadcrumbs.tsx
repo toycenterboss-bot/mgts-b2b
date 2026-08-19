@@ -21,8 +21,8 @@ export default function Breadcrumbs({ items, className = "" }: BreadcrumbsProps)
         const href = item.href ? toPrettyRoute(item.href) : "";
         const isHome = idx === 0 && item.label === "Главная";
         const textClass = isLast
-          ? "text-primary font-bold"
-          : "text-slate-500 dark:text-slate-400 hover:text-primary transition-colors";
+          ? "text-accent-text font-bold"
+          : "text-fg-subtle dark:text-fg-muted hover:text-accent-text transition-colors";
         const content = (
           <>
             {isHome && <span className="material-symbols-outlined text-base">home</span>}
@@ -40,7 +40,7 @@ export default function Breadcrumbs({ items, className = "" }: BreadcrumbsProps)
               </a>
             )}
             {!isLast && (
-              <span className="material-symbols-outlined text-slate-400 text-sm">chevron_right</span>
+              <span className="material-symbols-outlined text-fg-muted text-sm">chevron_right</span>
             )}
           </Fragment>
         );

@@ -18,31 +18,31 @@ const renderField = (field: any, idx: number) => {
       return (
         <label key={key} className="flex flex-col gap-2">
           {label && (
-            <span className="text-white text-xl font-bold tracking-tight">
+            <span className="text-fg text-xl font-bold tracking-tight">
               {label}
               {optional}
             </span>
           )}
           <textarea
-            className="w-full bg-white/5 border border-white/10 rounded-xl p-4 text-white placeholder:text-white/20 focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all"
+            className="w-full bg-fg/5 border border-fg/10 rounded-xl p-4 text-fg placeholder:text-fg-subtle focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all"
             placeholder={placeholder}
             maxLength={field?.maxLength || undefined}
             rows={field?.rows || 4}
           />
-          {field?.description && <span className="text-white/60 text-sm">{field.description}</span>}
+          {field?.description && <span className="text-fg-subtle text-sm">{field.description}</span>}
         </label>
       );
     case "select":
       return (
         <label key={key} className="flex flex-col gap-2">
           {label && (
-            <span className="text-white text-xl font-bold tracking-tight">
+            <span className="text-fg text-xl font-bold tracking-tight">
               {label}
               {optional}
             </span>
           )}
           <select
-            className="w-full bg-white/5 border border-white/10 rounded-xl h-14 px-4 text-white focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all"
+            className="w-full bg-fg/5 border border-fg/10 rounded-xl h-14 px-4 text-fg focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all"
             defaultValue=""
           >
             <option value="" disabled>
@@ -58,31 +58,31 @@ const renderField = (field: any, idx: number) => {
               );
             })}
           </select>
-          {field?.description && <span className="text-white/60 text-sm">{field.description}</span>}
+          {field?.description && <span className="text-fg-subtle text-sm">{field.description}</span>}
         </label>
       );
     case "file":
       return (
         <label key={key} className="flex flex-col gap-2">
           {label && (
-            <span className="text-white text-xl font-bold tracking-tight">
+            <span className="text-fg text-xl font-bold tracking-tight">
               {label}
               {optional}
             </span>
           )}
           <input
-            className="w-full bg-white/5 border border-white/10 rounded-xl p-4 text-white file:text-white"
+            className="w-full bg-fg/5 border border-fg/10 rounded-xl p-4 text-fg file:text-fg"
             type="file"
             accept={field?.accept || undefined}
           />
-          {field?.description && <span className="text-white/60 text-sm">{field.description}</span>}
+          {field?.description && <span className="text-fg-subtle text-sm">{field.description}</span>}
         </label>
       );
     case "button":
       return (
-        <div key={key} className="flex flex-col md:flex-row items-center justify-between gap-6 pt-6 border-t border-white/10">
+        <div key={key} className="flex flex-col md:flex-row items-center justify-between gap-6 pt-6 border-t border-fg/10">
           <button
-            className="glow-button w-full md:w-auto flex min-w-[200px] cursor-pointer items-center justify-center rounded-xl h-14 px-10 bg-primary text-white text-lg font-bold transition-all hover:scale-[1.02] active:scale-95"
+            className="glow-button w-full md:w-auto flex min-w-[200px] cursor-pointer items-center justify-center rounded-xl h-14 px-10 bg-primary text-on-primary text-lg font-bold transition-all hover:scale-[1.02] active:scale-95"
             type="submit"
           >
             <span>{field?.text || "Отправить ответ"}</span>
@@ -94,17 +94,17 @@ const renderField = (field: any, idx: number) => {
       return (
         <label key={key} className="flex flex-col gap-2">
           {label && (
-            <span className="text-white text-xl font-bold tracking-tight">
+            <span className="text-fg text-xl font-bold tracking-tight">
               {label}
               {optional}
             </span>
           )}
           <input
-            className="w-full bg-white/5 border border-white/10 rounded-xl h-14 px-4 text-white placeholder:text-white/20 focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all"
+            className="w-full bg-fg/5 border border-fg/10 rounded-xl h-14 px-4 text-fg placeholder:text-fg-subtle focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all"
             type={field?.inputType || "text"}
             placeholder={placeholder}
           />
-          {field?.description && <span className="text-white/60 text-sm">{field.description}</span>}
+          {field?.description && <span className="text-fg-subtle text-sm">{field.description}</span>}
         </label>
       );
   }
@@ -122,7 +122,7 @@ export default async function FormSection({
 
   return (
     <section
-      className="bg-background-light dark:bg-background-dark font-display text-white min-h-screen relative overflow-x-hidden"
+      className="bg-background-light dark:bg-background-dark font-display text-fg min-h-screen relative overflow-x-hidden"
       data-stitch-block="b2b_survey_and_feedback_form"
     >
       <div className="fixed top-[-10%] left-[-10%] w-[50%] h-[50%] light-leak-1 -z-10"></div>
@@ -134,12 +134,12 @@ export default async function FormSection({
               <div className="mb-10">
                 <div className="flex min-w-72 flex-col gap-3">
                   {section.title && (
-                    <h1 className="text-4xl md:text-5xl font-black tracking-tight mb-4 bg-gradient-to-r from-slate-900 to-slate-600 dark:from-white dark:to-slate-400 bg-clip-text text-transparent">
+                    <h1 className="text-4xl md:text-5xl font-black tracking-tight mb-4 bg-gradient-to-r from-fg-subtle to-fg-subtle dark:from-fg dark:to-fg-subtle bg-clip-text text-transparent">
                       {section.title}
                     </h1>
                   )}
                   {section.subtitle && (
-                    <p className="text-slate-600 dark:text-slate-400 text-lg max-w-2xl font-light">
+                    <p className="text-fg-subtle dark:text-fg-muted text-lg max-w-2xl font-light">
                       {section.subtitle}
                     </p>
                   )}
@@ -152,7 +152,7 @@ export default async function FormSection({
                     currentSlug={currentSlug}
                     deepNavKey={deepNavKey}
                     variant="form"
-                    asideClassName="lg:col-span-3 pr-6 border-r border-white/10"
+                    asideClassName="lg:col-span-3 pr-6 border-r border-fg/10"
                   />
                 )}
                 <div className={hasLeftMenu ? "lg:col-span-9 lg:pl-6" : ""} data-form-content>
@@ -160,15 +160,15 @@ export default async function FormSection({
                     <form className="flex flex-col gap-10" action="#" method="post">
                       {elements.map((field: any, idx: number) => renderField(field, idx))}
                       {!elements.some((f: any) => f?.type === "button") && (
-                        <div className="flex flex-col md:flex-row items-center justify-between gap-6 pt-6 border-t border-white/10">
+                        <div className="flex flex-col md:flex-row items-center justify-between gap-6 pt-6 border-t border-fg/10">
                           {section.disclaimerHtml && (
                             <p
-                              className="text-white/40 text-xs max-w-sm text-center md:text-left"
+                              className="text-fg-subtle text-xs max-w-sm text-center md:text-left"
                               dangerouslySetInnerHTML={{ __html: section.disclaimerHtml }}
                             />
                           )}
                           <button
-                            className="glow-button w-full md:w-auto flex min-w-[200px] cursor-pointer items-center justify-center rounded-xl h-14 px-10 bg-primary text-white text-lg font-bold transition-all hover:scale-[1.02] active:scale-95"
+                            className="glow-button w-full md:w-auto flex min-w-[200px] cursor-pointer items-center justify-center rounded-xl h-14 px-10 bg-primary text-on-primary text-lg font-bold transition-all hover:scale-[1.02] active:scale-95"
                             type="submit"
                           >
                             <span>{section.submitText || "Отправить ответ"}</span>

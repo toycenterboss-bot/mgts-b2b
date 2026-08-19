@@ -1,0 +1,451 @@
+{
+  "measuredAt": "2026-08-19T09:58:16.893Z",
+  "site": "http://localhost:3000",
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "theme": "dark",
+  "pages": {
+    "requested": 100,
+    "opened": 100,
+    "failed": 0
+  },
+  "contrastPairsBelowAA": 1,
+  "contrastNodesBelowAA": 3,
+  "contrastWorst": [
+    {
+      "key": "rgb(157, 171, 185) / rgb(0, 102, 204) @18px",
+      "n": 3,
+      "ratio": 2.37,
+      "need": 4.5,
+      "sample": "Наши технические специалисты готовы ответить на любые вопрос",
+      "tag": "p",
+      "pages": 3
+    }
+  ],
+  "contrastNodesChecked": 10336,
+  "contrastNodesSkipped": 4363,
+  "smallTargetsUnique": 201,
+  "smallTargetsTop": [
+    [
+      "a 40×40 public",
+      100
+    ],
+    [
+      "a 40×40 rss_feed",
+      100
+    ],
+    [
+      "a 40×40 video_library",
+      100
+    ],
+    [
+      "button 26×36 download",
+      78
+    ],
+    [
+      "a 51×32 О компании",
+      55
+    ],
+    [
+      "a 45×16 Новости",
+      55
+    ],
+    [
+      "a 54×16 Контакты",
+      55
+    ],
+    [
+      "a 44×16 Карьера",
+      55
+    ],
+    [
+      "a 124×32 Недискриминационный доступ",
+      55
+    ],
+    [
+      "a 35×16 AI‑чат",
+      55
+    ],
+    [
+      "a 23×80 +7 495 700-70-70",
+      55
+    ],
+    [
+      "a 150×40 Стать клиентом",
+      55
+    ],
+    [
+      "a 75×24 homeГлавная",
+      55
+    ],
+    [
+      "a 77×32 Политика cookies",
+      55
+    ],
+    [
+      "a 147×32 Пользовательское соглашение",
+      55
+    ]
+  ],
+  "pagesWithoutFocusableNav": [],
+  "pagesWithoutH1": [
+    "affiliated_persons",
+    "ai-chat",
+    "business_equipment_setup",
+    "contact",
+    "emission",
+    "essential_facts",
+    "partners_ramochnie_dogovori",
+    "reports",
+    "search",
+    "sitemap",
+    "stocks_reports",
+    "tariffs",
+    "terms"
+  ],
+  "pagesWithMultipleH1": [
+    "scenario_demo",
+    "services/scenario-connecting-object",
+    "services/scenario-connectivity-data",
+    "services/scenario-infrastructure-360",
+    "services/scenario-network-ops",
+    "services/scenario-safe-object",
+    "services/scenario-video-access"
+  ],
+  "imagesWithoutAlt": 0,
+  "pagesWithHorizontalOverflow": 100,
+  "overflowWorst": [
+    {
+      "slug": "about_mgts",
+      "px": 306,
+      "culprits": [
+        {
+          "tag": "button",
+          "cls": "flex-1 min-w-[160px] py-4 px-2 border-b-2 text-cen",
+          "right": 1045
+        },
+        {
+          "tag": "span",
+          "cls": "text-[10px] font-bold uppercase tracking-widest bl",
+          "right": 1037
+        },
+        {
+          "tag": "span",
+          "cls": "text-sm font-bold",
+          "right": 1010
+        }
+      ]
+    },
+    {
+      "slug": "about_registrar",
+      "px": 306,
+      "culprits": [
+        {
+          "tag": "div",
+          "cls": "flex items-center gap-6",
+          "right": 696
+        },
+        {
+          "tag": "button",
+          "cls": "theme-toggle",
+          "right": 696
+        },
+        {
+          "tag": "div",
+          "cls": "fixed top-0 right-0 w-[500px] h-[500px] glow-leak ",
+          "right": 640
+        }
+      ]
+    },
+    {
+      "slug": "access_control_systems",
+      "px": 306,
+      "culprits": [
+        {
+          "tag": "div",
+          "cls": "flex items-center gap-6",
+          "right": 696
+        },
+        {
+          "tag": "button",
+          "cls": "theme-toggle",
+          "right": 696
+        },
+        {
+          "tag": "div",
+          "cls": "fixed top-0 right-0 w-[500px] h-[500px] glow-leak ",
+          "right": 640
+        }
+      ]
+    },
+    {
+      "slug": "access_internet",
+      "px": 306,
+      "culprits": [
+        {
+          "tag": "div",
+          "cls": "flex items-center gap-6",
+          "right": 696
+        },
+        {
+          "tag": "button",
+          "cls": "theme-toggle",
+          "right": 696
+        },
+        {
+          "tag": "a",
+          "cls": "hover:text-accent-text transition-colors",
+          "right": 585
+        }
+      ]
+    },
+    {
+      "slug": "accommodation_at_sites",
+      "px": 306,
+      "culprits": [
+        {
+          "tag": "div",
+          "cls": "flex items-center gap-6",
+          "right": 696
+        },
+        {
+          "tag": "button",
+          "cls": "theme-toggle",
+          "right": 696
+        },
+        {
+          "tag": "div",
+          "cls": "fixed top-0 right-0 w-[500px] h-[500px] glow-leak ",
+          "right": 640
+        }
+      ]
+    },
+    {
+      "slug": "affiliated_persons",
+      "px": 306,
+      "culprits": [
+        {
+          "tag": "div",
+          "cls": "flex items-center gap-6",
+          "right": 696
+        },
+        {
+          "tag": "button",
+          "cls": "theme-toggle",
+          "right": 696
+        },
+        {
+          "tag": "a",
+          "cls": "hover:text-accent-text transition-colors",
+          "right": 585
+        }
+      ]
+    },
+    {
+      "slug": "ai-chat",
+      "px": 306,
+      "culprits": [
+        {
+          "tag": "div",
+          "cls": "flex items-center gap-6",
+          "right": 696
+        },
+        {
+          "tag": "button",
+          "cls": "theme-toggle",
+          "right": 696
+        },
+        {
+          "tag": "a",
+          "cls": "hover:text-accent-text transition-colors",
+          "right": 585
+        }
+      ]
+    },
+    {
+      "slug": "automated_control_systems",
+      "px": 306,
+      "culprits": [
+        {
+          "tag": "div",
+          "cls": "flex items-center gap-6",
+          "right": 696
+        },
+        {
+          "tag": "button",
+          "cls": "theme-toggle",
+          "right": 696
+        },
+        {
+          "tag": "span",
+          "cls": "text-accent-text font-bold",
+          "right": 664
+        }
+      ]
+    },
+    {
+      "slug": "automated_system_monitoring_accounting",
+      "px": 306,
+      "culprits": [
+        {
+          "tag": "div",
+          "cls": "flex items-center gap-6",
+          "right": 696
+        },
+        {
+          "tag": "button",
+          "cls": "theme-toggle",
+          "right": 696
+        },
+        {
+          "tag": "span",
+          "cls": "text-accent-text font-bold",
+          "right": 661
+        }
+      ]
+    },
+    {
+      "slug": "avr_ppr",
+      "px": 306,
+      "culprits": [
+        {
+          "tag": "div",
+          "cls": "flex items-center gap-6",
+          "right": 696
+        },
+        {
+          "tag": "button",
+          "cls": "theme-toggle",
+          "right": 696
+        },
+        {
+          "tag": "div",
+          "cls": "fixed top-0 right-0 w-[500px] h-[500px] glow-leak ",
+          "right": 640
+        }
+      ]
+    }
+  ],
+  "templateCopyBlocks": 17,
+  "templateCopyPages": 4,
+  "templateCopySamples": [
+    "Страница услуги телефонии для бизнеса",
+    "Страница услуги мобильной связи для бизнеса",
+    "Страница услуги виртуальной АТС",
+    "Страница услуги подключения объектов недвижимости к сетям связи",
+    "Страница услуги компенсации убытков при выносе сооружений связи",
+    "Страница услуги по присоединению к сети МГТС и пропуску трафика",
+    "Страница услуги передачи данных по цифровым каналам",
+    "Страница услуги присоединения и пропуска трафика для операторов связи"
+  ],
+  "iconSlots": 7631,
+  "iconFromCms": 7,
+  "iconFallback": 7624,
+  "iconGlyphTop": [
+    [
+      "chevron_right",
+      1442
+    ],
+    [
+      "bolt",
+      1001
+    ],
+    [
+      "hub",
+      519
+    ],
+    [
+      "cell_tower",
+      500
+    ],
+    [
+      "videocam",
+      304
+    ],
+    [
+      "location_city",
+      300
+    ],
+    [
+      "description",
+      279
+    ],
+    [
+      "lan",
+      208
+    ],
+    [
+      "swap_horiz",
+      200
+    ],
+    [
+      "sync_alt",
+      200
+    ],
+    [
+      "download",
+      142
+    ],
+    [
+      "search",
+      119
+    ]
+  ],
+  "consoleErrors": 31,
+  "consoleErrorPages": 31,
+  "consoleErrorSamples": [
+    "pageerror: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed ",
+    "A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client"
+  ],
+  "langAttr": [
+    "ru"
+  ],
+  "important": 0,
+  "importantTop": [],
+  "importantGenerated": 10,
+  "colorLiterals": 114,
+  "colorLiteralsTop": [
+    [
+      "../design/tailwind/custom.css",
+      54
+    ],
+    [
+      "src/components/sections/SectionCards.tsx",
+      11
+    ],
+    [
+      "src/components/page/PageRenderer.tsx",
+      9
+    ],
+    [
+      "src/components/sections/HistoryTimeline.tsx",
+      8
+    ],
+    [
+      "src/components/sections/HomeServiceCards.tsx",
+      3
+    ],
+    [
+      "src/components/hero/Hero.tsx",
+      2
+    ],
+    [
+      "src/components/hero/HomeHero.tsx",
+      2
+    ],
+    [
+      "src/components/hero/ScenarioHero.tsx",
+      2
+    ]
+  ],
+  "colorLiteralsGenerated": 825,
+  "typeScaleValues": 52,
+  "radiusValues": 33,
+  "shadowValues": 43,
+  "fontFamilyDeclarations": 9,
+  "focusVisibleRules": 2,
+  "filesScanned": 87,
+  "failedPages": []
+}

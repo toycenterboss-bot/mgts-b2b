@@ -12,7 +12,7 @@ export default function HomeIndustryScenarios({ section }: HomeIndustryScenarios
   return (
     <section className="mt-32" data-home-industry>
       {section.title && (
-        <h2 className="text-white text-3xl font-bold tracking-tight mb-12" data-home-industry-title>
+        <h2 className="text-fg text-3xl font-bold tracking-tight mb-12" data-home-industry-title>
           {section.title}
         </h2>
       )}
@@ -26,14 +26,14 @@ export default function HomeIndustryScenarios({ section }: HomeIndustryScenarios
             data-home-industry-card
           >
             <div className="light-sweep"></div>
-            <div className="absolute inset-0 bg-gradient-to-t from-[#0f1923] via-transparent to-transparent z-10"></div>
+            <div className="absolute inset-0 bg-gradient-to-t from-[rgb(var(--c-bg))] via-transparent to-transparent z-10"></div>
             <div className="p-10 h-full flex flex-col relative z-20">
               <div className="icon-3d mb-auto">
                 <div
                   className={`size-16 rounded-2xl ${
                     item.tagTone === "primary"
-                      ? "bg-accent/10 border-accent/20 text-accent"
-                      : "bg-primary/10 border-primary/20 text-primary"
+                      ? "bg-accent/10 border-accent/20 text-accent-text"
+                      : "bg-primary/10 border-primary/20 text-accent-text"
                   } border flex items-center justify-center backdrop-blur-md`}
                   data-home-industry-card-icon-wrap
                 >
@@ -49,7 +49,7 @@ export default function HomeIndustryScenarios({ section }: HomeIndustryScenarios
                 {item.tag && (
                   <span
                     className={`text-[10px] font-black uppercase tracking-[0.2em] mb-2 block ${
-                      item.tagTone === "accent" ? "text-accent" : "text-primary"
+                      item.tagTone === "accent" ? "text-accent-text" : "text-accent-text"
                     }`}
                     data-home-industry-card-tag
                   >
@@ -57,13 +57,13 @@ export default function HomeIndustryScenarios({ section }: HomeIndustryScenarios
                   </span>
                 )}
                 {item.title && (
-                  <h3 className="text-white text-2xl font-bold mb-4" data-home-industry-card-title>
+                  <h3 className="text-fg text-2xl font-bold mb-4" data-home-industry-card-title>
                     {item.title}
                   </h3>
                 )}
                 {item.description && (
                   <p
-                    className="text-[#9aabbc] text-sm leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                    className="text-fg-muted text-sm leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-500"
                     data-home-industry-card-desc
                   >
                     {item.description}
@@ -71,7 +71,7 @@ export default function HomeIndustryScenarios({ section }: HomeIndustryScenarios
                 )}
                 {item.buttonText && (
                   <a
-                    className="mt-6 inline-flex px-6 py-3 bg-white text-black text-xs font-black rounded-xl opacity-0 group-hover:opacity-100 transition-all duration-500 translate-y-2 group-hover:translate-y-0"
+                    className="mt-6 inline-flex px-6 py-3 bg-surface text-fg text-xs font-black rounded-xl opacity-0 group-hover:opacity-100 transition-all duration-500 translate-y-2 group-hover:translate-y-0"
                     href={normalizeCmsHref(item.buttonHref || "#")}
                     data-home-industry-card-button
                   >

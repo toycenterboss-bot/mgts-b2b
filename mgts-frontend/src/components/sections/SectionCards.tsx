@@ -61,10 +61,10 @@ export default function SectionCards({ section, compactSpacing = false }: Sectio
         hideShell
           ? "section-cards w-full border-0 bg-transparent p-0 rounded-none"
           : variant === "service-cards"
-            ? `section-cards w-full rounded-[2rem] border border-white/10 dark:border-white/20 bg-white/5 p-8 md:p-10${
+            ? `section-cards w-full rounded-[2rem] border border-fg/10 dark:border-fg/20 bg-fg/5 p-8 md:p-10${
                 compactSpacing ? " -mb-24" : ""
               }`
-            : `section-cards w-full rounded-2xl border border-white/10 dark:border-white/20 bg-white/5 p-6${
+            : `section-cards w-full rounded-2xl border border-fg/10 dark:border-fg/20 bg-fg/5 p-6${
                 shouldForceInfoCards ? " contact-details" : ""
               }${compactSpacing ? " -mb-24" : ""}`
       }
@@ -73,9 +73,9 @@ export default function SectionCards({ section, compactSpacing = false }: Sectio
         <h2
           className={
             variant === "service-cards"
-              ? "text-slate-900 dark:text-white text-3xl font-bold tracking-tight mb-8"
+              ? "text-fg dark:text-fg text-3xl font-bold tracking-tight mb-8"
               : variant === "segment-cards"
-                ? "text-white text-xl font-bold tracking-tight mb-4"
+                ? "text-fg text-xl font-bold tracking-tight mb-4"
                 : "text-xl font-black tracking-tight mb-4"
           }
         >
@@ -86,8 +86,8 @@ export default function SectionCards({ section, compactSpacing = false }: Sectio
         <p
           className={
             variant === "service-cards"
-              ? "text-slate-600 dark:text-slate-400 text-base leading-relaxed mb-8"
-              : "text-sm text-white/70 leading-relaxed mb-4"
+              ? "text-fg-subtle dark:text-fg-muted text-base leading-relaxed mb-8"
+              : "text-sm text-fg-muted leading-relaxed mb-4"
           }
         >
           {section.subtitle}
@@ -166,10 +166,10 @@ export default function SectionCards({ section, compactSpacing = false }: Sectio
             : linkifyContactText(descriptionHtml).replace(/\n/g, "<br/>");
           const baseClass =
             variant === "service-cards"
-              ? "section-cards__item relative overflow-hidden rounded-3xl border border-white/10 bg-white/5 backdrop-blur-md p-8 flex flex-col min-h-[320px] group transition-all hover:border-primary/40 hover:shadow-[0_20px_40px_rgba(0,0,0,0.4),inset_0_0_30px_rgba(0,102,204,0.3)] shadow-[inset_0_0_20px_rgba(255,255,255,0.05)] hover:-translate-y-1.5 hover:scale-[1.03]"
+              ? "section-cards__item relative overflow-hidden rounded-3xl border border-fg/10 bg-fg/5 backdrop-blur-md p-8 flex flex-col min-h-[320px] group transition-all hover:border-primary/40 hover:shadow-[0_20px_40px_rgba(0,0,0,0.4),inset_0_0_30px_rgb(var(--c-primary) / 0.3)] shadow-[inset_0_0_20px_rgba(255,255,255,0.05)] hover:-translate-y-1.5 hover:scale-[1.03]"
               : variant === "segment-cards"
-                ? "section-cards__item rounded-2xl border border-white/10 bg-[#1a232e] p-5 flex flex-col gap-4 hover:bg-[#202b38] transition-colors"
-                : `section-cards__item flex flex-col gap-3 rounded-2xl border border-white/10 bg-black/20 hover:bg-black/10 transition-colors p-5${
+                ? "section-cards__item rounded-2xl border border-fg/10 bg-surface p-5 flex flex-col gap-4 hover:bg-surface-2 transition-colors"
+                : `section-cards__item flex flex-col gap-3 rounded-2xl border border-fg/10 bg-bg/20 hover:bg-bg/10 transition-colors p-5${
                     bgUrl ? " relative overflow-hidden" : ""
                   }`;
           return (
@@ -194,7 +194,7 @@ export default function SectionCards({ section, compactSpacing = false }: Sectio
                 />
               )}
               {variant === "service-cards" && (
-                <div className="pointer-events-none absolute inset-y-0 -left-[60%] w-1/2 bg-gradient-to-r from-transparent via-white/10 to-transparent skew-x-[-25deg] transition-all duration-700 group-hover:left-[120%]" />
+                <div className="pointer-events-none absolute inset-y-0 -left-[60%] w-1/2 bg-gradient-to-r from-transparent via-fg/10 to-transparent skew-x-[-25deg] transition-all duration-700 group-hover:left-[120%]" />
               )}
               {(imageUrl || variant === "service-cards") &&
                 !shouldForceInfoCards &&
@@ -202,8 +202,8 @@ export default function SectionCards({ section, compactSpacing = false }: Sectio
                   <div
                     className={
                       variant === "service-cards"
-                        ? "mb-8 relative h-16 w-16 flex items-center justify-center overflow-hidden rounded-2xl bg-white/5 border border-white/10 text-primary group-hover:scale-110 transition-transform"
-                        : "mb-4 h-36 rounded-xl overflow-hidden bg-white/5 border border-white/10"
+                        ? "mb-8 relative h-16 w-16 flex items-center justify-center overflow-hidden rounded-2xl bg-fg/5 border border-fg/10 text-accent-text group-hover:scale-110 transition-transform"
+                        : "mb-4 h-36 rounded-xl overflow-hidden bg-fg/5 border border-fg/10"
                     }
                   >
                     {variant === "service-cards" && (
@@ -225,18 +225,18 @@ export default function SectionCards({ section, compactSpacing = false }: Sectio
                       <Icon
                         name={variant === "service-cards" ? resolveServiceIcon() : card.icon || "hub"}
                         size={variant === "service-cards" ? 40 : 24}
-                        className={variant === "service-cards" ? "text-primary relative z-10" : ""}
+                        className={variant === "service-cards" ? "text-accent-text relative z-10" : ""}
                       />
                     )}
                   </div>
                 )}
               {shouldForceInfoCards && (
-                <div className="section-cards__icon flex items-center justify-center border border-white/10 text-primary">
+                <div className="section-cards__icon flex items-center justify-center border border-fg/10 text-accent-text">
                   <span className="material-symbols-outlined text-xl">{resolveContactIcon()}</span>
                 </div>
               )}
               {variant === "segment-cards" && (
-                <div className="size-10 rounded-lg bg-primary/10 flex items-center justify-center text-primary">
+                <div className="size-10 rounded-lg bg-primary/10 flex items-center justify-center text-accent-text">
                   <span className="material-symbols-outlined text-xl">hub</span>
                 </div>
               )}
@@ -245,11 +245,11 @@ export default function SectionCards({ section, compactSpacing = false }: Sectio
                   <h3
                     className={
                       variant === "service-cards"
-                        ? "text-slate-900 dark:text-white text-xl font-bold mb-3"
+                        ? "text-fg dark:text-fg text-xl font-bold mb-3"
                         : shouldForceInfoCards
-                          ? "section-cards__title text-sm font-bold text-white"
+                          ? "section-cards__title text-sm font-bold text-fg"
                           : variant === "segment-cards"
-                            ? "text-base font-bold text-white"
+                            ? "text-base font-bold text-fg"
                             : "text-base font-black tracking-tight"
                     }
                     style={
@@ -265,8 +265,8 @@ export default function SectionCards({ section, compactSpacing = false }: Sectio
                   <p
                     className={
                       variant === "service-cards"
-                        ? "text-slate-500 dark:text-slate-300 text-sm font-semibold mb-2"
-                        : "mt-1 text-sm text-white/70 font-semibold"
+                        ? "text-fg-subtle dark:text-fg-muted text-sm font-semibold mb-2"
+                        : "mt-1 text-sm text-fg-muted font-semibold"
                     }
                     style={
                       bgUrl
@@ -280,7 +280,7 @@ export default function SectionCards({ section, compactSpacing = false }: Sectio
                 {effectiveDescription &&
                   (shouldForceInfoCards ? (
                     <div
-                      className="section-cards__description text-xs text-white/70 leading-relaxed"
+                      className="section-cards__description text-xs text-fg-muted leading-relaxed"
                       style={
                         bgUrl
                           ? { color: "rgba(255,255,255,0.82)", textShadow: "0 1px 8px rgba(0,0,0,0.8)" }
@@ -292,10 +292,10 @@ export default function SectionCards({ section, compactSpacing = false }: Sectio
                     <p
                       className={
                         variant === "service-cards"
-                          ? "text-slate-600 dark:text-[#9aabbc] text-sm leading-relaxed mb-6"
+                          ? "text-fg-subtle dark:text-fg-muted text-sm leading-relaxed mb-6"
                           : variant === "segment-cards"
-                            ? "text-xs text-[#9aabbc] leading-relaxed"
-                            : "mt-2 text-sm text-white/60 leading-relaxed"
+                            ? "text-xs text-fg-muted leading-relaxed"
+                            : "mt-2 text-sm text-fg-subtle leading-relaxed"
                       }
                       style={
                         bgUrl
@@ -310,15 +310,15 @@ export default function SectionCards({ section, compactSpacing = false }: Sectio
                   <div
                     className={
                       variant === "service-cards"
-                        ? "text-xs text-slate-500 dark:text-slate-400 leading-relaxed"
-                        : "mt-2 text-xs text-white/50 leading-relaxed"
+                        ? "text-xs text-fg-subtle dark:text-fg-muted leading-relaxed"
+                        : "mt-2 text-xs text-fg-subtle leading-relaxed"
                     }
                     dangerouslySetInnerHTML={{ __html: card.disclaimerHtml }}
                   />
                 )}
               </div>
               {variant === "segment-cards" && hasClickableLink && (
-                <span className="mt-auto text-primary text-[10px] font-bold uppercase tracking-widest flex items-center gap-1">
+                <span className="mt-auto text-accent-text text-[10px] font-bold uppercase tracking-widest flex items-center gap-1">
                   Подробнее <span className="material-symbols-outlined text-xs">chevron_right</span>
                 </span>
               )}

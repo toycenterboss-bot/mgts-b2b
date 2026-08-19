@@ -16,13 +16,13 @@ export default function SegmentServicesGrid({ section }: SegmentServicesGridProp
     <section className="mb-16">
       <div className="flex items-center justify-between mb-8">
         {section.title && (
-          <h2 className="text-white text-2xl font-bold tracking-tight" data-seg-services-title>
+          <h2 className="text-fg text-2xl font-bold tracking-tight" data-seg-services-title>
             {section.title}
           </h2>
         )}
         {section.linkText && section.linkHref && (
           <a
-            className="text-primary text-sm font-bold flex items-center gap-1 hover:underline"
+            className="text-accent-text text-sm font-bold flex items-center gap-1 hover:underline"
             href={normalizeCmsHref(section.linkHref)}
           >
             {section.linkText} <span className="material-symbols-outlined text-sm">arrow_forward</span>
@@ -58,10 +58,10 @@ export default function SegmentServicesGrid({ section }: SegmentServicesGridProp
             <Tag
               key={`${card.title || "service"}-${idx}`}
               href={rawLink ? href : undefined}
-              className="bg-[#1a232e] border border-white/5 p-6 rounded-xl flex flex-col gap-4 card-hover"
+              className="bg-surface border border-fg/5 p-6 rounded-xl flex flex-col gap-4 card-hover"
               data-seg-service-card
             >
-              <div className="size-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary">
+              <div className="size-12 rounded-lg bg-primary/10 flex items-center justify-center text-accent-text">
                 {imageUrl ? (
                   <Image
                     src={imageUrl}
@@ -75,17 +75,17 @@ export default function SegmentServicesGrid({ section }: SegmentServicesGridProp
                 )}
               </div>
               {card.title && (
-                <h3 className="text-white text-lg font-bold leading-snug" data-seg-service-title>
+                <h3 className="text-fg text-lg font-bold leading-snug" data-seg-service-title>
                   {card.title}
                 </h3>
               )}
               {description && (
-                <p className="text-[#9aabbc] text-sm leading-relaxed" data-seg-service-desc>
+                <p className="text-fg-muted text-sm leading-relaxed" data-seg-service-desc>
                   {description}
                 </p>
               )}
               {showCta && (
-                <div className="mt-auto text-primary text-xs font-bold uppercase tracking-widest flex items-center gap-1">
+                <div className="mt-auto text-accent-text text-xs font-bold uppercase tracking-widest flex items-center gap-1">
                   {ctaText} <span className="material-symbols-outlined text-xs">chevron_right</span>
                 </div>
               )}

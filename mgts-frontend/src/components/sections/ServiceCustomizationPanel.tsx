@@ -60,7 +60,7 @@ export default function ServiceCustomizationPanel({ section }: ServiceCustomizat
 
   return (
     <section
-      className="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100"
+      className="bg-background-light dark:bg-background-dark font-display text-fg dark:text-fg"
       data-stitch-block="service_customization_panel"
     >
       <div className="max-w-5xl mx-auto px-6 lg:px-10 py-12" ref={rootRef}>
@@ -68,17 +68,17 @@ export default function ServiceCustomizationPanel({ section }: ServiceCustomizat
           <h3 className="text-xl font-bold mb-6" data-service-customization-title>
             {section?.title || "Кастомизация"}
           </h3>
-          <div className="bg-white dark:bg-surface-dark rounded-xl border border-slate-200 dark:border-border-dark p-6 space-y-6">
+          <div className="bg-surface dark:bg-surface-dark rounded-xl border border-line dark:border-border-dark p-6 space-y-6">
             <div className="space-y-2">
               <label
-                className="text-xs font-bold uppercase tracking-wider text-slate-500"
+                className="text-xs font-bold uppercase tracking-wider text-fg-subtle"
                 data-service-customization-dropdown-label
               >
                 {section?.dropdownLabel || "Тип подключения"}
               </label>
               <div className="relative" data-dropdown>
                 <button
-                  className="flex items-center justify-between w-full bg-slate-50 dark:bg-background-dark border border-slate-200 dark:border-border-dark px-4 py-3 rounded-lg cursor-pointer hover:border-primary transition-colors"
+                  className="flex items-center justify-between w-full bg-surface-2 dark:bg-background-dark border border-line dark:border-border-dark px-4 py-3 rounded-lg cursor-pointer hover:border-primary transition-colors"
                   type="button"
                   data-dropdown-trigger
                   aria-expanded={open}
@@ -87,19 +87,19 @@ export default function ServiceCustomizationPanel({ section }: ServiceCustomizat
                   <span className="text-sm" data-dropdown-label>
                     {selected?.label || "Выберите опцию"}
                   </span>
-                  <span className="material-symbols-outlined text-slate-400" data-dropdown-icon>
+                  <span className="material-symbols-outlined text-fg-muted" data-dropdown-icon>
                     unfold_more
                   </span>
                 </button>
                 <div
-                  className={`absolute top-full left-0 right-0 mt-2 bg-white dark:bg-surface-dark border border-slate-200 dark:border-border-dark rounded-lg shadow-xl overflow-hidden z-20${
+                  className={`absolute top-full left-0 right-0 mt-2 bg-surface dark:bg-surface-dark border border-line dark:border-border-dark rounded-lg shadow-xl overflow-hidden z-20${
                     open ? "" : " hidden"
                   }`}
                   data-dropdown-menu
                 >
-                  <div className="p-2 border-b border-slate-100 dark:border-border-dark">
-                    <div className="flex items-center px-2 py-1.5 bg-slate-50 dark:bg-background-dark rounded-md">
-                      <span className="material-symbols-outlined text-lg text-slate-400 mr-2">search</span>
+                  <div className="p-2 border-b border-line dark:border-border-dark">
+                    <div className="flex items-center px-2 py-1.5 bg-surface-2 dark:bg-background-dark rounded-md">
+                      <span className="material-symbols-outlined text-lg text-fg-muted mr-2">search</span>
                       <input
                         className="bg-transparent border-none text-xs focus:ring-0 p-0 w-full"
                         placeholder="Поиск..."
@@ -114,7 +114,7 @@ export default function ServiceCustomizationPanel({ section }: ServiceCustomizat
                     {filtered.map((opt) => (
                       <li key={opt.value}>
                         <button
-                          className="w-full text-left px-4 py-2 text-sm hover:bg-primary hover:text-white cursor-pointer transition-colors"
+                          className="w-full text-left px-4 py-2 text-sm hover:bg-primary hover:text-on-primary cursor-pointer transition-colors"
                           type="button"
                           data-dropdown-option
                           data-service-customization-option
@@ -130,7 +130,7 @@ export default function ServiceCustomizationPanel({ section }: ServiceCustomizat
                       </li>
                     ))}
                     {filtered.length === 0 && (
-                      <li className="px-4 py-2 text-xs text-slate-400">Ничего не найдено</li>
+                      <li className="px-4 py-2 text-xs text-fg-muted">Ничего не найдено</li>
                     )}
                   </ul>
                 </div>
@@ -138,7 +138,7 @@ export default function ServiceCustomizationPanel({ section }: ServiceCustomizat
             </div>
 
             <div className="space-y-4" data-service-customization-toggles>
-              <label className="text-xs font-bold uppercase tracking-wider text-slate-500">
+              <label className="text-xs font-bold uppercase tracking-wider text-fg-subtle">
                 {section?.togglesLabel || "Дополнительные опции"}
               </label>
               {toggles.map((toggle: any, idx: number) => {
@@ -150,13 +150,13 @@ export default function ServiceCustomizationPanel({ section }: ServiceCustomizat
                     </span>
                     <button
                       className={`w-10 h-5 rounded-full relative transition-colors ${
-                        enabled ? "bg-primary" : "bg-slate-300 dark:bg-border-dark"
+                        enabled ? "bg-primary" : "bg-fg-subtle dark:bg-border-dark"
                       }`}
                       type="button"
                       data-switch
                       aria-pressed={enabled}
                       data-switch-on-class="bg-primary"
-                      data-switch-off-class="bg-slate-300 dark:bg-border-dark"
+                      data-switch-off-class="bg-fg-subtle dark:bg-border-dark"
                       data-switch-thumb-on-class="right-1"
                       data-switch-thumb-off-class="left-1"
                       onClick={() =>
@@ -164,7 +164,7 @@ export default function ServiceCustomizationPanel({ section }: ServiceCustomizat
                       }
                     >
                       <span
-                        className={`absolute top-1 size-3 bg-white rounded-full ${enabled ? "right-1" : "left-1"}`}
+                        className={`absolute top-1 size-3 bg-surface rounded-full ${enabled ? "right-1" : "left-1"}`}
                         data-switch-thumb
                       />
                     </button>
@@ -174,7 +174,7 @@ export default function ServiceCustomizationPanel({ section }: ServiceCustomizat
             </div>
 
             <button
-              className="w-full py-3 border-2 border-primary text-primary font-bold rounded-lg hover:bg-primary hover:text-white transition-all text-sm"
+              className="w-full py-3 border-2 border-primary text-accent-text font-bold rounded-lg hover:bg-primary hover:text-on-primary transition-all text-sm"
               data-service-customization-apply
             >
               {section?.applyText || "Применить настройки"}

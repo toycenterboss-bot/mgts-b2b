@@ -12,9 +12,9 @@ export default function ServiceFaq({ section }: ServiceFaqProps) {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   return (
-    <section className="service-faq rounded-2xl border border-white/10 bg-white/5 p-6">
+    <section className="service-faq rounded-2xl border border-fg/10 bg-fg/5 p-6">
       {section.title && (
-        <h2 className="service-faq__title text-2xl font-bold flex items-center gap-3 mb-6 text-white">
+        <h2 className="service-faq__title text-2xl font-bold flex items-center gap-3 mb-6 text-fg">
           {section.title}
         </h2>
       )}
@@ -25,7 +25,7 @@ export default function ServiceFaq({ section }: ServiceFaqProps) {
           return (
             <details
               key={`${item.question || "faq"}-${idx}`}
-              className="service-faq__item group rounded-xl border border-white/10 bg-black/20 overflow-hidden"
+              className="service-faq__item group rounded-xl border border-fg/10 bg-bg/20 overflow-hidden"
               open={isOpen}
               onToggle={(event) => {
                 const nextOpen = event.currentTarget.open;
@@ -33,14 +33,14 @@ export default function ServiceFaq({ section }: ServiceFaqProps) {
               }}
             >
               <summary className="flex items-center justify-between gap-4 p-5 cursor-pointer list-none">
-                <span className="service-faq__question font-bold text-white">{item.question}</span>
-                <span className="material-symbols-outlined text-white/60 group-open:rotate-180 transition-transform duration-300">
+                <span className="service-faq__question font-bold text-fg">{item.question}</span>
+                <span className="material-symbols-outlined text-fg-subtle group-open:rotate-180 transition-transform duration-300">
                   expand_more
                 </span>
               </summary>
               {hasAnswer && (
                 <div
-                  className="service-faq__answer px-5 pb-6 text-white/70 text-sm leading-relaxed border-t border-white/10 mt-1 pt-4"
+                  className="service-faq__answer px-5 pb-6 text-fg-muted text-sm leading-relaxed border-t border-fg/10 mt-1 pt-4"
                   dangerouslySetInnerHTML={{ __html: item.answer }}
                 />
               )}

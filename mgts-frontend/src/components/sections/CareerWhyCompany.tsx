@@ -14,7 +14,7 @@ export default function CareerWhyCompany({ section }: CareerWhyCompanyProps) {
     <section className="career-why-company py-20 bg-background-dark" data-career-section="why-company">
       <div className="mx-auto max-w-[1280px] px-6 lg:px-10">
         {section.title && (
-          <h2 className="career-why-company__title text-3xl font-bold text-white mb-12 text-center">
+          <h2 className="career-why-company__title text-3xl font-bold text-fg mb-12 text-center">
             {section.title}
           </h2>
         )}
@@ -25,7 +25,7 @@ export default function CareerWhyCompany({ section }: CareerWhyCompanyProps) {
             const isBrandRed = accentKey === "brand-red";
             const items = Array.isArray(card.items) ? card.items : [];
             const cardIconName = card.icon || (isBrandRed ? "bolt" : "architecture");
-            const listIconClass = isBrandRed ? "text-[#E30611]" : "text-primary";
+            const listIconClass = isBrandRed ? "text-brand-red" : "text-accent-text";
 
             return (
               <div key={`why-card-${idx}`} className={`career-why-card ${accentClass}`}>

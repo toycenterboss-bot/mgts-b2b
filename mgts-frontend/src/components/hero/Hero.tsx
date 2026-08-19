@@ -7,12 +7,12 @@ type HeroProps = {
 const resolveCtaClass = (style?: string) => {
   const normalized = String(style || "").toLowerCase();
   if (normalized === "outline") {
-    return "bg-white/5 hover:bg-white/10 border border-white/10 text-white px-8 py-4 rounded-lg font-bold text-base backdrop-blur-sm transition-all";
+    return "bg-fg/5 hover:bg-fg/10 border border-fg/10 text-fg px-8 py-4 rounded-lg font-bold text-base backdrop-blur-sm transition-all";
   }
   if (normalized === "secondary") {
-    return "bg-white/10 hover:bg-white/20 text-white px-8 py-4 rounded-lg font-bold text-base transition-all";
+    return "bg-fg/10 hover:bg-fg/20 text-fg px-8 py-4 rounded-lg font-bold text-base transition-all";
   }
-  return "bg-primary hover:bg-primary/90 text-white px-8 py-4 rounded-lg font-bold text-base transition-all";
+  return "bg-primary hover:bg-primary/90 text-on-primary px-8 py-4 rounded-lg font-bold text-base transition-all";
 };
 
 export default function Hero({ hero }: HeroProps) {
@@ -43,12 +43,12 @@ export default function Hero({ hero }: HeroProps) {
     >
       <div className="max-w-7xl mx-auto px-6 w-full text-left">
         {hero.title && (
-          <h1 className="text-4xl lg:text-6xl font-black leading-[1.1] tracking-tight text-white mb-6 text-left">
+          <h1 className="text-4xl lg:text-6xl font-black leading-[1.1] tracking-tight text-fg mb-6 text-left">
             {hero.title}
           </h1>
         )}
         {hero.subtitle && (
-          <p className="text-lg text-slate-300 max-w-2xl leading-relaxed mb-8 text-left">
+          <p className="text-lg text-fg-muted max-w-2xl leading-relaxed mb-8 text-left">
             {hero.subtitle}
           </p>
         )}
