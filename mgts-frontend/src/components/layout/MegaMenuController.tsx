@@ -15,12 +15,23 @@ export default function MegaMenuController() {
         .map((item) => item.trim())
         .filter(Boolean);
 
+    /**
+     * Панель большого меню красится ИЗ CSS, а не отсюда.
+     *
+     * Раньше здесь стояли четыре `setProperty(..., "important")` с фоном
+     * в 8 % прозрачности. Инлайновый стиль с !important не побеждается ничем,
+     * поэтому панель всегда брала фон от того, что лежит под ней: над тёмной
+     * фотографией она тёмная, над светлой страницей — мутная. В светлой теме
+     * это и дало нечитаемое меню, которое владелец увидел 19.08.
+     *
+     * Скрипт снимает свои прежние объявления, если они остались на элементе
+     * от предыдущей версии страницы, и больше ничего не назначает.
+     */
     const applyPanelTransparency = (panel: HTMLElement | null) => {
       if (!panel) return;
-      panel.style.setProperty("background", "rgb(var(--c-bg) / 0.08)", "important");
-      panel.style.setProperty("background-color", "rgb(var(--c-bg) / 0.08)", "important");
-      panel.style.setProperty("backdrop-filter", "blur(32px) saturate(220%)", "important");
-      panel.style.setProperty("-webkit-backdrop-filter", "blur(32px) saturate(220%)", "important");
+      for (const prop of ["background", "background-color", "backdrop-filter", "-webkit-backdrop-filter"]) {
+        panel.style.removeProperty(prop);
+      }
     };
 
     const setActiveCategory = (panel: Element, key: string) => {
