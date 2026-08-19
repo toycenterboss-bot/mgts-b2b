@@ -32,6 +32,7 @@ export default function Hero({ hero }: HeroProps) {
 
   return (
     <section
+      data-on-media
       className="relative overflow-hidden min-h-[60vh] flex items-center py-16 lg:py-24 bg-background-dark w-full text-left"
       data-cms-hero
       style={{
