@@ -1,0 +1,606 @@
+{
+  "total": 100,
+  "thinPages": 15,
+  "rows": [
+    {
+      "slug": "affiliated_persons",
+      "chars": 0,
+      "sections": 2,
+      "sample": ""
+    },
+    {
+      "slug": "ai-chat",
+      "chars": 0,
+      "sections": 2,
+      "sample": ""
+    },
+    {
+      "slug": "contact",
+      "chars": 0,
+      "sections": 1,
+      "sample": ""
+    },
+    {
+      "slug": "emission",
+      "chars": 0,
+      "sections": 2,
+      "sample": ""
+    },
+    {
+      "slug": "essential_facts",
+      "chars": 0,
+      "sections": 2,
+      "sample": ""
+    },
+    {
+      "slug": "reports",
+      "chars": 0,
+      "sections": 2,
+      "sample": ""
+    },
+    {
+      "slug": "search",
+      "chars": 0,
+      "sections": 2,
+      "sample": ""
+    },
+    {
+      "slug": "sitemap",
+      "chars": 0,
+      "sections": 2,
+      "sample": ""
+    },
+    {
+      "slug": "stocks_reports",
+      "chars": 0,
+      "sections": 2,
+      "sample": ""
+    },
+    {
+      "slug": "terms",
+      "chars": 0,
+      "sections": 2,
+      "sample": ""
+    },
+    {
+      "slug": "disclosure",
+      "chars": 40,
+      "sections": 3,
+      "sample": "Раскрытие информацииРаскрытие информации"
+    },
+    {
+      "slug": "operators/infrastructure",
+      "chars": 91,
+      "sections": 4,
+      "sample": "ac_unitТехнологическое лидерствоИнфраструктураПодобрать реше"
+    },
+    {
+      "slug": "partners_ramochnie_dogovori",
+      "chars": 213,
+      "sections": 3,
+      "sample": "folder_openДокументыНайдено: 2 файловВсе категорииdescriptio"
+    },
+    {
+      "slug": "contact_for_operators",
+      "chars": 272,
+      "sections": 2,
+      "sample": "Операторам связиКонтактные данные для операторов связиКаналы"
+    },
+    {
+      "slug": "business_all_services",
+      "chars": 284,
+      "sections": 4,
+      "sample": "Все услугиsearchhubДопуск для проведения работ на линиях и с"
+    },
+    {
+      "slug": "wca",
+      "chars": 502,
+      "sections": 4,
+      "sample": "Специальная оценка условий трудаДокументыВыбор года для прос"
+    },
+    {
+      "slug": "avr_ppr",
+      "chars": 628,
+      "sections": 4,
+      "sample": "Оказание услуг АВР и ППРhubКруглосуточная техническая поддер"
+    },
+    {
+      "slug": "developers_all_services",
+      "chars": 700,
+      "sections": 5,
+      "sample": "Все услугиsearchНавигацияhubОператорам связиПереход к списку"
+    },
+    {
+      "slug": "data_transfer",
+      "chars": 752,
+      "sections": 4,
+      "sample": "Передача данныхПодключение к сети передачи данных – это не т"
+    },
+    {
+      "slug": "licenses",
+      "chars": 759,
+      "sections": 5,
+      "sample": "Лицензии и СРOЛицензии ПАО МГТС на предоставление услуг связ"
+    },
+    {
+      "slug": "partners",
+      "chars": 763,
+      "sections": 6,
+      "sample": "ПартнерамМГТС предлагает комплексные решения для партнеров в"
+    },
+    {
+      "slug": "realization",
+      "chars": 893,
+      "sections": 7,
+      "sample": "Реализация ТМЦМы регулярно организуем мероприятия по реализа"
+    },
+    {
+      "slug": "partners_all_services",
+      "chars": 894,
+      "sections": 7,
+      "sample": "Услуги для партнеровПолучить консультациюПортфель проектов79"
+    },
+    {
+      "slug": "procedure_admission_work",
+      "chars": 903,
+      "sections": 7,
+      "sample": "Допуск для проведения работ на линиях и сооружениях связиВ д"
+    },
+    {
+      "slug": "timing_malfunctions",
+      "chars": 905,
+      "sections": 4,
+      "sample": "Сроки устранения неисправностейСроки устранения неисправност"
+    },
+    {
+      "slug": "scenario_demo",
+      "chars": 906,
+      "sections": 6,
+      "sample": "Гигабитный <span class=\"text-primary italic\">интернет</span>"
+    },
+    {
+      "slug": "government",
+      "chars": 931,
+      "sections": 6,
+      "sample": "ГосзаказчикамРеализация городских инфраструктурных проектов."
+    },
+    {
+      "slug": "pir_smr_mgts",
+      "chars": 953,
+      "sections": 4,
+      "sample": "Проектирование и строительство сетей связиПАО МГТС — основно"
+    },
+    {
+      "slug": "lks_kr",
+      "chars": 978,
+      "sections": 5,
+      "sample": "Предоставление места в кабельной канализацииМГТС предоставля"
+    },
+    {
+      "slug": "operators",
+      "chars": 1000,
+      "sections": 6,
+      "sample": "Операторам связиМГТС предоставляет надёжное подключение, обе"
+    },
+    {
+      "slug": "telephony",
+      "chars": 1005,
+      "sections": 7,
+      "sample": "ac_unitТехнологическое лидерствоТелефонияОбеспечьте надёжную"
+    },
+    {
+      "slug": "operators_all_services",
+      "chars": 1008,
+      "sections": 6,
+      "sample": "Услуги для операторовsearchhubПрисоединение и пропуск трафик"
+    },
+    {
+      "slug": "services",
+      "chars": 1045,
+      "sections": 7,
+      "sample": "Каталог услугСценарии и решения для разных сегментовПодобрат"
+    },
+    {
+      "slug": "partners_creating_work_order",
+      "chars": 1055,
+      "sections": 4,
+      "sample": "Создание наряда на Обследование люкаОсновная форма для созда"
+    },
+    {
+      "slug": "labor_safety",
+      "chars": 1059,
+      "sections": 5,
+      "sample": "Политика в области охраны труда ПАО МГТСДокументыРуководство"
+    },
+    {
+      "slug": "services/scenario-network-ops",
+      "chars": 1094,
+      "sections": 7,
+      "sample": "Эксплуатация сетиrouterМониторингNOC 24/7 и контроль доступн"
+    },
+    {
+      "slug": "decisions_meetings_shareholders",
+      "chars": 1095,
+      "sections": 4,
+      "sample": "Решения общих собраний акционеровО компанииДокументы2025 год"
+    },
+    {
+      "slug": "business_equipment_setup",
+      "chars": 1165,
+      "sections": 6,
+      "sample": "Настройка оборудованияЗаголовок страницы с основной информац"
+    },
+    {
+      "slug": "video_surveillance_maintenance",
+      "chars": 1176,
+      "sections": 5,
+      "sample": "Техническое обслуживание системы видеонаблюденияОбслуживание"
+    },
+    {
+      "slug": "single_hotline",
+      "chars": 1192,
+      "sections": 6,
+      "sample": "Единая горячая линияО компанииДля сообщения о потенциальных "
+    },
+    {
+      "slug": "interaction_with_partners",
+      "chars": 1223,
+      "sections": 6,
+      "sample": "Взаимодействие с партнерамиО компанииДокументОписаниеФайлКод"
+    },
+    {
+      "slug": "mgts_compliance_policies",
+      "chars": 1231,
+      "sections": 5,
+      "sample": "Комплаенс-политики МГТСКомплаенс-политики МГТСО компанииДоку"
+    },
+    {
+      "slug": "connecting_commercial",
+      "chars": 1238,
+      "sections": 7,
+      "sample": "ac_unitТехнологическое лидерствоПодключение объектов коммерч"
+    },
+    {
+      "slug": "joining_and_passing_traffic",
+      "chars": 1269,
+      "sections": 4,
+      "sample": "Присоединение и пропуск трафикаПолный пакет услуг для создан"
+    },
+    {
+      "slug": "partner",
+      "chars": 1281,
+      "sections": 5,
+      "sample": "ПартнерамМГТС – готовое решение для настройки связи и телеко"
+    },
+    {
+      "slug": "developers",
+      "chars": 1283,
+      "sections": 6,
+      "sample": "ЗастройщикамУмные технологичные решения для продуктов и услу"
+    },
+    {
+      "slug": "news",
+      "chars": 1294,
+      "sections": 2,
+      "sample": "Новости иМедиа-ресурсыИнтеллектуальная среда MGTS: последние"
+    },
+    {
+      "slug": "mobile_connection",
+      "chars": 1315,
+      "sections": 8,
+      "sample": "ac_unitТехнологическое лидерствоМобильная связьБыстрая перед"
+    },
+    {
+      "slug": "introduction_security_tv_systems",
+      "chars": 1332,
+      "sections": 6,
+      "sample": "Внедрение систем охранного телевиденияОбеспечьте безопасност"
+    },
+    {
+      "slug": "general_director_message",
+      "chars": 1354,
+      "sections": 3,
+      "sample": "О компанииplay_arrowВидеообращениеСмотреть послание генераль"
+    },
+    {
+      "slug": "developers_digital_solutions",
+      "chars": 1357,
+      "sections": 6,
+      "sample": "Цифровые решенияШирокополосный доступ в ИнтернетЗастройщикам"
+    },
+    {
+      "slug": "developers_connecting_objects",
+      "chars": 1372,
+      "sections": 6,
+      "sample": "Подключение объектов недвижимости к сетям связиГородской инф"
+    },
+    {
+      "slug": "government_customized_solutions",
+      "chars": 1376,
+      "sections": 5,
+      "sample": "Индивидуальные решенияМы предоставляем полный спектр услуг п"
+    },
+    {
+      "slug": "structured_cabling_networks",
+      "chars": 1378,
+      "sections": 6,
+      "sample": "Структурированные кабельные сетиСистема кабелей и оборудован"
+    },
+    {
+      "slug": "automated_system_monitoring_accounting",
+      "chars": 1386,
+      "sections": 6,
+      "sample": "Автоматизированная система контроля и учёта энергоресурсовСо"
+    },
+    {
+      "slug": "mgts_values",
+      "chars": 1402,
+      "sections": 3,
+      "sample": "Ценности МГТСО компанииhubБольшеЧемРаботаС любовью вкладываю"
+    },
+    {
+      "slug": "services/scenario-connectivity-data",
+      "chars": 1404,
+      "sections": 8,
+      "sample": "Связь/данныеrouterВыделенный каналВысокая скорость и стабиль"
+    },
+    {
+      "slug": "access_control_systems",
+      "chars": 1406,
+      "sections": 5,
+      "sample": "Системы контроля доступаПодбор технологических решений для о"
+    },
+    {
+      "slug": "services/scenario-video-access",
+      "chars": 1421,
+      "sections": 8,
+      "sample": "Видео‑наблюдение и доступrouterIP‑камерыОт офисов до перимет"
+    },
+    {
+      "slug": "network_operation",
+      "chars": 1460,
+      "sections": 6,
+      "sample": "Эксплуатация сетиПоддержание стабильной и бесперебойной рабо"
+    },
+    {
+      "slug": "offers",
+      "chars": 1491,
+      "sections": 4,
+      "sample": "ОфертыДокументыДля физических лицДля юридических лицАрхив ПА"
+    },
+    {
+      "slug": "services/scenario-infrastructure-360",
+      "chars": 1538,
+      "sections": 8,
+      "sample": "Инфраструктура 360routerСвязь и интернетВыделенные каналы, V"
+    },
+    {
+      "slug": "business",
+      "chars": 1544,
+      "sections": 7,
+      "sample": "БизнесуМГТС – готовые решения по организации связи для вашег"
+    },
+    {
+      "slug": "services/scenario-safe-object",
+      "chars": 1549,
+      "sections": 8,
+      "sample": "Безопасный объектrouterВидеоаналитикаРаспознавание событий и"
+    },
+    {
+      "slug": "external_communication",
+      "chars": 1554,
+      "sections": 6,
+      "sample": "Наружные сети связиКомплексная инфраструктура, объединяющая "
+    },
+    {
+      "slug": "corporate_documents",
+      "chars": 1634,
+      "sections": 4,
+      "sample": "Корпоративные документыО компанииВнутренние документыПоложен"
+    },
+    {
+      "slug": "digital_television",
+      "chars": 1635,
+      "sections": 10,
+      "sample": "ac_unitТехнологическое лидерствоЦифровое телевидение для биз"
+    },
+    {
+      "slug": "forms_doc",
+      "chars": 1667,
+      "sections": 5,
+      "sample": "Формы типовых документовДокументыДокументОписаниеФайлЗаявлен"
+    },
+    {
+      "slug": "services/scenario-connecting-object",
+      "chars": 1670,
+      "sections": 8,
+      "sample": "Подключить объектrouterПредпроектное обследованиеВыезд инжен"
+    },
+    {
+      "slug": "automated_control_systems",
+      "chars": 1690,
+      "sections": 6,
+      "sample": "Автоматизированные системы управленияОптимизируйте работу и "
+    },
+    {
+      "slug": "access_internet",
+      "chars": 1700,
+      "sections": 8,
+      "sample": "ac_unitТехнологическое лидерствоДоступ в интернетОбеспечение"
+    },
+    {
+      "slug": "documents",
+      "chars": 1718,
+      "sections": 7,
+      "sample": "ДокументацияДокументыКатегории документовОформление договора"
+    },
+    {
+      "slug": "government_communications_infrastructure",
+      "chars": 1733,
+      "sections": 5,
+      "sample": "Инфраструктура связиОптимальное и эффективное решение от МГТ"
+    },
+    {
+      "slug": "video_surveillance_building",
+      "chars": 1749,
+      "sections": 7,
+      "sample": "Видеонаблюдение на объектах строительстваВозможности использ"
+    },
+    {
+      "slug": "tariffs",
+      "chars": 1760,
+      "sections": 3,
+      "sample": "folder_openДокументыНайдено: 11 файловВсе категорииpicture_a"
+    },
+    {
+      "slug": "computer_help",
+      "chars": 1761,
+      "sections": 7,
+      "sample": "ac_unitТехнологическое лидерствоКомпьютерная помощь с выездо"
+    },
+    {
+      "slug": "equipment",
+      "chars": 1780,
+      "sections": 6,
+      "sample": "ОборудованиеТехнологичное оборудование для эффективного и ср"
+    },
+    {
+      "slug": "stockholder_copies_document",
+      "chars": 1819,
+      "sections": 5,
+      "sample": "Предоставление копий документовДокументыКопии документов ПАО"
+    },
+    {
+      "slug": "connecting_residential",
+      "chars": 1867,
+      "sections": 8,
+      "sample": "ac_unitТехнологическое лидерствоПодключение объектов жилой н"
+    },
+    {
+      "slug": "entrance_video_surveillance",
+      "chars": 1915,
+      "sections": 7,
+      "sample": "Подъездное видеонаблюдениеМы специализируемся на настройке и"
+    },
+    {
+      "slug": "career",
+      "chars": 1926,
+      "sections": 6,
+      "sample": "Карьера в МГТССтроим будущее вместе:инженеры и IT-лидерыПрис"
+    },
+    {
+      "slug": "index",
+      "chars": 2001,
+      "sections": 5,
+      "sample": "О МГТСПАО МГТС (Публичное акционерное общество «Московская г"
+    },
+    {
+      "slug": "accommodation_at_sites",
+      "chars": 2005,
+      "sections": 5,
+      "sample": "Размещение на объектахМы предоставляем доступ к охраняемым т"
+    },
+    {
+      "slug": "main_and_backup_data_transmission",
+      "chars": 2012,
+      "sections": 6,
+      "sample": "Сопряжение с Региональной системой оповещения г. МосквыУслуг"
+    },
+    {
+      "slug": "operinfo",
+      "chars": 2129,
+      "sections": 4,
+      "sample": "Стандарты раскрытия информацииДокументыПостановления Правите"
+    },
+    {
+      "slug": "government_all_services",
+      "chars": 2164,
+      "sections": 9,
+      "sample": "Все услугиsearchНавигацияhubОператорам связиПереход к услуга"
+    },
+    {
+      "slug": "principles_corporate_manage",
+      "chars": 2435,
+      "sections": 6,
+      "sample": "Принципы корпоративного управленияОсновные принципы корпорат"
+    },
+    {
+      "slug": "security_alarm",
+      "chars": 2508,
+      "sections": 8,
+      "sample": "ac_unitТехнологическое лидерствоОхранная сигнализация для оф"
+    },
+    {
+      "slug": "government_digital_services",
+      "chars": 2520,
+      "sections": 9,
+      "sample": "Цифровые сервисыПолный пакет услуг по созданию сетей связи б"
+    },
+    {
+      "slug": "business_payment_methods",
+      "chars": 2607,
+      "sections": 11,
+      "sample": "ac_unitТехнологическое лидерствоСпособы оплаты услуг для ИП "
+    },
+    {
+      "slug": "about_registrar",
+      "chars": 2773,
+      "sections": 8,
+      "sample": "О регистраторе ПАО МГТСО компанииРегистратором владельцев це"
+    },
+    {
+      "slug": "about_mgts",
+      "chars": 2862,
+      "sections": 5,
+      "sample": "О МГТСО компанииПАО МГТС (Публичное акционерное общество «Мо"
+    },
+    {
+      "slug": "purchas",
+      "chars": 3383,
+      "sections": 7,
+      "sample": "Уважаемые Поставщики товаров, работ и услуг!Информацию о зак"
+    },
+    {
+      "slug": "connecting_construction",
+      "chars": 3406,
+      "sections": 8,
+      "sample": "ac_unitТехнологическое лидерствоПодключение объектов строите"
+    },
+    {
+      "slug": "virtual_ate",
+      "chars": 3583,
+      "sections": 13,
+      "sample": "ac_unitТехнологическое лидерствоВиртуальная АТСПодобрать реш"
+    },
+    {
+      "slug": "developers_compensation_for_losses",
+      "chars": 4042,
+      "sections": 7,
+      "sample": "Компенсация убытков при выносе и/или ликвидации сооружений с"
+    },
+    {
+      "slug": "video_surveillance_office",
+      "chars": 6666,
+      "sections": 10,
+      "sample": "ac_unitТехнологическое лидерствоВидеонаблюдение для офисаНад"
+    },
+    {
+      "slug": "cookie_processing",
+      "chars": 10331,
+      "sections": 11,
+      "sample": "Политика обработки файлов cookie в ПАО МГТСДокументыНастояща"
+    },
+    {
+      "slug": "infoformen",
+      "chars": 41680,
+      "sections": 4,
+      "sample": "Информация для акционеровИнформация для лиц, имеющих право н"
+    },
+    {
+      "slug": "data_processing",
+      "chars": 57088,
+      "sections": 22,
+      "sample": "Политика «Обработка персональных данных в ПАО МГТС»Документы"
+    }
+  ]
+}
